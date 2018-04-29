@@ -15,6 +15,8 @@ fi
 
 mkdir ${pathToSaveImages}
 cd ${pathToSaveImages}
-ffmpeg -i ${mpegVideoPath} -r ${picturesPerSecond} image-%04d.jpeg
+ffmpeg -i ${mpegVideoPath} -r ${picturesPerSecond} image-%05d.jpeg
 cd ${currentPath}
+
+
 
