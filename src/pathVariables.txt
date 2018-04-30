@@ -1,0 +1,2 @@
+/Users/patrickvonplaten/AdvertisementDetection/images
+/Users/patrickvonplaten/AdvertisementDetection/labels.txt
