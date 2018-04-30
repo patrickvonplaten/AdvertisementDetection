@@ -7,5 +7,6 @@ contains advertisment or not.
 Here we should write down 
 the todo list
 
-- [ ] label time frames of videos 
+- [x] add preprocessor to convert video to numpy matrix  
 - [ ] find good tensorflow model similar to Inception-v3
+- [ ] build structure of model
