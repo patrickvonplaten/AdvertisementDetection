@@ -15,8 +15,6 @@ pathToSaveImages="${advertisementDetectionPath}/images"
 pathToSaveLabels="${advertisementDetectionPath}/labels.txt"
 pathToSavePathVariables="${advertisementDetectionPath}/src/pathVariables.txt"
 
-echo ${pathToSaveImages}
-
 picturesPerSecond=${1} #0.005 for example will result in 3 frames for videofile
 currentPath=$(pwd)
 
@@ -39,10 +37,16 @@ if [ -f ${pathToSavePathVariables} ];then
 fi
 touch ${pathToSavePathVariables}
 
+savedImagesNum=$(ls ${pathToSaveImages} | wc -l) 
+
+for i in `seq 1 ${savedImagesNum}`;
+do
+	echo "0" >> ${pathToSaveLabels}	
+done  
 
 echo "${pathToSaveImages}" >> ${pathToSavePathVariables}
 echo "${pathToSaveLabels}" >> ${pathToSavePathVariables}
 echo "--------------------------------------------------"
-echo "Don't forget to label the frames saved in ${pathToSaveImages}"
+echo "Don't forget to correctly label the frames saved in ${pathToSaveImages}"
 echo "--------------------------------------------------"
 
