@@ -1,2 +1,0 @@
-/home/esra/AdvertisementDetection/images
-/home/esra/AdvertisementDetection/labels.txt
