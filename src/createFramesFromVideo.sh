@@ -9,7 +9,7 @@ if [ $# -eq 0 ]; then
 	exit
 fi
 
-advertisementDetectionPath=$(grealpath ../)
+advertisementDetectionPath=$(realpath ../)
 mpegVideoPath="${advertisementDetectionPath}/ARD_13-03-16_18-36_Sportschau_TSV_MÃ¼nchen.mpg"
 pathToSaveImages="${advertisementDetectionPath}/images"
 pathToSaveLabels="${advertisementDetectionPath}/labels.txt"

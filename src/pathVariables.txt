@@ -1,2 +1,2 @@
-/Users/patrickvonplaten/AdvertisementDetection/images
-/Users/patrickvonplaten/AdvertisementDetection/labels.txt
+/home/esra/AdvertisementDetection/images
+/home/esra/AdvertisementDetection/labels.txt
