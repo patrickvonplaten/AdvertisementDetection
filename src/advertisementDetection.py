@@ -1,5 +1,6 @@
 #import tensorflow as tf 
 import numpy as np
+import tensorflow as tf
 from preprocessor import Preprocessor
 
 class RecognitionSystem(object): 
@@ -12,7 +13,6 @@ class RecognitionSystem(object):
         self.data = self.readInData()
         self.testData = self.data.testData
         self.trainData = self.data.trainData
-        self.data.printInformationAboutData()
 
     def readInData(self):
         with open('pathVariables.txt') as pathVariables:
@@ -23,3 +23,4 @@ class RecognitionSystem(object):
         return preprocessedData 
 
 check = RecognitionSystem()
+check.data.printInformationAboutData()
