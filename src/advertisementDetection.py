@@ -25,7 +25,6 @@ class RecognitionSystem(object):
 check = RecognitionSystem()
 check.data.printInformationAboutData()
 
-print(check.testData.shape)
 
 
 
