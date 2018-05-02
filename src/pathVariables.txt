@@ -1,2 +1,2 @@
-/home/esra/AdvertisementDetection/images
-/home/esra/AdvertisementDetection/labels.txt
+/home/user/AdvertisementDetection/images
+/home/user/AdvertisementDetection/labels.txt
