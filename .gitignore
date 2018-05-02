@@ -1,4 +1,4 @@
 *.mpg
 *.jpeg
-*.sh 
 src/pathVariables.txt
+src/createFramesFromVideo.sh
