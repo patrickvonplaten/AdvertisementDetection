@@ -1,2 +1,11 @@
 - www.google.com
 - https://github.com/machrisaa/tensorflow-vgg
+
+
+https://hackernoon.com/creating-insanely-fast-image-classifiers-with-mobilenet-in-tensorflow-f030ce0a2991
+
+https://ai.googleblog.com/2017/06/mobilenets-open-source-models-for.html
+
+http://ataspinar.com/2017/08/15/building-convolutional-neural-networks-with-tensorflow/
+
+https://github.com/dreamgonfly/cnn-from-scratch/blob/master/cnn_from_scratch.ipynb
