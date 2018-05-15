@@ -2,6 +2,7 @@
 import numpy as np
 import tensorflow as tf
 from preprocessor import Preprocessor
+from vgg16 import VGG16
 
 class RecognitionSystem(object): 
     
@@ -27,5 +28,3 @@ check.data.printInformationAboutData()
 
 
 
-
-print('Hello!')
