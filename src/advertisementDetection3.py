@@ -1,4 +1,3 @@
-#import tensorflow as tf
 import numpy as np
 import tensorflow as tf
 from preprocessor3 import Preprocessor
@@ -61,7 +60,7 @@ for idx, entry in enumerate(check.testData):
 
 classes = 1
 
-vgg_model = applications.VGG16(include_top=False, input_shape = (row,col,chan), weights='imagenet')
+vgg_model = applications.VGG16(include_top=False, input_shape = (row,col,chan),weights='imagenet',pooling = 'avg')
 
 #Create your own input format (here 3x200x200)
 input = Input(shape=(row,col,3),name = 'image_input')
@@ -70,31 +69,34 @@ output_vgg16_conv = vgg_model(input)
 #vgg_model.summary()
 
 my_model = Sequential()
-for lay in vgg_model.layers[0:len(vgg_model.layers)-1]:
+for lay in vgg_model.layers[0:len(vgg_model.layers)-2]:
     my_model.add(lay)
 
 #Add a layer where input is the output of the  second last layer
 #x = Dense(8, activation='softmax', name='predictions')
 my_model.add(Flatten())
-my_model.add(Dense(4096, activation='relu'))
-my_model.add(Dropout(0.5))
-my_model.add(Dense(1000, activation='relu'))
-my_model.add(Dropout(0.5))
+#my_model.add(Dense(4096, activation='relu'))
+#my_model.add(Dropout(0.5))
+#my_model.add(Dense(1000, activation='relu'))
+#my_model.add(Dropout(0.5))
 
 
 # Truncate and replace softmax layer for transfer learning
-my_model.layers.pop()
+# my_model.layers.pop()
 my_model.outputs = [my_model.layers[-1].output]
 my_model.layers[-1].outbound_nodes = []
 x = Dense(1, activation='softmax')
 my_model.add(x)
 my_model.summary()
+
 sgd = SGD(lr=1e-3, decay=1e-6, momentum=0.9, nesterov=True)
-my_model.compile(optimizer=sgd, loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+#my_model.compile(optimizer=sgd, loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+my_model.compile(optimizer=sgd, loss='binary_crossentropy', metrics=['accuracy'])
+
 batch_size = 16
-nb_epoch = 10
-bin_y =  to_categorical(train_y)
-my_model.fit(train_x, bin_y,
+nb_epoch = 1
+#bin_y =  to_categorical(train_y)
+my_model.fit(train_x, train_y,
           batch_size=batch_size,
           epochs=nb_epoch,
           shuffle=True,
