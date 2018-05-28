@@ -23,29 +23,34 @@ class Preprocessor(object):
         self.imagesFolderName = imagesFolderName
         self.imagesLen = len([name for name in os.listdir(imagesFolderName)]) # images start at idx = 1 
         self.splitTrainingTestData = int(0.7 * self.imagesLen)
-        self.data = self.convertJPEGImageToMatrix()
-        shuffle(self.data) #shuffle data set for training
-        self.trainData = self.data[:self.splitTrainingTestData]
-        self.testData = self.data[self.splitTrainingTestData:]
+        self.data, self.labels  = self.convertJPEGImageToMatrix()
+        self.imageShape = self.data[0].shape
+        self.trainData = self.reshapeListToArray(self.data[:self.splitTrainingTestData])
+        self.trainLabels = np.asarray(self.labels[:self.splitTrainingTestData])
+        self.testData = self.reshapeListToArray(self.data[self.splitTrainingTestData:])
+        self.testLabels = np.asarray(self.labels[self.splitTrainingTestData:])
+
+    def reshapeListToArray(self, data):
+        return np.concatenate(data).reshape((len(data),) + self.imageShape)
 
     def convertJPEGImageToMatrix(self):
-        imagePath = os.path.join(self.imagesFolderName, 'image-0001.jpeg')
-        image = cv2.imread(imagePath,0) 
-        l = []
-        labels = self.labelsFileName
-        idx = 1
+        data = []
+        labels = []
         with open(self.labelsFileName) as labelFile:
             for lineNum, label in enumerate(labelFile):
                 imagePath = os.path.join(self.imagesFolderName, 'image-' + str(lineNum+1).zfill(5) + '.jpeg')
-                image = cv2.imread(os.path.join(self.imagesFolderName, imagePath),0) #0 makes the picture black/white - for color leave out 0
-                l.append((image,int(label)))
+                image = cv2.imread(os.path.join(self.imagesFolderName, imagePath)) #0 makes the picture black/white - for color leave out 0
+                data.append(image)
+                labels.append(int(label))
         assert(self.imagesLen == lineNum + 1), 'Make sure that the file ' + self.labelsFileName + ' has as many lines filled with labels as there are frames in the folder ' + self.imagesFolderName
-        return l
+        return data, labels
 
     def printInformationAboutData(self): 
         labels = ['idx', 'label', 'mean', 'var', 'maxVal', 'minVal']
         table = np.zeros((self.imagesLen, len(labels)))
-        for idx, entry in enumerate(self.convertJPEGImageToMatrix()): #need unshuffled images
+
+
+        for idx, entry in enumerate(zip(self.data, self.labels)): #need unshuffled images
            table[idx][0] = idx + 1
            table[idx][1] = entry[1] #label 
            table[idx][2] = np.mean(entry[0])
@@ -54,7 +59,7 @@ class Preprocessor(object):
            table[idx][5] = np.min(entry[0])
         
         print('------------------------------------')
-        print('Dimension of images ',self.data[0][0].shape)
+        print('Dimension of images ',self.imageShape)
         print('------------------------------------')
         print(tabulate(table, headers=labels))
         print('------------------------------------')
