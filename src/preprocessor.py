@@ -33,6 +33,11 @@ class Preprocessor(object):
     def reshapeListToArray(self, data):
         return np.concatenate(data).reshape((len(data),) + self.imageShape)
 
+    def substractMeanFromImages(self):
+        #TODO:
+        #As it is done in advertisementDetection3.py substract the mean of the self.data
+        pass
+
     def convertJPEGImageToMatrix(self):
         data = []
         labels = []

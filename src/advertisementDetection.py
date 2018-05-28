@@ -31,7 +31,6 @@ class RecognitionSystem(object):
 
     def printModelSummary(self):
         print('Model Summary')
-        print('-----------------------')
         self.model.summary()
 
     def trainModel(self):
@@ -47,4 +46,7 @@ class RecognitionSystem(object):
 
 advertisementDetection = RecognitionSystem(16, 1)
 advertisementDetection.data.printInformationAboutData()
-advertisementDetection.trainModel()
+advertisementDetection.printModelSummary()
+
+# Trying to train the model will take forever
+# advertisementDetection.trainModel()
