@@ -2,3 +2,4 @@
 *.jpeg
 src/pathVariables.txt
 tags
+outputs/model/vgg16_weights.h5
