@@ -33,20 +33,65 @@ class RecognitionSystem(object):
         print('Model Summary')
         self.model.summary()
 
-    def trainModel(self):
+    def compileModel(self):
         optimizer = SGD(lr=1e-3, decay=1e-6, momentum=0.9, nesterov=True)
         loss = 'binary_crossentropy'
         metrics= ['accuracy']
+        self.model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
+
+    def trainModel(self):
         x = self.trainData
         y = self.trainLabels
-        print(x.shape)
+        self.compileModel()
+        
+        print("Train model")
+        print("-----------------------------------------------------------------")
+        print("Train Data: " + str(x.shape))
+        print("-----------------------------------------------------------------")
 
-        self.model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
-        self.model.fit(x, y, batch_size=self.batchSize, epochs=self.numberEpoch)
+        history = self.model.fit(x, y, batch_size=self.batchSize, epochs=self.numberEpoch, verbose=2)
+        self.model.save_weights('../outputs/model/vgg16_weights.h5')
 
-advertisementDetection = RecognitionSystem(16, 1)
+        print("History")
+        print(history)
+        """ 
+        TODO: the history object should be saved in ../outputs/log/vgg16_log or 
+        something like that. All data about the training process should be easily 
+        be seen there 
+        """
+
+    def evaluateModel(self):
+        x = self.testData
+        y = self.testLabels 
+        self.compileModel()
+
+        self.model.load_weights('../outputs/model/vgg16_weights.h5')
+        
+        print("Decode model")
+        print("-----------------------------------------------------------------")
+
+        scalarLoss = self.model.evaluate(x, y, verbose=2)
+
+        print("scalarLoss")
+        print(scalarLoss)
+        """ 
+        TODO: the scalarLoss should be saved as well somewhere like  ../outputs/result/vgg16_result or 
+        something like that. It should show the percentage of correctly labeled data and for each frame it should show correct label vs. predicted label. 
+        """
+
+    def predictData(self, data):
+        """
+            Here we should create a function to predict the values of unseen data.
+            There is no evaluation here, since there are no labels 
+            TODO: implement function using predict function from Keras:
+            https://keras.io/models/model/
+        """
+        pass
+
+
+advertisementDetection = RecognitionSystem(batchSize = 3, numberEpoch = 2)
 advertisementDetection.data.printInformationAboutData()
 advertisementDetection.printModelSummary()
 
-# Trying to train the model will take forever
-# advertisementDetection.trainModel()
+advertisementDetection.trainModel()
+advertisementDetection.evaluateModel()

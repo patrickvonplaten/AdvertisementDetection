@@ -36,6 +36,7 @@ class Preprocessor(object):
     def substractMeanFromImages(self):
         #TODO:
         #As it is done in advertisementDetection3.py substract the mean of the self.data
+        #if it is helpful
         pass
 
     def convertJPEGImageToMatrix(self):

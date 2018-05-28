@@ -2,7 +2,6 @@
 
 # example command
 # install ffmpeg
-# ./convertImages.sh $(grealpath ../ARD_13-03-16_18-36_Sportschau_TSV_MÃ¼nchen.mpg) images 0.005
 
 if [ $# -eq 0 ]; then
 	echo "Please state how many frames per second are to be saved as 1st argument!"
