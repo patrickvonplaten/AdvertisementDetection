@@ -29,7 +29,7 @@ from keras.applications.imagenet_utils import decode_predictions
 from keras.applications.imagenet_utils import preprocess_input
 from keras.applications.imagenet_utils import _obtain_input_shape
 
-def VGG16(input_shape, weights=None, classes=1):
+def VGG16(input_shape, classes=1):
     
     img_input = Input(shape=input_shape)
 
@@ -74,7 +74,5 @@ def VGG16(input_shape, weights=None, classes=1):
     model = Model(inputs, x, name='vgg16')
 
     # load weights
-    if weights is not None:
-        model.load_weights(weights)
 
     return model
