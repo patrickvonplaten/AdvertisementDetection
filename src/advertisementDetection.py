@@ -2,8 +2,9 @@
 import numpy as np
 import tensorflow as tf
 from preprocessor import Preprocessor
-from vgg16 import VGG16
+from vgg16 import VGG16Custom
 from keras.optimizers import SGD
+from keras.applications import VGG16
 
 class RecognitionSystem(object): 
     
@@ -11,7 +12,7 @@ class RecognitionSystem(object):
     This class should use the preproccessed data
     to train a system to recognise detection
     """
-    def __init__(self, batchSize, numberEpoch): 
+    def __init__(self, flag=0, batchSize, numberEpoch): 
         self.data = self.readInData()
         self.testData = self.data.testData
         self.testLabels = self.data.testLabels
@@ -19,8 +20,17 @@ class RecognitionSystem(object):
         self.trainLabels = self.data.trainLabels
         self.batchSize = batchSize
         self.numberEpoch = numberEpoch
-        self.model = VGG16(input_shape = self.data.imageShape)
+        self.model = self.getModel(flag) 
 
+    def getModel(self, flag):
+        if(flag == 0):
+            return VGG16Custom(input_shape = self.data.imageShape)
+        else: 
+            pass
+            #TODO: add the network using 'imageNet' 
+            #model = VGG
+            #model.add(Flatten())
+        
     def readInData(self):
         with open('pathVariables.txt') as pathVariables:
             pathes = pathVariables.read().splitlines()
