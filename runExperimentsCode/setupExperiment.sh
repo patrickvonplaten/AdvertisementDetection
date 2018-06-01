@@ -3,13 +3,15 @@
 #This file is there to set up an experiment
 
 pathToVideo="/Users/patrickvonplaten/AdvertisementDetection/ARD_13-03-16_18-36_Sportschau_TSV_MÃ¼nchen.mpg"
-rateToConvertVideosToFrames=0.8
+rateToConvertVideosToFrames=0.05
 # labels must correspond to both video and the rate so that they match
 labels="/Users/patrickvonplaten/AdvertisementDetection/correctLabels/correctlabels08.txt"
-configFile="/Users/patrickvonplaten/AdvertisementDetection/configFile.py"
+labels="/Users/patrickvonplaten/AdvertisementDetection/labels.txt"
+configFile="/Users/patrickvonplaten/AdvertisementDetection/runExperimentsCode/configFile.py"
 advertisementDetectionPath="/Users/patrickvonplaten/AdvertisementDetection/src/advertisementDetection.py"
 
 nameOfExperiment=experiment
+runExperiment=0
 
 function createStepDir {
 	stepPath=${1}
@@ -83,7 +85,7 @@ step001Path=${setupPath}/step001_extractFramesForVideos
 createStepDir ${step001Path} "None" step001
 step001RunFile=${step001Path}/run.sh
 
-echo 'echo ...start ${step001Path}' 
+echo 'echo ...start ${step001Path}' >> ${step001RunFile} 
 echo "cd outputs" >> ${step001RunFile}
 echo "mkdir images " >> ${step001RunFile}
 echo "cd images " >> ${step001RunFile}
@@ -103,7 +105,7 @@ echo "$(realpath ${step002Path}/dependencies/outputsPreviousStep/images)" >> ${s
 echo "$(realpath ${step002Path}/dependencies/outputsPreviousStep/labels.txt)" >> ${step002Path}/dependencies/pathToDataPathesFile.txt
 cp ${configFile} ${step002Path}/dependencies/configFile.py
 
-echo 'echo ...start ${step002Path}' 
+echo 'echo ...start ${step002Path}' >> ${step002RunFile} 
 echo 'python ${step002Path}/dependencies/trainModel.py ${step002Path}/dependencies ${step002Path}/dependencies/pathToDataPathesFile.txt ${step002Path}/outputs/model.h5' "train" >> ${step002RunFile}
 
 
@@ -118,11 +120,14 @@ echo "$(realpath ${step002Path}/dependencies/outputsPreviousStep/images)" >> ${s
 echo "$(realpath ${step002Path}/dependencies/outputsPreviousStep/labels.txt)" >> ${step003Path}/dependencies/pathToDataPathesFile.txt
 cp ${configFile} ${step003Path}/dependencies/configFile.py
 
-echo 'echo ...start ${step003Path}' 
-echo 'python ${step003Path}/dependencies/evaluateModel.py ${step003Path}/dependencies ${step003Path}/dependencies/pathToDataPathesFile.txt ${step003Path}/dependencies/outputsPreviousStep/model.h5' "train" >> ${step003RunFile}
+echo 'echo ...start ${step003Path}' >> ${step003RunFile}
+echo 'python ${step003Path}/dependencies/evaluateModel.py ${step003Path}/dependencies ${step003Path}/dependencies/pathToDataPathesFile.txt ${step003Path}/dependencies/outputsPreviousStep/model.h5' "evaluate" >> ${step003RunFile}
 
 
-
+if [ ${runExperiment} == 1 ];then
+	cd ${setupPath}
+	./runMain.sh
+fi
 
 
 

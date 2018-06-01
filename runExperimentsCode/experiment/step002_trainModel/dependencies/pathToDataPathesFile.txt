@@ -1,0 +1,2 @@
+/Users/patrickvonplaten/AdvertisementDetection/runExperimentsCode/experiment/step001_extractFramesForVideos/outputs/images
+/Users/patrickvonplaten/AdvertisementDetection/runExperimentsCode/experiment/step001_extractFramesForVideos/outputs/labels.txt
