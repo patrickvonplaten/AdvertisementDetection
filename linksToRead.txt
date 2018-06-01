@@ -1,3 +1,8 @@
+https://keras.io/applications/#usage-examples-for-image-classification-models
+Fine-tune InceptionV3 on a new set of classes
+https://www.youtube.com/watch?v=INaX55V1zpY
+
+
 - www.google.com
 - https://github.com/machrisaa/tensorflow-vgg
 
