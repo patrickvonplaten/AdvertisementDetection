@@ -2,14 +2,12 @@
 
 #This file is there to set up an experiment
 
-#sys.path.insert(0, '/path/to/application/app/folder')
-#sys.path.remove('/path/to/application/app/folder')
-
-
 pathToVideo="/Users/patrickvonplaten/AdvertisementDetection/ARD_13-03-16_18-36_Sportschau_TSV_MÃ¼nchen.mpg"
 rateToConvertVideosToFrames=0.8
 # labels must correspond to both video and the rate so that they match
-labels=/Users/patrickvonplaten/AdvertisementDetection/correctLabels/correctlabels08.txt
+labels="/Users/patrickvonplaten/AdvertisementDetection/correctLabels/correctlabels08.txt"
+configFile="/Users/patrickvonplaten/AdvertisementDetection/configFile.py"
+advertisementDetectionPath="/Users/patrickvonplaten/AdvertisementDetection/src/advertisementDetection.py"
 
 nameOfExperiment=experiment
 
@@ -85,6 +83,7 @@ step001Path=${setupPath}/step001_extractFramesForVideos
 createStepDir ${step001Path} "None" step001
 step001RunFile=${step001Path}/run.sh
 
+echo 'echo ...start ${step001Path}' 
 echo "cd outputs" >> ${step001RunFile}
 echo "mkdir images " >> ${step001RunFile}
 echo "cd images " >> ${step001RunFile}
@@ -100,13 +99,27 @@ createStepDir ${step002Path} "${step001Path}" step002
 step002RunFile=${step002Path}/run.sh
 ln -s ${advertisementDetectionPath} ${step002Path}/dependencies/trainModel.py
 touch ${step002Path}/dependencies/pathToDataPathesFile.txt
-echo "$(realpath ${step002Path}/dependencies/outputsPreviousStep/images)" >> pathToDataPathesFile.txt
-echo "$(realpath ${step002Path}/dependencies/outputsPreviousStep/labels.txt)" >> pathToDataPathesFile.txt
+echo "$(realpath ${step002Path}/dependencies/outputsPreviousStep/images)" >> ${step002Path}/dependencies/pathToDataPathesFile.txt
+echo "$(realpath ${step002Path}/dependencies/outputsPreviousStep/labels.txt)" >> ${step002Path}/dependencies/pathToDataPathesFile.txt
 cp ${configFile} ${step002Path}/dependencies/configFile.py
 
-echo 'python ${step002Path}/dependencies/trainModel.py ${step002Path}/dependencies/configFile.py ${step002Path}/dependencies/pathToDataPathesFile.txt ${step002Path}/outputs/model.h5}' >> ${step002RunFile}
+echo 'echo ...start ${step002Path}' 
+echo 'python ${step002Path}/dependencies/trainModel.py ${step002Path}/dependencies ${step002Path}/dependencies/pathToDataPathesFile.txt ${step002Path}/outputs/model.h5' "train" >> ${step002RunFile}
 
 
+#############step003####################
+cd ${setupPath}
+step003Path=${setupPath}/step003_evaluateModel
+createStepDir ${step003Path} "${step002Path}" step003
+step003RunFile=${step003Path}/run.sh
+ln -s ${advertisementDetectionPath} ${step003Path}/dependencies/evaluateModel.py
+touch ${step003Path}/dependencies/pathToDataPathesFile.txt
+echo "$(realpath ${step002Path}/dependencies/outputsPreviousStep/images)" >> ${step003Path}/dependencies/pathToDataPathesFile.txt
+echo "$(realpath ${step002Path}/dependencies/outputsPreviousStep/labels.txt)" >> ${step003Path}/dependencies/pathToDataPathesFile.txt
+cp ${configFile} ${step003Path}/dependencies/configFile.py
+
+echo 'echo ...start ${step003Path}' 
+echo 'python ${step003Path}/dependencies/evaluateModel.py ${step003Path}/dependencies ${step003Path}/dependencies/pathToDataPathesFile.txt ${step003Path}/dependencies/outputsPreviousStep/model.h5' "train" >> ${step003RunFile}
 
 
 

@@ -12,7 +12,7 @@ class RecognitionSystem(object):
     This class should use the preproccessed data
     to train a system to recognise detection
     """
-    def __init__(self, data, pathToDataPathesFile, pathToWeights, configs, model): 
+    def __init__(self, data, pathToWeights, configs, model): 
         self.data = data 
         self.testData = self.data.testData
         self.testLabels = self.data.testLabels
@@ -28,7 +28,7 @@ class RecognitionSystem(object):
             'decay':1e-6,
             'momentum':0.9,
             'nesterov':True,
-            'batch_size':8,
+            'batchSize':8,
             'epochs':3,
             'loss':'binary_crossentropy',
             'metrics':['accuracy']
@@ -57,7 +57,7 @@ class RecognitionSystem(object):
         print("Train Data: " + str(x.shape))
         print("-----------------------------------------------------------------")
 
-        history = self.model.fit(x, y, batch_size=self.configs['batchSize'], epochs=self.configs['numberEpoch'], verbose=2)
+        history = self.model.fit(x, y, batch_size=self.configs['batchSize'], epochs=self.configs['epochs'], verbose=2)
         self.model.save_weights(self.pathToWeights)
 
         print("History")
@@ -96,24 +96,24 @@ class RecognitionSystem(object):
         """
         pass
 
-class Runner(object)
+class Runner(object):
 
-    def __init__(pathToConfigFile, pathToDataPathesFile, pathToWeights):
-        self.pathToConfigFile = pathToConfigFile
-        self.pathToDataPathesFile = pathToDataPathesFile 
-        self.pathToWeights = pathToWeights
-        
-        sys.path.insert(0, pathToConfigFile)
+    def __init__(self, pathToConfigFile, pathToDataPathesFile, pathToWeights, runMode):
+        self.pathToConfigFile = str(pathToConfigFile)
+        self.pathToDataPathesFile = str(pathToDataPathesFile)
+        self.pathToWeights = str(pathToWeights)
+        self.runMode = str(runMode)
+
+        sys.path.insert(0, self.pathToConfigFile)
+        self.data = self.readInData()
+
         from configFile import getConfigs
         self.configs = getConfigs()
-        self.data = self.readInData()
         from configFile import getModel
         self.model = getModel(input_shape = self.data.imageShape)
-        from configFile import getRunMode
-        self.runMode = getRunMode()
 
     def start(self):
-        recogSystem = advertisementDetection(data = self.data, pathToWeights = self.pathToWeights, configs = self.configs, model = self.model)
+        recogSystem = RecognitionSystem(data = self.data, pathToWeights = self.pathToWeights, configs = self.configs, model = self.model)
         if(self.runMode == 'train'):
             recogSystem.printModelSummary()
             recogSystem.trainModel()      
@@ -135,9 +135,10 @@ class Runner(object)
 if __name__ == "__main__":
     pathToConfigFile = sys.argv[1]
     pathToDataPathesFile = sys.argv[2]
-    pathToWeigths = sys.argv[3]
+    pathToWeights = sys.argv[3]
+    runMode = sys.argv[4]
 
-    runner = Runner(runMode, pathToConfigFile, pathToDataPathesFile, pathToWeigths)
+    runner = Runner(pathToConfigFile = pathToConfigFile,  pathToDataPathesFile = pathToDataPathesFile,  pathToWeights = pathToWeights, runMode = runMode)
     runner.start()
     runner.clean()
 

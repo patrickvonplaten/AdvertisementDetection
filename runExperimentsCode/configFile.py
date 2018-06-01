@@ -83,8 +83,8 @@ def getConfigs():
         'decay':1e-6,
         'momentum':0.9,
         'nesterov':True,
-        'batch_size':8,
-        'epochs':3,
+        'batchSize':8,
+        'epochs':1,
         'loss':'binary_crossentropy',
         'metrics':['accuracy']
     }
