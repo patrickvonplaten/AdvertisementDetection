@@ -15,6 +15,7 @@ pathToSaveLabels="${advertisementDetectionPath}/labels.txt"
 pathToSavePathVariables="${advertisementDetectionPath}/src/pathVariables.txt"
 
 picturesPerSecond=${1} #0.005 for example will result in 3 frames for videofile
+
 currentPath=$(pwd)
 
 if [ -d ${pathToSaveImages} ]; then
