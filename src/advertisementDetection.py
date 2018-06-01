@@ -12,15 +12,15 @@ class RecognitionSystem(object):
     This class should use the preproccessed data
     to train a system to recognise detection
     """
-    def __init__(self, flag=0, batchSize, numberEpoch): 
-        self.data = self.readInData()
+    def __init__(self, pathToDataPathesFile, pathToWeights, configs, model): 
+        self.data = self.readInData(pathToDataPathesFile)
         self.testData = self.data.testData
         self.testLabels = self.data.testLabels
         self.trainData = self.data.trainData
         self.trainLabels = self.data.trainLabels
-        self.batchSize = batchSize
-        self.numberEpoch = numberEpoch
-        self.model = self.getModel(flag) 
+        self.configs = self.setConfigs(configs)
+        self.pathToWeights = pathToWeights
+        self.model = model 
 
     def getModel(self, flag):
         if(flag == 0):
@@ -30,9 +30,26 @@ class RecognitionSystem(object):
             #TODO: add the network using 'imageNet' 
             #model = VGG
             #model.add(Flatten())
+
+    def setConfigs(self, configs):
+        defaultConfigs = {
+            'learningRate':1e-3,
+            'decay':1e-6,
+            'momentum':0.9,
+            'nesterov':True,
+            'batch_size':8,
+            'epochs':3,
+            'loss':'binary_crossentropy',
+            'metrics':['accuracy']
+        }
+
+        for config in configs:
+            defaultConfigs[config] = configs[config]
+        
+        return defaultConfigs
         
     def readInData(self):
-        with open('pathVariables.txt') as pathVariables:
+        with open(pathVariablesFile) as pathVariables:
             pathes = pathVariables.read().splitlines()
             imagesPath = pathes[0]
             labelsPath = pathes[1]
@@ -44,10 +61,8 @@ class RecognitionSystem(object):
         self.model.summary()
 
     def compileModel(self):
-        optimizer = SGD(lr=1e-3, decay=1e-6, momentum=0.9, nesterov=True)
-        loss = 'binary_crossentropy'
-        metrics= ['accuracy']
-        self.model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
+        optimizer = SGD(lr=self.configs['learningRate'], decay=self.configs['decay'], momentum=self.configs['momentum'], nesterov=self.configs['nesterov'])
+        self.model.compile(optimizer=optimizer, loss=self.configs['loss'], metrics=self.configs['metrics'])
 
     def trainModel(self):
         x = self.trainData
@@ -59,8 +74,8 @@ class RecognitionSystem(object):
         print("Train Data: " + str(x.shape))
         print("-----------------------------------------------------------------")
 
-        history = self.model.fit(x, y, batch_size=self.batchSize, epochs=self.numberEpoch, verbose=2)
-        self.model.save_weights('../outputs/model/vgg16_weights.h5')
+        history = self.model.fit(x, y, batch_size=self.configs['batchSize'], epochs=self.configs['numberEpoch'], verbose=2)
+        self.model.save_weights(self.pathToWeights)
 
         print("History")
         print(history)
@@ -75,7 +90,7 @@ class RecognitionSystem(object):
         y = self.testLabels 
         self.compileModel()
 
-        self.model.load_weights('../outputs/model/vgg16_weights.h5')
+        self.model.load_weights(self.pathToWeights)
         
         print("Decode model")
         print("-----------------------------------------------------------------")
@@ -98,10 +113,23 @@ class RecognitionSystem(object):
         """
         pass
 
+class Runner(object)
 
-advertisementDetection = RecognitionSystem(batchSize = 3, numberEpoch = 2)
-advertisementDetection.data.printInformationAboutData()
-advertisementDetection.printModelSummary()
+    def __init__(runMode, pathToConfigFile, pathToDataPathesFile, pathToWeights):
+        sys.path.insert(0, pathToConfigFile)
+        from configFile import getModel
+        self.model = getModel()
+        from configFile import getConfigs
+        self.configs = getConfigs()
+        recogSystem = advertisementDetection(pathToDataPathesFile =  pathToDataPathesFile,pathToWeights = pathToWeights, configs = self.configs, model = self.model)
 
-advertisementDetection.trainModel()
-advertisementDetection.evaluateModel()
+        if(runMode == 'train'):
+            recogSystem.printModelSummary()
+            recogSystem.trainModel()      
+       
+        elif(runMode == 'evaluate'):
+            recogSystem.evaluate()
+           
+        sys.path.remove(pathToConfigFile)
+
+  
