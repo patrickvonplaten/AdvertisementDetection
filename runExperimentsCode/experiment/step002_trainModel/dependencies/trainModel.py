@@ -1,1 +1,0 @@
-/Users/patrickvonplaten/AdvertisementDetection/src/advertisementDetection.py

@@ -11,7 +11,7 @@ configFile="/Users/patrickvonplaten/AdvertisementDetection/runExperimentsCode/co
 advertisementDetectionPath="/Users/patrickvonplaten/AdvertisementDetection/src/advertisementDetection.py"
 
 nameOfExperiment=experiment
-runExperiment=0
+runExperiment=1
 
 function createStepDir {
 	stepPath=${1}
