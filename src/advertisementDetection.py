@@ -1,4 +1,4 @@
-#import tensorflow as tf 
+import sys
 import numpy as np
 import tensorflow as tf
 from preprocessor import Preprocessor
@@ -12,24 +12,15 @@ class RecognitionSystem(object):
     This class should use the preproccessed data
     to train a system to recognise detection
     """
-    def __init__(self, pathToDataPathesFile, pathToWeights, configs, model): 
-        self.data = self.readInData(pathToDataPathesFile)
+    def __init__(self, data, pathToDataPathesFile, pathToWeights, configs, model): 
+        self.data = data 
         self.testData = self.data.testData
         self.testLabels = self.data.testLabels
         self.trainData = self.data.trainData
         self.trainLabels = self.data.trainLabels
         self.configs = self.setConfigs(configs)
         self.pathToWeights = pathToWeights
-        self.model = model 
-
-    def getModel(self, flag):
-        if(flag == 0):
-            return VGG16Custom(input_shape = self.data.imageShape)
-        else: 
-            pass
-            #TODO: add the network using 'imageNet' 
-            #model = VGG
-            #model.add(Flatten())
+        self.model = model
 
     def setConfigs(self, configs):
         defaultConfigs = {
@@ -48,14 +39,6 @@ class RecognitionSystem(object):
         
         return defaultConfigs
         
-    def readInData(self):
-        with open(pathVariablesFile) as pathVariables:
-            pathes = pathVariables.read().splitlines()
-            imagesPath = pathes[0]
-            labelsPath = pathes[1]
-        preprocessedData = Preprocessor(imagesPath, labelsPath)
-        return preprocessedData 
-
     def printModelSummary(self):
         print('Model Summary')
         self.model.summary()
@@ -115,21 +98,47 @@ class RecognitionSystem(object):
 
 class Runner(object)
 
-    def __init__(runMode, pathToConfigFile, pathToDataPathesFile, pathToWeights):
+    def __init__(pathToConfigFile, pathToDataPathesFile, pathToWeights):
+        self.pathToConfigFile = pathToConfigFile
+        self.pathToDataPathesFile = pathToDataPathesFile 
+        self.pathToWeights = pathToWeights
+        
         sys.path.insert(0, pathToConfigFile)
-        from configFile import getModel
-        self.model = getModel()
         from configFile import getConfigs
         self.configs = getConfigs()
-        recogSystem = advertisementDetection(pathToDataPathesFile =  pathToDataPathesFile,pathToWeights = pathToWeights, configs = self.configs, model = self.model)
+        self.data = self.readInData()
+        from configFile import getModel
+        self.model = getModel(input_shape = self.data.imageShape)
+        from configFile import getRunMode
+        self.runMode = getRunMode()
 
-        if(runMode == 'train'):
+    def start(self):
+        recogSystem = advertisementDetection(data = self.data, pathToWeights = self.pathToWeights, configs = self.configs, model = self.model)
+        if(self.runMode == 'train'):
             recogSystem.printModelSummary()
             recogSystem.trainModel()      
        
-        elif(runMode == 'evaluate'):
+        elif(self.runMode == 'evaluate'):
             recogSystem.evaluate()
-           
-        sys.path.remove(pathToConfigFile)
+      
+    def clean(self):
+        sys.path.remove(self.pathToConfigFile)
+
+    def readInData(self):
+        with open(self.pathToDataPathesFile) as pathVariables:
+            pathes = pathVariables.read().splitlines()
+            imagesPath = pathes[0]
+            labelsPath = pathes[1]
+        preprocessedData = Preprocessor(imagesPath, labelsPath)
+        return preprocessedData 
+
+if __name__ == "__main__":
+    pathToConfigFile = sys.argv[1]
+    pathToDataPathesFile = sys.argv[2]
+    pathToWeigths = sys.argv[3]
+
+    runner = Runner(runMode, pathToConfigFile, pathToDataPathesFile, pathToWeigths)
+    runner.start()
+    runner.clean()
 
   

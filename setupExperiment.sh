@@ -50,11 +50,16 @@ function createStepDir {
 	echo "source ../VARIABLES.sh" >> run.sh
 
 	if [ ${previousStep} != "None" ]; then 
-		ln -s ${previousStep}/outputs outputsPreviousStep
+		ln -s ${previousStep}/outputs dependencies/outputsPreviousStep
 	fi
 
 	cd ${currentPath}
 }
+
+if [ -d ${nameOfExperiment} ]; then
+	echo "Setup already exists!!!"
+	exit
+fi
 
 currentPath="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 setupPath=${currentPath}/${nameOfExperiment}
@@ -75,6 +80,7 @@ echo "rateToConvertVideosToFrames=${rateToConvertVideosToFrames}" >> VARIABLES.s
 echo "step001Labels=${labels}" >> VARIABLES.sh
 
 ###############step001###################
+cd ${setupPath}
 step001Path=${setupPath}/step001_extractFramesForVideos
 createStepDir ${step001Path} "None" step001
 step001RunFile=${step001Path}/run.sh
@@ -88,11 +94,19 @@ echo 'cp ${step001Labels} labels.txt' >> ${step001RunFile}
 echo "cd ${step001Path}" >> ${step001RunFile}
 
 #############step002####################
+cd ${setupPath}
 step002Path=${setupPath}/step002_trainModel
 createStepDir ${step002Path} "${step001Path}" step002
 step002RunFile=${step002Path}/run.sh
+ln -s ${advertisementDetectionPath} ${step002Path}/dependencies/trainModel.py
+touch ${step002Path}/dependencies/pathToDataPathesFile.txt
+echo "$(realpath ${step002Path}/dependencies/outputsPreviousStep/images)" >> pathToDataPathesFile.txt
+echo "$(realpath ${step002Path}/dependencies/outputsPreviousStep/labels.txt)" >> pathToDataPathesFile.txt
+cp ${configFile} ${step002Path}/dependencies/configFile.py
 
-echo "
+echo 'python ${step002Path}/dependencies/trainModel.py ${step002Path}/dependencies/configFile.py ${step002Path}/dependencies/pathToDataPathesFile.txt ${step002Path}/outputs/model.h5}' >> ${step002RunFile}
+
+
 
 
 
