@@ -2,14 +2,14 @@ import numpy as np
 import os
 import sys
 import cv2 #pip install opencv-python
-from random import shuffle 
+from random import shuffle
 from tabulate import tabulate #pip install tabulate
 
 class Preprocessor(object):
-    
+
     """
     This class the path of a folder with images and a .txt file with labels
-    as input and returns a numpy matrix 
+    as input and returns a numpy matrix
     """
 
     def __init__(self, imagesFolderName, labelsFileName):
@@ -21,7 +21,7 @@ class Preprocessor(object):
             sys.exit()
 
         self.imagesFolderName = imagesFolderName
-        self.imagesLen = len([name for name in os.listdir(imagesFolderName)]) # images start at idx = 1 
+        self.imagesLen = len([name for name in os.listdir(imagesFolderName)]) # images start at idx = 1
         self.splitTrainingTestData = int(0.7 * self.imagesLen)
         self.data, self.labels  = self.convertJPEGImageToMatrix()
         self.imageShape = self.data[0].shape
@@ -33,10 +33,14 @@ class Preprocessor(object):
     def reshapeListToArray(self, data):
         return np.concatenate(data).reshape((len(data),) + self.imageShape)
 
-    def substractMeanFromImages(self):
+    def substractMeanFromImages(self,image):
         #TODO:
         #As it is done in advertisementDetection3.py substract the mean of the self.data
         #if it is helpful
+        # image[:,:,0] -= np.mean(image[:,:, 0],dtype = np.uint8)
+        # image[:,:,1] -= np.mean(image[:,:, 1],dtype = np.uint8)
+        # image[:,:,2] -= np.mean(image[:,:, 2],dtype = np.uint8)
+        # return image
         pass
 
     def convertJPEGImageToMatrix(self):
@@ -46,24 +50,26 @@ class Preprocessor(object):
             for lineNum, label in enumerate(labelFile):
                 imagePath = os.path.join(self.imagesFolderName, 'image-' + str(lineNum+1).zfill(5) + '.jpeg')
                 image = cv2.imread(os.path.join(self.imagesFolderName, imagePath)) #0 makes the picture black/white - for color leave out 0
+                #image = cv2.resize(image, None, fx = 0.5, fy = 0.5, interpolation = cv2.INTER_CUBIC); #downsample images
+                #image = self.substractMeanFromImages(image)
                 data.append(image)
                 labels.append(int(label))
         assert(self.imagesLen == lineNum + 1), 'Make sure that the file ' + self.labelsFileName + ' has as many lines filled with labels as there are frames in the folder ' + self.imagesFolderName
         return data, labels
 
-    def printInformationAboutData(self): 
+    def printInformationAboutData(self):
         labels = ['idx', 'label', 'mean', 'var', 'maxVal', 'minVal']
         table = np.zeros((self.imagesLen, len(labels)))
 
 
         for idx, entry in enumerate(zip(self.data, self.labels)): #need unshuffled images
            table[idx][0] = idx + 1
-           table[idx][1] = entry[1] #label 
+           table[idx][1] = entry[1] #label
            table[idx][2] = np.mean(entry[0])
            table[idx][3] = np.var(entry[0])
            table[idx][4] = np.max(entry[0])
            table[idx][5] = np.min(entry[0])
-        
+
         print('------------------------------------')
         print('Dimension of images ',self.imageShape)
         print('------------------------------------')
