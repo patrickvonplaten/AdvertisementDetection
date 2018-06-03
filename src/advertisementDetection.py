@@ -8,6 +8,7 @@ from keras.applications import VGG16
 from keras import applications
 from keras.layers import Flatten, Dense
 from keras.models import Model, Sequential
+import pickle
 
 
 class RecognitionSystem(object):
@@ -80,7 +81,10 @@ class RecognitionSystem(object):
         TODO: the history object should be saved in ../outputs/log/vgg16_log or
         something like that. All data about the training process should be easily
         be seen there
+	Done: History saved as a dictionary using Pickle
         """
+	with open('../outputs/log/vgg16_log', 'wb') as pickle_file:
+       		pickle.dump(history.history, pickle_file)
 
     def evaluateModel(self):
         x = self.testData
