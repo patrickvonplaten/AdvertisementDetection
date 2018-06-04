@@ -1,0 +1,8 @@
+pathToVideo=/Users/patrickvonplaten/AdvertisementDetection/ARD_13-03-16_18-36_Sportschau_TSV_MÃ¼nchen.mpg
+rateToConvertVideosToFrames=0.05
+step001Labels=/Users/patrickvonplaten/AdvertisementDetection/labels.txt
+step001Path=/Users/patrickvonplaten/AdvertisementDetection/runExperimentsCode/experiment/step001_extractFramesForVideos
+step002Path=/Users/patrickvonplaten/AdvertisementDetection/runExperimentsCode/experiment/step002_trainModel
+saveWeightsPath=${step002Path}/outputs/model/model.h5
+saveTrainHistoryPath=${step002Path}/outputs/log/model_log
+step003Path=/Users/patrickvonplaten/AdvertisementDetection/runExperimentsCode/experiment/step003_evaluateModel
