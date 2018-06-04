@@ -119,7 +119,7 @@ class Runner(object):
             recogSystem.trainModel()      
        
         elif(self.runMode == 'evaluate'):
-            recogSystem.evaluate()
+            recogSystem.evaluateModel()
       
     def clean(self):
         sys.path.remove(self.pathToConfigFile)
