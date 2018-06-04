@@ -37,10 +37,9 @@ class Preprocessor(object):
         return np.concatenate(data).reshape((len(data),) + self.imageShape)
 
     def substractMeanFromImages(self):
-        #TODO:
-        #As it is done in advertisementDetection3.py substract the mean of the self.data
-        #if it is helpful
-        pass
+        self.data[:,:,0] -= np.mean(self.data[:,:, 0],dtype = np.uint8)
+        self.data[:,:,1] -= np.mean(self.data[:,:, 1],dtype = np.uint8)
+        self.data[:,:,2] -= np.mean(self.data[:,:, 2],dtype = np.uint8)
 
     def convertJPEGImageToMatrix(self):
         data = []

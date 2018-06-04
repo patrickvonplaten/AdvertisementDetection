@@ -1,6 +1,7 @@
 import sys
 import numpy as np
 import tensorflow as tf
+import pickle
 from preprocessor import Preprocessor
 from vgg16 import VGG16Custom
 from keras.optimizers import SGD
@@ -12,7 +13,7 @@ class RecognitionSystem(object):
     This class should use the preproccessed data
     to train a system to recognise detection
     """
-    def __init__(self, data, pathToWeights, configs, model): 
+    def __init__(self, data, pathToWeights, pathToSaveHistory, configs, model): 
         self.data = data 
         self.testData = self.data.testData
         self.testLabels = self.data.testLabels
@@ -20,6 +21,7 @@ class RecognitionSystem(object):
         self.trainLabels = self.data.trainLabels
         self.configs = self.setConfigs(configs)
         self.pathToWeights = pathToWeights
+        self.pathToSaveHistory = pathToSaveHistory
         self.model = model
 
     def setConfigs(self, configs):
@@ -60,13 +62,8 @@ class RecognitionSystem(object):
         history = self.model.fit(x, y, batch_size=self.configs['batchSize'], epochs=self.configs['epochs'], verbose=2)
         self.model.save_weights(self.pathToWeights)
 
-        print("History")
-        print(history)
-        """ 
-        TODO: the history object should be saved in ../outputs/log/vgg16_log or 
-        something like that. All data about the training process should be easily 
-        be seen there 
-        """
+        with open(self.pathToSaveHistory, 'wb') as pickleFile:
+            pickle.dump(history.history, pickleFile)
 
     def evaluateModel(self):
         x = self.testData
@@ -98,22 +95,26 @@ class RecognitionSystem(object):
 
 class Runner(object):
 
-    def __init__(self, pathToConfigFile, pathToDataPathesFile, pathToWeights, runMode):
+    def __init__(self, pathToConfigFile, pathToDataPathesFile, pathToWeights, pathToSaveHistory, runMode):
         self.pathToConfigFile = str(pathToConfigFile)
         self.pathToDataPathesFile = str(pathToDataPathesFile)
         self.pathToWeights = str(pathToWeights)
+        self.pathToSaveHistory = str(pathToSaveHistory)
         self.runMode = str(runMode)
 
         sys.path.insert(0, self.pathToConfigFile)
-        self.data = self.readInData()
 
         from configFile import getConfigs
         self.configs = getConfigs()
+
+        self.data = self.readInData()
+
         from configFile import getModel
         self.model = getModel(input_shape = self.data.imageShape)
 
+
     def start(self):
-        recogSystem = RecognitionSystem(data = self.data, pathToWeights = self.pathToWeights, configs = self.configs, model = self.model)
+        recogSystem = RecognitionSystem(data = self.data, pathToWeights = self.pathToWeights, pathToSaveHistory = self.pathToSaveHistory, configs = self.configs, model = self.model)
         if(self.runMode == 'train'):
             recogSystem.printModelSummary()
             recogSystem.trainModel()      
@@ -129,16 +130,18 @@ class Runner(object):
             pathes = pathVariables.read().splitlines()
             imagesPath = pathes[0]
             labelsPath = pathes[1]
-        preprocessedData = Preprocessor(imagesPath, labelsPath, normalizeData = self.configs['normalizeData'])
+        normalizeData = self.configs['normizeData'] if 'normalizeData' in self.configs else False
+        preprocessedData = Preprocessor(imagesPath, labelsPath, normalizeData = normalizeData)
         return preprocessedData 
 
 if __name__ == "__main__":
     pathToConfigFile = sys.argv[1]
     pathToDataPathesFile = sys.argv[2]
     pathToWeights = sys.argv[3]
-    runMode = sys.argv[4]
+    pathToSaveHistory = sys.argv[4]
+    runMode = sys.argv[5]
 
-    runner = Runner(pathToConfigFile = pathToConfigFile,  pathToDataPathesFile = pathToDataPathesFile,  pathToWeights = pathToWeights, runMode = runMode)
+    runner = Runner(pathToConfigFile = pathToConfigFile,  pathToDataPathesFile = pathToDataPathesFile,  pathToWeights = pathToWeights, pathToSaveHistory = pathToSaveHistory, runMode = runMode)
     runner.start()
     runner.clean()
 
