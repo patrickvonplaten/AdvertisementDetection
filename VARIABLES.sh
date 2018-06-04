@@ -1,2 +1,0 @@
-=/Users/patrickvonplaten/AdvertisementDetection/step001_extractFramesForVideos
-=/Users/patrickvonplaten/AdvertisementDetection/step001_extractFramesForVideos
