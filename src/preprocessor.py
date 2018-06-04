@@ -22,8 +22,11 @@ class Preprocessor(object):
 
         self.imagesFolderName = imagesFolderName
         self.imagesLen = len([name for name in os.listdir(imagesFolderName)]) # images start at idx = 1
-        self.splitTrainingTestData = int(0.7 * self.imagesLen)
+        self.splitTrainingTestData = int(0.9 * self.imagesLen)
         self.data, self.labels  = self.convertJPEGImageToMatrix()
+        shuffledPermutation = np.random.permutation(len(self.data))
+        self.data = self.data[shuffledPermutation]
+        self.labels = self.labels[shuffledPermutation]
         self.imageShape = self.data[0].shape
         self.trainData = self.reshapeListToArray(self.data[:self.splitTrainingTestData])
         self.trainLabels = np.asarray(self.labels[:self.splitTrainingTestData])
