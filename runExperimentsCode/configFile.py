@@ -25,13 +25,14 @@ from keras.applications import vgg16
 def getModel(input_shape, classes=1):
     vgg16_model = vgg16.VGG16(include_top = False, input_shape = input_shape)
 
+    model = Sequential()
     for layer in vgg16_model.layers:
         model.add(layer)
     for layer in model.layers:
         layer.trainable = False
 
     model.add(Flatten(name='flatten'))
-    model.add(Dense(4096, activation='relu'))
+    model.add(Dense(2, activation='relu'))
     model.add(Dense(classes, activation = 'sigmoid'))
 
     return model

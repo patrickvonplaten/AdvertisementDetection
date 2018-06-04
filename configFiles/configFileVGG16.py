@@ -25,6 +25,7 @@ from keras.applications import vgg16
 def getModel(input_shape, classes=1):
     vgg16_model = vgg16.VGG16(include_top = False, input_shape = input_shape)
 
+    model = Sequential()
     for layer in vgg16_model.layers:
         model.add(layer)
     for layer in model.layers:

@@ -98,12 +98,16 @@ echo "cd ${step001Path}" >> ${step001RunFile}
 
 #############step002####################
 cd ${setupPath}
-echo 'saveWeightsPath=${step002Path}/outputs/model/model.h5' >> VARIABLES.sh
-echo 'saveTrainHistoryPath=${step002}/outputs/log/model_log' >> VARIABLES.sh
 
 step002Path=${setupPath}/step002_trainModel
 createStepDir ${step002Path} "${step001Path}" step002
 step002RunFile=${step002Path}/run.sh
+echo 'saveWeightsPath=${step002Path}/outputs/model/model.h5' >> VARIABLES.sh
+echo 'saveTrainHistoryPath=${step002Path}/outputs/log/model_log' >> VARIABLES.sh
+
+mkdir ${step002Path}/outputs/model
+mkdir ${step002Path}/outputs/log
+
 ln -s ${advertisementDetectionPath} ${step002Path}/dependencies/advertisementDetection.py
 touch ${step002Path}/dependencies/pathToDataPathesFile.txt
 echo "$(realpath ${step002Path}/dependencies/outputsPreviousStep/images)" >> ${step002Path}/dependencies/pathToDataPathesFile.txt
@@ -126,7 +130,7 @@ echo "$(realpath ${step002Path}/dependencies/outputsPreviousStep/labels.txt)" >>
 cp ${configFile} ${step003Path}/dependencies/configFile.py
 
 echo 'echo ...start ${step003Path}' >> ${step003RunFile}
-echo 'python ${step003Path}/dependencies/advertisementDetection.py ${step003Path}/dependencies ${step003Path}/dependencies/pathToDataPathesFile.txt ${step003Path}/dependencies/outputsPreviousStep/model.h5 None' "evaluate" >> ${step003RunFile}
+echo 'python ${step003Path}/dependencies/advertisementDetection.py ${step003Path}/dependencies ${step003Path}/dependencies/pathToDataPathesFile.txt ${step003Path}/dependencies/outputsPreviousStep/model/model.h5 None' "evaluate" >> ${step003RunFile}
 
 
 if [ ${runExperiment} == 1 ];then
