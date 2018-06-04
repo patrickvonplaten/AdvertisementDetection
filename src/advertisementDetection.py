@@ -129,7 +129,7 @@ class Runner(object):
             pathes = pathVariables.read().splitlines()
             imagesPath = pathes[0]
             labelsPath = pathes[1]
-        preprocessedData = Preprocessor(imagesPath, labelsPath)
+        preprocessedData = Preprocessor(imagesPath, labelsPath, normalizeData = self.configs['normalizeData'])
         return preprocessedData 
 
 if __name__ == "__main__":

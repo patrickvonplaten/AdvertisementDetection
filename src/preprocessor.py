@@ -12,7 +12,7 @@ class Preprocessor(object):
     as input and returns a numpy matrix 
     """
 
-    def __init__(self, imagesFolderName, labelsFileName):
+    def __init__(self, imagesFolderName, labelsFileName, normalizeData):
         self.labelsFileName = labelsFileName
 
         if(os.stat(self.labelsFileName).st_size == 0):
@@ -29,6 +29,9 @@ class Preprocessor(object):
         self.trainLabels = np.asarray(self.labels[:self.splitTrainingTestData])
         self.testData = self.reshapeListToArray(self.data[self.splitTrainingTestData:])
         self.testLabels = np.asarray(self.labels[self.splitTrainingTestData:])
+        
+        if(normalizeData):
+            self.substractMeanFromImages()
 
     def reshapeListToArray(self, data):
         return np.concatenate(data).reshape((len(data),) + self.imageShape)

@@ -1,6 +1,0 @@
-pathToVideo=/Users/patrickvonplaten/AdvertisementDetection/ARD_13-03-16_18-36_Sportschau_TSV_MÃ¼nchen.mpg
-rateToConvertVideosToFrames=0.8
-step001Labels=/Users/patrickvonplaten/AdvertisementDetection/correctLabels/correctlabels08.txt
-step001Path=/Users/patrickvonplaten/AdvertisementDetection/experiment/step001_extractFramesForVideos
-step002Path=/Users/patrickvonplaten/AdvertisementDetection/experiment/step002_trainModel
-step003Path=/Users/patrickvonplaten/AdvertisementDetection/experiment/step003_evaluateModel

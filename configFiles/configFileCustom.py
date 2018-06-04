@@ -89,5 +89,3 @@ def getConfigs():
         'metrics':['accuracy']
     }
 
-def getRunMode():
-    return "train"

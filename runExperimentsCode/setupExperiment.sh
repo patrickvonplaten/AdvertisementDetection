@@ -7,7 +7,8 @@ rateToConvertVideosToFrames=0.05
 # labels must correspond to both video and the rate so that they match
 labels="/Users/patrickvonplaten/AdvertisementDetection/correctLabels/correctlabels08.txt"
 labels="/Users/patrickvonplaten/AdvertisementDetection/labels.txt"
-configFile="/Users/patrickvonplaten/AdvertisementDetection/runExperimentsCode/configFile.py"
+configFile="$(pwd)/configFile.py"
+
 advertisementDetectionPath="/Users/patrickvonplaten/AdvertisementDetection/src/advertisementDetection.py"
 
 nameOfExperiment=experiment
