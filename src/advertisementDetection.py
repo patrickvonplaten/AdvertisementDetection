@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#import tensorflow as tf
-=======
 import sys
->>>>>>> 0f4704c3f456277ce7e232fa5acb1c5a2cbd571f
 import numpy as np
 import tensorflow as tf
 import pickle
