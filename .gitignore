@@ -1,6 +1,6 @@
 *.mpg
 *.jpeg
+*.h5
 src/pathVariables.txt
 tags
-outputs/model/vgg16_weights.h5
 labels.txt
