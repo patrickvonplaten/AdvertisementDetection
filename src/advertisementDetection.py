@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 #import tensorflow as tf
+=======
+import sys
+>>>>>>> 0f4704c3f456277ce7e232fa5acb1c5a2cbd571f
 import numpy as np
 import tensorflow as tf
+import pickle
 from preprocessor import Preprocessor
 from vgg16 import VGG16Custom
 from keras.optimizers import SGD
@@ -17,50 +22,41 @@ class RecognitionSystem(object):
     This class should use the preproccessed data
     to train a system to recognise detection
     """
-    def __init__(self, batchSize, numberEpoch, flag=0):
-        self.data = self.readInData()
+    def __init__(self, data, pathToWeights, pathToSaveHistory, configs, model): 
+        self.data = data 
         self.testData = self.data.testData
         self.testLabels = self.data.testLabels
         self.trainData = self.data.trainData
         self.trainLabels = self.data.trainLabels
-        self.batchSize = batchSize
-        self.numberEpoch = numberEpoch
-        self.model = self.getModel(flag)
+        self.configs = self.setConfigs(configs)
+        self.pathToWeights = pathToWeights
+        self.pathToSaveHistory = pathToSaveHistory
+        self.model = model
 
-    def getModel(self, flag):
-        if(flag == 0):
-            return VGG16Custom(input_shape = self.data.imageShape)
-        else:
-            vgg16_model = applications.vgg16.VGG16(include_top = False, input_shape = (self.data.imageShape))
-            model = Sequential()
-            for layer in vgg16_model.layers:
-                model.add(layer)
-            for layer in model.layers:
-                layer.trainable = False
-            model.add(Flatten(name='flatten'))
-            model.add(Dense(4096, activation='relu'))
-            #model.add(Dense(4096, activation='relu'))
-            #
-            model.add(Dense(1,activation = 'sigmoid'))
-        return model
+    def setConfigs(self, configs):
+        defaultConfigs = {
+            'learningRate':1e-3,
+            'decay':1e-6,
+            'momentum':0.9,
+            'nesterov':True,
+            'batchSize':8,
+            'epochs':3,
+            'loss':'binary_crossentropy',
+            'metrics':['accuracy']
+        }
 
-    def readInData(self):
-        with open('pathVariables.txt') as pathVariables:
-            pathes = pathVariables.read().splitlines()
-            imagesPath = pathes[0]
-            labelsPath = pathes[1]
-        preprocessedData = Preprocessor(imagesPath, labelsPath)
-        return preprocessedData
-
+        for config in configs:
+            defaultConfigs[config] = configs[config]
+        
+        return defaultConfigs
+        
     def printModelSummary(self):
         print('Model Summary')
         self.model.summary()
 
     def compileModel(self):
-        optimizer = SGD(lr=1e-3, decay=1e-6, momentum=0.9, nesterov=True)
-        loss = 'binary_crossentropy'
-        metrics= ['accuracy']
-        self.model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
+        optimizer = SGD(lr=self.configs['learningRate'], decay=self.configs['decay'], momentum=self.configs['momentum'], nesterov=self.configs['nesterov'])
+        self.model.compile(optimizer=optimizer, loss=self.configs['loss'], metrics=self.configs['metrics'])
 
     def trainModel(self):
         x = self.trainData
@@ -72,27 +68,18 @@ class RecognitionSystem(object):
         print("Train Data: " + str(x.shape))
         print("-----------------------------------------------------------------")
 
-        history = self.model.fit(x, y, batch_size=self.batchSize, epochs=self.numberEpoch, verbose=2)
-        self.model.save_weights('../outputs/model/vgg16_weights.h5')
+        history = self.model.fit(x, y, batch_size=self.configs['batchSize'], epochs=self.configs['epochs'], verbose=2)
+        self.model.save_weights(self.pathToWeights)
 
-        print("History")
-        print(history)
-        """
-        TODO: the history object should be saved in ../outputs/log/vgg16_log or
-        something like that. All data about the training process should be easily
-        be seen there
-	Done: History saved as a dictionary using Pickle
-        """
-	with open('../outputs/log/vgg16_log', 'wb') as pickle_file:
-       		pickle.dump(history.history, pickle_file)
+        with open(self.pathToSaveHistory, 'wb') as pickleFile:
+            pickle.dump(history.history, pickleFile)
 
     def evaluateModel(self):
         x = self.testData
         y = self.testLabels
         self.compileModel()
-
-        self.model.load_weights('../outputs/model/vgg16_weights.h5')
-
+        self.model.load_weights(self.pathToWeights)
+        
         print("Decode model")
         print("-----------------------------------------------------------------")
 
@@ -114,10 +101,56 @@ class RecognitionSystem(object):
         """
         pass
 
+class Runner(object):
 
-advertisementDetection = RecognitionSystem(batchSize = 3, numberEpoch = 2, flag = 1)
-advertisementDetection.data.printInformationAboutData()
-advertisementDetection.printModelSummary()
+    def __init__(self, pathToConfigFile, pathToDataPathesFile, pathToWeights, pathToSaveHistory, runMode):
+        self.pathToConfigFile = str(pathToConfigFile)
+        self.pathToDataPathesFile = str(pathToDataPathesFile)
+        self.pathToWeights = str(pathToWeights)
+        self.pathToSaveHistory = str(pathToSaveHistory)
+        self.runMode = str(runMode)
 
-advertisementDetection.trainModel()
-advertisementDetection.evaluateModel()
+        sys.path.insert(0, self.pathToConfigFile)
+
+        from configFile import getConfigs
+        self.configs = getConfigs()
+
+        self.data = self.readInData()
+
+        from configFile import getModel
+        self.model = getModel(input_shape = self.data.imageShape)
+
+
+    def start(self):
+        recogSystem = RecognitionSystem(data = self.data, pathToWeights = self.pathToWeights, pathToSaveHistory = self.pathToSaveHistory, configs = self.configs, model = self.model)
+        if(self.runMode == 'train'):
+            recogSystem.printModelSummary()
+            recogSystem.trainModel()      
+       
+        elif(self.runMode == 'evaluate'):
+            recogSystem.evaluateModel()
+      
+    def clean(self):
+        sys.path.remove(self.pathToConfigFile)
+
+    def readInData(self):
+        with open(self.pathToDataPathesFile) as pathVariables:
+            pathes = pathVariables.read().splitlines()
+            imagesPath = pathes[0]
+            labelsPath = pathes[1]
+        normalizeData = self.configs['normizeData'] if 'normalizeData' in self.configs else False
+        preprocessedData = Preprocessor(imagesPath, labelsPath, normalizeData = normalizeData)
+        return preprocessedData 
+
+if __name__ == "__main__":
+    pathToConfigFile = sys.argv[1]
+    pathToDataPathesFile = sys.argv[2]
+    pathToWeights = sys.argv[3]
+    pathToSaveHistory = sys.argv[4]
+    runMode = sys.argv[5]
+
+    runner = Runner(pathToConfigFile = pathToConfigFile,  pathToDataPathesFile = pathToDataPathesFile,  pathToWeights = pathToWeights, pathToSaveHistory = pathToSaveHistory, runMode = runMode)
+    runner.start()
+    runner.clean()
+
+  

@@ -12,7 +12,7 @@ class Preprocessor(object):
     as input and returns a numpy matrix
     """
 
-    def __init__(self, imagesFolderName, labelsFileName):
+    def __init__(self, imagesFolderName, labelsFileName, normalizeData):
         self.labelsFileName = labelsFileName
 
         if(os.stat(self.labelsFileName).st_size == 0):
@@ -29,19 +29,17 @@ class Preprocessor(object):
         self.trainLabels = np.asarray(self.labels[:self.splitTrainingTestData])
         self.testData = self.reshapeListToArray(self.data[self.splitTrainingTestData:])
         self.testLabels = np.asarray(self.labels[self.splitTrainingTestData:])
+        
+        if(normalizeData):
+            self.substractMeanFromImages()
 
     def reshapeListToArray(self, data):
         return np.concatenate(data).reshape((len(data),) + self.imageShape)
 
-    def substractMeanFromImages(self,image):
-        #TODO:
-        #As it is done in advertisementDetection3.py substract the mean of the self.data
-        #if it is helpful
-        # image[:,:,0] -= np.mean(image[:,:, 0],dtype = np.uint8)
-        # image[:,:,1] -= np.mean(image[:,:, 1],dtype = np.uint8)
-        # image[:,:,2] -= np.mean(image[:,:, 2],dtype = np.uint8)
-        # return image
-        pass
+    def substractMeanFromImages(self):
+        self.data[:,:,0] -= np.mean(self.data[:,:, 0],dtype = np.uint8)
+        self.data[:,:,1] -= np.mean(self.data[:,:, 1],dtype = np.uint8)
+        self.data[:,:,2] -= np.mean(self.data[:,:, 2],dtype = np.uint8)
 
     def convertJPEGImageToMatrix(self):
         data = []
