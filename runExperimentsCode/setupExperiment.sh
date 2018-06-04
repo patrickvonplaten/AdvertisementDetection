@@ -63,7 +63,7 @@ if [ -d ${nameOfExperiment} ]; then
 fi
 
 currentPath="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-setupPath=${currentPath}/${nameOfExperiment}
+setupPath=${1}
 
 mkdir ${setupPath}
 cd ${setupPath}

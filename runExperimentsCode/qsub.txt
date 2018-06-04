@@ -1,0 +1,6 @@
+-d debug mode
+-a rerun everything 
+
+
+
+

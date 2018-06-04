@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 runstep003=1
 runstep002=1
-runstep001=0
+runstep001=1
 if [ ${runstep001} == 1 ]; then
     cd /Users/patrickvonplaten/AdvertisementDetection/runExperimentsCode/experiment/step001_extractFramesForVideos
  	 ./run.sh

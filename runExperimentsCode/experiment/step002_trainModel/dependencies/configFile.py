@@ -39,12 +39,12 @@ def getModel(input_shape, classes=1):
 
 def getConfigs():
     return {
-        'learningRate':1e-3,
+        'learningRate':0.0004,
         'decay':1e-6,
         'momentum':0.9,
 #        'normalizeData':True,
         'nesterov':True,
-        'batchSize':8,
+        'batchSize':16,
         'epochs':1,
         'loss':'binary_crossentropy',
         'metrics':['accuracy']
