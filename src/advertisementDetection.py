@@ -64,7 +64,7 @@ class RecognitionSystem(object):
         print("Train Data: " + str(x.shape))
         print("-----------------------------------------------------------------")
 
-        history = self.model.fit(x, y, batch_size=self.configs['batchSize'], epochs=self.configs['epochs'], verbose=2)
+        history = self.model.fit(x, y, batch_size=self.configs['batchSize'], epochs=self.configs['epochs'], verbose='2' )
         self.model.save_weights(self.pathToWeights)
 
         with open(self.pathToSaveHistory, 'wb') as pickleFile:
@@ -83,10 +83,6 @@ class RecognitionSystem(object):
 
         print("scalarLoss")
         print(scalarLoss)
-        """
-        TODO: the scalarLoss should be saved as well somewhere like  ../outputs/result/vgg16_result or
-        something like that. It should show the percentage of correctly labeled data and for each frame it should show correct label vs. predicted label.
-        """
 
     def predictData(self, data):
         """
@@ -97,56 +93,3 @@ class RecognitionSystem(object):
         """
         pass
 
-class Runner(object):
-
-    def __init__(self, pathToConfigFile, pathToDataPathesFile, pathToWeights, pathToSaveHistory, runMode):
-        self.pathToConfigFile = str(pathToConfigFile)
-        self.pathToDataPathesFile = str(pathToDataPathesFile)
-        self.pathToWeights = str(pathToWeights)
-        self.pathToSaveHistory = str(pathToSaveHistory)
-        self.runMode = str(runMode)
-
-        sys.path.insert(0, self.pathToConfigFile)
-
-        from configFile import getConfigs
-        self.configs = getConfigs()
-
-        self.data = self.readInData()
-
-        from configFile import getModel
-        self.model = getModel(input_shape = self.data.imageShape)
-
-
-    def start(self):
-        recogSystem = RecognitionSystem(data = self.data, pathToWeights = self.pathToWeights, pathToSaveHistory = self.pathToSaveHistory, configs = self.configs, model = self.model)
-        if(self.runMode == 'train'):
-            recogSystem.printModelSummary()
-            recogSystem.trainModel()      
-       
-        elif(self.runMode == 'evaluate'):
-            recogSystem.evaluateModel()
-      
-    def clean(self):
-        sys.path.remove(self.pathToConfigFile)
-
-    def readInData(self):
-        with open(self.pathToDataPathesFile) as pathVariables:
-            pathes = pathVariables.read().splitlines()
-            imagesPath = pathes[0]
-            labelsPath = pathes[1]
-        normalizeData = self.configs['normizeData'] if 'normalizeData' in self.configs else False
-        preprocessedData = Preprocessor(imagesPath, labelsPath, normalizeData = normalizeData)
-        return preprocessedData 
-
-if __name__ == "__main__":
-    pathToConfigFile = sys.argv[1]
-    pathToDataPathesFile = sys.argv[2]
-    pathToWeights = sys.argv[3]
-    pathToSaveHistory = sys.argv[4]
-    runMode = sys.argv[5]
-
-    runner = Runner(pathToConfigFile = pathToConfigFile,  pathToDataPathesFile = pathToDataPathesFile,  pathToWeights = pathToWeights, pathToSaveHistory = pathToSaveHistory, runMode = runMode)
-    runner.start()
-    runner.clean()
-
-  
