@@ -6,23 +6,24 @@ import os
 import warnings
 import sys
 import argparse
+import tensorflow as tf
 
-from keras.models import Model, Sequential
-from keras.layers import Flatten
-from keras.layers import Dense
-from keras.layers import Input
-from keras.layers import Conv2D
-from keras.layers import MaxPooling2D
-from keras.layers import GlobalAveragePooling2D
-from keras.layers import GlobalMaxPooling2D
-from keras.engine import get_source_inputs
-from keras.utils import layer_utils
-from keras.utils.data_utils import get_file
-from keras import backend as K
-from keras.applications.imagenet_utils import decode_predictions
-from keras.applications.imagenet_utils import preprocess_input
-from keras.applications.imagenet_utils import _obtain_input_shape
-from keras.applications import vgg16 
+from tf.keras.models import Model, Sequential
+from tf.keras.layers import Flatten
+from tf.keras.layers import Dense
+from tf.keras.layers import Input
+from tf.keras.layers import Conv2D
+from tf.keras.layers import MaxPooling2D
+from tf.keras.layers import GlobalAveragePooling2D
+from tf.keras.layers import GlobalMaxPooling2D
+from tf.keras.engine import get_source_inputs
+from tf.keras.utils import layer_utils
+from tf.keras.utils.data_utils import get_file
+from tf.keras import backend as K
+from tf.keras.applications.imagenet_utils import decode_predictions
+from tf.keras.applications.imagenet_utils import preprocess_input
+from tf.keras.applications.imagenet_utils import _obtain_input_shape
+from tf.keras.applications import vgg16 
 
 class Runner(object):
 

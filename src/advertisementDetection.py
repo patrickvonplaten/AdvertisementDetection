@@ -4,11 +4,11 @@ import tensorflow as tf
 import pickle
 from preprocessor import Preprocessor
 from vgg16 import VGG16Custom
-from keras.optimizers import SGD
-from keras.applications import VGG16
-from keras import applications
-from keras.layers import Flatten, Dense
-from keras.models import Model, Sequential
+from tf.keras.optimizers import SGD
+from tf.keras.applications import VGG16
+from tf.keras import applications
+from tf.keras.layers import Flatten, Dense
+from tf.keras.models import Model, Sequential
 import pickle
 
 
