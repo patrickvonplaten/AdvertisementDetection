@@ -1,0 +1,653 @@
+#!/bin/sh
+
+unset POSIXLY_CORRECT
+
+gawk '
+#########################################################################
+#########################################################################
+BEGIN {
+
+  cmdGawk	= "gawk";
+  cmdCat	= "cat";
+  cmdLess	= "less";
+  cmdRm		= "rm"
+  cmdMv		= "mv"
+  cmdLatex	= "latex";
+  cmdPdftex	= "pdflatex";
+  cmdEpsToPdf	= "epstopdf";
+  cmdDvips	= "dvips";
+  cmdFig2dev	= "fig2dev";
+  cmdTouch	= "touch";
+
+  szVersion     = "1.1.2";
+  iError        = 0;
+  iGapWidth     = 1;
+
+
+  # get the options
+  szOptString = "&l%e&m$p%i%I$s$H$g%G%v%V%d";
+  getopt(szOptString);
+
+  if (aOptions["d"])
+  {
+    aOptions["v"] = "-";
+    for (iI = 0; iI < ARGC; iI++)
+      printf("ARGV[%d]=%s\n", iI, ARGV[iI]);
+
+    iDim = split(szOptString, aOpts, "[$%&]");
+    for (iI = 2; iI <= iDim; iI++)
+      debug("aOptions[%s] = >%s<\n", aOpts[iI], aOptions[aOpts[iI]]);
+  }
+
+
+
+  if (aOptions["V"] != "")
+  {
+    printf("fig2mpdf: version %s\n", szVersion);
+    iError = 1;
+    exit(0);
+  }
+
+  szTmpPrefix	= "_fig2mpdf"
+
+  iLine = -1;
+  iInString = 0;
+  iDepths = 1;
+
+  iInvalidDepth = -2
+  iAdminDepth   = 2000
+
+  szBase = ARGV[1];
+  szOrigFile = ARGV[1];
+  szOrigPath = ARGV[1];
+
+  # set default switch state
+  iDoMultiLayer = 0;
+  iDoLatex = 0;
+  iDoPdftex = 1;
+  iIncludeLowestRange = 1;
+
+  # set iDoLatex and iDoMultiLayer concerning the given suffix
+  match(szBase, /\.[^\.\/]+$/);
+  if (RLENGTH != -1)
+  {
+    szSuffix = substr(szBase, RSTART);
+    if (szSuffix == ".lfig")
+      iDoLatex = 1;
+    else if (szSuffix == ".mfig")
+      iDoMultiLayer = 1;
+    else if ((szSuffix == ".mlfig") || (szSuffix == ".lmfig"))
+    {
+      iDoLatex = 1;
+      iDoMultiLayer = 1;
+    }
+  }
+
+  ################################
+  # evalutate options
+
+  # set toggle latex
+  if (aOptions["l"] == "-")
+    iDoLatex = 1;
+  if (aOptions["l"] == "+")
+    iDoLatex = 0;
+
+  # set multilayer flag
+  if (aOptions["m"] == "-")
+    iDoMultiLayer = 1;
+  if (aOptions["m"] == "+")
+    iDoMultiLayer = 0;
+
+  # set toggle pdftex
+  if (aOptions["e"] == "-")
+    iDoPdftex = 0;
+
+  # evaluate do not include lowest layer in all figs
+  iIncludeLowestRange = (aOptions["i"] == "-");
+
+  # evaluate include all lower ranges in the sub figs
+  iIncludeAllLowerRanges = (aOptions["I"] != "-");
+
+  # check consistencies
+  # if there are ranges given -> do multilayer
+  if (aOptions["p"] != "")
+    iDoMultiLayer = 1;
+
+
+  if (aOptions["g"] != "")
+  {
+    if ( ! match (aOptions["g"], /^[0-9]+$/))
+      usage();
+
+    iGapWidth = aOptions["g"] + 1;
+  }
+
+  # get the basename of the source
+  gsub(/\.[^\/]+$/, "", szBase);
+  gsub(/^.*\//, "", szBase);
+
+  # get the path to the original
+  gsub(/[^\/]+$/, "", szOrigPath);
+}
+#########################################################################
+#########################################################################
+
+( iInString != 0) {
+  aszLine[iLine] = sprintf("%s\n%s", aszLine[iLine], $0);
+  iInString = (match($0, "\\\\001$") == 0);
+  iSubLine++;
+  next;
+}
+
+/^[135][ 	]/ {
+  iCmd		= $1;
+  iSubCmd	= -1;
+  iSubLine	= 0;
+  aiDepth[++iLine] = fnGetDepth($1);
+  aszLine[iLine] = $0;
+  next;
+}
+
+/^[2][ 	]/ {
+  iCmd		= $1;
+  iSubCmd	= $2;
+  iSubLine	= 0;
+  aiDepth[++iLine] = fnGetDepth($1);
+  aszLine[iLine] = $0;
+  next;
+}
+
+
+/^[4][ 	]/ {
+  iCmd		= $1;
+  iSubCmd	= $2;
+  iSubLine	= 0;
+  aiDepth[++iLine] = fnGetDepth($1);
+  aszLine[iLine] = $0;
+  iInString = (match($0, "\\\\001$") == 0);
+  next;
+}
+
+/^(6[ 	])|(-6)/ {
+  iCmd		= $1;
+  iSubCmd	= -1;
+  iSubLine	= 0;
+  next;
+}
+
+/^[^	]/ {
+  iCmd		= -1;
+  aiDepth[++iLine]	= fnGetDepth("A");
+  iSubLine		= 0;
+  aszLine[iLine]	= $0;
+  next;
+}
+
+/^[	]/ {
+  iSubLine++;
+  if ((iCmd == 2) && (iSubCmd == 5) && (iSubLine == 1))
+  {
+    if (match($0, "^\t[01] "))
+    {
+      szFileName = substr($0, RSTART + RLENGTH);
+      if ( ! match(szFileName, /^\//))
+        szFileName = sprintf("%s%s", szOrigPath, szFileName);
+      aszLine[iLine] = sprintf("%s\n\t%s %s", aszLine[iLine], $1, szFileName);
+    }
+    else
+      aszLine[iLine] = sprintf("%s\n%s", aszLine[iLine], $0);
+  }
+  else
+    aszLine[iLine] = sprintf("%s\n%s", aszLine[iLine], $0);
+}
+
+
+END {
+  iLine++;
+  iLowestLayer = 0;
+  iFirstRange = 0;
+
+  if (iError == 0)
+  {
+
+
+    if (iDoMultiLayer)
+    {
+      asort(aiDepths, aiSortedDepth);
+
+      # check for ranges as options
+      if (aOptions["p"] != "")
+      {
+        # we have explicit ranges
+        gsub(/-/, ":", aOptions["p"]);
+        iRanges = split(aOptions["p"], aszRanges, ",");
+      }
+      else
+      {
+        if (iDepths < 4)
+        {
+          iRanges = 1;
+          aszRanges[1] = "1:999";
+        }
+        else
+        {
+          iRanges = 0;
+          iLastRange = aiSortedDepth[iDepths - 2] + 0;
+          iRangeStart = iLastRange;
+          for (iI = iDepths - 3; iI > 0; iI--)
+          {
+            aiSortedDepth[iI] += 0;
+            if ((aiSortedDepth[iI] < iLastRange - iGapWidth) || (iI == 1))
+            {
+              if (aiSortedDepth[iI] >= iLastRange - iGapWidth)
+                iLastRange = aiSortedDepth[iI];
+
+              if (iLastRange != iRangeStart)
+                aszRanges[++iRanges] = sprintf("%d:%d", iLastRange, iRangeStart);
+              else
+                aszRanges[++iRanges] = sprintf("%d", iRangeStart);
+              iRangeStart = aiSortedDepth[iI];
+
+              if ((iI == 1) && (aiSortedDepth[iI] < iLastRange - iGapWidth))
+                aszRanges[++iRanges] = sprintf("%d", aiSortedDepth[iI]);
+            }
+            iLastRange = aiSortedDepth[iI];
+          }
+        }
+      }
+
+
+      # check for a multilayer file with only one range
+      if ((iRanges == 1) && iIncludeLowestRange)
+      {
+        iIncludeLowestRange = 0;
+      }
+
+      szInitRangeList = " -D ";
+      szSep = "";
+
+      if (iIncludeLowestRange)
+      {
+        szInitRangeList = sprintf("%s+%s", szInitRangeList, aszRanges[1]);
+        szSep = ",";
+      }
+      szRangeList = szInitRangeList;
+
+      # step through the ranges
+      for (iI = iIncludeLowestRange; iI < iRanges; iI++)
+      {
+        szFileBase = sprintf("%s-%d", szBase, iI - iIncludeLowestRange);
+
+        if (aOptions["I"])
+        {
+          szRangeList = sprintf("%s%s+%s", szRangeList, szSep, aszRanges[iI + 1]);
+          szSep = ",";
+        }
+        else
+          szRangeList = sprintf("%s%s+%s", szInitRangeList, szSep, aszRanges[iI + 1]);
+
+
+        if (iDoLatex)
+          szTargetFile = fnDoTexFig(szFileBase, szOrigFile, szRangeList, (iDoPdftex != 0));
+        else
+          szTargetFile = fnDoNormalFig(szFileBase, szOrigFile, szRangeList, (iDoPdftex != 0));
+
+
+        if (aOptions["G"])
+        {
+          match(szTargetFile, /\.[^.]*$/);
+          szCommand = sprintf("%s %s %s.page%d%s", cmdMv, szTargetFile, szBase, iI - iIncludeLowestRange, substr(szTargetFile, RSTART, RLENGTH));
+          debug("%s\n", szCommand);
+          system(szCommand);
+        }
+      }
+    }
+    else
+    {
+      szRangeList = "";
+
+      if (iDoLatex)
+        szTargetFile = fnDoTexFig(szBase, szOrigFile, szRangeList, (iDoPdftex != 0));
+      else
+        szTargetFile = fnDoNormalFig(szBase, szOrigFile, szRangeList, (iDoPdftex != 0));
+    }
+  }
+}
+
+
+
+#########################################################################
+#########################################################################
+function debug(str, arg0, arg1, arg2, arg3, arg4)
+{
+  if (aOptions["v"])
+    printf (str, arg0, arg1, arg2, arg3, arg4);
+}
+
+#########################################################################
+#########################################################################
+function fnGetDepth (iControl)
+{
+
+  if (iControl == 1)
+  {
+    iReturn = sprintf("%04d", $7);
+  }
+  else if (iControl == 2)
+  {
+    iReturn = sprintf("%04d", $7);
+  }
+  else if (iControl == 3)
+  {
+    iReturn = sprintf("%04d", $7);
+  }
+  else if (iControl == 4)
+  {
+    iReturn = sprintf("%04d", $4);
+  }
+  else if (iControl == 5)
+  {
+    iReturn = sprintf("%04d", $7);
+  }
+  else if ((iControl == 6) || (iControl == -6))
+  {
+    iReturn = sprintf("%04d", iInvalidDepth);
+  }
+  else
+  {
+    iReturn = sprintf("%04d", iAdminDepth);
+  }
+
+  if (iReturn >= 0)
+  {
+    if (ahDepths[iReturn] == 0)
+    {
+      ahDepths[iReturn] = 1;
+      aiDepths[iDepths++] = iReturn;
+    }
+  }
+
+  return (iReturn);
+
+}
+
+#########################################################################
+#########################################################################
+function fnDoNormalFig(szFileNameBase, szFigFile, szRangeList, iPdf,
+                         szEpsFile, szPdfFile, szTargetFile, szCommand)
+{
+
+  debug("FileNameBase >%s< FigFile >%s< Pdf:%d\n", szFileNameBase, szFigFile, iPdf);
+
+  if (iPdf)
+    szEpsFile = sprintf("%s%s.eps", szTmpPrefix, szFileNameBase);
+  else
+  {
+    szEpsFile = sprintf("%s.eps", szFileNameBase);
+    szTargetFile = szEpsFile;
+  }
+
+  szCommand = sprintf("%s -L eps %s %s %s 2> /dev/null", cmdFig2dev, szRangeList, szFigFile, szEpsFile);
+  debug("%s\n", szCommand);
+  system(szCommand);
+
+  if (iPdf)
+  {
+    szPdfFile = sprintf("%s.pdf", szFileNameBase);
+    szTargetFile = szPdfFile;
+    szCommand = sprintf("%s --outfile=%s %s", cmdEpsToPdf, szPdfFile, szEpsFile);
+    debug("%s\n", szCommand);
+    system(szCommand);
+
+
+    if ( ! aOptions["d"])
+    {
+      szCommand = sprintf("%s -f %s", cmdRm, szEpsFile);
+      debug("%s\n", szCommand);
+      system(szCommand);
+    }
+  }
+
+
+  return (szTargetFile);
+}
+
+
+#########################################################################
+#########################################################################
+function fnDoTexFig(szFileNameBase, szFigFile, szRangeList, iPdf,
+		       szEpsFile, szPdfFile, szTexDoc, szTexPdf, szTexLog, szTexAux, szTexInp, szTmpPs, szTmpPdf, szTexSiz, szTmpEps, szCommand, szHeader)
+{
+
+  debug("FileNameBase >%s< FigFile >%s< Pdf:%d\n", szFileNameBase, szFigFile, iPdf);
+
+  szEpsFile = sprintf("%s.eps", szFileNameBase);
+  szPdfFile = sprintf("%s.pdf", szFileNameBase);
+  szTexDoc = sprintf("%s%s_doc.tex", szTmpPrefix, szFileNameBase);
+  szTexPdf = sprintf("%s%s_doc.pdf", szTmpPrefix, szFileNameBase);
+  szTexDvi = sprintf("%s%s_doc.dvi", szTmpPrefix, szFileNameBase);
+  szTexLog = sprintf("%s%s_doc.log", szTmpPrefix, szFileNameBase);
+  szTexAux = sprintf("%s%s_doc.aux", szTmpPrefix, szFileNameBase);
+  szTexInpPref = sprintf("%s%s_inp", szTmpPrefix, szFileNameBase);
+  szTexInp = sprintf("%s.tex", szTexInpPref);
+  szTexCreator = sprintf("%s.create", szTexInpPref);
+  szTexSiz = sprintf("%s.size", szTexInpPref);
+
+  if (iPdf)
+    szCommand = sprintf("%s -L pdftex_p %s -p %s %s %s", cmdFig2dev, szRangeList, szTexInpPref, szFigFile, szTexInp);
+  else
+    szCommand = sprintf("%s -L pstex_p %s -p %s %s %s", cmdFig2dev, szRangeList, szTexInpPref, szFigFile, szTexInp);
+  debug("%s\n", szCommand);
+  system(szCommand);
+
+  szCommand = sprintf("./%s", szTexCreator);
+  debug("%s\n", szCommand);
+  system(szCommand);
+
+  # check if there is an own hederfile to include
+  if (aOptions["s"] == "")
+    aOptions["s"] = "times";
+
+  if (aOptions["H"] == "")
+  {
+    szHeader = sprintf("\\documentclass{article}\n\
+\\usepackage{german,amssymb,amsmath}\n\
+\\usepackage{%s}", aOptions["s"]);
+  }
+  else
+    szHeader = sprintf("\\input{%s}\n", aOptions["H"]);
+
+  szHeader = sprintf("%s\n\
+\\usepackage{color}\n\
+\\usepackage{ifpdf}\n\
+\\setlength{\\textwidth}{100cm}\n\
+\\setlength{\\textheight}{100cm}\n\
+\\setlength{\\topmargin}{-1in}\n\
+\\setlength{\\headsep}{0pt}\n\
+\\setlength{\\headheight}{0pt}\n\
+\\setlength{\\oddsidemargin}{-1in}\n\
+\\parindent=0cm\n\
+\\ifpdf\n\
+\\usepackage[pdftex]{graphicx}\n\
+\\DeclareGraphicsExtensions{.pdf,.png,.jpg}\n\
+\\usepackage{epsfig}\n\
+\\input{%s}\n\
+\\else\n\
+\\usepackage{graphicx}\n\
+\\usepackage{epsfig}\n\
+\\fi\n\
+", szHeader, szTexSiz);
+
+  szCommand = sprintf("%s > %s << EOF\n\
+%s\\begin{document}\n\
+\\pagestyle{empty}\n\
+\\input{%s}\n\
+\\end{document}\n\
+EOF", cmdCat, szTexDoc, szHeader, szTexInp);
+  if (aOptions["d"] != "")
+    debug("%s\n", szCommand);
+  system(szCommand);
+
+  if (iPdf)
+  {
+
+    szCommand = sprintf("%s -interaction batchmode %s", cmdPdftex, szTexDoc);
+    debug("%s\n", szCommand);
+    iReturn = system(szCommand);
+
+    if (iReturn)
+    {
+      szCommand = sprintf("%s %s | %s +G", cmdCat, szTexLog, cmdLess);
+      system (szCommand);
+    }
+    else
+    {
+      szCommand = sprintf("%s %s %s", cmdMv, szTexPdf, szPdfFile);
+      debug("%s\n", szCommand);
+      system(szCommand);
+    }
+
+  }
+  else
+  {
+    szCommand = sprintf("%s -interaction batchmode %s", cmdLatex, szTexDoc);
+    debug("%s\n", szCommand);
+    iReturn = system(szCommand);
+    if (iReturn)
+    {
+      szCommand = sprintf("%s %s | %s +G", cmdCat, szTexLog, cmdLess);
+      system (szCommand);
+    }
+    else
+    {
+      szCommand = sprintf("%s -q -E  %s -o %s 2>&1 > /dev/null", cmdDvips, szTexDvi, szEpsFile);
+      debug("%s\n", szCommand);
+      system(szCommand);
+    }
+  }
+
+  if ( ! aOptions["d"])
+  {
+    szCommand = sprintf("./%s -r", szTexCreator);
+    debug("%s\n", szCommand);
+    system(szCommand);
+  }
+
+  if ( ! aOptions["d"])
+  {
+    szCommand = sprintf("%s -f %s %s %s %s %s %s %s", cmdRm, szTexDoc, szTexLog, szTexAux, szTexDvi, szTexInp, szTexCreator, szTexPdf);
+    debug("%s\n", szCommand);
+    system(szCommand);
+  }
+
+  if (iPdf)
+    return (szPdfFile);
+  else
+    return (szEpsFile);
+}
+
+
+#########################################################################
+#########################################################################
+function getopt(sOptions, n, m, fHuntParam, iSearchMinus, iSPos, iCLen, iHuntSwitches, szSwChar, szOptChar) {
+# Options:      Flagoptions: %f
+#               Parameter:   $p
+
+  n = 1;                        # index in argv
+  m = 1;                        # processed entries in argv finally it points to the firs$
+  iSearchMinus = 1;             # indicate that a switch leading sign minus is expected
+
+  # check for initial -- to separate the gawk switches from the script switches
+  if (ARGV[n] == "--")
+    n++;
+
+
+  while (n < ARGC)
+  {
+    iHuntSwitches = 0;
+    iCLen = length(ARGV[n]);
+
+    szSwChar = substr(ARGV[n], 1, 1);
+    if ((szSwChar == "-") || (szSwChar == "+"))
+    {
+      if ((iSearchMinus == 0) || fHuntParam)
+        usage();
+      iHuntSwitches = 1;
+      iSPos = 2;
+      fHuntParam = 0;
+    }
+    else
+    {
+      iSPos = 1;
+
+      if (fHuntParam == 0)
+        iSearchMinus = 0;
+    }
+
+    while (iSPos <= iCLen)
+    {
+      if (iHuntSwitches)
+      {
+        szOptChar = substr(ARGV[n], iSPos, 1);
+        iOPos = index(sOptions, szOptChar);
+        if (iOPos == 0)
+        {
+          printf("unknown option \"%s\"\n", szOptChar);
+          usage();
+        }
+        if ((substr(sOptions, iOPos - 1, 1) == "&") || ((substr(sOptions, iOPos - 1, 1) == "%") && (szSwChar == "-")))
+        {
+          aOptions[szOptChar] = szSwChar;
+          iSPos = iSPos + 1;
+        }
+        else if ((substr(sOptions, iOPos - 1, 1) == "$") && (szSwChar == "-"))
+        {
+          fHuntParam = 1;
+          iHuntSwitches = 0;
+          iSPos = iSPos + 1;
+        }
+        else
+          usage();
+
+      }
+      else if (fHuntParam)
+      {
+        fHuntParam = 0;
+        aOptions[szOptChar] = substr(ARGV[n], iSPos, iCLen + 1 - iSPos);
+        iSPos = iCLen + 1;
+      }
+      else
+      {
+        ARGV[m++] = ARGV[n];
+        iSPos = iCLen + 1;
+      }
+    }
+    n = n + 1;
+  }
+  ARGC = m;
+}
+
+
+#########################################################################
+#########################################################################
+function usage() {
+  print "usage: fig2mpdf [-|+lm] [-eiIGvV] [-p <ranges>] [-g <gapwidth>] [-s <style>] [-H <headerfile>] file\n\
+\n\
+  -|+l         set|reset latex call\n\
+  -e           create an eps file instead of a pdf\n\
+  -|+m         set|reset multilayer creation\n\
+  -p <ranges>  colon separated list of layer ranges a-b,c,d-e,...\n\
+  -i           do include the deepest range in all figures\n\
+               (the one with the higest level number)\n\
+  -I           include all lower ranges (pyramide mode)\n\
+  -g <gap>     set layer gapwidth for automatically detecting ranges (default:0)\n\
+  -s <style>   replace \\usepackage{times} by \\usepackage{<style>} in the latex commands\n\
+  -H <header>  use file <header> for creating tex documents (only\n\
+                 \\begin{document}...\\end{document} is set by fig2mpdf)\n\
+  -G           name multilayer files in PGF file name format <name>.page<no>.<ext>\n\
+  -v           be verbose\n\
+  -V           print out the version of fig2mpdf\n";
+  exit 1;
+}
+' -- $*
+

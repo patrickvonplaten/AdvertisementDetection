@@ -17,7 +17,10 @@ export CUDA_HOME=/usr/local/cuda-9.0
 nvidia-smi
 
 echo $SGE_ROOT
-source /tools/tensorflow/ENV_TF_GPU/bin/activate
+
+tfPythonPath=/tools/tensorflow/ENV_TF_GPU/bin
+
+source ${tfPythonPath}/activate
 
 cd /scratch/projekt1/AdvertisementDetection 
 
@@ -25,7 +28,7 @@ cd /scratch/projekt1/AdvertisementDetection
 # Here you can start your program.
 # For example: m/scyProgramm $input $param1 $param2
 
-/tools/tensorflow/ENV_TF_GPU/bin/python3 advertisementDetection.py --logDir=$TMP --learningRate=$learningRate
+${tfPythonPath}/python3 /scratch/projekt1/AdvertisementDetection/runAdvertisementDetection.py --logDir=$TMP --learningRate=$learningRate
 cp -r $TMP/. $SCRATCHDIR
 deactivate
 

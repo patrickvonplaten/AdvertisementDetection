@@ -6,32 +6,19 @@ import os
 import warnings
 import sys
 import argparse
-import tensorflow as tf
 
-from tf.keras.models import Model, Sequential
-from tf.keras.layers import Flatten
-from tf.keras.layers import Dense
-from tf.keras.layers import Input
-from tf.keras.layers import Conv2D
-from tf.keras.layers import MaxPooling2D
-from tf.keras.layers import GlobalAveragePooling2D
-from tf.keras.layers import GlobalMaxPooling2D
-from tf.keras.engine import get_source_inputs
-from tf.keras.utils import layer_utils
-from tf.keras.utils.data_utils import get_file
-from tf.keras import backend as K
-from tf.keras.applications.imagenet_utils import decode_predictions
-from tf.keras.applications.imagenet_utils import preprocess_input
-from tf.keras.applications.imagenet_utils import _obtain_input_shape
-from tf.keras.applications import vgg16 
+from tensorflow.python.keras.models import Sequential
+from tensorflow.python.keras.layers import Flatten
+from tensorflow.python.keras.layers import Dense
+from tensorflow.python.keras.applications import vgg16 
 
 class Runner(object):
 
     def __init__(self):
 
         self.logDirectory, self.configs = self.parseArgs()
-        self.pathToAdvertismentDetectionSourceCode = '/Users/patrickvonplaten/AdvertisementDetection/src'
-        self.pathToDataPathesFile = '/Users/patrickvonplaten/AdvertisementDetection/src/pathVariables.txt' 
+        self.pathToAdvertismentDetectionSourceCode = '/scratch/projekt1/AdvertisementDetection/src'
+        self.pathToDataPathesFile = '/scratch/projekt1/AdvertisementDetection/src/pathVariables.txt'
         self.pathToWeights = str(self.logDirectory) + '/model.h5'
         self.pathToSaveHistory = str(self.logDirectory) + '/history'
 

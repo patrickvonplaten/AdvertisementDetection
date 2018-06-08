@@ -3,12 +3,7 @@ import numpy as np
 import tensorflow as tf
 import pickle
 from preprocessor import Preprocessor
-from vgg16 import VGG16Custom
-from tf.keras.optimizers import SGD
-from tf.keras.applications import VGG16
-from tf.keras import applications
-from tf.keras.layers import Flatten, Dense
-from tf.keras.models import Model, Sequential
+from tensorflow.python.keras.optimizers import SGD
 import pickle
 
 

@@ -1,0 +1,3 @@
+#! /usr/bin/python3
+from pylint import run_pyreverse
+run_pyreverse()

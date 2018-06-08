@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'plainbox==0.25','console_scripts','plainbox-trusted-launcher-1'
+__requires__ = 'plainbox==0.25'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('plainbox==0.25', 'console_scripts', 'plainbox-trusted-launcher-1')()
+    )
