@@ -9,7 +9,7 @@ if [ $# -eq 0 ]; then
 fi
 
 advertisementDetectionPath=$(realpath ../)
-mpegVideoPath="${advertisementDetectionPath}/ARD_13-03-16_18-36_Sportschau_TSV_MÃ¼nchen.mpg"
+mpegVideoPath="${advertisementDetectionPath}/ARD_13-03-16_19-03_Sportschau_Hamburg.mpg"
 pathToSaveImages="${advertisementDetectionPath}/images"
 pathToSaveLabels="${advertisementDetectionPath}/labels.txt"
 pathToSavePathVariables="${advertisementDetectionPath}/src/pathVariables.txt"
