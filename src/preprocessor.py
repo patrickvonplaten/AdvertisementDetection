@@ -24,6 +24,11 @@ class Preprocessor(object):
         self.imagesLen = len([name for name in os.listdir(imagesFolderName)]) # images start at idx = 1
         self.splitTrainingTestData = int(0.9 * self.imagesLen)
         self.data, self.labels  = self.convertJPEGImageToMatrix()
+
+        for i in range(1,len(self.data)):
+            if(self.data[i-1].shape == self.data[i].shape):
+                print(i)
+
         self.shuffleData(self.data, self.labels)
         self.imageShape = self.data[0].shape
         self.trainData = self.reshapeListToArray(self.data[:self.splitTrainingTestData])

@@ -30,16 +30,21 @@ mkdir ${pathToSaveImages}
 cd ${pathToSaveImages}
 ffmpeg -i ${mpegVideoPath1} -r ${picturesPerSecond1} image-%05d.jpeg
 savedImagesNum=$(ls ${pathToSaveImages} | wc -l) 
-mkdir temp 
+mkdir temp
 cd temp
 ffmpeg -i ${mpegVideoPath2} -r ${picturesPerSecond2} image-%05d.jpeg
 savedImagesNew=$(ls ${pathToSaveImages}/temp | wc -l) 
+echo $savedImagesNew
+touch log.txt
+
 for i in $(seq -f "%05g" 1 ${savedImagesNew})
 do
-	counter=$(printf "%05d" $((${i} + ${savedImagesNum})))
-	mv image-${i}.jpeg image-${counter}.jpeg 
+	counter=$(printf "%05d" $((10#${i} + ${savedImagesNum})))
+
+	imageNameNew="${pathToSaveImages}/image-${counter}.jpeg"
+	imageNameOld="image-${i}.jpeg"
+	mv ${imageNameOld} ${imageNameNew}
 done
-mv ./* ${pathToSaveImages}
 cd ${pathToSaveImages}
 rm -r temp
 
@@ -50,10 +55,12 @@ ffmpeg -i ${mpegVideoPath3} -r ${picturesPerSecond3} image-%05d.jpeg
 savedImagesNew=$(ls ${pathToSaveImages}/temp | wc -l) 
 for i in $(seq -f "%05g" 1 ${savedImagesNew})
 do
-	counter=$(printf "%05d" $((${i} + ${savedImagesNum})))
-	mv image-${i}.jpeg image-${counter}.jpeg 
+	counter=$(printf "%05d" $((10#${i} + ${savedImagesNum})))
+
+	imageNameNew="${pathToSaveImages}/image-${counter}.jpeg"
+	imageNameOld="image-${i}.jpeg"
+	mv ${imageNameOld} ${imageNameNew}
 done
-mv ./* ${pathToSaveImages}
 cd ${pathToSaveImages}
 rm -r temp
 

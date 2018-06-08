@@ -17,8 +17,9 @@ class Runner(object):
     def __init__(self):
 
         self.logDirectory, self.configs = self.parseArgs()
-        self.pathToAdvertismentDetectionSourceCode = '/scratch/projekt1/AdvertisementDetection/src'
-        self.pathToDataPathesFile = '/scratch/projekt1/AdvertisementDetection/src/pathVariables.txt'
+        self.currentDir = os.path.dirname(os.path.abspath(__file__))
+        self.pathToAdvertismentDetectionSourceCode = self.currentDir + '/src'
+        self.pathToDataPathesFile = self.currentDir + '/src/pathVariables.txt'
         self.pathToWeights = str(self.logDirectory) + '/model.h5'
         self.pathToSaveHistory = str(self.logDirectory) + '/history'
 
@@ -83,15 +84,12 @@ class Runner(object):
         parser.add_argument('--epochs')
         
         args = vars(parser.parse_args())
-        print(args)
 
         logDir =args['logDir']
         for arg in configs:
             if arg in args:
                 configs[arg] = args[arg]
 
-        print(configs)
-            
         return logDir, configs
 
 if __name__ == "__main__":
