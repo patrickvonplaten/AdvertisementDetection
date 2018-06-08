@@ -31,6 +31,7 @@ class Runner(object):
     def start(self):
         from advertisementDetection import RecognitionSystem
         recogSystem = RecognitionSystem(data = self.data, pathToWeights = self.pathToWeights, pathToSaveHistory = self.pathToSaveHistory, configs = self.configs, model = self.model)
+        recogSystem.data.printInformationAboutData()
         recogSystem.printModelSummary()
 #        recogSystem.trainModel()      
 #        recogSystem.evaluateModel()
