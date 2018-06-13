@@ -10,7 +10,7 @@ import argparse
 from tensorflow.python.keras.models import Sequential
 from tensorflow.python.keras.layers import Flatten
 from tensorflow.python.keras.layers import Dense
-from tensorflow.python.keras.applications import vgg16 
+from tensorflow.python.keras.applications import vgg16
 
 class Runner(object):
 
@@ -31,10 +31,11 @@ class Runner(object):
     def start(self):
         from advertisementDetection import RecognitionSystem
         recogSystem = RecognitionSystem(data = self.data, pathToWeights = self.pathToWeights, pathToSaveHistory = self.pathToSaveHistory, configs = self.configs, model = self.model)
+        recogSystem.data.printInformationAboutData()
         recogSystem.printModelSummary()
-#        recogSystem.trainModel()      
+        recogSystem.trainModel()
 #        recogSystem.evaluateModel()
-      
+
 
     def readInData(self):
         with open(self.pathToDataPathesFile) as pathVariables:
@@ -42,13 +43,13 @@ class Runner(object):
             imagesPath = pathes[0]
             labelsPath = pathes[1]
         normalizeData = self.configs['normalizeData'] if 'normalizeData' in self.configs else False
-        from advertisementDetection import Preprocessor 
+        from advertisementDetection import Preprocessor
         preprocessedData = Preprocessor(imagesPath, labelsPath, normalizeData = normalizeData)
-        return preprocessedData 
+        return preprocessedData
 
 
     def getModel(self, input_shape, classes=1):
-        vgg16_model = vgg16.VGG16(include_top = False, input_shape = input_shape)
+        vgg16_model = vgg16.VGG16(include_top = False, weights = 'imagenet', input_shape = input_shape)
 
         model = Sequential()
         for layer in vgg16_model.layers:
@@ -82,7 +83,7 @@ class Runner(object):
         parser.add_argument('--momentum')
         parser.add_argument('--batchSize')
         parser.add_argument('--epochs')
-        
+
         args = vars(parser.parse_args())
 
         logDir =args['logDir']
@@ -95,5 +96,3 @@ class Runner(object):
 if __name__ == "__main__":
     runner = Runner()
     runner.start()
-
-  

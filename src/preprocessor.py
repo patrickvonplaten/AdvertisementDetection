@@ -24,12 +24,12 @@ class Preprocessor(object):
         self.imagesLen = len([name for name in os.listdir(imagesFolderName)]) # images start at idx = 1
         self.splitTrainingTestData = int(0.9 * self.imagesLen)
         self.data, self.labels  = self.convertJPEGImageToMatrix()
-        self.shuffleData(self.data, self.labels)
+        self.shuffledData, self.shuffledLabels = self.shuffleData(self.data, self.labels)
         self.imageShape = self.data[0].shape
-        self.trainData = self.reshapeListToArray(self.data[:self.splitTrainingTestData])
-        self.trainLabels = np.asarray(self.labels[:self.splitTrainingTestData])
-        self.testData = self.reshapeListToArray(self.data[self.splitTrainingTestData:])
-        self.testLabels = np.asarray(self.labels[self.splitTrainingTestData:])
+        self.trainData = self.reshapeListToArray(self.shuffledData[:self.splitTrainingTestData])
+        self.trainLabels = np.asarray(self.shuffledLabels[:self.splitTrainingTestData])
+        self.testData = self.reshapeListToArray(self.shuffledData[self.splitTrainingTestData:])
+        self.testLabels = np.asarray(self.shuffledLabels[self.splitTrainingTestData:])
         
         if(normalizeData):
             self.substractMeanFromImages()
@@ -40,7 +40,7 @@ class Preprocessor(object):
     def shuffleData(self, data, labels):
         zippedData = list(zip(data, labels))
         shuffle(zippedData)
-        self.data, self.labels = zip(*zippedData)
+        return zip(*zippedData)
 
     def substractMeanFromImages(self):
         self.data[:,:,0] -= np.mean(self.data[:,:, 0],dtype = np.uint8)
@@ -65,7 +65,6 @@ class Preprocessor(object):
         labels = ['idx', 'label', 'mean', 'var', 'maxVal', 'minVal']
         table = np.zeros((self.imagesLen, len(labels)))
 
-
         for idx, entry in enumerate(zip(self.data, self.labels)): #need unshuffled images
            table[idx][0] = idx + 1
            table[idx][1] = entry[1] #label
@@ -76,6 +75,7 @@ class Preprocessor(object):
 
         print('------------------------------------')
         print('Dimension of images ',self.imageShape)
+        print('Number of images containing ads ', sum(x == 1 for x in self.labels))
         print('------------------------------------')
         print(tabulate(table, headers=labels))
         print('------------------------------------')
