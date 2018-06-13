@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if which python3 >/dev/null 2>&1
+then
+  python3 /usr/share/texlive/texmf-dist/scripts/pythontex/depythontex3.py "$@"
+else
+  echo "You need to have python3 installed to be able to use" >&2
+  echo "the Python 3 version of depythontex!" >&2
+  echo "Exiting." >&2
+fi
+

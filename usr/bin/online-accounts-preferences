@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+if test /usr/share/applications/unity-credentials-panel.desktop
+then
+    unity-control-center credentials $@
+else
+    credentials-preferences $@
+fi

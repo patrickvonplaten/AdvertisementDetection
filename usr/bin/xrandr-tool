@@ -1,0 +1,95 @@
+#!/usr/bin/python3
+# -*- Mode: Python; coding: utf-8; indent-tabs-mode: nil; tab-width: 4 -*-
+#
+# Copyright (C) 2010-2012 Bryce Harrington <bryce@canonical.com>
+#
+# Permission is hereby granted, free of charge, to any person obtaining
+# a copy of this software and associated documentation files (the
+# "Software"), to deal in the Software without restriction, including
+# without limitation the rights to use, copy, modify, merge, publish,
+# distribute, sublicense, and/or sell copies of the Software, and to
+# permit persons to whom the Software is furnished to do so, subject to
+# the following conditions:
+#
+# The above copyright notice and this permission notice shall be included
+# in all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+# IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+# CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+# TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+# SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+import re
+import os
+import sys
+import subprocess
+
+# Add project root directory (enable symlink, and trunk execution).
+PROJECT_ROOT_DIRECTORY = os.path.abspath(
+    os.path.dirname(os.path.dirname(os.path.realpath(sys.argv[0]))))
+
+if (os.path.exists(os.path.join(PROJECT_ROOT_DIRECTORY, 'xdiagnose'))
+    and PROJECT_ROOT_DIRECTORY not in sys.path):
+    sys.path.insert(0, PROJECT_ROOT_DIRECTORY)
+    os.putenv('PYTHONPATH', PROJECT_ROOT_DIRECTORY) # for subprocesses
+
+if __name__ == "__main__":
+    from xdiagnose import info
+    from xdiagnose.utils.option_handler import OptionHandler
+    from xdiagnose.utils import debug
+
+    opt_hand = OptionHandler(info)
+    opt_hand.add('-v', '--verbose', dest='verbose',
+                 help='Show debug messages',
+                 action='store_true', default=False,
+                 desc='Turns on verbose debugging output.')
+    opt_hand.add('-f', '--fails-to-start', dest='failure_to_start',
+                 help="Troubleshoot failure to start a graphical X11 session",
+                 action='store_true', default=False,
+                 desc='Launch the GUI failsafe-X session to troubleshoot why X11 did not start.')
+    opts, args = opt_hand.parse_args()
+    debug.DEBUGGING = opts.verbose
+
+    if len(args) < 1:
+        print("Usage:  xrandr-tool <command>")
+        print()
+        print("Commands:")
+        print("  outputs")
+        print("  current-resolution [output-name]")
+        print("  resolutions [output-name]")
+        sys.exit(1)
+
+    command = args[0]
+    output_name = None
+    if len(args) > 1:
+        output_name = args[1]
+
+    re_output = re.compile("^(.*) (?:disconnected|connected) (.*)")
+    re_res    = re.compile("^   (\d+x\d+) *(.*)")
+
+    # The results from xrandr are given in terms of the available display devices.
+    # One device can have zero or more associated modes.  Unfortunately xrandr
+    # indicates this through indentation and is kinda wordy, so we have to keep
+    # track of the context we see mode names in as we parse the results.
+    process = subprocess.Popen(['xrandr'], stdout=subprocess.PIPE)
+    xrandr_stdout, xrandr_stderr = process.communicate()
+    current_output_name = None
+    for line in str(xrandr_stdout, encoding='utf8').split("\n"):
+        m = re_output.match(line)
+        if m:
+            current_output_name = m.group(1)
+            if command == "outputs":
+                print(current_output_name)
+
+        if "resolution" in command:
+            m = re_res.match(line)
+            if m and current_output_name == output_name:
+                res = m.group(1)
+                if command == "current-resolution":
+                    if line.find('*') != -1:
+                        print(res)
+                else:
+                    print(res)

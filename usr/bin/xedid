@@ -1,0 +1,203 @@
+#!/usr/bin/python3
+# -*- Mode: Python; coding: utf-8; indent-tabs-mode: nil; tab-width: 4 -*-
+#
+# Copyright (C) 2010-2012 Bryce Harrington <bryce@canonical.com>
+#
+# Permission is hereby granted, free of charge, to any person obtaining
+# a copy of this software and associated documentation files (the
+# "Software"), to deal in the Software without restriction, including
+# without limitation the rights to use, copy, modify, merge, publish,
+# distribute, sublicense, and/or sell copies of the Software, and to
+# permit persons to whom the Software is furnished to do so, subject to
+# the following conditions:
+#
+# The above copyright notice and this permission notice shall be included
+# in all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+# IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+# CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+# TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+# SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+import re
+import os
+import sys
+import fnmatch
+
+# Add project root directory (enable symlink, and trunk execution).
+PROJECT_ROOT_DIRECTORY = os.path.abspath(
+    os.path.dirname(os.path.dirname(os.path.realpath(sys.argv[0]))))
+
+if (os.path.exists(os.path.join(PROJECT_ROOT_DIRECTORY, 'xdiagnose'))
+    and PROJECT_ROOT_DIRECTORY not in sys.path):
+    sys.path.insert(0, PROJECT_ROOT_DIRECTORY)
+    os.putenv('PYTHONPATH', PROJECT_ROOT_DIRECTORY) # for subprocesses
+
+from xdiagnose.edid import Edid, EdidFirmware, load_edid_bytecodes
+from xdiagnose.utils.paths import locate
+from xdiagnose.utils import debug
+
+## NVIDIA ##
+#
+# In Precise, -nvidia does not support writable EDID via KMS.
+# However, it does provide a CustomEDID option in xorg.conf which
+# servces essentially the same purpose.  To use it, you need
+# a section like the following in your xorg.conf.  (I believe the
+# nvidia-config GUI tool has buttons to add this for you.)
+#
+#Section "Device"
+#    Identifier    "Device0"
+#    Driver        "nvidia" #Choose the driver used for this monitor
+#    Option "UseEDID" "FALSE"
+#    Option "CustomEDID" "DFP-1:/etc/X11/xorg.conf.d/edid.bin"
+#EndSection
+
+# TODO: Need a corresponding edid read functionality.  (Or can we
+#  just use the get-edid script from the read-edid package?)
+
+def usage():
+    return """xedid <command> [edid-sources]
+
+Commands:
+  list [edid-src]   - List edids available on the system
+  show [edid-src]   - Display decoded edid information
+  save [edid-src]   - Copy active EDIDs to binary *.edid files
+  raw [edid-src]    - Prints the EDID hex codes
+  install <edid>    - Adds given edid file to kernel firmware dir
+  uninstall <edid>  - Removes named edid file from firmware dir
+  activate <edid>   - Makes kernel use given edid from firmware dir
+
+Notes:
+  EDID sources (edid-src) can be Xorg.0.log files or binary or hex
+  edid files.  EDID binaries (edid) must be binary files in a valid
+  EDID data format.
+
+  The kernel's EDID firmware directory can have multiple edids
+  installed, but only one activated at a time.  The activated EDID is
+  passed to the kernel command line.
+"""
+
+from xdiagnose import info
+
+class Info(object):
+    PROGNAME = 'xedid'
+    VERSION = '1.0'
+    SHORT_DESCRIPTION = 'View, manipulate or override EDID data'
+
+    DESCRIPTION = """
+This utility allows you to install a new EDID into the kernel firmware
+directory to override the one read from the monitor.  This can be useful
+if the monitor's EDID is faulty or if a KVM or other adapter is causing
+the EDID to not be read properly.
+
+Also, it provides routines to examine EDID contents, convert them to and
+from various formats, and manipulate them in other ways.
+"""
+
+
+if __name__ == "__main__":
+    from optparse import OptionParser
+
+    opt_hand = OptionParser(usage=usage(),
+                            version="%s %s" %(Info.PROGNAME, Info.VERSION),
+                            epilog="%s - %s" %(info.PROGNAME, info.SHORT_DESCRIPTION)
+                            )
+
+    opt_hand.add_option('-v', '--verbose', dest="verbose",
+                 help="Show debug messages",
+                 action="store_true", default=False)
+                 #desc="Turns on verbose debugging output.")
+    opts, args = opt_hand.parse_args()
+    debug.DEBUGGING = opts.verbose
+
+    if len(args) > 0:
+        command = args[0]
+    else:
+        command = "show"
+
+    # Handle firmware requests
+    if command in ['install', 'uninstall', 'activate']:
+        # Test that everything is sane
+        if len(args) < 2:
+            print(usage())
+            sys.exit(2)
+        elif os.getenv("USER") != "root":
+            print("Error:  Must run as root")
+            sys.exit(3)
+
+        firmware = EdidFirmware()
+        for filename in args[1:]:
+            if command == 'install':
+                # TODO: Verify file(s) are valid edid
+                # TODO: Move install to an EdidFirmware class
+                firmware.install(filename)
+            elif command == 'uninstall':
+                firmware.uninstall(filename)
+            elif command == 'activate':
+                firmware.activate(filename)
+        sys.exit(0)
+
+    source_files = args[1:]
+    sources      = []
+    for filename in args[1:]:
+        for bytecode in load_edid_bytecodes(filename):
+            edid = Edid(bytecode)
+            sources.append(edid)
+
+    if len(sources) == 0:
+        # Xorg.0.log
+        for bytecode in load_edid_bytecodes("/var/log/Xorg.0.log"):
+            xlog_edid = Edid(bytecode)
+            xlog_edid._origin = "Xorg.0.log"
+            sources.append(xlog_edid)
+
+        # Kernel edid nodes
+        re_lvds = re.compile(".*LVDS.*")
+        # Identify what edid file sysfs nodes are present
+        for node in locate('edid', root="/sys"):
+            if re_lvds.match(node):
+                continue
+            try:
+                for bytecode in load_edid_bytecodes(node):
+                    node_edid = Edid(bytecode)
+                    node_edid._origin = "sysfs"
+                    sources.append(node_edid)
+            except:
+                continue
+
+    fw = EdidFirmware()
+    for fw_edid in fw.list():
+        sources.append(fw_edid)
+
+    # TODO: Weed out duplicate edids
+
+    source_number = 0
+    for edid in sources:
+        if command == "list":
+            print(edid.name)
+        elif command == "show":
+            print(edid)
+        elif command == "save":
+            filename = "%s-%s-%s.%02d.edid" %(
+                edid.manufacturer,
+                edid.product_id,
+                edid.serial_number,
+                source_number)
+            if edid.save(filename):
+                print(filename)
+        elif command == "raw":
+            raw_edid = edid.to_hex()
+            for i in range(0, int(len(raw_edid)/32)):
+                j = i + 1
+                print(raw_edid[i*32:j*32])
+            print()
+        else:
+            print("Unknown command '%s'" %(command))
+            print(usage())
+            sys.exit(1)
+        source_number += 1
+
+    sys.exit(0)

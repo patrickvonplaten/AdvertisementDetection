@@ -1,0 +1,4 @@
+#!/bin/sh
+
+CLASSPATH=/usr/share/java/stringtemplate.jar:/usr/share/java/stringtemplate4.jar:/usr/share/java/antlr3.jar:/usr/share/java/antlr3-runtime.jar
+exec java -cp $CLASSPATH org.antlr.Tool "$@"
