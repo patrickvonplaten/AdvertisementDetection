@@ -34,11 +34,6 @@ class findAdvLocation(object):
         self.testData = testData
         self.model = model
 
-    # def getLayerOutput(self, input_image, layer_no):
-    #     intermediate_layer_model = Model(inputs=self.model.input, outputs=self.model.get_layer(index = layer_no).output)
-    #     intermediate_output, predictions = intermediate_layer_model.predict(input_image)
-    #     return intermediate_output
-
 
     def drawGridOnAdvRegion(self, mask, image):
         for ii in range(len(mask)):
