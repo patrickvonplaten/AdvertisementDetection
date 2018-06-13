@@ -31,8 +31,8 @@ class Runner(object):
     def start(self):
         from advertisementDetection import RecognitionSystem
         recogSystem = RecognitionSystem(data = self.data, pathToWeights = self.pathToWeights, pathToSaveHistory = self.pathToSaveHistory, configs = self.configs, model = self.model)
-        recogSystem.data.printInformationAboutData()
-        recogSystem.printModelSummary()
+#        recogSystem.data.printInformationAboutData()
+#        recogSystem.printModelSummary()
         recogSystem.trainModel()
 #        recogSystem.evaluateModel()
 
@@ -58,7 +58,7 @@ class Runner(object):
             layer.trainable = False
 
         model.add(Flatten(name='flatten'))
-        model.add(Dense(1, activation='relu'))
+        model.add(Dense(2000, activation='relu'))
         model.add(Dense(classes, activation = 'sigmoid'))
 
         return model
@@ -70,8 +70,8 @@ class Runner(object):
             'momentum':0.9,
     #        'normalizeData':True,
             'nesterov':True,
-            'batchSize':8,
-            'epochs':1,
+            'batchSize':20,
+            'epochs':15,
             'loss':'binary_crossentropy',
             'metrics':['accuracy']
         }
@@ -86,11 +86,12 @@ class Runner(object):
 
         args = vars(parser.parse_args())
 
-        logDir =args['logDir']
-        for arg in configs:
-            if arg in args:
-                configs[arg] = args[arg]
+        logDir = args['logDir']
 
+        for arg in configs:
+            if arg in args and args[arg] is not None:
+                configs[arg] = float(args[arg])
+        
         return logDir, configs
 
 if __name__ == "__main__":
