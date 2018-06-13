@@ -88,7 +88,7 @@ class Runner(object):
 
         logDir =args['logDir']
         for arg in configs:
-            if arg in args:
+            if arg in args and args[arg] is not None:
                 configs[arg] = args[arg]
 
         return logDir, configs
