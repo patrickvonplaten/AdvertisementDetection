@@ -34,76 +34,70 @@ class findAdvLocation(object):
         self.testData = testData
         self.model = model
 
-    def getLayerOutput(self, input_image, layer_no):
-        intermediate_layer_model = Model(inputs=self.model.input, outputs=self.model.get_layer(index = layer_no).output)
-        intermediate_output, predictions = intermediate_layer_model.predict(input_image)
-        return intermediate_output
 
+    def drawGridOnAdvRegion(self, mask, image):
+        for ii in range(len(mask)):
+            img = image[ii]
+            M = mask[ii]
+            width, height = int(img.shape[0]/M.shape[0]),int(img.shape[1]/ M.shape[1])
+            R, G, B = (0,0,255), (0,255,0), (255,0,0)
+            #M = 18x24 output activations matrix -- normalized
+            for i in range(M.shape[0]):
+                for j in range( M.shape[1]):
+                    if(M[i][j]):
+                        cv2.rectangle(img, (j*width,i*height), ((j+1)*width,(i+1)*height), G)
+            cv2.imshow('result', img)
+            cv2.waitKey()
+            cv2.destroyAllWindows()
 
-    def drawGridOnAdvRegion(self):
-        img = obj_findAdvLocation.testData[0]
-        width, height = 32,32
-        R, G, B = (0,0,255), (0,255,0), (255,0,0)
-        #M = 18x24 output activations matrix -- normalize
-        M = np.ones((18,24))
-        for i in range(m):
-            for j in range(n):
-                if(M[i][j]>0.7):
-                    cv2.rectangle(img, (j*width,i*height), ((j+1)*width,(i+1)*height), G)
-        cv2.imshow('result', img)
-        cv2.waitKey()
-        cv2.destroyAllWindows()
-        pass
+    def tracebackNetwork(self,input):
+        img = input
 
-    def tracebackNetwork(self):
-        testInput = self.testData
-        threshold = 0.7
-        #guess = self.getLayerOutput(input_image = testInput, layer_no = -1)[0][1]
-        guess = 1
-        print(guess)
-        img = self.testData
-        self.model.summary()
+        #using: https://jacobgil.github.io/deeplearning/class-activation-maps
+        Mlist = []
+        for ii in range(input.shape[0]):
+            class_weights = self.model.layers[-1].get_weights()[0] #0:weight 1:bias
+            final_dense_layer = self.model.get_layer(index = -2).output
+            get_output = K.function([self.model.layers[0].input], [final_dense_layer,self.model.get_layer(index = -1).output])
+            [dense_outputs, predictions] = get_output([img])
+            dense_outputs = dense_outputs[ii, :]
+            class_weights = class_weights[:,ii]
+            cam = np.multiply(dense_outputs,class_weights)
+            cam /= np.max(cam)
+            max_contribution_index = np.argmax(cam)
+            print("outputs shape",dense_outputs.shape,"weights shape",class_weights.shape,"cam shape",cam.shape)
+            print("max index",max_contribution_index)
 
-
-
-        class_weights = self.model.layers[-1].get_weights()[0]
-        final_dense_layer = self.model.get_layer(index = -2).output
-        get_output = K.function([self.model.layers[0].input], [final_dense_layer,self.model.get_layer(index = -1).output])
-        [dense_outputs, predictions] = get_output([img])
-        print("outputs shape",dense_outputs.shape)
-        print("weights shape",class_weights.shape)
-        cam = np.multiply(dense_outputs,np.transpose(class_weights))
-        print("cam shape",cam.shape)
-        cam /= np.max(cam)
-        max_contribution_index = np.argmax(cam)
-        print("max index",max_contribution_index)
-
-        "repeat for dense-to-flatten"
-        class_weights = self.model.layers[-2].get_weights()[0]
-        flatten_layer = self.model.get_layer(index = -3).output
-        get_output = K.function([self.model.layers[0].input], [flatten_layer,self.model.get_layer(index = -2).output])
-        [flatten_outputs, predictions] = get_output([img])
-        print("outputs shape",flatten_outputs.shape)
-        print("weights shape",class_weights.shape)
-        column_for_max_index = class_weights[:,max_contribution_index]
-        cam = np.multiply(flatten_outputs,np.transpose(column_for_max_index))
-        print("cam shape",cam.shape)
-
-        cam /= np.max(cam)
-        print(cam)
-        max_contribution_index = np.argmax(cam)
-        print("max index",max_contribution_index)
-
-        # if(guess>threshold):
-        #     last_activations = obj_findAdvLocation.getLayerOutput(input_image = testInput, layer_no = -2)
-        #     previous_activations = obj_findAdvLocation.getLayerOutput(input_image = testInput, layer_no = -4)
-        #     print('PRINTING ABOUT ACTIVATIONS ---------------------- \n ')
-        #     print('last layer shape', last_activations.shape)
-        #     print('prev layer shape', previous_activations.shape)
-        #     print('element 5,5', previous_activations[0].shape)
-        #     K=1
-        #     indices = np.argpartition(previous_activations,-K,axis=-3)[-K:]
-        #     print('indices ', indices.shape)
-
+            "repeat for dense-to-flatten"
+            class_weights = self.model.layers[-2].get_weights()[0]
+            flatten_layer = self.model.get_layer(index = -3).output
+            get_output = K.function([self.model.layers[0].input], [flatten_layer,self.model.get_layer(index = -2).output])
+            [flatten_outputs, predictions] = get_output([img])
+            flatten_outputs = flatten_outputs[ii, :]
+            class_weights = class_weights[:,ii]
+            cam = np.multiply(flatten_outputs,class_weights)
+            max_contribution_index = np.argmax(cam)
+            max_real_val = flatten_outputs[max_contribution_index]
+            cam /= np.max(cam)
+            print("outputs shape",flatten_outputs.shape)
+            print("weights shape",class_weights.shape)
+            print("cam shape",cam.shape)
+            print("max index",max_contribution_index, "value of node", flatten_outputs[max_contribution_index])
+            conv_layer = self.model.get_layer(index = -4).output
+            get_output = K.function([self.model.layers[0].input], [conv_layer,self.model.get_layer(index = -3).output])
+            [conv_outputs, predictions] = get_output([img])
+            conv_outputs = conv_outputs[ii,:]
+            x,y,z = np.where(conv_outputs == max_real_val)
+            M = conv_outputs[:,:,x[0]]
+            if(np.max(M)):
+                M /= np.max(M)+1e-6
+            threshold = 0.6
+            M[M>=threshold] = 1
+            M[M<threshold] = 0
+            print("after thresholding",M)
+            Mlist.append(M)
+            return Mlist
+# run with
 obj_findAdvLocation = findAdvLocation(testData = _data.testData,model = model)
-obj_findAdvLocation.tracebackNetwork()
+_mask = obj_findAdvLocation.tracebackNetwork(_data.testData)
+obj_findAdvLocation.drawGridOnAdvRegion(mask = _mask, image = _data.testData)
