@@ -1,7 +1,5 @@
 #!/bin/bash
 
-learningRate=0.001
-
 for i in "$@"; do
 	name="${i%%=*}"
 	name="${name//-/_}"
@@ -18,22 +16,7 @@ export CPATH=/usr/local/include
 export CUDA_HOME=/usr/local/cuda-9.0
 nvidia-smi
 
-echo $SGE_ROOT
-
-#tfPythonPath=/tools/tensorflow/ENV_TF_GPU/bin
-tfPythonPath=/scratch/meyer/TF_IO/Project1_ENV/GPU-Version/bin/
-
-source ${tfPythonPath}/activate
-
-cd /scratch/projekt1/AdvertisementDetection 
-
-
-# Here you can start your program.
-# For example: m/scyProgramm $input $param1 $param2
-
-#${tfPythonPath}/python3 /scratch/projekt1/AdvertisementDetection/runAdvertisementDetection.py --logDir=$TMP --learningRate=$learningRate
-
-${tfPythonPath}/python3 runAdvertisementDetection.py --logDir=$TMP --learningRate=$learningRate
+/scratch/meyer/TF_IO/Project1_ENV/GPU-Version/bin/python3 /scratch/projekt1/AdvertisementDetection/runAdvertisementDetection.py --learningRate $learningRate --logDir $TMP
 cp -r $TMP/. $SCRATCHDIR
-deactivate
+
 
