@@ -30,7 +30,7 @@ class Preprocessor(object):
         self.trainLabels = np.asarray(self.shuffledLabels[:self.splitTrainingTestData])
         self.testData = self.reshapeListToArray(self.shuffledData[self.splitTrainingTestData:])
         self.testLabels = np.asarray(self.shuffledLabels[self.splitTrainingTestData:])
-        
+
         if(normalizeData):
             self.substractMeanFromImages()
 
@@ -54,7 +54,7 @@ class Preprocessor(object):
             for lineNum, label in enumerate(labelFile):
                 imagePath = os.path.join(self.imagesFolderName, 'image-' + str(lineNum+1).zfill(5) + '.jpeg')
                 image = cv2.imread(os.path.join(self.imagesFolderName, imagePath)) #0 makes the picture black/white - for color leave out 0
-                #image = cv2.resize(image, None, fx = 0.5, fy = 0.5, interpolation = cv2.INTER_CUBIC); #downsample images
+                image = cv2.resize(image, None, fx = 0.5, fy = 0.5, interpolation = cv2.INTER_CUBIC); #downsample images
                 #image = self.substractMeanFromImages(image)
                 data.append(image)
                 labels.append(int(label))

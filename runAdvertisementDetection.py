@@ -58,7 +58,7 @@ class Runner(object):
             layer.trainable = False
 
         model.add(Flatten(name='flatten'))
-        model.add(Dense(2000, activation='relu'))
+        model.add(Dense(1000, activation='relu'))
         model.add(Dense(classes, activation = 'sigmoid'))
 
         return model
@@ -91,7 +91,7 @@ class Runner(object):
         for arg in configs:
             if arg in args and args[arg] is not None:
                 configs[arg] = float(args[arg])
-        
+
         return logDir, configs
 
 if __name__ == "__main__":
