@@ -27,7 +27,6 @@ class Runner(object):
         self.data = self.readInData()
         self.model = self.getModel(input_shape = self.data.imageShape)
 
-
     def start(self):
         from advertisementDetection import RecognitionSystem
         recogSystem = RecognitionSystem(data = self.data, pathToWeights = self.pathToWeights, pathToSaveHistory = self.pathToSaveHistory, configs = self.configs, model = self.model)
