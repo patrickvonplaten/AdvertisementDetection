@@ -61,7 +61,7 @@ class RecognitionSystem(object):
         print("-----------------------------------------------------------------")
 
         os.makedirs('graph')
-        tbCallBack = TensorBoard(log_dir='./Graph', histogram_freq=0, write_graph=True, write_images=True)
+        tbCallBack = TensorBoard(log_dir='./graph', histogram_freq=0, write_graph=True, write_images=True)
 
         history = self.model.fit(x, y, batch_size=self.configs['batchSize'], epochs=self.configs['epochs'], verbose='2', callbacks=[tbCallBack] )
         self.model.save_weights(self.pathToWeights)
