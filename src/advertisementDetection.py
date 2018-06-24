@@ -4,6 +4,7 @@ import tensorflow as tf
 import pickle
 from preprocessor import Preprocessor
 from tensorflow.python.keras.optimizers import SGD
+from tensorflow.python.keras.callbacks import TensorBoard
 import pickle
 
 
@@ -59,7 +60,10 @@ class RecognitionSystem(object):
         print("Train Data: " + str(x.shape))
         print("-----------------------------------------------------------------")
 
-        history = self.model.fit(x, y, batch_size=self.configs['batchSize'], epochs=self.configs['epochs'], verbose='2' )
+        os.makedirs('graph')
+        tbCallBack = TensorBoard(log_dir='./Graph', histogram_freq=0, write_graph=True, write_images=True)
+
+        history = self.model.fit(x, y, batch_size=self.configs['batchSize'], epochs=self.configs['epochs'], verbose='2', callbacks=[tbCallBack] )
         self.model.save_weights(self.pathToWeights)
 
         with open(self.pathToSaveHistory, 'wb') as pickleFile:
@@ -73,18 +77,16 @@ class RecognitionSystem(object):
         
         print("Decode model")
         print("-----------------------------------------------------------------")
-
-        scalarLoss = self.model.evaluate(x, y, verbose=2)
+        self.predictData(x,y)
+        scores = self.model.evaluate(x, y, verbose=2)
 
         print("scalarLoss")
-        print(scalarLoss)
+        print("\n%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
 
-    def predictData(self, data):
-        """
-            Here we should create a function to predict the values of unseen data.
-            There is no evaluation here, since there are no labels
-            TODO: implement function using predict function from Keras:
-            https://keras.io/models/model/
-        """
-        pass
+    def predictData(self, x, y):
+        predictions = model.predict(X)
+        # round predictions
+        pred = [x[0] for x in predictions]
+        print("labels", y)
+        print("predictions", x)
 
