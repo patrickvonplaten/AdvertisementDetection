@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libasprintf.a
+/usr/include
+/usr/include/autosprintf.h
+/usr/share
+/usr/share/doc
+/usr/share/doc/libasprintf-dev
+/usr/share/doc/libasprintf-dev/copyright
+/usr/lib/x86_64-linux-gnu/libasprintf.so
+/usr/share/doc/libasprintf-dev/changelog.Debian.gz

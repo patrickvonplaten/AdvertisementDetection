@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcmis-0.5-5v5
+/usr/share/doc/libcmis-0.5-5v5/changelog.Debian.gz
+/usr/share/doc/libcmis-0.5-5v5/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libcmis-0.5.so.5.0.0
+/usr/lib/x86_64-linux-gnu/libcmis-c-0.5.so.5.0.0
+/usr/lib/x86_64-linux-gnu/libcmis-c-0.5.so.5
+/usr/lib/x86_64-linux-gnu/libcmis-0.5.so.5

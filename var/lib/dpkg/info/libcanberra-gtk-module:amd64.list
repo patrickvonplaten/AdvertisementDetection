@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcanberra-gtk-module
+/usr/share/doc/libcanberra-gtk-module/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/gtk-2.0
+/usr/lib/x86_64-linux-gnu/gtk-2.0/modules
+/usr/lib/x86_64-linux-gnu/gtk-2.0/modules/libcanberra-gtk-module.so
+/usr/lib/gnome-settings-daemon-3.0
+/usr/lib/gnome-settings-daemon-3.0/gtk-modules
+/usr/lib/gnome-settings-daemon-3.0/gtk-modules/canberra-gtk-module.desktop
+/usr/share/doc/libcanberra-gtk-module/README.gz
+/usr/share/doc/libcanberra-gtk-module/changelog.Debian.gz

@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/python3
+/usr/lib/python3/dist-packages
+/usr/lib/python3/dist-packages/sh.py
+/usr/lib/python3/dist-packages/sh-1.11.egg-info
+/usr/share
+/usr/share/doc
+/usr/share/doc/python3-sh
+/usr/share/doc/python3-sh/changelog.Debian.gz
+/usr/share/doc/python3-sh/copyright

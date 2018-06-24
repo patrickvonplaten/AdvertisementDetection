@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/bbswitch-dkms
+/usr/share/doc/bbswitch-dkms/README.md.gz
+/usr/share/doc/bbswitch-dkms/copyright
+/usr/share/doc/bbswitch-dkms/changelog.Debian.gz
+/usr/src
+/usr/src/bbswitch-0.8
+/usr/src/bbswitch-0.8/bbswitch.c
+/usr/src/bbswitch-0.8/dkms.conf
+/usr/src/bbswitch-0.8/Makefile

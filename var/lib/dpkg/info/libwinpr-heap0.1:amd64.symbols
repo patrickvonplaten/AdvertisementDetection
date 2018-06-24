@@ -1,0 +1,5 @@
+libwinpr-heap.so.0.1 libwinpr-heap0.1 #MINVER#
+ GetProcessHeap@Base 1.1.0~beta1+git20130629
+ HeapAlloc@Base 1.1.0~beta1+git20130629
+ HeapFree@Base 1.1.0~beta1+git20130629
+ HeapReAlloc@Base 1.1.0~beta1+git20130629

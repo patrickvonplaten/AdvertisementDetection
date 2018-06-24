@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -e
+
+rm -rf /usr/lib/flashplugin-installer/libflashplayer.so
+rm -f /var/lib/flashplugin-installer/*
+rm -rf /var/cache/flashplugin-installer/*
+rm -f /usr/share/ubufox/plugins/libflashplayer.so
+rm -f /var/lib/update-notifier/package-data-downloads/flashplugin-installer \
+      /var/lib/update-notifier/package-data-downloads/flashplugin-installer.*
+
+update-alternatives --quiet --remove "mozilla-flashplugin" /usr/lib/flashplugin-installer/libflashplayer.so
+
+
+
+exit 0
+
+# vim: ts=2 sw=2

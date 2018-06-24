@@ -1,0 +1,5 @@
+libakonadi-filestore 5 kdepim-runtime
+libakonadi-singlefileresource 5 kdepim-runtime
+libfolderarchivesettings 5 kdepim-runtime
+libkmindexreader 5 kdepim-runtime
+libmaildir 5 kdepim-runtime

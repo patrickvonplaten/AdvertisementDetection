@@ -1,0 +1,5 @@
+d90e207998d630902fa968e0fd0e6eae  usr/bin/kreadconfig5
+9dfd5221aa003bb1e00a600b10d767fe  usr/bin/kwriteconfig5
+b8b09753f68cc61ea4bf8ee91e94bc12  usr/lib/x86_64-linux-gnu/libexec/kf5/kconf_update
+bca461fe70b49e7cb5d68232b845b5dc  usr/share/doc/libkf5config-bin/copyright
+e2d203111e38731e21a8f3f9188c88d9  usr/share/lintian/overrides/libkf5config-bin

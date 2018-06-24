@@ -1,0 +1,13 @@
+#! /bin/sh
+
+set -e
+
+case "$1" in
+    remove|purge)
+        if [ -h /usr/local/cuda ]; then
+            rm -f /usr/local/cuda
+        fi
+        ;;
+esac
+
+

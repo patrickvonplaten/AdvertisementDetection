@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcolamd2.9.1
+/usr/share/doc/libcolamd2.9.1/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libcolamd.so.2.9.1
+/usr/share/doc/libcolamd2.9.1/NEWS.Debian.gz
+/usr/share/doc/libcolamd2.9.1/changelog.Debian.gz

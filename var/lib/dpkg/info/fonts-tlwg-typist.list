@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/fonts-tlwg-typist
+/usr/share/doc/fonts-tlwg-typist/copyright
+/etc
+/etc/fonts
+/etc/fonts/conf.d
+/etc/fonts/conf.avail
+/etc/fonts/conf.avail/64-22-tlwg-typist.conf
+/usr/share/doc/fonts-tlwg-typist/changelog.Debian.gz
+/etc/fonts/conf.d/64-22-tlwg-typist.conf

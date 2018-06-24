@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/gvfs-libs
+/usr/share/doc/gvfs-libs/copyright
+/usr/share/doc/gvfs-libs/AUTHORS
+/usr/share/doc/gvfs-libs/README
+/usr/share/doc/gvfs-libs/changelog.Debian.gz
+/usr/share/doc/gvfs-libs/NEWS.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/gvfs
+/usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so
+/usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so

@@ -1,0 +1,20 @@
+Document: cvxopt
+Section: Science/Mathematics
+Title: CvxOpt: Python Package for Convex Optimization
+Author: Joachim Dahl, Lieven Vandenberghe
+Abstract: CVXOPT is a Python package for convex optimization.
+ It includes Python classes for storing and manipulating
+ dense and sparse matrices, an interface to most of the
+ double-precision real and complex BLAS, an interface to the
+ dense linear equation solvers and eigenvalue routines from
+ LAPACK, interfaces to the sparse LU and Cholesky solvers
+ from UMFPACK and CHOLMOD, routines for solving convex
+ optimization problems, an interface to the linear
+ programming solver in GLPK, and interfaces to the linear and
+ quadratic programming solvers in MOSEK and a a modeling tool
+ for specifying convex piecewise-linear optimization
+ problems.
+
+Format: PDF
+Index: /usr/share/doc/python-cvxopt/CVXOPT.pdf
+Files: /usr/share/doc/python-cvxopt/CVXOPT.pdf

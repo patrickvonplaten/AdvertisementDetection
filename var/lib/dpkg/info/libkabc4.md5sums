@@ -1,0 +1,16 @@
+b352a8b4daa23169640abfb758f2a64e  usr/lib/kde4/kabc_directory.so
+1225a0339159517cb60e9d98bfbef60f  usr/lib/kde4/kabc_file.so
+d4b263280b87b8fa8f95a966f94be427  usr/lib/kde4/kabc_ldapkio.so
+b44d3600cea80a6ff3da8c93e49dc8cc  usr/lib/kde4/kabc_net.so
+b8d1c34bab7e3f71d1448b0710fc6363  usr/lib/kde4/kabcformat_binary.so
+062ec36e0e3093e7a558fa24f1927857  usr/lib/libkabc.so.4.14.11
+f083f7dbd888204c3d477a77ff664123  usr/lib/libkabc_file_core.so.4.14.11
+6b563077591973ab96f35313347ddb21  usr/share/doc/libkabc4/copyright
+72aaadf84547c1b1b6cb7534b003b728  usr/share/kde4/apps/kabc/countrytransl.map
+09864eb5bc0f16cae6e42212abfc3da0  usr/share/kde4/apps/kabc/formats/binary.desktop
+c37e4b2c1ffe824b3de01cd82dd22e6a  usr/share/kde4/services/kresources/kabc/dir.desktop
+24d86895974744cead967ae3e33be027  usr/share/kde4/services/kresources/kabc/file.desktop
+86c0bb1993d1450f1b6071b63b82561c  usr/share/kde4/services/kresources/kabc/ldapkio.desktop
+c56b1b07d97d5ed55108ec1b4d7347db  usr/share/kde4/services/kresources/kabc/net.desktop
+8cf5d15297c2b9d81f0ae00860feff11  usr/share/kde4/services/kresources/kabc_manager.desktop
+6ee9da9a5a9ec44c857b7719b9b6f9fc  usr/share/lintian/overrides/libkabc4

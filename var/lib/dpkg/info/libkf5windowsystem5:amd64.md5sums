@@ -1,0 +1,5 @@
+185eaf009bbae60ad149910093a626fe  usr/lib/x86_64-linux-gnu/libKF5WindowSystem.so.5.18.0
+57755f237411cb8a808aa3348751ee48  usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/org.kde.kwindowsystem.platforms/KF5WindowSystemWaylandPlugin.so
+6a4b8f26cb563c4d3e3b513cc9c3743a  usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/org.kde.kwindowsystem.platforms/KF5WindowSystemX11Plugin.so
+343e9beaea60f88c7792a66faf674763  usr/share/doc/libkf5windowsystem5/changelog.Debian.gz
+04b60fa4ce6eac1d2156c19f8fe5e980  usr/share/doc/libkf5windowsystem5/copyright

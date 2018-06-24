@@ -1,0 +1,16 @@
+73bb534551f5e1e34d10601f4553ed20  usr/lib/pkgconfig/cudart-8.0.pc
+0ed344402e37492ff4dee07850ce21b3  usr/lib/pkgconfig/nvToolsExt-8.0.pc
+1f971ee0675db1638afeab1bd77c5551  usr/local/cuda-8.0/targets/x86_64-linux/include/crt/device_runtime.h
+c1639dda79c2bdc72788bb092323ae20  usr/local/cuda-8.0/targets/x86_64-linux/include/crt/func_macro.h
+e836234a97a9523e6aa78715f2b303ef  usr/local/cuda-8.0/targets/x86_64-linux/include/crt/host_runtime.h
+e75077e6ae2b767db621940824eefa2d  usr/local/cuda-8.0/targets/x86_64-linux/include/crt/storage_class.h
+51289f114e51a8fd23748c45e650e355  usr/local/cuda-8.0/targets/x86_64-linux/include/cuda_device_runtime_api.h
+6c664928de5c10b595b6c08cde008ebb  usr/local/cuda-8.0/targets/x86_64-linux/include/cuda_runtime.h
+1417816c819502868916cedc5e168280  usr/local/cuda-8.0/targets/x86_64-linux/include/cuda_runtime_api.h
+adaa85bf26e3a723483dfedfec5f2798  usr/local/cuda-8.0/targets/x86_64-linux/include/nvToolsExtCudaRt.h
+86c0e789dc5f3fec25416516967b2a20  usr/local/cuda-8.0/targets/x86_64-linux/lib/libOpenCL.so.1.0.0
+7072f4f39cb452bd144982a921bad193  usr/local/cuda-8.0/targets/x86_64-linux/lib/libcudadevrt.a
+129beb307e72aa0633b5daa74a4c3a9d  usr/local/cuda-8.0/targets/x86_64-linux/lib/libcudart_static.a
+d5eada7d9b2cb9f6fa82a8a0afa6609b  usr/local/cuda-8.0/targets/x86_64-linux/lib/libculibos.a
+c673c52ccef88f0e9e4e0ef4e18ac511  usr/share/doc/cuda-cudart-dev-8-0/changelog.Debian.gz
+0eeae78db8d839562622336047a1c99d  usr/share/doc/cuda-cudart-dev-8-0/copyright

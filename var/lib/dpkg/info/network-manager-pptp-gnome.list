@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/NetworkManager
+/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-pptp-properties.so
+/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-vpn-plugin-pptp.so
+/usr/lib/NetworkManager
+/usr/lib/NetworkManager/nm-pptp-auth-dialog
+/usr/share
+/usr/share/gnome-vpn-properties
+/usr/share/gnome-vpn-properties/pptp
+/usr/share/gnome-vpn-properties/pptp/nm-pptp-dialog.ui
+/usr/share/doc
+/usr/share/doc/network-manager-pptp-gnome
+/usr/share/doc/network-manager-pptp-gnome/copyright
+/usr/share/doc/network-manager-pptp-gnome/changelog.Debian.gz

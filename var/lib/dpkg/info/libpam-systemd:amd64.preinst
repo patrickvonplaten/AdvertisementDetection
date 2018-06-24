@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/init/systemd-logind.conf 204-9ubuntu1~ libpam-systemd -- "$@"
+# End automatically added section

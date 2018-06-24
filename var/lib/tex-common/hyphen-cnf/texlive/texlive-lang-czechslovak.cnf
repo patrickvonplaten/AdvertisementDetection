@@ -1,0 +1,2 @@
+name=czech lefthyphenmin=2 righthyphenmin=3 file=loadhyph-cs.tex file_patterns=hyph-cs.pat.txt file_exceptions=hyph-cs.hyp.txt
+name=slovak lefthyphenmin=2 righthyphenmin=3 file=loadhyph-sk.tex file_patterns=hyph-sk.pat.txt file_exceptions=hyph-sk.hyp.txt

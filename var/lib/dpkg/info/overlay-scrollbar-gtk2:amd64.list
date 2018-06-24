@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/gtk-2.0
+/usr/lib/x86_64-linux-gnu/gtk-2.0/modules
+/usr/lib/x86_64-linux-gnu/gtk-2.0/modules/liboverlay-scrollbar.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/overlay-scrollbar-gtk2
+/usr/share/doc/overlay-scrollbar-gtk2/changelog.Debian.gz
+/usr/share/doc/overlay-scrollbar-gtk2/copyright

@@ -1,0 +1,8 @@
+name=afrikaans lefthyphenmin=1 righthyphenmin=2 file=loadhyph-af.tex file_patterns=hyph-af.pat.txt file_exceptions=hyph-af.hyp.txt
+name=coptic lefthyphenmin=1 righthyphenmin=1 file=loadhyph-cop.tex file_patterns=hyph-cop.pat.txt file_exceptions=
+name=esperanto lefthyphenmin=2 righthyphenmin=2 file=loadhyph-eo.tex file_patterns=hyph-eo.pat.txt file_exceptions=
+name=georgian lefthyphenmin=1 righthyphenmin=2 file=loadhyph-ka.tex file_patterns=hyph-ka.pat.txt file_exceptions=
+name=indonesian lefthyphenmin=2 righthyphenmin=2 file=loadhyph-id.tex file_patterns=hyph-id.pat.txt file_exceptions=hyph-id.hyp.txt
+name=interlingua lefthyphenmin=2 righthyphenmin=2 file=loadhyph-ia.tex file_patterns=hyph-ia.pat.txt file_exceptions=hyph-ia.hyp.txt
+name=thai lefthyphenmin=2 righthyphenmin=3 file=loadhyph-th.tex file_patterns=hyph-th.pat.txt file_exceptions=
+name=turkmen lefthyphenmin=2 righthyphenmin=2 file=loadhyph-tk.tex file_patterns=hyph-tk.pat.txt file_exceptions=

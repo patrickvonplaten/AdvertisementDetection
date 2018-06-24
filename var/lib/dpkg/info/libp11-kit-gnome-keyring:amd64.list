@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libp11-kit-gnome-keyring
+/usr/share/doc/libp11-kit-gnome-keyring/AUTHORS
+/usr/share/doc/libp11-kit-gnome-keyring/README
+/usr/share/doc/libp11-kit-gnome-keyring/copyright
+/usr/share/doc/libp11-kit-gnome-keyring/NEWS.gz
+/usr/share/doc/libp11-kit-gnome-keyring/changelog.Debian.gz
+/usr/share/p11-kit
+/usr/share/p11-kit/modules
+/usr/share/p11-kit/modules/gnome-keyring.module
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/pkcs11
+/usr/lib/x86_64-linux-gnu/pkcs11/gnome-keyring-pkcs11.so

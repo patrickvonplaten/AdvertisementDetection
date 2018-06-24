@@ -1,0 +1,9 @@
+ddc256c7db426b27a0c8bb1a485e6f01  usr/lib/x86_64-linux-gnu/qt5/bin/qtwaylandscanner
+e0f21cefa26d13dce9e0b8fb151f1cd6  usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqwayland-egl.so
+bd0c28ddf2926b18be4210f668b0c5ae  usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqwayland-generic.so
+73d2bb69cb2ec22bc126b0ae731f24a9  usr/lib/x86_64-linux-gnu/qt5/plugins/wayland-decoration-client/libbradient.so
+ac03b6d299014da790612725ba80a78e  usr/lib/x86_64-linux-gnu/qt5/plugins/wayland-graphics-integration-client/libdrm-egl-server.so
+7d4019319710c96eb839e294025424b3  usr/lib/x86_64-linux-gnu/qt5/plugins/wayland-graphics-integration-client/libwayland-egl.so
+c2aa00be325a2b605074f82e16a093e6  usr/lib/x86_64-linux-gnu/qt5/plugins/wayland-graphics-integration-client/libxcomposite-egl.so
+2a256bfd2de46f85f662479aa4d9499f  usr/lib/x86_64-linux-gnu/qt5/plugins/wayland-graphics-integration-client/libxcomposite-glx.so
+180378f69714b626f4c6926d640c663f  usr/share/doc/qtwayland5/copyright

@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/nodejs
+/usr/lib/nodejs/inherits
+/usr/lib/nodejs/inherits/inherits.js
+/usr/lib/nodejs/inherits/package.json
+/usr/share
+/usr/share/doc
+/usr/share/doc/node-inherits
+/usr/share/doc/node-inherits/copyright
+/usr/share/doc/node-inherits/README.md
+/usr/lib/nodejs/inherits/inherits_browser.js
+/usr/share/doc/node-inherits/changelog.Debian.gz

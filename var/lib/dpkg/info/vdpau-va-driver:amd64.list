@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/dri
+/usr/lib/x86_64-linux-gnu/dri/vdpau_drv_video.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/vdpau-va-driver
+/usr/share/doc/vdpau-va-driver/copyright
+/usr/share/doc/vdpau-va-driver/changelog.Debian.gz
+/usr/lib/x86_64-linux-gnu/dri/s3g_drv_video.so
+/usr/lib/x86_64-linux-gnu/dri/nvidia_drv_video.so

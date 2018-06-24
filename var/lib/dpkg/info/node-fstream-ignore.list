@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/nodejs
+/usr/lib/nodejs/fstream-ignore
+/usr/lib/nodejs/fstream-ignore/ignore.js
+/usr/share
+/usr/share/doc
+/usr/share/doc/node-fstream-ignore
+/usr/share/doc/node-fstream-ignore/README.md
+/usr/share/doc/node-fstream-ignore/examples
+/usr/share/doc/node-fstream-ignore/examples/basic.js
+/usr/share/doc/node-fstream-ignore/copyright
+/usr/share/doc/node-fstream-ignore/changelog.Debian.gz
+/usr/lib/nodejs/fstream-ignore/index.js

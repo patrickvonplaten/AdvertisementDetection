@@ -1,0 +1,7 @@
+8cf1d18d588a38b0b0d2965d9211dd43  usr/lib/x86_64-linux-gnu/qca/crypto/libqca-cyrus-sasl.so
+4c40f19b9f8bec752f153e41eb45bb34  usr/lib/x86_64-linux-gnu/qca/crypto/libqca-gnupg.so
+23692b15c92403c6a63ce59a950bc3fd  usr/lib/x86_64-linux-gnu/qca/crypto/libqca-logger.so
+eaeffd129488a5aa3dc46cdece987358  usr/lib/x86_64-linux-gnu/qca/crypto/libqca-ossl.so
+dd615b6162f67114a5c76bafbc481956  usr/lib/x86_64-linux-gnu/qca/crypto/libqca-softstore.so
+01327a2d92de74c45eb002b1ff8fc163  usr/share/doc/libqca2-plugins/copyright
+ea8f9d59d2037881a7c6e76f8b4b5a17  usr/share/lintian/overrides/libqca2-plugins

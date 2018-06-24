@@ -1,0 +1,15 @@
+Document: bogofilter-tuning-howto
+Section: Network/Communication
+Title: Tuning Bogofilter's Robinson-Fisher Method -- An Updated HOWTO
+Author: Greg Louis
+Abstract: Bogotune is a tool (shipped with bogofilter) that automates the
+ tuning process. Its "full search" mode performs a five-dimensional grid
+ search over possible values of the parameters to be described in this howto,
+ and comes up with recommendations for optimal settings. There's also a
+ "partial search" mode that is only three-dimensional. If you have enough spam
+ and nonspam messages (at least 2,500 of each), using bogotune is highly
+ recommended for optimizing bogofilter's accuracy.
+
+Format: HTML
+Index: /usr/share/doc/bogofilter-common/bogofilter-tuning.HOWTO.html
+Files: /usr/share/doc/bogofilter-common/bogofilter-tuning.HOWTO.html

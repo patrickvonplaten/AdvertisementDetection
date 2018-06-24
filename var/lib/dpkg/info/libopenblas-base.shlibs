@@ -1,0 +1,3 @@
+libopenblas 0 libopenblas-base
+libblas 3 libblas3 | libblas.so.3
+liblapack 3 liblapack3 | liblapack.so.3

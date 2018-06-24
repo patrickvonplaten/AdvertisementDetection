@@ -1,0 +1,9 @@
+auto
+/usr/bin/gnuplot5
+gnuplot5.1.gz
+/usr/share/man/man1/gnuplot5.1.gz
+
+/usr/bin/gnuplot5-qt
+70
+/usr/share/man/man1/gnuplot5-qt.1.gz
+

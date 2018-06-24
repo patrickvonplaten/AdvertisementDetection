@@ -1,0 +1,25 @@
+#!/bin/sh -e
+# texlive-binaries postinst, created 2008 by Frank Küster
+# probably not copyrightable as it looks now, but anyway the code maybe 
+# freely copied, distributed and/or modified
+
+
+# activate the xdvi.bin alternative
+case "$1" in 
+  configure|reconfigure)
+    update-alternatives --install /usr/bin/xdvi.bin xdvi.bin /usr/bin/xdvi-xaw 30
+    update-alternatives --install /usr/bin/bibtex bibtex \
+    		/usr/bin/bibtex.original 100	\
+		--slave /usr/share/man/man1/bibtex.1.gz bibtex.1.gz \
+			/usr/share/man/man1/bibtex.original.1.gz
+    ;;
+esac
+
+case "$1" in
+  configure|reconfigure)
+    dpkg-trigger texmf-format
+    ;;
+esac
+
+
+

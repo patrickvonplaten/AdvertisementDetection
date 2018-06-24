@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmirclient9
+/usr/share/doc/libmirclient9/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libmirclient.so.9
+/usr/share/doc/libmirclient9/changelog.Debian.gz

@@ -1,0 +1,237 @@
+This is TeXk, Version 3.14159265 (TeX Live 2016/Debian) (INITEX)  10 JUN 2017 07:49
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**lollipop.ini
+(/usr/share/texlive/texmf-dist/tex/lollipop/lollipop.ini
+(/usr/share/texlive/texmf-dist/tex/lollipop/lollipop.tex
+(/usr/share/texlive/texmf-dist/tex/lollipop/lollipop-plain.tex
+\@TM@c=\count23
+\@TC@c=\count24
+\z@=\dimen10
+\maxdimen=\dimen11
+\hideskip=\skip10
+\centering=\skip11
+\p@=\dimen12
+\z@skip=\skip12
+\voidb@x=\box10
+\smallskipamount=\skip13
+\medskipamount=\skip14
+\bigskipamount=\skip15
+\normalbaselineskip=\skip16
+\normallineskip=\skip17
+\normallineskiplimit=\dimen13
+\jot=\dimen14
+\interdisplaylinepenalty=\count25
+\interfootnotelinepenalty=\count26
+\strutbox=\box11
+\mscount=\count27
+\tabs=\box12
+\tabsyet=\box13
+\tabsdone=\box14
+\rootbox=\box15
+\p@renwd=\dimen15
+\footins=\insert254
+\topins=\insert253
+
+(/usr/share/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex))
+(/usr/share/texlive/texmf-dist/tex/lollipop/lollipop-tools.tex
+\tempdima=\dimen16
+\tempdimb=\dimen17
+\tempdimc=\dimen18
+\tempskipa=\skip18
+\tempskipb=\skip19
+\tempskipc=\skip20
+\tempcounta=\count28
+\tempcountb=\count29
+\tempcountc=\count30
+\tempboxa=\box16
+\tempboxb=\box17
+\tempboxc=\box18
+\tempboxd=\box19
+\temptoksa=\toks10
+\temptoksb=\toks11
+\temptoksc=\toks12
+\empty@toks=\toks13
+\dummies=\count31
+\are@these@correct=\toks14
+\toks@lista=\toks15
+\toks@listb=\toks16
+\stack@length=\count32
+\empty@stack=\toks17
+\generic@defaults=\toks18
+\start@commands=\toks19
+\stop@commands=\toks20
+\style@start@commands=\toks21
+\style@stop@commands=\toks22
+\trace@all=\count33
+\trace@gen=\count34
+\trace@def=\count35
+\@gencons=\toks23
+\generic@stop@defaults=\toks24
+\@GenericOptions=\toks25
+\@main@options@list=\toks26
+\before@coms=\toks27
+\after@coms=\toks28
+\z@toks=\toks29
+\nest@depth=\count36
+\@whitebefore=\toks30
+\whitebefore=\skip21
+\@whiteafter=\toks31
+\whiteafter=\skip22
+\@whiteleft=\toks32
+\@whiteright=\toks33
+\group@C=\count37
+\group@open@lineno=\count38
+\title@toks=\toks34
+\extra@args=\count39
+\text@in@line=\count40
+\line@toks=\toks35
+\line@box=\box20
+\block@box=\box21
+\BlockWidth=\dimen19
+\before@toks=\toks36
+\after@toks=\toks37
+)
+(/usr/share/texlive/texmf-dist/tex/lollipop/lollipop-define.tex
+\trace@ref=\count41
+\current@label=\toks38
+\duplicate@labels=\count42
+\unknown@refs=\count43
+\trace@ext=\count44
+\extern@toks=\toks39
+\late@extern@toks=\toks40
+\build@extern@toks=\toks41
+\extern@x@toks=\toks42
+\extern@y@toks=\toks43
+\extern@z@toks=\toks44
+\@labelcoms=\toks45
+)
+(/usr/share/texlive/texmf-dist/tex/lollipop/lollipop-fonts.tex
+\trace@font=\count45
+\roman@fam=\fam4
+\italic@fam=\fam5
+\bold@fam=\fam6
+\tty@fam=\fam7
+\Kgriek=\fam8
+\VMIfam=\fam9
+)
+(/usr/share/texlive/texmf-dist/tex/lollipop/lollipop-fontdefs.tex)
+(/usr/share/texlive/texmf-dist/tex/lollipop/lollipop-text.tex
+\TextBlock@defaults=\toks46
+\ParagraphShape@defaults=\toks47
+\@@space=\dimen20
+\trace@skip=\count46
+\filler=\skip23
+\trace@indent=\count47
+\levelindent=\dimen21
+\previousindent=\dimen22
+\indentlevel@C=\count48
+\@restoreparskip=\skip24
+\EveryParagraph=\toks48
+\one@shot@toks=\toks49
+\EveryMath=\toks50
+\EveryDisplay=\toks51
+\every@everymath=\toks52
+\high@fam=\count49
+\rightmarginstretch=\skip25
+\leftmarginstretch=\skip26
+\@lijntoks=\toks53
+)
+(/usr/share/texlive/texmf-dist/tex/lollipop/lollipop-document.tex
+\trace@doc=\count50
+\aux@file=\write0
+\incaux@file=\write1
+\ext@files@list=\toks54
+\ext@text@toks=\toks55
+\ext@labl@toks=\toks56
+\ext@page@toks=\toks57
+)
+(/usr/share/texlive/texmf-dist/tex/lollipop/lollipop-heading.tex
+\Heading@defaults=\toks58
+)
+(/usr/share/texlive/texmf-dist/tex/lollipop/lollipop-output.tex
+\PageGrid@defaults=\toks59
+\trace@out=\count51
+\user@overrides=\toks60
+\botins=\insert252
+\Page@RL=\toks61
+\page@head@box=\box22
+\page@head@toks=\toks62
+\head@height=\dimen23
+\page@foot@box=\box23
+\page@foot@toks=\toks63
+\foot@height=\dimen24
+\page@body@box=\box24
+\page@body@toks=\toks64
+\WholePage=\box25
+\n@cols=\count52
+\@colnum=\count53
+\user@n@cols=\count54
+\GutterWidth=\skip27
+\page@options=\toks65
+\text@height=\dimen25
+\otr@settings=\toks66
+\otr@conditions=\toks67
+\user@page@height=\dimen26
+\user@text@height=\dimen27
+\height@toks=\toks68
+\page@height=\dimen28
+\width@toks=\toks69
+\page@width=\dimen29
+\text@width=\dimen30
+\saved@page@box=\box26
+\saved@hsize=\dimen31
+\saved@pageno=\count55
+\saved@mark@items=\toks70
+\trace@mark=\count56
+\mark@items=\toks71
+\mark@toks@first@page=\toks72
+)
+(/usr/share/texlive/texmf-dist/tex/lollipop/lollipop-float.tex
+\Insertion@defaults=\toks73
+\trace@ins=\count57
+)
+(/usr/share/texlive/texmf-dist/tex/lollipop/lollipop-lists.tex
+\List@defaults=\toks74
+\@labelbox=\box27
+\indent@depth=\toks75
+\item@coms=\toks76
+\item@b@coms=\toks77
+\item@a@coms=\toks78
+\item@e@coms=\toks79
+\itemlevel@C=\count58
+\item@C=\count59
+\item@RL=\toks80
+\enumlevel@C=\count60
+\ExternalItem@defaults=\toks81
+)
+\verbatimwhiteleft=\skip28
+\verbatimwhitebefore=\skip29
+\verbatimwhiteafter=\skip30
+\RightPage@routine=\toks82
+
+) )
+Beginning to dump on file lollipop.fmt
+ (preloaded format=lollipop 2017.6.10)
+3424 strings of total length 48446
+33368 memory locations dumped; current usage is 158&33037
+2327 multiletter control sequences
+\font\nullfont=nullfont
+\font\exx=cmex10
+\font\ttx=cmtt10
+\font\tenrm=cmr10
+\font\ttix=cmtt9
+\font\ttxi=cmtt10 at 10.95pt
+\font\ttxii=cmtt10 at 12.0pt
+\font\ttxiv=cmtt10 at 14.4pt
+\font\ttxvii=cmtt10 at 17.28pt
+\font\ttxx=cmtt10 at 20.73999pt
+\font\ComputerModernboldxii=cmbx10 at 12.0pt
+\font\ComputerModernslantxii=cmsl10 at 12.0pt
+\font\ComputerModernitalicxii=cmti10 at 12.0pt
+\font\ComputerModernromanxii=cmr10 at 12.0pt
+3006 words of font info for 13 preloaded fonts
+19 hyphenation exceptions
+Hyphenation trie of length 6075 has 181 ops out of 35111
+  181 for language 0
+No pages of output.

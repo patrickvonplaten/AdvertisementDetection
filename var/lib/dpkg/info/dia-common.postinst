@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installxmlcatalogs
+if [ "$1" = "configure" ]; then
+	update-xmlcatalog --add --type system --id "http://www.lysator.liu.se/~alla/dia/" --package dia-common --local /usr/share/xml/dia/diagram.dtd
+	update-xmlcatalog --add --type system --id "http://www.lysator.liu.se/~alla/dia/dia-sheet-ns" --package dia-common --local /usr/share/xml/dia/sheet.dtd
+	update-xmlcatalog --add --type system --id "http://www.daa.com.au/~james/dia-shape-ns" --package dia-common --local /usr/share/xml/dia/shape.dtd
+
+	update-xmlcatalog --add --type system --id "http://www.lysator.liu.se/~alla/dia/" --package dia-common --root
+	update-xmlcatalog --add --type system --id "http://www.lysator.liu.se/~alla/dia/dia-sheet-ns" --package dia-common --root
+	update-xmlcatalog --add --type system --id "http://www.daa.com.au/~james/dia-shape-ns" --package dia-common --root
+
+fi
+# End automatically added section

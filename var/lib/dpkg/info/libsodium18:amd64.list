@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libsodium.so.18.0.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/libsodium18
+/usr/share/doc/libsodium18/THANKS
+/usr/share/doc/libsodium18/AUTHORS
+/usr/share/doc/libsodium18/copyright
+/usr/share/doc/libsodium18/changelog.Debian.gz
+/usr/share/doc/libsodium18/README.markdown
+/usr/lib/x86_64-linux-gnu/libsodium.so.18

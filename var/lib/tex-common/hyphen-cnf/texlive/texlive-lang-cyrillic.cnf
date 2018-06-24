@@ -1,0 +1,8 @@
+name=bulgarian lefthyphenmin=2 righthyphenmin=2 file=loadhyph-bg.tex file_patterns=hyph-bg.pat.txt file_exceptions=
+name=churchslavonic lefthyphenmin=1 righthyphenmin=2 file=loadhyph-cu.tex file_patterns=hyph-cu.pat.txt file_exceptions=hyph-cu.hyp.txt
+name=mongolian lefthyphenmin=2 righthyphenmin=2 file=loadhyph-mn-cyrl.tex file_patterns=hyph-mn-cyrl.pat.txt file_exceptions=
+name=mongolianlmc lefthyphenmin=2 righthyphenmin=2 file=loadhyph-mn-cyrl-x-lmc.tex luaspecial="disabled:only for 8bit montex with lmc encoding"
+name=russian lefthyphenmin=2 righthyphenmin=2 file=loadhyph-ru.tex file_patterns=hyph-ru.pat.txt file_exceptions=hyph-ru.hyp.txt
+name=serbian lefthyphenmin=2 righthyphenmin=2 file=loadhyph-sr-latn.tex file_patterns=hyph-sh-latn.pat.txt,hyph-sh-cyrl.pat.txt file_exceptions=hyph-sh-latn.hyp.txt,hyph-sh-cyrl.hyp.txt
+name=serbianc lefthyphenmin=2 righthyphenmin=2 file=loadhyph-sr-cyrl.tex file_patterns=hyph-sh-latn.pat.txt,hyph-sh-cyrl.pat.txt file_exceptions=hyph-sh-latn.hyp.txt,hyph-sh-cyrl.hyp.txt
+name=ukrainian lefthyphenmin=2 righthyphenmin=2 file=loadhyph-uk.tex file_patterns=hyph-uk.pat.txt file_exceptions=

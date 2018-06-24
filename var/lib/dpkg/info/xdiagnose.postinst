@@ -1,0 +1,27 @@
+#!/bin/sh
+set -e
+
+# Automatically added by dhpython:
+if which py3compile >/dev/null 2>&1; then
+	py3compile -p xdiagnose -V 3.2-
+fi
+
+# End automatically added section
+# Automatically added by dh_installinit
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ]; then
+	if [ -x "/etc/init.d/failsafe-x" ]; then
+		update-rc.d failsafe-x defaults >/dev/null || exit $?
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installudev
+if [ "$1" = configure ]; then
+	if [ -e "/etc/udev/rules.d/z60_xdiagnose.rules" ]; then
+		echo "Preserving user changes to /etc/udev/rules.d/60-xdiagnose.rules ..."
+		if [ -e "/etc/udev/rules.d/60-xdiagnose.rules" ]; then
+			mv -f "/etc/udev/rules.d/60-xdiagnose.rules" "/etc/udev/rules.d/60-xdiagnose.rules.dpkg-new"
+		fi
+		mv -f "/etc/udev/rules.d/z60_xdiagnose.rules" "/etc/udev/rules.d/60-xdiagnose.rules"
+	fi
+fi
+# End automatically added section

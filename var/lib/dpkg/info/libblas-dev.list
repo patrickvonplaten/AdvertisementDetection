@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/include
+/usr/include/cblas_f77.h
+/usr/include/cblas_mangling.h
+/usr/include/cblas.h
+/usr/lib
+/usr/lib/libblas
+/usr/lib/libblas/libblas.a
+/usr/lib/pkgconfig
+/usr/lib/pkgconfig/blas-netlib.pc
+/usr/share
+/usr/share/doc
+/usr/share/doc/libblas-dev
+/usr/share/doc/libblas-dev/copyright
+/usr/lib/libblas/libblas.so
+/usr/share/doc/libblas-dev/changelog.Debian.gz

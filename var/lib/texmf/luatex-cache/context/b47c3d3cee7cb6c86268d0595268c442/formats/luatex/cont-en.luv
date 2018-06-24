@@ -1,0 +1,6 @@
+return {
+ ["enginebanner"]="This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)",
+ ["formatbanner"]="2016.05.17 19:20",
+ ["sourcefile"]="context.mkiv",
+ ["sourcehash"]="71353da145be423a1129ab46453a551d",
+}

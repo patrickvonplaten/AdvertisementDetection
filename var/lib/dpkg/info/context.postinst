@@ -1,0 +1,130 @@
+#!/bin/sh
+set -e
+
+dhit_libkpathsea_configured ()
+{
+    kpsewhich --version >/dev/null 2>&1
+}
+
+case "$1" in
+  configure)
+    # dealing with doc link changes, bug #716892
+    # tex-common >=4 removes the link 
+    #   /usr/share/texmf/doc -> /usr/share/doc/texmf
+    # In addition, the preinst of tex-common renames the link
+    # and the postinst removes the backup of the link
+    #
+    # now if the order of unpacking is reversed on upgrade
+    # the doc files get lost:
+    # wheezy status: context ships files in /usr/share/doc/texmf
+    # post wheezy status: context ships files in /usr/share/texmf/doc
+    #
+    # order of events in the bad case
+    # - wheezy installed, dist upgrade
+    # - new context is unpacked, files should go into /u/s/texmf/doc,
+    #   but since that is a link the files end up in /u/s/doc/texmf.
+    # - tex-common is updated, removing the link
+    # - tex-common is configured
+    # - context is configured
+    # files have moved from /u/s/texmf/doc to /u/s/doc/texmf
+    #
+    # We deal with this case by moving the files back to the
+    # proper place in the following way
+    # - preinst: 
+    #   If . tex-common is at version ~ 3, context at 2012
+    #      . /u/s/texmf/doc is a link as specified above
+    #   then
+    #      touch /var/lib/tex-common/context-inverse-update-stamp
+    # - postinst
+    #   If . -r /var/lib/tex-common/context-inverse-update-stamp
+    #      . doc files are in /u/s/doc/texmf
+    #   then move them back to /u/s/texmf/doc
+    #
+    if [ -r /var/lib/tex-common/context-inverse-update-stamp ] ; then
+      dpkg-query --listfiles context | grep ^/usr/share/texmf/doc | while read f
+      do
+        misplacedf=`echo "$f" | sed -e 's=^/usr/share/texmf/doc=/usr/share/doc/texmf='`
+      	if [ -f "$misplacedf" ] ; then
+	  mkdir -p `dirname "$f"`
+	  mv "$misplacedf" "$f"
+	fi
+      done
+      # try to remove all the directories that have been there
+      for i in /usr/share/doc/texmf/context/scripts/mkiv/ \
+      	       /usr/share/doc/texmf/context/scripts/mkii/ \
+      	       /usr/share/doc/texmf/context/scripts/ \
+	       /usr/share/doc/texmf/context/third/gnuplot/ \
+	       /usr/share/doc/texmf/context/third/ \
+	       /usr/share/doc/texmf/context/document/general/manuals/ \
+	       /usr/share/doc/texmf/context/document/general/ \
+	       /usr/share/doc/texmf/context/document/ \
+	       /usr/share/doc/texmf/context/manuals/allkind/ \
+	       /usr/share/doc/texmf/context/manuals/ \
+	       /usr/share/doc/texmf/context/ \
+	       /usr/share/doc/texmf/man/man1/ \
+	       /usr/share/doc/texmf/man/ \
+	       /usr/share/doc/texmf/ ; do
+        if [ -d $i ] ; then
+          rmdir --ignore-fail-on-non-empty $i
+	fi
+      done
+      rm /var/lib/tex-common/context-inverse-update-stamp
+    fi
+    #
+    if dhit_libkpathsea_configured; then
+      tempfile=$(mktemp -p /tmp mtxrun.XXXXXXXX)
+      printf "Running mtxrun --generate. This may take some time... "
+      if mtxrun --generate > $tempfile 2>&1 ; then
+        rm -f $tempfile
+        echo "done."
+      else
+        exec >&2
+        echo
+        echo "mtxrun --generate failed. Output has been stored in"
+        echo "$tempfile"
+        echo "Please include this file if you report a bug."
+        echo
+        exit 1
+      fi
+      tempfile=$(mktemp -p /tmp luatools.XXXXXXXX)
+      printf "Pregenerating ConTeXt MarkIV format. This may take some time... "
+      if luatools --make cont-en > $tempfile 2>&1 ; then
+        rm -f $tempfile
+        echo "done."
+      else
+        exec >&2
+        echo
+        echo "luatools --make cont-en failed. Output has been stored in"
+        echo "$tempfile"
+        echo "Please include this file if you report a bug."
+        echo
+        exit 1
+      fi
+    fi
+  ;;
+esac
+
+# Automatically added by dh_installtex
+##
+## postinst-tex
+##
+## postinst snippets for everything TeX related
+## simply call update-texmf-config triggers
+##
+## Authors:
+##       Norbert Preining <preining@logic.at>
+##
+#
+
+case "$1" in
+    configure|abort-upgrade|abort-remove|abort-deconfigure)
+        update-texmf-config format
+    ;;
+esac
+
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/texmf/fmt.d/20context.cnf 2015.05.18.20150601-1~ -- "$@"
+# End automatically added section
+
+

@@ -1,0 +1,16 @@
+1f15ea87fe4ad2a147cae90d991c0858  usr/lib/python-tz/test-pytz.py
+452b460bb7b68b0419153b5300cdd14d  usr/lib/python2.7/dist-packages/pytz-2014.10.egg-info/PKG-INFO
+b86f0e9dc86dd150c1af3f164b060183  usr/lib/python2.7/dist-packages/pytz-2014.10.egg-info/SOURCES.txt
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python2.7/dist-packages/pytz-2014.10.egg-info/dependency_links.txt
+ed76ffe63253549d6de9af58ab1d5c53  usr/lib/python2.7/dist-packages/pytz-2014.10.egg-info/top_level.txt
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python2.7/dist-packages/pytz-2014.10.egg-info/zip-safe
+24186d7a5369aa466a675ec6f4c1c793  usr/lib/python2.7/dist-packages/pytz/__init__.py
+3098f22760c2b7c22d00b7c716a1a1e2  usr/lib/python2.7/dist-packages/pytz/exceptions.py
+5e7a0547c90c3db9f26f44fe84031975  usr/lib/python2.7/dist-packages/pytz/lazy.py
+2371e732444a1f7fba22b26211d791c9  usr/lib/python2.7/dist-packages/pytz/reference.py
+a741b4408254f02406d61b80ee2dff87  usr/lib/python2.7/dist-packages/pytz/tzfile.py
+511a87b554408d966f85b2570e4c4822  usr/lib/python2.7/dist-packages/pytz/tzinfo.py
+634e9bdbdde16dfb36153ad55c6b93c2  usr/share/doc/python-tz/README.txt.gz
+85965201e59dcce2d2e0e6222923b558  usr/share/doc/python-tz/changelog.Debian.gz
+46676675e90b574be277e8900c428542  usr/share/doc/python-tz/copyright
+6432b3f1c917a5522a5801e86477faae  usr/share/python/runtime.d/python-tz.rtupdate

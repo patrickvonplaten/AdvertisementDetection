@@ -1,0 +1,4 @@
+aa534e4dbc7cfb71ab827fc8951914f8  usr/include/xcb/present.h
+52d05924fd33a32c6a7f45342a138410  usr/lib/x86_64-linux-gnu/libxcb-present.a
+7b84f068413e13a85f63d0742092caa8  usr/lib/x86_64-linux-gnu/pkgconfig/xcb-present.pc
+360fadb0d222af6607a189d435e3a9f3  usr/share/doc/libxcb-present-dev/copyright

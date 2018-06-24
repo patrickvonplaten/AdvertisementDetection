@@ -1,0 +1,4 @@
+e40ff12722d8f2a1bb43467ca3bc155e  usr/lib/x86_64-linux-gnu/libgit2.so.0.24.0
+df8805badcd339b50ec5d5fbc3c7432e  usr/share/doc/libgit2-24/changelog.Debian.gz
+662c178f8ae6b6b398a6611f0b82e95b  usr/share/doc/libgit2-24/copyright
+c4ae4083c617733ddd80115a16680230  usr/share/lintian/overrides/libgit2-24

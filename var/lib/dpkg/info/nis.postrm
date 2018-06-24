@@ -1,0 +1,37 @@
+#! /bin/sh
+#
+#	Post removal script for the Debian GNU/Linux nis package
+#
+
+set -e
+
+for conffile in ypbind.conf start-ypbind.conf ypserv.conf yppasswdd.conf \
+                ypxfrd.conf
+do
+	dpkg-maintscript-helper rm_conffile /etc/init/"${conffile}" 3.17-34ubuntu3~ \
+	                        nis -- "$@"
+done
+
+# Source debconf library.
+if [ -f /usr/share/debconf/confmodule ]; then
+	. /usr/share/debconf/confmodule
+	if [ "$1" = "purge" ]; then
+		db_purge
+	fi
+fi
+
+case "$1" in
+	purge)
+		update-rc.d nis remove >/dev/null
+		rm -f /etc/default/nis
+		rm -f /etc/defaultdomain
+		rm -r /var/yp
+		exit 0
+		;;
+	remove)
+		;;
+	upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+		;;
+esac
+
+exit 0

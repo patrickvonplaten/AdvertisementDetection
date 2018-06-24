@@ -1,0 +1,3 @@
+/etc/apparmor.d/usr.lib.snapd.snap-confine.real
+/etc/profile.d/apps-bin-path.sh
+/etc/xdg/autostart/snap-userd-autostart.desktop

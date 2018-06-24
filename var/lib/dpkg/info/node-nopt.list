@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/nodejs
+/usr/lib/nodejs/nopt.js
+/usr/share
+/usr/share/doc
+/usr/share/doc/node-nopt
+/usr/share/doc/node-nopt/README.md.gz
+/usr/share/doc/node-nopt/examples
+/usr/share/doc/node-nopt/examples/my-program.js
+/usr/share/doc/node-nopt/copyright
+/usr/share/doc/node-nopt/changelog.Debian.gz

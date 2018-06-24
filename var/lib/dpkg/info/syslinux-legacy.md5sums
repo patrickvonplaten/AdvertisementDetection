@@ -1,0 +1,12 @@
+47f37b2da1eae24cd22ba8bbc3a33fe6  usr/bin/syslinux-legacy
+5da8a28a36c3ab43b03056e21379426a  usr/lib/syslinux-legacy/mbr.bin
+76db98d5cd1cc70dcdc4cac40cf3a2f7  usr/share/doc/syslinux-legacy/BUGS
+711a3b7ad2b9d1f2dbb56bb7b0d7d3ca  usr/share/doc/syslinux-legacy/README
+ebbd450e051093adcffc76ca7dac225c  usr/share/doc/syslinux-legacy/README.gfxboot
+bfdbaa8a8380b0c423e2ebe3a4b0560e  usr/share/doc/syslinux-legacy/TODO
+8e74d77dab61e958dca8464422364a26  usr/share/doc/syslinux-legacy/changelog.Debian.gz
+a0cff3e2d422d4cacebc61a4ce3fd3be  usr/share/doc/syslinux-legacy/copyright
+eefd809dd64c8fd57524446e7425f40c  usr/share/doc/syslinux-legacy/menu.txt.gz
+74a6e223407a577be89a92920cd305db  usr/share/doc/syslinux-legacy/syslinux.txt.gz
+401c2a71235e431e2ae0e722cc4995ce  usr/share/doc/syslinux-legacy/usbkey.txt
+be2faadb57aa74b24761e2c77e5f7381  usr/share/man/man1/syslinux-legacy.1.gz

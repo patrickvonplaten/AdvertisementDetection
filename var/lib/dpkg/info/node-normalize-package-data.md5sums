@@ -1,0 +1,8 @@
+78fa43be04727a35cbec23fc1942b09b  usr/lib/nodejs/normalize-package-data/lib/extract_description.js
+46d0d122a6cc5d97608b22689ceef16d  usr/lib/nodejs/normalize-package-data/lib/fixer.js
+cca02dc469bcbbc1dafcdeae4ef7e4ea  usr/lib/nodejs/normalize-package-data/lib/normalize.js
+70049af27b641ef7a2ef6af9f1ed2f83  usr/lib/nodejs/normalize-package-data/lib/typos.json
+03f9a113a94d98ade377e2c3df1533bb  usr/lib/nodejs/normalize-package-data/package.json
+9b8144abed0f627ad38b695f147e4c7e  usr/share/doc/node-normalize-package-data/README.md.gz
+8dca55a4489705bb32750a821a144664  usr/share/doc/node-normalize-package-data/changelog.Debian.gz
+c453226ee549b3d10a249a22451ac8d9  usr/share/doc/node-normalize-package-data/copyright

@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt4
+/usr/lib/x86_64-linux-gnu/qt4/plugins
+/usr/lib/x86_64-linux-gnu/qt4/plugins/sqldrivers
+/usr/lib/x86_64-linux-gnu/qt4/plugins/sqldrivers/libqsqlite.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/libqt4-sql-sqlite
+/usr/share/doc/libqt4-sql-sqlite/copyright
+/usr/share/doc/libqt4-sql-sqlite/changelog.Debian.gz
+/usr/share/doc/libqt4-sql-sqlite/LGPL_EXCEPTION.txt

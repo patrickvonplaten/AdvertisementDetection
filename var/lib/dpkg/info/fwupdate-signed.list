@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/fwupdate
+/usr/lib/fwupdate/version
+/usr/lib/fwupdate/fwupx64.efi.signed
+/usr/share
+/usr/share/doc
+/usr/share/doc/fwupdate-signed
+/usr/share/doc/fwupdate-signed/changelog.Debian.gz
+/usr/share/doc/fwupdate-signed/copyright

@@ -1,0 +1,16 @@
+/.
+/etc
+/etc/xdg
+/etc/xdg/autostart
+/etc/xdg/autostart/a11y-profile-manager-indicator-autostart.desktop
+/usr
+/usr/bin
+/usr/bin/a11y-profile-manager-indicator
+/usr/share
+/usr/share/doc
+/usr/share/doc/a11y-profile-manager-indicator
+/usr/share/doc/a11y-profile-manager-indicator/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/a11y-profile-manager-indicator.1.gz
+/usr/share/doc/a11y-profile-manager-indicator/changelog.Debian.gz

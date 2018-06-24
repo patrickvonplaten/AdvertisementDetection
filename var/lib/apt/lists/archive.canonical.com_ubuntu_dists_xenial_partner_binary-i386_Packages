@@ -1,0 +1,215 @@
+Package: adobe-flashplugin
+Priority: optional
+Section: web
+Installed-Size: 29785
+Maintainer: DL-Flash Player Ubuntu <FlashPlayerUbuntu@adobe.com>
+Architecture: i386
+Version: 1:20180607.1-0ubuntu0.16.04.1
+Recommends: adobe-flash-properties-gtk (= 1:20180607.1-0ubuntu0.16.04.1) | adobe-flash-properties-kde (= 1:20180607.1-0ubuntu0.16.04.1)
+Replaces: flashplugin (<< 6)
+Suggests: firefox | chromium-browser, x-ttcidfont-conf, msttcorefonts, ttf-bitstream-vera | ttf-dejavu, ttf-xfree86-nonfree, xfs (>= 1:1.0.1-5), libnspr4-0d, libnss3-1d
+Provides: flashplugin-nonfree
+Depends: wget, fontconfig, libc6 (>= 2.11), libfontconfig1 (>= 2.11.94), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.2), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.22.0), libgtk2.0-0 (>= 2.24.0), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.12.0~beta3), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.3), libx11-6, libxt6
+Conflicts: flashplayer-mozilla, flashplugin (<< 6), flashplugin-downloader, flashplugin-installer, xfs (<< 1:1.0.1-5)
+Filename: pool/partner/a/adobe-flashplugin/adobe-flashplugin_20180607.1-0ubuntu0.16.04.1_i386.deb
+Size: 8873192
+MD5sum: e753e29afee9405ad565612dff499c31
+SHA1: 2cc503fffe2b0a325ebf86e359247974496c4122
+SHA256: 7c933a406d9cca03c7e340179f82c65b3fb0cb187808b96667bf04ca27d40a91
+Description: Adobe Flash Player plugin
+Description-md5: 4414ca68dbd37fdc3008c70a8a107946
+Npp-File: libflashplayer.so
+Npp-Mimetype: application/x-shockwave-flash
+Npp-Applications: ec8030f7-c20a-464f-9b0e-13a3a9e97384, 92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a, aa5ca914-c309-495d-91cf-3141bbb04115
+Npp-Description: Adobe Flash Plugin (http://www.adobe.com)
+Npp-Name: Adobe Flash Plugin
+
+Package: adobe-flash-properties-gtk
+Source: adobe-flashplugin
+Priority: optional
+Section: web
+Installed-Size: 674
+Maintainer: DL-Flash Player Ubuntu <FlashPlayerUbuntu@adobe.com>
+Architecture: i386
+Version: 1:20180607.1-0ubuntu0.16.04.1
+Provides: adobe-flash-properties
+Depends: adobe-flashplugin (= 1:20180607.1-0ubuntu0.16.04.1), libc6 (>= 2.7), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.14.0), libstdc++6 (>= 4.1.1)
+Filename: pool/partner/a/adobe-flashplugin/adobe-flash-properties-gtk_20180607.1-0ubuntu0.16.04.1_i386.deb
+Size: 142732
+MD5sum: e8783035c8e06077c918692e1d0fa686
+SHA1: 4a24750164ecf6269eff2f540ddf22e26e056e0f
+SHA256: 5a3e49f8073073e32a08a1f1b123bce25ee73a0d92e422c660c66d189acc76a7
+Description: GTK+ control panel for Adobe Flash Player plugin
+Description-md5: c0ca975b4427ced66609fa3dfdd8cac5
+
+Package: adobe-flash-properties-kde
+Source: adobe-flashplugin
+Priority: optional
+Section: web
+Installed-Size: 763
+Maintainer: DL-Flash Player Ubuntu <FlashPlayerUbuntu@adobe.com>
+Architecture: i386
+Version: 1:20180607.1-0ubuntu0.16.04.1
+Provides: adobe-flash-properties
+Depends: adobe-flashplugin (= 1:20180607.1-0ubuntu0.16.04.1), libc6 (>= 2.7), libkdecore5 (>= 4:4.3.4), libkdeui5 (>= 4:4.3.4), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.1.1)
+Filename: pool/partner/a/adobe-flashplugin/adobe-flash-properties-kde_20180607.1-0ubuntu0.16.04.1_i386.deb
+Size: 177460
+MD5sum: 08f40ec0a887b7fe203a35fa54db6331
+SHA1: 80ebd41933932612746f7307773f0d53803f7e25
+SHA256: cfff849c9724ff0b83c9b27795761454bb359de83d40a5af854833066fed25c8
+Description: KDE control panel Adobe Flash Player plugin
+Description-md5: 278f8fa35a532d8eb8005cd83c4e88e0
+
+Package: gce-daemon
+Source: gce-utils
+Priority: extra
+Section: admin
+Installed-Size: 101
+Maintainer: Ben Howard <ben.howard@ubuntu.com>
+Architecture: i386
+Version: 1.3.3-0ubuntu6~16.04.0
+Depends: openssh-server (>= 1:5.9p1), python-boto, python2.7, python:any (>= 2.7.5-5~), init-system-helpers (>= 1.18~)
+Conflicts: network-manager
+Filename: pool/partner/g/gce-utils/gce-daemon_1.3.3-0ubuntu6~16.04.0_i386.deb
+Size: 24806
+MD5sum: ab87643536dfb6fb9dad81988e60ee5d
+SHA1: 10059e780bf5624115fc3c559de27a559f2b1328
+SHA256: db2470c09acfed96b38d585b3df763a1ab0d8e23a08f06827aad6fe5c325d2fd
+Description: Google daemon for configuring instances
+Description-md5: 06a4cd9a54dd896c539eb4c8edaef69d
+Original-Maintainer: Google Inc <no-reply@google.com>
+
+Package: gce-startup-scripts
+Source: gce-utils
+Priority: extra
+Section: admin
+Installed-Size: 102
+Maintainer: Ben Howard <ben.howard@ubuntu.com>
+Architecture: i386
+Version: 1.3.3-0ubuntu6~16.04.0
+Depends: python-boto, google-cloud-sdk, python2.7, python:any (>= 2.7.5-5~), init-system-helpers (>= 1.18~)
+Conflicts: network-manager
+Filename: pool/partner/g/gce-utils/gce-startup-scripts_1.3.3-0ubuntu6~16.04.0_i386.deb
+Size: 23314
+MD5sum: 455588de2630c63ee0045fee5adbca83
+SHA1: ce797f6be39f181ec85fa03d289ca3933254161a
+SHA256: 1bfbc87c7bc5257de4a413d4e26c737bac9fa598a9c5576f60923879950625cc
+Description: Google Compute Engine Start-up scripts
+Description-md5: 9de81cf821a9dde6584671507ea460f3
+Original-Maintainer: Google Inc <no-reply@google.com>
+
+Package: gce-imagebundle
+Source: gce-utils
+Priority: extra
+Section: admin
+Installed-Size: 146
+Maintainer: Ben Howard <ben.howard@ubuntu.com>
+Architecture: i386
+Version: 1.3.2-0ubuntu1
+Depends: rsync, kpartx, uuid-runtime, python (>= 2.7), python2.7, python:any (>= 2.7.5-5~)
+Filename: pool/partner/g/gce-utils/gce-imagebundle_1.3.2-0ubuntu1_i386.deb
+Size: 31178
+MD5sum: 05e3a81a933fb66d0e80a301688c3c2f
+SHA1: c4e127d689a7f6eaf2240a8edd33e883f54927e0
+SHA256: b0831562154992b3eadb9bb33e3002bd99280a2d06e9ff99452fdd6115f3b096
+Description: Bundle image for use on Google Compute Engine
+Description-md5: 90baabcdf37a66430a86c9c317fcb2a0
+Original-Maintainer: Google Inc <no-reply@google.com>
+
+Package: google-cloud-sdk
+Priority: optional
+Section: admin
+Installed-Size: 97987
+Maintainer: Canonical CPC Team <cpc@canonical.com>
+Architecture: all
+Version: 201.0.0-0ubuntu2~16.04.0
+Depends: findutils, python2.7, python:any (>= 2.6.6-7~), python-crcmod, python-google-compute-engine
+Conflicts: gsutils
+Filename: pool/partner/g/google-cloud-sdk/google-cloud-sdk_201.0.0-0ubuntu2~16.04.0_all.deb
+Size: 15376352
+MD5sum: 1a5ca875e7f1652b379fa3611fdcff00
+SHA1: 4fab8cdee76628b3bcf0556aeac993578230ba85
+SHA256: 7f50ab6c0d9cd5071a1959d1a22f58eeeb55c595db8f8f885a0b2a0a0a75c9e8
+Description: Google Cloud SDK for interacting with Google Cloud services.
+Description-md5: 633ed1e69235db3da94c02ebf49323ed
+
+Package: gce-cloud-config
+Source: gce-utils
+Priority: extra
+Section: admin
+Installed-Size: 26
+Maintainer: Ben Howard <ben.howard@ubuntu.com>
+Architecture: i386
+Version: 1.3.3-0ubuntu6~16.04.0
+Recommends: google-cloud-sdk, libpam-cracklib
+Depends: gce-daemon
+Pre-Depends: gce-startup-scripts, ntp, cloud-init
+Filename: pool/partner/g/gce-utils/gce-cloud-config_1.3.3-0ubuntu6~16.04.0_i386.deb
+Size: 4520
+MD5sum: 2a7b4c030a7c5ca538ed2ae8854b6e27
+SHA1: 94059fcd6f03b9ae6e917d6aa62f54cfac902401
+SHA256: 730232ab98e951de507fc5e2e4dfa6f4f9e289fc469c9863a5613bc48642fef5
+Description: Configuration for Ubuntu on Google Compute Engine
+Description-md5: df659787f100694d1fcd363d5e5e5044
+Original-Maintainer: Google Inc <no-reply@google.com>
+
+Package: ibm-java80-jdk
+Source: ibm-java80
+Priority: optional
+Section: java
+Installed-Size: 47210
+Maintainer: Java Information Manager <jimmail@uk.ibm.com>
+Architecture: i386
+Version: 8.0.5.11-0ubuntu1
+Provides: ibmsdk, java-compiler, java-sdk, java2-sdk, java5-sdk, java6-sdk, java7-sdk, java8-sdk
+Depends: ibm-java80-jre (= 8.0.5.11-0ubuntu1), libc6, libgcc1, libx11-6
+Pre-Depends: debconf (>= 0.5) | debconf-2.0
+Filename: pool/partner/i/ibm-java80/ibm-java80-jdk_8.0.5.11-0ubuntu1_i386.deb
+Size: 33793650
+MD5sum: fa1687b78dda401d97cbd6b884d65cd1
+SHA1: 16fbc299ec048b23c54e8938853b6695e62688de
+SHA256: 68a0d4c811520d7ffe9649dac73b07167100a8108ec6933bb6fb5051186da158
+Description: IBM Java(TM) Development Kit (JDK) 8.0
+Description-md5: 3799a3d9816dcc55524b097e09129397
+Multi-Arch: same
+
+Package: ibm-java80-jre
+Source: ibm-java80
+Priority: optional
+Section: java
+Installed-Size: 157073
+Maintainer: Java Information Manager <jimmail@uk.ibm.com>
+Architecture: i386
+Version: 8.0.5.11-0ubuntu1
+Suggests: ibm-java80-plugin
+Provides: ibmjre, java-runtime, java-runtime-headless, java2-runtime, java2-runtime-headless, java5-runtime, java5-runtime-headless, java6-runtime, java6-runtime-headless, java7-runtime, java7-runtime-headless, java8-runtime, java8-runtime-headless, jre
+Depends: java-common (>= 0.24), libasound2, libc6, libgcc1, libstdc++6, libx11-6, libxext6, libxft2, libxi6, libxrender1, libxtst6
+Conflicts: j2se-common
+Pre-Depends: debconf (>= 0.5) | debconf-2.0
+Filename: pool/partner/i/ibm-java80/ibm-java80-jre_8.0.5.11-0ubuntu1_i386.deb
+Size: 99354702
+MD5sum: c1795690623f5c5db649f0f846a692b6
+SHA1: 86c2c8e9c88c87414b0214297002adb1e22268e2
+SHA256: 0679d3edfb833d5e1decca30901b743a77ab264b22ca0be75c207fbcfaffde1c
+Description: IBM Java(TM) Runtime Environment (JRE) 8.0
+Description-md5: 9b8a65c3f0ef20a6992c0987c85e49c7
+Multi-Arch: same
+
+Package: ibm-java80-plugin
+Source: ibm-java80
+Priority: optional
+Section: java
+Installed-Size: 9
+Maintainer: Java Information Manager <jimmail@uk.ibm.com>
+Architecture: i386
+Version: 8.0.5.11-0ubuntu1
+Depends: ibm-java80-jre (= 8.0.5.11-0ubuntu1)
+Filename: pool/partner/i/ibm-java80/ibm-java80-plugin_8.0.5.11-0ubuntu1_i386.deb
+Size: 1512
+MD5sum: 6996f83d451eb742a545cb3de6cd4292
+SHA1: fcd8099994910ec6d1cdd7960cedc09c21e7afc1
+SHA256: b9d5993728c004ffe3495ee3e7145f18695b99d799df0bc16cf4f1e43d9c4542
+Description: Java(TM) Plug-in, Java SE 8.0
+Description-md5: 84b38e4cb6eec83470f4eab33638ec63
+Multi-Arch: same
+

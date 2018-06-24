@@ -1,0 +1,4 @@
+4c75eed7d2496c0f17c22f0c45ff2bd3  usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kquickcontrolsaddons/libkquickcontrolsaddonsplugin.so
+7371544df235908efc0c67b2111a8282  usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kquickcontrolsaddons/qmldir
+d436042e35b196b024939def8586e820  usr/share/doc/qml-module-org-kde-kquickcontrolsaddons/copyright
+380d35c335d62af697f0a2179c76d5b5  usr/share/lintian/overrides/qml-module-org-kde-kquickcontrolsaddons

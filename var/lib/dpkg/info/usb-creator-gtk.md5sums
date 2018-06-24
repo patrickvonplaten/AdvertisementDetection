@@ -1,0 +1,9 @@
+404879f3917276927f5cd1c06561c921  usr/bin/usb-creator-gtk
+6b99bef49af6916853cd49bd230703ef  usr/lib/python3/dist-packages/usbcreator/frontends/gtk/__init__.py
+868e85d6049c28778279033eb2ee6c8d  usr/lib/python3/dist-packages/usbcreator/frontends/gtk/frontend.py
+23cbe25708f554faa25ad8bad997316e  usr/lib/python3/dist-packages/usbcreator/frontends/gtk/unitysupport.py
+f3eba7ebc2c421def951e93c1560644b  usr/share/applications/usb-creator-gtk.desktop
+89774d812ee627262bfcb45e42cc7753  usr/share/doc/usb-creator-gtk/copyright
+f2ee21233b7bd0bf99d3d2dce49ce687  usr/share/icons/hicolor/scalable/apps/usb-creator-gtk.svg
+4eb55176ffdfdf11f2711ce5e074f01b  usr/share/man/man8/usb-creator-gtk.8.gz
+a84b3a558459bce1f125366d7a79ff23  usr/share/usb-creator/usbcreator-gtk.ui

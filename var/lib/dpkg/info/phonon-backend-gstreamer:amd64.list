@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/kde4
+/usr/share/kde4/services
+/usr/share/kde4/services/phononbackends
+/usr/share/kde4/services/phononbackends/gstreamer.desktop
+/usr/share/doc
+/usr/share/doc/phonon-backend-gstreamer
+/usr/share/doc/phonon-backend-gstreamer/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt4
+/usr/lib/x86_64-linux-gnu/qt4/plugins
+/usr/lib/x86_64-linux-gnu/qt4/plugins/phonon_backend
+/usr/lib/x86_64-linux-gnu/qt4/plugins/phonon_backend/phonon_gstreamer.so
+/usr/share/doc/phonon-backend-gstreamer/changelog.Debian.gz

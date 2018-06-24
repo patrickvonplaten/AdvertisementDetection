@@ -1,0 +1,6 @@
+69ea7cf1d4312a39eb1444a5240e4ae9  usr/lib/x86_64-linux-gnu/liblua5.1-lpeg.so.2.0.0
+32d2746fa6d93850b54a1e4074693d77  usr/lib/x86_64-linux-gnu/liblua5.2-lpeg.so.2.0.0
+de3dc94a77911dd1d0b91be738ef9f24  usr/lib/x86_64-linux-gnu/liblua5.3-lpeg.so.2.0.0
+fd043d8687babbfbe463e4ac03549c93  usr/share/doc/lua-lpeg/changelog.Debian.gz
+edffc521c5f823d0b4a132339349eb19  usr/share/doc/lua-lpeg/copyright
+5f09bb0129b09b6a8e8c1db1b206b1ca  usr/share/lua/5.1/re.lua

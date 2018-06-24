@@ -1,0 +1,7 @@
+c2d4f807761d23ebe7aaba9bd1037c04  usr/lib/nodejs/semver/bin/semver
+359c0a1dda746af09c37e5da3c0c4b61  usr/lib/nodejs/semver/package.json
+29d6a5d32b1033c97962cb9e477f3355  usr/lib/nodejs/semver/semver.js
+450d005b7bc2df1022f94fddf1dbd84b  usr/share/doc/node-semver/README.md.gz
+3d24273038d97f6dab284b7b395a85f6  usr/share/doc/node-semver/changelog.Debian.gz
+148e9f457231f7c6c56ad4d5b2d45dc5  usr/share/doc/node-semver/copyright
+c73109b763aecb286c9aac733aef8cbc  usr/share/man/man1/semver.1.gz

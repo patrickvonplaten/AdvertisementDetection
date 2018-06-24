@@ -1,0 +1,12 @@
+09ee35211af621cb42491c3d734ae0c9  usr/share/doc/libservlet2.5-java/README.Debian.gz
+d4476ff89928d7a118a969c7ec2e8cc7  usr/share/doc/libservlet2.5-java/changelog.Debian.gz
+dd4a419c4e9737be6fd076fcb51fdd26  usr/share/doc/libservlet2.5-java/copyright
+f3b44eaf09e6889e99ea29c5037663de  usr/share/java/el-api-2.1.jar
+84be8abddeca7279b459a59077fba2a6  usr/share/java/jsp-api-2.1.jar
+e8c9f72ee08ddedf1f1ebc1d063c6db3  usr/share/java/servlet-api-2.5.jar
+79c0c7138611dcd18ad5d5dc3d92f751  usr/share/maven-repo/javax/el/el-api/2.1/el-api-2.1.pom
+12c3495aab85e5834769eb05bac70e59  usr/share/maven-repo/javax/el/el-api/debian/el-api-debian.pom
+01154d58c0817b389442e9caff66ecad  usr/share/maven-repo/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.pom
+c86c65bd7cd648264e0a2bd7a45fc01c  usr/share/maven-repo/javax/servlet/jsp/jsp-api/debian/jsp-api-debian.pom
+1cb1b026f942b92532b7368e8621f7a7  usr/share/maven-repo/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
+e645e9e6bfa2fb58d4e7ff1a3d90d39e  usr/share/maven-repo/javax/servlet/servlet-api/debian/servlet-api-debian.pom

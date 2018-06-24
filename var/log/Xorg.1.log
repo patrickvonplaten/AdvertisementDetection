@@ -1,0 +1,1018 @@
+[1078405.058] 
+X.Org X Server 1.18.4
+Release Date: 2016-07-19
+[1078405.058] X Protocol Version 11, Revision 0
+[1078405.058] Build Operating System: Linux 4.4.0-97-generic x86_64 Ubuntu
+[1078405.058] Current Operating System: Linux im74 4.4.0-98-generic #121-Ubuntu SMP Tue Oct 10 14:24:03 UTC 2017 x86_64
+[1078405.058] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-98-generic root=UUID=92aa18d8-7439-4ec4-a24b-2c3be731fb3c ro quiet splash vt.handoff=7
+[1078405.058] Build Date: 13 October 2017  01:57:05PM
+[1078405.058] xorg-server 2:1.18.4-0ubuntu0.7 (For technical support please see http://www.ubuntu.com/support) 
+[1078405.058] Current version of pixman: 0.33.6
+[1078405.058] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[1078405.058] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[1078405.058] (==) Log file: "/var/log/Xorg.1.log", Time: Wed Nov 15 21:19:24 2017
+[1078405.110] (==) Using config file: "/etc/X11/xorg.conf"
+[1078405.110] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[1078405.193] (==) ServerLayout "layout"
+[1078405.193] (**) |-->Screen "nvidia" (0)
+[1078405.193] (**) |   |-->Monitor "<default monitor>"
+[1078405.193] (**) |   |-->Device "nvidia"
+[1078405.193] (**) |   |-->GPUDevice "nvidia"
+[1078405.193] (==) No monitor specified for screen "nvidia".
+	Using a default monitor configuration.
+[1078405.193] (**) |-->Inactive Device "intel"
+[1078405.193] (==) Automatically adding devices
+[1078405.193] (==) Automatically enabling devices
+[1078405.193] (==) Automatically adding GPU devices
+[1078405.199] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[1078405.199] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[1078405.199] 	Entry deleted from font path.
+[1078405.199] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[1078405.199] 	Entry deleted from font path.
+[1078405.199] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[1078405.199] 	Entry deleted from font path.
+[1078405.199] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/100dpi/:unscaled,
+	/usr/share/fonts/X11/Type1,
+	/usr/share/fonts/X11/100dpi,
+	built-ins
+[1078405.199] (==) ModulePath set to "/usr/lib/x86_64-linux-gnu/xorg/extra-modules,/usr/lib/xorg/extra-modules,/usr/lib/xorg/modules"
+[1078405.199] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[1078405.199] (II) Loader magic: 0x55cd7a907dc0
+[1078405.199] (II) Module ABI versions:
+[1078405.199] 	X.Org ANSI C Emulation: 0.4
+[1078405.199] 	X.Org Video Driver: 20.0
+[1078405.199] 	X.Org XInput driver : 22.1
+[1078405.199] 	X.Org Server Extension : 9.0
+[1078405.199] (++) using VT number 8
+
+[1078405.199] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[1078405.228] (II) xfree86: Adding drm device (/dev/dri/card0)
+[1078405.228] (II) xfree86: Adding drm device (/dev/dri/card1)
+[1078405.228] (EE) /dev/dri/card1: failed to set DRM interface version 1.4: Permission denied
+[1078405.228] (II) config/udev: Ignoring already known drm device (/dev/dri/card1)
+[1078405.229] (--) PCI:*(0:0:2:0) 8086:1912:1849:1912 rev 6, Mem @ 0xdd000000/16777216, 0xb0000000/268435456, I/O @ 0x0000f000/64
+[1078405.229] (--) PCI: (0:1:0:0) 10de:17c2:10de:1132 rev 161, Mem @ 0xde000000/16777216, 0xc0000000/268435456, 0xd0000000/33554432, I/O @ 0x0000e000/128, BIOS @ 0x????????/524288
+[1078405.229] (WW) "glamoregl" will not be loaded unless you've specified it to be loaded elsewhere.
+[1078405.229] (II) "glx" will be loaded by default.
+[1078405.229] (II) LoadModule: "glx"
+[1078405.260] (II) Loading /usr/lib/x86_64-linux-gnu/xorg/extra-modules/libglx.so
+[1078405.477] (II) Module glx: vendor="NVIDIA Corporation"
+[1078405.477] 	compiled for 4.0.2, module version = 1.0.0
+[1078405.477] 	Module class: X.Org Server Extension
+[1078405.487] (II) NVIDIA GLX Module  384.98  Thu Oct 26 14:35:55 PDT 2017
+[1078405.541] (II) LoadModule: "nvidia"
+[1078405.541] (II) Loading /usr/lib/x86_64-linux-gnu/xorg/extra-modules/nvidia_drv.so
+[1078405.630] (II) Module nvidia: vendor="NVIDIA Corporation"
+[1078405.630] 	compiled for 4.0.2, module version = 1.0.0
+[1078405.630] 	Module class: X.Org Video Driver
+[1078405.635] (II) LoadModule: "modesetting"
+[1078405.660] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[1078405.682] (II) Module modesetting: vendor="X.Org Foundation"
+[1078405.682] 	compiled for 1.18.4, module version = 1.18.4
+[1078405.682] 	Module class: X.Org Video Driver
+[1078405.682] 	ABI class: X.Org Video Driver, version 20.0
+[1078405.682] (II) NVIDIA dlloader X Driver  384.98  Thu Oct 26 14:06:45 PDT 2017
+[1078405.682] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[1078405.696] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[1078406.208] (II) Loading sub module "fb"
+[1078406.208] (II) LoadModule: "fb"
+[1078406.208] (II) Loading /usr/lib/xorg/modules/libfb.so
+[1078406.325] (II) Module fb: vendor="X.Org Foundation"
+[1078406.325] 	compiled for 1.18.4, module version = 1.0.0
+[1078406.325] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[1078406.325] (II) Loading sub module "wfb"
+[1078406.325] (II) LoadModule: "wfb"
+[1078406.325] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[1078406.325] (II) Module wfb: vendor="X.Org Foundation"
+[1078406.325] 	compiled for 1.18.4, module version = 1.0.0
+[1078406.325] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[1078406.325] (II) Loading sub module "ramdac"
+[1078406.325] (II) LoadModule: "ramdac"
+[1078406.325] (II) Module "ramdac" already built-in
+[1078406.325] (WW) Falling back to old probe method for modesetting
+[1078406.325] (II) NVIDIA(0): Creating default Display subsection in Screen section
+	"nvidia" for depth/fbbpp 24/32
+[1078406.325] (==) NVIDIA(0): Depth 24, (==) framebuffer bpp 32
+[1078406.325] (==) NVIDIA(0): RGB weight 888
+[1078406.325] (==) NVIDIA(0): Default visual is TrueColor
+[1078406.325] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[1078406.344] (**) NVIDIA(0): Option "ConstrainCursor" "off"
+[1078406.344] (**) NVIDIA(0): Option "AllowEmptyInitialConfiguration" "on"
+[1078406.344] (**) NVIDIA(0): Option "IgnoreDisplayDevices" "CRT"
+[1078406.344] (**) NVIDIA(0): Enabling 2D acceleration
+[1078406.345] (--) NVIDIA(0): Valid display device(s) on GPU-0 at PCI:1:0:0
+[1078406.345] (--) NVIDIA(0):     DFP-0
+[1078406.345] (--) NVIDIA(0):     DFP-1
+[1078406.345] (--) NVIDIA(0):     DFP-2
+[1078406.345] (--) NVIDIA(0):     DFP-3
+[1078406.345] (--) NVIDIA(0):     DFP-4
+[1078406.345] (--) NVIDIA(0):     DFP-5
+[1078406.345] (--) NVIDIA(0):     DFP-6
+[1078406.345] (--) NVIDIA(0):     DFP-7
+[1078406.346] (II) NVIDIA(0): NVIDIA GPU GeForce GTX TITAN X (GM200-A) at PCI:1:0:0 (GPU-0)
+[1078406.346] (--) NVIDIA(0): Memory: 12582912 kBytes
+[1078406.346] (--) NVIDIA(0): VideoBIOS: 84.00.45.00.03
+[1078406.346] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[1078406.349] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1078406.349] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1078406.349] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1078406.349] (--) NVIDIA(GPU-0): 
+[1078406.349] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1078406.349] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1078406.349] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1078406.349] (--) NVIDIA(GPU-0): 
+[1078406.349] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1078406.349] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1078406.349] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1078406.349] (--) NVIDIA(GPU-0): 
+[1078406.349] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1078406.349] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1078406.349] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1078406.349] (--) NVIDIA(GPU-0): 
+[1078406.349] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1078406.349] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1078406.349] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1078406.349] (--) NVIDIA(GPU-0): 
+[1078406.349] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1078406.349] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1078406.349] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1078406.349] (--) NVIDIA(GPU-0): 
+[1078406.349] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1078406.349] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1078406.349] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1078406.349] (--) NVIDIA(GPU-0): 
+[1078406.350] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1078406.350] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1078406.350] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1078406.350] (--) NVIDIA(GPU-0): 
+[1078406.354] (==) NVIDIA(0): 
+[1078406.354] (==) NVIDIA(0): No modes were requested; the default mode "nvidia-auto-select"
+[1078406.354] (==) NVIDIA(0):     will be used as the requested mode.
+[1078406.354] (==) NVIDIA(0): 
+[1078406.354] (--) NVIDIA(0): No enabled display devices found; starting anyway because
+[1078406.354] (--) NVIDIA(0):     AllowEmptyInitialConfiguration is enabled
+[1078406.354] (II) NVIDIA(0): Validated MetaModes:
+[1078406.354] (II) NVIDIA(0):     "NULL"
+[1078406.354] (II) NVIDIA(0): Virtual screen size determined to be 640 x 480
+[1078406.354] (WW) NVIDIA(0): Unable to get display device for DPI computation.
+[1078406.354] (==) NVIDIA(0): DPI set to (75, 75); computed from built-in default
+[1078406.354] (--) Depth 24 pixmap format is 32 bpp
+[1078406.355] (II) NVIDIA: Using 6144.00 MB of virtual memory for indirect memory
+[1078406.355] (II) NVIDIA:     access.
+[1078406.454] (II) NVIDIA(0): Setting mode "NULL"
+[1078406.459] (==) NVIDIA(0): Disabling shared memory pixmaps
+[1078406.459] (==) NVIDIA(0): Backing store enabled
+[1078406.459] (==) NVIDIA(0): Silken mouse enabled
+[1078406.459] (==) NVIDIA(0): DPMS enabled
+[1078406.459] (II) Loading sub module "dri2"
+[1078406.459] (II) LoadModule: "dri2"
+[1078406.459] (II) Module "dri2" already built-in
+[1078406.508] (II) NVIDIA(0): [DRI2] Setup complete
+[1078406.508] (II) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[1078406.514] (--) RandR disabled
+[1078406.518] (II) SELinux: Disabled on system
+[1078406.518] (II) Initializing extension GLX
+[1078406.518] (II) Indirect GLX disabled.
+[1078406.877] (II) config/udev: Adding input device Power Button (/dev/input/event2)
+[1078406.877] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[1078406.877] (II) LoadModule: "evdev"
+[1078406.877] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[1078406.907] (II) Module evdev: vendor="X.Org Foundation"
+[1078406.907] 	compiled for 1.18.1, module version = 2.10.1
+[1078406.907] 	Module class: X.Org XInput Driver
+[1078406.907] 	ABI class: X.Org XInput driver, version 22.1
+[1078406.907] (II) Using input driver 'evdev' for 'Power Button'
+[1078406.907] (**) Power Button: always reports core events
+[1078406.907] (**) evdev: Power Button: Device: "/dev/input/event2"
+[1078406.907] (--) evdev: Power Button: Vendor 0 Product 0x1
+[1078406.907] (--) evdev: Power Button: Found keys
+[1078406.907] (II) evdev: Power Button: Configuring as keyboard
+[1078406.907] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input2/event2"
+[1078406.907] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[1078406.907] (**) Option "xkb_rules" "evdev"
+[1078406.907] (**) Option "xkb_model" "pc105"
+[1078406.907] (**) Option "xkb_layout" "de"
+[1078406.922] (II) config/udev: Adding input device Video Bus (/dev/input/event3)
+[1078406.922] (**) Video Bus: Applying InputClass "evdev keyboard catchall"
+[1078406.922] (II) Using input driver 'evdev' for 'Video Bus'
+[1078406.922] (**) Video Bus: always reports core events
+[1078406.922] (**) evdev: Video Bus: Device: "/dev/input/event3"
+[1078406.922] (--) evdev: Video Bus: Vendor 0 Product 0x6
+[1078406.922] (--) evdev: Video Bus: Found keys
+[1078406.922] (II) evdev: Video Bus: Configuring as keyboard
+[1078406.922] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input6/event3"
+[1078406.922] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[1078406.922] (**) Option "xkb_rules" "evdev"
+[1078406.922] (**) Option "xkb_model" "pc105"
+[1078406.922] (**) Option "xkb_layout" "de"
+[1078406.922] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[1078406.922] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[1078406.922] (II) Using input driver 'evdev' for 'Power Button'
+[1078406.922] (**) Power Button: always reports core events
+[1078406.922] (**) evdev: Power Button: Device: "/dev/input/event1"
+[1078406.922] (--) evdev: Power Button: Vendor 0 Product 0x1
+[1078406.922] (--) evdev: Power Button: Found keys
+[1078406.922] (II) evdev: Power Button: Configuring as keyboard
+[1078406.922] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1/event1"
+[1078406.922] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[1078406.922] (**) Option "xkb_rules" "evdev"
+[1078406.922] (**) Option "xkb_model" "pc105"
+[1078406.922] (**) Option "xkb_layout" "de"
+[1078406.923] (II) config/udev: Adding input device Sleep Button (/dev/input/event0)
+[1078406.923] (**) Sleep Button: Applying InputClass "evdev keyboard catchall"
+[1078406.923] (II) Using input driver 'evdev' for 'Sleep Button'
+[1078406.923] (**) Sleep Button: always reports core events
+[1078406.923] (**) evdev: Sleep Button: Device: "/dev/input/event0"
+[1078406.923] (--) evdev: Sleep Button: Vendor 0 Product 0x3
+[1078406.923] (--) evdev: Sleep Button: Found keys
+[1078406.923] (II) evdev: Sleep Button: Configuring as keyboard
+[1078406.923] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input0/event0"
+[1078406.923] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 9)
+[1078406.923] (**) Option "xkb_rules" "evdev"
+[1078406.923] (**) Option "xkb_model" "pc105"
+[1078406.923] (**) Option "xkb_layout" "de"
+[1078406.923] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event7)
+[1078406.923] (II) No input driver specified, ignoring this device.
+[1078406.923] (II) This device may have been added with another device file.
+[1078406.923] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event8)
+[1078406.923] (II) No input driver specified, ignoring this device.
+[1078406.923] (II) This device may have been added with another device file.
+[1078406.923] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event9)
+[1078406.923] (II) No input driver specified, ignoring this device.
+[1078406.923] (II) This device may have been added with another device file.
+[1078406.923] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event10)
+[1078406.923] (II) No input driver specified, ignoring this device.
+[1078406.923] (II) This device may have been added with another device file.
+[1078406.924] (II) config/udev: Adding drm device (/dev/dri/card1)
+[1078406.924] (II) xfree86: Adding drm device (/dev/dri/card1)
+[1078406.924] (II) LoadModule: "modesetting"
+[1078406.924] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[1078406.924] (II) Module modesetting: vendor="X.Org Foundation"
+[1078406.924] 	compiled for 1.18.4, module version = 1.18.4
+[1078406.924] 	Module class: X.Org Video Driver
+[1078406.924] 	ABI class: X.Org Video Driver, version 20.0
+[1078406.924] (II) UnloadModule: "modesetting"
+[1078406.924] (II) Unloading modesetting
+[1078406.924] (II) Failed to load module "modesetting" (already loaded, 21965)
+[1078406.924] (II) modeset(G0): using drv /dev/dri/card1
+[1078406.924] (==) modeset(G0): Depth 24, (==) framebuffer bpp 32
+[1078406.924] (==) modeset(G0): RGB weight 888
+[1078406.924] (==) modeset(G0): Default visual is TrueColor
+[1078406.924] (II) Loading sub module "glamoregl"
+[1078406.924] (II) LoadModule: "glamoregl"
+[1078406.924] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[1078406.947] (II) Module glamoregl: vendor="X.Org Foundation"
+[1078406.947] 	compiled for 1.18.4, module version = 1.0.0
+[1078406.947] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[1078406.947] (II) glamor: OpenGL accelerated X.org driver based.
+[1078407.164] (EE) modeset(G0): eglInitialize() failed
+[1078407.191] (EE) modeset(G0): glamor initialization failed
+[1078407.191] (II) modeset(G0): ShadowFB: preferred YES, enabled YES
+[1078407.204] (II) modeset(G0): Output HDMI-1-1 has no monitor section
+[1078407.204] (II) modeset(G0): Output DP-1-1 has no monitor section
+[1078407.218] (II) modeset(G0): Using default gamma of (1.0, 1.0, 1.0) unless otherwise stated.
+[1078407.218] (==) modeset(G0): DPI set to (96, 96)
+[1078407.218] (II) Loading sub module "fb"
+[1078407.218] (II) LoadModule: "fb"
+[1078407.218] (II) Loading /usr/lib/xorg/modules/libfb.so
+[1078407.218] (II) Module fb: vendor="X.Org Foundation"
+[1078407.218] 	compiled for 1.18.4, module version = 1.0.0
+[1078407.218] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[1078407.218] (II) Loading sub module "shadow"
+[1078407.218] (II) LoadModule: "shadow"
+[1078407.218] (II) Loading /usr/lib/xorg/modules/libshadow.so
+[1078407.233] (II) Module shadow: vendor="X.Org Foundation"
+[1078407.233] 	compiled for 1.18.4, module version = 1.1.0
+[1078407.233] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[1078407.233] (==) modeset(G0): Backing store enabled
+[1078407.233] (==) modeset(G0): Silken mouse enabled
+[1078407.233] (II) modeset(G0): RandR 1.2 enabled, ignore the following RandR disabled message.
+[1078407.274] (==) modeset(G0): DPMS enabled
+[1078407.274] (WW) modeset(G0): Option "AllowEmptyInitialConfiguration" is not used
+[1078407.274] (WW) modeset(G0): Option "IgnoreDisplayDevices" is not used
+[1078407.308] (II) modeset(G0): Damage tracking initialized
+[1078407.308] xf86: found device 2
+[1078407.309] (II) config/udev: Adding input device Dell Dell USB Keyboard (/dev/input/event5)
+[1078407.309] (**) Dell Dell USB Keyboard: Applying InputClass "evdev keyboard catchall"
+[1078407.309] (II) Using input driver 'evdev' for 'Dell Dell USB Keyboard'
+[1078407.309] (**) Dell Dell USB Keyboard: always reports core events
+[1078407.309] (**) evdev: Dell Dell USB Keyboard: Device: "/dev/input/event5"
+[1078407.309] (--) evdev: Dell Dell USB Keyboard: Vendor 0x413c Product 0x2010
+[1078407.309] (--) evdev: Dell Dell USB Keyboard: Found keys
+[1078407.309] (II) evdev: Dell Dell USB Keyboard: Configuring as keyboard
+[1078407.309] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6.1/1-6.1:1.0/0003:413C:2010.0002/input/input8/event5"
+[1078407.309] (II) XINPUT: Adding extended input device "Dell Dell USB Keyboard" (type: KEYBOARD, id 10)
+[1078407.309] (**) Option "xkb_rules" "evdev"
+[1078407.309] (**) Option "xkb_model" "pc105"
+[1078407.309] (**) Option "xkb_layout" "de"
+[1078407.309] (II) config/udev: Adding input device Dell Dell USB Keyboard (/dev/input/event6)
+[1078407.309] (**) Dell Dell USB Keyboard: Applying InputClass "evdev keyboard catchall"
+[1078407.309] (II) Using input driver 'evdev' for 'Dell Dell USB Keyboard'
+[1078407.309] (**) Dell Dell USB Keyboard: always reports core events
+[1078407.309] (**) evdev: Dell Dell USB Keyboard: Device: "/dev/input/event6"
+[1078407.309] (--) evdev: Dell Dell USB Keyboard: Vendor 0x413c Product 0x2010
+[1078407.309] (--) evdev: Dell Dell USB Keyboard: Found absolute axes
+[1078407.309] (II) evdev: Dell Dell USB Keyboard: Forcing absolute x/y axes to exist.
+[1078407.309] (--) evdev: Dell Dell USB Keyboard: Found keys
+[1078407.309] (II) evdev: Dell Dell USB Keyboard: Forcing relative x/y axes to exist.
+[1078407.309] (II) evdev: Dell Dell USB Keyboard: Configuring as mouse
+[1078407.309] (II) evdev: Dell Dell USB Keyboard: Configuring as keyboard
+[1078407.309] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6.1/1-6.1:1.1/0003:413C:2010.0003/input/input9/event6"
+[1078407.309] (II) XINPUT: Adding extended input device "Dell Dell USB Keyboard" (type: KEYBOARD, id 11)
+[1078407.309] (**) Option "xkb_rules" "evdev"
+[1078407.309] (**) Option "xkb_model" "pc105"
+[1078407.309] (**) Option "xkb_layout" "de"
+[1078407.310] (II) evdev: Dell Dell USB Keyboard: initialized for absolute axes.
+[1078407.310] (**) Dell Dell USB Keyboard: (accel) keeping acceleration scheme 1
+[1078407.310] (**) Dell Dell USB Keyboard: (accel) acceleration profile 0
+[1078407.310] (**) Dell Dell USB Keyboard: (accel) acceleration factor: 2.000
+[1078407.310] (**) Dell Dell USB Keyboard: (accel) acceleration threshold: 4
+[1078407.310] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/event4)
+[1078407.310] (**) PixArt USB Optical Mouse: Applying InputClass "evdev pointer catchall"
+[1078407.310] (II) Using input driver 'evdev' for 'PixArt USB Optical Mouse'
+[1078407.310] (**) PixArt USB Optical Mouse: always reports core events
+[1078407.310] (**) evdev: PixArt USB Optical Mouse: Device: "/dev/input/event4"
+[1078407.364] (--) evdev: PixArt USB Optical Mouse: Vendor 0x461 Product 0x4e22
+[1078407.364] (--) evdev: PixArt USB Optical Mouse: Found 12 mouse buttons
+[1078407.364] (--) evdev: PixArt USB Optical Mouse: Found scroll wheel(s)
+[1078407.364] (--) evdev: PixArt USB Optical Mouse: Found relative axes
+[1078407.364] (--) evdev: PixArt USB Optical Mouse: Found x and y relative axes
+[1078407.364] (II) evdev: PixArt USB Optical Mouse: Configuring as mouse
+[1078407.364] (II) evdev: PixArt USB Optical Mouse: Adding scrollwheel support
+[1078407.364] (**) evdev: PixArt USB Optical Mouse: YAxisMapping: buttons 4 and 5
+[1078407.364] (**) evdev: PixArt USB Optical Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[1078407.364] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/0003:0461:4E22.0001/input/input7/event4"
+[1078407.364] (II) XINPUT: Adding extended input device "PixArt USB Optical Mouse" (type: MOUSE, id 12)
+[1078407.364] (II) evdev: PixArt USB Optical Mouse: initialized for relative axes.
+[1078407.364] (**) PixArt USB Optical Mouse: (accel) keeping acceleration scheme 1
+[1078407.364] (**) PixArt USB Optical Mouse: (accel) acceleration profile 0
+[1078407.364] (**) PixArt USB Optical Mouse: (accel) acceleration factor: 2.000
+[1078407.364] (**) PixArt USB Optical Mouse: (accel) acceleration threshold: 4
+[1078407.364] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/mouse0)
+[1078407.364] (II) No input driver specified, ignoring this device.
+[1078407.364] (II) This device may have been added with another device file.
+[1078407.364] (II) config/udev: Adding input device HDA Intel PCH Front Mic (/dev/input/event11)
+[1078407.364] (II) No input driver specified, ignoring this device.
+[1078407.364] (II) This device may have been added with another device file.
+[1078407.364] (II) config/udev: Adding input device HDA Intel PCH Rear Mic (/dev/input/event12)
+[1078407.364] (II) No input driver specified, ignoring this device.
+[1078407.364] (II) This device may have been added with another device file.
+[1078407.364] (II) config/udev: Adding input device HDA Intel PCH Line (/dev/input/event13)
+[1078407.364] (II) No input driver specified, ignoring this device.
+[1078407.364] (II) This device may have been added with another device file.
+[1078407.365] (II) config/udev: Adding input device HDA Intel PCH Line Out (/dev/input/event14)
+[1078407.365] (II) No input driver specified, ignoring this device.
+[1078407.365] (II) This device may have been added with another device file.
+[1078407.365] (II) config/udev: Adding input device HDA Intel PCH Front Headphone (/dev/input/event15)
+[1078407.365] (II) No input driver specified, ignoring this device.
+[1078407.365] (II) This device may have been added with another device file.
+[1078407.365] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event16)
+[1078407.365] (II) No input driver specified, ignoring this device.
+[1078407.365] (II) This device may have been added with another device file.
+[1078407.365] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=7 (/dev/input/event17)
+[1078407.365] (II) No input driver specified, ignoring this device.
+[1078407.365] (II) This device may have been added with another device file.
+[1078407.365] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=8 (/dev/input/event18)
+[1078407.365] (II) No input driver specified, ignoring this device.
+[1078407.365] (II) This device may have been added with another device file.
+[1078407.516] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1078407.516] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1078407.516] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1078407.516] (--) NVIDIA(GPU-0): 
+[1078407.516] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1078407.516] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1078407.516] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1078407.516] (--) NVIDIA(GPU-0): 
+[1078407.516] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1078407.516] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1078407.516] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1078407.516] (--) NVIDIA(GPU-0): 
+[1078407.516] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1078407.516] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1078407.516] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1078407.516] (--) NVIDIA(GPU-0): 
+[1078407.516] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1078407.516] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1078407.516] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1078407.516] (--) NVIDIA(GPU-0): 
+[1078407.516] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1078407.516] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1078407.516] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1078407.516] (--) NVIDIA(GPU-0): 
+[1078407.516] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1078407.516] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1078407.516] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1078407.516] (--) NVIDIA(GPU-0): 
+[1078407.517] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1078407.517] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1078407.517] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1078407.517] (--) NVIDIA(GPU-0): 
+[1078407.594] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1078407.594] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1078407.594] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1078407.594] (--) NVIDIA(GPU-0): 
+[1078407.594] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1078407.594] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1078407.594] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1078407.594] (--) NVIDIA(GPU-0): 
+[1078407.594] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1078407.594] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1078407.594] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1078407.594] (--) NVIDIA(GPU-0): 
+[1078407.594] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1078407.594] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1078407.594] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1078407.594] (--) NVIDIA(GPU-0): 
+[1078407.594] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1078407.594] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1078407.594] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1078407.594] (--) NVIDIA(GPU-0): 
+[1078407.594] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1078407.594] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1078407.594] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1078407.594] (--) NVIDIA(GPU-0): 
+[1078407.594] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1078407.594] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1078407.594] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1078407.594] (--) NVIDIA(GPU-0): 
+[1078407.594] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1078407.594] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1078407.594] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1078407.594] (--) NVIDIA(GPU-0): 
+[1078407.597] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1078407.597] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1078407.597] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1078407.597] (--) NVIDIA(GPU-0): 
+[1078407.597] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1078407.597] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1078407.597] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1078407.597] (--) NVIDIA(GPU-0): 
+[1078407.597] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1078407.597] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1078407.597] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1078407.597] (--) NVIDIA(GPU-0): 
+[1078407.597] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1078407.597] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1078407.597] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1078407.597] (--) NVIDIA(GPU-0): 
+[1078407.597] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1078407.597] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1078407.597] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1078407.597] (--) NVIDIA(GPU-0): 
+[1078407.597] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1078407.597] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1078407.597] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1078407.597] (--) NVIDIA(GPU-0): 
+[1078407.597] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1078407.597] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1078407.597] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1078407.597] (--) NVIDIA(GPU-0): 
+[1078407.597] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1078407.597] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1078407.597] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1078407.597] (--) NVIDIA(GPU-0): 
+[1078407.615] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1078407.615] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1078407.615] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1078407.615] (--) NVIDIA(GPU-0): 
+[1078407.615] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1078407.615] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1078407.615] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1078407.615] (--) NVIDIA(GPU-0): 
+[1078407.615] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1078407.615] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1078407.615] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1078407.615] (--) NVIDIA(GPU-0): 
+[1078407.616] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1078407.616] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1078407.616] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1078407.616] (--) NVIDIA(GPU-0): 
+[1078407.616] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1078407.616] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1078407.616] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1078407.616] (--) NVIDIA(GPU-0): 
+[1078407.616] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1078407.616] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1078407.616] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1078407.616] (--) NVIDIA(GPU-0): 
+[1078407.616] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1078407.616] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1078407.616] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1078407.616] (--) NVIDIA(GPU-0): 
+[1078407.616] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1078407.616] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1078407.616] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1078407.616] (--) NVIDIA(GPU-0): 
+[1078407.649] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1078407.649] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1078407.649] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1078407.649] (--) NVIDIA(GPU-0): 
+[1078407.649] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1078407.649] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1078407.649] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1078407.649] (--) NVIDIA(GPU-0): 
+[1078407.649] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1078407.649] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1078407.649] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1078407.649] (--) NVIDIA(GPU-0): 
+[1078407.649] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1078407.649] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1078407.649] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1078407.649] (--) NVIDIA(GPU-0): 
+[1078407.649] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1078407.649] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1078407.649] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1078407.650] (--) NVIDIA(GPU-0): 
+[1078407.650] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1078407.650] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1078407.650] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1078407.650] (--) NVIDIA(GPU-0): 
+[1078407.650] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1078407.650] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1078407.650] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1078407.650] (--) NVIDIA(GPU-0): 
+[1078407.650] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1078407.650] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1078407.650] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1078407.650] (--) NVIDIA(GPU-0): 
+[1078407.652] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1078407.652] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1078407.652] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1078407.652] (--) NVIDIA(GPU-0): 
+[1078407.652] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1078407.652] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1078407.652] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1078407.652] (--) NVIDIA(GPU-0): 
+[1078407.652] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1078407.652] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1078407.652] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1078407.652] (--) NVIDIA(GPU-0): 
+[1078407.652] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1078407.652] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1078407.652] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1078407.652] (--) NVIDIA(GPU-0): 
+[1078407.652] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1078407.652] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1078407.652] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1078407.652] (--) NVIDIA(GPU-0): 
+[1078407.652] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1078407.652] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1078407.652] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1078407.652] (--) NVIDIA(GPU-0): 
+[1078407.652] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1078407.652] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1078407.652] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1078407.652] (--) NVIDIA(GPU-0): 
+[1078407.653] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1078407.653] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1078407.653] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1078407.653] (--) NVIDIA(GPU-0): 
+[1078416.220] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1078416.220] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1078416.220] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1078416.220] (--) NVIDIA(GPU-0): 
+[1078416.220] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1078416.220] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1078416.220] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1078416.220] (--) NVIDIA(GPU-0): 
+[1078416.220] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1078416.220] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1078416.220] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1078416.220] (--) NVIDIA(GPU-0): 
+[1078416.220] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1078416.220] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1078416.220] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1078416.220] (--) NVIDIA(GPU-0): 
+[1078416.220] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1078416.220] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1078416.220] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1078416.220] (--) NVIDIA(GPU-0): 
+[1078416.220] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1078416.220] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1078416.220] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1078416.220] (--) NVIDIA(GPU-0): 
+[1078416.220] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1078416.220] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1078416.220] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1078416.220] (--) NVIDIA(GPU-0): 
+[1078416.220] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1078416.220] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1078416.220] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1078416.220] (--) NVIDIA(GPU-0): 
+[1078416.223] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1078416.223] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1078416.223] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1078416.223] (--) NVIDIA(GPU-0): 
+[1078416.223] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1078416.223] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1078416.223] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1078416.223] (--) NVIDIA(GPU-0): 
+[1078416.223] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1078416.223] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1078416.223] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1078416.223] (--) NVIDIA(GPU-0): 
+[1078416.223] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1078416.223] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1078416.223] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1078416.223] (--) NVIDIA(GPU-0): 
+[1078416.223] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1078416.223] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1078416.223] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1078416.223] (--) NVIDIA(GPU-0): 
+[1078416.223] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1078416.223] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1078416.223] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1078416.223] (--) NVIDIA(GPU-0): 
+[1078416.223] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1078416.223] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1078416.223] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1078416.223] (--) NVIDIA(GPU-0): 
+[1078416.223] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1078416.223] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1078416.223] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1078416.223] (--) NVIDIA(GPU-0): 
+[1078416.400] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1078416.400] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1078416.400] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1078416.400] (--) NVIDIA(GPU-0): 
+[1078416.400] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1078416.400] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1078416.400] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1078416.400] (--) NVIDIA(GPU-0): 
+[1078416.400] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1078416.400] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1078416.400] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1078416.400] (--) NVIDIA(GPU-0): 
+[1078416.400] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1078416.400] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1078416.400] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1078416.400] (--) NVIDIA(GPU-0): 
+[1078416.400] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1078416.400] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1078416.400] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1078416.400] (--) NVIDIA(GPU-0): 
+[1078416.400] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1078416.400] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1078416.400] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1078416.401] (--) NVIDIA(GPU-0): 
+[1078416.401] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1078416.401] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1078416.401] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1078416.401] (--) NVIDIA(GPU-0): 
+[1078416.401] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1078416.401] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1078416.401] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1078416.401] (--) NVIDIA(GPU-0): 
+[1078416.403] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1078416.403] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1078416.403] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1078416.403] (--) NVIDIA(GPU-0): 
+[1078416.403] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1078416.403] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1078416.403] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1078416.403] (--) NVIDIA(GPU-0): 
+[1078416.403] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1078416.403] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1078416.403] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1078416.403] (--) NVIDIA(GPU-0): 
+[1078416.403] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1078416.403] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1078416.403] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1078416.403] (--) NVIDIA(GPU-0): 
+[1078416.403] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1078416.403] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1078416.403] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1078416.403] (--) NVIDIA(GPU-0): 
+[1078416.404] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1078416.404] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1078416.404] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1078416.404] (--) NVIDIA(GPU-0): 
+[1078416.404] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1078416.404] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1078416.404] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1078416.404] (--) NVIDIA(GPU-0): 
+[1078416.404] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1078416.404] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1078416.404] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1078416.404] (--) NVIDIA(GPU-0): 
+[1078429.045] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1078429.045] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1078429.045] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1078429.045] (--) NVIDIA(GPU-0): 
+[1078429.045] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1078429.045] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1078429.045] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1078429.045] (--) NVIDIA(GPU-0): 
+[1078429.045] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1078429.045] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1078429.045] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1078429.045] (--) NVIDIA(GPU-0): 
+[1078429.045] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1078429.045] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1078429.045] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1078429.045] (--) NVIDIA(GPU-0): 
+[1078429.045] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1078429.045] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1078429.045] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1078429.045] (--) NVIDIA(GPU-0): 
+[1078429.045] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1078429.045] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1078429.045] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1078429.045] (--) NVIDIA(GPU-0): 
+[1078429.045] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1078429.045] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1078429.045] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1078429.046] (--) NVIDIA(GPU-0): 
+[1078429.046] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1078429.046] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1078429.046] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1078429.046] (--) NVIDIA(GPU-0): 
+[1078429.048] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1078429.048] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1078429.048] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1078429.048] (--) NVIDIA(GPU-0): 
+[1078429.048] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1078429.048] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1078429.048] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1078429.048] (--) NVIDIA(GPU-0): 
+[1078429.048] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1078429.048] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1078429.048] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1078429.048] (--) NVIDIA(GPU-0): 
+[1078429.048] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1078429.048] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1078429.048] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1078429.048] (--) NVIDIA(GPU-0): 
+[1078429.048] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1078429.048] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1078429.048] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1078429.048] (--) NVIDIA(GPU-0): 
+[1078429.048] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1078429.048] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1078429.048] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1078429.048] (--) NVIDIA(GPU-0): 
+[1078429.048] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1078429.048] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1078429.048] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1078429.048] (--) NVIDIA(GPU-0): 
+[1078429.049] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1078429.049] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1078429.049] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1078429.049] (--) NVIDIA(GPU-0): 
+[1078434.698] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1078434.698] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1078434.698] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1078434.698] (--) NVIDIA(GPU-0): 
+[1078434.698] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1078434.698] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1078434.698] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1078434.698] (--) NVIDIA(GPU-0): 
+[1078434.698] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1078434.698] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1078434.698] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1078434.698] (--) NVIDIA(GPU-0): 
+[1078434.698] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1078434.698] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1078434.698] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1078434.698] (--) NVIDIA(GPU-0): 
+[1078434.698] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1078434.698] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1078434.698] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1078434.698] (--) NVIDIA(GPU-0): 
+[1078434.698] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1078434.698] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1078434.698] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1078434.698] (--) NVIDIA(GPU-0): 
+[1078434.698] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1078434.698] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1078434.698] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1078434.698] (--) NVIDIA(GPU-0): 
+[1078434.699] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1078434.699] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1078434.699] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1078434.699] (--) NVIDIA(GPU-0): 
+[1078435.147] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1078435.147] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1078435.147] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1078435.147] (--) NVIDIA(GPU-0): 
+[1078435.147] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1078435.147] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1078435.147] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1078435.147] (--) NVIDIA(GPU-0): 
+[1078435.147] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1078435.147] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1078435.147] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1078435.147] (--) NVIDIA(GPU-0): 
+[1078435.147] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1078435.147] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1078435.147] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1078435.147] (--) NVIDIA(GPU-0): 
+[1078435.147] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1078435.147] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1078435.147] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1078435.147] (--) NVIDIA(GPU-0): 
+[1078435.147] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1078435.147] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1078435.147] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1078435.147] (--) NVIDIA(GPU-0): 
+[1078435.147] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1078435.147] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1078435.147] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1078435.147] (--) NVIDIA(GPU-0): 
+[1078435.147] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1078435.147] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1078435.147] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1078435.147] (--) NVIDIA(GPU-0): 
+[1078435.150] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1078435.150] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1078435.150] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1078435.150] (--) NVIDIA(GPU-0): 
+[1078435.150] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1078435.150] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1078435.150] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1078435.150] (--) NVIDIA(GPU-0): 
+[1078435.150] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1078435.150] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1078435.150] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1078435.150] (--) NVIDIA(GPU-0): 
+[1078435.150] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1078435.150] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1078435.150] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1078435.150] (--) NVIDIA(GPU-0): 
+[1078435.150] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1078435.150] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1078435.150] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1078435.150] (--) NVIDIA(GPU-0): 
+[1078435.150] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1078435.150] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1078435.150] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1078435.150] (--) NVIDIA(GPU-0): 
+[1078435.150] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1078435.150] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1078435.150] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1078435.150] (--) NVIDIA(GPU-0): 
+[1078435.151] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1078435.151] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1078435.151] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1078435.151] (--) NVIDIA(GPU-0): 
+[1115492.369] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1115492.449] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1115492.449] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1115492.449] (--) NVIDIA(GPU-0): 
+[1115492.449] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1115492.449] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1115492.449] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1115492.449] (--) NVIDIA(GPU-0): 
+[1115492.477] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1115492.477] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1115492.477] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1115492.477] (--) NVIDIA(GPU-0): 
+[1115492.477] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1115492.477] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1115492.477] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1115492.477] (--) NVIDIA(GPU-0): 
+[1115492.477] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1115492.477] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1115492.477] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1115492.477] (--) NVIDIA(GPU-0): 
+[1115492.478] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1115492.478] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1115492.478] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1115492.478] (--) NVIDIA(GPU-0): 
+[1115492.478] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1115492.478] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1115492.478] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1115492.478] (--) NVIDIA(GPU-0): 
+[1115492.487] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1115492.487] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1115492.487] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1115492.487] (--) NVIDIA(GPU-0): 
+[1115492.490] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1115492.490] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1115492.490] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1115492.490] (--) NVIDIA(GPU-0): 
+[1115492.490] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1115492.490] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1115492.490] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1115492.490] (--) NVIDIA(GPU-0): 
+[1115492.490] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1115492.490] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1115492.490] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1115492.490] (--) NVIDIA(GPU-0): 
+[1115492.490] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1115492.490] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1115492.490] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1115492.490] (--) NVIDIA(GPU-0): 
+[1115492.490] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1115492.490] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1115492.490] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1115492.490] (--) NVIDIA(GPU-0): 
+[1115492.490] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1115492.490] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1115492.490] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1115492.490] (--) NVIDIA(GPU-0): 
+[1115492.490] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1115492.490] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1115492.490] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1115492.490] (--) NVIDIA(GPU-0): 
+[1115492.490] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1115492.490] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1115492.490] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1115492.490] (--) NVIDIA(GPU-0): 
+[1115496.961] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1115496.961] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1115496.961] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1115496.962] (--) NVIDIA(GPU-0): 
+[1115496.962] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1115496.962] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1115496.962] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1115496.962] (--) NVIDIA(GPU-0): 
+[1115496.962] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1115496.962] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1115496.962] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1115496.962] (--) NVIDIA(GPU-0): 
+[1115496.962] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1115496.962] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1115496.962] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1115496.962] (--) NVIDIA(GPU-0): 
+[1115496.962] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1115496.962] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1115496.962] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1115496.962] (--) NVIDIA(GPU-0): 
+[1115496.962] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1115496.962] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1115496.962] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1115496.962] (--) NVIDIA(GPU-0): 
+[1115496.962] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1115496.962] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1115496.962] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1115496.962] (--) NVIDIA(GPU-0): 
+[1115496.962] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1115496.962] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1115496.962] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1115496.962] (--) NVIDIA(GPU-0): 
+[1115496.965] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[1115496.965] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[1115496.965] (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+[1115496.965] (--) NVIDIA(GPU-0): 
+[1115496.965] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[1115496.965] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[1115496.965] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[1115496.965] (--) NVIDIA(GPU-0): 
+[1115496.965] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[1115496.965] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[1115496.965] (--) NVIDIA(GPU-0): DFP-2: 960.0 MHz maximum pixel clock
+[1115496.965] (--) NVIDIA(GPU-0): 
+[1115496.965] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[1115496.965] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[1115496.965] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[1115496.965] (--) NVIDIA(GPU-0): 
+[1115496.965] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[1115496.965] (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+[1115496.965] (--) NVIDIA(GPU-0): DFP-4: 960.0 MHz maximum pixel clock
+[1115496.965] (--) NVIDIA(GPU-0): 
+[1115496.965] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[1115496.965] (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+[1115496.965] (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+[1115496.965] (--) NVIDIA(GPU-0): 
+[1115496.965] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[1115496.965] (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+[1115496.965] (--) NVIDIA(GPU-0): DFP-6: 960.0 MHz maximum pixel clock
+[1115496.965] (--) NVIDIA(GPU-0): 
+[1115496.965] (--) NVIDIA(GPU-0): DFP-7: disconnected
+[1115496.965] (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+[1115496.965] (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+[1115496.965] (--) NVIDIA(GPU-0): 
+[1128829.265] (II) config/udev: removing device PixArt USB Optical Mouse
+[1128829.314] (II) evdev: PixArt USB Optical Mouse: Close
+[1128829.380] (II) UnloadModule: "evdev"
+[1128831.304] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/mouse0)
+[1128831.305] (II) No input driver specified, ignoring this device.
+[1128831.305] (II) This device may have been added with another device file.
+[1128831.429] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/event4)
+[1128831.429] (**) PixArt USB Optical Mouse: Applying InputClass "evdev pointer catchall"
+[1128831.429] (II) Using input driver 'evdev' for 'PixArt USB Optical Mouse'
+[1128831.429] (**) PixArt USB Optical Mouse: always reports core events
+[1128831.429] (**) evdev: PixArt USB Optical Mouse: Device: "/dev/input/event4"
+[1128831.484] (--) evdev: PixArt USB Optical Mouse: Vendor 0x461 Product 0x4e22
+[1128831.484] (--) evdev: PixArt USB Optical Mouse: Found 12 mouse buttons
+[1128831.484] (--) evdev: PixArt USB Optical Mouse: Found scroll wheel(s)
+[1128831.484] (--) evdev: PixArt USB Optical Mouse: Found relative axes
+[1128831.484] (--) evdev: PixArt USB Optical Mouse: Found x and y relative axes
+[1128831.484] (II) evdev: PixArt USB Optical Mouse: Configuring as mouse
+[1128831.484] (II) evdev: PixArt USB Optical Mouse: Adding scrollwheel support
+[1128831.484] (**) evdev: PixArt USB Optical Mouse: YAxisMapping: buttons 4 and 5
+[1128831.484] (**) evdev: PixArt USB Optical Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[1128831.484] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/0003:0461:4E22.0004/input/input22/event4"
+[1128831.484] (II) XINPUT: Adding extended input device "PixArt USB Optical Mouse" (type: MOUSE, id 12)
+[1128831.484] (II) evdev: PixArt USB Optical Mouse: initialized for relative axes.
+[1128831.484] (**) PixArt USB Optical Mouse: (accel) keeping acceleration scheme 1
+[1128831.484] (**) PixArt USB Optical Mouse: (accel) acceleration profile 0
+[1128831.484] (**) PixArt USB Optical Mouse: (accel) acceleration factor: 2.000
+[1128831.484] (**) PixArt USB Optical Mouse: (accel) acceleration threshold: 4

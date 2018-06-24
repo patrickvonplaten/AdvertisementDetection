@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libgweather-3.so.6.5.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgweather-3-6
+/usr/share/doc/libgweather-3-6/changelog.Debian.gz
+/usr/share/doc/libgweather-3-6/copyright
+/usr/share/doc/libgweather-3-6/AUTHORS
+/usr/share/doc/libgweather-3-6/README
+/usr/share/doc/libgweather-3-6/NEWS.gz
+/usr/lib/x86_64-linux-gnu/libgweather-3.so.6

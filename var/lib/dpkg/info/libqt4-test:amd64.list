@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libQtTest.so.4.8.7
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libqt4-test
+/usr/share/doc
+/usr/share/doc/libqt4-test
+/usr/share/doc/libqt4-test/copyright
+/usr/lib/x86_64-linux-gnu/libQtTest.so.4
+/usr/lib/x86_64-linux-gnu/libQtTest.so.4.8
+/usr/share/doc/libqt4-test/changelog.Debian.gz
+/usr/share/doc/libqt4-test/LGPL_EXCEPTION.txt

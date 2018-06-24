@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/bin
+/usr/bin/virtualenv
+/usr/share
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/virtualenv.1.gz
+/usr/share/doc
+/usr/share/doc/virtualenv
+/usr/share/doc/virtualenv/copyright
+/usr/share/doc/virtualenv/changelog.Debian.gz

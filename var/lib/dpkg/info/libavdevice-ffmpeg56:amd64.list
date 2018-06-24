@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libavdevice-ffmpeg.so.56.4.100
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libavdevice-ffmpeg56
+/usr/share/doc
+/usr/share/doc/libavdevice-ffmpeg56
+/usr/share/doc/libavdevice-ffmpeg56/copyright
+/usr/lib/x86_64-linux-gnu/libavdevice-ffmpeg.so.56
+/usr/share/doc/libavdevice-ffmpeg56/changelog.Debian.gz

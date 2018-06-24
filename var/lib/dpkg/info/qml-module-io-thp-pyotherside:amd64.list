@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/qml-module-io-thp-pyotherside
+/usr/share/doc/qml-module-io-thp-pyotherside/copyright
+/usr/share/doc/qml-module-io-thp-pyotherside/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/qml
+/usr/lib/x86_64-linux-gnu/qt5/qml/io
+/usr/lib/x86_64-linux-gnu/qt5/qml/io/thp
+/usr/lib/x86_64-linux-gnu/qt5/qml/io/thp/pyotherside
+/usr/lib/x86_64-linux-gnu/qt5/qml/io/thp/pyotherside/libpyothersideplugin.so
+/usr/lib/x86_64-linux-gnu/qt5/qml/io/thp/pyotherside/qmldir

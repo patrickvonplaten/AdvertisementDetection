@@ -1,0 +1,63 @@
+#! /bin/sh
+
+set -e
+
+if [ ! -e /etc/brlapi.key ]; then
+    mcookie >/etc/brlapi.key
+    chmod 0644 /etc/brlapi.key
+fi
+ 
+#update-rc.d brltty start 10 23 . > /dev/null
+
+if type update-initramfs >/dev/null 2>&1; then
+    update-initramfs -u
+fi
+
+# Recover from incorrect init.d script headers in version 4.0-8 and earlier
+if [ "$1" = "configure" ] && dpkg --compare-versions "$2" le "4.0-8" \
+   && [ -f /etc/rcS.d/S[0-9][0-9]brltty ] \
+   && [ -f /etc/rc0.d/K[0-9][0-9]brltty ] \
+   && [ -f /etc/rc6.d/K[0-9][0-9]brltty ] ; then
+    update-rc.d -f brltty remove
+fi
+
+for i in brl-sk-all.ktb
+do
+	dpkg-maintscript-helper rm_conffile /etc/brltty/$i 4.4-9~ brltty -- "$@"
+done
+
+# Automatically added by dh_systemd_enable
+# This will only remove masks created by d-s-h on package removal.
+deb-systemd-helper unmask brltty.service >/dev/null || true
+
+# was-enabled defaults to true, so new installations run enable.
+if deb-systemd-helper --quiet was-enabled brltty.service; then
+	# Enables the unit on first installation, creates new
+	# symlinks on upgrades if the unit file has changed.
+	deb-systemd-helper enable brltty.service >/dev/null || true
+else
+	# Update the statefile to add new symlinks (if any), which need to be
+	# cleaned up on purge. Also remove old symlinks.
+	deb-systemd-helper update-state brltty.service >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installinit
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ]; then
+	if [ -x "/etc/init.d/brltty" ]; then
+		update-rc.d brltty defaults >/dev/null || exit $?
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_systemd_start
+if [ -d /run/systemd/system ]; then
+	systemctl --system daemon-reload >/dev/null || true
+	if [ -n "$2" ]; then
+		_dh_action=try-restart
+	else
+		_dh_action=start
+	fi
+	deb-systemd-invoke $_dh_action brltty-udev.service >/dev/null || true
+fi
+# End automatically added section
+
+

@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libswresample-ffmpeg.so.1.2.101
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libswresample-ffmpeg1
+/usr/share/doc
+/usr/share/doc/libswresample-ffmpeg1
+/usr/share/doc/libswresample-ffmpeg1/copyright
+/usr/lib/x86_64-linux-gnu/libswresample-ffmpeg.so.1
+/usr/share/doc/libswresample-ffmpeg1/changelog.Debian.gz

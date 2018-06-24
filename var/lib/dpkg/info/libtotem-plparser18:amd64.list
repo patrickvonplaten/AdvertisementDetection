@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libtotem-plparser18
+/usr/share/doc/libtotem-plparser18/AUTHORS
+/usr/share/doc/libtotem-plparser18/README
+/usr/share/doc/libtotem-plparser18/copyright
+/usr/share/doc/libtotem-plparser18/NEWS.gz
+/usr/share/doc/libtotem-plparser18/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libtotem-plparser.so.18.1.0
+/usr/lib/x86_64-linux-gnu/libtotem-plparser-mini.so.18.1.0
+/usr/lib/x86_64-linux-gnu/libtotem-plparser-mini.so.18
+/usr/lib/x86_64-linux-gnu/libtotem-plparser.so.18

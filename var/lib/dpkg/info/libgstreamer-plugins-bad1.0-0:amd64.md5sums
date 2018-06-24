@@ -1,0 +1,17 @@
+ecbec0a85a61cde66942d55cd738a56e  usr/lib/x86_64-linux-gnu/libgstadaptivedemux-1.0.so.0.803.0
+562b9606a98b9f3f6dd1bd8aa60107be  usr/lib/x86_64-linux-gnu/libgstbadaudio-1.0.so.0.803.0
+010adf788c3d1047c07ab8fa3f5133d1  usr/lib/x86_64-linux-gnu/libgstbadbase-1.0.so.0.803.0
+1d8aea6b6854e0f543127e0df1fe7d1c  usr/lib/x86_64-linux-gnu/libgstbadvideo-1.0.so.0.803.0
+306fbd0c1ebcabb8712c780b9c648e3e  usr/lib/x86_64-linux-gnu/libgstcodecparsers-1.0.so.0.803.0
+d1655ad2cf37eb593fe78901cf93404b  usr/lib/x86_64-linux-gnu/libgstgl-1.0.so.0.803.0
+7829182c70e7d14cac42ad9917cae887  usr/lib/x86_64-linux-gnu/libgstinsertbin-1.0.so.0.803.0
+3188d305f6abcac6964a64edd1c7c8c0  usr/lib/x86_64-linux-gnu/libgstmpegts-1.0.so.0.803.0
+28edba28a58ea1de29405346e8022ed6  usr/lib/x86_64-linux-gnu/libgstplayer-1.0.so.0.803.0
+5b210c60d34bd0d12e8339f6f431496b  usr/lib/x86_64-linux-gnu/libgsturidownloader-1.0.so.0.803.0
+ba3d841c8ad3182e70a4029047ae93da  usr/lib/x86_64-linux-gnu/libgstwayland-1.0.so.0.803.0
+522445a5bc87310646c5e95de9a8ad45  usr/share/doc/libgstreamer-plugins-bad1.0-0/AUTHORS
+5a0e25d776d8bed7f3574b51f86557f1  usr/share/doc/libgstreamer-plugins-bad1.0-0/NEWS.gz
+305a1bbde50dee0513968459b1d35325  usr/share/doc/libgstreamer-plugins-bad1.0-0/README.Debian
+a7a96a498dfb3f23e23a6e45bf7b48cd  usr/share/doc/libgstreamer-plugins-bad1.0-0/README.gz
+a68820aec0ed88cce67ffda6bffa2c08  usr/share/doc/libgstreamer-plugins-bad1.0-0/changelog.Debian.gz
+5d80a0c9ddc083712c157b183fc237ed  usr/share/doc/libgstreamer-plugins-bad1.0-0/copyright

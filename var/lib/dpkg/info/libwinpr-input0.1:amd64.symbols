@@ -1,0 +1,15 @@
+libwinpr-input.so.0.1 libwinpr-input0.1 #MINVER#
+ GetKeycodeFromVirtualKeyCode@Base 1.1.0~beta1+git20130629
+ GetVirtualKeyCodeFromKeycode@Base 1.1.0~beta1+git20130629
+ GetVirtualKeyCodeFromName@Base 1.1.0~beta1+git20130629
+ GetVirtualKeyCodeFromVirtualScanCode@Base 1.1.0~beta1+git20130629
+ GetVirtualKeyCodeFromXkbKeyName@Base 1.1.0~beta1+git20130629
+ GetVirtualKeyName@Base 1.1.0~beta1+git20130629
+ GetVirtualScanCodeFromVirtualKeyCode@Base 1.1.0~beta1+git20130629
+ KBD4T@Base 1.1.0~beta1+git20130629
+ KBD4X@Base 1.1.0~beta1+git20130629
+ KBD7T@Base 1.1.0~beta1+git20130629
+ KBD7X@Base 1.1.0~beta1+git20130629
+ KEYCODE_TO_VKCODE_APPLE@Base 1.1.0~beta1+git20130629
+ KEYCODE_TO_VKCODE_EVDEV@Base 1.1.0~beta1+git20130629
+ XKB_KEYNAME_TABLE@Base 1.1.0~beta1+git20130629

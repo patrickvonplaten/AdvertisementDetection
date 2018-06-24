@@ -1,0 +1,32 @@
+Template: flashplugin-installer/local
+Type: string
+Default: 
+Description: Location to the local file:
+ Have you already downloaded the .tar.gz
+ package from the Internet? If so, please enter the directory you downloaded
+ it into. Do not include the filename here. If you
+ have not already downloaded it, leave this blank and the package will be
+ downloaded automatically.
+
+Template: flashplugin-installer/not_exist
+Type: error
+Description: File not found
+ The .tar.gz file does not exist in the directory you entered.
+ Please try again. Enter the path of the directory that the package is in
+ (don't type the filename at the end of the path).
+Description-cs.UTF-8: Soubor nebyl nalezen
+ Soubor .tar.gz v uvedeném adresáři neexistuje. Zkuste to prosím znova. Vložte cestu k adresáři, ve kterém se balíček nachází (neuvádějte na konci cesty jméno souboru).
+Description-de.UTF-8: Datei nicht gefunden
+ Die ».tar.gz«-Datei befindet sich nicht im angegebenen Verzeichnis. Bitte versuchen Sie es erneut. Geben Sie den Pfad zum Verzeichnis an, in dem sich das Paket befindet (den Dateinamen bitte nicht ans Ende des Pfades anfügen).
+Description-es.UTF-8: No se encontró el archivo
+ El archivo «.tar.gz» no está en el directorio introducido. Por favor, inténtelo de nuevo. Introduzca la ruta del directorio donde se encuentra el paquete (no escriba el nombre del archivo al final de la ruta).
+Description-fr.UTF-8: Ficher introuvable
+ L'archive .tar.gz n'existe pas dans le répertoire que vous avez indiqué. Veuillez recommencer et indiquer le répertoire contenant le fichier d'installation (seulement le répertoire, sans le nom du fichier).
+Description-ja.UTF-8: ファイルが見つかりません
+ .tar.gz ファイルが指定のディレクトリに存在しません。再度試してください。パッケージのあるディレクトリのパスを入力してください (パスの最後にはファイル名は入れないでください)。
+Description-lt.UTF-8: Rinkmena nerasta
+ .tar.gz rinkmena nurodytame kataloge nerasta. Bandykite dar kartą. Įveskite katalogą, kuriame yra ši rinkmena (pačios rinkmenos pavadinimo įvedinėti nereikia).
+Description-pt.UTF-8: Ficheiro não encontrado
+ O ficheiro .tar.gz não existe no directório que introduziu. Por favor tente de novo. Introduza o caminho do directório onde está o pacote (não escreva o nome do ficheiro no fim do caminho).
+Description-sv.UTF-8: Filen hittades inte
+ Paketfilen finns inte i katalogen som du angav. Försök igen. Ange sökvägen till den katalog som paketet finns i (skriv inte in filnamnet på slutet av sökvägen).

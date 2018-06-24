@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libQt5Qml.so.5.5.1
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/plugins
+/usr/lib/x86_64-linux-gnu/qt5/plugins/qmltooling
+/usr/lib/x86_64-linux-gnu/qt5/plugins/qmltooling/libqmldbg_tcp.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/libqt5qml5
+/usr/share/doc/libqt5qml5/copyright
+/usr/share/doc/libqt5qml5/changelog.Debian.gz
+/usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+/usr/lib/x86_64-linux-gnu/libQt5Qml.so.5.5

@@ -1,0 +1,9 @@
+auto
+/usr/bin/grep-changelog
+grep-changelog.1.gz
+/usr/share/man/man1/grep-changelog.1.gz
+
+/usr/bin/grep-changelog.emacs24
+27
+/usr/share/man/man1/grep-changelog.emacs24.1.gz
+

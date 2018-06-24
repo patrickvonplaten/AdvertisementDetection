@@ -1,0 +1,9 @@
+Document: xlsxwriter-python-3
+Section: Programming/Python
+Title: XlsxWriter Manual (Python 3)
+Author: John McNamara <jmcnamara@cpan.org>
+Abstract: This manual describes what XlsxWriter is, and how it can be used.
+
+Format: HTML
+Index: /usr/share/doc/python3-xlsxwriter/docs/readme.html
+Files: /usr/share/doc/python3-xlsxwriter/docs/*.html

@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libchromaprint.so.0.2.3
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libchromaprint0
+/usr/share/doc
+/usr/share/doc/libchromaprint0
+/usr/share/doc/libchromaprint0/copyright
+/usr/share/doc/libchromaprint0/changelog.Debian.gz
+/usr/lib/x86_64-linux-gnu/libchromaprint.so.0

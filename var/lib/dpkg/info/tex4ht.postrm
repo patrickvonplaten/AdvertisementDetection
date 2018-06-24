@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = purge ] ; then
+  command -v texhash > /dev/null 2>&1 && \
+   texhash /usr/share/texmf || true
+fi
+
+

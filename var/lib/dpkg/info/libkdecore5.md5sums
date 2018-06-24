@@ -1,0 +1,14 @@
+be98ad14eb74104495b646090c3b4f45  usr/lib/kde4/libexec/lnusertemp
+65333685d62f5368645a67770b23a29a  usr/lib/libkdecore.so.5.14.16
+65d0490b1166311f20391014ee967b7c  usr/lib/libkdefakes.so.5.14.16
+2f9bfadbdb8f69bcb6f4f45a239a15e3  usr/share/doc/libkdecore5/NEWS.Debian.gz
+c3ae69fcff043b337331ded53c9ed2b1  usr/share/doc/libkdecore5/README.Debian
+f01bf5c3ad1d4e58f8a0667c9e6b62a8  usr/share/doc/libkdecore5/README.gz
+fafae5113e1cf648f5e9b6c27e625f5f  usr/share/doc/libkdecore5/changelog.Debian.gz
+358aa40a9e67943022e72db2df518e51  usr/share/doc/libkdecore5/copyright
+af14b9d90737ee258cecec914155da55  usr/share/kde4/config/kdebug.areas
+e3aa105ded81257a455327860d3a4257  usr/share/kde4/config/kdebugrc
+360ce7c77a49183fb72f3b085cfe26f4  usr/share/kde4/servicetypes/kconfigbackend.desktop
+6a9ee8979112abd875db0727f8e637b0  usr/share/kde4/servicetypes/kplugininfo.desktop
+0fb257e11bdeeae9320c7afd8721c06b  usr/share/kde4/servicetypes/sonnetspeller.desktop
+3c04fd0cd58a16b9f13b08353a57eeda  usr/share/lintian/overrides/libkdecore5

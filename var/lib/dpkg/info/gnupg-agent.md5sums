@@ -1,0 +1,17 @@
+20dcb04a0989b4734a4fafea84738e08  usr/bin/gpg-agent
+508a8aed764fe3c8615332bf3de19f13  usr/bin/gpg-connect-agent
+0c1fdfdde2eda25f7a3541980d87af1c  usr/bin/symcryptrun
+e49876bfb33971c2b1577b324d29e0b1  usr/lib/gnupg2/gpg-check-pattern
+a9f20db5b071c1cc64a4b643decc5f93  usr/lib/gnupg2/gpg-preset-passphrase
+73461b6943f8fb33c559dd650b9bb43d  usr/lib/gnupg2/gpg-protect-tool
+5f4e069f9edf9ad99ca8ab3e304185e7  usr/share/doc/gnupg-agent/changelog.Debian.gz
+441595eaf3b0c9cf4c9446096b02fb5a  usr/share/doc/gnupg-agent/copyright
+fd69131e4e49f83ae3c64b91c8fc5de5  usr/share/doc/gnupg-agent/examples/pwpattern.list
+58f05262566bdb245b2f60824a7f8f43  usr/share/doc/gnupg-agent/examples/trustlist.txt
+9a6e1af0eb2a35342d43f4061d93a147  usr/share/man/man1/gpg-agent.1.gz
+153cd6a9c4ca50a58b23ef5704494538  usr/share/man/man1/gpg-check-pattern.1.gz
+7e8f9b8dc974c55e492ee4c2d81de6c9  usr/share/man/man1/gpg-connect-agent.1.gz
+32c70355c6947875434f975c1058de7b  usr/share/man/man1/gpg-preset-passphrase.1.gz
+33ebe251efec1f1a1f44eb2ca5989c24  usr/share/man/man1/symcryptrun.1.gz
+ef1bdffb1dd792d60c03c74e21f9f5d8  usr/share/upstart/sessions/gpg-agent.conf
+de27ef4666e96c0583920b6f5cacacde  usr/share/upstart/sessions/no-pinentry-gnome3.conf

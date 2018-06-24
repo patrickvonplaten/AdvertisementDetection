@@ -34,7 +34,7 @@ class Runner(object):
 #        recogSystem.data.printInformationAboutData()
 #        recogSystem.printModelSummary()
         recogSystem.trainModel()
-#        recogSystem.evaluateModel()
+        recogSystem.evaluateModel()
 
 
     def readInData(self):

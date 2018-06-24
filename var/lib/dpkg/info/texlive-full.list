@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/bug
+/usr/share/bug/texlive-full
+/usr/share/bug/texlive-full/control
+/usr/share/bug/texlive-full/script
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/texlive-full
+/usr/share/doc
+/usr/share/doc/texlive-full
+/usr/share/doc/texlive-full/README.source
+/usr/share/doc/texlive-full/copyright
+/usr/share/doc/texlive-full/changelog.Debian.gz
+/usr/share/doc/texlive-full/README.Debian

@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmission-control-plugins0
+/usr/share/doc/libmission-control-plugins0/changelog.Debian.gz
+/usr/share/doc/libmission-control-plugins0/NEWS.Debian.gz
+/usr/share/doc/libmission-control-plugins0/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libmission-control-plugins.so.0.5.1
+/usr/lib/x86_64-linux-gnu/libmission-control-plugins.so.0

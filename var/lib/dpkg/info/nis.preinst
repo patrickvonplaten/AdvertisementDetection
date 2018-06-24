@@ -1,0 +1,43 @@
+#! /bin/sh
+
+set -e
+umask 022
+
+for conffile in ypbind.conf start-ypbind.conf ypserv.conf yppasswdd.conf \
+                ypxfrd.conf
+do
+	dpkg-maintscript-helper rm_conffile /etc/init/"${conffile}" 3.17-34ubuntu3~ \
+	                        nis -- "$@"
+done
+
+# See how we were called in detail
+case "$1" in
+	upgrade|install)
+		# Transition from /etc/init.d/nis config to /etc/default/nis
+		# If we're upgrading, save the old settings from
+		# /etc/init.d/nis so the postinst can substitute
+		# them into the new /etc/default/nis config file.
+		if [ ! -f /etc/default/nis ] && [ -f /etc/init.d/nis ]
+		then
+			grep "^NISSERVER=" /etc/init.d/nis \
+				> /etc/default/nis.settings || true
+		fi
+		# Transition to /etc/default/nis being a conffile
+		# Save /etc/default/nis to be restored after a clobbering update
+		# this has to be done only once when passing to the new packaging
+		# code can be dropped once there are no old to be expected
+		if [ -n "${2}" ] && dpkg --compare-versions "${2}" lt "3.17-34ubuntu3~"
+		then
+			if [ -s /etc/default/nis ]
+			then
+				cp /etc/default/nis /etc/default/nis.conffile
+			fi
+		fi
+		;;
+	abort-upgrade)
+		;;
+	*)
+		;;
+esac
+
+exit 0

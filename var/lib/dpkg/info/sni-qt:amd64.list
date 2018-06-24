@@ -1,0 +1,16 @@
+/.
+/etc
+/etc/xdg
+/etc/xdg/sni-qt.conf
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/sni-qt
+/usr/share/doc/sni-qt/copyright
+/usr/share/doc/sni-qt/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt4
+/usr/lib/x86_64-linux-gnu/qt4/plugins
+/usr/lib/x86_64-linux-gnu/qt4/plugins/systemtrayicon
+/usr/lib/x86_64-linux-gnu/qt4/plugins/systemtrayicon/libsni-qt.so

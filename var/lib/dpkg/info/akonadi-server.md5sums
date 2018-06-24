@@ -1,0 +1,13 @@
+2afaf04f7c4e3810079c3c22344e513c  usr/bin/akonadi_agent_launcher
+804196a93b47957da9e1a4f33459276a  usr/bin/akonadi_agent_server
+59bc8b724b429d95b386a6c500018bb0  usr/bin/akonadi_control
+aa192e894ad36e4af3c662d2b709f7d1  usr/bin/akonadi_rds
+7ae1d5330c4aad606cc3a264a5ecce9b  usr/bin/akonadictl
+b70713155e1afb646bcdf645001e263e  usr/bin/akonadiserver
+b9e80786b04a34156d3bfb6fe9a0be67  usr/bin/asapcat
+cf15529ff674cb7edd7af1e716d50c63  usr/share/dbus-1/services/org.freedesktop.Akonadi.Control.service
+f86b475208a8c3ea99bd0faf34c62dd0  usr/share/doc/akonadi-server/README.Debian.gz
+e7014c125f922ffec9a7ed2f3a2ed76f  usr/share/doc/akonadi-server/TODO.Debian
+fbe752480749a480560f2298618cec4b  usr/share/doc/akonadi-server/copyright
+2d4f1b85991d61a224ad3c69194294fa  usr/share/man/man1/akonadictl.1.gz
+3de2da0eaa60f9274c10883cf7fe5aef  usr/share/mime/packages/akonadi-mime.xml

@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libpostproc-ffmpeg.so.53.3.100
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libpostproc-ffmpeg53
+/usr/share/doc
+/usr/share/doc/libpostproc-ffmpeg53
+/usr/share/doc/libpostproc-ffmpeg53/copyright
+/usr/lib/x86_64-linux-gnu/libpostproc-ffmpeg.so.53
+/usr/share/doc/libpostproc-ffmpeg53/changelog.Debian.gz

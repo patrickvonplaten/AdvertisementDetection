@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libkmediaplayer4
+/usr/share/doc/libkmediaplayer4/copyright
+/usr/share/kde4
+/usr/share/kde4/servicetypes
+/usr/share/kde4/servicetypes/kmediaplayerengine.desktop
+/usr/share/kde4/servicetypes/kmediaplayer.desktop
+/usr/lib
+/usr/lib/libkmediaplayer.so.4.14.16
+/usr/share/doc/libkmediaplayer4/changelog.Debian.gz
+/usr/share/doc/libkmediaplayer4/NEWS.Debian.gz
+/usr/lib/libkmediaplayer.so.4

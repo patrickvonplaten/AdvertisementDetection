@@ -1,0 +1,5 @@
+libtiffxx.so.5 libtiffxx5 #MINVER#
+ LIBTIFFXX_4.0@LIBTIFFXX_4.0 4.0
+ _Z14TIFFStreamOpenPKcPSi@LIBTIFFXX_4.0 4.0
+ _Z14TIFFStreamOpenPKcPSo@LIBTIFFXX_4.0 4.0
+ libport_dummy_function@LIBTIFFXX_4.0 4.0

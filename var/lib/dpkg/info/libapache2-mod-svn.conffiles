@@ -1,0 +1,3 @@
+/etc/apache2/mods-available/authz_svn.load
+/etc/apache2/mods-available/dav_svn.conf
+/etc/apache2/mods-available/dav_svn.load

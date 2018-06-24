@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/gstreamer-1.0
+/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstvideoparsersbad.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/gstreamer1.0-plugins-bad-videoparsers
+/usr/share/doc/gstreamer1.0-plugins-bad-videoparsers/copyright
+/usr/share/doc/gstreamer1.0-plugins-bad-videoparsers/README.Debian
+/usr/share/doc/gstreamer1.0-plugins-bad-videoparsers/NEWS.gz
+/usr/share/doc/gstreamer1.0-plugins-bad-videoparsers/README.gz
+/usr/share/doc/gstreamer1.0-plugins-bad-videoparsers/changelog.Debian.gz
+/usr/share/doc/gstreamer1.0-plugins-bad-videoparsers/AUTHORS

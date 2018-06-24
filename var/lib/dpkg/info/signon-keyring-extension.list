@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/signon
+/usr/lib/x86_64-linux-gnu/signon/extensions
+/usr/lib/x86_64-linux-gnu/signon/extensions/libkeyring.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/signon-keyring-extension
+/usr/share/doc/signon-keyring-extension/copyright
+/usr/share/doc/signon-keyring-extension/changelog.Debian.gz
+/usr/bin

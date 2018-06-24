@@ -1,0 +1,5 @@
+ea893d52b84aae30ff113fb6e7ca0765  usr/lib/python2.7/dist-packages/statsmodels/nonparametric/_smoothers_lowess.so
+5a22d00d715b9a8ad3704ae82fc6c176  usr/lib/python2.7/dist-packages/statsmodels/nonparametric/linbin.so
+76d2bd1785cae3880f8cc184cdb399ae  usr/lib/python2.7/dist-packages/statsmodels/tsa/kalmanf/kalman_loglike.so
+edca94937b2c5bd878cc4b118215746c  usr/share/doc/python-statsmodels-lib/changelog.Debian.gz
+7b62576c53bae575b8a038502c76a151  usr/share/doc/python-statsmodels-lib/copyright

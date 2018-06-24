@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libavfilter-ffmpeg.so.5.40.101
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libavfilter-ffmpeg5
+/usr/share/doc
+/usr/share/doc/libavfilter-ffmpeg5
+/usr/share/doc/libavfilter-ffmpeg5/copyright
+/usr/lib/x86_64-linux-gnu/libavfilter-ffmpeg.so.5
+/usr/share/doc/libavfilter-ffmpeg5/changelog.Debian.gz

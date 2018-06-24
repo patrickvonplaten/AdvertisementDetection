@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/fonts
+/usr/share/fonts/opentype
+/usr/share/fonts/opentype/ebgaramond
+/usr/share/fonts/opentype/ebgaramond/EBGaramond12-Regular.otf
+/usr/share/fonts/opentype/ebgaramond/EBGaramond12-Italic.otf
+/usr/share/fonts/opentype/ebgaramond/EBGaramond08-Italic.otf
+/usr/share/fonts/opentype/ebgaramond/EBGaramond08-Regular.otf
+/usr/share/doc
+/usr/share/doc/fonts-ebgaramond
+/usr/share/doc/fonts-ebgaramond/README.xelualatex
+/usr/share/doc/fonts-ebgaramond/changelog.Debian.gz
+/usr/share/doc/fonts-ebgaramond/copyright
+/usr/share/doc/fonts-ebgaramond/README.markdown

@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libavresample-ffmpeg.so.2.1.0
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libavresample-ffmpeg2
+/usr/share/doc
+/usr/share/doc/libavresample-ffmpeg2
+/usr/share/doc/libavresample-ffmpeg2/copyright
+/usr/lib/x86_64-linux-gnu/libavresample-ffmpeg.so.2
+/usr/share/doc/libavresample-ffmpeg2/changelog.Debian.gz

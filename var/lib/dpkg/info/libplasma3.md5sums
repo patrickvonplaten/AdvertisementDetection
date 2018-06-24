@@ -1,0 +1,16 @@
+e4ff9750049b95565a471db1b9ca5d56  usr/lib/libplasma.so.3.0.0
+1b65311931016de9a281f0d3bcc2dc52  usr/share/bug/libplasma3
+358aa40a9e67943022e72db2df518e51  usr/share/doc/libplasma3/copyright
+d48d0438e3f00a780c9a4179e286a78b  usr/share/kde4/servicetypes/plasma-animator.desktop
+e5f21f13e88b807226cabd9cc6e9976c  usr/share/kde4/servicetypes/plasma-applet-popupapplet.desktop
+1455093107b9c0f5f55cec3bd37418a3  usr/share/kde4/servicetypes/plasma-applet.desktop
+4cf6a9709a4f8e8977d338d202ed5046  usr/share/kde4/servicetypes/plasma-containment.desktop
+501f94cf23898c1c3cd82f1df75c9c3b  usr/share/kde4/servicetypes/plasma-containmentactions.desktop
+374c9ffc7ace124c3b0e0c6ec72f7ffa  usr/share/kde4/servicetypes/plasma-dataengine.desktop
+da3d975706d59b41b733cd74d7656725  usr/share/kde4/servicetypes/plasma-packagestructure.desktop
+3c9300d56ac64d4a576f85137eed58e7  usr/share/kde4/servicetypes/plasma-runner.desktop
+4056ab38f6b72e12dbee7e69116d1062  usr/share/kde4/servicetypes/plasma-scriptengine.desktop
+79c17f5e8c874216a3242808682253e8  usr/share/kde4/servicetypes/plasma-service.desktop
+01b8197d21c9faa25c47e0f68551627c  usr/share/kde4/servicetypes/plasma-toolbox.desktop
+a87a3b7d2827f821eb4447d616fc4354  usr/share/kde4/servicetypes/plasma-wallpaper.desktop
+8d121840696fd56d5f8468ce5c9828e2  usr/share/lintian/overrides/libplasma3

@@ -1,0 +1,7 @@
+899972d4a4b1e64e5e43ec4066881d02  usr/lib/x86_64-linux-gnu/libqmi-glib.so.1.3.0
+f2850d2a9be908249286a7b6eb490f08  usr/share/doc/libqmi-glib1/AUTHORS
+acfe61009c87db97b385859933823ee5  usr/share/doc/libqmi-glib1/NEWS.gz
+9a29945ad073d98bc01580c23ea59341  usr/share/doc/libqmi-glib1/README
+66501e9f09b3181ce8794b4a24e2caff  usr/share/doc/libqmi-glib1/changelog.Debian.gz
+887a409ca8734113dcf944055930e168  usr/share/doc/libqmi-glib1/copyright
+e23c4b3e5fadd5628c83d1dfed23d9c1  usr/share/lintian/overrides/libqmi-glib1

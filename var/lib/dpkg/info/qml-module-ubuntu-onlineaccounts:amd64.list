@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/qml-module-ubuntu-onlineaccounts
+/usr/share/doc/qml-module-ubuntu-onlineaccounts/copyright
+/usr/share/doc/qml-module-ubuntu-onlineaccounts/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/qml
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/OnlineAccounts
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/OnlineAccounts/libAccounts.so
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/OnlineAccounts/plugin.qmltypes
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/OnlineAccounts/qmldir

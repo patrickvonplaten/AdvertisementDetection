@@ -1,0 +1,8 @@
+1b1a6fcaa4b858b880423237d5c62b2c  usr/lib/kde4/plasma_appletscript_simple_javascript.so
+1a686ccea89c6570a06912b70f53b1b7  usr/lib/kde4/plasma_dataenginescript_javascript.so
+a25fc2c29580c7a02ab5ab0ba7ae15dc  usr/lib/kde4/plasma_runnerscript_javascript.so
+65ec43e559f3cb026dc1256c60d2a97f  usr/share/doc/plasma-scriptengine-javascript/changelog.Debian.gz
+e334e6e4601142783305fce8a03fd886  usr/share/doc/plasma-scriptengine-javascript/copyright
+2371b3c531af0ecb6cac62524d26634c  usr/share/kde4/services/plasma-scriptengine-applet-simple-javascript.desktop
+f13b367fdcaf3edd64db83a133eaf517  usr/share/kde4/services/plasma-scriptengine-dataengine-javascript.desktop
+86082028c3d9e2bc71aaa18303ba7941  usr/share/kde4/services/plasma-scriptengine-runner-javascript.desktop

@@ -1,0 +1,4 @@
+3631820646f11d58938f16b1cab1312c  usr/include/xcb/dri2.h
+f420b6e139840d3be76f8ae72cd0f1a1  usr/lib/x86_64-linux-gnu/libxcb-dri2.a
+8fd5426ac68b8a304532065390311773  usr/lib/x86_64-linux-gnu/pkgconfig/xcb-dri2.pc
+360fadb0d222af6607a189d435e3a9f3  usr/share/doc/libxcb-dri2-0-dev/copyright

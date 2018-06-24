@@ -1,0 +1,15 @@
+libwinpr-sysinfo.so.0.1 libwinpr-sysinfo0.1 #MINVER#
+ GetComputerNameA@Base 1.1.0~beta1+git20130629
+ GetComputerNameExA@Base 1.1.0~beta1+git20130629
+ GetComputerNameExW@Base 1.1.0~beta1+git20130629
+ GetNativeSystemInfo@Base 1.1.0~beta1+git20130629
+ GetNumberOfProcessors@Base 1.1.0~beta1+git20130629
+ GetProcessorArchitecture@Base 1.1.0~beta1+git20130629
+ GetSystemInfo@Base 1.1.0~beta1+git20130629
+ GetSystemTimeAsFileTime@Base 1.1.0~beta1+git20130629
+ GetTickCount64@Base 1.1.0~beta1+git20130629
+ GetTickCount@Base 1.1.0~beta1+git20130629
+ GetVersionExA@Base 1.1.0~beta1+git20130629
+ GetVersionExW@Base 1.1.0~beta1+git20130629
+ IsProcessorFeaturePresent@Base 1.1.0~beta1+git20130629
+ IsProcessorFeaturePresentEx@Base 1.1.0~beta1+git20130629

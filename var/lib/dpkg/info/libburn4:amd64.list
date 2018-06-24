@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libburn.so.4.95.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libburn4
+/usr/share/doc/libburn4/changelog.Debian.gz
+/usr/share/doc/libburn4/README.gz
+/usr/share/doc/libburn4/AUTHORS
+/usr/share/doc/libburn4/copyright
+/usr/share/doc/libburn4/NEWS.gz
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libburn4
+/usr/lib/x86_64-linux-gnu/libburn.so.4

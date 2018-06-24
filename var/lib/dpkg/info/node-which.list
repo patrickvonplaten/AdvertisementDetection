@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/nodejs
+/usr/lib/nodejs/which.js
+/usr/share
+/usr/share/doc
+/usr/share/doc/node-which
+/usr/share/doc/node-which/changelog.Debian.gz
+/usr/share/doc/node-which/copyright
+/usr/share/doc/node-which/README.md

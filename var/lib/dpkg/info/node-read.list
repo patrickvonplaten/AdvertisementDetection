@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/nodejs
+/usr/lib/nodejs/read.js
+/usr/share
+/usr/share/doc
+/usr/share/doc/node-read
+/usr/share/doc/node-read/README.md
+/usr/share/doc/node-read/changelog.Debian.gz
+/usr/share/doc/node-read/copyright
+/usr/share/doc/node-read/examples
+/usr/share/doc/node-read/examples/example.js

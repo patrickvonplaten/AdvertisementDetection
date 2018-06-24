@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/texmf/hyphen.d/20thailatex.cnf 2013.20130523-2~ thailatex -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/emacs/site-start.d/50thailatex.el 2013.20130523-2~ thailatex -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/texmf/hyphen.d/10texlive-lang-other.cnf 2015.20150524-1~ -- "$@"
+# End automatically added section

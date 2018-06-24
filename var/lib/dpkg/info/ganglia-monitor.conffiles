@@ -1,0 +1,3 @@
+/etc/ganglia/gmond.conf
+/etc/init.d/ganglia-monitor
+/etc/init/ganglia-monitor.conf

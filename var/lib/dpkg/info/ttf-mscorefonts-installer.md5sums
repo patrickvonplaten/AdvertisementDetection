@@ -1,0 +1,6 @@
+942ff8b969842bfe585dcb2bd987adbe  usr/lib/msttcorefonts/update-ms-fonts
+9b8f129baa0383a0a4fcc5b82bf034fb  usr/share/doc/ttf-mscorefonts-installer/README.Debian
+fa1d2d21761e773bb26aca17758139a9  usr/share/doc/ttf-mscorefonts-installer/changelog.gz
+c89a0cea682de319e4b55e891b7bd5b4  usr/share/doc/ttf-mscorefonts-installer/copyright
+551b6c1ab1d38d617c19ef3db16e7a53  usr/share/lintian/overrides/ttf-mscorefonts-installer
+90376271a4d7a1dba1df6ef07383bfdb  usr/share/package-data-downloads/ttf-mscorefonts-installer

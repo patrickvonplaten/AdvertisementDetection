@@ -1,0 +1,96 @@
+Origin: Canonical
+Label: Partner archive
+Suite: precise
+Version: 12.04
+Codename: precise
+Date: Fri, 27 Apr 2018 23:48:19 UTC
+Architectures: amd64 armel armhf i386 powerpc
+Components: partner
+Description: Ubuntu Precise 12.04
+MD5Sum:
+ 96c61add1594eb43fb344b6d9dc52a84              112 partner/binary-amd64/Release
+ f193eb1aa7943935769fd200b6c3ad55            24218 partner/binary-amd64/Packages
+ 52a4f8fecf789398f9f2c08c757e6e75             7130 partner/binary-amd64/Packages.gz
+ c652f84732fee00040b1d3402c175c07             6913 partner/binary-amd64/Packages.bz2
+ a210700a0407982b515640050c0a300e             1793 partner/binary-armel/Packages.gz
+ a00970310c33a474cf3d161fbb9b30e2             4538 partner/binary-armel/Packages
+ 70524c6307f2c2c97f26aab16dba41d2             1922 partner/binary-armel/Packages.bz2
+ 2bbecbc83ce6ae41f02b8a1c8481a01c              112 partner/binary-armel/Release
+ a00970310c33a474cf3d161fbb9b30e2             4538 partner/binary-armhf/Packages
+ 8f0482222ecc6aab6cc837bc066012f7              112 partner/binary-armhf/Release
+ a210700a0407982b515640050c0a300e             1793 partner/binary-armhf/Packages.gz
+ 70524c6307f2c2c97f26aab16dba41d2             1922 partner/binary-armhf/Packages.bz2
+ 1d5ec2f5e189471f01ec506ab0d99077             8088 partner/binary-i386/Packages.gz
+ fb62d15a6efba052c47ec03f76ed9e7c              111 partner/binary-i386/Release
+ 9761f9d00e0a50e7caf091ec74e9c32b            27597 partner/binary-i386/Packages
+ 8df8f3bf67cfd4f2d8bf69cecf178a49             7795 partner/binary-i386/Packages.bz2
+ a00970310c33a474cf3d161fbb9b30e2             4538 partner/binary-powerpc/Packages
+ 3834d335bce1457dd9a8871ccacfd26b              114 partner/binary-powerpc/Release
+ 70524c6307f2c2c97f26aab16dba41d2             1922 partner/binary-powerpc/Packages.bz2
+ a210700a0407982b515640050c0a300e             1793 partner/binary-powerpc/Packages.gz
+ b7f95dc3416ee389879ba105271b06b3             4440 partner/i18n/Translation-en.bz2
+ 081bdac7603d443a73208fdbd49722d1             4133 partner/i18n/Translation-en.gz
+ 465ccbc1ab31b3afe1ca77b11b5d37be            16582 partner/i18n/Translation-en
+ 207effa80cb18c499e8d9d2f642d0028              202 partner/i18n/Index
+ 8a772a1d02dd5745f99888a9d9e5ea3f             5765 partner/source/Sources.gz
+ a6eac3c900d74e42a1cf915027338d8d             5731 partner/source/Sources.bz2
+ ce7cc59334fa9dc78621bcb94b28150b              113 partner/source/Release
+ 09d3dc832515ea851d8392fd5ab5dcab            18251 partner/source/Sources
+SHA1:
+ 11231c5609cdd6ccda99481433d58ae1e46b5f69              112 partner/binary-amd64/Release
+ 7fc748d719d3258e7efa932c18e63bbf2be0ccce            24218 partner/binary-amd64/Packages
+ d820be7f552d83b9998667848b26d0e427e2ef56             7130 partner/binary-amd64/Packages.gz
+ b2aa2c21489a6a20cfd80484dedfb8e2eed9a493             6913 partner/binary-amd64/Packages.bz2
+ 65723989e1bd9325ae497f9054b01cc9714b9097             1793 partner/binary-armel/Packages.gz
+ 78a89384f8d28f74466e4fb31c92c229e7fde2e4             4538 partner/binary-armel/Packages
+ fa3eb79700cfb5bd43692f3433b05334e1eaca80             1922 partner/binary-armel/Packages.bz2
+ e8f910f769b2d07f01eed78b905cd1973a57e938              112 partner/binary-armel/Release
+ 78a89384f8d28f74466e4fb31c92c229e7fde2e4             4538 partner/binary-armhf/Packages
+ 2eba0d49bff7826352310774bb68c220ecfa18a2              112 partner/binary-armhf/Release
+ 65723989e1bd9325ae497f9054b01cc9714b9097             1793 partner/binary-armhf/Packages.gz
+ fa3eb79700cfb5bd43692f3433b05334e1eaca80             1922 partner/binary-armhf/Packages.bz2
+ 9c49ab21571857a3c505a3976a10aa5fa3f25f89             8088 partner/binary-i386/Packages.gz
+ 527ea54ccabfe28ead470adae2799ef654e0d618              111 partner/binary-i386/Release
+ d910b2e6263915e6ef3a88265b1a9316cc4c4fe7            27597 partner/binary-i386/Packages
+ 4bb0a8bf69787f0b83f3edcef09d5b1d2bde4d96             7795 partner/binary-i386/Packages.bz2
+ 78a89384f8d28f74466e4fb31c92c229e7fde2e4             4538 partner/binary-powerpc/Packages
+ 885d4556a28f1a13ce1d845b0b83125366e44872              114 partner/binary-powerpc/Release
+ fa3eb79700cfb5bd43692f3433b05334e1eaca80             1922 partner/binary-powerpc/Packages.bz2
+ 65723989e1bd9325ae497f9054b01cc9714b9097             1793 partner/binary-powerpc/Packages.gz
+ 6115cceeffeacdb87a8b04e9674700ebf15046ca             4440 partner/i18n/Translation-en.bz2
+ 5b810139f3b2198882db14fb1014a69857aa75c1             4133 partner/i18n/Translation-en.gz
+ 919730aa1f468f05757b2e9b841faf137d51a72b            16582 partner/i18n/Translation-en
+ 53a3d8de9980d236256ab9f6ebbbeeeacd701cb2              202 partner/i18n/Index
+ 7afefc8ba67d9669173410dff99099e21cbfeaae             5765 partner/source/Sources.gz
+ ab4b329340e6271912697ce5ee7d927ee65c6068             5731 partner/source/Sources.bz2
+ dd0694769511a42ea156c4d8828c0a5d3e9182fe              113 partner/source/Release
+ 87548e036da12cac7c9a7184d6bf1889713586d0            18251 partner/source/Sources
+SHA256:
+ 6a9b65966204591e3f820eb05475b047f9b2e45b543b0763f634dec17c1871b4              112 partner/binary-amd64/Release
+ 7d8e8aba0062941c4cc3243121b73b21ffac44c716a7b3302f3e0bf9dd0fd3d9            24218 partner/binary-amd64/Packages
+ 31ae8168c5941322d6c3a7aa3e69eb129c410fc7ee10eef49b816e4e2a4a9f1e             7130 partner/binary-amd64/Packages.gz
+ a85d2d4de74677bccd2b2b1afc9b75fa75b475d3e10454c0a7d11ea30d23de01             6913 partner/binary-amd64/Packages.bz2
+ 57b37bd005f7a820405814b5ca1b208f2835e8c36f14fac25d3eb40d83d0803d             1793 partner/binary-armel/Packages.gz
+ a063b21e9be991e17dfdba232232b291c6cac70d74cb8a1d7d59de103a3c9b90             4538 partner/binary-armel/Packages
+ 14154100c0eafd98647692f43f8bcc7ff6ec23591abb42cfb73793edeeee232f             1922 partner/binary-armel/Packages.bz2
+ a1026ca2fb35e24eaf74d84ba25a1f861927fb1cbda816b61d7a595cc1bcfc48              112 partner/binary-armel/Release
+ a063b21e9be991e17dfdba232232b291c6cac70d74cb8a1d7d59de103a3c9b90             4538 partner/binary-armhf/Packages
+ 56557351d6018218ab0952774a4f743a16589fe2630ccaffc093f8dd4a5fd291              112 partner/binary-armhf/Release
+ 57b37bd005f7a820405814b5ca1b208f2835e8c36f14fac25d3eb40d83d0803d             1793 partner/binary-armhf/Packages.gz
+ 14154100c0eafd98647692f43f8bcc7ff6ec23591abb42cfb73793edeeee232f             1922 partner/binary-armhf/Packages.bz2
+ 7b99dc3fc9fcd07a1a1cda317b38b945b98e766df557da1545d4d6b31f27b3b2             8088 partner/binary-i386/Packages.gz
+ 99242459ffc906250aaaa7b09f1f52f90d3e9b7a8eb405feeaa50171b465493f              111 partner/binary-i386/Release
+ f265ea6a45753f1d4255ff52bee352a97ee7a837822e1be04367d95439436d2f            27597 partner/binary-i386/Packages
+ 0c71f72d5b1004ef11fc742b929f570bb612f9807326fd46029d02a42f75f9f7             7795 partner/binary-i386/Packages.bz2
+ a063b21e9be991e17dfdba232232b291c6cac70d74cb8a1d7d59de103a3c9b90             4538 partner/binary-powerpc/Packages
+ ce6a91f1b8ea488497b8c2d959f71cb30d6dfa2db581d3812dd5cdb8e995dad0              114 partner/binary-powerpc/Release
+ 14154100c0eafd98647692f43f8bcc7ff6ec23591abb42cfb73793edeeee232f             1922 partner/binary-powerpc/Packages.bz2
+ 57b37bd005f7a820405814b5ca1b208f2835e8c36f14fac25d3eb40d83d0803d             1793 partner/binary-powerpc/Packages.gz
+ 9c2b27cefb4878311313389d91736a36d9ae5b7a3af9c2dd640b1553574513c7             4440 partner/i18n/Translation-en.bz2
+ c6cc0fbae0f5490db395d0015ab2af58bd36c57e5f522734ac81cbd04f75256e             4133 partner/i18n/Translation-en.gz
+ 2bcd88a4ccf48d9b1422e48d58b73084321de4120070a17d315aa000222c6e7e            16582 partner/i18n/Translation-en
+ be94bad27987a27b6832d6dc08fd65a08551d37f30f0a7120f3435d6986e855f              202 partner/i18n/Index
+ cc9c604c211fd7e7e73382018d940345915b12879531753f3e916e70f5f5b139             5765 partner/source/Sources.gz
+ 0a5fc2b5e0cebf7abc079cda8e6125b90aadd55e8ae215798eaa9cdcfdc53ae5             5731 partner/source/Sources.bz2
+ f33a3e7d34be8794e1218b2834441d27b0ee7634665afac78e259b123653e1ef              113 partner/source/Release
+ b6a6f52368627c02177e97481807441368ed091cb18d82d4ea26c131bc01eafb            18251 partner/source/Sources

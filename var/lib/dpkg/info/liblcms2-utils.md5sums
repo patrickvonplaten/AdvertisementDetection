@@ -1,0 +1,11 @@
+52ec0fb46f00a53e6a65d329a60153ed  usr/bin/jpgicc
+4de19cf7a7e0192d0b3eb19323756416  usr/bin/linkicc
+5eb41a8a59c3afadf2bfa3a717b5e4d5  usr/bin/psicc
+7cdc6e1b45b0664fecffa5b1b2649c2c  usr/bin/tificc
+b6372ba4cf0a0119b58b4d5a176f9f9e  usr/bin/transicc
+19a9d5e84354e8ddd137aeb298578839  usr/share/doc/liblcms2-utils/copyright
+bc36b96107dbffc9918b52c962274cc5  usr/share/man/man1/jpgicc.1.gz
+ab6e1648d6e208763a4616af8e4e2bb9  usr/share/man/man1/linkicc.1.gz
+c983690b5fc8a044fd234356d6634f2e  usr/share/man/man1/psicc.1.gz
+90a2647db49d45ddfadf4a7917a72c8c  usr/share/man/man1/tificc.1.gz
+d2124b457adc454dbd6a3538706926ef  usr/share/man/man1/transicc.1.gz

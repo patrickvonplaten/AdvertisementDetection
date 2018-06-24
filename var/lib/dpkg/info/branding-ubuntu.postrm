@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+
+files="
+aisleriot/pixmaps/slot.svg
+aisleriot/pixmaps/baize.png
+aisleriot/cards/bonded.svg
+gnome-mahjongg/themes/postmodern.svg
+"
+
+if [ "$1" = remove -o "$1" = purge ]; then
+	for item in $files 
+	do
+		dpkg-divert --package branding-ubuntu --remove --rename \
+		--divert "/usr/share/$item"".unbranded" "/usr/share/$item"
+	done
+fi
+
+

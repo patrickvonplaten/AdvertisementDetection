@@ -1,0 +1,14 @@
+3c6a8c17d3c86b46911fa06f3c968263  usr/lib/python3/dist-packages/jsonpickle-0.9.2.egg-info
+a673de10a7b4975a9ecb55f63785d7da  usr/lib/python3/dist-packages/jsonpickle/__init__.py
+a2d2b2fbff2ef230c6965c94bb9b9bbb  usr/lib/python3/dist-packages/jsonpickle/backend.py
+dd0b9ec72554db21a8cebb364b219b7b  usr/lib/python3/dist-packages/jsonpickle/compat.py
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/jsonpickle/ext/__init__.py
+52236b111b81fb892b453e5e25d1cead  usr/lib/python3/dist-packages/jsonpickle/ext/numpy.py
+68f80b25d874da4c2c14cf23c1fc3fcd  usr/lib/python3/dist-packages/jsonpickle/handlers.py
+749058454dd515016777cfaba5094a49  usr/lib/python3/dist-packages/jsonpickle/pickler.py
+475327a18d5ad8d71b039d638ffde4df  usr/lib/python3/dist-packages/jsonpickle/tags.py
+263cfa6af130479beca356a2e7a45b37  usr/lib/python3/dist-packages/jsonpickle/unpickler.py
+18c728349d9b1f927d35a9784e8063c7  usr/lib/python3/dist-packages/jsonpickle/util.py
+85e653a65ffdc2155d60344cec30b22c  usr/lib/python3/dist-packages/jsonpickle/version.py
+c5a4860edb889491bf20b482101de96d  usr/share/doc/python3-jsonpickle/changelog.Debian.gz
+897dcca76e16cf3fe347abe7c98dd81b  usr/share/doc/python3-jsonpickle/copyright

@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libkf5mailtransport-data
+/usr/share/doc/libkf5mailtransport-data/copyright
+/usr/share/doc/libkf5mailtransport-data/changelog.Debian.gz
+/usr/share/kservices5
+/usr/share/kservices5/kcm_mailtransport.desktop
+/usr/share/config.kcfg
+/usr/share/config.kcfg/mailtransport.kcfg

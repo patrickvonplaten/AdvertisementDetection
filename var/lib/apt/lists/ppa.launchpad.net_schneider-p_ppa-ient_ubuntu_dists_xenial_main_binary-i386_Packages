@@ -1,0 +1,16 @@
+Package: yuview
+Priority: optional
+Section: misc
+Installed-Size: 1787
+Maintainer: Jens Schneider <schneider@ient.rwth-aachen.de>
+Architecture: i386
+Version: 4.2.0-762-201707180817~ubuntu16.04.1
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: pool/main/y/yuview/yuview_4.2.0-762-201707180817~ubuntu16.04.1_i386.deb
+Size: 753012
+MD5sum: 560320dbb015f3c0ba201c1ed0519609
+SHA1: 77411e1c8782875540eda05b1cff717ae9a0337d
+SHA256: a631ba6cfe6e54eaac91b830b189eb6b1e35d6cd5639c1613ae45c21f08f74ea
+Description: QT based YUV player with an advanced analytic toolset.
+Description-md5: 82937dc41ef7254de57a0473d73036f7
+

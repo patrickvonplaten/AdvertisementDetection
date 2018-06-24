@@ -1,0 +1,12 @@
+cd42328093b419528b982ebbd71608eb  usr/bin/activity-log-manager
+e9da21e258861e923f7c85109856b797  usr/lib/x86_64-linux-gnu/unity-control-center-1/panels/libactivity-log-manager.so
+550b993a50d2a1a472dc85cc3b6144c1  usr/share/activity-log-manager/whoopsie.ui
+a4f3c83e69c93b1df067f4635016c593  usr/share/applications/activity-log-manager.desktop
+e6e23923942f207a77d5625ed8af5d07  usr/share/applications/unity-activity-log-manager-panel.desktop
+2a516da382e3b4b55ba988adb72d5398  usr/share/doc/activity-log-manager/AUTHORS
+8a5b271e69126c4491f499cab3733246  usr/share/doc/activity-log-manager/NEWS.gz
+60327dd79f911a6e258f449ff3481b7e  usr/share/doc/activity-log-manager/README
+b54f5e97ef2a6ba330a7ce91d3be4094  usr/share/doc/activity-log-manager/changelog.Debian.gz
+1a750642b6278bcd1798053a42867af9  usr/share/doc/activity-log-manager/copyright
+27656f86d1a21953f477819f42e8615f  usr/share/icons/hicolor/scalable/apps/activity-log-manager.svg
+946a12410aca6b9a2c53213d83e7e8b9  usr/share/lintian/overrides/activity-log-manager

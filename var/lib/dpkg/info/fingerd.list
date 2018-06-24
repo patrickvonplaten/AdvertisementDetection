@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/sbin
+/usr/sbin/in.fingerd
+/usr/share
+/usr/share/doc
+/usr/share/doc/fingerd
+/usr/share/doc/fingerd/changelog.Debian.gz
+/usr/share/doc/fingerd/copyright
+/usr/share/doc/fingerd/examples
+/usr/share/doc/fingerd/examples/finger.xinetd
+/usr/share/man
+/usr/share/man/man8
+/usr/share/man/man8/in.fingerd.8.gz

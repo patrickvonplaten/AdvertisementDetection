@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/fonts-gfs-didot-classic
+/usr/share/doc/fonts-gfs-didot-classic/OFL-FAQ.txt.gz
+/usr/share/doc/fonts-gfs-didot-classic/README.Debian
+/usr/share/doc/fonts-gfs-didot-classic/copyright
+/usr/share/doc/fonts-gfs-didot-classic/changelog.Debian.gz
+/usr/share/fonts
+/usr/share/fonts/truetype
+/usr/share/fonts/truetype/didot-classic
+/usr/share/fonts/truetype/didot-classic/GFSDidotClassic.otf
+/usr/share/bug
+/usr/share/bug/didot-classic
+/usr/share/bug/didot-classic/script
+/usr/share/bug/didot-classic/presubj

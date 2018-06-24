@@ -1,0 +1,9 @@
+Document: gdisk
+Section: System/Administration
+Title: Gdisk manuals
+Author: Roderick W. Smith
+Abstract: Manuals for cgdisk, fixparts, gdisk and sgdisk
+
+Format: HTML
+Index: /usr/share/doc/gdisk/index.html
+Files: /usr/share/doc/gdisk/*.html

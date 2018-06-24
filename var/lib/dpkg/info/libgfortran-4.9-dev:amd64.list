@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/gcc
+/usr/lib/gcc/x86_64-linux-gnu
+/usr/lib/gcc/x86_64-linux-gnu/4.9
+/usr/lib/gcc/x86_64-linux-gnu/4.9/libgfortranbegin.a
+/usr/lib/gcc/x86_64-linux-gnu/4.9/libcaf_single.a
+/usr/lib/gcc/x86_64-linux-gnu/4.9/libgfortran.a
+/usr/share
+/usr/share/doc
+/usr/lib/gcc/x86_64-linux-gnu/4.9/libgfortran.so
+/usr/share/doc/libgfortran-4.9-dev

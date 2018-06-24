@@ -1,0 +1,50 @@
+#!/bin/sh
+#
+# see: dh_installdeb(1)
+
+set -e
+
+. /usr/share/debconf/confmodule
+
+# Folders
+CACHE_DIR=/var/cache/sublime-text
+INSTALL_DIR=/opt/sublime_text
+UNPACK_DIR=$CACHE_DIR/sublime_text_3
+
+# Create install directory
+mkdir -p $INSTALL_DIR
+
+# Copy Sublime Text to the installation directory
+cp -rf $UNPACK_DIR/* $INSTALL_DIR/
+
+# Clean up
+rm -rf "$CACHE_DIR/sublime_text_3/"
+
+# Install the icons
+for res in 16x16 32x32 48x48 128x128 256x256; do
+	cp -rf $INSTALL_DIR/Icon/${res}/sublime-text.png /usr/share/icons/hicolor/${res}/apps/
+done
+if [ -x /usr/bin/gtk-update-icon-cache ]; then
+	gtk-update-icon-cache --ignore-theme-index -f /usr/share/icons/hicolor > /dev/null 2>&1
+# For some reason, Lubuntu only has gtk-update-icon-cache-3.0
+elif [ -x /usr/bin/gtk-update-icon-cache-3.0 ]; then
+	gtk-update-icon-cache-3.0 --ignore-theme-index -f /usr/share/icons/hicolor > /dev/null 2>&1
+fi
+
+# Work-around Menu item not being created on first installation
+if [ -x /usr/bin/desktop-file-install ]; then
+	desktop-file-install /usr/share/applications/sublime-text.desktop > /dev/null 2>&1
+fi
+
+#if [ -x /usr/bin/xdg-desktop-menu ]; then
+#	if [ -e /usr/share/applications/sublime-text.desktop ]; then
+#		xdg-desktop-menu install --novendor --mode system /usr/share/applications/sublime-text.desktop
+#	fi
+#fi
+
+
+
+
+exit 0
+
+# vim: ts=2 sw=2

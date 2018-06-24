@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libbabeltrace-ctf-text.so.1.0.0
+/usr/lib/x86_64-linux-gnu/libbabeltrace-ctf.so.1.0.0
+/usr/lib/x86_64-linux-gnu/libbabeltrace-ctf-metadata.so.1.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libbabeltrace-ctf1
+/usr/share/doc/libbabeltrace-ctf1/copyright
+/usr/lib/x86_64-linux-gnu/libbabeltrace-ctf-metadata.so.1
+/usr/lib/x86_64-linux-gnu/libbabeltrace-ctf-text.so.1
+/usr/lib/x86_64-linux-gnu/libbabeltrace-ctf.so.1
+/usr/share/doc/libbabeltrace-ctf1/changelog.Debian.gz

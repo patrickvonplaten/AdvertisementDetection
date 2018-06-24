@@ -1,0 +1,13 @@
+28deaf0fc26b09cfa52a6a1242410fd2  sbin/mount.truecrypt
+6d053e93d895884af3030aaaba894a5f  usr/bin/truecrypt
+303db456ffa5e7ec76ce8f2c76386cdf  usr/share/applications/truecrypt.desktop
+570c9afb290e0a9599125306dc92c500  usr/share/bash-completion/completions/truecrypt
+358ddd203b1c8d00413367cb3d4aceeb  usr/share/doc/truecrypt/License.txt.gz
+08bdded95566c8e1a2cbce8b724a8409  usr/share/doc/truecrypt/Readme.txt.gz
+071585f3f3bcdc7e492e7e84b226bdf0  usr/share/doc/truecrypt/TrueCrypt User Guide.pdf.gz
+d4e2b9ff4adc90162fc8bb383b467039  usr/share/doc/truecrypt/changelog.Debian.gz
+321e777304fdb934102be2136ffdf4b5  usr/share/doc/truecrypt/copyright
+df9a0c35d5687a18639b4b7ebd3f660a  usr/share/man/man1/truecrypt.1.gz
+8483b64d2441036b315fb626153a16cd  usr/share/mime/packages/truecrypt.xml
+2ff823ea1e27ef54b3d89928bd0a29ad  usr/share/pixmaps/truecrypt-indicator.png
+17620527f059d2f50998ed905bdcc36e  usr/share/pixmaps/truecrypt.xpm

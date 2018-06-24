@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/fonts
+/usr/share/fonts/truetype
+/usr/share/fonts/truetype/takao-gothic
+/usr/share/fonts/truetype/takao-gothic/TakaoPGothic.ttf
+/usr/share/doc
+/usr/share/doc/fonts-takao-pgothic
+/usr/share/doc/fonts-takao-pgothic/copyright
+/usr/share/doc/fonts-takao-pgothic/changelog.Debian.gz
+/etc
+/etc/fonts
+/etc/fonts/conf.d
+/etc/fonts/conf.avail
+/etc/fonts/conf.avail/65-fonts-takao-pgothic.conf
+/etc/fonts/conf.d/65-fonts-takao-pgothic.conf

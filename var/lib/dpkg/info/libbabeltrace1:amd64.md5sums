@@ -1,0 +1,5 @@
+870a3cc79e60c440ea9e42ae6edce1f7  usr/lib/x86_64-linux-gnu/libbabeltrace-dummy.so.1.0.0
+b2871729ace660564d0c820e2ecfa167  usr/lib/x86_64-linux-gnu/libbabeltrace-lttng-live.so.1.0.0
+035051eb19c2362f71d4cd5f0678afa6  usr/lib/x86_64-linux-gnu/libbabeltrace.so.1.0.0
+8ab589030ac1d24c6566f78d1370fd3d  usr/share/doc/libbabeltrace1/changelog.Debian.gz
+44ca7f6f35f7c10f8a5006022b1cb3df  usr/share/doc/libbabeltrace1/copyright

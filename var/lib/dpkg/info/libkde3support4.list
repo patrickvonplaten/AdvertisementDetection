@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libkde3support4
+/usr/share/doc/libkde3support4/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libkde3support4
+/usr/lib
+/usr/lib/libkunittest.so.4.14.16
+/usr/lib/libkde3support.so.4.14.16
+/usr/share/doc/libkde3support4/changelog.Debian.gz
+/usr/share/doc/libkde3support4/NEWS.Debian.gz
+/usr/lib/libkunittest.so.4
+/usr/lib/libkde3support.so.4

@@ -1,0 +1,2 @@
+name=arabic lefthyphenmin= righthyphenmin= file=zerohyph.tex file_patterns=
+name=farsi synonyms=persian lefthyphenmin= righthyphenmin= file=zerohyph.tex file_patterns=

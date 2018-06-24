@@ -1,0 +1,21 @@
+#!/bin/sh
+
+set -e
+
+FLAVOR=emacs24
+MAJOR=24
+MINOR=5
+FULL=24.5
+ALTERNATIVES="ctags ebrowse emacsclient etags grep-changelog"
+
+# update-alternatives on things that collide with xemacs, other editors
+if [ "$1" != "upgrade" ]
+then
+  for i in ${ALTERNATIVES}
+  do
+    update-alternatives --remove $i /usr/bin/$i.${FLAVOR}
+  done
+fi
+
+
+

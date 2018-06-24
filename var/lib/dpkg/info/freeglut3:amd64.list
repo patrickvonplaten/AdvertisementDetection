@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/freeglut3
+/usr/share/doc/freeglut3/changelog.Debian.gz
+/usr/share/doc/freeglut3/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libglut.so.3.9.0
+/usr/lib/x86_64-linux-gnu/libglut.so.3

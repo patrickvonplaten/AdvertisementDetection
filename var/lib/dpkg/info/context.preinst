@@ -1,0 +1,53 @@
+#!/bin/sh
+set -e
+
+case "$1" in
+	install|upgrade)
+    # check if we got unpacked into a linked /usr/share/texmf/doc
+    # see postinst for explanations
+    ov=$2
+    if [ -n "$ov" ] && dpkg --compare-versions "$ov" lt 2013 ; then
+      tcv=$(dpkg-query --show --showformat='${Version}' tex-common)
+      if [ -n "$tcv" ] && dpkg --compare-versions "$tcv" lt 4 ; then
+        slink=/usr/share/texmf/doc
+        slinktarget=../doc/texmf
+        if [ -L $slink ] && [ "$(readlink $slink)" = $slinktarget ] ; then
+          # ok, that link will be gone with the upgrade from tex-common
+          # and our doc files list, make sure that our postinst
+          # script can recover them!
+          mkdir -p /var/lib/tex-common
+          touch /var/lib/tex-common/context-inverse-update-stamp
+        fi
+      fi
+    fi
+    #
+		if [ -L /var/lib/texmf/web2c/pdftex ] ; then
+			linkdest=$(readlink -n /var/lib/texmf/web2c/pdftex)
+			case "$linkdest" in
+				pdfetex|/var/lib/texmf/web2c/pdfetex)
+					rm /var/lib/texmf/web2c/pdftex
+					mv /var/lib/texmf/web2c/pdfetex /var/lib/texmf/web2c/pdftex
+					;;
+			esac
+		fi
+    ;;
+
+    abort-upgrade)
+    ;;
+
+    *)
+        echo "preinst called with unknown argument '$1'" >&2
+        exit 1
+    ;;
+esac
+
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/texmf/fmt.d/20context.cnf 2015.05.18.20150601-1~ -- "$@"
+# End automatically added section
+
+
+# common.functions.preinst end
+# Local Variables:
+# mode: shell-script
+# End:
+# vim:set expandtab: #

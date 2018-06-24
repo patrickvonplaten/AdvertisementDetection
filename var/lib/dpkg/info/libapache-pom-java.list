@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libapache-pom-java
+/usr/share/doc/libapache-pom-java/changelog.Debian.gz
+/usr/share/doc/libapache-pom-java/copyright
+/usr/share/maven-repo
+/usr/share/maven-repo/org
+/usr/share/maven-repo/org/apache
+/usr/share/maven-repo/org/apache/apache
+/usr/share/maven-repo/org/apache/apache/debian
+/usr/share/maven-repo/org/apache/apache/debian/apache-debian-site.xml
+/usr/share/maven-repo/org/apache/apache/debian/apache-debian.pom
+/usr/share/maven-repo/org/apache/apache/10
+/usr/share/maven-repo/org/apache/apache/10/apache-10-site.xml
+/usr/share/maven-repo/org/apache/apache/10/apache-10.pom

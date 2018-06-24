@@ -1,0 +1,5 @@
+5210a7d580014a043a2daaa402364588  usr/bin/runantlr
+0e00f4b6e532a226963a02829594d849  usr/share/doc/antlr/README.Debian
+3816c6da45c94216a0a2ae272e963013  usr/share/doc/antlr/changelog.Debian.gz
+cd40f5f86bc9bae853d746d6dfe9ee77  usr/share/doc/antlr/copyright
+ec9f9974f8b951a5cb88ccc43b5c78b1  usr/share/man/man1/runantlr.1.gz

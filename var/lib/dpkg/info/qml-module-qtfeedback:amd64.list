@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/qml
+/usr/lib/x86_64-linux-gnu/qt5/qml/QtFeedback
+/usr/lib/x86_64-linux-gnu/qt5/qml/QtFeedback/libdeclarative_feedback.so
+/usr/lib/x86_64-linux-gnu/qt5/qml/QtFeedback/plugins.qmltypes
+/usr/lib/x86_64-linux-gnu/qt5/qml/QtFeedback/qmldir
+/usr/share
+/usr/share/doc
+/usr/share/doc/qml-module-qtfeedback
+/usr/share/doc/qml-module-qtfeedback/copyright
+/usr/share/doc/qml-module-qtfeedback/changelog.Debian.gz

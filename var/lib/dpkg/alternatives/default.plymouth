@@ -1,0 +1,12 @@
+auto
+/usr/share/plymouth/themes/default.plymouth
+default.plymouth.grub
+/usr/share/plymouth/themes/default.grub
+
+/usr/share/plymouth/themes/ubuntu-logo/ubuntu-logo-scale-2.plymouth
+99
+/usr/share/plymouth/themes/ubuntu-logo/ubuntu-logo.grub
+/usr/share/plymouth/themes/ubuntu-logo/ubuntu-logo.plymouth
+100
+/usr/share/plymouth/themes/ubuntu-logo/ubuntu-logo.grub
+

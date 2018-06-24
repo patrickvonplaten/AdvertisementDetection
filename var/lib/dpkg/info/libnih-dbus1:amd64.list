@@ -1,0 +1,9 @@
+/.
+/lib
+/lib/x86_64-linux-gnu
+/lib/x86_64-linux-gnu/libnih-dbus.so.1.0.0
+/usr
+/usr/share
+/usr/share/doc
+/lib/x86_64-linux-gnu/libnih-dbus.so.1
+/usr/share/doc/libnih-dbus1

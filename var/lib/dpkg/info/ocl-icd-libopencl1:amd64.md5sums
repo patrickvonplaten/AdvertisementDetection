@@ -1,0 +1,10 @@
+dc3b39240fd0abe8d6ff81ff9b972acb  usr/lib/x86_64-linux-gnu/libOpenCL.so.1.0.0
+e8b65987f9c29caa62f97125423caa58  usr/share/doc-base/ocl-icd-libopencl1
+3a479f22b73169ff51858504051dfb47  usr/share/doc/ocl-icd-libopencl1/NEWS.Debian.gz
+3f0ea8a225c3e7d86a36e1b136117287  usr/share/doc/ocl-icd-libopencl1/README
+233cd3a1150f6b3406ae39a27218a47e  usr/share/doc/ocl-icd-libopencl1/README.Debian.gz
+e4308556eea618b5e3964bc74c8a0a93  usr/share/doc/ocl-icd-libopencl1/changelog.Debian.gz
+3d151172658f71380a68446fc3b59e60  usr/share/doc/ocl-icd-libopencl1/copyright
+8ebe376494eebe7c8564d1e0faa6721a  usr/share/doc/ocl-icd-libopencl1/html/libOpenCL.html
+fcfbd061fc4f20241ca88904b8a6a249  usr/share/lintian/overrides/ocl-icd-libopencl1
+8716f26c557bdfeb7244891e95fd0079  usr/share/man/man7/libOpenCL.7.gz

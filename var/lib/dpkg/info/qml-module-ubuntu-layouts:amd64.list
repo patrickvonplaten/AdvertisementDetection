@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/qml
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Layouts
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Layouts/libUbuntuLayouts.so
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Layouts/plugins.qmltypes
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Layouts/qmldir
+/usr/share
+/usr/share/doc
+/usr/share/doc/qml-module-ubuntu-layouts
+/usr/share/doc/qml-module-ubuntu-layouts/copyright
+/usr/share/doc/qml-module-ubuntu-layouts/changelog.Debian.gz

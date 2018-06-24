@@ -1,0 +1,6 @@
+12a3fe7581eaa3b43517695f063046d3  usr/lib/ruby/vendor_ruby/power_assert.rb
+2649b7bc4cf43707f732a6c2f999fa6e  usr/lib/ruby/vendor_ruby/power_assert/enable_tracepoint_events.rb
+34cd0ad77df5d0637b4637c02e13ee0f  usr/lib/ruby/vendor_ruby/power_assert/version.rb
+842fe6114c4e00dc10dd49979592d334  usr/share/doc/ruby-power-assert/changelog.Debian.gz
+3ab5d3f18058e2c5f8b58f22d50b4be2  usr/share/doc/ruby-power-assert/copyright
+0eea6a703361e135053e4256a129b807  usr/share/rubygems-integration/all/specifications/power_assert-0.2.7.gemspec

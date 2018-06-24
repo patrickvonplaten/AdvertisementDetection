@@ -1,0 +1,10 @@
+bbbf06d1e100327502f55c11811b172c  usr/lib/debug/usr/lib/python2.7/dist-packages/glib/_glib.x86_64-linux-gnu_d.so
+3ef4859e957aaa434a8383867de3c64f  usr/lib/debug/usr/lib/python2.7/dist-packages/gobject/_gobject.x86_64-linux-gnu_d.so
+5c43edb0409f96f3e8d65081554e5535  usr/lib/debug/usr/lib/python2.7/dist-packages/gtk-2.0/gio/_gio.x86_64-linux-gnu_d.so
+508109c059c62f9a84592a5782e852c5  usr/lib/debug/usr/lib/python2.7/dist-packages/gtk-2.0/gio/unix.x86_64-linux-gnu_d.so
+0ba3fc57e6392e030c9a8dfdc44927ab  usr/lib/debug/usr/lib/x86_64-linux-gnu/libpyglib-2.0-python2.7.so.0.0.0
+e5204811854882b5eac112843507591e  usr/lib/python2.7/dist-packages/glib/_glib.x86_64-linux-gnu_d.so
+a48d25019d7b4d51c3a3c947db686c03  usr/lib/python2.7/dist-packages/gobject/_gobject.x86_64-linux-gnu_d.so
+4f98ffbf0f177e6e041c0494be2f84e2  usr/lib/python2.7/dist-packages/gtk-2.0/gio/_gio.x86_64-linux-gnu_d.so
+878761bea0b2d6f89e4be3efcc692c00  usr/lib/python2.7/dist-packages/gtk-2.0/gio/unix.x86_64-linux-gnu_d.so
+ae191c1f6a83fa96dfaa06d52e8c655d  usr/lib/x86_64-linux-gnu/libpyglib-2.0-python2.7-dbg.so.0.0.0

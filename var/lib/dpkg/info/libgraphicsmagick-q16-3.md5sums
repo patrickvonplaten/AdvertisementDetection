@@ -1,0 +1,12 @@
+2e29c17cc58190c9420bcd6434afa30f  usr/lib/GraphicsMagick-1.3.23/config/delegates.mgk
+579d512c48dfca6b72dd6fe87ba80073  usr/lib/GraphicsMagick-1.3.23/config/type-ghostscript.mgk
+d978820a3238ced55db5da6fbeb58ccc  usr/lib/GraphicsMagick-1.3.23/config/type-solaris.mgk
+93914c835d11c22deb980525b6b81f53  usr/lib/GraphicsMagick-1.3.23/config/type-windows.mgk
+0e42545f13ac7926b29660d1bf8a1fcc  usr/lib/GraphicsMagick-1.3.23/config/type.mgk
+09cca7708edde6d75b17fa198ad1ab20  usr/lib/libGraphicsMagick-Q16.so.3.14.1
+7da74ba436a4ed4fce437ad8d515fe97  usr/lib/libGraphicsMagickWand-Q16.so.2.7.3
+92536780cf98ce7a18dbe5b9fb2fcb8b  usr/share/GraphicsMagick-1.3.23/config/colors.mgk
+4897f8fab1f0b10715a39f90eb9fe309  usr/share/GraphicsMagick-1.3.23/config/log.mgk
+aaaad519b458d4d1db80d7afed99eee5  usr/share/GraphicsMagick-1.3.23/config/modules.mgk
+627a57288b31460906594b3ec47a9ab2  usr/share/doc/libgraphicsmagick-q16-3/changelog.Debian.gz
+b2d499183c119f066edc737250bc97ee  usr/share/doc/libgraphicsmagick-q16-3/copyright

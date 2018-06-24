@@ -1,0 +1,5 @@
+051c78c73c5bb5eea048f408feefa98a  usr/lib/x86_64-linux-gnu/libKF5Auth.so.5.18.0
+83294309920e376ed7aa872e95ee3674  usr/lib/x86_64-linux-gnu/qt5/plugins/kauth/backend/kauth_backend_plugin.so
+6a01aaacea967809474b524c781d39e9  usr/lib/x86_64-linux-gnu/qt5/plugins/kauth/helper/kauth_helper_plugin.so
+907cf9db99857f12f2a2b4eee6855bcf  usr/share/doc/libkf5auth5/changelog.Debian.gz
+68b940e6aa07c702861a84543f057f06  usr/share/doc/libkf5auth5/copyright

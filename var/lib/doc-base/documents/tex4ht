@@ -1,0 +1,10 @@
+Document: tex4ht
+Section: Text
+Title: TeX4ht user manual
+Author: Eitan Gurari
+Abstract: This manual describes the configuration and features of
+ TeX4ht for authoring hypertext (HTML) using TeX or LaTeX.
+
+Format: HTML
+Index: /usr/share/doc/tex4ht/html/index.html
+Files: /usr/share/doc/tex4ht/html/*

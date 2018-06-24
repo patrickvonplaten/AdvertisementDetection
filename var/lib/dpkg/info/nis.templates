@@ -1,0 +1,79 @@
+
+Template: nis/domain
+Type: string
+Description: NIS domain:
+ Please choose the NIS "domainname" for this system. If you want this
+ machine to just be a client, you should enter the name of the
+ NIS domain you wish to join.
+ .
+ Alternatively, if this machine is to be a NIS server, you can
+ either enter a new NIS "domainname" or
+ the name of an existing NIS domain.
+Description-ca.UTF-8: Domini NIS:
+ Introduïu el «nom de domini» NIS per a aquest sistema. Si voleu que l'ordinador només sigui un client, introduïu el nom del domini NIS al qual desitjau unir-vos.
+ .
+ Com a alternativa, si aquesta màquina és un sevidor NIS, podeu escriure un nou «nom de domini» NIS o el nom d'un domini NIS ja existent.
+Description-cs.UTF-8: NIS doména:
+ Vyberte, prosím, nové NIS "domainname" pro tento systém. Má-li být tento stroj pouze klientem, měli byste zadat jméno NIS domény, k níž se chcete připojit.
+ .
+ Alternativně, má-li být tento stroj NIS serverem, můžete rovněž vložit nové NIS "domainname", nebo jméno již existující NIS domény.
+Description-da.UTF-8: NIS-domæne:
+ Vælg venligst et NIS-domænenavn (domainname) til dette system. Hvis du vil have at denne maskine blot skal være en klient, skal du angive navnet på NIS-domænet, du ønsker at tilslutte.
+ .
+ Alternativt, hvis denne maskine skal være en NIS-server, kan du enten indtaste et nyt NIS-domænenavn (domainname) eller navnet på et eksisterende NIS-domæne.
+Description-de.UTF-8: NIS-Domain:
+ Bitte wählen Sie den NIS-»Domainnamen« für dieses System. Falls diese Maschine nur ein Client sein soll, sollten Sie den Namen der NIS-Domain angeben, in die sie integriert werden soll.
+ .
+ Falls andererseits diese Maschine ein NIS-Server werden soll, können Sie entweder einen neuen NIS-»Domainnamen« oder den Namen einer existierenden NIS-Domain eingeben.
+Description-es.UTF-8: Dominio de NIS:
+ Escoja el «nombre del dominio» de NIS para este sistema. Si quiere que esta máquina sólo sea un cliente, debería introducir el nombre del dominio de NIS al que se quiere unir.
+ .
+ De forma alternativa, si esta máquina va a ser un servidor NIS, puede introducir un nuevo «nombre de dominio» de NIS o el nombre de un dominio de NIS existente.
+Description-fi.UTF-8: NIS-verkkoalue:
+ Anna järjestelmän ”NIS domainname” (NIS-verkkoaluenimi). Jos tämä kone on vain asiakas, anna sen NIS-verkkoalueen nimi, johon haluat liittyä.
+ .
+ Jos tämä kone on puolestaan NIS-palvelin, voit antaa joko uuden NIS-verkkoaluenimen tai olemassa olevan NIS-verkkoalueen.
+Description-fr.UTF-8: Domaine NIS :
+ Veuillez indiquer le nom de domaine (domainname) NIS pour ce système. Si cette machine n'est qu'un client, saisissez simplement le nom du domaine NIS que vous souhaitez rejoindre.
+ .
+ Si cette machine doit être un serveur NIS, vous pouvez saisir soit un nouveau nom de domaine (domainname) NIS, soit le nom d'un domaine NIS existant.
+Description-gl.UTF-8: Dominio NIS:
+ Agora ten que escoller un «domainname» (nome de dominio) NIS para este sistema. Se quere que esta máquina sexa un cliente, introduza o nome de dominio NIS da rede á que quere xuntarse.
+ .
+ Por outra parte, se esta máquina é un servidor NIS, pode introducir un novo «domainname» NIS ou o nome dun dominio NIS xa existente.
+Description-it.UTF-8: Dominio NIS:
+ Inserire il "nome di dominio (domainname)" NIS per questo sistema. Se questa macchina dovrà essere semplicemente un client, inserire il nome del dominio NIS a cui collegarsi.
+ .
+ In alternativa, se questa macchina dovrà essere un server NIS, è possibile inserire un nuovo "nome di dominio (domainname)" NIS oppure il nome di un dominio NIS esistente.
+Description-ja.UTF-8: NIS ドメイン名:
+ このシステムが使用する NIS ドメイン名 (domainname) を選んでください。このマシンを単にクライアントとして利用したい場合、あなたが利用しているネットワークでの NIS ドメイン名を入力する必要があります。
+ .
+ 一方、このマシンを NIS サーバとして利用する場合は新たな NIS ドメイン名 (domainname)、既存の NIS ドメイン名の入力のどちらでも構いません。
+Description-nl.UTF-8: NIS-domein:
+ Gelieve de NIS-domeinnaam (domainname) te kiezen voor dit systeem. Als u wilt dat deze machine enkel een client is dient u hier de naam op te geven van het NIS-domeinnaam waar deze onderdeel van moet worden.
+ .
+ Als deze machine een NIS-server moet worden dient u hier een nieuwe NIS-domeinnaam (domainname) of de naam van een bestaand NIS-domein op te geven.
+Description-pt.UTF-8: Domínio NIS
+ Escolha por favor um "domaainname" NIS para este sistema. Se quer que esta máquina seja apenas um cliente, deve indicar o nome de domínio ao qual se pretende associar.
+ .
+ Em alternativa, se esta máquina for um servidor NIS, pode indicar um novo "domainname" ou um nome de um domínio NIS existente.
+Description-pt_BR.UTF-8: Domínio NIS:
+ Por favor, escolha o nome de domínio ("domainname") NIS para o seu sistema. Se você deseja que esta máquina seja apenas um cliente, informe o nome do domínio NIS ao qual você deseja se juntar.
+ .
+ Alternativamente, se essa máquina é um servidor NIS, você pode tanto informar um novo nome de domínio ("domainname") NIS ou o nome de um domínio NIS existente.
+Description-ru.UTF-8: Домен NIS:
+ Укажите NIS "domainname" для этой системы. Если вы хотите, чтобы эта машина была только клиентом, то введите имя домена NIS, в который хотите войти.
+ .
+ Или же, если это машина будет сервером NIS, то вы можете указать новое имя NIS "domainname" или имя существующего домена NIS.
+Description-sk.UTF-8: Doména NIS:
+ Prosím, vyberte názov domény pre NIS. Ak chcete, aby tento stroj bol iba klient, mali by ste zadať názov domény NIS, do ktorej ho chcete pridať.
+ .
+ V opačnom prípade, ak chcete aby tento stroj bol server NIS, môžete zadať buď názov novej domény NIS alebo názov existujúcej domény NIS.
+Description-sv.UTF-8: NIS-domän
+ Ange "domännamn" för NIS på detta system. Om denna maskin endast ska agera klient anger du namnet på den NIS-domän som ska anslutas till.
+ .
+ Alternativt, om denna maskin ska agera NIS-server kan du antingen ange ett nytt NIS-"domännamn" eller namnet på en existerande NIS-domän.
+Description-vi.UTF-8: Miền NIS:
+ Hãy chọn « domainname » (tên miền) NIS cho hệ thống này. Muốn làm cho máy này chỉ làm khách thì bạn nên nhập tên của miền NIS cần vào.
+ .
+ Tuy nhiên, nếu máy này sẽ làm máy phục vụ NIS thì bạn có thể nhập hoặc một « domainname » NIS mới, hoặc tên của một miền NIS đã có.

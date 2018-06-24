@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libtexluajit.so.2.1.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libtexluajit2
+/usr/share/doc/libtexluajit2/changelog.gz
+/usr/share/doc/libtexluajit2/copyright
+/usr/share/doc/libtexluajit2/changelog.Debian.gz
+/usr/lib/x86_64-linux-gnu/libtexluajit.so.2

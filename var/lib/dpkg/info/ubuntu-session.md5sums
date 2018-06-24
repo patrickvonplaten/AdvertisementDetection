@@ -1,0 +1,4 @@
+6d6a45f6ac60957a3bf94687aee0a289  usr/share/doc/ubuntu-session/copyright
+6e34562e4d95275ae5f687a1b5432a4b  usr/share/gnome-session/sessions/ubuntu.session
+f51c95591a7896ad7901be809ea88098  usr/share/lightdm/lightdm.conf.d/50-ubuntu.conf
+99b1268eaa89e1a11a104c28057bbb3b  usr/share/xsessions/ubuntu.desktop

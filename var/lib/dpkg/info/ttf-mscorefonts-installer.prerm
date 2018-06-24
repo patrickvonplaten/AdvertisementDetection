@@ -1,0 +1,24 @@
+#!/bin/sh
+
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/defoma/hints/ttf-mscorefonts-installer.hints 3.4 -- "$@"
+# End automatically added section
+
+
+# don't set -e before debhelper, because removal stuff like defoma may fail,
+# but we're still successfully uninstalled.
+set -e
+
+rm -f /var/lib/update-notifier/package-data-downloads/ttf-mscorefonts-installer.*
+
+if [ "$1" = "remove" ] && [ -e /var/lib/msttcorefonts/ms-fonts ]; then
+	rm -f /var/lib/update-notifier/package-data-downloads/ttf-mscorefonts-installer
+	cd /usr/share/fonts/truetype/msttcorefonts && \
+		rm -f `cat /var/lib/msttcorefonts/ms-fonts`
+	rm -f '/usr/share/doc/msttcorefonts/READ_ME!.gz'
+	rm -f '/usr/share/doc/ttf-mscorefonts-installer/READ_ME!.gz'
+	rm -r /var/lib/msttcorefonts/ms-fonts
+	rmdir --ignore-fail-on-non-empty /usr/share/fonts/truetype/msttcorefonts
+fi
+
+exit 0

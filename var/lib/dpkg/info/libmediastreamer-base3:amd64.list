@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmediastreamer-base3
+/usr/share/doc/libmediastreamer-base3/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libmediastreamer_base.so.3.0.0
+/usr/lib/x86_64-linux-gnu/libmediastreamer_voip.so.3.0.0
+/usr/share/doc/libmediastreamer-base3/changelog.Debian.gz
+/usr/lib/x86_64-linux-gnu/libmediastreamer_voip.so.3
+/usr/lib/x86_64-linux-gnu/libmediastreamer_base.so.3

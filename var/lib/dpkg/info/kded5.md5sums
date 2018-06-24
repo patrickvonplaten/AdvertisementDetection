@@ -1,0 +1,17 @@
+638c0ec3b87c42a686914a411535b8c0  usr/bin/kded5
+10c0b3f895b55b8e8379216bf4433fd1  usr/lib/x86_64-linux-gnu/libkdeinit5_kded5.so
+01899463de4905adae171ee60e57f20e  usr/share/dbus-1/interfaces/org.kde.kded5.xml
+832b8d622b97a8668a900f347fb9e317  usr/share/dbus-1/services/org.kde.kded5.service
+fa45745af715dc1b6bd046c77c7134aa  usr/share/doc/kded5/changelog.Debian.gz
+bbee753ad459c6727972aae0a9da908f  usr/share/doc/kded5/copyright
+57bf7357e7b295ae77bd2124ea78a94c  usr/share/kservicetypes5/kdedmodule.desktop
+c51e5996518722449012b2c64a6b5ad7  usr/share/lintian/overrides/kded5
+3a31d001fadafc4b6a49f5b6d04b784e  usr/share/man/ca/man8/kded5.8.gz
+a464207249c352aad7490a56e5badd2d  usr/share/man/de/man8/kded5.8.gz
+45a04f505ebfe8d5297c71d5aaf21f6d  usr/share/man/it/man8/kded5.8.gz
+8a88da17e868b726285a007adba9ee21  usr/share/man/man8/kded5.8.gz
+d145ba1d9bfd6e17050adb37588dc716  usr/share/man/nl/man8/kded5.8.gz
+737a9d1a40182bb5fb67e5d852c43a3c  usr/share/man/pt_BR/man8/kded5.8.gz
+7bb76d91b821b60789aabd8938422ad2  usr/share/man/ru/man8/kded5.8.gz
+c05412a64322a9f5c5c96f39ec9ab3f5  usr/share/man/sv/man8/kded5.8.gz
+3aa673f5f3a9c10e707e50bea4668d64  usr/share/man/uk/man8/kded5.8.gz

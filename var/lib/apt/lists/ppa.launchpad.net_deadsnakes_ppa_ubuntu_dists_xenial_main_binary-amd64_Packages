@@ -1,0 +1,3123 @@
+Package: idle-python2.3
+Source: python2.3
+Priority: optional
+Section: python
+Installed-Size: 768
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 2.3.7-2+xenial1
+Depends: python2.3, python2.3-tk
+Enhances: python2.3
+Filename: pool/main/p/python2.3/idle-python2.3_2.3.7-2+xenial1_all.deb
+Size: 177820
+MD5sum: 63d6e6f31ea1a80449e96f1da786ec10
+SHA1: f4104889d66cf4aba37333acc81fb795346ad0e5
+SHA256: 37a9e14894a184202036f30c431da0668ad77a20e4873b8437f2f9d4a4d1c36c
+Description: IDE for Python (version 2.3) using Tkinter
+Description-md5: c9f41951bcb18cbf22d30b08359d552e
+Python-Version: 2.3
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: idle-python2.4
+Source: python2.4
+Priority: optional
+Section: python
+Installed-Size: 801
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 2.4.6-8+xenial1
+Depends: python2.4, python2.4-tk
+Enhances: python2.4
+Filename: pool/main/p/python2.4/idle-python2.4_2.4.6-8+xenial1_all.deb
+Size: 201506
+MD5sum: 547baec16c93c3807c37e9270338b88f
+SHA1: 806cbe96a69665227994766b610eca8f1119a3e2
+SHA256: 8c064379290f914f05c26a47c921a24a0290c252ebf4ef0ab76633f7d7f9b599
+Description: IDE for Python (version 2.4) using Tkinter
+Description-md5: e91d60dde77ce65f913db15478bd50af
+Python-Version: 2.4
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.3
+Priority: optional
+Section: python
+Installed-Size: 5264
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.3.7-2+xenial1
+Suggests: python2.3-doc, binutils
+Provides: python2.3-cjkcodecs, python2.3-plistlib, python2.3-profiler
+Depends: python2.3-minimal (= 2.3.7-2+xenial1), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libncursesw5 (>= 6), libreadline6 (>= 6.0), libssl1.0.0 (>= 1.0.0), libtinfo5 (>= 6)
+Filename: pool/main/p/python2.3/python2.3_2.3.7-2+xenial1_amd64.deb
+Size: 1169254
+MD5sum: 082c9e4a01e0e3c2da833dad52949e55
+SHA1: 689318f409923ae6e932914f4672db12d0b7b853
+SHA256: 5931f454203c08601682d935fc42e070c5eb8e711bd223412f560465466c1dca
+Description: Interactive high-level object-oriented language (version 2.3)
+Description-md5: 8ccf14658d97acd095024712f2377202
+Python-Version: 2.3
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.3-dev
+Source: python2.3
+Priority: optional
+Section: python
+Installed-Size: 7083
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.3.7-2+xenial1
+Recommends: libc6-dev | libc-dev
+Depends: python2.3 (= 2.3.7-2+xenial1), libpython2.3 (= 2.3.7-2+xenial1), libssl-dev
+Filename: pool/main/p/python2.3/python2.3-dev_2.3.7-2+xenial1_amd64.deb
+Size: 1302466
+MD5sum: f5d82f9e42a9fb585907a4d6151f7c71
+SHA1: b1a6a2ccb7f4b83a18586772f4e5d9b8d781c9e7
+SHA256: 9172cc0acd3c6653ac5a07017749a05093a2f2f1cdf38f91a556e1ff987aec4f
+Description: Header files and a static library for Python (version 2.3)
+Description-md5: 32305caa96b9f6723fc0565b9ecf5c17
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.3-doc
+Source: python2.3
+Priority: optional
+Section: doc
+Installed-Size: 13397
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 2.3.7-2+xenial1
+Suggests: python2.3
+Depends: dpkg (>= 1.15.4) | install-info
+Filename: pool/main/p/python2.3/python2.3-doc_2.3.7-2+xenial1_all.deb
+Size: 2293762
+MD5sum: 7e4b85c15c0b929e100b1ff76f04f470
+SHA1: 4e8e2016d930c1799ca50012bf5ea7f094cb3ffd
+SHA256: 342679f1c91d6aaedb5e046409dcd153aff8b96ab4747ae1246e870d36dedb25
+Description: Documentation for the high-level object-oriented language Python (version 2.3)
+Description-md5: 19d4f67a385a8a6e48aa30b778d5d6bd
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.3-examples
+Source: python2.3
+Priority: optional
+Section: python
+Installed-Size: 1876
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 2.3.7-2+xenial1
+Depends: python2.3 (>= 2.3.7-2+xenial1)
+Filename: pool/main/p/python2.3/python2.3-examples_2.3.7-2+xenial1_all.deb
+Size: 411130
+MD5sum: a3f3ddbb5cc31959a8ba94beb3195213
+SHA1: 5b53568967a7277097cbd68a13eeef7397d0743a
+SHA256: c40fd0746fad961da0588f8291b1159632ef9cc89586fe7516e1eb7faa841259
+Description: Examples for the Python language (version 2.3)
+Description-md5: 09158bad50ca6ad254da7d11ac2383ea
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.3-gdbm
+Source: python2.3
+Priority: optional
+Section: python
+Installed-Size: 58
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.3.7-2+xenial1
+Suggests: python2.3-gdbm-dbg
+Depends: python2.3, libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python2.3/python2.3-gdbm_2.3.7-2+xenial1_amd64.deb
+Size: 14324
+MD5sum: 31514b9e4f7ebf30d68e127768114398
+SHA1: 9fae5b03377d9bb80fccde7ab056d4468acfd274
+SHA256: 659df00a06fcb7885cf192058a967c604874726fd55287955d070166e2817305
+Description: GNU dbm database support for Python (version 2.3)
+Description-md5: 882310b8675731bb375890b978185cb2
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.3-tk
+Source: python2.3
+Priority: optional
+Section: python
+Installed-Size: 101
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.3.7-2+xenial1
+Suggests: tix, python2.3-tk-dbg
+Depends: python2.3, libc6 (>= 2.4), libtcl8.5 (>= 8.5.0), libtk8.5 (>= 8.5.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python2.3/python2.3-tk_2.3.7-2+xenial1_amd64.deb
+Size: 27230
+MD5sum: 599eea0303ff8dd36b6d8a5397eae9a7
+SHA1: 4c4b399489536dfd04169acc52b0a3ae01d5a297
+SHA256: b60facb3ee6c65c2247953a3840b459f66c075a6e2ba8c338c68436858dcfafc
+Description: Tkinter - Writing Tk applications with Python (version 2.3)
+Description-md5: b5203d6b5b6b3cf7a594a54622890710
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.4
+Priority: optional
+Section: python
+Installed-Size: 6607
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.4.6-8+xenial1
+Suggests: python2.4-doc, binutils
+Provides: python2.4-cjkcodecs, python2.4-plistlib, python2.4-profiler
+Depends: python2.4-minimal (= 2.4.6-8+xenial1), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libncursesw5 (>= 6), libreadline6 (>= 6.0), libssl1.0.0 (>= 1.0.0), libtinfo5 (>= 6)
+Filename: pool/main/p/python2.4/python2.4_2.4.6-8+xenial1_amd64.deb
+Size: 1593424
+MD5sum: 600123b4cf69f21eaee514bf3262018a
+SHA1: 4a960a62da593696d534fbbbc160c0eda960a6a3
+SHA256: bb736901e502e1f860333e0c0b40a76e4d93bca39b68f905ccecf56f6ed8aa5e
+Description: Interactive high-level object-oriented language (version 2.4)
+Description-md5: 6fd915f3f2125f8248504ff713402485
+Python-Version: 2.4
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.4-dbg
+Source: python2.4
+Priority: extra
+Section: debug
+Installed-Size: 30580
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.4.6-8+xenial1
+Suggests: python2.4-gdbm-dbg, python2.4-tk-dbg
+Depends: python2.4 (>= 2.4.6-8+xenial1), libbz2-1.0, libc6 (>= 2.14), libdb5.3, libncursesw5 (>= 6), libreadline6 (>= 6.0), libssl1.0.0 (>= 1.0.0), libtinfo5 (>= 6), zlib1g (>= 1:1.1.4)
+Filename: pool/main/p/python2.4/python2.4-dbg_2.4.6-8+xenial1_amd64.deb
+Size: 6023774
+MD5sum: 400a73e94d84c05a02869713ffcd661a
+SHA1: 47656c0ff04df531b53a088285442d680970a90c
+SHA256: fc067b552063371d7bc8d9c8b108cdad12b97f9bd3f5535b6f867fb654825912
+Description: Debug Build of the Python Interpreter (version 2.4)
+Description-md5: 668483e79f124aff97bbb8429fb69b30
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.4-dev
+Source: python2.4
+Priority: optional
+Section: python
+Installed-Size: 7575
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.4.6-8+xenial1
+Recommends: libc6-dev | libc-dev
+Depends: python2.4 (= 2.4.6-8+xenial1), libpython2.4 (= 2.4.6-8+xenial1), libssl-dev
+Filename: pool/main/p/python2.4/python2.4-dev_2.4.6-8+xenial1_amd64.deb
+Size: 1362916
+MD5sum: 057f5a3125e1858e79007a856d97d636
+SHA1: d92bb6399a83df16f196ffc4037238aeadf77b7e
+SHA256: 93da0460e46ffe299ade39808cbcfeee1af2e4f17004005e27eb8d91d2e2a7c3
+Description: Header files and a static library for Python (version 2.4)
+Description-md5: b85392e7cf71ae8d09e81df2904554d4
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.4-doc
+Source: python2.4
+Priority: optional
+Section: doc
+Installed-Size: 15814
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 2.4.6-8+xenial1
+Suggests: python2.4
+Depends: dpkg (>= 1.15.4) | install-info
+Filename: pool/main/p/python2.4/python2.4-doc_2.4.6-8+xenial1_all.deb
+Size: 2669188
+MD5sum: 7ec8594f4e6e4cccb5e68840c665bd43
+SHA1: f2479809f6208eada582f73fb8aacd061617d78b
+SHA256: b474747c92a9f73beaa0f66d86ea9cb78100ccb2a35a269e52566914aee3e432
+Description: Documentation for the high-level object-oriented language Python (version 2.4)
+Description-md5: 7bdf8d88303d8c00a81c9d6ce7e9edad
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.4-examples
+Source: python2.4
+Priority: optional
+Section: python
+Installed-Size: 2287
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 2.4.6-8+xenial1
+Depends: python2.4 (>= 2.4.6-8+xenial1)
+Filename: pool/main/p/python2.4/python2.4-examples_2.4.6-8+xenial1_all.deb
+Size: 481080
+MD5sum: ef1ffb31a95dde05addb7711d66441cc
+SHA1: edf05515346466cf831b1c2966b7acee7474f2d4
+SHA256: 669befe3249bd39380c9ab976dbf0702a9635ddbb7a058e58231d556e7d1b6ec
+Description: Examples for the Python language (version 2.4)
+Description-md5: c3ecfa572edf2f8fd0d8d1fe50ed26f3
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.4-gdbm
+Source: python2.4
+Priority: optional
+Section: python
+Installed-Size: 78
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.4.6-8+xenial1
+Suggests: python2.4-gdbm-dbg
+Depends: python2.4, libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python2.4/python2.4-gdbm_2.4.6-8+xenial1_amd64.deb
+Size: 35000
+MD5sum: 605feebcdf02aedb3179b3306af6e8ea
+SHA1: 790477943b62fd6d7b93ec5b2a29e682e5af69d7
+SHA256: 2266efe7e569fe6a07ba840c45235d6ee5e8c88ca0337c468c375ec63f06d41b
+Description: GNU dbm database support for Python (version 2.4)
+Description-md5: 1ba09a0d9108f84a16990e9f378b9084
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.4-minimal
+Source: python2.4
+Priority: optional
+Section: python
+Installed-Size: 3196
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.4.6-8+xenial1
+Recommends: python2.4
+Suggests: binfmt-support
+Depends: libc6 (>= 2.15), zlib1g (>= 1:1.1.4)
+Conflicts: binfmt-support (<< 1.1.2)
+Filename: pool/main/p/python2.4/python2.4-minimal_2.4.6-8+xenial1_amd64.deb
+Size: 857834
+MD5sum: 96fcef7072195860ffec6697ac816fa6
+SHA1: b21a100ffc51fc041b4f38a47d067d0861cb76e7
+SHA256: 0d6a3128d0e99dbe839407bd1eb981890e97efe14f7c6629970531f68a5c1ede
+Description: Minimal subset of the Python language (version 2.4)
+Description-md5: 32e5bece9d0687c8d1a6c8123613dfad
+Python-Runtime: python2.4
+Python-Version: 2.4
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.4-tk
+Source: python2.4
+Priority: optional
+Section: python
+Installed-Size: 121
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.4.6-8+xenial1
+Suggests: tix, python2.4-tk-dbg
+Depends: python2.4, libc6 (>= 2.4), libtcl8.5 (>= 8.5.0), libtk8.5 (>= 8.5.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python2.4/python2.4-tk_2.4.6-8+xenial1_amd64.deb
+Size: 48402
+MD5sum: 445b4efdfb83a25309c78d71e1bbc478
+SHA1: fc97ea53e3e80b5e1d42a9215f8b11797b57bf67
+SHA256: f7c00558f16b1a87ad306fd61de5b031a5cce3054c68f5a6bc2fd50593d60583
+Description: Tkinter - Writing Tk applications with Python (version 2.4)
+Description-md5: adc8b8e8d485d64704a00806474f72f2
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.3-dbg
+Source: python2.3
+Priority: extra
+Section: debug
+Installed-Size: 27629
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.3.7-2+xenial1
+Suggests: python2.3-gdbm-dbg, python2.3-tk-dbg
+Depends: python2.3 (>= 2.3.7-2+xenial1), libbz2-1.0, libc6 (>= 2.14), libdb5.3, libncursesw5 (>= 6), libreadline6 (>= 6.0), libssl1.0.0 (>= 1.0.0), libtinfo5 (>= 6), zlib1g (>= 1:1.1.4)
+Filename: pool/main/p/python2.3/python2.3-dbg_2.3.7-2+xenial1_amd64.deb
+Size: 5510448
+MD5sum: 08e3ac7635ba4154bbf9d644e7fe0aa1
+SHA1: ad45e0fd9daf4ed154613b8816d7cc53173e5b5b
+SHA256: 7dd5755bf789685d56c3569d888d7f26bdab61e9d1bbe707b3b98694bc76f780
+Description: Debug Build of the Python Interpreter (version 2.3)
+Description-md5: f20db542e1f358494567b1a5362a30e4
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.5
+Priority: optional
+Section: python
+Installed-Size: 7536
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.5.6-9+xenial1
+Replaces: python2.5-minimal (<< 2.5.6-4)
+Suggests: python2.5-doc, binutils
+Provides: python2.5-celementtree, python2.5-cjkcodecs, python2.5-ctypes, python2.5-elementtree, python2.5-plistlib, python2.5-profiler, python2.5-wsgiref
+Depends: python2.5-minimal (= 2.5.6-9+xenial1), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.0), libtinfo5 (>= 6)
+Breaks: python2.5-minimal (<< 2.5.6-4)
+Filename: pool/main/p/python2.5/python2.5_2.5.6-9+xenial1_amd64.deb
+Size: 1728070
+MD5sum: d355e0525795135d10f474067e329e5e
+SHA1: 124a156a5c2b65dd01118b979a50bf58752785c7
+SHA256: 64ed4f079d963d6b509728e46f095f45764273fcfb5758a2d21d0fbdcd29aded
+Description: Interactive high-level object-oriented language (version 2.5)
+Description-md5: da4b4f151556b352e81c185667e45431
+Python-Version: 2.5
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.5-minimal
+Source: python2.5
+Priority: optional
+Section: python
+Installed-Size: 4398
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.5.6-9+xenial1
+Recommends: python2.5
+Replaces: python2.5 (<< 2.5.6-4)
+Suggests: binfmt-support
+Depends: libc6 (>= 2.15), zlib1g (>= 1:1.2.0)
+Conflicts: binfmt-support (<< 1.1.2)
+Breaks: python2.5 (<< 2.5.6-4)
+Filename: pool/main/p/python2.5/python2.5-minimal_2.5.6-9+xenial1_amd64.deb
+Size: 971052
+MD5sum: 0f0c2008e777b8bc097d0352e142b966
+SHA1: 46226d8ce0865280cb251a937f830a6dfa2e4344
+SHA256: 46e8c0ee38baf452490ce33311014b2a1a0dc9116085d5fe4276055937ef6b67
+Description: Minimal subset of the Python language (version 2.5)
+Description-md5: 6e7767cc8d8382f399c8011084adda66
+Python-Runtime: python2.5
+Python-Version: 2.5
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.5-dev
+Source: python2.5
+Priority: optional
+Section: python
+Installed-Size: 8692
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.5.6-9+xenial1
+Recommends: libc6-dev | libc-dev
+Replaces: python2.5 (<< 2.5.6-4)
+Depends: python2.5 (= 2.5.6-9+xenial1), libpython2.5 (= 2.5.6-9+xenial1), libssl-dev
+Breaks: python2.5 (<< 2.5.6-4)
+Filename: pool/main/p/python2.5/python2.5-dev_2.5.6-9+xenial1_amd64.deb
+Size: 1581686
+MD5sum: 0d8df14ead7f26dbae1d2a5d0afbbe3c
+SHA1: 2730d4b36ba15985adf661fd13d94e7bb10ab8a9
+SHA256: 045bb62d18bd4106ee396db58368891978f9ee5d72b7a44dae37e570b1f5679f
+Description: Header files and a static library for Python (version 2.5)
+Description-md5: 602eae619067f6f515b5747b8eef1212
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.5-dbg
+Source: python2.5
+Priority: extra
+Section: debug
+Installed-Size: 35349
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.5.6-9+xenial1
+Suggests: python2.5-gdbm-dbg, python2.5-tk-dbg
+Depends: python2.5 (>= 2.5.6-9+xenial1), libbz2-1.0, libc6 (>= 2.14), libdb5.3, libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.0), libtinfo5 (>= 6), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python2.5/python2.5-dbg_2.5.6-9+xenial1_amd64.deb
+Size: 7569142
+MD5sum: a884a48621d6212381f7c71c7cfec94b
+SHA1: 0887f491f0684656c2dae3e2edf79ff31d65b5fb
+SHA256: dd0b85c4bac4c52f615f7731afcbcbf0be4d22cd98c2b423ec355a36d0fd854f
+Description: Debug Build of the Python Interpreter (version 2.5)
+Description-md5: dfec83bf2c3a6f13cf86f3926d2bb9ea
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.5-examples
+Source: python2.5
+Priority: optional
+Section: python
+Installed-Size: 2561
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 2.5.6-9+xenial1
+Depends: python2.5 (>= 2.5.6-9+xenial1)
+Filename: pool/main/p/python2.5/python2.5-examples_2.5.6-9+xenial1_all.deb
+Size: 526218
+MD5sum: 78aa01e322ddafbdbc810ad5ed503d80
+SHA1: 21c63c551ead6bcb5eed0e0a122f0d63bcb55585
+SHA256: 070ad6afc2ceb5a1f8c05da3d6feae76ae05c40fe76fa5769d6f6897f1492ba6
+Description: Examples for the Python language (version 2.5)
+Description-md5: 8e43cedb91cbdce8cad016b0b71c81d0
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: idle-python2.5
+Source: python2.5
+Priority: optional
+Section: python
+Installed-Size: 895
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 2.5.6-9+xenial1
+Replaces: python2.5 (<< 2.5.6-4)
+Depends: python2.5, python2.5-tk
+Enhances: python2.5
+Breaks: python2.5 (<< 2.5.6-4)
+Filename: pool/main/p/python2.5/idle-python2.5_2.5.6-9+xenial1_all.deb
+Size: 220338
+MD5sum: 2287863e4bf465f5001982c4c9793ceb
+SHA1: 2325e4d5eb3fe5b942e713c5e26e3df1af5698da
+SHA256: 19b1714fe83e9382a583116dcfaa47c69ee57680dab17538e88241770dcbe6be
+Description: IDE for Python (version 2.5) using Tkinter
+Description-md5: 3c162898aa59c890e07cd85843ccbb6d
+Python-Version: 2.5
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.5-doc
+Source: python2.5
+Priority: optional
+Section: doc
+Installed-Size: 17541
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 2.5.6-9+xenial1
+Suggests: python2.5
+Depends: dpkg (>= 1.15.4) | install-info
+Filename: pool/main/p/python2.5/python2.5-doc_2.5.6-9+xenial1_all.deb
+Size: 2956262
+MD5sum: cd51d260c8ed646d62166188b560204b
+SHA1: c3d65b18cf24dac436b7de38c82e2b9f57cab358
+SHA256: 869b07e0ffbaedc6b26b2be5672cb54a1e6d15c572bb210198207bd58c37d308
+Description: Documentation for the high-level object-oriented language Python (version 2.5)
+Description-md5: 3cc33f2d827294f8b53bd6d451100468
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.6-examples
+Source: python2.6
+Priority: optional
+Section: python
+Installed-Size: 2661
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 2.6.9-3.2+xenial1
+Depends: python2.6 (>= 2.6.9-3.2+xenial1)
+Filename: pool/main/p/python2.6/python2.6-examples_2.6.9-3.2+xenial1_all.deb
+Size: 551206
+MD5sum: b2c54c37622a117ef52733a9c85ec361
+SHA1: ed9ea899f3d57e454868bc9b4737a6187faf6fef
+SHA256: 02f0a62d99e0e2e95b90dc4be546e6ea1f30d711e1f33246cea1d5728a406b28
+Description: Examples for the Python language (version 2.6)
+Description-md5: a7cfe60da2dbd4d4af91039056dc943e
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: idle-python2.6
+Source: python2.6
+Priority: optional
+Section: python
+Installed-Size: 932
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 2.6.9-3.2+xenial1
+Depends: python2.6, python2.6-tk
+Enhances: python2.6
+Filename: pool/main/p/python2.6/idle-python2.6_2.6.9-3.2+xenial1_all.deb
+Size: 234142
+MD5sum: 9ff96315fa5ccced67389280d3a9ba54
+SHA1: deb261a5df62bc1707ab123c0a98a13ad4f5b73e
+SHA256: 76a73359d5015b52b9ee137e854b2a09209f7efb355b6ad95bb7bd855f352574
+Description: IDE for Python (version 2.6) using Tkinter
+Description-md5: f2ddc7600a849773322f4e6a11e95ce3
+Python-Version: 2.6
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.6
+Priority: optional
+Section: python
+Installed-Size: 8213
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.6.9-3.2+xenial1
+Suggests: python2.6-doc, binutils
+Provides: python2.6-celementtree, python2.6-cjkcodecs, python2.6-ctypes, python2.6-elementtree, python2.6-profiler, python2.6-wsgiref
+Depends: python2.6-minimal (= 2.6.9-3.2+xenial1), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libtinfo5 (>= 6)
+Filename: pool/main/p/python2.6/python2.6_2.6.9-3.2+xenial1_amd64.deb
+Size: 1872742
+MD5sum: 94d93b30dd12a2b14efaf4b68a2cab56
+SHA1: 9b72d1b479fb7764e06c59d550e06cdf08ba6549
+SHA256: d14fa47f71cb9ab289114b01656c36b138b4d8b5835280eff3993d2ec02ed01b
+Description: Interactive high-level object-oriented language (version 2.6)
+Description-md5: 299812eda096fd800d082991c3f46292
+Python-Version: 2.6
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.6-minimal
+Source: python2.6
+Priority: optional
+Section: python
+Installed-Size: 5228
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.6.9-3.2+xenial1
+Recommends: python2.6
+Replaces: python2.6 (<= 2.6.9-3.1)
+Suggests: binfmt-support
+Depends: libc6 (>= 2.15), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.2.0)
+Conflicts: binfmt-support (<< 1.1.2)
+Breaks: python2.6 (<= 2.6.9-3.1)
+Filename: pool/main/p/python2.6/python2.6-minimal_2.6.9-3.2+xenial1_amd64.deb
+Size: 1211840
+MD5sum: 3a1d3e6d5027544d7d0da699d1b8ea37
+SHA1: f7be0e941ab531cf0992e365eca3a22af1a09457
+SHA256: 2df679825498e60bd2946eefbf91b979925c508cf3ba461f0fedbc12c1afcca6
+Description: Minimal subset of the Python language (version 2.6)
+Description-md5: 3fa4e325a504e99d803a980700d78fcc
+Python-Runtime: python2.6
+Python-Version: 2.6
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.6-dev
+Source: python2.6
+Priority: optional
+Section: python
+Installed-Size: 10880
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.6.9-3.2+xenial1
+Recommends: libc6-dev | libc-dev
+Depends: python2.6 (= 2.6.9-3.2+xenial1), libpython2.6 (= 2.6.9-3.2+xenial1), libssl-dev
+Filename: pool/main/p/python2.6/python2.6-dev_2.6.9-3.2+xenial1_amd64.deb
+Size: 2054564
+MD5sum: 63fd50f88fa5e347ca0a5c21514c4f15
+SHA1: e48d311c894cc613919839e30b15bbafb55a481f
+SHA256: 74feaf47683b82a1437da9a25ee823f0c77f8ef3a39e4ea09a9376db2c81bf9f
+Description: Header files and a static library for Python (version 2.6)
+Description-md5: 461a93765abdd01a42fd0ef858259366
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.6-dbg
+Source: python2.6
+Priority: extra
+Section: debug
+Installed-Size: 41332
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.6.9-3.2+xenial1
+Suggests: python2.6-gdbm-dbg, python2.6-tk-dbg
+Depends: python2.6 (>= 2.6.9-3.2+xenial1), libbz2-1.0, libc6 (>= 2.14), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.0), libtinfo5 (>= 6), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python2.6/python2.6-dbg_2.6.9-3.2+xenial1_amd64.deb
+Size: 8322828
+MD5sum: d5ff3c5b3a70fff4f0993c82200de94a
+SHA1: 267c73826267d5131e461c5c050743d640d111f9
+SHA256: a5c2addcc02f1a848459b27e5d4c95595f4a41421dd876118facf07e3e77e13a
+Description: Debug Build of the Python Interpreter (version 2.6)
+Description-md5: a486d12533b19b5ce264721dfb9ef6b6
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython2.6
+Source: python2.6
+Priority: optional
+Section: libs
+Installed-Size: 2950
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.6.9-3.2+xenial1
+Depends: python2.6 (= 2.6.9-3.2+xenial1), libc6 (>= 2.15), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python2.6/libpython2.6_2.6.9-3.2+xenial1_amd64.deb
+Size: 905020
+MD5sum: 634c65980b7be8ab78e9c886a4b5f905
+SHA1: fecc2bf7fd0890a05c7a30cffcc5cd86c3db10b2
+SHA256: fe52604d3e9d41e30a25787fdb7b661c34b122731763bf62f85b714068f1855f
+Description: Shared Python runtime library (version 2.6)
+Description-md5: a51e2dcc0894c25eb3570c0be641b637
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.6-doc
+Source: python2.6
+Priority: optional
+Section: doc
+Installed-Size: 27019
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 2.6.9-3.2+xenial1
+Suggests: python2.6
+Depends: libjs-jquery
+Filename: pool/main/p/python2.6/python2.6-doc_2.6.9-3.2+xenial1_all.deb
+Size: 3633456
+MD5sum: a84a7cbd22dcec4f8430fc33cd93a859
+SHA1: e8870e1abf228a2e62997f8c28c08b605249084c
+SHA256: a4d2f106f5eb11d4b55bd60ab9bcfa495389f9527a3203a4bf6ebef26e0b5a74
+Description: Documentation for the high-level object-oriented language Python (version 2.6)
+Description-md5: 6317a08a40ba810e1b73ecd562356b24
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.1
+Priority: optional
+Section: python
+Installed-Size: 7180
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.1.5-7+xenial1
+Replaces: python3.1-gdbm (<< 3.1.5-6)
+Suggests: python3.1-doc, binutils
+Provides: python3.1-celementtree, python3.1-cjkcodecs, python3.1-ctypes, python3.1-elementtree, python3.1-profiler, python3.1-wsgiref
+Depends: python3.1-minimal (= 3.1.5-7+xenial1), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libtinfo5 (>= 6)
+Breaks: python3.1-gdbm (<< 3.1.5-6)
+Filename: pool/main/p/python3.1/python3.1_3.1.5-7+xenial1_amd64.deb
+Size: 1626026
+MD5sum: 4e8b95dd1697513141a348fb7643e7ac
+SHA1: ac31c784cebb5b0d1ef7f03962c17f2fc47330c1
+SHA256: 805a75b64683bd1fc738884126d599e33a335f5152627a5b97b28680edb53f22
+Description: Interactive high-level object-oriented language (version 3.1)
+Description-md5: 8eaa3b95e0b1da9c1e09ff1bb324fb1c
+Python-Version: 3.1
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.1-minimal
+Source: python3.1
+Priority: optional
+Section: python
+Installed-Size: 5468
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.1.5-7+xenial1
+Recommends: python3.1
+Suggests: binfmt-support
+Depends: libc6 (>= 2.15), libexpat1 (>= 2.0.1), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.2.0)
+Conflicts: binfmt-support (<< 1.1.2)
+Filename: pool/main/p/python3.1/python3.1-minimal_3.1.5-7+xenial1_amd64.deb
+Size: 1272134
+MD5sum: df103e583cbc5c614748c49e6b99a8c7
+SHA1: cb2931b7e031a82a0d4df6b116ee96a4a2b86bb2
+SHA256: 3f056f6808976d736416486c8d76f887ca3ffb4a68441f50df60b4ed52f8c501
+Description: Minimal subset of the Python language (version 3.1)
+Description-md5: 9d853588d415b40bc7692ce2e4d53c4a
+Python-Runtime: python3.1
+Python-Version: 3.1
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.1
+Source: python3.1
+Priority: optional
+Section: libs
+Installed-Size: 3171
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.1.5-7+xenial1
+Depends: python3.1 (= 3.1.5-7+xenial1), libc6 (>= 2.15), libexpat1 (>= 2.0.1), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python3.1/libpython3.1_3.1.5-7+xenial1_amd64.deb
+Size: 972292
+MD5sum: 909e3a2ddea649ad8819f327f1539fcc
+SHA1: 843f03b3c03324246e4d879f26aedd3b8e139dbc
+SHA256: 61a143845215243b7ddf8d175f465fb078b64ff8b5e4f84b6899d6a3dd076816
+Description: Shared Python runtime library (version 3.1)
+Description-md5: 35d6c00932e5e18592741368da4043de
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.1-dev
+Source: python3.1
+Priority: optional
+Section: python
+Installed-Size: 11621
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.1.5-7+xenial1
+Recommends: libc6-dev | libc-dev
+Depends: python3.1 (= 3.1.5-7+xenial1), libpython3.1 (= 3.1.5-7+xenial1), libssl-dev
+Filename: pool/main/p/python3.1/python3.1-dev_3.1.5-7+xenial1_amd64.deb
+Size: 2179562
+MD5sum: 7b8c468acbea0dac63a05307b059190f
+SHA1: 912209715cff11eb075071b8ee9407a9f6e5c45a
+SHA256: 4948077c55b684b3d528b1ad57ebb059d74db48245d248baf35f47e2d81dce30
+Description: Header files and a static library for Python (version 3.1)
+Description-md5: 160f7b995d8496d9c10e99104fc0bf6c
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.1-dbg
+Source: python3.1
+Priority: extra
+Section: debug
+Installed-Size: 42154
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.1.5-7+xenial1
+Suggests: python3.1-gdbm-dbg, python3.1-tk-dbg
+Depends: python3.1 (>= 3.1.5-7+xenial1), libbz2-1.0, libc6 (>= 2.14), libdb5.3, libexpat1 (>= 2.0.1), libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.0), libtinfo5 (>= 6), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python3.1/python3.1-dbg_3.1.5-7+xenial1_amd64.deb
+Size: 8470260
+MD5sum: e461cb3dfd6a09ca4e7780253a20c92c
+SHA1: 5da2d445ff129a4f22d263a3af233fbd5605ed4b
+SHA256: 410a3d6f9e0452e6d0fa71483a2cb3abe9e605df0925500d5e798d13f66dad8f
+Description: Debug Build of the Python Interpreter (version 3.1)
+Description-md5: e09c2d30f190d1e4936b464ffd6874cb
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.6-tk
+Source: python2.6
+Priority: optional
+Section: python
+Installed-Size: 137
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.6.9-3.2+xenial1
+Suggests: tix, python2.6-tk-dbg
+Depends: python2.6, libc6 (>= 2.4), libtcl8.5 (>= 8.5.0), libtk8.5 (>= 8.5.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python2.6/python2.6-tk_2.6.9-3.2+xenial1_amd64.deb
+Size: 59624
+MD5sum: 16f79380630148eb83b8fe3cacbf3fc5
+SHA1: 744b096d6d3ed94e4787ef3b42c9fbd8e6eb1dc5
+SHA256: 377ed18ac8e6101db44a272d95b1d0f248b161a1c407c9b7760fa4065ba9cbbf
+Description: Tkinter - Writing Tk applications with Python (version 2.6)
+Description-md5: 865060e6a6e84f4536c81b0779ac04b5
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.6-gdbm
+Source: python2.6
+Priority: optional
+Section: python
+Installed-Size: 94
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.6.9-3.2+xenial1
+Suggests: python2.6-gdbm-dbg
+Depends: python2.6, libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python2.6/python2.6-gdbm_2.6.9-3.2+xenial1_amd64.deb
+Size: 45936
+MD5sum: b488a20334c8bc400bd09fc9e2296984
+SHA1: 3eb40dd80beb2026477bb9ba5ecb49383378ad44
+SHA256: 7bdae66722de72682dca417b381c693d6deed18ad91c4bd55146ce0755ce97ec
+Description: GNU dbm database support for Python (version 2.6)
+Description-md5: 770b3ad4efcb60c69d27107088a9cc37
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.6-tk-dbg
+Source: python2.6
+Priority: extra
+Section: debug
+Installed-Size: 335
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.6.9-3.2+xenial1
+Depends: python2.6, python2.6-tk (= 2.6.9-3.2+xenial1), libc6 (>= 2.4), libtcl8.5 (>= 8.5.0), libtk8.5 (>= 8.5.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python2.6/python2.6-tk-dbg_2.6.9-3.2+xenial1_amd64.deb
+Size: 108676
+MD5sum: f111b077c63d912a4294c4e83dcd2ffc
+SHA1: 3e8a3d3e7bb2ba0a7872fa5aeee9e3ef6e4cea2c
+SHA256: bd0899771452bd76fb0f8dcf80ce1f44523492e541423d486ad1367c46ba1f72
+Description: Tkinter - Writing Tk applications with Python (version 2.6 debug extension)
+Description-md5: b1c34c5c87f7abf5be587439c7ae612c
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.6-gdbm-dbg
+Source: python2.6
+Priority: extra
+Section: debug
+Installed-Size: 144
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.6.9-3.2+xenial1
+Depends: python2.6, python2.6-gdbm (= 2.6.9-3.2+xenial1), libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python2.6/python2.6-gdbm-dbg_2.6.9-3.2+xenial1_amd64.deb
+Size: 58392
+MD5sum: c4b7996141827a0335fa23ffaeed8fe0
+SHA1: bbe720c5f1787c6408fea470ba7a8b73936162d7
+SHA256: b130bcb11a7dc46284fe224adcba64d4901dd7ca02d763474675b88b32847130
+Description: GNU dbm database support for Python (version 2.6 debug extension)
+Description-md5: a04154c911847a00686499a9bfe75f41
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.1-examples
+Source: python3.1
+Priority: optional
+Section: python
+Installed-Size: 2555
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.1.5-7+xenial1
+Depends: python3.1 (>= 3.1.5-7+xenial1)
+Filename: pool/main/p/python3.1/python3.1-examples_3.1.5-7+xenial1_all.deb
+Size: 527392
+MD5sum: de118c162b578c2f89bf464ed0a00785
+SHA1: a04d08ccd159fc19ffae2a8e81c50ddcb4062436
+SHA256: 2d894fb6b2c7df11fd7cc72df6d150a3a53400c8913ae901526d655580e0927e
+Description: Examples for the Python language (version 3.1)
+Description-md5: b1fcd389026613f47e2b43558f726c50
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: idle-python3.1
+Source: python3.1
+Priority: optional
+Section: python
+Installed-Size: 933
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.1.5-7+xenial1
+Replaces: python3.1 (<< 3.1.5-3)
+Depends: python3.1, python3.1-tk
+Enhances: python3.1
+Breaks: python3.1 (<< 3.1.5-3)
+Filename: pool/main/p/python3.1/idle-python3.1_3.1.5-7+xenial1_all.deb
+Size: 231708
+MD5sum: 2aa9dda4b3aa503fe6975405f586b620
+SHA1: 4a710ab354dea22c6f44b8a83cedb2a1ff02a354
+SHA256: dedc0a55747ae0a85c25c7cd1ed775d6e68fc68d82564ac70acfce11c376c94d
+Description: IDE for Python (version 3.1) using Tkinter
+Description-md5: e302f249cf0a2137c1ff51e98eeda69b
+Python-Version: 3.1
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.1-doc
+Source: python3.1
+Priority: optional
+Section: doc
+Installed-Size: 25581
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.1.5-7+xenial1
+Suggests: python3.1
+Depends: libjs-jquery
+Filename: pool/main/p/python3.1/python3.1-doc_3.1.5-7+xenial1_all.deb
+Size: 3464978
+MD5sum: 8fd58bd221086e680e75593031a8cbc9
+SHA1: d796ea21608a043538d6cdfcaac81a658917a789
+SHA256: a8c754106533c71f03cdfdacf6b2d783ca9a0026d61a296fc8fdfcbd67b98b49
+Description: Documentation for the high-level object-oriented language Python (version 3.1)
+Description-md5: 064c4040026e1854df3cba842825c556
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.2
+Priority: optional
+Section: python
+Installed-Size: 7806
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.2.6-2+xenial1
+Replaces: python3.2-gdbm (<< 3.2.5-4)
+Suggests: python3.2-doc, binutils
+Provides: python3.2-celementtree, python3.2-cjkcodecs, python3.2-ctypes, python3.2-elementtree, python3.2-profiler, python3.2-wsgiref
+Depends: python3.2-minimal (= 3.2.6-2+xenial1), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libtinfo5 (>= 6)
+Breaks: python3.2-gdbm (<< 3.2.5-4)
+Filename: pool/main/p/python3.2/python3.2_3.2.6-2+xenial1_amd64.deb
+Size: 1785482
+MD5sum: b7e3514a522580e7b4864da58c27f49d
+SHA1: 211b9fd12824e005c0f08b7387c6045078f2206d
+SHA256: 0f1ee8c1445e4e80a5ec2c9abe87688e07342080fc8beb2cb1978a4ec23f89d8
+Description: Interactive high-level object-oriented language (version 3.2)
+Description-md5: 22961d3731f772a0537be5fe908ed59f
+Python-Version: 3.2
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.2-minimal
+Source: python3.2
+Priority: optional
+Section: python
+Installed-Size: 5701
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.2.6-2+xenial1
+Recommends: python3.2
+Suggests: binfmt-support
+Depends: libc6 (>= 2.15), libexpat1 (>= 2.1~beta3), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.2.0)
+Conflicts: binfmt-support (<< 1.1.2)
+Filename: pool/main/p/python3.2/python3.2-minimal_3.2.6-2+xenial1_amd64.deb
+Size: 1286842
+MD5sum: 36188d6877b0739df27f47d4bfdbfe60
+SHA1: 6efb77e15ddaafed8f0affbe85fdefffc675b136
+SHA256: 8ed1a638492c07ec1a8316b591205377e404033c4246ab9411ef7263b8d83a28
+Description: Minimal subset of the Python language (version 3.2)
+Description-md5: e649e5b1acc041f7c83b04a69830c1da
+Python-Runtime: python3.2
+Python-Version: 3.2
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.2
+Source: python3.2
+Priority: optional
+Section: libs
+Installed-Size: 3167
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.2.6-2+xenial1
+Depends: python3.2 (= 3.2.6-2+xenial1), libc6 (>= 2.15), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python3.2/libpython3.2_3.2.6-2+xenial1_amd64.deb
+Size: 958772
+MD5sum: bab6712fb6cb672430635481729985d6
+SHA1: 55aa595a0537ca329d02c9167b9d750b1e0758fe
+SHA256: efd442742052386ec4b201c97292c1b5b1fc63d1ecea4d79a7cd117391551178
+Description: Shared Python runtime library (version 3.2)
+Description-md5: f700874645ddf215a34a25d021eb8f1f
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.2-dev
+Source: python3.2
+Priority: optional
+Section: python
+Installed-Size: 11220
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.2.6-2+xenial1
+Recommends: libc6-dev | libc-dev
+Depends: python3.2 (= 3.2.6-2+xenial1), libpython3.2 (= 3.2.6-2+xenial1), libssl-dev
+Filename: pool/main/p/python3.2/python3.2-dev_3.2.6-2+xenial1_amd64.deb
+Size: 2102388
+MD5sum: 075ef1a83edbe3de8a8e1d8d407c7353
+SHA1: 3ab46799309fdbfae172e51e7f898e98f9c1514a
+SHA256: 0c75c4d244cc8bf30e1db7fcbc3838663fbb486a758a153ee3206fee7cbcd084
+Description: Header files and a static library for Python (version 3.2)
+Description-md5: 5215affdff94e651210d565a528027af
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.2-dbg
+Source: python3.2
+Priority: extra
+Section: debug
+Installed-Size: 59735
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.2.6-2+xenial1
+Suggests: python3.2-gdbm-dbg, python3.2-tk-dbg
+Depends: python3.2 (>= 3.2.6-2+xenial1), libbz2-1.0, libc6 (>= 2.15), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.0), libtinfo5 (>= 6), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python3.2/python3.2-dbg_3.2.6-2+xenial1_amd64.deb
+Size: 12879596
+MD5sum: 7b01c6789b354cc1bca6adef90dde9e2
+SHA1: e3d8b19220342517e55556d0482a6a52abd3b2d3
+SHA256: 05ef38b2712fc9c43750871711af60aad9bf96d9e581cc92dc12734206eff246
+Description: Debug Build of the Python Interpreter (version 3.2)
+Description-md5: e055ad84419ec4d7da9014f57cd79e4f
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.2-examples
+Source: python3.2
+Priority: optional
+Section: python
+Installed-Size: 1485
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.2.6-2+xenial1
+Depends: python3.2 (>= 3.2.6-2+xenial1)
+Filename: pool/main/p/python3.2/python3.2-examples_3.2.6-2+xenial1_all.deb
+Size: 313224
+MD5sum: 3fa0af96c482b553397193d47ce55238
+SHA1: 7977e8ddd663c43f256d652ca44dbe7ad1904e6c
+SHA256: 3912cf8de0ca5cfb78f2aeae6b555fee745fe696efcf49f4614422fd7df783ae
+Description: Examples for the Python language (version 3.2)
+Description-md5: 259f554a423d2314e64f02cf3c0be8a0
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: idle-python3.2
+Source: python3.2
+Priority: optional
+Section: python
+Installed-Size: 950
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.2.6-2+xenial1
+Replaces: python3.2 (<< 3.2.4-1)
+Depends: python3.2, python3.2-tk
+Enhances: python3.2
+Breaks: python3.2 (<< 3.2.4-1)
+Filename: pool/main/p/python3.2/idle-python3.2_3.2.6-2+xenial1_all.deb
+Size: 233596
+MD5sum: 7d3bbe77b0058539c1d57f4e9b3f05a8
+SHA1: 8b143fa0699e853e9be3a056ccd481fe1a883494
+SHA256: 641164f06bc771a43ccb251b82e2f683ca8e619c0e49b0b31ecba0b8502ea5cf
+Description: IDE for Python (version 3.2) using Tkinter
+Description-md5: a303f637e583fe53917ebc74d235c5a2
+Python-Version: 3.2
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.2-doc
+Source: python3.2
+Priority: optional
+Section: doc
+Installed-Size: 30969
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.2.6-2+xenial1
+Suggests: python3.2
+Depends: libjs-jquery, libjs-underscore
+Filename: pool/main/p/python3.2/python3.2-doc_3.2.6-2+xenial1_all.deb
+Size: 4132514
+MD5sum: f6570dcd72439ad6d7ea42631ac7f1c8
+SHA1: fd5b0f8aedb454cf9d4afbb7c2c067c526a62965
+SHA256: 31fcfd02f3b4f0f7db3bf5e048cd0a816a8ddd33bc33b48bfa4e284da7f2c7a3
+Description: Documentation for the high-level object-oriented language Python (version 3.2)
+Description-md5: 38065ca7346f7817038a65655ffff584
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.5-tk
+Source: python2.5
+Priority: optional
+Section: python
+Installed-Size: 123
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.5.6-9+xenial1
+Suggests: tix, python2.5-tk-dbg
+Depends: python2.5, libc6 (>= 2.4), libtcl8.5 (>= 8.5.0), libtk8.5 (>= 8.5.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python2.5/python2.5-tk_2.5.6-9+xenial1_amd64.deb
+Size: 50572
+MD5sum: d3e64490fd3f03eb9070028510bc16d6
+SHA1: 0747efc6e3ffc913e94793ea59cceea520e190dc
+SHA256: aa1541de5fa18da2ca4e30dae3365e4ffd83975ecd19205a0d49571a249e8517
+Description: Tkinter - Writing Tk applications with Python (version 2.5)
+Description-md5: 0814244147fa5277a3d033a0d85a9d19
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.5-gdbm
+Source: python2.5
+Priority: optional
+Section: python
+Installed-Size: 80
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.5.6-9+xenial1
+Suggests: python2.5-gdbm-dbg
+Depends: python2.5, libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python2.5/python2.5-gdbm_2.5.6-9+xenial1_amd64.deb
+Size: 36916
+MD5sum: 034f953703c8caf11851a3e300ab3fc1
+SHA1: 83af0a31b27458aa2f0dd6020c9e905217d2a3e2
+SHA256: c0388794aedc26eaef835f33309aafc93b116ba690fc0e90859de3babf08cb2f
+Description: GNU dbm database support for Python (version 2.5)
+Description-md5: f4a16d7336a1fc5106669443bcf9a409
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.5-tk-dbg
+Source: python2.5
+Priority: extra
+Section: debug
+Installed-Size: 322
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.5.6-9+xenial1
+Depends: python2.5, python2.5-tk (= 2.5.6-9+xenial1), libc6 (>= 2.4), libtcl8.5 (>= 8.5.0), libtk8.5 (>= 8.5.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python2.5/python2.5-tk-dbg_2.5.6-9+xenial1_amd64.deb
+Size: 99452
+MD5sum: 4b01d58b2de00dac1aa5e0b38e75355f
+SHA1: f1fe8258d9e8c01afc78245bdd51793422d2c29b
+SHA256: 23f7df36ab4e99cf290e4c4e84e92a5ca69ffa92aabc1e488b72698840532d3f
+Description: Tkinter - Writing Tk applications with Python (version 2.5 debug extension)
+Description-md5: 8c140b6359f6bc39be84aadb4a429496
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.5-gdbm-dbg
+Source: python2.5
+Priority: extra
+Section: debug
+Installed-Size: 128
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.5.6-9+xenial1
+Depends: python2.5, python2.5-gdbm (= 2.5.6-9+xenial1), libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python2.5/python2.5-gdbm-dbg_2.5.6-9+xenial1_amd64.deb
+Size: 48838
+MD5sum: a5653fcc78517b11ed1c9e62fef9c399
+SHA1: fcc8b16f86801069b3f454690480d9ff1fb05f43
+SHA256: 0789ecae470761436a2b7350b86bded2a06895075622f9e24caea1789356e630
+Description: GNU dbm database support for Python (version 2.5 debug extension)
+Description-md5: 5aa573b826b2fa48f07e3172b3e372dc
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.2-tk
+Source: python3.2
+Priority: optional
+Section: python
+Installed-Size: 128
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.2.6-2+xenial1
+Suggests: tix, python3.2-tk-dbg
+Depends: python3.2, libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python3.2/python3.2-tk_3.2.6-2+xenial1_amd64.deb
+Size: 51614
+MD5sum: e409d4a733ab84eec6e18facf303a38d
+SHA1: 0dd4a424683e3fdeac3bf4cb0a54e9ed03faaa29
+SHA256: 285a8a0b6fc3ef930d261e83e9c90575117d97ce1d3178cbb7da74791cdbeef5
+Description: Tkinter - Writing Tk applications with Python (version 3.2)
+Description-md5: a752e9d0826e883f210423c911746085
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.2-gdbm
+Source: python3.2
+Priority: optional
+Section: python
+Installed-Size: 89
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.2.6-2+xenial1
+Suggests: python3.2-gdbm-dbg
+Depends: python3.2, libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python3.2/python3.2-gdbm_3.2.6-2+xenial1_amd64.deb
+Size: 40086
+MD5sum: 4d034ffb2001cd9d1e2b04d86b73f46f
+SHA1: 9a671e9ca71503284a604dbd5bb0edbbcd317312
+SHA256: 7ac68274d84a11700e234f559c95a41c6e4eee50e0cee673e442e68f9b37886e
+Description: GNU dbm database support for Python (version 3.2)
+Description-md5: 704faa50a1cc8c206070c085b43af66c
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.2-tk-dbg
+Source: python3.2
+Priority: extra
+Section: debug
+Installed-Size: 371
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.2.6-2+xenial1
+Depends: python3.2, python3.2-tk (= 3.2.6-2+xenial1), libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python3.2/python3.2-tk-dbg_3.2.6-2+xenial1_amd64.deb
+Size: 108478
+MD5sum: 673891f70230d8daccc3f552195a4010
+SHA1: 113ff29eafad710f186388869125a580792f9a4b
+SHA256: 4526bd3ad96d4112c6a21a70ea0a7d949e2b08e0b8733d9e85d2c9c3430e86e4
+Description: Tkinter - Writing Tk applications with Python (version 3.2 debug extension)
+Description-md5: 9f37d89e411d8d218c1d2f27ffbf6f5b
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.2-gdbm-dbg
+Source: python3.2
+Priority: extra
+Section: debug
+Installed-Size: 150
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.2.6-2+xenial1
+Depends: python3.2, python3.2-gdbm (= 3.2.6-2+xenial1), libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python3.2/python3.2-gdbm-dbg_3.2.6-2+xenial1_amd64.deb
+Size: 54398
+MD5sum: 2c807dbc895ae055227eca451a181625
+SHA1: dfc9aa9fc126f3c61e23312705a104d0d0434291
+SHA256: 5535c7413efc46fae8f21555379967e742e771227d4ca44d94d59fd798d11511
+Description: GNU dbm database support for Python (version 3.2 debug extension)
+Description-md5: 76830c91ccc841f8351cebca971dcf8f
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.3
+Priority: optional
+Section: python
+Installed-Size: 215
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.3.7-1+xenial1
+Suggests: python3.3-doc, binutils
+Depends: python3.3-minimal (= 3.3.7-1+xenial1), libpython3.3-stdlib (= 3.3.7-1+xenial1), mime-support
+Filename: pool/main/p/python3.3/python3.3_3.3.7-1+xenial1_amd64.deb
+Size: 137218
+MD5sum: c22ec8ac9d4280bc703600fef8510395
+SHA1: faf097f10fa9d0e7928739736b9722b059076473
+SHA256: d65a8f5dd3201d5d092935e01d21423f22fb0b1b6f66d24a29ffc53520e363a4
+Description: Interactive high-level object-oriented language (version 3.3)
+Description-md5: d77f2abf1b0095e2e7bf5e21022e3d54
+Multi-Arch: allowed
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.3-minimal
+Source: python3.3
+Priority: optional
+Section: python
+Installed-Size: 6869
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.3.7-1+xenial1
+Recommends: python3.3
+Suggests: binfmt-support
+Depends: libpython3.3-minimal (= 3.3.7-1+xenial1), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Conflicts: binfmt-support (<< 1.1.2)
+Pre-Depends: libc6 (>= 2.17)
+Filename: pool/main/p/python3.3/python3.3-minimal_3.3.7-1+xenial1_amd64.deb
+Size: 1078954
+MD5sum: 43da94c8303973ba0b4581214938583a
+SHA1: 547465d0ade7a86549e87e3da763528f257a6536
+SHA256: 7fdf917710b51ffeea166db8a75681ecac27af321e3e6d21a406de3ef5751016
+Description: Minimal subset of the Python language (version 3.3)
+Description-md5: 6233066c148b19f678deee22a6a2e61d
+Multi-Arch: allowed
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.3
+Source: python3.3
+Priority: optional
+Section: libs
+Installed-Size: 3759
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.3.7-1+xenial1
+Depends: libpython3.3-stdlib (= 3.3.7-1+xenial1), libc6 (>= 2.17), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Pre-Depends: multiarch-support
+Filename: pool/main/p/python3.3/libpython3.3_3.3.7-1+xenial1_amd64.deb
+Size: 1126804
+MD5sum: a068cf1925b43af6ffd40335efe20119
+SHA1: 1df4f10bd3c715640706e4fb41df82fe8d3c30c6
+SHA256: 99dc8e5873aa5c0e3d6453d961ee7980f1241f106e10bc63c38d0bf17d8ad11b
+Description: Shared Python runtime library (version 3.3)
+Description-md5: 337a95ddb67b8ca2cc90263c203ca117
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.3-dev
+Source: python3.3
+Priority: optional
+Section: python
+Installed-Size: 364
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.3.7-1+xenial1
+Recommends: libc6-dev | libc-dev
+Depends: python3.3 (= 3.3.7-1+xenial1), libpython3.3-dev (= 3.3.7-1+xenial1), libpython3.3 (= 3.3.7-1+xenial1), libexpat1-dev
+Filename: pool/main/p/python3.3/python3.3-dev_3.3.7-1+xenial1_amd64.deb
+Size: 355634
+MD5sum: 9c2b895b475427544b92374edd59d02a
+SHA1: 3e721cd24885330b5c461fcd97ecc2efb7689093
+SHA256: 00f76754661ea18383a847ef3f85107fce7f1d057e637c46546de20b699f7211
+Description: Header files and a static library for Python (v3.3)
+Description-md5: c0ed12ef8aaf6bcb18ac2074f5487d17
+Multi-Arch: allowed
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.3-dbg
+Source: python3.3
+Priority: extra
+Section: debug
+Installed-Size: 24457
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.3.7-1+xenial1
+Recommends: gdb
+Suggests: libpython3.3-gdbm-dbg, libpython3.3-tk-dbg
+Depends: python3.3 (= 3.3.7-1+xenial1), libpython3.3-dbg (= 3.3.7-1+xenial1), libc6 (>= 2.14), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python3.3/python3.3-dbg_3.3.7-1+xenial1_amd64.deb
+Size: 5686188
+MD5sum: 7da270aa0af2af706bf6101fc88bf540
+SHA1: 62593981f8220b2b030a760a0efa2f9380597af0
+SHA256: 00ac66e0ac88cfd65ae01430a892acabe385a7909bd07b8bac10cbd40d9c5f2b
+Description: Debug Build of the Python Interpreter (version 3.3)
+Description-md5: b3674e5098bd5e54e4446192696cbb2e
+Multi-Arch: allowed
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.3-examples
+Source: python3.3
+Priority: optional
+Section: python
+Installed-Size: 1547
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.3.7-1+xenial1
+Depends: python3.3 (>= 3.3.7-1+xenial1)
+Filename: pool/main/p/python3.3/python3.3-examples_3.3.7-1+xenial1_all.deb
+Size: 303612
+MD5sum: 252c7c226ebd3fc8c91d359f1462e2c1
+SHA1: caa750c79147ca7a20d17672cdc8fa1658b0bbe9
+SHA256: fe685a4b4df6099b9bafb5e96d969e6f6f72d5b21e9baec681289d7ea8925cb2
+Description: Examples for the Python language (v3.3)
+Description-md5: 47348d11732a1f26bdd561fc1c509b82
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: idle-python3.3
+Source: python3.3
+Priority: optional
+Section: python
+Installed-Size: 129
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.3.7-1+xenial1
+Depends: python3.3, libpython3.3-tk
+Enhances: python3.3
+Filename: pool/main/p/python3.3/idle-python3.3_3.3.7-1+xenial1_all.deb
+Size: 50558
+MD5sum: 9b5b074ece2dfb8c4750d84ac6c8d562
+SHA1: d3764bafc7b17560877b0f773f1148b6c76e3497
+SHA256: deae2b47732623445288ab99e8fb4a5516bbbd308936614f103a8b6dabd0f0e3
+Description: IDE for Python (v3.3) using Tkinter
+Description-md5: 2b9abddd01ad9591f2c4142fa7d37ddb
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.3-doc
+Source: python3.3
+Priority: optional
+Section: doc
+Installed-Size: 34390
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.3.7-1+xenial1
+Suggests: python3.3
+Depends: libjs-jquery, libjs-underscore
+Filename: pool/main/p/python3.3/python3.3-doc_3.3.7-1+xenial1_all.deb
+Size: 4340892
+MD5sum: 754c5a99262e84b1c4656a4bab3762f5
+SHA1: 337cf4e9b4968da2f59f15c5995ce8df58a4e186
+SHA256: 0745973cfce2ef2b155325de45da3f899411d663c447af08784f51bcf911122e
+Description: Documentation for the high-level object-oriented language Python (v3.3)
+Description-md5: 422ae539c4a519ecc4be85dacf15b344
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.1-tk
+Source: python3.1
+Priority: optional
+Section: python
+Installed-Size: 132
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.1.5-7+xenial1
+Suggests: tix, python3.1-tk-dbg
+Depends: python3.1, libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python3.1/python3.1-tk_3.1.5-7+xenial1_amd64.deb
+Size: 55524
+MD5sum: 3fa13570d233d945257ef6fcb4f8116d
+SHA1: b13e8034c299f858d4edc9689a830238c1ca5b1a
+SHA256: 15812ed3cbd924e8af7f2af8c2e57fa22ff1fcde1864d0ab00f96a98dc9ff141
+Description: Tkinter - Writing Tk applications with Python (version 3.1)
+Description-md5: ff4a597a49bcb9a6578ff200b5ea7a09
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.1-gdbm
+Source: python3.1
+Priority: optional
+Section: python
+Installed-Size: 89
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.1.5-7+xenial1
+Suggests: python3.1-gdbm-dbg
+Depends: python3.1, libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python3.1/python3.1-gdbm_3.1.5-7+xenial1_amd64.deb
+Size: 42192
+MD5sum: cecf470cf03d8661f685c5a45801fde2
+SHA1: e1784f595a1a1d515f6863c504713a9c72617e13
+SHA256: 350d4a195063f8809b46bb92bf098efa32cc211b8528fd45e236f31bbced30c6
+Description: GNU dbm database support for Python (version 3.1)
+Description-md5: 6c5508017f9dc9b499d804409277757e
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.1-tk-dbg
+Source: python3.1
+Priority: extra
+Section: debug
+Installed-Size: 333
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.1.5-7+xenial1
+Depends: python3.1, python3.1-tk (= 3.1.5-7+xenial1), libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python3.1/python3.1-tk-dbg_3.1.5-7+xenial1_amd64.deb
+Size: 104510
+MD5sum: 3e56194010c6f8c3103ce448cbfcfe0e
+SHA1: aaec7482355d0c059055435e3ac96cd754ed9888
+SHA256: 62594f92280a28b1d8aaf9da6abe2519bfd212ec440c0c889b976da6b974cfc1
+Description: Tkinter - Writing Tk applications with Python (version 3.1 debug extension)
+Description-md5: d4e96655406272ab81973fcfa7e193ad
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.1-gdbm-dbg
+Source: python3.1
+Priority: extra
+Section: debug
+Installed-Size: 138
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.1.5-7+xenial1
+Depends: python3.1, python3.1-gdbm (= 3.1.5-7+xenial1), libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python3.1/python3.1-gdbm-dbg_3.1.5-7+xenial1_amd64.deb
+Size: 54320
+MD5sum: b182aeffe1a648f8692c54e7d207e0fe
+SHA1: 54b69fb974e7b7866a8ab809d909058fa87e65bc
+SHA256: 28195188c58767076b80df7ea0173e45c91c3c58cd2f7cd7d6e1fe09507e210a
+Description: GNU dbm database support for Python (version 3.1 debug extension)
+Description-md5: 189337807ba930d6dc924ef01b100897
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython2.5
+Source: python2.5
+Priority: optional
+Section: libs
+Installed-Size: 2409
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.5.6-9+xenial1
+Depends: python2.5 (= 2.5.6-9+xenial1), libc6 (>= 2.15)
+Filename: pool/main/p/python2.5/libpython2.5_2.5.6-9+xenial1_amd64.deb
+Size: 743976
+MD5sum: 32614fc4f9b2b2a30e67dd351247fc35
+SHA1: 49b29a288932a657bf86659a94a8d4924b0a3381
+SHA256: 63ca82d76b98eff257708202379145ad87ad802b528b2b2c0287f1167ae30f66
+Description: Shared Python runtime library (version 2.5)
+Description-md5: 5da5f8a2b423dd8714c9f05afecbfc2e
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.5-complete
+Source: python2.5
+Priority: extra
+Section: python
+Installed-Size: 58
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 2.5.6-9+xenial1
+Depends: python2.5 (>= 2.5.6-9+xenial1), libpython2.5 (>= 2.5.6-9+xenial1), python2.5-examples (>= 2.5.6-9+xenial1), python2.5-dev (>= 2.5.6-9+xenial1), idle-python2.5 (>= 2.5.6-9+xenial1), python2.5-doc (>= 2.5.6-9+xenial1), python2.5-dbg (>= 2.5.6-9+xenial1), python2.5-tk (>= 2.5.6-9+xenial1), python2.5-gdbm (>= 2.5.6-9+xenial1), python2.5-tk-dbg (>= 2.5.6-9+xenial1), python2.5-gdbm-dbg (>= 2.5.6-9+xenial1)
+Filename: pool/main/p/python2.5/python2.5-complete_2.5.6-9+xenial1_all.deb
+Size: 31498
+MD5sum: d43bc735685dc459d351129b93f1d28d
+SHA1: 62a199418071c11ce4830ed2cb081fe06f121933
+SHA256: ceb05a6174cd16e8170ed090e0512ab77fefbbeceb4fb7e4cef11cc82c7c7a08
+Description: Interactive high-level object-oriented language (version 2.5)
+Description-md5: 32a400a1ca81aa22dde638cceab6b854
+Python-Version: 2.5
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.6-complete
+Source: python2.6
+Priority: extra
+Section: python
+Installed-Size: 72
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 2.6.9-3.2+xenial1
+Depends: python2.6 (>= 2.6.9-3.2+xenial1), libpython2.6 (>= 2.6.9-3.2+xenial1), python2.6-examples (>= 2.6.9-3.2+xenial1), python2.6-dev (>= 2.6.9-3.2+xenial1), idle-python2.6 (>= 2.6.9-3.2+xenial1), python2.6-doc (>= 2.6.9-3.2+xenial1), python2.6-dbg (>= 2.6.9-3.2+xenial1), python2.6-tk (>= 2.6.9-3.2+xenial1), python2.6-gdbm (>= 2.6.9-3.2+xenial1), python2.6-tk-dbg (>= 2.6.9-3.2+xenial1), python2.6-gdbm-dbg (>= 2.6.9-3.2+xenial1)
+Filename: pool/main/p/python2.6/python2.6-complete_2.6.9-3.2+xenial1_all.deb
+Size: 40380
+MD5sum: ba2ab586ba92541361adaf5636b84396
+SHA1: e737281a920afe2ef34d9efb565ea9584b5475c7
+SHA256: 10018bf7137a2fe53c1c389e55a1077d59375678dd4c0223a44213b1ea04251f
+Description: Interactive high-level object-oriented language (version 2.6)
+Description-md5: 316ae141ad10b91d454427241ff2b8b6
+Python-Version: 2.6
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.1-complete
+Source: python3.1
+Priority: extra
+Section: python
+Installed-Size: 67
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.1.5-7+xenial1
+Depends: python3.1 (>= 3.1.5-7+xenial1), libpython3.1 (>= 3.1.5-7+xenial1), python3.1-examples (>= 3.1.5-7+xenial1), python3.1-dev (>= 3.1.5-7+xenial1), idle-python3.1 (>= 3.1.5-7+xenial1), python3.1-doc (>= 3.1.5-7+xenial1), python3.1-dbg (>= 3.1.5-7+xenial1), python3.1-tk (>= 3.1.5-7+xenial1), python3.1-gdbm (>= 3.1.5-7+xenial1), python3.1-tk-dbg (>= 3.1.5-7+xenial1), python3.1-gdbm-dbg (>= 3.1.5-7+xenial1)
+Filename: pool/main/p/python3.1/python3.1-complete_3.1.5-7+xenial1_all.deb
+Size: 36730
+MD5sum: 81f22fd481d0423de0eecc4bec4fabb5
+SHA1: 2d3c9bd8256b491af88d94c66f8edb0517fd3777
+SHA256: cbcfb03b36c70c44fd63ea24d92751e3428358bd2db3bf98527a0ab1c5536c62
+Description: Interactive high-level object-oriented language (version 3.1)
+Description-md5: b27535904a7c995b4813d2855ada9df2
+Python-Version: 3.1
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.2-complete
+Source: python3.2
+Priority: extra
+Section: python
+Installed-Size: 67
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.2.6-2+xenial1
+Depends: python3.2 (>= 3.2.6-2+xenial1), libpython3.2 (>= 3.2.6-2+xenial1), python3.2-examples (>= 3.2.6-2+xenial1), python3.2-dev (>= 3.2.6-2+xenial1), idle-python3.2 (>= 3.2.6-2+xenial1), python3.2-doc (>= 3.2.6-2+xenial1), python3.2-dbg (>= 3.2.6-2+xenial1), python3.2-tk (>= 3.2.6-2+xenial1), python3.2-gdbm (>= 3.2.6-2+xenial1), python3.2-tk-dbg (>= 3.2.6-2+xenial1), python3.2-gdbm-dbg (>= 3.2.6-2+xenial1)
+Filename: pool/main/p/python3.2/python3.2-complete_3.2.6-2+xenial1_all.deb
+Size: 34284
+MD5sum: 172ed8868090aae94766ac70859fdfe2
+SHA1: c285f748f6e9e8754ea75ffcd5a30fd75db55363
+SHA256: 8214e8abbd5418be196734e3b1e50e76ff4033ff13ae93e3462abc1f65f8198b
+Description: Interactive high-level object-oriented language (version 3.2)
+Description-md5: 79a457054b26c97710541843a3259cc9
+Python-Version: 3.2
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.3-stdlib
+Source: python3.3
+Priority: optional
+Section: python
+Installed-Size: 9114
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.3.7-1+xenial1
+Replaces: python3.3 (<< 3.3.6-2), python3.3-minimal (<< 3.3.6-2)
+Depends: libpython3.3-minimal (= 3.3.7-1+xenial1), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libffi6 (>= 3.0.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libtinfo5 (>= 6)
+Pre-Depends: multiarch-support
+Breaks: python3.3 (<< 3.3.6-2), python3.3-minimal (<< 3.3.6-2)
+Filename: pool/main/p/python3.3/libpython3.3-stdlib_3.3.7-1+xenial1_amd64.deb
+Size: 1965564
+MD5sum: 001c486d4ed5963e29d264cde4771a46
+SHA1: 1d7c5801c01a50655e08eb50df0d8b67235e841f
+SHA256: 7d1c866ad6fedda50951e68477b3503a0df9de1881b1d430ee4f34776009256d
+Description: Interactive high-level object-oriented language (standard library, version 3.3)
+Description-md5: c9284437f7a741c2dd12f6e386b4a611
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.3-minimal
+Source: python3.3
+Priority: optional
+Section: python
+Installed-Size: 2975
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.3.7-1+xenial1
+Recommends: libpython3.3-stdlib
+Replaces: python3.3 (<< 3.3.6-2), python3.3-minimal (<< 3.3.6-2)
+Depends: libc6 (>= 2.14), libssl1.0.0 (>= 1.0.1)
+Conflicts: binfmt-support (<< 1.1.2)
+Pre-Depends: multiarch-support
+Breaks: python3.3 (<< 3.3.6-2), python3.3-minimal (<< 3.3.6-2)
+Filename: pool/main/p/python3.3/libpython3.3-minimal_3.3.7-1+xenial1_amd64.deb
+Size: 394336
+MD5sum: dbc34757c16d40cdad9c09522664edb4
+SHA1: cb57396b4cd834ef5a7ab63c12a94a4983c4f155
+SHA256: f6e211c368f1a8c4feb789a583a2f5d7e1d67c1d0a9080a3770b36f429601e13
+Description: Minimal subset of the Python language (version 3.3)
+Description-md5: ff0c8edca7a14a0e873a7750cb94e48f
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.3-dev
+Source: python3.3
+Priority: optional
+Section: libdevel
+Installed-Size: 54103
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.3.7-1+xenial1
+Recommends: libc6-dev | libc-dev
+Replaces: python3.3-dev (<< 3.3.6-2), python3.3-minimal (<< 3.3.6-2)
+Depends: libpython3.3-stdlib (= 3.3.7-1+xenial1), libpython3.3 (= 3.3.7-1+xenial1), libexpat1-dev
+Pre-Depends: multiarch-support
+Breaks: python3.3-dev (<< 3.3.6-2), python3.3-minimal (<< 3.3.6-2)
+Filename: pool/main/p/python3.3/libpython3.3-dev_3.3.7-1+xenial1_amd64.deb
+Size: 41799482
+MD5sum: 0d706a86fc7f4a105c20ff1b9e6c6b04
+SHA1: 24a7d00e76922a7e73ea804038241c0b21b3c70c
+SHA256: 85ab98a5ea0192285fece09cd43274dfaef0b332145c3c37ef32c0708d5f71ce
+Description: Header files and a static library for Python (v3.3)
+Description-md5: 7b432cb6f91ea62270751aad16aa5fe3
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.3-dbg
+Source: python3.3
+Priority: extra
+Section: debug
+Installed-Size: 25531
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.3.7-1+xenial1
+Replaces: python3.3-dbg (<< 3.3.6-2)
+Depends: libpython3.3-stdlib (= 3.3.7-1+xenial1), libbz2-1.0, libc6 (>= 2.14), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.1), libtinfo5 (>= 6), zlib1g (>= 1:1.2.0)
+Pre-Depends: multiarch-support
+Breaks: python3.3-dbg (<< 3.3.6-2)
+Filename: pool/main/p/python3.3/libpython3.3-dbg_3.3.7-1+xenial1_amd64.deb
+Size: 5077554
+MD5sum: c577a59991651735f9e7853ec1a57b60
+SHA1: 6e76278af0a0a21845b6c069b3c892a80f198fc2
+SHA256: dc21119ca1872db5b60ba4c084c0cf9ea294e836917ba4691f79e1cd17818c6d
+Description: Debug Build of the Python Interpreter (version 3.3)
+Description-md5: 5c9af14195b8ebe6b06100159e231054
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.4-complete
+Source: python2.4
+Priority: extra
+Section: python
+Installed-Size: 56
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 2.4.6-8+xenial1
+Depends: python2.4 (>= 2.4.6-8+xenial1), libpython2.4 (>= 2.4.6-8+xenial1), python2.4-examples (>= 2.4.6-8+xenial1), python2.4-dev (>= 2.4.6-8+xenial1), idle-python2.4 (>= 2.4.6-8+xenial1), python2.4-doc (>= 2.4.6-8+xenial1), python2.4-dbg (>= 2.4.6-8+xenial1), python2.4-tk (>= 2.4.6-8+xenial1), python2.4-gdbm (>= 2.4.6-8+xenial1), python2.4-tk-dbg (>= 2.4.6-8+xenial1), python2.4-gdbm-dbg (>= 2.4.6-8+xenial1)
+Filename: pool/main/p/python2.4/python2.4-complete_2.4.6-8+xenial1_all.deb
+Size: 29504
+MD5sum: 2c8adcfec999b36c963979c60cd11724
+SHA1: 8e6b597ab3aea6d9ffd2c908078a534f485fd6fc
+SHA256: 108eb61a4571c064c465f09d2d75c24c8efcf91a9cb11fcae0784115413a6fa8
+Description: Interactive high-level object-oriented language (version 2.4)
+Description-md5: c39298fd77d1decc873b7cccd84229b4
+Python-Version: 2.4
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython2.4
+Source: python2.4
+Priority: optional
+Section: libs
+Installed-Size: 2104
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.4.6-8+xenial1
+Depends: python2.4 (= 2.4.6-8+xenial1), libc6 (>= 2.15)
+Filename: pool/main/p/python2.4/libpython2.4_2.4.6-8+xenial1_amd64.deb
+Size: 662802
+MD5sum: 0d65beb3b217cae48522eed759cd488a
+SHA1: 6eb12d079008ee803d2d3e36c25f4c0c263b0fe7
+SHA256: f789007a51c22afc7de040a76c8a4cade8e0b39b9bb887c7426c91bfafc3ad8b
+Description: Shared Python runtime library (version 2.4)
+Description-md5: 446850bf7601ea50a606cfb615681f6f
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.4-tk-dbg
+Source: python2.4
+Priority: extra
+Section: debug
+Installed-Size: 315
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.4.6-8+xenial1
+Depends: python2.4, python2.4-tk (= 2.4.6-8+xenial1), libc6 (>= 2.4), libtcl8.5 (>= 8.5.0), libtk8.5 (>= 8.5.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python2.4/python2.4-tk-dbg_2.4.6-8+xenial1_amd64.deb
+Size: 97000
+MD5sum: 757d9df3ee4649596d0f0888867ea081
+SHA1: 0aa50c19677894bb70d1919b66821af81df129b8
+SHA256: 872ebeef31a0cd6674e02f7ce455850d3e65c28e15b8ed931f5960c22ede8ccc
+Description: Tkinter - Writing Tk applications with Python (version 2.4 debug extension)
+Description-md5: 46cc8b40526b78caba1be22daa587b56
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.4-gdbm-dbg
+Source: python2.4
+Priority: extra
+Section: debug
+Installed-Size: 126
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.4.6-8+xenial1
+Depends: python2.4, python2.4-gdbm (= 2.4.6-8+xenial1), libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python2.4/python2.4-gdbm-dbg_2.4.6-8+xenial1_amd64.deb
+Size: 46730
+MD5sum: fed2b093977fe7a9773b1da8d88e5252
+SHA1: d85442f98b6a8964fa70777acb4db347e049d2eb
+SHA256: 78af4363c289354afe1e47efd5c419702ee5af0cd030f73023c79dc3126e804a
+Description: GNU dbm database support for Python (version 2.4 debug extension)
+Description-md5: a8772ac5310ca342a1138a7aa1826d84
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.3-complete
+Source: python3.3
+Priority: extra
+Section: python
+Installed-Size: 45
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.3.7-1+xenial1
+Depends: python3.3 (>= 3.3.7-1+xenial1), libpython3.3 (>= 3.3.7-1+xenial1), libpython3.3-testsuite (>= 3.3.7-1+xenial1), libpython3.3-tk (>= 3.3.7-1+xenial1), libpython3.3-gdbm (>= 3.3.7-1+xenial1), libpython3.3-tk-dbg (>= 3.3.7-1+xenial1), libpython3.3-gdbm-dbg (>= 3.3.7-1+xenial1), python3.3-examples (>= 3.3.7-1+xenial1), python3.3-dev (>= 3.3.7-1+xenial1), python3.3-doc (>= 3.3.7-1+xenial1), python3.3-dbg (>= 3.3.7-1+xenial1), idle-python3.3 (>= 3.3.7-1+xenial1)
+Filename: pool/main/p/python3.3/python3.3-complete_3.3.7-1+xenial1_all.deb
+Size: 11882
+MD5sum: d92c02a0ba43c5c9112ea36116ce1478
+SHA1: 1968802b0e43b964fd1ac040dac136a2be082431
+SHA256: 13187a24c4f43590b3c0fc792a04d8204b4698c1e21eed0bc92df0239f41514e
+Description: Interactive high-level object-oriented language (version 3.3)
+Description-md5: bba8867f715920f83c7984c2e7e9eb60
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.3-tk
+Source: python3.3
+Priority: extra
+Section: oldlibs
+Installed-Size: 45
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.3.7-1+xenial1
+Depends: libpython3.3-tk
+Filename: pool/main/p/python3.3/python3.3-tk_3.3.7-1+xenial1_all.deb
+Size: 11736
+MD5sum: dc3d422423a17724873a888ecb388c64
+SHA1: 8a25e3f20af60e1793e3d3211e8ebeffd646ac29
+SHA256: b1b169e70a79b29dac5dea49714233eb2b535f00d1288248a8b6c84651a256ee
+Description: Tkinter - Writing Tk applications with Python (transitional package)
+Description-md5: 0f7c014843e3f2a2e46b7c355b5440e7
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.3-gdbm
+Source: python3.3
+Priority: extra
+Section: oldlibs
+Installed-Size: 45
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.3.7-1+xenial1
+Depends: libpython3.3-gdbm
+Filename: pool/main/p/python3.3/python3.3-gdbm_3.3.7-1+xenial1_all.deb
+Size: 11742
+MD5sum: 730754c51604386485fc45a1efd831c0
+SHA1: 9b6d3fba2273dab1fccb7975e9f5398946277449
+SHA256: 959ba7730d8f4a4542dd49d7add00f8628cc5a4689a2bd13c6c7915d351fe10f
+Description: GNU dbm database support for Python (transitional package)
+Description-md5: 268d732e685b640f7b9b6c2eb4df2c61
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.3-tk-dbg
+Source: python3.3
+Priority: extra
+Section: oldlibs
+Installed-Size: 45
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.3.7-1+xenial1
+Depends: libpython3.3-tk-dbg
+Filename: pool/main/p/python3.3/python3.3-tk-dbg_3.3.7-1+xenial1_all.deb
+Size: 11740
+MD5sum: ee103bd5b2e9ac90546001967231e82e
+SHA1: 7238febe208574f62c106ab81a9bb52c8a0c6e15
+SHA256: 1438489798242b5b109373d8d7b499b4f1bcbce31bc9c4570bcc1d61c52e113b
+Description: Tkinter - Writing Tk applications with Python (transitional package)
+Description-md5: 0f7c014843e3f2a2e46b7c355b5440e7
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.3-gdbm-dbg
+Source: python3.3
+Priority: extra
+Section: oldlibs
+Installed-Size: 45
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.3.7-1+xenial1
+Depends: libpython3.3-gdbm-dbg
+Filename: pool/main/p/python3.3/python3.3-gdbm-dbg_3.3.7-1+xenial1_all.deb
+Size: 11750
+MD5sum: 85a9b8c00c55259512f747bbd8f8c59c
+SHA1: 04a4d8da83f00e1867b6843cd4aa9e6d62ed1ae7
+SHA256: f126b5579841d8bb691bb45f6b6e05eab623dc78494572d4e65c3f93992873ed
+Description: GNU dbm database support for Python (transitional package)
+Description-md5: 268d732e685b640f7b9b6c2eb4df2c61
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.3-testsuite
+Source: python3.3
+Priority: optional
+Section: libdevel
+Installed-Size: 16082
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.3.7-1+xenial1
+Replaces: python3.3 (<< 3.3.6-2)
+Suggests: libpython3.3-gdbm, libpython3.3-tk
+Depends: libpython3.3-stdlib (>= 3.3.7-1+xenial1), net-tools
+Breaks: python3.3 (<< 3.3.6-2)
+Filename: pool/main/p/python3.3/libpython3.3-testsuite_3.3.7-1+xenial1_all.deb
+Size: 2209230
+MD5sum: e1422b7775fec43c3b059c8c02ff7b20
+SHA1: ddca5ed855b1220842637b0b2f56004fc2abe084
+SHA256: fb8871af32154c120a418a33d6e3c29fc192c7a7d47acdf9f1933d363a3d71f7
+Description: Testsuite for the Python standard library (v3.3)
+Description-md5: 1db9210c7a31dae14e26d3f378d2eb7b
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.4
+Priority: optional
+Section: python
+Installed-Size: 308
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.4.8-1+xenial1
+Suggests: python3.4-venv, python3.4-doc, binutils
+Depends: python3.4-minimal (= 3.4.8-1+xenial1), libpython3.4-stdlib (= 3.4.8-1+xenial1), mime-support
+Filename: pool/main/p/python3.4/python3.4_3.4.8-1+xenial1_amd64.deb
+Size: 221534
+MD5sum: af5839e460e0de2b232eb49b14a0730e
+SHA1: d287307afdf968b4b267a0a379effae547aba9df
+SHA256: 6332f763fb30aba26e8ff44384f5638191d05ef45890f3aa6806ec3984670d53
+Description: Interactive high-level object-oriented language (version 3.4)
+Description-md5: 1ebe097d3a9a32726baaf299e5c158ab
+Multi-Arch: allowed
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.4-stdlib
+Source: python3.4
+Priority: optional
+Section: python
+Installed-Size: 9960
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.4.8-1+xenial1
+Depends: libpython3.4-minimal (= 3.4.8-1+xenial1), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libffi6 (>= 3.0.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libtinfo5 (>= 6)
+Filename: pool/main/p/python3.4/libpython3.4-stdlib_3.4.8-1+xenial1_amd64.deb
+Size: 2106430
+MD5sum: ef232e7ccf5cc2368a5997c70ee02292
+SHA1: be61ef22074f5cea07fa77019253eb476ce5dff8
+SHA256: 5f23d5c028e039044d83556154a38a5763c659a6bfdadc32dd4aa1d6660d3bd6
+Description: Interactive high-level object-oriented language (standard library, version 3.4)
+Description-md5: 5f5cf25e1bb759cba0ee83f7ab4b322f
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.4-minimal
+Source: python3.4
+Priority: optional
+Section: python
+Installed-Size: 7116
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.4.8-1+xenial1
+Recommends: python3.4
+Suggests: binfmt-support
+Depends: libpython3.4-minimal (= 3.4.8-1+xenial1), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Conflicts: binfmt-support (<< 1.1.2)
+Pre-Depends: libc6 (>= 2.17)
+Filename: pool/main/p/python3.4/python3.4-minimal_3.4.8-1+xenial1_amd64.deb
+Size: 1145776
+MD5sum: e96fc28fc4051adc6bcedceb0a379133
+SHA1: 4333dbe5e22b3f4166cfe6e90a738b8925039fd9
+SHA256: ae3c312191d6b46dc92f4d89d5859c3c1c7b06cb8d458b16a9f26055c6c5fd27
+Description: Minimal subset of the Python language (version 3.4)
+Description-md5: 4e4ca87fe0b3264c74565112cce29495
+Multi-Arch: allowed
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.4-minimal
+Source: python3.4
+Priority: optional
+Section: python
+Installed-Size: 3378
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.4.8-1+xenial1
+Recommends: libpython3.4-stdlib
+Replaces: libpython3.4-stdlib (<< 3.4.1)
+Depends: libc6 (>= 2.14), libssl1.0.0 (>= 1.0.1)
+Conflicts: binfmt-support (<< 1.1.2)
+Breaks: libpython3.4-stdlib (<< 3.4.1)
+Filename: pool/main/p/python3.4/libpython3.4-minimal_3.4.8-1+xenial1_amd64.deb
+Size: 487376
+MD5sum: e7447064337981bc1f87e5eff20eba58
+SHA1: 1e22d9bfdc32424fd89388bb809fff7c07d5abf8
+SHA256: 56d8ae6ced8e0e6b90e4a0dd7a1bcba35d5df84082aa57ab933c5051bec669fe
+Description: Minimal subset of the Python language (version 3.4)
+Description-md5: b400cad5c9c2409868b0fdc4c70964b4
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.4
+Source: python3.4
+Priority: optional
+Section: libs
+Installed-Size: 3872
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.4.8-1+xenial1
+Depends: libpython3.4-stdlib (= 3.4.8-1+xenial1), libc6 (>= 2.17), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python3.4/libpython3.4_3.4.8-1+xenial1_amd64.deb
+Size: 1164966
+MD5sum: 7cae3f169c0aded36d917b120e0a7075
+SHA1: f34ff0d9841f124cafe80980ddff83bc4cfb650c
+SHA256: 769a9c4991fe6fa8eba8df386e82256a6484e2b13ea8691bab541523e5fd2159
+Description: Shared Python runtime library (version 3.4)
+Description-md5: faf28cda6555e796024ceccc49dad30d
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.4-dev
+Source: python3.4
+Priority: optional
+Section: python
+Installed-Size: 420
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.4.8-1+xenial1
+Recommends: libc6-dev | libc-dev
+Depends: python3.4 (= 3.4.8-1+xenial1), libpython3.4-dev (= 3.4.8-1+xenial1), libpython3.4 (= 3.4.8-1+xenial1), libexpat1-dev
+Filename: pool/main/p/python3.4/python3.4-dev_3.4.8-1+xenial1_amd64.deb
+Size: 412826
+MD5sum: 10639030080eab87d751496c2f70f726
+SHA1: 86f52b1500dc44945e9074972e5b2012f605df2d
+SHA256: 863635851e256cc4c13adacfd6398d95c89723e1c9a93025494026b8e1f700a2
+Description: Header files and a static library for Python (v3.4)
+Description-md5: ec6a2bf80bfa9d5cd417d85704c5e498
+Multi-Arch: allowed
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.4-dev
+Source: python3.4
+Priority: optional
+Section: libdevel
+Installed-Size: 56414
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.4.8-1+xenial1
+Recommends: libc6-dev | libc-dev
+Depends: libpython3.4-stdlib (= 3.4.8-1+xenial1), libpython3.4 (= 3.4.8-1+xenial1), libexpat1-dev
+Filename: pool/main/p/python3.4/libpython3.4-dev_3.4.8-1+xenial1_amd64.deb
+Size: 43693766
+MD5sum: fce711324d4987210a4be1c3f83e5f32
+SHA1: b790bbdf452ba37528a3e09d3f1d5e39c1628cbf
+SHA256: 31c8be875b7d5f79aa540da65959438f6596e18adb53a6633fdb965e6f1fdfdc
+Description: Header files and a static library for Python (v3.4)
+Description-md5: 50e4b1c03c506c8b35b04244f97e0857
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.4-dbg
+Source: python3.4
+Priority: extra
+Section: debug
+Installed-Size: 31681
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.4.8-1+xenial1
+Recommends: gdb
+Suggests: libpython3.4-gdbm-dbg, libpython3.4-tk-dbg
+Depends: python3.4 (= 3.4.8-1+xenial1), libpython3.4-dbg (= 3.4.8-1+xenial1), libc6 (>= 2.15), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python3.4/python3.4-dbg_3.4.8-1+xenial1_amd64.deb
+Size: 7320086
+MD5sum: 05250173b1ebcb5c42e9e8c376335b0c
+SHA1: ebbf094c74a204199e7e661a33541c060eb87824
+SHA256: 856e3755531199c7ac264c4601557081db1db79d77c122efd59f9d1c44c5f754
+Description: Debug Build of the Python Interpreter (version 3.4)
+Description-md5: f73392d043e4bb9aeecb4c03505fbb8f
+Multi-Arch: allowed
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.4-dbg
+Source: python3.4
+Priority: extra
+Section: debug
+Installed-Size: 41247
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.4.8-1+xenial1
+Depends: libpython3.4-stdlib (= 3.4.8-1+xenial1), libbz2-1.0, libc6 (>= 2.15), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.1), libtinfo5 (>= 6), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python3.4/libpython3.4-dbg_3.4.8-1+xenial1_amd64.deb
+Size: 8200054
+MD5sum: 04e62fb18cce751b587f991d79b64d5c
+SHA1: fb0a475d66f8d15504adbfa6c50c706527e18748
+SHA256: 8b4d100f6dff47fc19e48fe5a48fb9bc07aacb4017258942f2f0bf4051400ba4
+Description: Debug Build of the Python Interpreter (version 3.4)
+Description-md5: c6fdd7d4eb18c794067e2deacbcc288f
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.4-examples
+Source: python3.4
+Priority: optional
+Section: python
+Installed-Size: 1770
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.4.8-1+xenial1
+Depends: python3.4 (>= 3.4.8-1+xenial1)
+Filename: pool/main/p/python3.4/python3.4-examples_3.4.8-1+xenial1_all.deb
+Size: 371566
+MD5sum: 3611628ef590424500c2e44728a68843
+SHA1: ad4ef2de739832a41ceea1a0ce583c36c1fbe0c0
+SHA256: 66644b042bac55eb8a7e5f68e361c6f7ed29f1347e1d089b2ae20aaf9fd0e5f1
+Description: Examples for the Python language (v3.4)
+Description-md5: 21c19f2e05b41b0c19a74ed61f2cbc0d
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.4-testsuite
+Source: python3.4
+Priority: optional
+Section: libdevel
+Installed-Size: 18107
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.4.8-1+xenial1
+Suggests: libpython3.4-gdbm, libpython3.4-tk
+Depends: libpython3.4-stdlib (>= 3.4.8-1+xenial1), net-tools
+Filename: pool/main/p/python3.4/libpython3.4-testsuite_3.4.8-1+xenial1_all.deb
+Size: 2468418
+MD5sum: ca08ea7e7448b976bf96ed647a2d4126
+SHA1: 8f29fe9e863bd4fb715053847aa62756599a617d
+SHA256: afaff8175fa49d9824114d4b9a9b65b7dafa7fe930385c2af096b00b49f7ec58
+Description: Testsuite for the Python standard library (v3.4)
+Description-md5: 97b7ab7779be0cf84d6c1bfa36fdfc49
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: idle-python3.4
+Source: python3.4
+Priority: optional
+Section: python
+Installed-Size: 181
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.4.8-1+xenial1
+Depends: python3.4, libpython3.4-tk
+Enhances: python3.4
+Filename: pool/main/p/python3.4/idle-python3.4_3.4.8-1+xenial1_all.deb
+Size: 83638
+MD5sum: 53a8d493c6135319d6c9660bb0b3ffe1
+SHA1: 6f2847df405007c8bddd1d24b5e37ffce0d484ba
+SHA256: 9dbb9daaa83a383792317cc42daf8188900a44c300d055d2a5f6458d87fed706
+Description: IDE for Python (v3.4) using Tkinter
+Description-md5: e512a89469c399100e6c8d9b845e1aea
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.4-doc
+Source: python3.4
+Priority: optional
+Section: doc
+Installed-Size: 37863
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.4.8-1+xenial1
+Suggests: python3.4
+Depends: libjs-jquery, libjs-underscore
+Filename: pool/main/p/python3.4/python3.4-doc_3.4.8-1+xenial1_all.deb
+Size: 4929594
+MD5sum: cbaa5a813193de4dcacd9744e7894050
+SHA1: 55134725461cc7391377566d4cc2636b1873c54f
+SHA256: ba01470b089f74159a8ab3e4ab537c7c1c4a8375fd40ebdbdcd91a39155dbfcd
+Description: Documentation for the high-level object-oriented language Python (v3.4)
+Description-md5: 4cc1b5362d921e58f89d10dabf159d43
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.3-minimal
+Source: python2.3
+Priority: optional
+Section: python
+Installed-Size: 2974
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.3.7-2+xenial1
+Recommends: python2.3
+Suggests: binfmt-support
+Depends: libc6 (>= 2.15), zlib1g (>= 1:1.1.4)
+Conflicts: binfmt-support (<< 1.1.2)
+Filename: pool/main/p/python2.3/python2.3-minimal_2.3.7-2+xenial1_amd64.deb
+Size: 787498
+MD5sum: 25dff59f7be4c594c41ae42358e9c051
+SHA1: cd4858b4e45b8e317e3e975267f9f6502a0a3a5e
+SHA256: 1e7b19a1271e1e7bbd87cd9320d925521edee86f651ccdc6e279c69bfa44c917
+Description: Minimal subset of the Python language (version 2.3)
+Description-md5: 9d209b039a719cae5c259bdd8e1ee517
+Python-Runtime: python2.3
+Python-Version: 2.3
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython2.3
+Source: python2.3
+Priority: optional
+Section: libs
+Installed-Size: 1978
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.3.7-2+xenial1
+Depends: python2.3 (= 2.3.7-2+xenial1), libc6 (>= 2.15)
+Filename: pool/main/p/python2.3/libpython2.3_2.3.7-2+xenial1_amd64.deb
+Size: 625036
+MD5sum: b16aeeca33a3e6e3983096865b39e47e
+SHA1: 2c089d41fcdd24a7af23e7ed3b25f450821a1f1c
+SHA256: 015597c376b3ea646378d25e9ca992f41292ec89fb4d248078d6a3dce1f44e6d
+Description: Shared Python runtime library (version 2.3)
+Description-md5: ec3d66583e7b89cb7d93902bbd7e2889
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.3-tk-dbg
+Source: python2.3
+Priority: extra
+Section: debug
+Installed-Size: 290
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.3.7-2+xenial1
+Depends: python2.3, python2.3-tk (= 2.3.7-2+xenial1), libc6 (>= 2.4), libtcl8.5 (>= 8.5.0), libtk8.5 (>= 8.5.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python2.3/python2.3-tk-dbg_2.3.7-2+xenial1_amd64.deb
+Size: 74358
+MD5sum: 94dc895095a70ea5db7294c260ab53df
+SHA1: 2b856c8b61bb0e72fbaa348315708eac9d1df91e
+SHA256: a841514b1f48ef3a149159f6ba3fcac7098cfaafa7479e4fb96a148eb68bce42
+Description: Tkinter - Writing Tk applications with Python (version 2.3 debug extension)
+Description-md5: 959848baa47cdcd8c8f3480d76fc2d2e
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.3-gdbm-dbg
+Source: python2.3
+Priority: extra
+Section: debug
+Installed-Size: 106
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 2.3.7-2+xenial1
+Depends: python2.3, python2.3-gdbm (= 2.3.7-2+xenial1), libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python2.3/python2.3-gdbm-dbg_2.3.7-2+xenial1_amd64.deb
+Size: 26032
+MD5sum: 373a10fb428ed6a91008e07efc51b704
+SHA1: a405807066ec4a7a2d460e5239ab2a921571550a
+SHA256: 1829a2369b698999c9bfa3bdca8f7fea3bfc0fff4ef4c491e5d3ccb402b4308c
+Description: GNU dbm database support for Python (version 2.3 debug extension)
+Description-md5: a040bf36a39348587bac08ebb481b13a
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python2.3-complete
+Source: python2.3
+Priority: extra
+Section: python
+Installed-Size: 36
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 2.3.7-2+xenial1
+Depends: python2.3 (>= 2.3.7-2+xenial1), libpython2.3 (>= 2.3.7-2+xenial1), python2.3-examples (>= 2.3.7-2+xenial1), python2.3-dev (>= 2.3.7-2+xenial1), idle-python2.3 (>= 2.3.7-2+xenial1), python2.3-doc (>= 2.3.7-2+xenial1), python2.3-dbg (>= 2.3.7-2+xenial1), python2.3-tk (>= 2.3.7-2+xenial1), python2.3-gdbm (>= 2.3.7-2+xenial1), python2.3-tk-dbg (>= 2.3.7-2+xenial1), python2.3-gdbm-dbg (>= 2.3.7-2+xenial1)
+Filename: pool/main/p/python2.3/python2.3-complete_2.3.7-2+xenial1_all.deb
+Size: 8842
+MD5sum: acefbc2815d7373c7b0bb8dee56565b5
+SHA1: 980c78f72706596dd2be222205a39ede10b71e73
+SHA256: 54d4d724b32d3a65a8b23374f6924b7e025b17efb9a590d2a6f2f36aa906a6a0
+Description: Interactive high-level object-oriented language (version 2.3)
+Description-md5: 0f5d46a475dd4812fb84873a1a6d06ff
+Python-Version: 2.3
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.4-tk
+Source: python3.4
+Priority: extra
+Section: oldlibs
+Installed-Size: 87
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.4.8-1+xenial1
+Depends: libpython3.4-tk
+Filename: pool/main/p/python3.4/python3.4-tk_3.4.8-1+xenial1_all.deb
+Size: 41318
+MD5sum: b03f2c855e86aec1c72db375b67ad05c
+SHA1: e0a289cee27acc6b3ac1418cf2746f2100d4f28a
+SHA256: 94ee276bf676c6b2a011bcab6c8f90196059e60e7befb0033e8f97c6f4531a84
+Description: Tkinter - Writing Tk applications with Python (transitional package)
+Description-md5: d0c4536ed3de7f5e2db010f4c673e0ea
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.4-gdbm
+Source: python3.4
+Priority: extra
+Section: oldlibs
+Installed-Size: 87
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.4.8-1+xenial1
+Depends: libpython3.4-gdbm
+Filename: pool/main/p/python3.4/python3.4-gdbm_3.4.8-1+xenial1_all.deb
+Size: 41314
+MD5sum: 2166d25aedeb7d5a40444394cfbae3eb
+SHA1: c7220e941923be81bdbf1bae42313fe863e4695a
+SHA256: a9411145c5bcc3ce1dd4049e4f87821468f7cbf77236691b3684dfe983d02440
+Description: GNU dbm database support for Python (transitional package)
+Description-md5: 0536374c67bef5c4a4b37a0a5e82f333
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.4-tk-dbg
+Source: python3.4
+Priority: extra
+Section: oldlibs
+Installed-Size: 87
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.4.8-1+xenial1
+Depends: libpython3.4-tk-dbg
+Filename: pool/main/p/python3.4/python3.4-tk-dbg_3.4.8-1+xenial1_all.deb
+Size: 41322
+MD5sum: 19cb0ce961b7ea36fb6646f127c30839
+SHA1: a4dd7925c38dd6967d93e211ce6039097cd9b5fe
+SHA256: 63c5e71687c4f2a6a8914c8930f029e8697a2ecd075d221d9855e12ba78b564f
+Description: Tkinter - Writing Tk applications with Python (transitional package)
+Description-md5: d0c4536ed3de7f5e2db010f4c673e0ea
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.4-gdbm-dbg
+Source: python3.4
+Priority: extra
+Section: oldlibs
+Installed-Size: 87
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.4.8-1+xenial1
+Depends: libpython3.4-gdbm-dbg
+Filename: pool/main/p/python3.4/python3.4-gdbm-dbg_3.4.8-1+xenial1_all.deb
+Size: 41326
+MD5sum: a8a39bbd9d2a99f0ff5b2384f0591896
+SHA1: db012256b999bed232dd63dfde3a48c83c72ab5b
+SHA256: b0d93a9a474618f68d830dcec3d15905c3bb134037cf018ead799f8332fa09a3
+Description: GNU dbm database support for Python (transitional package)
+Description-md5: 0536374c67bef5c4a4b37a0a5e82f333
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.4-complete
+Source: python3.4
+Priority: extra
+Section: python
+Installed-Size: 87
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: all
+Version: 3.4.8-1+xenial1
+Depends: python3.4 (>= 3.4.8-1+xenial1), libpython3.4 (>= 3.4.8-1+xenial1), libpython3.4-testsuite (>= 3.4.8-1+xenial1), libpython3.4-tk (>= 3.4.8-1+xenial1), libpython3.4-gdbm (>= 3.4.8-1+xenial1), libpython3.4-tk-dbg (>= 3.4.8-1+xenial1), libpython3.4-gdbm-dbg (>= 3.4.8-1+xenial1), python3.4-examples (>= 3.4.8-1+xenial1), python3.4-dev (>= 3.4.8-1+xenial1), python3.4-doc (>= 3.4.8-1+xenial1), python3.4-dbg (>= 3.4.8-1+xenial1), python3.4-venv (>= 3.4.8-1+xenial1), idle-python3.4 (>= 3.4.8-1+xenial1)
+Filename: pool/main/p/python3.4/python3.4-complete_3.4.8-1+xenial1_all.deb
+Size: 41460
+MD5sum: c6959276aec6b50f1c9952cbede2ecc0
+SHA1: d2d0445fd0c83d00162e8cf803d597d5c7b582f8
+SHA256: 20ce8e27196fdc70da3a0c45088e28e355a8fe972ed09979209e9ed55cbab17e
+Description: Interactive high-level object-oriented language (version 3.4)
+Description-md5: 8a9231feae2b9c547105ea7c0747c68b
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.4-tk
+Source: python3.4
+Priority: optional
+Section: python
+Installed-Size: 151
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.4.8-1+xenial1
+Suggests: tix, libpython3.4-tk-dbg
+Depends: libpython3.4-stdlib (>= 3.4.8-1+xenial1), libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python3.4/libpython3.4-tk_3.4.8-1+xenial1_amd64.deb
+Size: 60236
+MD5sum: cb99e1c37df10e1e187207e1b7f8d2b5
+SHA1: 16049a0d685190b41ec7192126c54952c2bcef20
+SHA256: 1d73dbea90f1852d6c5172725f8ab71f77556b7e61d5ef345d6bbeb1ae9b8417
+Description: Tkinter - Writing Tk applications with Python (version 3.4)
+Description-md5: 9c6b9d43a6dea185bdb4012126f54d20
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.4-gdbm
+Source: python3.4
+Priority: optional
+Section: python
+Installed-Size: 112
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.4.8-1+xenial1
+Suggests: libpython3.4-gdbm-dbg
+Depends: libpython3.4-stdlib (>= 3.4.8-1+xenial1), libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python3.4/libpython3.4-gdbm_3.4.8-1+xenial1_amd64.deb
+Size: 47794
+MD5sum: a790a212e41e5404fa6c07c10fc9b06a
+SHA1: 5566f329bc536d51bab3d5634150f906a77825f6
+SHA256: d05fd8450f49414e0e36c913d877b25fec9db20975e93bcbf68a790920eb5d16
+Description: GNU dbm database support for Python (version 3.4)
+Description-md5: 2ff6532419b1668caf1a790314a8af01
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.4-tk-dbg
+Source: python3.4
+Priority: extra
+Section: debug
+Installed-Size: 428
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.4.8-1+xenial1
+Depends: libpython3.4-dbg (>= 3.4.8-1+xenial1), libpython3.4-tk (= 3.4.8-1+xenial1), libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python3.4/libpython3.4-tk-dbg_3.4.8-1+xenial1_amd64.deb
+Size: 129832
+MD5sum: ad7418e76c95d9c05168157a3cb4efa6
+SHA1: 411a3853cfb5b3c73018c8ab81814ab18d25ab11
+SHA256: e42f0cb6264297f58834d652e1e11170035fb9d4851b2cf11df4e323f6778b64
+Description: Tkinter - Writing Tk applications with Python (version 3.4 debug extension)
+Description-md5: fe7b681f048a96985c0e23b7f6d66c3b
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.4-gdbm-dbg
+Source: python3.4
+Priority: extra
+Section: debug
+Installed-Size: 173
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.4.8-1+xenial1
+Depends: libpython3.4-dbg (>= 3.4.8-1+xenial1), libpython3.4-gdbm (= 3.4.8-1+xenial1), libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python3.4/libpython3.4-gdbm-dbg_3.4.8-1+xenial1_amd64.deb
+Size: 64658
+MD5sum: e1ea4be3313e8f9a0ac97df150435ee3
+SHA1: 25f6e9d33b9167151d707ba64fcf1d85bad0d75d
+SHA256: 3d5e778dcd726cafd419e6508267d8e7e827aab9e0aaf11aaef39e838d69e447
+Description: GNU dbm database support for Python (version 3.4 debug extension)
+Description-md5: aa2ef1ae87e8221b03bd26ee62d14501
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: python3.4-venv
+Source: python3.4
+Priority: optional
+Section: python
+Installed-Size: 3252
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.4.8-1+xenial1
+Replaces: python3.4 (<< 3.4.3-2)
+Depends: python3.4 (= 3.4.8-1+xenial1)
+Breaks: python3.4 (<< 3.4.3-2)
+Filename: pool/main/p/python3.4/python3.4-venv_3.4.8-1+xenial1_amd64.deb
+Size: 2673018
+MD5sum: ce6b358d4b5e91f0ea555bd4556e10fd
+SHA1: 098f59a07d6655cf5c9051a3ffb68563f9001be5
+SHA256: f170efcb5a55c86aa113fb4e0fa2977377b5e2dff88c5e9d5d81718fb6457c69
+Description: Interactive high-level object-oriented language (pyvenv binary, version 3.4)
+Description-md5: 20fd7c4de82176fbc277b688f8b92851
+Multi-Arch: allowed
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.3-tk
+Source: python3.3
+Priority: optional
+Section: python
+Installed-Size: 110
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.3.7-1+xenial1
+Replaces: python3.3-tk (<< 3.3.6-2)
+Suggests: tix, libpython3.3-tk-dbg
+Depends: libpython3.3-stdlib (>= 3.3.7-1+xenial1), libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), tk8.6-blt2.5 (>= 2.5.3)
+Breaks: python3.3-tk (<< 3.3.6-2)
+Filename: pool/main/p/python3.3/libpython3.3-tk_3.3.7-1+xenial1_amd64.deb
+Size: 30162
+MD5sum: 9057a3a3f546a78f18e4cd45f43050e3
+SHA1: f70e16277ac8e4d1274aac7b4eb88bcc5aa70584
+SHA256: 9016de50c8ea923796a18306060328b72a002ded4c3df88a02740de4d75b23e4
+Description: Tkinter - Writing Tk applications with Python (version 3.3)
+Description-md5: 127467797cdba0661d87cac9bcbc5c1a
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.3-gdbm
+Source: python3.3
+Priority: optional
+Section: python
+Installed-Size: 70
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.3.7-1+xenial1
+Replaces: python3.3-gdbm (<< 3.3.6-2)
+Suggests: libpython3.3-gdbm-dbg
+Depends: libpython3.3-stdlib (>= 3.3.7-1+xenial1), libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Breaks: python3.3-gdbm (<< 3.3.6-2)
+Filename: pool/main/p/python3.3/libpython3.3-gdbm_3.3.7-1+xenial1_amd64.deb
+Size: 18046
+MD5sum: fda4af04dd28bce10eae11ba1f92f9e0
+SHA1: 8093ab176290bcc70c0bf8dd97f81152db12a95c
+SHA256: 8766ae3fe5419f89687deb2796417041bc02a058ac87e08cea4aa1b59dbe44d8
+Description: GNU dbm database support for Python (version 3.3)
+Description-md5: feb64fbf19221d3e4418c891a302ea45
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.3-tk-dbg
+Source: python3.3
+Priority: extra
+Section: debug
+Installed-Size: 302
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.3.7-1+xenial1
+Replaces: python3.3-tk-dbg (<< 3.3.6-2)
+Depends: libpython3.3-dbg (>= 3.3.7-1+xenial1), libpython3.3-tk (= 3.3.7-1+xenial1), libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), tk8.6-blt2.5 (>= 2.5.3)
+Breaks: python3.3-tk-dbg (<< 3.3.6-2)
+Filename: pool/main/p/python3.3/libpython3.3-tk-dbg_3.3.7-1+xenial1_amd64.deb
+Size: 79076
+MD5sum: 4422bd30fe1c26d66a0c3171181c1ffb
+SHA1: 3af77b2302b1972f2335708779113c7531ed2161
+SHA256: 4a4a94d93a03de61a80ab09fe02e3f4d108c97245e91073084be5844ce0c0f4e
+Description: Tkinter - Writing Tk applications with Python (version 3.3 debug extension)
+Description-md5: 59d824513655a35c12a3814399457430
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.3-gdbm-dbg
+Source: python3.3
+Priority: extra
+Section: debug
+Installed-Size: 124
+Maintainer: Felix Krull <f_krull@gmx.de>
+Architecture: amd64
+Version: 3.3.7-1+xenial1
+Replaces: python3.3-gdbm-dbg (<< 3.3.6-2)
+Depends: libpython3.3-dbg (>= 3.3.7-1+xenial1), libpython3.3-gdbm (= 3.3.7-1+xenial1), libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Breaks: python3.3-gdbm-dbg (<< 3.3.6-2)
+Filename: pool/main/p/python3.3/libpython3.3-gdbm-dbg_3.3.7-1+xenial1_amd64.deb
+Size: 32126
+MD5sum: 748f34356a0d6a46736a291473f80957
+SHA1: 74ad3cedfc2f761e5fef02847f9e08439a5b5745
+SHA256: b18b7f1adc33e23240a898455ea57cd469f3884e81639c6e3de1271ff56fb993
+Description: GNU dbm database support for Python (version 3.3 debug extension)
+Description-md5: e818c7eb2ddee908b2fa740bc66bc994
+Multi-Arch: same
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.6-dbg
+Source: python3.6
+Priority: extra
+Section: debug
+Installed-Size: 45647
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.6.5-1+xenial1
+Depends: libpython3.6-stdlib (= 3.6.5-1+xenial1), libbz2-1.0, libc6 (>= 2.17), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), liblzma5 (>= 5.1.1alpha+20120614), libmpdec2, libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.2~beta3), libtinfo5 (>= 6), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python3.6/libpython3.6-dbg_3.6.5-1+xenial1_amd64.deb
+Size: 9144450
+MD5sum: e802f392f0976b1612ef4d0d7f685405
+SHA1: c81e73647f175c31570b7ad6d2bee055dc56bdba
+SHA256: e71eb70a39572a206b54ed02ac26e8523bbfb8f27adc8b281641fd1fa7aa9aa1
+Description: Debug Build of the Python Interpreter (version 3.6)
+Description-md5: 5a076902ff2babe07b884c5c00dba6db
+Multi-Arch: same
+
+Package: libpython3.6
+Source: python3.6
+Priority: optional
+Section: libs
+Installed-Size: 4941
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.6.5-1+xenial1
+Depends: libpython3.6-stdlib (= 3.6.5-1+xenial1), libc6 (>= 2.17), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python3.6/libpython3.6_3.6.5-1+xenial1_amd64.deb
+Size: 1706340
+MD5sum: 6bec30011d831de7611c88fbf4168179
+SHA1: b01815317bfa6fb81198d64e5a19b75745769594
+SHA256: 2def5dc5f8c1fc0a8a97c069a48ebb07dcfee47a2318bdead1028d3fc95ea196
+Description: Shared Python runtime library (version 3.6)
+Description-md5: 856009def9edf1363ae6d0b9bc19e813
+Multi-Arch: same
+
+Package: libpython3.6-dev
+Source: python3.6
+Priority: optional
+Section: libdevel
+Installed-Size: 18231
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.6.5-1+xenial1
+Recommends: libc6-dev | libc-dev
+Depends: libpython3.6-stdlib (= 3.6.5-1+xenial1), libpython3.6 (= 3.6.5-1+xenial1), libexpat1-dev
+Filename: pool/main/p/python3.6/libpython3.6-dev_3.6.5-1+xenial1_amd64.deb
+Size: 3928376
+MD5sum: 921a8e2f3a6d59278176c0be6f7e8bcb
+SHA1: 1dd334d5588784d043c817080f53200996ffa9bf
+SHA256: 6a9ebfa549d0cf5b9fd34a89d1b4cd1729b42a0d11e780c7cf0f1776cd399ec3
+Description: Header files and a static library for Python (v3.6)
+Description-md5: deaf9211abb74d4464ab0d2cbef5e8f1
+Multi-Arch: same
+
+Package: libpython3.6-minimal
+Source: python3.6
+Priority: optional
+Section: python
+Installed-Size: 3803
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.6.5-1+xenial1
+Recommends: libpython3.6-stdlib
+Depends: libc6 (>= 2.14), libssl1.0.0 (>= 1.0.2~beta3)
+Conflicts: binfmt-support (<< 1.1.2)
+Filename: pool/main/p/python3.6/libpython3.6-minimal_3.6.5-1+xenial1_amd64.deb
+Size: 575598
+MD5sum: e2e78e48fb7e107bb1fa035d34788083
+SHA1: 749ca1ec2fe1259665591cecb924d5df77b4b0c7
+SHA256: 83da5ffea803cbb1850eabb2d761069c28d320af0abe8c95e02187b7aebe9abd
+Description: Minimal subset of the Python language (version 3.6)
+Description-md5: c67234928517b18757bcb87c43d7bb2c
+Multi-Arch: same
+
+Package: libpython3.6-stdlib
+Source: python3.6
+Priority: optional
+Section: python
+Installed-Size: 10209
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.6.5-1+xenial1
+Depends: libpython3.6-minimal (= 3.6.5-1+xenial1), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libffi6 (>= 3.0.4), liblzma5 (>= 5.1.1alpha+20120614), libmpdec2, libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libtinfo5 (>= 6)
+Breaks: libmpdec2 (<< 2.4.2)
+Filename: pool/main/p/python3.6/libpython3.6-stdlib_3.6.5-1+xenial1_amd64.deb
+Size: 2206370
+MD5sum: a06a220d11695528a5ac95b5f62f1247
+SHA1: 525acee5aa605a9d4218bad099eb4044b68612d5
+SHA256: 873db564ce98904e718c7c5ed8056cca7cc315b77590fb394d3ad82cc1e5ebfa
+Description: Interactive high-level object-oriented language (standard library, version 3.6)
+Description-md5: 2937913cf41d1b295781053078fbb48c
+Multi-Arch: same
+
+Package: python3.6-dbg
+Source: python3.6
+Priority: extra
+Section: debug
+Installed-Size: 24231
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.6.5-1+xenial1
+Recommends: gdb
+Suggests: python3.6-gdbm-dbg, python3.6-tk-dbg
+Depends: python3.6 (= 3.6.5-1+xenial1), libpython3.6-dbg (= 3.6.5-1+xenial1), libc6 (>= 2.17), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python3.6/python3.6-dbg_3.6.5-1+xenial1_amd64.deb
+Size: 12058146
+MD5sum: 180ff439708223793b953fdea9b381db
+SHA1: b4122053db02a54cb66aef593c3de64cce233fb8
+SHA256: 791ed4a70cfd6a9ea24eeaab1103953598ee21c01cf7ebb49b14f4f51d4abdde
+Description: Debug Build of the Python Interpreter (version 3.6)
+Description-md5: cdc1a7cd86cf9cd4c1c51a8591c52faa
+Build-Ids: 09401695310370448831194fda508909f061f344 0e276b1c74d58792336494ddd79d26ba86c2c2cc 16ce9b47fe5af365501993332fb679eaf70c0fcc 18070c61c47814cde7df7378d852fd05d9eb54fd 19681c1f2045a8cfbf015dfdf4fe89ed97eef278 1f9d5ae0c28b8ac12213bf663a1832ac5ca510e5 2880aca18552729b29709dad8eb143fd3c6f5554 2a1ddb45dbb9d31dfe696a35b0a89db2642e0f01 38a74ac07f3b4734ce9f6b32dd33b89e9cb0007b 3ec0f2d167aa3ae154a2216baae2af73cdbc9bd4 4aee1abd34fa820a66fb47c32483eb7e1ff2ed90 502a03f3e4f59a706226d2f6e03409dfc523dff0 57a159c629b990b62270e292fad74d1dfbf099da 5ba4f5bfd3943ce3e0d7a7357e48e53065bf0825 5ce86e888f38d5e797ae19b28145769e693a48cb 5d492d8f3def2b3b79ae1f9b818a6d4421862e6f 5fab2800a480b42af926ea955239b5d8a99eb077 687604ef10d2a0fca479209599da07854aa54641 6b88ac05eb1e51e4fa85192ecc62c4874382fb98 7c28b88ed6df67778cab38a14fee2976f551199d 7f5af44315f8d7da3ce458f047e3de74cd50f419 8074163f022712a7b485aad98b71a69436041232 870aba007880346cf58fa9ac64a9069ddc6f5a3f 87146a4e075a9272c02cb168b40b2f4de00e10ce 93357ba5582d6f422927d91a491dcc672c67d7a1 9c0d3de5e2f20853e93e636a9f652a27ba1e1a1b aec5f5ad68534136d7f7d904d3c7aa7b353b9cf6 b1e4aeeae3f2f25d260e1761e1659aa08b869fef c360a81323586e746eccc818c1dab4f6fa96ff29 c805c0707380e5339660df71ddb8b17762bc6e1a cdcc6862d1bff2b4ce592e6260b48891600a3b68 cef50be33d64a2866170124be9b73d8e9a2dd7e8 d2afba669212dc8dce9f5fa00ab145e388e8fc80 deb14f4170f4239f2ef2d392f024ec08cfaa659a e765ccf97ef5183619afa61b1db59dc83a7eaa7d eb402a536c80fa472df19380f98e21d752cad814 f706620f3f5cb18c11baffd80ec4ee53d3c750e0
+Multi-Arch: allowed
+
+Package: python3.6-dev
+Source: python3.6
+Priority: optional
+Section: python
+Installed-Size: 507
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.6.5-1+xenial1
+Recommends: libc6-dev | libc-dev
+Depends: python3.6 (= 3.6.5-1+xenial1), libpython3.6-dev (= 3.6.5-1+xenial1), libpython3.6 (= 3.6.5-1+xenial1), libexpat1-dev
+Filename: pool/main/p/python3.6/python3.6-dev_3.6.5-1+xenial1_amd64.deb
+Size: 500788
+MD5sum: e4b04e0e9b93b5fbc837ee49341ee260
+SHA1: 6150a2ebac6d37df58e562f659681866a995b15a
+SHA256: 98473c343655f944b45da350bdaa8869c34fd3fbc95152202bd0caac1b03ef80
+Description: Header files and a static library for Python (v3.6)
+Description-md5: 3ebd6cbddc7842ffc01dc0208baddd1e
+Multi-Arch: allowed
+
+Package: python3.6-minimal
+Source: python3.6
+Priority: optional
+Section: python
+Installed-Size: 9298
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.6.5-1+xenial1
+Recommends: python3.6
+Suggests: binfmt-support
+Depends: libpython3.6-minimal (= 3.6.5-1+xenial1), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Conflicts: binfmt-support (<< 1.1.2)
+Pre-Depends: libc6 (>= 2.17)
+Filename: pool/main/p/python3.6/python3.6-minimal_3.6.5-1+xenial1_amd64.deb
+Size: 1703348
+MD5sum: 0879caf9de991e61edcef5063c92cdcb
+SHA1: 6498ba4ab4009d891b17d98e242b192979164455
+SHA256: 8aeac14215ed6be46ef0b2734b7955102f0314409232c6650d89a1b8731e85ca
+Description: Minimal subset of the Python language (version 3.6)
+Description-md5: c958c26a48065f1454d854eaa48465db
+Multi-Arch: allowed
+
+Package: python3.6-venv
+Source: python3.6
+Priority: optional
+Section: python
+Installed-Size: 1953
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.6.5-1+xenial1
+Depends: python3.6 (= 3.6.5-1+xenial1)
+Breaks: python3-pip (<< 1.5.6-4)
+Filename: pool/main/p/python3.6/python3.6-venv_3.6.5-1+xenial1_amd64.deb
+Size: 1624216
+MD5sum: 825bae31adfbdee7994d2715018e0de6
+SHA1: dd6fc996227ddabad4379624f87edc0821fdc577
+SHA256: 2c51096f606ff2cc080bdeb89ed89feb2fe09c4f5624bb403261c72278384bf7
+Description: Interactive high-level object-oriented language (pyvenv binary, version 3.6)
+Description-md5: 8446f3e98e0dccd84caf27c6a968a630
+Multi-Arch: allowed
+
+Package: python3.6
+Priority: optional
+Section: python
+Installed-Size: 310
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.6.5-1+xenial1
+Suggests: python3.6-venv, python3.6-doc, binutils
+Depends: python3.6-minimal (= 3.6.5-1+xenial1), libpython3.6-stdlib (= 3.6.5-1+xenial1), mime-support
+Filename: pool/main/p/python3.6/python3.6_3.6.5-1+xenial1_amd64.deb
+Size: 227548
+MD5sum: 036b46365c2d0c6616644eeed54b1a15
+SHA1: 09e73874bab90109763e0721b500ca55073d0eeb
+SHA256: 71214e32508f5ec9d45a435ccbd2b3115839211914f7f301095d1205a6d1ce2f
+Description: Interactive high-level object-oriented language (version 3.6)
+Description-md5: 1cf2a02983e92d8a6a9dfba4c30460a0
+Multi-Arch: allowed
+
+Package: idle-python3.6
+Source: python3.6
+Priority: optional
+Section: python
+Installed-Size: 184
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Version: 3.6.5-1+xenial1
+Depends: python3.6, python3.6-tk
+Enhances: python3.6
+Filename: pool/main/p/python3.6/idle-python3.6_3.6.5-1+xenial1_all.deb
+Size: 93690
+MD5sum: fceb5415dc68ee1166917f361c2e25c5
+SHA1: 555fd9bb7fdc3652490c59ed40811d008cf5a065
+SHA256: e24f31510685dce167215646917549800d81f8f176cd467c9835ca2e98fa1c4a
+Description: IDE for Python (v3.6) using Tkinter
+Description-md5: 7108c3959b5bccbfeb92bd5af604c9d3
+
+Package: libpython3.6-testsuite
+Source: python3.6
+Priority: optional
+Section: libdevel
+Installed-Size: 20063
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Version: 3.6.5-1+xenial1
+Suggests: python3.6-gdbm, python3.6-tk
+Depends: python3.6 (>= 3.6.5-1+xenial1), net-tools
+Filename: pool/main/p/python3.6/libpython3.6-testsuite_3.6.5-1+xenial1_all.deb
+Size: 2747216
+MD5sum: dedaece310c518dad13ba5329ae4dd8d
+SHA1: bc921b3ba3d430026e341a347b8af6046a642c84
+SHA256: fbedc5f6db09635021b99e6568de1efec8daad66992580b8c20acfcb0d6ae8fd
+Description: Testsuite for the Python standard library (v3.6)
+Description-md5: 170663346e34ffdb39c2828c211cefeb
+
+Package: python3.6-doc
+Source: python3.6
+Priority: optional
+Section: doc
+Installed-Size: 41124
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Version: 3.6.5-1+xenial1
+Suggests: python3.6
+Depends: libjs-jquery, libjs-underscore
+Filename: pool/main/p/python3.6/python3.6-doc_3.6.5-1+xenial1_all.deb
+Size: 5590012
+MD5sum: c5a38860d959782d3fe7a76c5fab2020
+SHA1: 184ab9d47310add84a666ddc45ba2ac8208731fa
+SHA256: b9396532f116efa67bcd9fe9452f173fe23e5038bc7dea36af7aeee11b40590f
+Description: Documentation for the high-level object-oriented language Python (v3.6)
+Description-md5: 05c3641ac54c7f694902fa0914073dba
+
+Package: python3.6-examples
+Source: python3.6
+Priority: optional
+Section: python
+Installed-Size: 1904
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Version: 3.6.5-1+xenial1
+Depends: python3.6 (>= 3.6.5-1+xenial1)
+Filename: pool/main/p/python3.6/python3.6-examples_3.6.5-1+xenial1_all.deb
+Size: 490766
+MD5sum: 47580f5cd1445e217c27f465626e7e9a
+SHA1: 65c0ffb777db71bc5610d03e7df3a3abd93b29bb
+SHA256: 3acbbb2fba198c35abf7a31dc9c24ea3c80f74a4c6af4e8b6a9a2b3daa3c4106
+Description: Examples for the Python language (v3.6)
+Description-md5: 4124056c28bc6b66629b7ef7667f8473
+
+Package: python3.6-gdbm-dbg
+Source: python3.6
+Priority: extra
+Section: debug
+Installed-Size: 179
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.6.5-1+xenial1
+Depends: python3.6-dbg, python3.6-gdbm (= 3.6.5-1+xenial1), libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python3.6/python3.6-gdbm-dbg_3.6.5-1+xenial1_amd64.deb
+Size: 83562
+MD5sum: ff06a5b46ebe7529dbeed0abaef7b1f9
+SHA1: 51e425e0f643b64b32019e710b87a88fc9ea36ac
+SHA256: a01205661349a49bc5b2e8ff489f284f808634462fbcc1588888793a7bc17897
+Description: GNU dbm database support for Python (version 3.6 debug extension)
+Description-md5: 462dd55812b78eed740444420b52180a
+Build-Ids: 71d9057c3848f6135ab008b2dc31b31b99892d41
+Multi-Arch: same
+
+Package: python3.6-gdbm
+Source: python3.6
+Priority: optional
+Section: python
+Installed-Size: 124
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.6.5-1+xenial1
+Suggests: python3.6-gdbm-dbg
+Depends: python3.6, libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python3.6/python3.6-gdbm_3.6.5-1+xenial1_amd64.deb
+Size: 60544
+MD5sum: b00947be31a51a45c7efc1fab9dab225
+SHA1: b32b1de777b712497b7ef590cb69a30af1fb8256
+SHA256: 59215f3ce69786b0b1600018e0bc41b7900075a5b5a605050a092154aa3ac1cd
+Description: GNU dbm database support for Python (version 3.6)
+Description-md5: 8969ea1d32605b76d7bfe7e30aafddf1
+Multi-Arch: same
+
+Package: python3.6-tk-dbg
+Source: python3.6
+Priority: extra
+Section: debug
+Installed-Size: 373
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.6.5-1+xenial1
+Depends: python3.6-dbg, python3.6-tk (= 3.6.5-1+xenial1), libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python3.6/python3.6-tk-dbg_3.6.5-1+xenial1_amd64.deb
+Size: 159492
+MD5sum: db85d9251ff1dccaebd6cc8b1bc6d8b0
+SHA1: f385f7c4b8c7fc3efa250b8cc796e5bc1aa5a07a
+SHA256: 86f6a999b51f904d1ffb59420a534478071d589ae5162f8e62e75b00b27cb8da
+Description: Tkinter - Writing Tk applications with Python (version 3.6 debug extension)
+Description-md5: 88745e404e0235b11cc01ebb88e241c5
+Build-Ids: f992638bed33166bd4a1b7d57d10398e4aebb1c5
+Multi-Arch: same
+
+Package: python3.6-tk
+Source: python3.6
+Priority: optional
+Section: python
+Installed-Size: 161
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.6.5-1+xenial1
+Suggests: tix, python3.6-tk-dbg
+Depends: python3.6, libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python3.6/python3.6-tk_3.6.5-1+xenial1_amd64.deb
+Size: 74598
+MD5sum: c408f56146dcfbe3936acdbbba835b3c
+SHA1: d6dd9ccaee9a5eefba9bc1a342a080f3e4666cb9
+SHA256: 67c6e0ce55ef676923ffdfdb95b67bac7097d1a3f325edccd6a71beb1a0a1326
+Description: Tkinter - Writing Tk applications with Python (version 3.6)
+Description-md5: 675fda2f33aa69ac490d4349fdcdf06a
+Multi-Arch: same
+
+Package: libpython3.7-dbg
+Source: python3.7
+Priority: optional
+Section: debug
+Installed-Size: 49052
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.7.0~rc1-1+xenial1
+Depends: libpython3.7-stdlib (= 3.7.0~rc1-1+xenial1), libbz2-1.0, libc6 (>= 2.17), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), liblzma5 (>= 5.1.1alpha+20120614), libmpdec2, libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.7.15), libssl1.0.0 (>= 1.0.2~beta3), libtinfo5 (>= 6), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python3.7/libpython3.7-dbg_3.7.0~rc1-1+xenial1_amd64.deb
+Size: 9762412
+MD5sum: 824cd516f0c1844d34a8f371161878b3
+SHA1: 65617013b839cd094433d953efa614746139956a
+SHA256: b67d4f2ffae6162b342b1a02b145faace9d09c71eb669ad6755995c8e8b08c72
+Description: Debug Build of the Python Interpreter (version 3.7)
+Description-md5: 1644b04b4add55ce72b9f767532db8a6
+Multi-Arch: same
+
+Package: libpython3.7-dev
+Source: python3.7
+Priority: optional
+Section: libdevel
+Installed-Size: 19334
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.7.0~rc1-1+xenial1
+Recommends: libc6-dev | libc-dev
+Depends: libpython3.7-stdlib (= 3.7.0~rc1-1+xenial1), libpython3.7 (= 3.7.0~rc1-1+xenial1), libexpat1-dev
+Filename: pool/main/p/python3.7/libpython3.7-dev_3.7.0~rc1-1+xenial1_amd64.deb
+Size: 4127740
+MD5sum: b8cf65790f7f7d10175b7d271a2c1ce1
+SHA1: 4c698042690b8434077cea5f8038acad26875419
+SHA256: 41c558d949cfbb29f7b07d5f932f07f78ded0586bcbd0253471d0d2b15b66c11
+Description: Header files and a static library for Python (v3.7)
+Description-md5: f7023a6ff3c2a4cb7e6f2bae1f027f67
+Multi-Arch: same
+
+Package: libpython3.7-minimal
+Source: python3.7
+Priority: optional
+Section: python
+Installed-Size: 3888
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.7.0~rc1-1+xenial1
+Recommends: libpython3.7-stdlib
+Depends: libc6 (>= 2.14), libssl1.0.0 (>= 1.0.2~beta3)
+Conflicts: binfmt-support (<< 1.1.2)
+Filename: pool/main/p/python3.7/libpython3.7-minimal_3.7.0~rc1-1+xenial1_amd64.deb
+Size: 592650
+MD5sum: 1ce0f5d42198b22d6928e7e82ce47c1e
+SHA1: 6257332dd6e7b611a15c8c55638e7b9edbae99b6
+SHA256: cb04c7c6bb5b7f80ba0c66a6842b9c615f59b6f303d9721e64263a79f328df98
+Description: Minimal subset of the Python language (version 3.7)
+Description-md5: f7d9d1c6fd9b040e3699823d8469f35d
+Multi-Arch: same
+
+Package: libpython3.7-stdlib
+Source: python3.7
+Priority: optional
+Section: python
+Installed-Size: 7994
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.7.0~rc1-1+xenial1
+Depends: libpython3.7-minimal (= 3.7.0~rc1-1+xenial1), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libffi6 (>= 3.0.4), liblzma5 (>= 5.1.1alpha+20120614), libmpdec2, libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.7.15), libtinfo5 (>= 6)
+Breaks: libmpdec2 (<< 2.4.2), python3.7-tk (<< 3.6.4~rc1-2)
+Filename: pool/main/p/python3.7/libpython3.7-stdlib_3.7.0~rc1-1+xenial1_amd64.deb
+Size: 1754718
+MD5sum: 99410cfcf2a89139ed25105de6aa27e2
+SHA1: c22185371cf2ffca7ab024928b5907012f96bc9f
+SHA256: 992e8311571e7d9ff43a85afc76dd5fe8650d3c50c68eff00f60be091ea161d7
+Description: Interactive high-level object-oriented language (standard library, version 3.7)
+Description-md5: ee87e9de9e1eb46f3352486b3a98e6ef
+Multi-Arch: same
+
+Package: libpython3.7
+Source: python3.7
+Priority: optional
+Section: libs
+Installed-Size: 5335
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.7.0~rc1-1+xenial1
+Depends: libpython3.7-stdlib (= 3.7.0~rc1-1+xenial1), libc6 (>= 2.17), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python3.7/libpython3.7_3.7.0~rc1-1+xenial1_amd64.deb
+Size: 1798344
+MD5sum: 3412989c6086d2b6fbbf8383802aa9cb
+SHA1: 367cee83b35b0d55750677d904fc04592a8223cf
+SHA256: a0e5535be7ad0345b87ac8f36f037549e66dc1de1f05b568a8c9cc6809697f52
+Description: Shared Python runtime library (version 3.7)
+Description-md5: 41806af1f2efb47f53d9ace13353377c
+Multi-Arch: same
+
+Package: python3.7-dbg
+Source: python3.7
+Priority: optional
+Section: debug
+Installed-Size: 26118
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.7.0~rc1-1+xenial1
+Recommends: gdb
+Suggests: python3.7-gdbm-dbg, python3.7-tk-dbg
+Depends: python3.7 (= 3.7.0~rc1-1+xenial1), libpython3.7-dbg (= 3.7.0~rc1-1+xenial1), libc6 (>= 2.17), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Filename: pool/main/p/python3.7/python3.7-dbg_3.7.0~rc1-1+xenial1_amd64.deb
+Size: 12985612
+MD5sum: 19137d33ec879e070c4288eaccedc338
+SHA1: 944e7c6e7e95c971fbc36f8f41a6d96b1f52c88f
+SHA256: 14a9f528d4d4217b0cfc17590376daf7f6b6f0a1d480433830ca1b6a2d0bdaef
+Description: Debug Build of the Python Interpreter (version 3.7)
+Description-md5: fd50879975c0d8c6d4cad2e806455206
+Build-Ids: 01d7f19b565bbeb4aac5750d7288a7ea8036215f 0abdd2bac333201662d998bb2929cdbd7ea63364 1ac57d5776c9baf453080090b800fa20bd5f273b 1eba2fdb727a10a710f5edd651a66bdd0e52356a 232dd68266683b1d1cc6b7254e60abca5b305979 24c94ecdc68c472a4da980f4684b978e54a75508 30fe91b6661ff6a25c9fd028f01860870057256c 3692798b0df901d67b45968ec0fc8290cb40e7c1 3729f9c21bb548f1bfb232d1e0532e481ce71226 3ec4f099f3e7bc461b37ec72655e7b96afb66c3b 447766bb3fea567d9c2f3f3bbac43bffa74b2b52 463fd48be2873cd5aa14efd797018f4036dae228 4ba270270b8bc689241987f320de48a3ae756368 5277a6bf877b7fd88dbc76e6b2d0950767bbda7d 5b283127ee45153eaa161b4f4aec5326cc20bbcd 63003e290d7886492fdab86be33e213ad838ab59 6abeafefd5ededc3b269a162df02931f4bfb2a8e 7478183de5a0b7d4c86281e80838a2e861b6af96 7a65cd55168b3dcbd8ca5768e8e298f5d53bff57 7c678cf26a21e892783d29d610d8db8521ed1938 803cbd21cea77d733db058ad36ce8ce02f487066 8acf84dabd303323a2774c55f1bdf9d518aa3456 9da1d27fa5dc75422e9bbf44c2e7600152793fcd a57cb8588ad2169e40ce56449fbf1b08a54b51a6 ad55ebdafe0f267d9b282a4f0482c52d7958e84f b584a9288efc7d34df54b9f8e67b5e7485b23e77 bc7e2b9ab32d35930a18d676da1285d0682995b4 bf373129cbc8cb145ada7d44b6470038b07a306f c648a1eef61152d31c2de319d940f52c450cb8bb c8724f0f7571e5beb078ba7cd84408f1a0d34ef2 cb307263713a93c76c567fa114c315250dd47bdf d046473650cfe6c9c3f3f26d9b592f824e6641f1 d64f79d5eb9c2e5d41dc34db5bb9ce479d869d2c dc63c9e76d5677c7b83466ec3c3b3ae733a4f778 eb2f2fc34c999cc19a2c9920ca0171eeb0d7a121 f85128c2d4b3be6d8be2ec8a0f77874ba1a608d2 f926e70bb993f24ca132539c6aaf6f46cca5eac9 fe4baab4c7a29928442fdb615b24cdc9220729b9
+Multi-Arch: allowed
+
+Package: python3.7-dev
+Source: python3.7
+Priority: optional
+Section: python
+Installed-Size: 507
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.7.0~rc1-1+xenial1
+Recommends: libc6-dev | libc-dev
+Depends: python3.7 (= 3.7.0~rc1-1+xenial1), libpython3.7-dev (= 3.7.0~rc1-1+xenial1), libpython3.7 (= 3.7.0~rc1-1+xenial1), libexpat1-dev
+Filename: pool/main/p/python3.7/python3.7-dev_3.7.0~rc1-1+xenial1_amd64.deb
+Size: 500814
+MD5sum: d15df1c496b836f79732d4471a1d159b
+SHA1: 57c7555a5ec953bdeae5dd77701896f1997bbec5
+SHA256: 1398874493f767ec33c23dfb8931f9a518d26451fa466eb682c1f0752a867390
+Description: Header files and a static library for Python (v3.7)
+Description-md5: 939837cea50d0b4d9e8851d69665485d
+Multi-Arch: allowed
+
+Package: python3.7-minimal
+Source: python3.7
+Priority: optional
+Section: python
+Installed-Size: 10040
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.7.0~rc1-1+xenial1
+Recommends: python3.7
+Suggests: binfmt-support
+Depends: libpython3.7-minimal (= 3.7.0~rc1-1+xenial1), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Conflicts: binfmt-support (<< 1.1.2)
+Pre-Depends: libc6 (>= 2.17)
+Filename: pool/main/p/python3.7/python3.7-minimal_3.7.0~rc1-1+xenial1_amd64.deb
+Size: 1793410
+MD5sum: ddd18c5447a850f41f184d008511b9cc
+SHA1: d7e50d3471673a204eb4519acf575983e0c61f2e
+SHA256: eb8a952112236390e14b7bd45553942e7886ad8636ced37ba0d84b08e3ecba5e
+Description: Minimal subset of the Python language (version 3.7)
+Description-md5: 2ce3a4585490ce7ac2340e44421a26cf
+Multi-Arch: allowed
+
+Package: python3.7-venv
+Source: python3.7
+Priority: optional
+Section: python
+Installed-Size: 1861
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.7.0~rc1-1+xenial1
+Depends: python3.7 (= 3.7.0~rc1-1+xenial1)
+Breaks: python3-pip (<< 1.5.6-4)
+Filename: pool/main/p/python3.7/python3.7-venv_3.7.0~rc1-1+xenial1_amd64.deb
+Size: 1696354
+MD5sum: 009d4fb3d82157e18ded883a9282155f
+SHA1: aee49d66a0823a7acbe23106741f6b2d6d07f16d
+SHA256: 464bcab0a072861f37260d64ad9bcf8e6a772e58153b65ad8cb8079ce9cb27e5
+Description: Interactive high-level object-oriented language (pyvenv binary, version 3.7)
+Description-md5: a9bfa9fd62afb7196c2eb2b8749b0a74
+Multi-Arch: allowed
+
+Package: python3.7
+Priority: optional
+Section: python
+Installed-Size: 348
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.7.0~rc1-1+xenial1
+Suggests: python3.7-venv, python3.7-doc, binutils
+Depends: python3.7-minimal (= 3.7.0~rc1-1+xenial1), libpython3.7-stdlib (= 3.7.0~rc1-1+xenial1), python3.7-distutils, mime-support
+Filename: pool/main/p/python3.7/python3.7_3.7.0~rc1-1+xenial1_amd64.deb
+Size: 268184
+MD5sum: b5e0c017bb9b7cc26e948c4fa442d033
+SHA1: 6154e276b08d7e11817d8a07dbd60f5502482755
+SHA256: d672303bb49af0e27883fc7ff669b58e88ec62dfdf7ff47f16a585fde651f912
+Description: Interactive high-level object-oriented language (version 3.7)
+Description-md5: f9b0089f09d7854b875ba02453cd5601
+Multi-Arch: allowed
+
+Package: idle-python3.7
+Source: python3.7
+Priority: optional
+Section: python
+Installed-Size: 1206
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Version: 3.7.0~rc1-1+xenial1
+Replaces: libpython3.7-stdlib (<< 3.7.0~a3-1)
+Depends: python3.7, python3.7-tk
+Enhances: python3.7
+Breaks: libpython3.7-stdlib (<< 3.7.0~a3-1)
+Filename: pool/main/p/python3.7/idle-python3.7_3.7.0~rc1-1+xenial1_all.deb
+Size: 312836
+MD5sum: f6ee27e5de216e905b22ac3c01ae66e3
+SHA1: 6130dee3ccaa85451a074c8a40fe1b0cac285088
+SHA256: 547173d11ef2430ac756ad11b0d8efc0cc108ada74dc5345bdadedb0dd67b706
+Description: IDE for Python (v3.7) using Tkinter
+Description-md5: d251ef701c022d4d3f4a8efc25c22cd5
+
+Package: libpython3.7-testsuite
+Source: python3.7
+Priority: optional
+Section: libdevel
+Installed-Size: 20779
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Version: 3.7.0~rc1-1+xenial1
+Suggests: python3.7-gdbm, python3.7-tk
+Depends: python3.7 (>= 3.7.0~rc1-1+xenial1), net-tools
+Filename: pool/main/p/python3.7/libpython3.7-testsuite_3.7.0~rc1-1+xenial1_all.deb
+Size: 2830062
+MD5sum: 070101b629dbbfadaf1946c82065bf40
+SHA1: de0079971c53e31a4590acd4e94a84c23173cf78
+SHA256: 2e78b7bbd9966dd342f415fee05e69d003d8216c0431dab1e8bb4caf03b4b7af
+Description: Testsuite for the Python standard library (v3.7)
+Description-md5: bcd6932415321d1a391e21c6d7d2b220
+
+Package: python3.7-doc
+Source: python3.7
+Priority: optional
+Section: doc
+Installed-Size: 46233
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Version: 3.7.0~rc1-1+xenial1
+Suggests: python3.7
+Depends: libjs-jquery, libjs-underscore
+Filename: pool/main/p/python3.7/python3.7-doc_3.7.0~rc1-1+xenial1_all.deb
+Size: 9208446
+MD5sum: 273f230f292b02c40ba59a87434ddc20
+SHA1: 8c67aa75bd7d6b690aa18347076310dd4c5bfdef
+SHA256: f14edb66eaa9085ee67ce0841b67298c07ce811576fe0ee8eb447778eed04e3b
+Description: Documentation for the high-level object-oriented language Python (v3.7)
+Description-md5: 81709a8a1d02ebce0ec0cddb73a13c4c
+
+Package: python3.7-examples
+Source: python3.7
+Priority: optional
+Section: python
+Installed-Size: 1720
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Version: 3.7.0~rc1-1+xenial1
+Depends: python3.7 (>= 3.7.0~rc1-1+xenial1)
+Filename: pool/main/p/python3.7/python3.7-examples_3.7.0~rc1-1+xenial1_all.deb
+Size: 473032
+MD5sum: ad1612c47bbabce7951e3cfd325c7e1b
+SHA1: 5f92f5d9f4dd796060ac13366511b5b105b79635
+SHA256: a887fc11fc8c8c314a1cecb7e4002081b26803316d8b093715948ac61ebb4755
+Description: Examples for the Python language (v3.7)
+Description-md5: ee70d16550f5df584f16f54f728c2189
+
+Package: python3.7-distutils
+Source: python3.7
+Priority: optional
+Section: python
+Installed-Size: 779
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Version: 3.7.0~rc1-1+xenial1
+Depends: python3.7-lib2to3 (>= 3.6.4)
+Filename: pool/main/p/python3.7/python3.7-distutils_3.7.0~rc1-1+xenial1_all.deb
+Size: 189604
+MD5sum: 3fde713ac956591dd0dd1f321427e53a
+SHA1: aced8851b7ffa1e3d61de4d10797a4f9dcfef58f
+SHA256: aa2907046c0a1e0cd45e8995bf89ec6f422ce130c1cae00e18c21505b247964f
+Description: distutils package for Python (version 3.7)
+Description-md5: c946fdee7a0c34b2ece38a9c185188c7
+Multi-Arch: foreign
+
+Package: python3.7-lib2to3
+Source: python3.7
+Priority: optional
+Section: python
+Installed-Size: 435
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Version: 3.7.0~rc1-1+xenial1
+Filename: pool/main/p/python3.7/python3.7-lib2to3_3.7.0~rc1-1+xenial1_all.deb
+Size: 121666
+MD5sum: 863e0224d1ea75b0325046d1ee4914c4
+SHA1: 95e752fdbd0e836137cba50b78d9d63e7e2ba064
+SHA256: 34500513867694c71bb480f7a7605cfc17d4511684142bc176d739308a9fa9e2
+Description: lib2to3 package for Python (version 3.7)
+Description-md5: c421300a47992b7707fefb4ff92217a0
+Multi-Arch: foreign
+
+Package: python3.7-tk
+Source: python3.7
+Priority: optional
+Section: python
+Installed-Size: 520
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.7.0~rc1-1+xenial1
+Suggests: tix, python3.7-tk-dbg
+Depends: python3.7, libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python3.7/python3.7-tk_3.7.0~rc1-1+xenial1_amd64.deb
+Size: 142794
+MD5sum: a49a1c66ff6e747709eb4f94dc44ed94
+SHA1: 36d9dd599a7e22624168f2274ea65028f32bf688
+SHA256: f12da40736e0d4a3fd56772b8b7044db5b73ed16c973e37e67c475dd44d5628d
+Description: Tkinter - Writing Tk applications with Python (version 3.7)
+Description-md5: 75eba470cce6b49f45f6e42c6831efdf
+Multi-Arch: same
+
+Package: python3.7-gdbm
+Source: python3.7
+Priority: optional
+Section: python
+Installed-Size: 124
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.7.0~rc1-1+xenial1
+Suggests: python3.7-gdbm-dbg
+Depends: python3.7, libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python3.7/python3.7-gdbm_3.7.0~rc1-1+xenial1_amd64.deb
+Size: 61216
+MD5sum: 05af2282af6b6a19046dba23c66cb46e
+SHA1: d81ea2e9890071dd93b3c41eea8e5dd16ca1a375
+SHA256: 55ac98d4123bb9c0fddafbc9fd5ce21951eb5056a8a010174e5c7d015e76d0bc
+Description: GNU dbm database support for Python (version 3.7)
+Description-md5: 0357f26e08b89203c9eda75c75d13aa4
+Multi-Arch: same
+
+Package: python3.7-tk-dbg
+Source: python3.7
+Priority: extra
+Section: debug
+Installed-Size: 374
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.7.0~rc1-1+xenial1
+Depends: python3.7-dbg, python3.7-tk (= 3.7.0~rc1-1+xenial1), libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), tk8.6-blt2.5 (>= 2.5.3)
+Filename: pool/main/p/python3.7/python3.7-tk-dbg_3.7.0~rc1-1+xenial1_amd64.deb
+Size: 159126
+MD5sum: a6b358ce3b7ced7fe1fac4e67f99107b
+SHA1: 57a93588d5096485095f0693acc2f6d4ec29f9fc
+SHA256: 48eaf26ef2830a6304d0e5a3ec42ebb62d3bc8d7f3d8cd876682519e4626eeba
+Description: Tkinter - Writing Tk applications with Python (version 3.7 debug extension)
+Description-md5: 73c1ea62641bf1eb7ad3ad05a108975e
+Build-Ids: 6b19372f9b839fd6bbb608dce74fa3aca8a1fcca
+Multi-Arch: same
+
+Package: python3.7-gdbm-dbg
+Source: python3.7
+Priority: extra
+Section: debug
+Installed-Size: 179
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Version: 3.7.0~rc1-1+xenial1
+Depends: python3.7-dbg, python3.7-gdbm (= 3.7.0~rc1-1+xenial1), libc6 (>= 2.4), libgdbm3 (>= 1.8.3)
+Filename: pool/main/p/python3.7/python3.7-gdbm-dbg_3.7.0~rc1-1+xenial1_amd64.deb
+Size: 84534
+MD5sum: 89797b8fd096f9ae37d552ad46be0649
+SHA1: c3ffe5e8c8eb2c60880560cbe31e9a59c8104a52
+SHA256: 82e8382b75558e1b68f2441d74e46d7902cd55382bc54665b094783984d756f4
+Description: GNU dbm database support for Python (version 3.7 debug extension)
+Description-md5: 19eca9d2dd0f14dbc8f098370b3d05ce
+Build-Ids: f460930eda05e8ad989bf359a1764b72038f8fc4
+Multi-Arch: same
+

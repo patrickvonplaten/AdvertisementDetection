@@ -1,0 +1,13 @@
+% paper size settings, included from pdftexconfig.tex for pdftex
+%
+% In 2015, a new luatex replaced \pdfpage{width,height} with just
+% \page{width,height}, and it might be prefixed with \luatex.  So set
+% any that may be defined.
+\ifx\luatexpagewidth\undefined\else \luatexpagewidth=210 true mm \fi
+\ifx\pdfpagewidth\undefined\else \pdfpagewidth=210 true mm \fi
+\ifx\pagewidth\undefined\else \pagewidth=210 true mm \fi
+%
+\ifx\luatexpageheight\undefined\else \luatexpageheight=297 true mm \fi
+\ifx\pdfpageheight\undefined\else \pdfpageheight=297 true mm \fi
+\ifx\pageheight\undefined\else \pageheight=297 true mm \fi
+\endinput

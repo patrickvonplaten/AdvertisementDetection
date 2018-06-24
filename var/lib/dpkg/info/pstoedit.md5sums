@@ -1,0 +1,15 @@
+4fc59f268b30db66e4099cef8b007dd3  usr/bin/pstoedit
+a3911c8bc0e9490eb17c8d1626574c03  usr/share/doc-base/pstoedit-man
+b2d0b03b2c6b9c09908f000861d3d523  usr/share/doc/pstoedit/copyright
+cbfb51b5dfaaf71273c059c0d6d372fe  usr/share/doc/pstoedit/pstoedit.htm
+adc62a3ccd896485814fc021053a0107  usr/share/man/man1/pstoedit.1.gz
+291e8d7f5499dc126c97f9af69b8adc3  usr/share/pstoedit/drvhpgl.pencolors
+3cdaeb8a1035c416eed4c397a9e844d2  usr/share/pstoedit/examplefigmap.fmp
+e4613efb37192d84351281842dfebde6  usr/share/pstoedit/latex2e.fmp
+5a477cb4474097e871537cef6477d82e  usr/share/pstoedit/mpost.fmp
+43c802f75e2f47bc79280e1be683bbf4  usr/share/pstoedit/safer.ps
+b4da77f0a804b14c5963cf6a4a00915c  usr/share/pstoedit/svg.fmp
+bd3ae0a4d4dfbfae1018819f872398d9  usr/share/pstoedit/swffonts/default.fdb
+4e8fc6acb20e714263527e0133379e93  usr/share/pstoedit/unix.fmp
+cb4073ee6bf6001276c48e07c44ca4f2  usr/share/pstoedit/wemf.fmp
+07e70d2f76260b3bbaf5df1fe095dd48  usr/share/pstoedit/windows.fmp

@@ -1,0 +1,6 @@
+44b3715206c2f4a358e5f00698c7f65a  usr/lib/debug/.build-id/33/662d31130f9ade89d16c9a3d1ac0d88494d8d6.debug
+47a535bafbb9be9dcab7c072e88c677e  usr/lib/debug/.build-id/37/5f3738bd9564dff7af27df1ee3d25ee74ad151.debug
+34da7157879259b8486e7b0c4ea80bd9  usr/lib/python2.7/dist-packages/gi/_gi.x86_64-linux-gnu_d.so
+2d6cba3bdc05453da3f56af75641225f  usr/lib/python2.7/dist-packages/gi/_gi_cairo.x86_64-linux-gnu_d.so
+6c848b52b7d794557589baef4ccfdb3b  usr/share/doc/python-gi-dbg/copyright
+080aa2ade0bd27a20233d8b983e20d34  usr/share/lintian/overrides/python-gi-dbg

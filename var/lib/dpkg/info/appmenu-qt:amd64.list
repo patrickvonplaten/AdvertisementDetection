@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/appmenu-qt
+/usr/share/doc/appmenu-qt/README
+/usr/share/doc/appmenu-qt/copyright
+/usr/share/doc/appmenu-qt/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt4
+/usr/lib/x86_64-linux-gnu/qt4/plugins
+/usr/lib/x86_64-linux-gnu/qt4/plugins/menubar
+/usr/lib/x86_64-linux-gnu/qt4/plugins/menubar/libappmenu-qt.so

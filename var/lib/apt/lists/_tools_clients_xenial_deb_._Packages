@@ -1,0 +1,429 @@
+Package: dropbox
+Priority: optional
+Section: gnome
+Installed-Size: 404
+Maintainer: Dropbox <support@dropbox.com>
+Architecture: amd64
+Version: 2015.02.12
+Replaces: nautilus-dropbox
+Provides: nautilus-dropbox
+Depends: procps, python-gtk2 (>= 2.12), python (>= 2.5), libatk1.0-0 (>= 1.20.0), libc6 (>= 2.4), libcairo2 (>= 1.6.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.12.0), libpango1.0-0 (>= 1.20.1), lsb-release
+Suggests: nautilus (>= 2.16.0), python-gpgme (>= 0.1)
+Breaks: nautilus-dropbox
+Filename: ./dropbox_2015.02.12_amd64.deb
+Size: 94318
+MD5sum: bbc1e8f001fb14791dd958c3b4bc7a97
+SHA1: 6778c8ec429ae14dfbc43d0c6fddd2a59ef0ef23
+SHA256: 45f7ba1077bf507febee1c63b60377256d646025495ef648dd4da510d9a81387
+Description: cloud synchronization engine - CLI and Nautilus extension
+ Dropbox is a free service that lets you bring your photos, docs, and videos
+ anywhere and share them easily.
+ .
+ This package provides a command-line tool and a Nautilus extension that
+ integrates the Dropbox web service with your GNOME Desktop.
+Homepage: https://www.dropbox.com/
+
+Package: truecrypt
+Priority: optional
+Section: base
+Maintainer: TrueCrypt Foundation <http://www.truecrypt.org>
+Architecture: i386
+Version: 6.0a-0
+Depends: mount, libfuse2, fuse-utils, dmsetup, libgtk2.0-0
+Filename: ./truecrypt_6.0a-0_i386.deb
+Size: 2344272
+MD5sum: fcd6a21f3db27eb481d475118f6ebf8f
+SHA1: 093f699e64490c753126306450e8d68dbf1f0e9b
+SHA256: 3148927b70290aad6bacf46de4fa51b05920e6269636b66b7be0b8b29dadf29d
+Description: TrueCrypt
+ TrueCrypt is a software system for establishing and maintaining an
+ on-the-fly-encrypted volume (data storage device). On-the-fly encryption
+ means that data are automatically encrypted or decrypted right before they
+ are loaded or saved, without any user intervention. No data stored on an
+ encrypted volume can be read (decrypted) without using the correct
+ password/keyfile(s) or correct encryption keys. Entire file system is
+ encrypted (e.g., file names, folder names, contents of every file,
+ free space, meta data, etc).
+
+Package: xnview
+Priority: extra
+Section: alien
+Installed-Size: 5852
+Maintainer: root <root@jansen.ient.rwth-aachen.de>
+Architecture: i386
+Version: 1.70-2
+Depends: libc6 (>= 2.4-1), libgcc1 (>= 1:4.1.1-12), libstdc++6 (>= 4.1.1-12), libx11-6, libxext6, libxp6, libxt6
+Filename: ./xnview_1.70-2_i386.deb
+Size: 2644338
+MD5sum: 03f44cafb1d51486746f2538b3022c14
+SHA1: 07d364da4fcf32a20d4da09c3da79644c4d6da48
+SHA256: 919a39df50fb2f2f3c27a024e5bd7965a3a0ff9a197266775c00898ffec8eae3
+Description: XnView an easy graphics viewer / converter.
+ XnView is a program for viewing and converting your graphics files.
+ It supports more than 400 file formats (PNG, Jpeg, Targa, Alias, Softimage, Tdi, Gif,
+ Unix bitmap, windows, Iff, Rgb, Sun raster, Fits, Photo CD, Photoshop and
+ more).
+ It offers the possiblity to apply filters (blur, average, emboss...) and
+ effects (lens, waves, ...).
+ Picture browser, Slide Show, Thumbnail create and RAW/YUV import.
+ .
+ (Converted from a rpm package by alien version 8.64.)
+
+Package: xorg-edit
+Priority: optional
+Section: x11
+Installed-Size: 1036
+Maintainer: Georg W. Leonhardt <repo@geole.info>
+Architecture: i386
+Version: 07.08.11-1
+Depends: libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.1-12), libstdc++6 (>= 4.1.1-12), libwxbase2.6-0 (>= 2.6.3.2.1.5), libwxgtk2.6-0 (>= 2.6.3.2.1.5)
+Filename: ./xorg-edit_07.08.11-1_i386.deb
+Size: 309856
+MD5sum: ba1953811badb8f0dff39ef5a89b7c66
+SHA1: 8d8e1c9f6147436a5a47248da503ec40ab3c2374
+SHA256: 356d4f10cdd7ca3cf501cba99134e305cd4e007c39180c6b4268e9d69eb03bbe
+Description: GUI for editing xorg.conf
+ Xorg-edit is a graphical interface for editing xorg configuration
+ files the easy way. Most features and options understood by
+ the Xserver can be modified or created.
+ .
+ http://www.cyskat.de/dee/progxorg.htm
+
+Package: liblaunchpad-integration0
+Priority: optional
+Section: libs
+Installed-Size: 168
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Sebastien Bacher <seb128@debian.org>
+Architecture: i386
+Source: launchpad-integration
+Version: 0.1.16
+Depends: libatk1.0-0 (>= 1.20.0), libc6 (>= 2.7-1), libcairo2 (>= 1.5.14), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.12.0), libpango1.0-0 (>= 1.20.0)
+Recommends: launchpad-integration
+Filename: ./liblaunchpad-integration0_0.1.16_i386.deb
+Size: 17464
+MD5sum: b925e2c9be1f3e7f3018b4ad2274e99b
+SHA1: 49dce5e7d25ce71766b7ee857179775f5b279a4a
+SHA256: bfd27b61823df2384888f758f9e9465bec0b8f2bc9d099d2e669c88436c56313
+Description: library for launchpad integration
+ The launchpad-integration tools provide an easy way to set menu items,
+ for an application using GtkUIManager, pointing to the launchpad pages
+ about a package. Users can get information about the used application here,
+ translate it, ...
+  .
+ This package contains the shared library.
+
+Package: gnome-keyring-manager
+Priority: optional
+Section: gnome
+Installed-Size: 1720
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Architecture: i386
+Version: 2.20.0-0ubuntu2
+Depends: libc6 (>= 2.6-1), libgconf2-4 (>= 2.13.5), libglade2-0 (>= 1:2.6.1), libglib2.0-0 (>= 2.14.0), libgnome-keyring0 (>= 2.19.6), libgnome2-0 (>= 2.17.3), libgnomeui-0 (>= 2.19.1), libgtk2.0-0 (>= 2.12.0), liblaunchpad-integration0 (>= 0.0patch26), gconf2 (>= 2.10.1-2)
+Filename: ./gnome-keyring-manager_2.20.0-0ubuntu2_i386.deb
+Size: 96722
+MD5sum: a2b757e2738e98e257ee8f612a83eb72
+SHA1: bc7e1e0ab21a71140e40dcf6b450868638e2008f
+SHA256: a8fa8db6a962a58b86404b89aee46f10e43dcb2b84ba78e869b4d0ead1c95b21
+Description: keyring management program for the GNOME desktop
+ The GNOME Keyring Manager is an application for managing keyrings, in
+ which any kind of sensitive information can be kept, mainly passwords.
+ The default window shows 'default' keyrings with their stored items, and
+ allows addition, removal and edition.
+ .
+ Secrets can be copied using drag and drop, and can also be moved between
+ different keyrings. The manager also has creation, opening and lock/unlock
+ features.
+
+Package: virtualbox
+Priority: optional
+Section: misc
+Installed-Size: 61276
+Maintainer: Sun Microsystems, Inc. <info@virtualbox.org>
+Architecture: i386
+Version: 1.6.2-31466_Ubuntu_hardy
+Depends: adduser, libc6 (>= 2.4), libgcc1 (>= 1:4.1.1-21), libglib2.0-0 (>= 2.12.0), libidl0, libqt3-mt (>= 3:3.3.8-b), libsdl1.2debian (>= 1.2.10-1), libssl0.9.8 (>= 0.9.8f-1), libstdc++6 (>= 4.2.1-4), libx11-6, libxcursor1 (>> 1.1.2), libxml2 (>= 2.6.27), libxslt1.1 (>= 1.1.20), libxt6, psmisc
+Pre-Depends: debconf (>= 1.1) | debconf-2.0
+Recommends: binutils, bridge-utils, gcc, libasound2, libhal1 (>= 0.5), libpulse0, libsdl-ttf2.0-0, linux-headers, make, pdf-viewer, uml-utilities
+Filename: ./virtualbox_1.6.2-31466_Ubuntu_hardy_i386.deb
+Size: 25209126
+MD5sum: 50dbebf923d40c053043a683c1feb1b0
+SHA1: 4cb142e77388fd315202d05165db98f3a015b7ad
+SHA256: a957b781d80c7610777853fefcf3de224acad9fff3d2ce0ae4ea4af77283376e
+Description: Sun xVM VirtualBox
+ VirtualBox is a powerful PC virtualization solution allowing you to run a
+ wide range of PC operating systems on your Linux system. This includes
+ Windows, Linux, FreeBSD, DOS, OpenBSD and others. VirtualBox comes with a broad
+ feature set and excellent performance, making it the premier virtualization
+ software solution on the market.
+
+Package: adobe-flashplugin
+Priority: optional
+Section: web
+Installed-Size: 9864
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: DL-Flash Player Ubuntu <FlashPlayerUbuntu@adobe.com>
+Architecture: i386
+Version: 10.0.12.36-1hardy1
+Replaces: flashplugin (<< 6), flashplugin-nonfree
+Provides: flashplugin-nonfree
+Depends: debconf | debconf-2.0, fontconfig, libatk1.0-0 (>= 1.20.0), libc6 (>= 2.4), libcairo2 (>= 1.6.0), libcurl3, libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.3.5), libgcc1 (>= 1:4.1.1-21), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.12.0), libnspr4-0d, libnss3-1d, libpango1.0-0 (>= 1.20.1), libstdc++6 (>= 4.1.1-21), libx11-6, libxext6, libxt6, wget
+Suggests: firefox, konqueror-nsplugins, msttcorefonts, ttf-bitstream-vera | ttf-dejavu, ttf-xfree86-nonfree, x-ttcidfont-conf, xfs (>= 1:1.0.1-5)
+Conflicts: flashplayer-mozilla, flashplugin (<< 6), flashplugin-nonfree, xfs (<< 1:1.0.1-5)
+Filename: ./install_flash_player_10_linux.deb
+Size: 3927008
+MD5sum: 4f4dd037c664efd5e31f3f521bad3538
+SHA1: 7158d5a6ec218f64040838fb200c9dd1cceb40d1
+SHA256: 4e1ac502311357cd9d78bc8641ac355b9a098edf3a0e244f13aa6d1c0644cc23
+Description: Adobe Flash Player plugin version 10
+ This package will download the Flash Player from Adobe. It is a
+ Netscape/Mozilla type plugin. Any browser based on Netscape or Mozilla can use
+ the Flash plugin. This package officially supports the following browsers:
+ .
+ Firefox 2.x, Firefox 3.x, SeaMonkey 1.11
+
+Package: skype
+Priority: extra
+Section: non-free/net
+Installed-Size: 25579
+Maintainer: Skype Technologies <info@skype.net>
+Architecture: i386
+Version: 2.1.0.81-1
+Depends: libasound2 (>> 1.0.17), libc6 (>= 2.7-1), libgcc1 (>= 1:4.3), libqt4-dbus (>= 4.4.3), libqt4-network (>= 4.4.3), libqtcore4 (>= 4.4.3), libqtgui4 (>= 4.4.3), libstdc++6 (>= 4.3), libx11-6, libxext6, libxss1, libxv1
+Filename: ./skype-ubuntu-intrepid_2.1.0.81-1_i386.deb
+Size: 20165034
+MD5sum: 29ed840e0f021ad76a2f917938105bf7
+SHA1: 252a4a3560192709b83823e52363dd3f6724d3ac
+SHA256: e007163d30b5bef4e16fb34081ad00d1db182a631c15d3a505d08c55851afa70
+Description: Skype
+ .
+ Skype is a little piece of software that lets you make free calls to anyone else on Skype,
+ anywhere in the world. And even though the calls are free, they are really excellent quality.
+ .
+ * Make free Skype-to-Skype calls to anyone else, anywhere in the world.
+ * Call phones and mobiles at pretty cheap rates per minute.
+ * Group chat with up to 100 people or conference call with up to nine others.
+ * Free to download.
+
+Package: adobe-flashplugin
+Priority: optional
+Section: partner/web
+Installed-Size: 11948
+Maintainer: DL-Flash Player Ubuntu <FlashPlayerUbuntu@adobe.com>
+Architecture: i386
+Version: 10.2.152.27-0hardy1
+Replaces: flashplugin (<< 6)
+Provides: flashplugin-nonfree
+Depends: debconf | debconf-2.0, fontconfig, libatk1.0-0 (>= 1.20.0), libc6 (>= 2.4), libcairo2 (>= 1.6.0), libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.3.5), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.12.0), libpango1.0-0 (>= 1.20.5), libx11-6, libxext6, libxt6, wget
+Suggests: firefox, konqueror-nsplugins, libnspr4-0d, libnss3-1d, msttcorefonts, ttf-bitstream-vera | ttf-dejavu, ttf-xfree86-nonfree, x-ttcidfont-conf, xfs (>= 1:1.0.1-5)
+Conflicts: flashplayer-mozilla, flashplugin (<< 6), flashplugin-installer, xfs (<< 1:1.0.1-5)
+Filename: ./install_flash_player_10_linux_2.deb
+Size: 4939836
+MD5sum: 9a73927b6b75fa7b7ac0058f2e193483
+SHA1: 704eada265cff9439855aa3495c140583ad712cf
+SHA256: 5b2356d9386718af401e041de2df645b8fce9f6b8f6b6de3369aa6e7c569a060
+Description: Adobe Flash Player plugin version 10
+ This package will download the Flash Player from Adobe. It is a
+ Netscape/Mozilla type plugin. Any browser based on Netscape or Mozilla can use
+ the Flash plugin. This package officially supports the following browsers:
+ .
+ Firefox 2.x, Firefox 3.x, SeaMonkey 1.11
+Npp-Applications: ec8030f7-c20a-464f-9b0e-13a3a9e97384, 92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a, aa5ca914-c309-495d-91cf-3141bbb04115
+Npp-Description: Adobe Flash Plugin (http://www.adobe.com)
+Npp-File: libflashplayer.so
+Npp-Mimetype: application/x-shockwave-flash
+Npp-Name: Adobe Flash Plugin
+
+Package: pidgin-groupmsg
+Priority: extra
+Section: unknown
+Installed-Size: 68
+Maintainer: root <anhtt.k48ca@gmail.com>
+Architecture: amd64
+Version: 2.5.1-piwener2
+Filename: ./pidgin-groupmsg_2.5.1-piwener2_amd64.deb
+Size: 5738
+MD5sum: 3818f8e472d0f8d189ee7dccf3c904fd
+SHA1: 0746e31715fadba0f08b3a936df753da1c21e4f7
+SHA256: 45ca0a223869b8bab6e93c341986df523054502832ee8786ceff93dcd8ee44d6
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: cuda-repo-ubuntu1204
+Priority: optional
+Section: devel
+Installed-Size: 24
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Version: 6.5-14
+Filename: ./cuda-repo-ubuntu1204_6.5-14_amd64.deb
+Size: 2140
+MD5sum: 4d46b7b1178d50e87ffcf98af134d575
+SHA1: a60c5c5c02a29eb6e50948e6085e8e0721130383
+SHA256: 361b70e517f7c2bdb626d88df408d059b47447fe0eeafc0bab1ea80ab2d2a2b3
+Description: CUDA repo configuration files.
+ Contains configuration files needed to set up access to the 
+ CUDA repository.
+
+Package: xmlcopyeditor
+Priority: extra
+Section: editors
+Installed-Size: 12007
+Maintainer: Zane U. Ji <zaneuji@users.sf.net>
+Architecture: amd64
+Version: 1.2.1.3-1
+Depends: libc6 (>= 2.14), libenchant1c2a (>= 1.6), libexpat1 (>= 1.95.8), libgcc1 (>= 1:4.1.1), libgtk2.0-0 (>= 2.24.0), libpcre3 (>= 8.10), libstdc++6 (>= 4.4.0), libwxbase2.8-0 (>= 2.8.12.1), libwxgtk2.8-0 (>= 2.8.12.1), libxerces-c3.1, libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25)
+Filename: ./xmlcopyeditor_1.2.1.3-1_amd64.deb
+Size: 1681890
+MD5sum: 45612490b680072bcf3312c3f81ffbb2
+SHA1: 997ea814662886b0c72c9d45c3fa925e9a450dfa
+SHA256: 61e22d5eb7a84f844bd862c071845ae2c5892f3131dd496c93c5811c9b166271
+Description: fast, free, validating XML editor
+ XML Copy Editor is an XML editor focusing on editing document markup
+ languages like DITA, DocBook, WordprocessingML. Features: DTD/XML
+ Schema/RELAX NG validation, XSLT, XPath, Pretty-printing, Syntax
+ highlighting, Folding, Tag completion, Tag locking, Tag-free editing,
+ Built-in support for XHTML, XSL, DocBook and TEI, Generating XML Schema,
+ Spelling and style check with built-in spell/style checker.
+Homepage: http://xml-copy-editor.sourceforge.net/
+
+Package: netapp-oncommand-sysmgr
+Priority: extra
+Section: alien
+Installed-Size: 501136
+Maintainer: root <root@host1>
+Architecture: all
+Version: 3.1.1-6154
+Filename: ./netapp-oncommand-sysmgr_3.1.1-6154_all.deb
+Size: 134406366
+MD5sum: f0a5b705c7b499ff6e4a95213edfa56a
+SHA1: c59e23e133dbd75f300408776ec7b787f5ac27b0
+SHA256: 5ae715d9f990fc9ccdbf1b207d98b2600499c9e907baf1529efc434844e46c44
+Description: NetApp OnCommand System Manager 3.1.1
+ Manages NetApp storage controllers and clusters
+ .
+ (Converted from a rpm package by alien version 8.79ubuntu0.1.)
+
+Package: gpac
+Priority: optional
+Section: graphics
+Installed-Size: 8397
+Maintainer: Jean Le Feuvre <jeanlf@users.sourceforge.net>
+Architecture: amd64
+Version: 0.6.2-DEV-rev1305-ga3ad30d-master
+Depends: liba52-0.7.4, libasound2 (>= 1.0.16), libavcodec54 (>= 6:9.1-1) | libavcodec-extra-54 (>= 6:9.18), libavdevice53 (>= 6:9.1-1), libavformat54 (>= 6:9.1-1), libavresample1 (>= 6:9.1-1), libavutil52 (>= 6:9.1-1), libc6 (>= 2.15), libfaad2 (>= 2.7), libfreetype6 (>= 2.2.1), libgl1-mesa-glx-lts-xenial | libgl1, libglu1-mesa | libglu1, libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libjpeg62 (>= 6b1), libmad0 (>= 0.15.1b-3), libmozjs185-1.0 (>= 1.8.5-1.0.0+dfsg), libogg0 (>= 1.1.0), libopenjpeg2, libpng12-0 (>= 1.2.13-4), libpulse0 (>= 1:0.99.1), libsdl1.2debian (>= 1.2.11), libssl1.0.0 (>= 1.0.0), libswscale2 (>= 6:9.1-1), libtheora0 (>= 0.0.0.alpha7.dfsg), libvorbis0a (>= 1.1.2), libx11-6, libxext6, libxv1, libxvidcore4 (>= 1.2.2), zlib1g (>= 1:1.2.3.4)
+Filename: ./gpac_0.6.2-DEV-latest-master_amd64.deb
+Size: 2647896
+MD5sum: 7d4fcf84fb52afddfeca8038f707ecc0
+SHA1: c457b433b9854b10469bbeb6dad6bb2cc8978474
+SHA256: 239327244e3a8839665eff4613d460122fa854ac3a8983e8d9a603933248f61f
+Description: multimedia framework based on the MPEG-4 Systems standard
+ The main development goal is to provide a clean (a.k.a. readable by as many
+ people as possible), small and flexible alternative to the MPEG-4 Systems
+ reference software (known as IM1 and distributed in ISO/IEC 14496-5). The
+ MPEG-4 Reference software is indeed a very large piece of software,
+ designed to verify the standard rather than provide a small,
+ production-stable software.
+Bugs: mailto:jeanlf@users.sourceforge.net
+Homepage: http://gpac.sourceforge.net
+
+Package: libmozjs185-1.0
+Priority: extra
+Section: libs
+Installed-Size: 3758
+Maintainer: Chris Coulson <chrisccoulson@ubuntu.com>
+Architecture: amd64
+Source: mozjs
+Version: 1.8.5-1.0.0+dfsg-4.3
+Depends: libc6 (>= 2.14), libffi6 (>= 3.0.4), libgcc1 (>= 1:4.1.1), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libstdc++6 (>= 4.1.1)
+Filename: ./libmozjs185-1.0_1.8.5-1.0.0+dfsg-4.3_amd64.deb
+Size: 1125150
+MD5sum: 0102de6a3bdd2065aa7e5f76665e38d2
+SHA1: ce4c5795ab225b4a943464abab8e4f74cd8a3941
+SHA256: 7e287e0c68c83d02bea1d6fe04726c14a550929b2a2832c3d80e3155e50231a2
+Description: Spidermonkey javascript engine
+ SpiderMonkey is the code-name for the Mozilla's C implementation of
+ JavaScript. It is intended to be embedded in other applications
+ that provide host environments for JavaScript.
+Homepage: http://www.mozilla.org/js/spidermonkey/
+
+Package: libjpeg62
+Priority: optional
+Section: oldlibs
+Installed-Size: 200
+Maintainer: Bill Allombert <ballombe@debian.org>
+Architecture: amd64
+Source: libjpeg6b
+Version: 6b1-3+deb7u1
+Depends: libc6 (>= 2.7)
+Pre-Depends: multiarch-support
+Filename: ./libjpeg62_6b1-3+deb7u1_amd64.deb
+Size: 96886
+MD5sum: 458628a4524db96b4fe737ea08eee391
+SHA1: e811371ceaa7c97c0fb0d8c3dd6fc672d3ddf80d
+SHA256: 5bc4ea232692418a180b9886ac1f8bff038d94bfd8f1136baf7862a30ca92094
+Description: Independent JPEG Group's JPEG runtime library (version 6.2)
+ The Independent JPEG Group's JPEG library is a library for handling
+ JPEG files.
+ .
+ This package contains the shared library for version 6.2.
+Multi-Arch: same
+
+Package: flash-plugin
+Priority: extra
+Section: alien
+Installed-Size: 20285
+Maintainer: Clemens Jansen <jansen@ient.rwth-aachen.de>
+Architecture: amd64
+Version: 26.0.0.137-1
+Depends: libc6 (>= 2.14), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.22.0), libgtk2.0-0 (>= 2.24.0), libkdecore5 (>= 4:4.3.4), libkdeui5 (>= 4:4.3.4), libnspr4 (>= 1.8.0.10), libnss3 (>= 3.12.0~beta3), libpango1.0-0 (>= 1.14.0), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.1.1), libx11-6, libxt6
+Filename: ./flash-plugin_26.0.0.137-1_amd64.deb
+Size: 8980278
+MD5sum: 8cda38eb0feeba320a7d3c6a6e564fad
+SHA1: 5ae0d3e90231bcf39f2c7fd0012d708e47fcb711
+SHA256: 030837fb59d88e7e19af5ae6487bd91468e82ec5858a613e822e62941c6830b6
+Description: Adobe Flash Player NPAPI
+ Adobe Flash Plugin 26.0.0.137
+ .
+ (Converted from a rpm package by alien version 8.86.)
+
+Package: code
+Priority: optional
+Section: devel
+Installed-Size: 189858
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Architecture: amd64
+Version: 1.17.1-1507645403
+Replaces: visual-studio-code
+Provides: visual-studio-code
+Depends: libnotify4, libnss3, gnupg, apt, libxkbfile1, libgconf-2-4, libsecret-1-0
+Conflicts: visual-studio-code
+Filename: ./code_1.17.1-1507645403_amd64.deb
+Size: 42920432
+MD5sum: dca8229a768058ba53a8bee5da78073b
+SHA1: 445b672b9e692394a513bb8d2e8ca20fb97252eb
+SHA256: 83fff23c4c9ffb8303ab9580fd31c3cd834ef58a51fbb2f5bdfac6429543493f
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+Homepage: https://code.visualstudio.com/
+
+Package: mattermost-desktop
+Priority: extra
+Section: default
+Installed-Size: 170183
+Maintainer: Mattermost, Inc. <feedback@mattermost.com>
+Architecture: amd64
+Version: 4.0.0-43
+Depends: gconf2, gconf-service, libnotify4, libappindicator1, libxtst6, libnss3, libxss1
+Filename: ./mattermost-desktop-4.0.0-linux-amd64.deb
+Size: 41553222
+MD5sum: ab160e2017ccdf0687f5492698f8deb4
+SHA1: 1345c6b25dccc0c9c16c06a3ca4793ca1e1f2c4b
+SHA256: 51a0d3237d343368369cb7a8e9f7e712f4dc878939b1eca3f7f3cd354d5c91fe
+Description: Mattermost
+  Mattermost
+License: Apache-2.0
+Vendor: Mattermost, Inc. <feedback@mattermost.com>
+Homepage: https://about.mattermost.com
+

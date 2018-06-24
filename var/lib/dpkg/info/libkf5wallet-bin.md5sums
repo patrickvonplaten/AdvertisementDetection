@@ -1,0 +1,9 @@
+e95837e23c9c9cf0626cd69a1b937d49  usr/bin/kwallet-query
+5bd60602aca6a4b96cdfeaca2f6a66d6  usr/bin/kwalletd5
+a48302b9652c828d01d7b300213a3001  usr/share/dbus-1/services/org.kde.kwalletd.service
+514cf1c45e37d123377e63aa6394e56b  usr/share/dbus-1/services/org.kde.kwalletd5.service
+b17f4dc0a9b4ae6689904391d47a0b9a  usr/share/doc/libkf5wallet-bin/copyright
+ed06ee4a97f59314e9223e577318c6cf  usr/share/knotifications5/kwalletd.notifyrc
+addb0ad13b68e8cf95ab2a15f080a541  usr/share/kservices5/kwalletd5.desktop
+d69b9c655205957731300a84da8ae0de  usr/share/lintian/overrides/libkf5wallet-bin
+1b7342876ff37bc2dbf84ee14b95832e  usr/share/man/man1/kwallet-query.1.gz

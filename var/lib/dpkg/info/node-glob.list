@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/node-glob
+/usr/share/doc/node-glob/copyright
+/usr/share/doc/node-glob/changelog.Debian.gz
+/usr/share/doc/node-glob/examples
+/usr/share/doc/node-glob/examples/g.js
+/usr/share/doc/node-glob/examples/usr-local.js
+/usr/share/doc/node-glob/README.md.gz
+/usr/lib
+/usr/lib/nodejs
+/usr/lib/nodejs/glob.js

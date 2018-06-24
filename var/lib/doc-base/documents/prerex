@@ -1,0 +1,11 @@
+Document: prerex
+Section: Typesetting
+Title: Prerex-Formatted Prerequisite Charts
+Author: Bob Tennent <rdt@cs.queensu.ca>
+Abstract: 
+ This document is intended to help a user who might want to create or edit
+ prerex-formatted prerequisite charts, but is finding the installation and
+ usage instructions in the readme and manual pages to be incomprehensible.
+
+Format: pdf
+Files: /usr/share/doc/texmf/latex/prerex/intro.pdf.gz

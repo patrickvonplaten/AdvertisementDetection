@@ -1,0 +1,6 @@
+24717be33f1335cc802c757fb4c78eb3  usr/include/X11/SM/SM.h
+0691aa5164b6d668922be777ccf62711  usr/include/X11/SM/SMlib.h
+790e74e8e382e86e956ec4e848d45196  usr/include/X11/SM/SMproto.h
+b361d98575ee306f670d646abaa08d51  usr/lib/x86_64-linux-gnu/libSM.a
+1773947fa25d5135b52655fdddeaf6d6  usr/lib/x86_64-linux-gnu/pkgconfig/sm.pc
+4896f2fc8eeb03b7f3655384b72417a7  usr/share/doc/libsm-dev/copyright

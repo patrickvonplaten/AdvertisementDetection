@@ -1,0 +1,66 @@
+
+Start-Date: 2018-06-02  07:35:24
+Commandline: apt-get upgrade -y
+Upgrade: snapd:amd64 (2.32.3.2, 2.32.9)
+End-Date: 2018-06-02  07:35:50
+
+Start-Date: 2018-06-05  06:21:41
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: liblouis9:amd64 (2.6.4-2ubuntu0.1, 2.6.4-2ubuntu0.2), python3-louis:amd64 (2.6.4-2ubuntu0.1, 2.6.4-2ubuntu0.2), libexempi3:amd64 (2.2.2-2, 2.2.2-2ubuntu0.1), liblouis-data:amd64 (2.6.4-2ubuntu0.1, 2.6.4-2ubuntu0.2)
+End-Date: 2018-06-05  06:21:47
+
+Start-Date: 2018-06-06  06:20:15
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: git-man:amd64 (1:2.7.4-0ubuntu1.3, 1:2.7.4-0ubuntu1.4), libelf1:amd64 (0.165-3ubuntu1, 0.165-3ubuntu1.1), git-svn:amd64 (1:2.7.4-0ubuntu1.3, 1:2.7.4-0ubuntu1.4), git:amd64 (1:2.7.4-0ubuntu1.3, 1:2.7.4-0ubuntu1.4), git-core:amd64 (1:2.7.4-0ubuntu1.3, 1:2.7.4-0ubuntu1.4)
+End-Date: 2018-06-06  06:20:25
+
+Start-Date: 2018-06-07  06:58:22
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: liblouis9:amd64 (2.6.4-2ubuntu0.2, 2.6.4-2ubuntu0.3), python3-louis:amd64 (2.6.4-2ubuntu0.2, 2.6.4-2ubuntu0.3), liblouis-data:amd64 (2.6.4-2ubuntu0.2, 2.6.4-2ubuntu0.3)
+End-Date: 2018-06-07  06:58:27
+
+Start-Date: 2018-06-07  07:35:20
+Commandline: apt-get upgrade -y
+Upgrade: libldap-2.4-2:amd64 (2.4.42+dfsg-2ubuntu3.2, 2.4.42+dfsg-2ubuntu3.3), code:amd64 (1.23.1-1525968403, 1.24.0-1528306776)
+End-Date: 2018-06-07  07:35:42
+
+Start-Date: 2018-06-12  06:58:38
+Commandline: /usr/bin/unattended-upgrade
+Install: linux-headers-4.4.0-128:amd64 (4.4.0-128.154, automatic), linux-headers-4.4.0-128-generic:amd64 (4.4.0-128.154, automatic), linux-image-4.4.0-128-generic:amd64 (4.4.0-128.154, automatic), linux-image-extra-4.4.0-128-generic:amd64 (4.4.0-128.154, automatic)
+Upgrade: linux-headers-generic:amd64 (4.4.0.127.133, 4.4.0.128.134), linux-libc-dev:amd64 (4.4.0-127.153, 4.4.0-128.154), linux-image-generic:amd64 (4.4.0.127.133, 4.4.0.128.134), flashplugin-installer:amd64 (29.0.0.171ubuntu0.16.04.1, 30.0.0.113ubuntu0.16.04.1), gpgv:amd64 (1.4.20-1ubuntu3.1, 1.4.20-1ubuntu3.2), linux-tools-common:amd64 (4.4.0-127.153, 4.4.0-128.154), gnupg:amd64 (1.4.20-1ubuntu3.1, 1.4.20-1ubuntu3.2), linux-generic:amd64 (4.4.0.127.133, 4.4.0.128.134)
+End-Date: 2018-06-12  07:01:13
+
+Start-Date: 2018-06-13  07:35:24
+Commandline: apt-get upgrade -y
+Upgrade: libimage-magick-perl:amd64 (8:6.8.9.9-7ubuntu5.9, 8:6.8.9.9-7ubuntu5.11), libimage-magick-q16-perl:amd64 (8:6.8.9.9-7ubuntu5.9, 8:6.8.9.9-7ubuntu5.11), imagemagick:amd64 (8:6.8.9.9-7ubuntu5.9, 8:6.8.9.9-7ubuntu5.11), libmagickwand-6.q16-2:amd64 (8:6.8.9.9-7ubuntu5.9, 8:6.8.9.9-7ubuntu5.11), imagemagick-6.q16:amd64 (8:6.8.9.9-7ubuntu5.9, 8:6.8.9.9-7ubuntu5.11), libmagickcore-6.q16-2-extra:amd64 (8:6.8.9.9-7ubuntu5.9, 8:6.8.9.9-7ubuntu5.11), firefox-locale-en:amd64 (60.0.1+build2-0ubuntu0.16.04.1, 60.0.2+build1-0ubuntu0.16.04.1), libmagickcore-6.q16-2:amd64 (8:6.8.9.9-7ubuntu5.9, 8:6.8.9.9-7ubuntu5.11), firefox:amd64 (60.0.1+build2-0ubuntu0.16.04.1, 60.0.2+build1-0ubuntu0.16.04.1), imagemagick-common:amd64 (8:6.8.9.9-7ubuntu5.9, 8:6.8.9.9-7ubuntu5.11), libmagick++-6.q16-5v5:amd64 (8:6.8.9.9-7ubuntu5.9, 8:6.8.9.9-7ubuntu5.11)
+End-Date: 2018-06-13  07:35:49
+
+Start-Date: 2018-06-14  06:51:33
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: perl-base:amd64 (5.22.1-9ubuntu0.3, 5.22.1-9ubuntu0.5), perl-modules-5.22:amd64 (5.22.1-9ubuntu0.3, 5.22.1-9ubuntu0.5), libperl5.22:amd64 (5.22.1-9ubuntu0.3, 5.22.1-9ubuntu0.5), perl:amd64 (5.22.1-9ubuntu0.3, 5.22.1-9ubuntu0.5)
+End-Date: 2018-06-14  06:51:40
+
+Start-Date: 2018-06-14  07:35:28
+Commandline: apt-get upgrade -y
+Upgrade: console-setup-linux:amd64 (1.108ubuntu15.3, 1.108ubuntu15.4), console-setup:amd64 (1.108ubuntu15.3, 1.108ubuntu15.4), keyboard-configuration:amd64 (1.108ubuntu15.3, 1.108ubuntu15.4), code:amd64 (1.24.0-1528306776, 1.24.1-1528912196)
+End-Date: 2018-06-14  07:36:00
+
+Start-Date: 2018-06-15  07:35:18
+Commandline: apt-get upgrade -y
+Upgrade: gnupg-agent:amd64 (2.1.11-6ubuntu2, 2.1.11-6ubuntu2.1), ruby2.3:amd64 (2.3.1-2~16.04.9, 2.3.1-2~16.04.10), libmagic1:amd64 (1:5.25-2ubuntu1, 1:5.25-2ubuntu1.1), dirmngr:amd64 (2.1.11-6ubuntu2, 2.1.11-6ubuntu2.1), libruby2.3:amd64 (2.3.1-2~16.04.9, 2.3.1-2~16.04.10), gnupg2:amd64 (2.1.11-6ubuntu2, 2.1.11-6ubuntu2.1), file:amd64 (1:5.25-2ubuntu1, 1:5.25-2ubuntu1.1), desktop-file-utils:amd64 (0.22-1ubuntu5.1, 0.22-1ubuntu5.2), wireless-regdb:amd64 (2015.07.20-1ubuntu1, 2018.05.09-0ubuntu1~16.04.1)
+End-Date: 2018-06-15  07:35:35
+
+Start-Date: 2018-06-19  07:35:19
+Commandline: apt-get upgrade -y
+Upgrade: libwebkit2gtk-4.0-37:amd64 (2.20.2-0ubuntu0.16.04.1, 2.20.3-0ubuntu0.16.04.1), gir1.2-webkit2-4.0:amd64 (2.20.2-0ubuntu0.16.04.1, 2.20.3-0ubuntu0.16.04.1), libjavascriptcoregtk-4.0-18:amd64 (2.20.2-0ubuntu0.16.04.1, 2.20.3-0ubuntu0.16.04.1), libwebkit2gtk-4.0-37-gtk2:amd64 (2.20.2-0ubuntu0.16.04.1, 2.20.3-0ubuntu0.16.04.1), gir1.2-javascriptcoregtk-4.0:amd64 (2.20.2-0ubuntu0.16.04.1, 2.20.3-0ubuntu0.16.04.1)
+End-Date: 2018-06-19  07:35:28
+
+Start-Date: 2018-06-20  07:35:20
+Commandline: apt-get upgrade -y
+Upgrade: libgcrypt20:amd64 (1.6.5-2ubuntu0.4, 1.6.5-2ubuntu0.5), libgcrypt20:i386 (1.6.5-2ubuntu0.4, 1.6.5-2ubuntu0.5)
+End-Date: 2018-06-20  07:35:24
+
+Start-Date: 2018-06-21  06:04:38
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: amd64-microcode:amd64 (2.20160316.1, 3.20180524.1~ubuntu0.16.04.1)
+End-Date: 2018-06-21  06:04:49

@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libKScreenLocker.so.5.5.5
+/usr/lib/x86_64-linux-gnu/libexec
+/usr/lib/x86_64-linux-gnu/libexec/kscreenlocker_greet
+/usr/lib/x86_64-linux-gnu/libexec/kcheckpass
+/usr/share
+/usr/share/doc
+/usr/share/doc/libkscreenlocker5
+/usr/share/doc/libkscreenlocker5/copyright
+/usr/share/doc/libkscreenlocker5/changelog.Debian.gz
+/usr/lib/x86_64-linux-gnu/libKScreenLocker.so.5

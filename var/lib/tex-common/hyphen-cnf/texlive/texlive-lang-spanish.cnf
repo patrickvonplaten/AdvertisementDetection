@@ -1,0 +1,3 @@
+name=catalan lefthyphenmin=2 righthyphenmin=2 file=loadhyph-ca.tex file_patterns=hyph-ca.pat.txt file_exceptions=hyph-ca.hyp.txt
+name=galician lefthyphenmin=2 righthyphenmin=2 file=loadhyph-gl.tex file_patterns=hyph-gl.pat.txt file_exceptions=
+name=spanish synonyms=espanol lefthyphenmin=2 righthyphenmin=2 file=loadhyph-es.tex file_patterns=hyph-es.pat.txt file_exceptions=

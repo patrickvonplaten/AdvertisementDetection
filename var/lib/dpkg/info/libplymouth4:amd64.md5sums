@@ -1,0 +1,7 @@
+8055e14673c72b0d683a48228b340a7c  lib/x86_64-linux-gnu/libply-boot-client.so.4.0.0
+ee1467d33eb1fa4858108620301c78f7  lib/x86_64-linux-gnu/libply-splash-core.so.4.0.0
+adac678c1da1643bc50a78633adaa6d2  lib/x86_64-linux-gnu/libply-splash-graphics.so.4.0.0
+c599c9ac0ebe684995734ef2b40f7913  lib/x86_64-linux-gnu/libply.so.4.0.0
+30e0b3eb0819808b31ce77e184efbb46  usr/share/doc/libplymouth4/changelog.Debian.gz
+4f5ba62f69098b1259fe6ce819c14149  usr/share/doc/libplymouth4/copyright
+43eec4c38a06ffd795a570f5e85601b0  usr/share/lintian/overrides/libplymouth4

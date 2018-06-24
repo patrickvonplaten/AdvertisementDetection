@@ -1,0 +1,35 @@
+Package: pycharm-community
+Source: pycharm
+Priority: extra
+Section: devel
+Installed-Size: 461698
+Maintainer: Mystic-Mirage <mm@m10e.net>
+Architecture: all
+Version: 2016.3~mm1
+Recommends: openjdk-8-jre | oracle-java8-installer
+Depends: python (>= 2.4), coreutils, grep, findutils
+Filename: pool/main/p/pycharm/pycharm-community_2016.3~mm1_all.deb
+Size: 174616730
+MD5sum: 7af5d8c690d3eccb43a291f638339f0b
+SHA1: db4b33d6861c354b5565466b7c1e43d732a348f8
+SHA256: 0de4f35470e3027a424fb195abbf00bfd4fb730b9bfc8e516eb639aac638eb68
+Description: The Most Intelligent Python IDE
+Description-md5: 0dfe8751ed15f5370242293f58ccf555
+
+Package: pycharm
+Priority: extra
+Section: devel
+Installed-Size: 615844
+Maintainer: Mystic-Mirage <mm@m10e.net>
+Architecture: all
+Version: 2016.3~mm1
+Recommends: openjdk-8-jre | oracle-java8-installer
+Depends: python (>= 2.4), coreutils, grep, findutils
+Filename: pool/main/p/pycharm/pycharm_2016.3~mm1_all.deb
+Size: 228312040
+MD5sum: df39d159147b8cd47073d28690dc167a
+SHA1: 324a48a7ef9e4386a67fe4635b4d3550c6491106
+SHA256: 35d955650e029eacddbdb8f08257431fd9cfdf40def7dbb932eea3ee31e538c4
+Description: The Most Intelligent Python IDE
+Description-md5: ed98caf079f97afc209c6904f446865c
+

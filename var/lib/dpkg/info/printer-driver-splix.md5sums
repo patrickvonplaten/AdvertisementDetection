@@ -1,0 +1,11 @@
+d3da5cb330007680e0a10b121a31ba20  usr/lib/cups/filter/pstoqpdl
+83ec8922680917ae00aa640036e8b3e8  usr/lib/cups/filter/rastertoqpdl
+22dae44c3689b9ecb4bd48923e1699c4  usr/share/apport/package-hooks/source_splix.py
+e870d2f04d3cc99b1267315c14d7f4a2  usr/share/cups/drv/splix-dell.drv
+33b157c5e2f188dbf374b930f0515942  usr/share/cups/drv/splix-lexmark.drv
+98697de15061bddb7ddff1ff37a171fb  usr/share/cups/drv/splix-samsung.drv
+2017b34ce97ab9222dcdba075b9f4be9  usr/share/cups/drv/splix-toshiba.drv
+ca4c43a120e846fd8198a850e0b94cfd  usr/share/cups/drv/splix-xerox.drv
+849d2a31be50f5b3784cac27e972663e  usr/share/cups/ppd-updaters/splix.ppd-updater
+05ed48206340704dd1427c1e7e5ce25a  usr/share/doc/printer-driver-splix/changelog.Debian.gz
+737a880d5b55b8ca72c6a84c77cfa91b  usr/share/doc/printer-driver-splix/copyright

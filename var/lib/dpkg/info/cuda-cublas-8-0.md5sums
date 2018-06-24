@@ -1,0 +1,4 @@
+aa4fac9beae4b856f0950daafc282cca  usr/local/cuda-8.0/targets/x86_64-linux/lib/libcublas.so.8.0.61
+366af15d3dfd4543bba6f0f7751179f5  usr/local/cuda-8.0/targets/x86_64-linux/lib/libnvblas.so.8.0.61
+c673c52ccef88f0e9e4e0ef4e18ac511  usr/share/doc/cuda-cublas-8-0/changelog.Debian.gz
+0eeae78db8d839562622336047a1c99d  usr/share/doc/cuda-cublas-8-0/copyright

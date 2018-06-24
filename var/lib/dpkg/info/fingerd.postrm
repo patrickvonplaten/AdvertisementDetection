@@ -1,0 +1,21 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+abort-install | remove | abort-upgrade | upgrade | failed-upgrade | disappear)
+	;;
+purge)
+	# If netbase is not installed, then we don't need to do the remove.
+	#if command -v update-inetd >/dev/null 2>&1; then
+	if [ -x /usr/sbin/update-inetd ]; then
+		update-inetd --remove "finger	.*	/usr/sbin/in\.fingerd"
+	fi
+	;;
+*)
+	echo "$0: incorrect arguments: $*" >&2
+	exit 1
+	;;
+esac
+
+

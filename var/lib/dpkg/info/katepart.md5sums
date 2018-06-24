@@ -1,0 +1,14 @@
+97b4b30a7434c2eff397d4093fb0996a  usr/lib/kde4/katepart.so
+780b1dfe281fdac904b0fa788fefca65  usr/lib/kde4/ktexteditor_autobrace.so
+f2542ca418b9c175ec5e55627bd4a11c  usr/lib/kde4/ktexteditor_exporter.so
+53b6795064ff092b2c5104506ceae387  usr/lib/kde4/ktexteditor_hlselection.so
+63b3fb34b16fec4736287a245bc5dcd9  usr/lib/kde4/ktexteditor_iconinserter.so
+7ad47d7a0b13d3e0d4e8518c5f3b8657  usr/lib/kde4/ktexteditor_insertfile.so
+c41bfce580eee754e88e59317800fcba  usr/share/doc/katepart/copyright
+74855bf8560c4d026c66f37eaa8af008  usr/share/kde4/services/katepart.desktop
+851fab1bd1178fc7e856d485a3b56788  usr/share/kde4/services/ktexteditor_autobrace.desktop
+8493158984ad16b0956b1ca07ecc3dd5  usr/share/kde4/services/ktexteditor_autobrace_config.desktop
+89b123771e62ed745bde5f23e89e26be  usr/share/kde4/services/ktexteditor_exporter.desktop
+2b5a098c75c550f7e6e1cb54793841ad  usr/share/kde4/services/ktexteditor_hlselection.desktop
+34cf48ec2b88c067b10cc53795c3b42f  usr/share/kde4/services/ktexteditor_iconinserter.desktop
+dabfc0ca65dc854b04469b144fc80c0d  usr/share/kde4/services/ktexteditor_insertfile.desktop

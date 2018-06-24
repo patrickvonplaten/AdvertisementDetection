@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages/twisted
+/usr/lib/python2.7/dist-packages/twisted/python
+/usr/lib/python2.7/dist-packages/twisted/python/_sendmsg.x86_64-linux-gnu.so
+/usr/lib/python2.7/dist-packages/twisted/test
+/usr/lib/python2.7/dist-packages/twisted/test/raiser.x86_64-linux-gnu.so
+/usr/lib/python2.7/dist-packages/twisted/runner
+/usr/lib/python2.7/dist-packages/twisted/runner/portmap.x86_64-linux-gnu.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/python-twisted-bin
+/usr/share/doc/python-twisted-bin/changelog.Debian.gz
+/usr/share/doc/python-twisted-bin/copyright

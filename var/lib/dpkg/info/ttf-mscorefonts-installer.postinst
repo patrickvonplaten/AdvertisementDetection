@@ -1,0 +1,51 @@
+#!/bin/sh
+set -e
+
+. /usr/share/debconf/confmodule
+
+db_get msttcorefonts/dldir
+LOCALCOPY=$RET
+
+# FIXME: we don't have a way to use an alternate download source here.
+db_get msttcorefonts/dlurl
+URLOVERRIDE=$RET
+
+stamp_file=/var/lib/update-notifier/package-data-downloads/ttf-mscorefonts-installer
+
+if dpkg --compare-versions "$2" lt-nl 3.4ubuntu3 \
+   && [ -f /var/lib/msttcorefonts/ms-fonts ]
+then
+	# don't force a redownload with the new hook
+	touch $stamp_file
+fi
+
+# if the license was not accepted, ensure the fonts are removed
+# and add README with helpful information
+ FONTDIR=/usr/share/fonts/truetype/msttcorefonts
+ mkdir -p $FONTDIR
+ license=mscorefonts-eula
+ db_get msttcorefonts/accepted-$license
+ if [ "$RET" != "true" ]; then
+     echo "user did not accept the $license license" >&2
+    rm -f $FONTDIR/*.ttf
+    cat > $FONTDIR/README <<EOF 
+License refused.
+
+Please reinstall the ttf-mscorefonts-installer package (e.g. via
+ apt-get install --reinstall ttf-mscorefonts-installer
+to get prompted for the license again.
+EOF
+     exit 0
+else
+    rm -f $FONTDIR/README
+fi
+
+if ! [ -e $stamp_file ] && [ -n "$LOCALCOPY" ]; then
+	/usr/lib/msttcorefonts/update-ms-fonts "$LOCALCOPY"/*
+	touch $stamp_file
+fi
+
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/defoma/hints/ttf-mscorefonts-installer.hints 3.4 -- "$@"
+# End automatically added section
+

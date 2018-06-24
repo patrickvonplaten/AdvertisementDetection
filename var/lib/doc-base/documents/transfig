@@ -1,0 +1,11 @@
+Document: transfig
+Section: Graphics
+Title: TransFig: Portable Figures for LaTeX
+Author: Micah Beck
+Abstract: Manual for the TransFig package.
+ This manual describes the TransFig package and its components fig2dev
+ and transfig as well as related software and the Fig graphics format
+ (in the old V2.1 version).
+
+Format: pdf
+Files: /usr/share/doc/transfig/manual.pdf

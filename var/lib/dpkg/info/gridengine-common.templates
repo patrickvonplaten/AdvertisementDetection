@@ -1,0 +1,143 @@
+Template: shared/gridengineconfig
+Type: boolean
+Default: true
+Description: Configure SGE automatically?
+ Please choose whether you wish to configure SGE automatically (with
+ debconf). If you do not configure it automatically, the daemons or client
+ programs will not work until a manual configuration is performed.
+Description-cs.UTF-8: Nastavit SGE automaticky?
+ Vyberte si prosím, zda chcete nastavit SGE automaticky (pomocí debconfu). Pokud nezvolíte automatické nastavení, nebudou daemoni ani klientské programy fungovat do doby, než je nastavíte (ručně).
+Description-da.UTF-8: Konfigurer SGE automatisk?
+ Vælg venligst hvorvidt du ønsker at konfigurere SGE automatisk (med debconf). Hvis du ikke konfigurerer den automatisk, vil dæmon- eller klientprogrammer ikke virke, før en manuel konfiguration er udført.
+Description-de.UTF-8: SGE automatisch konfigurieren?
+ Bitte wählen Sie, ob SGE automatisch (mittels Debconf) konfiguriert werden soll. Falls Sie das Programm nicht automatisch konfigurieren lassen, werden der Daemon und die Clients nicht funktionieren, bevor eine manuelle Konfiguration erstellt wurde.
+Description-es.UTF-8: ¿Desea configurar SGE automáticamente?
+ Escoja si quiere configurar SGE automáticamente (mediante debconf). Si no lo configura automáticamente, los demonios o los programas del cliente no funcionarán hasta que realice una configuración manual.
+Description-fi.UTF-8: Tehdäänkö SGE:n asetukset automaattisesti?
+ Valitse tulisiko SGE:n asetukset tehdä automaattisesti (debconfin avulla). Jos asetuksia ei tehdä automaattisesti, taustaohjelmat tai asiakasohjelmat eivät toimi ennen kuin asetukset on tehty käsin.
+Description-fr.UTF-8: Faut-il configurer SGE automatiquement ?
+ Veuillez choisir si vous souhaitez configurer SGE automatiquement (avec « debconf »). Si vous ne choisissez pas cette option, les démons et les clients devront être configurés manuellement pour pouvoir fonctionner.
+Description-gl.UTF-8: ¿Configurar SGE automaticamente?
+ Indique se quere configurar SGE automaticamente (con debconf). Se non o configura automaticamente, os servizos ou programas cliente non han funcionar ata que realice unha configuración manual.
+Description-it.UTF-8: Configurare SGE automaticamente?
+ Scegliere se configurare SGE automaticamente (con debconf). Se non viene configurato automaticamente, i demoni o i programmi client non funzioneranno fino a che non verrà effettuata una configurazione manuale.
+Description-ja.UTF-8: SGE を自動的に設定しますか?
+ debconf で SGE を自動的に設定したいかどうかを選んでください。自動的に設定をしない場合は、デーモンあるいはクライアントプログラムは手動での設定が行われるまで動作しません。
+Description-nl.UTF-8: SGE automatisch instellen?
+ Geef aan of u SGE automatisch wilt configureren (met debconf). Als u SGE niet automatisch wilt configureren werken de achtergronddiensten of client-programma's pas na handmatige configuratie.
+Description-pl.UTF-8: Skonfigurować SGE w sposób automatyczny?
+ Proszę wybrać, czy SGE ma zostać skonfigurowany automatycznie (za pomocą debconfa). Jeśli ta opcja nie zostanie wybrana, demony lub programy klienckie nie będą działać do czasu wykonania ręcznej konfiguracji.
+Description-pt.UTF-8: Configurar SGE automaticamente?
+ Por favor escolha se deseja usar o debconf para configurar o SGE  (com debconf). Se não o configurar automaticamente, os deamons ou os programas cliente não irão funcionar até que seja executada uma configuração manual.
+Description-ru.UTF-8: Выполнить автоматическую настройку SGE?
+ Укажите, хотите ли вы, чтобы SGE был настроен автоматически (с помощью debconf). Если вы откажитесь от автоматической настройки, то службы или клиентские программы не будут работать, пока вы не выполните настройку вручную.
+Description-sv.UTF-8: Vill du att paketet ställer in SGE automatiskt?
+ Ange om du vill att SGE ska ställas in automatiskt (genom debconf) eller om du vill göra det manuellt vid ett senare tillfälle. HJälpprocesserna och klientprogrammen fungerar inte förrens konfigurationen är utförd.
+Description-vi.UTF-8: Tự động cấu hình SGE ?
+ Hãy chọn nếu bạn muốn tự động cấu hình SGE (dùng debconf) hay không. Không thì các trình nền hay ứng dụng khách sẽ không chạy đúng đến khi một tiến trình cấu hình thủ công đã được thực hiện.
+
+Template: shared/gridenginecell
+Type: string
+Default: default
+Description: SGE cell name:
+ Please provide the SGE cell name for use by client programs and the
+ execution daemon.
+Description-cs.UTF-8: Název SGE buňky:
+ Zadejte prosím jméno SGE buňky, které budou používat klientské programy a spouštěcí daemon.
+Description-da.UTF-8: SGE-cellenavn:
+ Angiv venligst SGE-cellenavnet til brug for klientprogrammer og eksekveringsdæmonen.
+Description-de.UTF-8: SGE-Zellenname:
+ Bitte geben Sie den SGE-Zellennamen ein, der von Clientprogrammen und dem Ausführungs-Daemon verwendet wird.
+Description-es.UTF-8: Nombre de la célula de SGE:
+ Introduzca el nombre de la célula de SGE que usarán los programas del cliente y el demonio de ejecución.
+Description-fi.UTF-8: SGE-solmun nimi:
+ Anna SGE-solmun nimi, jota asiakasohjelmat ja suoritustaustaohjelma käyttävät.
+Description-fr.UTF-8: Nom de la cellule SGE :
+ Veuillez indiquer le nom de la cellule SGE, qui sera utilisée par les programmes clients et le démon d'exécution.
+Description-gl.UTF-8: Nome da cela SGE:
+ Indique o nome da cela SGE para o seu uso por parte dos programas cliente e o servizo de execución.
+Description-it.UTF-8: Nome della cella SGE:
+ Inserire il nome della cella SGE da usare per i programmi client e il demone di esecuzione.
+Description-ja.UTF-8: SGE セル名:
+ クライアントプログラムと実行デーモンが使う SGE セル名を入力してください。
+Description-nl.UTF-8: Naam van de SGE-cel:
+ Geef de naam op van de SGE-cel die de client-programma's en uitvoeringsachtergronddienst moeten gebruiken?
+Description-pl.UTF-8: Nazwa komórki SGE:
+ Proszę wprowadzić nazwę komórki (ang. cell) SGE, która będzie używana przez programy klienckie i demon wykonywania.
+Description-pt.UTF-8: Nome da célula SGE:
+ Por favor indique o nome da célula SGE para ser usado por programas cliente e pelo deamon de execução.
+Description-ru.UTF-8: Имя ячейки SGE:
+ Укажите имя ячейки SGE, которое будет использовано клиентскими программами и службой выполнения.
+Description-sv.UTF-8: Namn på SGE-cellen:
+ Ange namnet för SGE-cellen som klientprogrammen ska använda.
+Description-vi.UTF-8: Tên ô SGE:
+ Hãy cung cấp tên ô SGE cho các ứng dụng khách và trình nền thực hiện sử dụng.
+
+Template: shared/gridenginemaster
+Type: string
+Description: SGE master hostname:
+ The execution daemon and the client programs need to know where the cluster
+ master is in order to run.
+ .
+ Please enter the fully qualified domain name of the grid master.
+Description-cs.UTF-8: Jméno hlavního SGE počítače:
+ Aby mohly klientské programy a spouštěcí daemon fungovat, potřebují vědět, kde se nachází řídící server clusteru.
+ .
+ Zadejte prosím plně kvalifikované doménové jméno řídícího počítače.
+Description-da.UTF-8: SGE-masterværtsnavn:
+ Eksekveringsdæmonen og klientprogrammer har brug for at vide, hvor klyngemasteren er for at kunne køre.
+ .
+ Indtast venligst det fuldt kvalificeret domænenavn på gittermasteren (grid master).
+Description-de.UTF-8: Hostname des SGE-Masters:
+ Damit der Ausführungs-Daemon und die Clientprogramme arbeiten können, muss der Master des Clusters bekannt sein.
+ .
+ Bitte geben Sie den vollständigen Domain-Namen des Grid-Masters ein.
+Description-es.UTF-8: Nombre de la máquina maestra de SGE:
+ El demonio de ejecución y los programas del cliente necesitan conocer dónde está el cluster maestro para poder funcionar.
+ .
+ Introduzca el nombre completo del dominio para la red maestra.
+Description-fi.UTF-8: SGE-pääsolmun verkkonimi:
+ Toimiakseen suoritustaustaohjelman ja asiakasohjelmien täytyy tietää missä klusterin pääsolmu on.
+ .
+ Anna klusterin pääsolmun täydellinen verkkonimi.
+Description-fr.UTF-8: Nom d'hôte du maître SGE :
+ Le démon d'exécution et les programmes clients doivent connaître le nom d'hôte du serveur maître de la grappe.
+ .
+ Veuillez indiquer le nom complètement qualifié de serveur maître de la grille.
+Description-gl.UTF-8: Nome do servidor mestre de SGE:
+ O servizo de execución e os programas cliente precisan de saber onde reside o mestre do clúster para se executar.
+ .
+ Introduza o nome de dominio completo do mestre do grid.
+Description-it.UTF-8: Nome host del master SGE:
+ Per poter funzionare, il demone di esecuzione e i programmi client devono sapere dove è il master del cluster.
+ .
+ Inserire il nome di dominio pienamente qualificato del master della griglia.
+Description-ja.UTF-8: SGE マスターホスト名:
+ 実行デーモンとクライアントプログラムは動作のため、クラスタマスターがどこにあるのかを知る必要があります。
+ .
+ grid マスターの完全修飾ドメイン名 (FQDN) を入力してください。
+Description-nl.UTF-8: Computernaam van de SGE-master:
+ De uitvoeringsachtergronddienst en de client-programma's moeten weten waar de cluster-master is om uitgevoerd te kunnen worden.
+ .
+ Geeft de volledige computernaam (FQDN) van de grid-master op.
+Description-pl.UTF-8: Główna nazwa hosta SGE:
+ Demon wykonywania i programy klienckie muszą wiedzieć gdzie ma działać główny klaster.
+ .
+ Proszę podać pełną nazwę domenową głównego serwera grid.
+Description-pt.UTF-8: Nome de máquina SGE mestre:
+ O deamon de execução e os programas cliente precisam de saber onde está o mestre do cluster para poderem funcionar.
+ .
+ Por favor indique o nome de domínio totalmente qualificado do mestre da grelha.
+Description-ru.UTF-8: Имя мастер-хоста SGE:
+ Для работы службе выполнения и клиентским программам требуется указать главную машину кластера.
+ .
+ Введите полностью определенное имя мастера.
+Description-sv.UTF-8: Värdnamn för huvud-SGE:n
+ Klientprogrammen måste kunna lokalisera klustretes huvudnod för att fungera.
+ .
+ Ange komplett värdnamn med domän för huvudvärden.
+Description-vi.UTF-8: Tên máy chủ SGE:
+ Để chạy được, trình nền thực hiện và các ứng dụng khách đều cần thông tin về vị trí của chủ nhóm.
+ .
+ Hãy nhập tên miền có khả năng đầy đủ của chủ lưới.
+
