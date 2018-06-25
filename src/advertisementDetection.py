@@ -7,6 +7,7 @@ from preprocessor import Preprocessor
 from tensorflow.python.keras.optimizers import SGD
 from tensorflow.python.keras.callbacks import TensorBoard
 import pickle
+import matplotlib.pyplot as plt
 
 
 class RecognitionSystem(object):
@@ -15,8 +16,8 @@ class RecognitionSystem(object):
     This class should use the preproccessed data
     to train a system to recognise detection
     """
-    def __init__(self, data, pathToWeights, pathToSaveHistory, configs, model): 
-        self.data = data 
+    def __init__(self, data, pathToWeights, pathToSaveHistory, configs, model):
+        self.data = data
         self.testData = self.data.testData
         self.testLabels = self.data.testLabels
         self.trainData = self.data.trainData
@@ -40,9 +41,9 @@ class RecognitionSystem(object):
 
         for config in configs:
             defaultConfigs[config] = configs[config]
-        
+
         return defaultConfigs
-        
+
     def printModelSummary(self):
         print('Model Summary')
         self.model.summary()
@@ -65,7 +66,22 @@ class RecognitionSystem(object):
         tbCallBack = TensorBoard(log_dir='./graph', histogram_freq=0, write_graph=True, write_images=True)
 
         history = self.model.fit(x, y, batch_size=self.configs['batchSize'], epochs=self.configs['epochs'], verbose='2', callbacks=[tbCallBack] )
+
+        # Get training and test loss histories
+        training_loss = history.history['loss']
+        #test_loss = history.history['val_loss']
+        # Create count of the number of epochs
+        epoch_count = range(1, len(training_loss) + 1)
+        # Visualize loss history
+        plt.plot(epoch_count, training_loss, 'r--')
+        #plt.plot(epoch_count, test_loss, 'b-')
+        #plt.legend(['Training Loss', 'Test Loss'])
+        plt.xlabel('Epoch')
+        plt.ylabel('Loss')
+        plt.show();
         self.model.save_weights(self.pathToWeights)
+
+
 
         with open(self.pathToSaveHistory, 'wb') as pickleFile:
             pickle.dump(history.history, pickleFile)
@@ -75,7 +91,7 @@ class RecognitionSystem(object):
         y = self.testLabels
         self.compileModel()
         self.model.load_weights(self.pathToWeights)
-        
+
         print("Decode model")
         print("-----------------------------------------------------------------")
         self.predictData(x,y)
@@ -90,4 +106,3 @@ class RecognitionSystem(object):
         pred = [x[0] for x in predictions]
         print("labels", y)
         print("predictions", x)
-
