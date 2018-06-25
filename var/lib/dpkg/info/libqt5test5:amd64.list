@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libqt5test5
+/usr/share/doc
+/usr/share/doc/libqt5test5
+/usr/share/doc/libqt5test5/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libQt5Test.so.5.5.1
+/usr/share/doc/libqt5test5/changelog.Debian.gz
+/usr/share/doc/libqt5test5/LGPL_EXCEPTION.txt
+/usr/lib/x86_64-linux-gnu/libQt5Test.so.5
+/usr/lib/x86_64-linux-gnu/libQt5Test.so.5.5

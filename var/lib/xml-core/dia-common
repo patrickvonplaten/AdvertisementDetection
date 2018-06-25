@@ -1,0 +1,3 @@
+<delegateSystem systemIdStartString="http://www.daa.com.au/~james/dia-shape-ns"><catalog="file:///usr/share/xml/dia/shape.dtd">
+<delegateSystem systemIdStartString="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns"><catalog="file:///usr/share/xml/dia/sheet.dtd">
+<delegateSystem systemIdStartString="http://www.lysator.liu.se/~alla/dia/"><catalog="file:///usr/share/xml/dia/diagram.dtd">

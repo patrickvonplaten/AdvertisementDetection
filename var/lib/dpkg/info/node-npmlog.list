@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/nodejs
+/usr/lib/nodejs/npmlog
+/usr/lib/nodejs/npmlog/log.js
+/usr/share
+/usr/share/doc
+/usr/share/doc/node-npmlog
+/usr/share/doc/node-npmlog/examples
+/usr/share/doc/node-npmlog/examples/example.js
+/usr/share/doc/node-npmlog/README.md
+/usr/share/doc/node-npmlog/copyright
+/usr/share/doc/node-npmlog/changelog.Debian.gz
+/usr/lib/nodejs/npmlog/index.js

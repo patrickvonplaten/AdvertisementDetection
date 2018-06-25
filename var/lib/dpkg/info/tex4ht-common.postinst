@@ -1,0 +1,33 @@
+#!/bin/sh
+
+set -e
+
+LASTVERSION="20060913-1"
+
+# Snippet taken from http://wiki.debian.org/DpkgConffileHandling
+# <snippet>
+# Move a conffile without triggering a dpkg question
+mv_conffile() {
+    OLDCONFFILE="$1"
+    NEWCONFFILE="$2"
+
+    if [ -e "$OLDCONFFILE" ]; then
+        echo "Preserving user changes to $NEWCONFFILE ..."
+        mv -f "$NEWCONFFILE" "$NEWCONFFILE".dpkg-new
+        mv -f "$OLDCONFFILE" "$NEWCONFFILE"
+    fi
+}
+
+case "$1" in
+configure)
+    if dpkg --compare-versions "$2" le "$LASTVERSION"; then
+        mv_conffile "/etc/texmf/texmf.d/90tex4ht.cnf" "/etc/texmf/texmf.d/80tex4ht.cnf"
+    fi
+esac
+# </snippet>
+
+# Update the kpathsea lists
+texhash /usr/share/texmf # since we only install files there
+update-texmf
+
+

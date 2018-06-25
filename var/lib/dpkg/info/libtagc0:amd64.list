@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libtagc0
+/usr/share/doc
+/usr/share/doc/libtagc0
+/usr/share/doc/libtagc0/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libtag_c.so.0.0.0
+/usr/share/doc/libtagc0/changelog.Debian.gz
+/usr/lib/x86_64-linux-gnu/libtag_c.so.0

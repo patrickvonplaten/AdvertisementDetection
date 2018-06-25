@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libnatpmp.so.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/libnatpmp1
+/usr/share/doc/libnatpmp1/copyright
+/usr/share/doc/libnatpmp1/changelog.Debian.gz

@@ -1,0 +1,10 @@
+/.
+/etc
+/etc/xdg
+/etc/xdg/org_kde_kwayland.categories
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/kwayland-data
+/usr/share/doc/kwayland-data/copyright
+/usr/share/doc/kwayland-data/changelog.Debian.gz

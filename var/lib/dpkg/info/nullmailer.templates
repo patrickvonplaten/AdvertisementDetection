@@ -1,0 +1,230 @@
+Template: shared/mailname
+Type: string
+Description: Mailname of your system:
+ This is the fully-qualified host name of the computer running nullmailer.
+ It defaults to the literal name 'me'.
+Description-cs.UTF-8: Poštovní jméno vašeho systému:
+ Zadejte plně kvalifikované doménové jméno počítače, na kterém poběží nullmailer. Výchozí hodnota znamená prosté 'já'.
+Description-da.UTF-8: Postnavn for dit system:
+ Dette er det fuldt kvalificerede værtsnavn for computeren, der kører nullmailer. Den er som standard det ordrette »me«.
+Description-de.UTF-8: Mail-Name für Ihr System:
+ Dies ist der voll-qualifizierte Hostname des Computers, auf dem nullmailer läuft, standardmäßig 'me'.
+Description-es.UTF-8: Nombre del correo del sistema:
+ Este es el nombre completo del ordenador que ejecuta nullmailer. El nombre predeterminado es «me».
+Description-fr.UTF-8: Nom de courrier de votre système :
+ Le nom de courrier du système est le nom complet qualifié de la machine faisant fonctionner nullmailer. Par défaut, ce sera le nom « me » (« moi », en anglais).
+Description-it.UTF-8: Mailname del sistema:
+ Questo è il nome completo qualificato dell'host su cui nullmailer è in esecuzione. Il valore predefinito è "me".
+Description-ja.UTF-8: システムのメール名:
+ これは nullmailer を動作させているホストの完全修飾ドメイン名です。標準では、定数名 'me' になります。
+Description-nl.UTF-8: E-mailnaam van uw systeem:
+ Dit is de volledig gekwalificeerde naam (FQDN) van de computer waarop u nullmailer draait. De standaardwaarde is de letterlijke 'me' (engels voor ik).
+Description-pt.UTF-8: Nome do mail do seu sistema:
+ Este é o nome completo do computador onde se executa o nullmailer. Por omissãotem o nome 'me'.
+Description-ru.UTF-8: Почтовое имя вашей системы:
+ Здесь нужно указать полностью определённое доменное имя машины, на которой запущен nullmailer. По умолчанию 'me'.
+Description-sv.UTF-8: Ange e-postnamnet fï¿½r ditt system:
+ Detta ï¿½r det fullt kvalificerade vï¿½rdnamnet fï¿½r den dator som kï¿½r nullmailer. Standardvï¿½rdet ï¿½r helt enkelt namnet 'me'.
+Description-vi.UTF-8: Tên thư của hệ thống này:
+ Giá trị này là tên máy khả năng đầy đủ của máy có chạy trình nullmailer. Mặc định là tên nghĩa chữ « me » (mình).
+
+Template: nullmailer/defaultdomain
+Type: string
+Description: The domain name to be appended to hostnames:
+ This is the domain name which will be added to any hostnames that don't
+ contain a dot (that is to say, which aren't already qualified by a domain).
+Description-cs.UTF-8: The domain name to be appended to hostnames:
+ This is the domain name which will be added to any hostnames that don't contain a dot (that is to say, which aren't already qualified by a domain).
+Description-da.UTF-8: The domain name to be appended to hostnames:
+ This is the domain name which will be added to any hostnames that don't contain a dot (that is to say, which aren't already qualified by a domain).
+Description-de.UTF-8: The domain name to be appended to hostnames:
+ This is the domain name which will be added to any hostnames that don't contain a dot (that is to say, which aren't already qualified by a domain).
+Description-es.UTF-8: The domain name to be appended to hostnames:
+ This is the domain name which will be added to any hostnames that don't contain a dot (that is to say, which aren't already qualified by a domain).
+Description-fr.UTF-8: The domain name to be appended to hostnames:
+ This is the domain name which will be added to any hostnames that don't contain a dot (that is to say, which aren't already qualified by a domain).
+Description-it.UTF-8: The domain name to be appended to hostnames:
+ This is the domain name which will be added to any hostnames that don't contain a dot (that is to say, which aren't already qualified by a domain).
+Description-ja.UTF-8: The domain name to be appended to hostnames:
+ This is the domain name which will be added to any hostnames that don't contain a dot (that is to say, which aren't already qualified by a domain).
+Description-nl.UTF-8: The domain name to be appended to hostnames:
+ This is the domain name which will be added to any hostnames that don't contain a dot (that is to say, which aren't already qualified by a domain).
+Description-pt.UTF-8: The domain name to be appended to hostnames:
+ This is the domain name which will be added to any hostnames that don't contain a dot (that is to say, which aren't already qualified by a domain).
+Description-pt_BR.UTF-8: The domain name to be appended to hostnames:
+ This is the domain name which will be added to any hostnames that don't contain a dot (that is to say, which aren't already qualified by a domain).
+Description-ru.UTF-8: The domain name to be appended to hostnames:
+ This is the domain name which will be added to any hostnames that don't contain a dot (that is to say, which aren't already qualified by a domain).
+Description-sv.UTF-8: The domain name to be appended to hostnames:
+ This is the domain name which will be added to any hostnames that don't contain a dot (that is to say, which aren't already qualified by a domain).
+Description-vi.UTF-8: The domain name to be appended to hostnames:
+ This is the domain name which will be added to any hostnames that don't contain a dot (that is to say, which aren't already qualified by a domain).
+
+Template: nullmailer/relayhost
+Type: string
+Description: Smarthosts:
+ This is a colon-separated list of remote servers to which to send each
+ message. Each entry contains a remote host name or address followed by
+ an optional protocol string 'host protocol'. The protocol name defaults
+ to smtp, and may be followed by command-line arguments for that module.
+ .
+ Examples:
+ .
+   smarthost
+   smarthost smtp --port=10025
+   mail.example.com smtp --user=foo --pass=bar
+   192.168.1.254 qmqp 
+   [fe80::5054:ff:fef4:ef81] smtp 
+Description-cs.UTF-8: Chytré počítače (smarthosts):
+ Toto je dvojtečkami oddělený seznam vzdálených serverů, kterým se má předávat veškerá odchozí pošta. Každá položka obsahuje jméno nebo adresu vzdáleného počítače následovanou volitelným názvem protokolu, tj. v podobě 'počítač protokol'. Implicitně se použije protokol smtp. Následovat mohou parametry daného modulu.
+ .
+ Příklady:
+ .
+   smarthost
+   smarthost smtp --port=10025
+   mail.example.com smtp --user=foo --pass=bar
+   192.168.1.254 qmqp
+   [fe80::5054:ff:fef4:ef81] smtp
+Description-da.UTF-8: Smartværter:
+ Dette er en kolonadskilt liste over eksterne servere hvortil hver besked skal sendes. Hvert punkt indeholder et eksternt værtsnavn eller adresse efterfulgt af en valgfri protokolstreng »host protocol«. Protokolnavnet er som standard smtp, og kan efterfølges af kommandolinjeargumenter for det modul.
+ .
+ Eksempler:
+ .
+   smarthost
+   smarthost smtp --port=10025
+   mail.example.com smtp --user=foo --pass=bar
+   192.168.1.254 qmqp
+   [fe80::5054:ff:fef4:ef81] smtp
+Description-de.UTF-8: Smarthosts:
+ Dies ist eine Auflistung (durch Doppelpunkte getrennt) der Server, an die jede E-Mail weitergereicht werden soll. Jeder Eintrag besteht aus einem Hostnamen oder einer IP-Adresse, optional gefolgt von dem zu verwendenden Protokoll 'host protocol'. Das Protokoll ist standardmäßig 'smtp', und kann von Kommandozeilen-Argumenten für dieses Modul gefolgt werden.
+ .
+ Beispiele:
+ .
+   smarthost
+   smarthost smtp --port=10025
+   mail.example.com smtp --user=foo --pass=bar
+   192.168.1.254 qmqp
+   [fe80::5054:ff:fef4:ef81] smtp
+Description-es.UTF-8: Equipos inteligentes (smarthosts):
+ Esta es una lista de servidores remotos separados por dos puntos, para enviarles cada mensaje. Cada entrada contiene el nombre o dirección de un equipo remoto, seguido por una cadena opcional de protocolo «protocolo de equipo». Por omisión, el nombre del protocolo es «smtp», y puede especificarse parámetros de línea de orden para ese módulo.
+ .
+ Ejemplos:
+ .
+   smarthost
+   smarthost smtp --port=10025
+   mail.example.com smtp --user=foo --pass=bar
+   192.168.1.254 qmqp
+   [fe80::5054:ff:fef4:ef81] smtp
+Description-fr.UTF-8: Machines relais :
+ Vous pouvez indiquer une liste de serveurs distants, séparés par des deux-points. Chaque entrée contient le nom d'un serveur distant où envoyer le courrier, ou une adresse suivie d'une chaîne facultative indiquant un protocole « host protocol ». Par défaut, le protocole est smtp et il peut être suivi par des arguments de la ligne de commande de ce module.
+ .
+ Exemples :
+ .
+   smarthost
+   smarthost smtp --port=10025
+   mail.example.com smtp --user=foo --pass=bar
+   192.168.1.254 qmqp
+   [fe80::5054:ff:fef4:ef81] smtp
+Description-it.UTF-8: Smarthost:
+ È un elenco, separato da due punti (":"), di server remoti a cui inviare ogni messaggio. Ogni valore contiene il nome di un host remoto o l'indirizzo seguito da una stringa facoltativa di protocollo "host protocol". Il nome predefinito del protocollo è smtp, e può essere seguito da argomenti da linea di comando per tale modulo.
+ .
+ Esempi:
+ .
+   smarthost
+   smarthost smtp --port=10025
+   mail.example.com smtp --user=foo --pass=bar
+   192.168.1.254 qmqp
+   [fe80::5054:ff:fef4:ef81] smtp
+Description-ja.UTF-8: スマートホスト:
+ これはメッセージを送る先のリモートサーバ名をコロンで区切ったリストです。それぞれのエントリは、オプションのプロトコル文字列 'host protocol' に続けてリモートホスト名かアドレスを含みます。プロトコル名は標準では smtp で、引数指定が続きます。
+ .
+ 例: 
+ .
+   smarthost
+   smarthost smtp --port=10025
+   mail.example.com smtp --user=foo --pass=bar
+   192.168.1.254 qmqp
+   [fe80::5054:ff:fef4:ef81] smtp
+Description-nl.UTF-8: Smarthosts:
+ Dit is een met dubbele punten gescheiden lijst van smarthosts (e-mailservers via welke berichten verstuurd worden). Elke ingang bevat een servernaam of adres gevolgd door een optionele protocol-string in de vorm 'computer protocol'. De protocolnaam  mag gevolgd worden door commandoregel-argumenten voor die module (de standaardwaarde voor de protocolnaam is smtp).
+ .
+ Voorbeelden:
+ .
+   smarthost
+   smarthost smtp --port=10025
+   mail.example.com smtp --user=foo --pass=bar
+   192.168.1.254 qmqp
+   [fe80::5054:ff:fef4:ef81] smtp
+Description-pt.UTF-8: Smarthosts:
+ Esta é uma lista de servidores remotos, separados por vírgula, para onde enviar cada mensagem. Cada elemento da lista indica o nome ou endereço da máquina remota seguido de uma indicação opcional do tipo 'nome protocolo'.O protocolo é por omissão smtp, e pode ser seguido por argumentos para esse módulo.
+ .
+ Exemplos:
+ .
+   smarthost
+   smarthost smtp --port=10025
+   mail.example.com smtp --user=foo --pass=bar
+   192.168.1.254 qmqp
+   [fe80::5054:ff:fef4:ef81] smtp
+Description-ru.UTF-8: Хосты-пересыльщики (smarthosts):
+ Здесь перечисляются (через двоеточие) удалённые серверы, которым будут посылаться все ваши сообщения. Можно указывать имя машины или IP-адрес; также можно добавлять тип протокола (в форме 'машина протокол'). Название протокола по умолчанию -- smtp; его можно указать после параметров командной строки этого модуля.
+ .
+ Примеры:
+ .
+   smarthost
+   smarthost smtp --port=10025
+   mail.example.com smtp --user=foo --pass=bar
+   192.168.1.254 qmqp
+   [fe80::5054:ff:fef4:ef81] smtp
+Description-sv.UTF-8: Smarthosts:
+ Detta ï¿½r en kolon-separerad lista av fjï¿½rrservrar dit varje meddelande ska skickas. Varje inlï¿½gg innehï¿½ller ett fjï¿½rrvï¿½rdnamn eller address fï¿½ljt av en valfri protokollstrï¿½ng 'host protocol'. Standard fï¿½r protokollnamnet ï¿½r smtp och kan fï¿½ljas av ett kommandoargument fï¿½r den modulen.
+ .
+ Exempel:
+ .
+   smarthost
+   smarthost smtp --port=10025
+   mail.example.com smtp --user=foo --pass=bar
+   192.168.1.254 qmqp
+   [fe80::5054:ff:fef4:ef81] smtp
+Description-vi.UTF-8: Máy khéo :
+ Giá trị này là một danh sách định giới bằng dấu hai chấm chứa các máy phục vụ từ xa cho chúng cần gửi mỗi thư. Mỗi mục nhập chứa một tên máy từ xa hoặc địa chỉ, với mộ chuôi giao diện vẫn tùy chọn « host protocol ». Tên giao thức mặc định là « smtp », mà cũng chấp nhận các đối số dòng lệnh thích hợp với mô-đun đó.
+ .
+ Ví dụ :
+ .
+   smarthost
+   smarthost smtp --port=10025
+   mail.example.com smtp --user=foo --pass=bar
+   192.168.1.254 qmqp
+   [fe80::5054:ff:fef4:ef81] smtp
+
+Template: nullmailer/adminaddr
+Type: string
+Description: Where to send local emails (optional):
+ If not empty, all recipients to users at either 'localhost' (the literal
+ string) or the canonical host name (from /etc/mailname) are remapped to
+ this address. This is provided to allow local daemons to be able to send
+ email to 'somebody@localhost' and have it go somewhere sensible instead of
+ being bounced by your relay host.
+Description-cs.UTF-8: Kam posílat místní emaily (volitelné):
+ Pokud je neprázdné, všechny emaily, jejichž příjemce je na počítači 'localhost' nebo na kanonickém jméně počítače (bráno podle /etc/mailname), budou přesměrovány na zadanou adresu. To je proto, aby mohly místní programy posílat zprávy pro 'někdo@localhost', které nám jinak 'chytrý počítač' vracel zpět.
+Description-da.UTF-8: Hvor at sende lokal e-post (valgfri):
+ Hvis ikke tom videresendes alle modtagere til brugere på enten »localhost« (den ordrette streng) eller det kanoniske værtsnavn (fra /etc/mailname) til denne adresse. Dette tilbydes for at gøre det muligt for lokale dæmoner at være i stand til at sende e-post til »enellernanden@localhost« og lade den gå til et fornuftigt sted i stedet for at blive afvist i din relævært.
+Description-de.UTF-8: An welche Adresse sollen lokale E-Mails umgeleitet werden (optional)?
+ Tragen Sie hier etwas ein, werden E-Mails an Nutzer entweder an 'localhost' an den kanonischen Hostnamen aus /etc/mailname zu der angegebenen Adresse umgeschrieben. Dies gestattet es lokalen Prozessen, E-Mails an 'somebody@localhost' zu schicken, so daß diese an eine sinnvolle Adresse weitergeleitet werden, anstatt vom Relay-Host abgewiesen zu werden.
+Description-es.UTF-8: A dónde enviar los correos locales (opcional):
+ Si no vacía, todo lo que está destinado a usuarios en «localhost» (la cadena literal) o el nombre canónico del equipo (desde «/etc/mailname») son remapeados a esta dirección. Se proporciona para permitir a los demonios locales sean capaces de enviar correos electrónicos a «quiensea@localhost» y hacer que vayan a algún sitio apropiado en vez que se los devuelva su equipo retransmisor.
+Description-fr.UTF-8: Adresse où envoyer les courriers locaux (facultatif) :
+ Si cette adresse est donnée, tous les destinataires de courriers appartenant à la machine dont le nom est soit « localhost », ou soit le nom de courrier (renseigné par /etc/mailname), sont associés à cette adresse. Les démons locaux peuvent ainsi envoyer des courriers à une adresse sensée, comme « compte@localhost ». Cela évite que le courrier soit renvoyé par la machine relais.
+Description-it.UTF-8: Dove inviare e-mail locali (facoltativo):
+ Se non vuoto, tutti i destinatari di utenti a "localhost" (la stringa letterale) o il nome canonico dell'host (da "/etc/mailname") vengono ri-mappati a questo indirizzo. Questo per consentire ai demoni locali di inoltrare al corretto destinatario le email indirizzate a «qualcuno@localhost», anziché farle respingere dal proprio host di relay.
+Description-ja.UTF-8: どのアドレスにローカルのメールを送るか (オプション):
+ この値が空で無い場合、'localhost' (リテラル文字列)、または正規のホスト名 (/etc/mailname から取得されます) のユーザ宛のメールは全てこのアドレスに書き換えられます。これはローカルのデーモンに対して 'somebody@localhost' へのメールを送信可能にし、あなたが指定したリレーホストへバウンスするのではなく、別のどこかへ送ります。
+Description-nl.UTF-8: Waar wilt u lokale e-mails heen zenden (optioneel):
+ Wanneer dit niet leeg is wordt alle e-mail naar gebruikers van 'localhost' (deze letterlijke string) of de canonieke computernaam (van /etc/mailname) omgeleid naar dit adres. Dit is voorzien om lokale achtergronddiensten toe te laten e-mail te versturen naar 'iemand@localhost' en dit op een redelijke plaats af te leveren, i.p.v. dat deze door de smarthost teruggestuurd worden.
+Description-pt.UTF-8: Para onde enviar o email local (opcional):
+ Se não estiver vazio, todos os destinatários em 'localhost' ou o nome da máquina (retirado de /etc/mailname) são mapeados neste endereço. Isto serve para permitir que os deamons locais sejam capazes de enviar email para 'alguem@localhost' e chegar a um destino razoável em vez de serem retornados pelo servidor de mail.
+Description-ru.UTF-8: Адрес отправления локальной электронной почты (необязательно):
+ Если значение задано, то все письма, у которых в получателе указаны пользователи 'localhost' (буквенная строка) или машины, заданной каноническим именем (из /etc/mailname), пересылаются на этот адрес. Это позволяет локальным службам отправлять почту на 'somebody@localhost' и получить её где нужно, а не потерять в машине пересылки (relay).
+Description-sv.UTF-8: Till vilken address ska lokala e-postmeddelanden skickas (valfri)?
+ Om den inte ï¿½r tom, kommer alla mottagare till anvï¿½ndare pï¿½ antingen 'localhost' (strï¿½ngen literal) eller det kanoniska vï¿½rdnamnet (frï¿½n /etc/mailname) att kopplas till denna address. Detta ges fï¿½r att tillï¿½ta lokala daemoner att skicka e-post till ''vemsomhelst@localhost' och fï¿½ det att gï¿½ nï¿½gonstans istï¿½llet fï¿½r att studsas tillbaka frï¿½n din e-postgateway.
+Description-vi.UTF-8: Gửi thư cục bộ cho đâu (tùy chọn):
+ Nếu giá trị này không trống, mọi người đều nhận thư từ người dùng ở hoặc « localhost » hoặc tên máy chuẩn tắc (từ « /etc/mailman ») thì được ánh xạ tới địa chỉ này. Tính năng này được cung cấp để cho phép trình nền cục bộ gửi thư điện tử cho « người_nào@localhost » và cho nó tới một nơi có ích, thay vào bị nhảy bởi máy tiếp lại.

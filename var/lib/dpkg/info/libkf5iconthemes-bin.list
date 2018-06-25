@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/bin
+/usr/bin/kiconfinder5
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libkf5iconthemes-bin
+/usr/share/doc
+/usr/share/doc/libkf5iconthemes-bin
+/usr/share/doc/libkf5iconthemes-bin/copyright
+/usr/share/doc/libkf5iconthemes-bin/changelog.Debian.gz

@@ -1,0 +1,5 @@
+8c6f545586e279517c4d1fb8666ce30c  usr/sbin/in.fingerd
+0f9a3512586555fd7b592451950c7b7a  usr/share/doc/fingerd/changelog.Debian.gz
+c8494556e6680f6fc64be38851f4000c  usr/share/doc/fingerd/copyright
+6283ed547884bf78569cf0c0364ab83f  usr/share/doc/fingerd/examples/finger.xinetd
+170bae4056de1c46edf4c3b11e31c628  usr/share/man/man8/in.fingerd.8.gz

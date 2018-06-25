@@ -1,0 +1,11 @@
+5ad83f72833b92f0ff6b18b729684c15  usr/bin/audacity
+c03f932485eb2fe45331fe1893e3c5d9  usr/lib/mime/packages/audacity
+c5ed0402751ac71c459ab91aa3e3e28f  usr/share/applications/audacity.desktop
+235db1f92bbaf9b027574f6e92d65569  usr/share/apport/package-hooks/source_audacity.py
+4966c29d22e739d8e7edc34289abe983  usr/share/doc/audacity/NEWS.Debian.gz
+7a7aa2fa20ec263d8752851098d8babe  usr/share/doc/audacity/README.txt.gz
+56dc9b2a581e06f506e9b8f1464a51f3  usr/share/doc/audacity/changelog.Debian.gz
+2571356ef2a67f83d6e44e2f3915b0b3  usr/share/doc/audacity/copyright
+d7b256be821b9f37db96df3ed99f4e99  usr/share/man/man1/audacity.1.gz
+01640700d26f87cdbf0256271b94da67  usr/share/pixmaps/audacity16.xpm
+03a99fa0c8c0eb0ffd44a7d1c5e217bd  usr/share/pixmaps/audacity32.xpm

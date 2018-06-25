@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/nodejs
+/usr/lib/nodejs/forever-agent
+/usr/lib/nodejs/forever-agent/index.js
+/usr/share
+/usr/share/doc
+/usr/share/doc/node-forever-agent
+/usr/share/doc/node-forever-agent/README.md
+/usr/share/doc/node-forever-agent/copyright
+/usr/share/doc/node-forever-agent/changelog.Debian.gz

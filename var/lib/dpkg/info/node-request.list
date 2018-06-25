@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/node-request
+/usr/share/doc/node-request/changelog.Debian.gz
+/usr/share/doc/node-request/copyright
+/usr/lib
+/usr/lib/nodejs
+/usr/lib/nodejs/request
+/usr/lib/nodejs/request/index.js

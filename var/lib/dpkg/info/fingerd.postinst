@@ -1,0 +1,33 @@
+#!/bin/sh
+
+set -e
+
+enable_if_alone() {
+	if ! grep -q ^finger /etc/inetd.conf; then
+		update-inetd --pattern /usr/sbin/in\\.fingerd --enable finger
+	fi
+}
+
+case "$1" in
+abort-upgrade | abort-deconfigure | abort-remove)
+	enable_if_alone
+	;;
+configure)
+	if [ -n "$2" ]; then
+		enable_if_alone
+	else
+		fingerentry="finger		stream	tcp	nowait	nobody	/usr/sbin/tcpd	/usr/sbin/in.fingerd"
+		if grep -q ^finger /etc/inetd.conf; then
+			update-inetd --group INFO --add "#$fingerentry"
+		else
+			update-inetd --group INFO --add "$fingerentry"
+		fi
+	fi
+	;;
+*)
+	printf "$0: incorrect arguments: $*\n" >&2
+	exit 1
+	;;
+esac
+
+

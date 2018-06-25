@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/polkit-1
+/usr/share/polkit-1/actions
+/usr/share/polkit-1/actions/org.freedesktop.policykit.pkexec.run-plainbox-job.policy
+/usr/share/doc
+/usr/share/doc/plainbox-secure-policy
+/usr/share/doc/plainbox-secure-policy/copyright
+/usr/share/doc/plainbox-secure-policy/changelog.Debian.gz

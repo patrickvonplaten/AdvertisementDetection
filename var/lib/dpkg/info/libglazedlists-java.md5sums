@@ -1,0 +1,8 @@
+e416ac6101f6927166c9f2e5f1d9d36a  usr/share/doc/libglazedlists-java/NEWS.Debian.gz
+dbb96a38ce4dc44c3e8812c78a271b03  usr/share/doc/libglazedlists-java/changelog.Debian.gz
+de309d2118edb6ce06a6ef6c8bda72a8  usr/share/doc/libglazedlists-java/copyright
+d2924cbb30bc381c218ea736ea2a24e6  usr/share/doc/libglazedlists-java/readme.html
+f57faf0767647e0ec947824a32b73658  usr/share/java/glazedlists_java15-1.9.0.jar
+a94830426db8db0a59c44a905f53a483  usr/share/lintian/overrides/libglazedlists-java
+717c345d2276ebad5453b94b054431df  usr/share/maven-repo/net/java/dev/glazedlists/glazedlists_java15/1.9.0/glazedlists_java15-1.9.0.pom
+ade93d556ca5c882cc402f1d5f03785a  usr/share/maven-repo/net/java/dev/glazedlists/glazedlists_java15/debian/glazedlists_java15-debian.pom

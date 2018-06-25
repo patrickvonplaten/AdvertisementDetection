@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libtelepathy-farstream3
+/usr/share/doc/libtelepathy-farstream3/changelog.Debian.gz
+/usr/share/doc/libtelepathy-farstream3/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libtelepathy-farstream.so.3.0.1
+/usr/lib/x86_64-linux-gnu/libtelepathy-farstream.so.3

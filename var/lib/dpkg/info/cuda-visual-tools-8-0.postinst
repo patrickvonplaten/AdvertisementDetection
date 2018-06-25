@@ -1,0 +1,46 @@
+#! /bin/sh
+
+set -e
+
+DESKTOP_DIR=/usr/share/applications
+
+case "$1" in
+    configure)
+        mkdir -p $DESKTOP_DIR
+
+        cat <<'EOM' > $DESKTOP_DIR/nsight.desktop
+[Desktop Entry]
+Type=Application
+Name=Nsight Eclipse Edition
+GenericName=Nsight Eclipse Edition
+Icon=/usr/local/cuda-8.0/libnsight/icon.xpm
+Exec=/usr/local/cuda-8.0/bin/nsight
+TryExec=/usr/local/cuda-8.0/bin/nsight
+Keywords=cuda;gpu;nvidia;debugger;
+X-AppInstall-Keywords=cuda;gpu;nvidia;debugger;
+X-GNOME-Keywords=cuda;gpu;nvidia;debugger;
+Terminal=No
+Categories=Development;IDE;Debugger;ParallelComputing
+EOM
+
+        cat <<'EOM' > $DESKTOP_DIR/nvvp.desktop
+[Desktop Entry]
+Type=Application
+Name=NVIDIA Visual Profiler
+GenericName=NVIDIA Visual Profiler
+Icon=/usr/local/cuda-8.0/libnvvp/icon.xpm
+Exec=/usr/local/cuda-8.0/bin/nvvp
+TryExec=/usr/local/cuda-8.0/bin/nvvp
+Keywords=nvvp;cuda;gpu;nsight;
+X-AppInstall-Keywords=nvvp;cuda;gpu;nsight;
+X-GNOME-Keywords=nvvp;cuda;gpu;nsight;
+Terminal=No
+Categories=Development;Profiling;ParallelComputing
+EOM
+
+        ;;
+esac
+
+
+
+exit 0

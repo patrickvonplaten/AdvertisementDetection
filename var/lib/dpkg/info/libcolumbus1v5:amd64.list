@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcolumbus1v5
+/usr/share/doc/libcolumbus1v5/hacking.txt
+/usr/share/doc/libcolumbus1v5/copyright
+/usr/share/doc/libcolumbus1v5/changelog.Debian.gz
+/usr/share/doc/libcolumbus1v5/readme.txt
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libcolumbus.so.1.1.0
+/usr/lib/x86_64-linux-gnu/libcolumbus.so.1

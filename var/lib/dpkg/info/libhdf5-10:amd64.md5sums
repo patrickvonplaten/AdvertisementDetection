@@ -1,0 +1,7 @@
+faf6b5726a026536e427599650e92350  usr/lib/x86_64-linux-gnu/libhdf5_serial.so.10.1.0
+54669f5d4fb5181809334db9e0969b15  usr/lib/x86_64-linux-gnu/libhdf5_serial_fortran.so.10.0.2
+856d6425179b52fd857d33149ba6330a  usr/lib/x86_64-linux-gnu/libhdf5_serial_hl.so.10.0.2
+cf0ec1824ef566686a533eda449f33d7  usr/lib/x86_64-linux-gnu/libhdf5_serialhl_fortran.so.10.0.2
+e43289b4b93e236dcd74e5358d21c2be  usr/share/doc/libhdf5-10/changelog.Debian.gz
+991c1bcaa9b3097184de712a4629f8bf  usr/share/doc/libhdf5-10/copyright
+62fe31ac9171dae0837e795f873ee234  usr/share/lintian/overrides/libhdf5-10

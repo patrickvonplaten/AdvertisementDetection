@@ -1,0 +1,4 @@
+63d015fca71d9f6872bc1f3619781b10  usr/lib/x86_64-linux-gnu/libQt5Quick.so.5.5.1
+ed7da9e5d457621b26ff713a6c7a1eca  usr/lib/x86_64-linux-gnu/qt5/plugins/qmltooling/libqmldbg_qtquick2.so
+ea2e36844978df79b4a048ca5bca5bee  usr/share/doc/libqt5quick5/copyright
+11c55b12d5f2eed4763d6c0d9d5b2bf7  usr/share/lintian/overrides/libqt5quick5

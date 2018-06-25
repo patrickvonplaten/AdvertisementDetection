@@ -1,0 +1,27 @@
+name=armenian lefthyphenmin=1 righthyphenmin=2 file=loadhyph-hy.tex file_patterns=hyph-hy.pat.txt file_exceptions=
+name=bokmal synonyms=norwegian,norsk lefthyphenmin=2 righthyphenmin=2 file=loadhyph-nb.tex file_patterns=hyph-nb.pat.txt file_exceptions=hyph-nb.hyp.txt
+name=classiclatin lefthyphenmin=2 righthyphenmin=2 file=loadhyph-la-x-classic.tex file_patterns=hyph-la-x-classic.pat.txt file_exceptions=
+name=croatian lefthyphenmin=2 righthyphenmin=2 file=loadhyph-hr.tex file_patterns=hyph-hr.pat.txt file_exceptions=
+name=danish lefthyphenmin=2 righthyphenmin=2 file=loadhyph-da.tex file_patterns=hyph-da.pat.txt file_exceptions=
+name=dutch lefthyphenmin=2 righthyphenmin=2 file=loadhyph-nl.tex file_patterns=hyph-nl.pat.txt file_exceptions=hyph-nl.hyp.txt
+name=estonian lefthyphenmin=2 righthyphenmin=3 file=loadhyph-et.tex file_patterns=hyph-et.pat.txt file_exceptions=
+name=finnish lefthyphenmin=2 righthyphenmin=2 file=loadhyph-fi.tex file_patterns=hyph-fi.pat.txt file_exceptions=
+name=friulan lefthyphenmin=2 righthyphenmin=2 file=loadhyph-fur.tex file_patterns=hyph-fur.pat.txt file_exceptions=
+name=hungarian lefthyphenmin=2 righthyphenmin=2 file=loadhyph-hu.tex file_patterns=hyph-hu.pat.txt file_exceptions=
+name=icelandic lefthyphenmin=2 righthyphenmin=2 file=loadhyph-is.tex file_patterns=hyph-is.pat.txt file_exceptions=
+name=irish lefthyphenmin=2 righthyphenmin=3 file=loadhyph-ga.tex file_patterns=hyph-ga.pat.txt file_exceptions=hyph-ga.hyp.txt
+name=kurmanji lefthyphenmin=2 righthyphenmin=2 file=loadhyph-kmr.tex file_patterns=hyph-kmr.pat.txt file_exceptions=
+name=latin lefthyphenmin=2 righthyphenmin=2 file=loadhyph-la.tex file_patterns=hyph-la.pat.txt file_exceptions=
+name=latvian lefthyphenmin=2 righthyphenmin=2 file=loadhyph-lv.tex file_patterns=hyph-lv.pat.txt file_exceptions=
+name=lithuanian lefthyphenmin=2 righthyphenmin=2 file=loadhyph-lt.tex file_patterns=hyph-lt.pat.txt file_exceptions=
+name=liturgicallatin lefthyphenmin=2 righthyphenmin=2 file=loadhyph-la-x-liturgic.tex file_patterns=hyph-la-x-liturgic.pat.txt file_exceptions=
+name=nynorsk lefthyphenmin=2 righthyphenmin=2 file=loadhyph-nn.tex file_patterns=hyph-nn.pat.txt file_exceptions=hyph-nn.hyp.txt
+name=occitan lefthyphenmin=2 righthyphenmin=2 file=loadhyph-oc.tex file_patterns=hyph-oc.pat.txt file_exceptions=
+name=piedmontese lefthyphenmin=2 righthyphenmin=2 file=loadhyph-pms.tex file_patterns=hyph-pms.pat.txt file_exceptions=
+name=romanian lefthyphenmin=2 righthyphenmin=2 file=loadhyph-ro.tex file_patterns=hyph-ro.pat.txt file_exceptions=
+name=romansh lefthyphenmin=2 righthyphenmin=2 file=loadhyph-rm.tex file_patterns=hyph-rm.pat.txt file_exceptions=
+name=slovenian synonyms=slovene lefthyphenmin=2 righthyphenmin=2 file=loadhyph-sl.tex file_patterns=hyph-sl.pat.txt file_exceptions=
+name=swedish lefthyphenmin=2 righthyphenmin=2 file=loadhyph-sv.tex file_patterns=hyph-sv.pat.txt file_exceptions=
+name=turkish lefthyphenmin=2 righthyphenmin=2 file=loadhyph-tr.tex file_patterns=hyph-tr.pat.txt file_exceptions=
+name=uppersorbian lefthyphenmin=2 righthyphenmin=2 file=loadhyph-hsb.tex file_patterns=hyph-hsb.pat.txt file_exceptions=hyph-hsb.hyp.txt
+name=welsh lefthyphenmin=2 righthyphenmin=3 file=loadhyph-cy.tex file_patterns=hyph-cy.pat.txt file_exceptions=

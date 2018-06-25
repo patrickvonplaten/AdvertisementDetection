@@ -1,0 +1,10 @@
+7af6872c11bde10850c6467a10dc5b59  usr/bin/sox
+e819dc4c54ba4d1d99c8166f6d1b9f4f  usr/lib/mime/packages/sox
+d0973eded1f4dba0ea619843efed9637  usr/share/doc/sox/NEWS.gz
+b667de09b347c83a7f7d2f83750a79b0  usr/share/doc/sox/README.Debian
+f375a145855f0181ef30d343e607d4e7  usr/share/doc/sox/README.gz
+fe577fdae2088a4998c424348eb6ec2b  usr/share/doc/sox/README.source
+6f13bb58fadb8ff27605ea1ee7a1519e  usr/share/doc/sox/copyright
+28051b66e9848f5040e0a146edce5792  usr/share/man/man1/sox.1.gz
+29d90e3c0715854a8f17e0192d740d76  usr/share/man/man1/soxi.1.gz
+5f5ac292acf456ec7466ae36474590ab  usr/share/man/man7/soxformat.7.gz

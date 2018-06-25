@@ -1,0 +1,4 @@
+4dd596c70c0209a205d55a47eb60193f  usr/include/xcb/dri3.h
+9a30fd393ae8161060ea6d0b858ea87d  usr/lib/x86_64-linux-gnu/libxcb-dri3.a
+3afd3ad8f76b0b4335245c9abe1ab0ac  usr/lib/x86_64-linux-gnu/pkgconfig/xcb-dri3.pc
+360fadb0d222af6607a189d435e3a9f3  usr/share/doc/libxcb-dri3-dev/copyright

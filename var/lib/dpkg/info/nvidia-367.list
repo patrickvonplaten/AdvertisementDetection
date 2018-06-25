@@ -1,0 +1,8 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/nvidia-367
+/usr/share/doc/nvidia-367/copyright
+/usr/share/doc/nvidia-367/changelog.Debian.gz
+/etc/modprobe.d/nvidia-367_hybrid.conf

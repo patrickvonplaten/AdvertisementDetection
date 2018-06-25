@@ -1,0 +1,12 @@
+4ce61fc22a981357b08e12a88311c4fd  lib/x86_64-linux-gnu/libnss_mdns.so.2
+52926b66932c168b7c567fad0f68c79c  lib/x86_64-linux-gnu/libnss_mdns4.so.2
+31f5faf239a691c5b5e8e46b03c64ff2  lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+afdf429eec4ed35f1e4ff018286d54ed  lib/x86_64-linux-gnu/libnss_mdns6.so.2
+d51209f4170ae66c91b928e042390fc8  lib/x86_64-linux-gnu/libnss_mdns6_minimal.so.2
+edc8e496fe5b1bf64862e223f952897f  lib/x86_64-linux-gnu/libnss_mdns_minimal.so.2
+66971c5f8e5eddfbbce3b3fc50d133df  usr/share/doc/libnss-mdns/README.Debian
+899020b902cd8351f77ccdb1e9df604d  usr/share/doc/libnss-mdns/README.html
+3a9fe268fb98034faa8d6f0dfdc2b439  usr/share/doc/libnss-mdns/changelog.Debian.gz
+febfd1a9ece9ac41ddc15a4a604c458b  usr/share/doc/libnss-mdns/copyright
+8a90c4577b8e37202aea4bc99dfe41a3  usr/share/doc/libnss-mdns/style.css
+463aee065c7827f716f83708de925f28  usr/share/lintian/overrides/libnss-mdns

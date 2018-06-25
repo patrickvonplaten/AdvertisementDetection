@@ -1,0 +1,58 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installtex
+##
+## postinst-texlsr
+##
+## postinst snippets for calling maketexlsr, update-*
+##
+## Authors:
+##       Florent Rougon <f.rougon@free.fr>
+##       Norbert Preining <preining@logic.at>
+##
+#
+
+
+#
+#
+dhit_libkpathsea_configured ()
+{
+    kpsewhich --version >/dev/null 2>&1
+}
+
+dhit_update_lsr_files ()
+{
+    tempfile=$(mktemp -p /tmp mktexlsr.XXXXXXXX)
+    printf "Running mktexlsr. This may take some time... "
+    if mktexlsr /usr/share/texmf /var/lib/texmf > $tempfile 2>&1 ; then
+        rm -f $tempfile
+        echo "done."
+    else
+        exec >&2
+        echo
+        echo "mktexlsr failed. Output has been stored in"
+        echo "$tempfile"
+        echo "Please include this file if you report a bug."
+        echo
+        exit 1
+    fi
+}
+
+case "$1" in
+    configure|abort-upgrade|abort-remove|abort-deconfigure)
+        update-updmap --quiet
+        update-language
+        update-fmtutil
+        if dhit_libkpathsea_configured; then
+            if which mktexlsr >/dev/null; then
+                dhit_update_lsr_files
+            fi
+        fi
+    ;;
+
+    *)
+        echo "postinst called with unknown argument '$1'" >&2
+        exit 1
+    ;;
+esac
+# End automatically added section

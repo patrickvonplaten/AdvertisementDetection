@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/texmf/updmap.d/20latex-cjk-thai.cfg 4.8.2+git20111216-1 -- "$@"
+# End automatically added section
+# Automatically added by dh_installemacsen
+if [ -e /var/lib/emacsen-common/state/package/installed/emacsen-common -a -x /usr/lib/emacsen-common/emacs-package-remove ] ; then
+	/usr/lib/emacsen-common/emacs-package-remove --prerm latex-cjk-thai
+fi
+# End automatically added section

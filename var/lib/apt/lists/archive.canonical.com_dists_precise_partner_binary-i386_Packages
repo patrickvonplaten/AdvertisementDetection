@@ -1,0 +1,626 @@
+Package: acroread
+Priority: extra
+Section: text
+Installed-Size: 65
+Maintainer: Brian Thomason <brian.thomason@canonical.com>
+Architecture: i386
+Version: 9.5.5-1precise1
+Depends: debconf (>= 0.5) | debconf-2.0, acroread-bin
+Filename: pool/partner/a/acroread/acroread_9.5.5-1precise1_i386.deb
+Size: 16298
+MD5sum: c11e8498e4bd76a0019670b0f516b266
+SHA1: db45d8f2b109c3db12b52f2d33136a7bcdb8d9f3
+SHA256: 8378bbdf42637ae55067b5105da0e49ce167d7147785df4833380dda90e3e2c2
+Description: Adobe Reader
+Description-md5: 70ff2a132a9e03845b5d0314da32f2de
+
+Package: db2exc
+Priority: optional
+Section: devel
+Installed-Size: 657932
+Maintainer: DB2 Express-C Community <askdata@ca.ibm.com>
+Architecture: i386
+Version: 9.7.5-0lucid1
+Depends: libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1), libncurses5 (>= 5.6+20071006-3), libstdc++6 (>= 4.1.1), adduser, bc, ksh, libaio1, libx11-dev, libasound2-dev
+Filename: pool/partner/d/db2exc/db2exc_9.7.5-0lucid1_i386.deb
+Size: 289782282
+MD5sum: 8105da65212953000538db2fe9f3eb6f
+SHA1: b1c91b7b27f2a6c7d93741d494bceb759d1b4f52
+SHA256: 09fa7febbda68228c2ccd5ee4b4ed7300f0a3ea6cf552eb0e23b40d99c3b7244
+Description: DB2 Express-C Edition 9.7 Fix Pack 5 for Linux
+Description-md5: 5aff68b23273813166db7fd54e348b2b
+
+Package: skype
+Priority: extra
+Section: net
+Installed-Size: 61
+Maintainer: Steve Langasek <steve.langasek@canonical.com>
+Architecture: i386
+Version: 4.3.0.37-0ubuntu0.12.04.1
+Depends: skype-bin
+Filename: pool/partner/s/skype/skype_4.3.0.37-0ubuntu0.12.04.1_i386.deb
+Size: 16092
+MD5sum: a81bc08ab068e7dfc9419b2927a0fc5c
+SHA1: 0a1918955096b5c7bcdba3d252b0174886c8a1a2
+SHA256: 0681e35e59c2f784b12e162ab87146b06d1be2849cfac4f67c49c9e0ea2e7b3e
+Description: client for Skype VOIP and instant messaging service
+Description-md5: a398bc8cee97c4027d64bae3fa223f58
+
+Package: adobe-flashplugin
+Priority: optional
+Section: web
+Installed-Size: 29677
+Maintainer: DL-Flash Player Ubuntu <FlashPlayerUbuntu@adobe.com>
+Architecture: i386
+Version: 1:20170411.1-0ubuntu0.12.04.1
+Recommends: adobe-flash-properties-gtk (= 1:20170411.1-0ubuntu0.12.04.1) | adobe-flash-properties-kde (= 1:20170411.1-0ubuntu0.12.04.1)
+Replaces: flashplugin (<< 6)
+Suggests: firefox | chromium-browser, x-ttcidfont-conf, msttcorefonts, ttf-bitstream-vera | ttf-dejavu, ttf-xfree86-nonfree, xfs (>= 1:1.0.1-5), libnspr4-0d, libnss3-1d
+Provides: flashplugin-nonfree
+Depends: wget, fontconfig, libc6 (>= 2.11), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.22.0), libgtk2.0-0 (>= 2.24.0), libpango1.0-0 (>= 1.14.0), libstdc++6 (>= 4.3), libx11-6, libxt6
+Conflicts: flashplayer-mozilla, flashplugin (<< 6), flashplugin-downloader, flashplugin-installer, xfs (<< 1:1.0.1-5)
+Filename: pool/partner/a/adobe-flashplugin/adobe-flashplugin_20170411.1-0ubuntu0.12.04.1_i386.deb
+Size: 11482606
+MD5sum: c592cccd0af15315e2a460b191c9cf0c
+SHA1: 085aa5091320cd4ac13cf51d5bec2abf7719806a
+SHA256: 0ef5f1d48a07571ab9e397f2733ddf7101662f25df54d916a4d7e3edb455b4cb
+Description: Adobe Flash Player plugin
+Description-md5: 4414ca68dbd37fdc3008c70a8a107946
+Npp-File: libflashplayer.so
+Npp-Mimetype: application/x-shockwave-flash
+Npp-Applications: ec8030f7-c20a-464f-9b0e-13a3a9e97384, 92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a, aa5ca914-c309-495d-91cf-3141bbb04115
+Npp-Description: Adobe Flash Plugin (http://www.adobe.com)
+Npp-Name: Adobe Flash Plugin
+
+Package: eucalyptus-common
+Source: eucalyptus
+Priority: extra
+Section: admin
+Installed-Size: 2247
+Maintainer: Brian Thomason <brian.thomason@eucalyptus.com>
+Architecture: i386
+Version: 3.1.0+deps-0precise3
+Recommends: python-boto (>= 2.1), unzip
+Replaces: eucalyptus-sc (<< 3.1.0+deps-0precise3)
+Provides: eucalyptus-common-2273d7fc
+Depends: libc6 (>= 2.1), adduser, openssh-server, openssh-client, sudo, rsync, postgresql-client-9.1, python (>= 2.5), eucalyptus-admin-tools (= 3.1.0+deps-0precise3), python-pygresql
+Breaks: eucalyptus-sc (<< 3.1.0+deps-0precise3)
+Filename: pool/partner/e/eucalyptus/eucalyptus-common_3.1.0+deps-0precise3_i386.deb
+Size: 219632
+MD5sum: 030e6d559d03fb7f20d909786d03c81c
+SHA1: f07cf9f27393ddc13d963d0e91028ca7d3a6f2af
+SHA256: 07d063cf2255da1d59096760cf81c9c6f262e760299eb92612ed9222c61bf3a6
+Description: Elastic Utility Computing Architecture - Common files
+Description-md5: f15c09d0750ff9ebf9d78056d6fb1454
+
+Package: eucalyptus-cloud
+Source: eucalyptus
+Priority: extra
+Section: admin
+Installed-Size: 73
+Maintainer: Brian Thomason <brian.thomason@eucalyptus.com>
+Architecture: i386
+Version: 3.1.0+deps-0precise3
+Recommends: python-boto (>= 2.1), postfix | mail-transport-agent
+Replaces: eucalyptus-cc (<< 1.6), eucalyptus-java-common (<< 3.1), eucalyptus-sc (<< 1.6), eucalyptus-walrus (<< 1.6)
+Provides: eucalyptus-cloud-2273d7fc
+Depends: eucalyptus-common (= 3.1.0+deps-0precise3), eucalyptus-java-common (= 3.1.0+deps-0precise3), python-eucadmin (= 3.1.0+deps-0precise3), lvm2, euca2ools (>= 2.0), libgetargs-long-perl, eucalyptus-admin-tools (= 3.1.0+deps-0precise3), postgresql-9.1, bc, ttf-dejavu-core, ttf-dejavu-extra
+Breaks: eucalyptus-java-common (<< 3.1)
+Filename: pool/partner/e/eucalyptus/eucalyptus-cloud_3.1.0+deps-0precise3_i386.deb
+Size: 14124
+MD5sum: b86d1d830f6e1c542738ba634e965b74
+SHA1: 054b959b383a61808848c0240973945653340906
+SHA256: 3ed5c96ca48a2c813321c383525642682d74ae01188352594156c038727ed9b9
+Description: Elastic Utility Computing Architecture - Cloud controller
+Description-md5: 8e35e5adf0e562ed305c45436b87a20a
+
+Package: eucalyptus-cc
+Source: eucalyptus
+Priority: extra
+Section: admin
+Installed-Size: 9690
+Maintainer: Brian Thomason <brian.thomason@eucalyptus.com>
+Architecture: i386
+Version: 3.1.0+deps-0precise3
+Recommends: vtun, libpam-modules (>= 1.0.1-9ubuntu3)
+Provides: eucalyptus-cc-2273d7fc
+Depends: libaxis2c0, libc6 (>= 2.7), libcurl3 (>= 7.16.2-1), librampart0 (>= 1.3.0-1euca2), libssl1.0.0 (>= 1.0.0), eucalyptus-common (= 3.1.0+deps-0precise3), apache2, libapache2-mod-axis2c, eucalyptus-gl (= 3.1.0+deps-0precise3), bridge-utils, vlan, dhcp3-server, iptables, eucalyptus-admin-tools (= 3.1.0+deps-0precise3)
+Conflicts: apache2-mpm-itk
+Filename: pool/partner/e/eucalyptus/eucalyptus-cc_3.1.0+deps-0precise3_i386.deb
+Size: 2004858
+MD5sum: 6c37674cb40e548101b88dc559681b71
+SHA1: a101a018fd688747898dfa13aa4b438463f238f9
+SHA256: b8f5282c6033056458a63f6b810e74d16e575de7aa1b5086c1c375f99f0b8f03
+Description: Elastic Utility Computing Architecture - Cluster controller
+Description-md5: 2b5c9ea2b040155803214597481a67e0
+
+Package: eucalyptus-nc
+Source: eucalyptus
+Priority: extra
+Section: admin
+Installed-Size: 2518
+Maintainer: Brian Thomason <brian.thomason@eucalyptus.com>
+Architecture: i386
+Version: 3.1.0+deps-0precise3
+Recommends: vlan, bridge-utils, qemu-kvm
+Replaces: eucalyptus-common
+Provides: eucalyptus-nc-2273d7fc
+Depends: libaxis2c0, libc6 (>= 2.7), libcurl3 (>= 7.16.2-1), librampart0 (>= 1.3.0-1euca2), libssl1.0.0 (>= 1.0.0), libvirt0 (>= 0.3.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), eucalyptus-common (= 3.1.0+deps-0precise3), apache2-mpm-worker | apache2-mpm-prefork, libapache2-mod-axis2c, eucalyptus-gl (= 3.1.0+deps-0precise3), adduser, parted, libvirt-bin, open-iscsi, libcrypt-openssl-random-perl, libcrypt-openssl-rsa-perl, libcrypt-x509-perl, euca2ools (>= 1.4~), libdevmapper, eucalyptus-admin-tools (= 3.1.0+deps-0precise3), file, rsync
+Conflicts: apache2-mpm-itk, qemu (<< 0.11.0-0)
+Filename: pool/partner/e/eucalyptus/eucalyptus-nc_3.1.0+deps-0precise3_i386.deb
+Size: 598138
+MD5sum: eec136789588b4e65748f715e25010d3
+SHA1: db79e388a5e7afcf5b2db51e91c58aa1423a0f1c
+SHA256: e7fbe923a490dc5451509689a69a11e968801804fdb5067874d738ce77c17688
+Description: Elastic Utility Computing Architecture - Node controller
+Description-md5: 8ed0e45f9f824cee67ee6e457b98e3ae
+
+Package: eucalyptus-gl
+Source: eucalyptus
+Priority: extra
+Section: admin
+Installed-Size: 349
+Maintainer: Brian Thomason <brian.thomason@eucalyptus.com>
+Architecture: i386
+Version: 3.1.0+deps-0precise3
+Provides: eucalyptus-gl-2273d7fc
+Depends: libaxis2c0, libc6 (>= 2.7), libssl1.0.0 (>= 1.0.0), eucalyptus-common (= 3.1.0+deps-0precise3), apache2
+Filename: pool/partner/e/eucalyptus/eucalyptus-gl_3.1.0+deps-0precise3_i386.deb
+Size: 87674
+MD5sum: 344ede5edc31054ba0b925450fa85c55
+SHA1: e01d10869409992557d98ba8c6f7ef2df50b5274
+SHA256: e08eba1ba924f03ea21a2314466c7295b7b402ca72b93fb73f55ac4be70e42d1
+Description: Elastic Utility Computing Architecture - Logging service
+Description-md5: 028ed33a93e4e0d8aaed2735fc02f840
+
+Package: eucalyptus-sc
+Source: eucalyptus
+Priority: extra
+Section: admin
+Installed-Size: 82
+Maintainer: Brian Thomason <brian.thomason@eucalyptus.com>
+Architecture: i386
+Version: 3.1.0+deps-0precise3
+Replaces: eucalyptus-java-common (<< 3.1)
+Provides: eucalyptus-sc-2273d7fc
+Depends: libc6 (>= 2.4), eucalyptus-common (= 3.1.0+deps-0precise3), eucalyptus-java-common (= 3.1.0+deps-0precise3), tgt, open-iscsi, libcrypt-openssl-random-perl, libcrypt-openssl-rsa-perl, libcrypt-x509-perl, lvm2, vblade, eucalyptus-admin-tools (= 3.1.0+deps-0precise3)
+Breaks: eucalyptus-java-common (<< 3.1)
+Filename: pool/partner/e/eucalyptus/eucalyptus-sc_3.1.0+deps-0precise3_i386.deb
+Size: 13892
+MD5sum: 76872ce589ae7e56a9249f73043593d9
+SHA1: 66b72d35da55bab099bc93a66d932fc0bcbbc81e
+SHA256: a163c83074eaf72c29d1a96e962bf0168d1a0deffc06f9612af718e7aeedc667
+Description: Elastic Utility Computing Architecture - Storage controller
+Description-md5: 5834a9d5761c5621340188662d8c5638
+
+Package: eucalyptus-walrus
+Source: eucalyptus
+Priority: extra
+Section: admin
+Installed-Size: 57
+Maintainer: Brian Thomason <brian.thomason@eucalyptus.com>
+Architecture: i386
+Version: 3.1.0+deps-0precise3
+Suggests: euca2ools
+Provides: eucalyptus-walrus-2273d7fc
+Depends: lvm2, eucalyptus-common (= 3.1.0+deps-0precise3), eucalyptus-java-common (= 3.1.0+deps-0precise3), eucalyptus-admin-tools (= 3.1.0+deps-0precise3), drbd8-utils (>= 8.3)
+Filename: pool/partner/e/eucalyptus/eucalyptus-walrus_3.1.0+deps-0precise3_i386.deb
+Size: 8288
+MD5sum: 1e110f4288e028ba017bbf79e0bd19e9
+SHA1: e32c89de821a1c1249d6617d1255c31cfb26fd5d
+SHA256: 08f86044ad6b69a8d8efa447897e39647dbf4dcd174cc3928a05ef36c3497c20
+Description: Elastic Utility Computing Architecture - Walrus (S3)
+Description-md5: 9e4c076348b8b2528180b9b1a0dd6f2d
+
+Package: eucalyptus-java-common
+Source: eucalyptus
+Priority: extra
+Section: admin
+Installed-Size: 73721
+Maintainer: Brian Thomason <brian.thomason@eucalyptus.com>
+Architecture: i386
+Version: 3.1.0+deps-0precise3
+Replaces: eucalyptus-cloud, eucalyptus-common, eucalyptus-javadeps
+Provides: eucalyptus-java-common-2273d7fc
+Depends: libc6 (>= 2.7), vblade, lvm2, dmsetup, openssh-server, default-jre-headless | java6-runtime-headless, velocity, eucalyptus-admin-tools (= 3.1.0+deps-0precise3), libpostgresql-jdbc-java (>= 9.1), libjboss-common-java, libhibernate-commons-annotations-java
+Conflicts: libeucalyptus-commons-ext-java
+Pre-Depends: eucalyptus-common (= 3.1.0+deps-0precise3)
+Filename: pool/partner/e/eucalyptus/eucalyptus-java-common_3.1.0+deps-0precise3_i386.deb
+Size: 68277542
+MD5sum: 48ae4ed8169f01787d1e4f93d4d23a97
+SHA1: ac62241c2270af128300a19d2c1c48e28da7bafa
+SHA256: 957cb6a53e0ab2ae6d653ce33d32297b4d9d94bd394738a6d187f3478d1193d9
+Description: Elastic Utility Computing Architecture - Common Java package
+Description-md5: af26e9e32650ce8caa57a2d713ad8c02
+
+Package: adobereader-deu
+Source: acroread
+Priority: extra
+Section: text
+Installed-Size: 51
+Maintainer: Brian Thomason <brian.thomason@canonical.com>
+Architecture: i386
+Version: 9.5.5-1precise1
+Provides: acroread-deu
+Depends: acroread
+Filename: pool/partner/a/acroread/adobereader-deu_9.5.5-1precise1_i386.deb
+Size: 13298
+MD5sum: 06508531741307a53462460a0754624c
+SHA1: d8c790dd715b9c279dadd58cec57ac555eb29884
+SHA256: 8210a13d8894829de815254d779c8abefec6d3ea9e3d703c6298c4ce1908bfb8
+Description: Adobe Reader
+Description-md5: ec3f63f8c9215cd3d27bf2f15d1396bf
+
+Package: gstreamer0.10-fluendo-plugins-mp3-partner
+Source: gstreamer0.10-fluendo-plugins-partner
+Priority: extra
+Section: sound
+Installed-Size: 236
+Maintainer: Brian Thomason <brian.thomason@canonical.com>
+Architecture: i386
+Version: 7.0.20100316-4
+Replaces: gstreamer0.10-fluendo-mp3, gstreamer0.10-fluendo-plugins, gstreamer0.10-fluendo-plugins-mp3, gstreamer0.10-fluendo-plugins-offline
+Provides: gstreamer0.10-fluendo-mp3, gstreamer0.10-fluendo-plugins-mp3
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.12.0), libgstreamer0.10-0 (>= 0.10.35.2-1), libxml2 (>= 2.6.27), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, gstreamer0.10-plugins-base (>= 0.10.14)
+Conflicts: gstreamer0.10-fluendo-mp3, gstreamer0.10-fluendo-plugins, gstreamer0.10-fluendo-plugins-mp3, gstreamer0.10-fluendo-plugins-offline
+Pre-Depends: debconf
+Filename: pool/partner/g/gstreamer0.10-fluendo-plugins-partner/gstreamer0.10-fluendo-plugins-mp3-partner_7.0.20100316-4_i386.deb
+Size: 92702
+MD5sum: 2c3e9cd2f59b0f44bc1d567a1c11fe0e
+SHA1: a309ca4a48e6f46e0b6442c66b18215440fc8a67
+SHA256: 5952818e651674a4e2c748788dc21416763eaf84f372eec1109121af191d2118
+Description: MP3 codec support for GStreamer
+Description-md5: 59ab09a4914061ee31244176098c8803
+Multi-Arch: same
+
+Package: eucalyptus-admin-tools
+Source: eucalyptus
+Priority: extra
+Section: admin
+Installed-Size: 124
+Maintainer: Brian Thomason <brian.thomason@eucalyptus.com>
+Architecture: all
+Version: 3.1.0+deps-0precise3
+Replaces: eucalyptus-common (<< 3.1)
+Provides: eucalyptus-admin-tools-2273d7fc
+Depends: python (>= 2.5), python-eucadmin (= 3.1.0+deps-0precise3), rsync
+Breaks: eucalyptus-common (<< 3.1)
+Filename: pool/partner/e/eucalyptus/eucalyptus-admin-tools_3.1.0+deps-0precise3_all.deb
+Size: 19836
+MD5sum: 8482cf34062f91c6869bcb7d077172c8
+SHA1: 2a394254fc5d57343e4f1e955f1a85016c72b6a6
+SHA256: 6231794de45fb33d40dd7c16180711b3c56dc5080f02aa5f8a62ee417bdc2b05
+Description: Elastic Utility Computing Architecture - admin CLI tools
+Description-md5: 73b9580d7013dc10b904f349b2f8bf3d
+
+Package: adobe-flash-properties-gtk
+Source: adobe-flashplugin
+Priority: optional
+Section: web
+Installed-Size: 696
+Maintainer: DL-Flash Player Ubuntu <FlashPlayerUbuntu@adobe.com>
+Architecture: i386
+Version: 1:20170411.1-0ubuntu0.12.04.1
+Provides: adobe-flash-properties
+Depends: adobe-flashplugin (= 1:20170411.1-0ubuntu0.12.04.1), libc6 (>= 2.7), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.14.0), libstdc++6 (>= 4.1.1)
+Filename: pool/partner/a/adobe-flashplugin/adobe-flash-properties-gtk_20170411.1-0ubuntu0.12.04.1_i386.deb
+Size: 170586
+MD5sum: 2dc26d5906e8416a123880bb58b29db0
+SHA1: 22c7978e0e16bfcf935959904fdfd1a853ca4f88
+SHA256: e15ff9f1008ca3b300d2cae1a5d922687112289467abcd9f8b423b582997d302
+Description: GTK+ control panel for Adobe Flash Player plugin
+Description-md5: c0ca975b4427ced66609fa3dfdd8cac5
+
+Package: adobe-flash-properties-kde
+Source: adobe-flashplugin
+Priority: optional
+Section: web
+Installed-Size: 796
+Maintainer: DL-Flash Player Ubuntu <FlashPlayerUbuntu@adobe.com>
+Architecture: i386
+Version: 1:20170411.1-0ubuntu0.12.04.1
+Provides: adobe-flash-properties
+Depends: adobe-flashplugin (= 1:20170411.1-0ubuntu0.12.04.1), libc6 (>= 2.7), libkdecore5 (>= 4:4.3.4), libkdeui5 (>= 4:4.3.4), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.1.1)
+Filename: pool/partner/a/adobe-flashplugin/adobe-flash-properties-kde_20170411.1-0ubuntu0.12.04.1_i386.deb
+Size: 227112
+MD5sum: aa16f738c29b040a980acdd784d207ab
+SHA1: 0e11c93b9084c5d85e00a2617cef30f01436bad6
+SHA256: 0985efba2391fd32afdfb45d306a977c7b8f88651edf5a0408fda2c75173973c
+Description: KDE control panel Adobe Flash Player plugin
+Description-md5: 278f8fa35a532d8eb8005cd83c4e88e0
+
+Package: adobereader-fra
+Source: acroread
+Priority: extra
+Section: text
+Installed-Size: 51
+Maintainer: Brian Thomason <brian.thomason@canonical.com>
+Architecture: i386
+Version: 9.5.5-1precise1
+Provides: acroread-fra
+Depends: acroread
+Filename: pool/partner/a/acroread/adobereader-fra_9.5.5-1precise1_i386.deb
+Size: 13298
+MD5sum: 0f3efe612c94dbb47cab20152d06e54b
+SHA1: 4b0c14d87edb76ccbb5e106872770245d2e5a928
+SHA256: 0b1b40f37782dbe3c24a213b4cf7dfcb7ff75185e60051ad754b639d6d03c09a
+Description: Adobe Reader
+Description-md5: ec3f63f8c9215cd3d27bf2f15d1396bf
+
+Package: adobereader-jpn
+Source: acroread
+Priority: extra
+Section: text
+Installed-Size: 51
+Maintainer: Brian Thomason <brian.thomason@canonical.com>
+Architecture: i386
+Version: 9.5.5-1precise1
+Provides: acroread-jpn
+Depends: acroread
+Filename: pool/partner/a/acroread/adobereader-jpn_9.5.5-1precise1_i386.deb
+Size: 13296
+MD5sum: 1593e2511de845eb0aa02c7e438aff03
+SHA1: cc0d3d5d6ab9ba603a4c4899944f537509c26e1b
+SHA256: 55dbb40cace0051b9c3ab751d02c1d68d2d72a06b203565da6f5a0d671e772d3
+Description: Adobe Reader
+Description-md5: ec3f63f8c9215cd3d27bf2f15d1396bf
+
+Package: acroread-common
+Source: acroread
+Priority: extra
+Section: text
+Installed-Size: 51
+Maintainer: Brian Thomason <brian.thomason@canonical.com>
+Architecture: all
+Version: 9.5.5-1precise1
+Filename: pool/partner/a/acroread/acroread-common_9.5.5-1precise1_all.deb
+Size: 13290
+MD5sum: d636cb26dd22e1dcc613688afcfa68fd
+SHA1: f7937e6b5b31d27c00313cff54e97704c03d7bbc
+SHA256: c6f4efee899d4710f5ce2ff98f260cee16d4cf74d12da8309da71d0bce6ff6f0
+Description: Adobe Reader - Common Files
+Description-md5: e0331f891181039cc4733162965bcb32
+
+Package: vmware-view-client
+Priority: extra
+Section: net
+Installed-Size: 38730
+Maintainer: Adam Conrad <adconrad@ubuntu.com>
+Architecture: i386
+Version: 2.2.0-0ubuntu0.12.04
+Replaces: vmware-view-pcoip
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.22.0), libgtk2.0-0 (>= 2.24.0), libpango1.0-0 (>= 1.20.0), libpcsclite1, libpixman-1-0, libpng12-0 (>= 1.2.13-4), libssl0.9.8 (>= 0.9.8m-1), libstdc++6 (>= 4.1.1), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxfixes3, libxi6 (>= 2:1.1.2), libxinerama1, libxkbfile1, libxml2 (>= 2.6.27), libxrender1, libxtst6, zlib1g (>= 1:1.1.4), zenity
+Conflicts: vmware-view-open-client, vmware-view-pcoip
+Filename: pool/partner/v/vmware-view-client/vmware-view-client_2.2.0-0ubuntu0.12.04_i386.deb
+Size: 12457652
+MD5sum: ce573d9289232a315daab932bd2d7846
+SHA1: b0f859a2624e7d634fcf2556151e29e7407ca515
+SHA256: aeb8b599539efba436934ec9db536fea7268a5cc4765e5357ac237f3fbe6ee40
+Description: Deliver rich, personalized virtual desktops with VMware View 5
+Description-md5: 0dc80c0be4d22ac745846824ccd2d8ea
+
+Package: skype-bin
+Source: skype
+Priority: extra
+Section: net
+Installed-Size: 43366
+Maintainer: Steve Langasek <steve.langasek@canonical.com>
+Architecture: i386
+Version: 4.3.0.37-0ubuntu0.12.04.1
+Recommends: sni-qt, libasound2-plugins
+Replaces: skype (<< 4.1.0.20.0-0ubuntu0.12.04.1), skype-common, skype-mid
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libqt4-dbus (>= 4:4.5.3), libqt4-network (>= 4:4.8.0), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.8.0), libqtwebkit4 (>= 2.2~2011week36), libstdc++6 (>= 4.2.1), libx11-6, libxext6, libxss1, libxv1, libssl1.0.0, libgl1-mesa-glx
+Conflicts: skype-common, skype-mid
+Breaks: skype (<< 4.1.0.20.0-0ubuntu0.12.04.1)
+Filename: pool/partner/s/skype/skype-bin_4.3.0.37-0ubuntu0.12.04.1_i386.deb
+Size: 20114526
+MD5sum: 8ae1528e3f8af18178ade0645d8ea048
+SHA1: 4cf3720fb78f72d6654344486efd21949806b10b
+SHA256: 6d66704473ae243551286a9666973348648a6728dbfaeead13fd9b9a54bc9aa0
+Description: client for Skype VOIP and instant messaging service - binary files
+Description-md5: f2005b237d6c04263da07144edba3749
+Multi-Arch: foreign
+
+Package: python-eucadmin
+Source: eucalyptus
+Priority: extra
+Section: python
+Installed-Size: 204
+Maintainer: Brian Thomason <brian.thomason@eucalyptus.com>
+Architecture: all
+Version: 3.1.0+deps-0precise3
+Provides: python-eucadmin-2273d7fc
+Depends: python (>= 2.7.1-0ubuntu2), python2.7, python (<< 2.8), python-boto (>= 2.1), rsync, postgresql-client-9.1, python-psutil (>= 0.1.2)
+Filename: pool/partner/e/eucalyptus/python-eucadmin_3.1.0+deps-0precise3_all.deb
+Size: 31294
+MD5sum: 5a01e7a65ca62242e9f0416f301e868a
+SHA1: a51fd8cf5986f04969f576355d0a9ee02f7065fd
+SHA256: d46586662f600380e381a16db5cd6d319c11a0ec5626c2b891696450da6a44da
+Description: Elastic Utility Computing Architecture - python-eucadmin
+Description-md5: 1eee55171ca4255be1204be59d9113bd
+Python-Version: 2.7
+
+Package: oat-appraiser
+Source: openattestation
+Priority: optional
+Section: admin
+Installed-Size: 33407
+Maintainer: James Page <james.page@ubuntu.com>
+Architecture: all
+Version: 1.5-0ubuntu0.12.04
+Recommends: mysql-server
+Depends: apache2, apg, curl, dbconfig-common, php5, php5-mysql, tomcat6, ucf, debconf (>= 0.5) | debconf-2.0
+Filename: pool/partner/o/openattestation/oat-appraiser_1.5-0ubuntu0.12.04_all.deb
+Size: 29748908
+MD5sum: 0af87f7218e81f6f9eeede7804eecc24
+SHA1: 6e36f2ba8d65d62454c28066a111135a42da26a5
+SHA256: 8b4ac0468859e0196bd6cf4f9f5f9f3c16abd687bf0fbf4abb3b2c22f8d7535a
+Description: Appraisal Server for Open Attestation
+Description-md5: c96da96a01d5449c36e6bd3e265e6553
+
+Package: oat-client
+Source: openattestation
+Priority: optional
+Section: admin
+Installed-Size: 15635
+Maintainer: James Page <james.page@ubuntu.com>
+Architecture: i386
+Version: 1.5-0ubuntu0.12.04
+Depends: default-jre-headless | java6-runtime-headless, trousers, ucf, debconf (>= 0.5) | debconf-2.0, upstart-job, libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.4.0), libtspi1 (>= 0.3.1)
+Filename: pool/partner/o/openattestation/oat-client_1.5-0ubuntu0.12.04_i386.deb
+Size: 13947490
+MD5sum: 6e50562e113cda311d56477e204b5d41
+SHA1: 8c965202ed88bc6a8e4aaea4c7d21120890358e6
+SHA256: ca900c5b2bbb675c41f234a5952ba522fe00713311f93bdd10982ffce928eec9
+Description: Host agent for Open Attestation
+Description-md5: e66f9804478de25a0c381d9d6527e260
+
+Package: oat-commandtool
+Source: openattestation
+Priority: optional
+Section: admin
+Installed-Size: 58
+Maintainer: James Page <james.page@ubuntu.com>
+Architecture: all
+Version: 1.5-0ubuntu0.12.04
+Depends: curl, openssl
+Filename: pool/partner/o/openattestation/oat-commandtool_1.5-0ubuntu0.12.04_all.deb
+Size: 5734
+MD5sum: 6a3c1be08f5be95af8116b0d9e2a0e06
+SHA1: 48e9aabc32eba41b5e3b5d93dc148a5bbc23e19d
+SHA256: fc97119d51fd25940ce3100e05182ff14a1d434e817de152663849d778078509
+Description: Command line tools for OpenAttestation
+Description-md5: 6c6ca0368d2908e57999db6a5f26230d
+
+Package: oat-docs
+Source: openattestation
+Priority: optional
+Section: doc
+Installed-Size: 1974
+Maintainer: James Page <james.page@ubuntu.com>
+Architecture: all
+Version: 1.5-0ubuntu0.12.04
+Filename: pool/partner/o/openattestation/oat-docs_1.5-0ubuntu0.12.04_all.deb
+Size: 1982574
+MD5sum: 439a78397998f22d57b31d986b4f9a00
+SHA1: 00b22705d67cf28c1a67a96f4809fd1c8fd631bc
+SHA256: c852bb5d4a15c58d9ab2f5fa8c6be88f95a8cb9f840f79b09d1975bc4796fa48
+Description: Documentation for OpenAttestation
+Description-md5: 3aeff8443b55dcdf7dc5e64059e0da27
+
+Package: acroread-bin
+Source: acroread
+Priority: extra
+Section: text
+Installed-Size: 138524
+Maintainer: Brian Thomason <brian.thomason@canonical.com>
+Architecture: i386
+Version: 9.5.5-1precise1
+Replaces: acroread, acroread-common, acroread-debian-files, adobereader-deu, adobereader-fra, adobereader-jpn
+Suggests: libldap2, libgnome-speech7
+Provides: adobereader-enu, pdf-viewer
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.3.6-6~), libfontconfig1 (>= 2.8.0), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.24.0), libidn11 (>= 1.13), libpango1.0-0 (>= 1.14.0), libstdc++6 (>= 4.1.1), libx11-6, libxext6, libxml2 (>= 2.6.27), libxt6, zlib1g (>= 1:1.1.4), lsb-release, debconf
+Conflicts: acroread-debian-files
+Breaks: acroread (<< 9.5.4), acroread-common (<< 9.5.4), adobereader-deu (<< 9.5.4), adobereader-fra (<< 9.5.4), adobereader-jpn (<< 9.5.4)
+Filename: pool/partner/a/acroread/acroread-bin_9.5.5-1precise1_i386.deb
+Size: 60109090
+MD5sum: 4d4a11cd50f15302aaad2d48bde525c9
+SHA1: 59a3b5c15d257813f23bb7ee64aaef15e0ee434c
+SHA256: da284fb1bf65d2c1f16f5e911b46d977b77cc05b952c2073ab159377b7080b87
+Description: Adobe Reader
+Description-md5: 55358518ac208351b99def2e2124962d
+Multi-Arch: foreign
+
+Package: gce-daemon
+Source: gce-utils
+Priority: extra
+Section: admin
+Installed-Size: 126
+Maintainer: Ben Howard <ben.howard@ubuntu.com>
+Architecture: i386
+Version: 1.3.2-0ubuntu1~12.04.2
+Depends: openssh-server (>= 1:5.9p1), python-boto, python (>= 2.7.1-0ubuntu2), python2.7
+Conflicts: network-manager
+Filename: pool/partner/g/gce-utils/gce-daemon_1.3.2-0ubuntu1~12.04.2_i386.deb
+Size: 26264
+MD5sum: b3c490e33086ce45d6c6d951fde0d7f4
+SHA1: eba72f4ad0bc55aa8559e818b5b7f10a0ee1107a
+SHA256: 72ede5ef5940a83d41dbb3001b08e99f6fc151d75191cb0ef2d52c3b32de7bfc
+Description: Google daemon for configuring instances
+Description-md5: 06a4cd9a54dd896c539eb4c8edaef69d
+Original-Maintainer: Google Inc <no-reply@google.com>
+
+Package: gce-startup-scripts
+Source: gce-utils
+Priority: extra
+Section: admin
+Installed-Size: 141
+Maintainer: Ben Howard <ben.howard@ubuntu.com>
+Architecture: i386
+Version: 1.3.2-0ubuntu1~12.04.2
+Depends: python-boto, google-cloud-sdk, python (>= 2.7.1-0ubuntu2), python2.7
+Conflicts: network-manager
+Filename: pool/partner/g/gce-utils/gce-startup-scripts_1.3.2-0ubuntu1~12.04.2_i386.deb
+Size: 24392
+MD5sum: 137579bf5eb95452a681a0399568ecb1
+SHA1: e549f7f32a10b191c02f79593b2c81fb57a544ae
+SHA256: a7dc43f29c3bf8010bf967134a26222dc70b6396de4bdcd26d49a40b0c5f205d
+Description: Google Compute Engine Start-up scripts
+Description-md5: 9de81cf821a9dde6584671507ea460f3
+Original-Maintainer: Google Inc <no-reply@google.com>
+
+Package: gce-imagebundle
+Source: gce-utils
+Priority: extra
+Section: admin
+Installed-Size: 173
+Maintainer: Ben Howard <ben.howard@ubuntu.com>
+Architecture: i386
+Version: 1.3.2-0ubuntu1~12.04.2
+Depends: rsync, kpartx, uuid-runtime, python (>= 2.7.1-0ubuntu2)
+Filename: pool/partner/g/gce-utils/gce-imagebundle_1.3.2-0ubuntu1~12.04.2_i386.deb
+Size: 35594
+MD5sum: 3f770bc5445502cef4f8f852590d3ad3
+SHA1: 056d355991914b2b00e039ec4f9229ed487cbb6e
+SHA256: 3817b2982052eb9cbddf1980226de14b0b794e3974803db480a37da581140969
+Description: Bundle image for use on Google Compute Engine
+Description-md5: a9d97ae3744fa7e5d54ee6ca8a5c4675
+Original-Maintainer: Google Inc <no-reply@google.com>
+
+Package: google-cloud-sdk
+Priority: optional
+Section: admin
+Installed-Size: 40157
+Maintainer: Ben Howard <ben.howard@ubuntu.com>
+Architecture: all
+Version: 111.0.0-0ubuntu1~12.04.0
+Depends: findutils, python2.7, python:any (>= 2.6.6-7~)
+Conflicts: gsutils
+Filename: pool/partner/g/google-cloud-sdk/google-cloud-sdk_111.0.0-0ubuntu1~12.04.0_all.deb
+Size: 7732536
+MD5sum: fb76bc6e718812854b60d884f31fd5fb
+SHA1: ad57234c2be0e39f4170753ab292d6fba23bf624
+SHA256: c89e051c508fff1b01703c37790a892489a7921d16b061ac33f999747de374be
+Description: Google Cloud SDK for interacting with Google Cloud services.
+Description-md5: 633ed1e69235db3da94c02ebf49323ed
+
+Package: gce-cloud-config
+Source: gce-utils
+Priority: extra
+Section: admin
+Installed-Size: 57
+Maintainer: Ben Howard <ben.howard@ubuntu.com>
+Architecture: i386
+Version: 1.3.2-0ubuntu1~12.04.2
+Recommends: google-cloud-sdk, libpam-cracklib
+Depends: gce-daemon, gce-imagebundle
+Pre-Depends: gce-startup-scripts, ntp, cloud-init
+Filename: pool/partner/g/gce-utils/gce-cloud-config_1.3.2-0ubuntu1~12.04.2_i386.deb
+Size: 4342
+MD5sum: 9f970fd9e14a9b565d8e576601943d62
+SHA1: e0e3da7d05e8aabf5664dc7d94b6956282cfb380
+SHA256: 5b4f28247c41b142882d9c8261fc594576603c30bbf3d7a09995557e01219064
+Description: Configuration for Ubuntu on Google Compute Engine
+Description-md5: df659787f100694d1fcd363d5e5e5044
+Original-Maintainer: Google Inc <no-reply@google.com>
+

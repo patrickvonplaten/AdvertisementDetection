@@ -1,0 +1,13 @@
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/ScreenResolution/__init__.py
+bf869118003ce11a64a1cf9cd020a5c0  usr/lib/python3/dist-packages/ScreenResolution/__pycache__/__init__.cpython-35.pyc
+203b8276d0c2df2f0a5385c83fe166c1  usr/lib/python3/dist-packages/ScreenResolution/__pycache__/ui.cpython-35.pyc
+41e19d7a25fe82064dbd4b0b98b4b7db  usr/lib/python3/dist-packages/ScreenResolution/ui.py
+d46f543b8efe834038768467de36d87f  usr/lib/python3/dist-packages/screen_resolution_extra-0.0.0.egg-info
+eaa54d31d9a183baa707f884e2ffa13e  usr/share/dbus-1/system-services/com.ubuntu.ScreenResolution.Mechanism.service
+2557ceba9704b2f9af2b07ebeebefc56  usr/share/doc/screen-resolution-extra/changelog.gz
+f2040d8bc33b6ffa0581de1bb76ecfdf  usr/share/doc/screen-resolution-extra/copyright
+8613ac097072e1c2e91d64b19706c894  usr/share/polkit-1/actions/screenresolution-mechanism.policy
+8b3ddc1e7c3d41d6174f7b11b9e39554  usr/share/screen-resolution-extra/nvidia-polkit.py
+bb823a9c1c9939182833f034ec913c84  usr/share/screen-resolution-extra/nvidia-prime.py
+97fdbee39b0234ac7cd388421028b1f7  usr/share/screen-resolution-extra/policyui.py
+2c52eeabf65f9965cf533320322015df  usr/share/screen-resolution-extra/screenresolution-mechanism

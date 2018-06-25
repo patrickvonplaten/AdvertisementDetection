@@ -1,0 +1,4 @@
+1461cca8392bd46acbf4674aaf6aa865  usr/lib/pkgconfig/cuda-8.0.pc
+b49dace3213f37547539eb0befd40a96  usr/local/cuda-8.0/targets/x86_64-linux/lib/stubs/libcuda.so
+c673c52ccef88f0e9e4e0ef4e18ac511  usr/share/doc/cuda-driver-dev-8-0/changelog.Debian.gz
+0eeae78db8d839562622336047a1c99d  usr/share/doc/cuda-driver-dev-8-0/copyright

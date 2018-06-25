@@ -1,0 +1,25 @@
+return {
+ ["content"]={
+  ["files"]={
+   ["00debian.cnf"]="texmf.d",
+   ["80tex4ht.cnf"]="texmf.d",
+   ["cont-sys.rme"]="tex/context/user",
+   ["mktex.cnf"]="web2c",
+   ["texdocrc.defaults"]="texdoctk",
+   ["texmf.cnf"]="web2c",
+  },
+  ["metadata"]={
+   ["directories"]=11,
+   ["files"]=6,
+   ["path"]="/etc/texmf",
+   ["remappings"]=0,
+  },
+  ["remap"]={},
+ },
+ ["date"]="2018-03-13",
+ ["root"]="/etc/texmf",
+ ["time"]="07:36:54",
+ ["type"]="files",
+ ["uuid"]="7fac5024-4530-b7af-bbbe-8a49b7b2cf01",
+ ["version"]="1.100",
+}

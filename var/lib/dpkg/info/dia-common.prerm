@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installxmlcatalogs
+if [ "$1" = "remove" ] || [ "$1" = "upgrade" ]; then
+	update-xmlcatalog --del --type system --id "http://www.lysator.liu.se/~alla/dia/" --root || true
+	update-xmlcatalog --del --type system --id "http://www.lysator.liu.se/~alla/dia/dia-sheet-ns" --root || true
+	update-xmlcatalog --del --type system --id "http://www.daa.com.au/~james/dia-shape-ns" --root || true
+
+	update-xmlcatalog --del --type system --id "http://www.lysator.liu.se/~alla/dia/" --package dia-common || true
+	update-xmlcatalog --del --type system --id "http://www.lysator.liu.se/~alla/dia/dia-sheet-ns" --package dia-common || true
+	update-xmlcatalog --del --type system --id "http://www.daa.com.au/~james/dia-shape-ns" --package dia-common || true
+
+fi
+# End automatically added section

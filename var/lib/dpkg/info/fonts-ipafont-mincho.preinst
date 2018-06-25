@@ -1,0 +1,41 @@
+#!/bin/sh
+#
+
+set -e
+
+OTF_VERSION=00302-4
+OTF_ALT_NAME=otf-japanese-mincho
+OTF_FONT_ENTRY=/usr/share/fonts/opentype/ipafont/ipam.otf
+
+CHECK_VERSION=00303-5
+OLD_ALT_NAME=ttf-japanese-mincho
+FONT_ENTRY=$OTF_FONT_ENTRY
+OLD_FONT_ENTRY=/usr/share/fonts/opentype/ipafont/ipam.ttf
+
+
+case "$1" in
+install|upgrade)
+    if dpkg --compare-versions "$2" lt-nl "$OTF_VERSION"; then
+        # remove old alternative otf symlinks.
+        update-alternatives --remove $OTF_ALT_NAME.otf $OTF_FONT_ENTRY
+    fi
+
+    if dpkg --compare-versions "$2" lt-nl "$CHECK_VERSION"; then
+        if [ -d /usr/share/fonts/opentype/fonts-ipafont-mincho ]; then
+          update-alternatives --remove $OLD_ALT_NAME.ttf /usr/share/fonts/opentype/fonts-ipafont-mincho/ipam.ttf
+        else
+          update-alternatives --remove $OLD_ALT_NAME.ttf $FONT_ENTRY
+        fi
+    fi
+
+    # do this on new installations, too, as these could be "upgrades"
+    # from otf-ipafont-mincho
+    if dpkg --compare-versions "$2" lt "00303-10.1~" ; then
+        update-alternatives --remove $OLD_ALT_NAME.ttf $OLD_FONT_ENTRY
+    fi
+
+esac
+
+
+
+exit 0

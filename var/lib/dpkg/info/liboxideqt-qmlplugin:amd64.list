@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/liboxideqt-qmlplugin
+/usr/share/doc/liboxideqt-qmlplugin/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/qml
+/usr/lib/x86_64-linux-gnu/qt5/qml/com
+/usr/lib/x86_64-linux-gnu/qt5/qml/com/canonical
+/usr/lib/x86_64-linux-gnu/qt5/qml/com/canonical/Oxide
+/usr/lib/x86_64-linux-gnu/qt5/qml/com/canonical/Oxide/oxide.qmltypes
+/usr/lib/x86_64-linux-gnu/qt5/qml/com/canonical/Oxide/libqmloxideplugin.so
+/usr/lib/x86_64-linux-gnu/qt5/qml/com/canonical/Oxide/qmldir
+/usr/share/doc/liboxideqt-qmlplugin/changelog.Debian.gz

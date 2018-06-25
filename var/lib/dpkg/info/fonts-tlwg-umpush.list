@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/fonts-tlwg-umpush
+/usr/share/doc/fonts-tlwg-umpush/copyright
+/etc
+/etc/fonts
+/etc/fonts/conf.d
+/etc/fonts/conf.avail
+/etc/fonts/conf.avail/89-tlwg-umpush-synthetic.conf
+/etc/fonts/conf.avail/64-14-tlwg-umpush.conf
+/usr/share/doc/fonts-tlwg-umpush/changelog.Debian.gz
+/etc/fonts/conf.d/89-tlwg-umpush-synthetic.conf
+/etc/fonts/conf.d/64-14-tlwg-umpush.conf

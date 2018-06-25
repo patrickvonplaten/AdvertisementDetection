@@ -1,0 +1,21 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installtex
+##
+## postinst-tex
+##
+## postinst snippets for everything TeX related
+## simply call update-texmf-config triggers
+##
+## Authors:
+##       Norbert Preining <preining@logic.at>
+##
+#
+
+case "$1" in
+    configure|abort-upgrade|abort-remove|abort-deconfigure)
+        update-texmf-config format
+    ;;
+esac
+
+# End automatically added section

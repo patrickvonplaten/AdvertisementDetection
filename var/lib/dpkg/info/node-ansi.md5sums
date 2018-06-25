@@ -1,0 +1,10 @@
+3f10fd109188491ebfee5cc99ad30b5c  usr/lib/nodejs/ansi/lib/ansi.js
+b1b604709d9b4a1cdf6ac37d2c00a545  usr/lib/nodejs/ansi/lib/newlines.js
+19f699192d18580660a90fa6e60b1c93  usr/lib/nodejs/ansi/package.json
+4ed047ebddbcb042067d01ac78f828f4  usr/share/doc/node-ansi/README.md
+b5e026503fd4afd8edeb3d4d2aa5417a  usr/share/doc/node-ansi/changelog.Debian.gz
+c93083b3154e2925f7d2921ee08ff508  usr/share/doc/node-ansi/copyright
+3b8b12f05100543ed80157adceac0818  usr/share/doc/node-ansi/examples/beep/index.js
+5fd7392181b2a7a2f746dc9c8213ad60  usr/share/doc/node-ansi/examples/clear/index.js
+cdb74e00afeb86afa30efef7808e2e80  usr/share/doc/node-ansi/examples/cursorPosition.js
+9b35a5cb1fa59ba40271f8ac23833744  usr/share/doc/node-ansi/examples/progress/index.js

@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/pyshared
+/usr/lib/pyshared/python2.7
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages/poppler.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/python-poppler
+/usr/share/doc/python-poppler/copyright
+/usr/share/doc/python-poppler/examples
+/usr/share/doc/python-poppler/examples/demo-poppler.py
+/usr/share/doc/python-poppler/changelog.Debian.gz
+/usr/lib/pyshared/python2.7/poppler.so

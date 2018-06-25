@@ -1,0 +1,11 @@
+Document: realmd
+Section: System/Administration
+Title: Realmd administrative guide and developer reference
+Author: Stef Walter
+Abstract: This manual describes what realmd is
+ and how it can be used to discover and enroll in
+ realms/domains like Active Directory or IPA.
+
+Format: HTML
+Index: /usr/share/doc/realmd/html/index.html
+Files: /usr/share/doc/realmd/html/*.html

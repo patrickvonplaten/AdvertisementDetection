@@ -1,0 +1,4 @@
+4a39f97afddf8687a7a6c0899d4c6624  usr/local/cuda-8.0/targets/x86_64-linux/lib/libcufft.so.8.0.61
+d6e849d10040eeadc6dc5d9c0637c791  usr/local/cuda-8.0/targets/x86_64-linux/lib/libcufftw.so.8.0.61
+c673c52ccef88f0e9e4e0ef4e18ac511  usr/share/doc/cuda-cufft-8-0/changelog.Debian.gz
+0eeae78db8d839562622336047a1c99d  usr/share/doc/cuda-cufft-8-0/copyright

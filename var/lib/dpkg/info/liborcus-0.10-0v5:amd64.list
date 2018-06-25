@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/liborcus-parser-0.10.so.0.0.0
+/usr/lib/x86_64-linux-gnu/liborcus-mso-0.10.so.0.0.0
+/usr/lib/x86_64-linux-gnu/liborcus-0.10.so.0.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/liborcus-0.10-0v5
+/usr/share/doc/liborcus-0.10-0v5/copyright
+/usr/share/doc/liborcus-0.10-0v5/changelog.Debian.gz
+/usr/lib/x86_64-linux-gnu/liborcus-0.10.so.0
+/usr/lib/x86_64-linux-gnu/liborcus-mso-0.10.so.0
+/usr/lib/x86_64-linux-gnu/liborcus-parser-0.10.so.0

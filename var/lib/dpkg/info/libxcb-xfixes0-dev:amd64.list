@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libxcb-xfixes0-dev
+/usr/share/doc/libxcb-xfixes0-dev/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libxcb-xfixes.a
+/usr/lib/x86_64-linux-gnu/pkgconfig
+/usr/lib/x86_64-linux-gnu/pkgconfig/xcb-xfixes.pc
+/usr/include
+/usr/include/xcb
+/usr/include/xcb/xfixes.h
+/usr/share/doc/libxcb-xfixes0-dev/changelog.Debian.gz
+/usr/lib/x86_64-linux-gnu/libxcb-xfixes.so

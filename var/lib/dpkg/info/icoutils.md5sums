@@ -1,0 +1,15 @@
+43f010fe2c62aa7b345e1b0c73780c17  usr/bin/extresso
+7fed1ccb31678e11617aa351bf51df01  usr/bin/genresscript
+671ad68e229163110b5d47b6dbc7b4f9  usr/bin/icotool
+868c51c8a64029896beb9132eb1385c4  usr/bin/wrestool
+0b21c1a6d6504bcdfd0f27d48d11c64e  usr/share/doc/icoutils/NEWS.gz
+c937c843ab0b62f1974f8892efff1f62  usr/share/doc/icoutils/README.gz
+f669156d10019eacf0543d79d8441a94  usr/share/doc/icoutils/TODO
+05a41b669836b45d50ac36a80516893c  usr/share/doc/icoutils/changelog.Debian.gz
+cceb7d356fa45a6dc272e1a484d10f0e  usr/share/doc/icoutils/copyright
+2673e3c9586f4e7faed0b0c756cefb89  usr/share/locale/en@boldquot/LC_MESSAGES/icoutils.mo
+9930b8003034857ce6f417455fd57e54  usr/share/locale/en@quot/LC_MESSAGES/icoutils.mo
+3cd49cf5e5769cfc399a425a430862a7  usr/share/man/man1/extresso.1.gz
+5ad414015c0bb33579afc3fe0339859b  usr/share/man/man1/genresscript.1.gz
+d431f660b8659e5b571a9084e8cf3f1c  usr/share/man/man1/icotool.1.gz
+ad30a56d2405f92c499b4d40beec54b1  usr/share/man/man1/wrestool.1.gz

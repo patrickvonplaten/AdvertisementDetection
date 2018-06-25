@@ -1,0 +1,4 @@
+name=ancientgreek lefthyphenmin=1 righthyphenmin=1 file=loadhyph-grc.tex file_patterns=hyph-grc.pat.txt file_exceptions=
+name=greek synonyms=polygreek lefthyphenmin=1 righthyphenmin=1 file=loadhyph-el-polyton.tex file_patterns=hyph-el-polyton.pat.txt file_exceptions=
+name=ibycus lefthyphenmin=2 righthyphenmin=2 file=ibyhyph.tex luaspecial="disabled:8-bit only"
+name=monogreek lefthyphenmin=1 righthyphenmin=1 file=loadhyph-el-monoton.tex file_patterns=hyph-el-monoton.pat.txt file_exceptions=

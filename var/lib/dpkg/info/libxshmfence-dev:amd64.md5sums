@@ -1,0 +1,4 @@
+c1e8115bd4e4f452b31a491102cc910e  usr/include/X11/xshmfence.h
+c2d279b28d07fb541a3a0f9e793eada4  usr/lib/x86_64-linux-gnu/libxshmfence.a
+367617e08d3e31b4ef680c3826fd3eb6  usr/lib/x86_64-linux-gnu/pkgconfig/xshmfence.pc
+18a9757c949ca195a8eac5f19312d7ce  usr/share/doc/libxshmfence-dev/copyright

@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libkdesu5
+/usr/share/doc/libkdesu5/copyright
+/usr/lib
+/usr/lib/kde4
+/usr/lib/kde4/libexec
+/usr/lib/kde4/libexec/kdesu_stub
+/usr/lib/libkdesu.so.5.14.16
+/usr/share/doc/libkdesu5/changelog.Debian.gz
+/usr/share/doc/libkdesu5/NEWS.Debian.gz
+/usr/lib/libkdesu.so.5

@@ -1,0 +1,8 @@
+Document: libjpfcodegen-java
+Section: Programming/Java
+Title: JPF Code Generator documentation
+Abstract: Documentation for the JPF Code Generator
+
+Format: HTML
+Index: /usr/share/doc/libjpfcodegen-java/index.html
+Files: /usr/share/doc/libjpfcodegen-java/*.html

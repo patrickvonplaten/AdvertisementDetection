@@ -1,0 +1,3 @@
+58653a9598231b110efb349717e979e5  usr/share/doc/plainbox-secure-policy/changelog.Debian.gz
+aa8a002f58eccf3a400d1769624c5da4  usr/share/doc/plainbox-secure-policy/copyright
+d939b29b2e3fae5c57a8b6ff4ab5a6ef  usr/share/polkit-1/actions/org.freedesktop.policykit.pkexec.run-plainbox-job.policy

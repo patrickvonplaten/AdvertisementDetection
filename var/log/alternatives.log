@@ -1,0 +1,25 @@
+update-alternatives 2018-06-07 07:35:22: run with --remove editor /usr/bin/code
+update-alternatives 2018-06-07 07:35:41: run with --install /usr/bin/editor editor /usr/bin/code 0
+update-alternatives 2018-06-12 06:58:46: run with --quiet --remove mozilla-flashplugin /usr/lib/flashplugin-installer/libflashplayer.so
+update-alternatives 2018-06-12 06:58:46: link group mozilla-flashplugin fully removed
+update-alternatives 2018-06-12 06:59:48: run with --quiet --install /usr/lib/mozilla/plugins/flashplugin-alternative.so mozilla-flashplugin /usr/lib/flashplugin-installer/libflashplayer.so 50
+update-alternatives 2018-06-12 06:59:48: link group mozilla-flashplugin updated to point to /usr/lib/flashplugin-installer/libflashplayer.so
+update-alternatives 2018-06-12 08:00:26: run with --quiet --install /usr/lib/mozilla/plugins/flashplugin-alternative.so mozilla-flashplugin /usr/lib/flashplugin-installer/libflashplayer.so 50
+update-alternatives 2018-06-13 07:35:46: run with --install /usr/bin/gnome-www-browser gnome-www-browser /usr/bin/firefox 40
+update-alternatives 2018-06-13 07:35:46: run with --install /usr/bin/x-www-browser x-www-browser /usr/bin/firefox 40
+update-alternatives 2018-06-13 07:35:47: run with --install /usr/bin/compare compare /usr/bin/compare-im6 100 --slave /usr/share/man/man1/compare.1.gz compare.1.gz /usr/share/man/man1/compare-im6.1.gz
+update-alternatives 2018-06-13 07:35:47: run with --install /usr/bin/animate animate /usr/bin/animate-im6 100 --slave /usr/share/man/man1/animate.1.gz animate.1.gz /usr/share/man/man1/animate-im6.1.gz
+update-alternatives 2018-06-13 07:35:47: run with --install /usr/bin/convert convert /usr/bin/convert-im6 100 --slave /usr/share/man/man1/convert.1.gz convert.1.gz /usr/share/man/man1/convert-im6.1.gz
+update-alternatives 2018-06-13 07:35:47: run with --install /usr/bin/composite composite /usr/bin/composite-im6 100 --slave /usr/share/man/man1/composite.1.gz composite.1.gz /usr/share/man/man1/composite-im6.1.gz
+update-alternatives 2018-06-13 07:35:47: run with --install /usr/bin/conjure conjure /usr/bin/conjure-im6 100 --slave /usr/share/man/man1/conjure.1.gz conjure.1.gz /usr/share/man/man1/conjure-im6.1.gz
+update-alternatives 2018-06-13 07:35:47: run with --install /usr/bin/import import /usr/bin/import-im6 100 --slave /usr/share/man/man1/import.1.gz import.1.gz /usr/share/man/man1/import-im6.1.gz
+update-alternatives 2018-06-13 07:35:47: run with --install /usr/bin/identify identify /usr/bin/identify-im6 100 --slave /usr/share/man/man1/identify.1.gz identify.1.gz /usr/share/man/man1/identify-im6.1.gz
+update-alternatives 2018-06-13 07:35:47: run with --install /usr/bin/stream stream /usr/bin/stream-im6 100 --slave /usr/share/man/man1/stream.1.gz stream.1.gz /usr/share/man/man1/stream-im6.1.gz
+update-alternatives 2018-06-13 07:35:47: run with --install /usr/bin/display display /usr/bin/display-im6 100 --slave /usr/share/man/man1/display.1.gz display.1.gz /usr/share/man/man1/display-im6.1.gz
+update-alternatives 2018-06-13 07:35:47: run with --install /usr/bin/montage montage /usr/bin/montage-im6 100 --slave /usr/share/man/man1/montage.1.gz montage.1.gz /usr/share/man/man1/montage-im6.1.gz
+update-alternatives 2018-06-13 07:35:47: run with --install /usr/bin/mogrify mogrify /usr/bin/mogrify-im6 100 --slave /usr/share/man/man1/mogrify.1.gz mogrify.1.gz /usr/share/man/man1/mogrify-im6.1.gz
+update-alternatives 2018-06-14 06:51:40: run with --install /usr/bin/rename rename /usr/bin/prename 60 --slave /usr/share/man/man1/rename.1.gz rename.1.gz /usr/share/man/man1/prename.1.gz
+update-alternatives 2018-06-14 07:35:33: run with --remove editor /usr/bin/code
+update-alternatives 2018-06-14 07:35:49: run with --install /etc/vtrgb vtrgb /etc/console-setup/vtrgb 50
+update-alternatives 2018-06-14 07:35:50: run with --install /etc/vtrgb vtrgb /etc/console-setup/vtrgb.vga 20
+update-alternatives 2018-06-14 07:35:51: run with --install /usr/bin/editor editor /usr/bin/code 0

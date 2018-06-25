@@ -1,0 +1,1672 @@
+Package: cuda-cublas-dev-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 100546
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-cublas-8-0 (>= 8.0.61)
+Filename: ./cuda-cublas-dev-8-0_8.0.61-1_amd64.deb
+Size: 57431324
+MD5sum: 8bdc63de62a933065b2bb6991e429c7d
+SHA1: a09b95cd1288c177453e959d0aa6c1df2b645506
+SHA256: 6e4344f7b787584f8fd46484a9c3db98d56da0435650145969a92baeb0dbd2d9
+SHA512: 57724f6eabfc18246e00cdd47f76abbbc363156594105f293340c076844cd387db1177112fe40cc126c5c759e3b989d74780f317c1cd5685cb6704ec6f072c33
+Description: CUBLAS native dev links, headers
+ CUBLAS native dev links, headers
+
+Package: cuda-misc-headers-cross-aarch64-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 9100
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: arm64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0
+Filename: ./cuda-misc-headers-cross-aarch64-8-0_8.0.61-1_arm64.deb
+Size: 1014588
+MD5sum: 3de1a0c0acf181600289c7ca7d9ad0ed
+SHA1: 941d23227a022952eb34c556b375daafcf23b0e4
+SHA256: 6b916cf41810aefc1cb2dbdb2c9a9f39c74926b4f1406819d4060d5cd2983503
+SHA512: b413cb9295ac678f537de4c9300eb2177b36fe66b7a05c3d5d0723feb0abc6de6dccc9a37b2156d05ba473346238980c983ba3b4e6d67974fcb69ae7a62caf34
+Description: CUDA headers for cross-aarch64
+ Contains misc cross-aarch64 CUDA header files.
+Multi-Arch: foreign
+
+Package: cuda-npp-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 225110
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0
+Filename: ./cuda-npp-8-0_8.0.61-1_amd64.deb
+Size: 157043896
+MD5sum: e1084456ec744988bacef548101b00dd
+SHA1: 209cfb83bf7b79855445b6cac0a5494dd39321a1
+SHA256: d4752962d081725555afd0832af1b9348b63798467c7c5fe573db8aaa1764b7c
+SHA512: 415e09beef6b6eed6620783b809996b9d4052e7a8617470d2aaeab3584a810c4a019fe15a6623bc4e3703ccf08c780bf02840710ab65767989ec4a25d19a7713
+Description: NPP native runtime libraries
+ NPP native runtime libraries
+
+Package: nvidia-375-dev
+Priority: optional
+Section: restricted/misc
+Installed-Size: 735
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Depends: nvidia-375 (>= 375.26)
+Filename: ./nvidia-375-dev_375.26-0ubuntu1_amd64.deb
+Size: 82434
+MD5sum: 87d4a8aa8ae58efc1273d103239ad588
+SHA1: 8ead5fe36262875247770e315e303d03a1f90164
+SHA256: 09163e3986be9f155457bc88daff214260300eeeedaec6fb761faff444629437
+SHA512: 5ae5b1d64b13e7d0468a22cea2cb3f685a9ef2aa95701b88ad789fff621bfe78700886388a4c4da801616518210b930655912222918040b937bbcf7da9fab091
+Description: NVIDIA binary Xorg driver development files
+ This package contains the NVIDIA binary Xorg driver
+ development files.
+ .
+ For more information on this source package visit NVIDIA's homepage
+ at http://www.nvidia.com/ .
+
+Package: cuda-cufft-cross-armhf-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 76633
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: armhf
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-armhf-8-0
+Filename: ./cuda-cufft-cross-armhf-8-0_8.0.61-1_armhf.deb
+Size: 54454714
+MD5sum: f6ab1540c9ea15e2884f8d19724b7d62
+SHA1: cac2dfdf89f4e9a8465df3c1e9f38a1eeafc238a
+SHA256: c7816285ba1287afcded10773f64e9fad4fa83ec798843a39026dab8d542747e
+SHA512: c830837799fe79efb912a1e25cdc4c0e44732aabe5a9dd00f4e4b242fcca8da16857f4e305a26cee1da6627c9df483d8f446bbf26dad4ca6b5008ce9fc97a081
+Description: CUFFT cross-armhf dev links, headers
+ CUFFT cross-armhf dev links, headers
+Multi-Arch: foreign
+
+Package: libcuda1-361-updates
+Priority: optional
+Section: restricted/misc
+Installed-Size: 17
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Depends: libcuda1-375
+Filename: ./libcuda1-361-updates_375.26-0ubuntu1_amd64.deb
+Size: 6418
+MD5sum: 9c847a416e8cb9a7223140d8f89be068
+SHA1: 72bb070adc3da0e2cded41f2477cf3ab288f5cd7
+SHA256: 4f81cc689062598fe0e333a8439c66defe122508091cf27b88ad96bb8982791f
+SHA512: 9a77b5eae1518ffe44f8de53774d0926c83dc5a49bc84263aeccd50cca61b71165b7e0b8dad2c9de78094cb7839ff578245b7f780fcbe57c898cd0c1d1cc5505
+Description: Transitional package for libcuda1-375
+ This is a transitional package for libcuda1-375, and can be
+ safely removed after the installation is complete.
+
+Package: cuda-nvgraph-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 5137
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0
+Filename: ./cuda-nvgraph-8-0_8.0.61-1_amd64.deb
+Size: 2948212
+MD5sum: 06c6d07d98d46a9bfe15e2afd063b5d3
+SHA1: c27d86d86311f840c2e9faea2c651a8adb12b15d
+SHA256: 41ac5c83cb846d38088022b118f2765acae0eac37ada65b29c4a7757edc082e8
+SHA512: c23a72fa245cdce1caec2d4857b6602128dcc3722e20d0a78e6eb00d68e45a00db10fa4dfc672fb51bce19879638f9c5fece4ca976a4efb669a5ed6ff8913385
+Description: NVGRAPH native runtime libraries
+ NVGRAPH native runtime libraries
+
+Package: cuda-nvgraph-dev-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 8054
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-nvgraph-8-0 (>= 8.0.61)
+Filename: ./cuda-nvgraph-dev-8-0_8.0.61-1_amd64.deb
+Size: 3027694
+MD5sum: 66d704a022ccd6823178be90c0d711bb
+SHA1: 7fc09ad0007097c7fa21e267a763825736735588
+SHA256: af5655224352c99af311d6f7be00ff4af40e4cb3b1a0b0e4bd59b6ab31725776
+SHA512: 8257620d7806a3382e2a5d113820b2f9df7f0315df586ae5e6d7d9ba49de59b3316dee8eb1053831ef09eca9f7e8d4ce45b1993261277e3d1b56f9b5ce1fbf35
+Description: NVGRAPH native dev links, headers
+ NVGRAPH native dev links, headers
+
+Package: nvidia-352
+Priority: optional
+Section: restricted/misc
+Installed-Size: 17
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Depends: nvidia-375
+Filename: ./nvidia-352_375.26-0ubuntu1_amd64.deb
+Size: 6398
+MD5sum: 03d69953fd556d61e8bbe91877d90c56
+SHA1: 1cdc87342220d3fba587101510febfa36b8dde57
+SHA256: 473c4a3b60185c46feb7843d0bdda2b07181d80589181029ffceaad40bd52eab
+SHA512: 65828b6964a37e635b44cc1246189c754cf7817c40c62ef4c897b65f37a23e37f106092e378e535a812a8fa15b46ac8f599634ea02177214691094c2d6fa91cd
+Description: Transitional package for nvidia-375
+ This is a transitional package for nvidia-375, and can be
+ safely removed after the installation is complete.
+
+Package: cuda-cudart-cross-armhf-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 1640
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: armhf
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-armhf-8-0, cuda-driver-cross-armhf-8-0
+Filename: ./cuda-cudart-cross-armhf-8-0_8.0.61-1_armhf.deb
+Size: 469894
+MD5sum: a38f150dc740a2f779534d6daaa3c71f
+SHA1: 0c814f1ff3432b3338e58a82a4554d96ce53d370
+SHA256: 219aa40aed69d2069c5a20672810efd5e1bb5a890c06a1838dfd8ade4ab73f9a
+SHA512: e2d1a61b992492f8e4afaa310fc9466899c8e02104bd74aa1ce6d2a444f4651d9d1dbc875b43cedf2991a251b0d6034d855448d0308ef4aed32def7c13e9ded1
+Description: CUDA Runtime cross-armhf dev links, headers
+ CUDA Runtime cross-armhf dev links, headers
+Multi-Arch: foreign
+
+Package: cuda-command-line-tools-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 48598
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-core-8-0, cuda-cudart-dev-8-0
+Filename: ./cuda-command-line-tools-8-0_8.0.61-1_amd64.deb
+Size: 26067384
+MD5sum: a05efdf49e1ee28e0fa0a142d5cf8248
+SHA1: 957b5f11878b609e539a8cb38e219a704d751244
+SHA256: 49b7028a9a5de32ae2475e421f8ed355c474d22234ccd197e64dd82ff40f2b55
+SHA512: 092a54291720c1b41d965d9620ae3a09d2eab587c3d8be598985718950e5831bc5e8654a02983ffcc503358401f4ab608bec324fd5c4cedcd1a8a797be776ece
+Description: CUDA command-line tools
+ Contains the command line tools to debug and profile CUDA applications
+ (cuda-gdb, cuda-memcheck, profiler).
+
+Package: cuda-visual-tools-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 318729
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-command-line-tools-8-0, cuda-nvrtc-dev-8-0, cuda-cusolver-dev-8-0, cuda-cublas-dev-8-0, cuda-cufft-dev-8-0, cuda-curand-dev-8-0, cuda-cusparse-dev-8-0, cuda-npp-dev-8-0, cuda-cudart-dev-8-0, cuda-driver-dev-8-0, cuda-nvml-dev-8-0, cuda-nvgraph-dev-8-0, default-jre (>= 1.7) | openjdk-7-jre, libcairo2
+Filename: ./cuda-visual-tools-8-0_8.0.61-1_amd64.deb
+Size: 285865110
+MD5sum: d235d5d7d2c32bb46ce7456af0b8b098
+SHA1: e127641ef4a122c64dc1c704fc4deee4bf3c3712
+SHA256: 3b7ff95d74cb84f980da6ee9230004ebcadfce7db27a6d71a84d69963f060cb5
+SHA512: e4a9f741673dfa124f47eea8ec1e2e5b4da83d75189f98f6a953358cb67557252c0de5ecede57f3351eef87d34cb8cdb760bebde325849f2aebb195b4b1b94f9
+Description: CUDA visual tools
+ Contains the visual tools to debug and profile CUDA applications
+ (Nsight Eclipse Edition, Nvidia Visual Profiler).
+
+Package: cuda-demo-suite-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 10933
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-runtime-8-0
+Filename: ./cuda-demo-suite-8-0_8.0.61-1_amd64.deb
+Size: 4988170
+MD5sum: bca25f5305611c4031be7e0a9905cce4
+SHA1: 4ea12db17246e26280a3856343b3174e28afccaa
+SHA256: 9178b5fbae336710412fb408f08957ca8d06e2ea3dca2584ae98c84e564aa906
+SHA512: 865e486b9415d5173a82aa7ddc45565f5a91ad3aca6ee2c9a4195721e143af6ea8ee4107b31764ea8695870d02f2d5ef712f03d9ca54e3508bc89018fe5fe0df
+Description: Demo suite for CUDA
+ Set of pre-built demos using CUDA.
+
+Package: cuda-cudart-dev-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 3429
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-cudart-8-0 (>= 8.0.61), cuda-driver-dev-8-0
+Filename: ./cuda-cudart-dev-8-0_8.0.61-1_amd64.deb
+Size: 1070632
+MD5sum: 19b2d061c7ea01ff65ae75fd390162d3
+SHA1: d7b684440b2418d3c4e77c5905a65739e6434820
+SHA256: fef6b43cfc5783544559088c6a74914a1d411c20d443f562058daae17b009ffd
+SHA512: 02fb5e901bb3b4c2f495348348eb9fb107953b48e1a6c54f98658b960836d3a4daa8493f285d8a02b940106c041c6f27e59e7cac86d716b972ade59007c683ab
+Description: CUDA Runtime native dev links, headers
+ CUDA Runtime native dev links, headers
+
+Package: nvidia-361-updates
+Priority: optional
+Section: restricted/misc
+Installed-Size: 17
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Depends: nvidia-375
+Filename: ./nvidia-361-updates_375.26-0ubuntu1_amd64.deb
+Size: 6412
+MD5sum: 97d0f5b2c4ed046652dfa8c37467b1fb
+SHA1: 4c347057cf860c6ab49884d448dce15e957488b6
+SHA256: febdc85ad1727cbd7b9e1d75d69d6ce0236c20680bd4d646e6380a347fe863a5
+SHA512: 89e9a836bf89c24a96056c7691a1f3037a32f69587bc9c81f5bb999c21ec5ccdd4af023352fccfab379ad565acc88a3fc5248ed39f36a2f2f882eff49c7613fe
+Description: Transitional package for nvidia-375
+ This is a transitional package for nvidia-375, and can be
+ safely removed after the installation is complete.
+
+Package: cuda-drivers
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 7
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Version: 375.26-1
+Depends: nvidia-375 (>= 375.26), nvidia-375-dev (>= 375.26), libcuda1-375 (>= 375.26), nvidia-modprobe (>= 375.26), nvidia-settings (>= 375.26), nvidia-opencl-icd-375 (>= 375.26), libopencl1
+Filename: ./cuda-drivers_375.26-1_amd64.deb
+Size: 2400
+MD5sum: 08903ea7b6ceb67b7817a6316d9aa008
+SHA1: 30bee335b87604e5d5e4ef71db29beed94d9b030
+SHA256: 9bbfd3aa0829da77b85e04f09bd5f90f1e014f509d0f92aa709b1f1777668589
+SHA512: 7d6e39ea1fe6b61243265483f954aeda79aa8cfb597989b8d815a8203fe8f54bb30dac8918e8d7d25c70958a283abd68254548059a11f6682ddb893fac697b5c
+Description: CUDA Driver meta-package
+ Meta-package containing all the available packages related to the NVIDIA driver.
+
+Package: cuda-nvrtc-cross-aarch64-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 9028
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: arm64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-aarch64-8-0
+Filename: ./cuda-nvrtc-cross-aarch64-8-0_8.0.61-1_arm64.deb
+Size: 1717982
+MD5sum: 4065e437455d6019ba11b3ed43ce6b64
+SHA1: 8250b5be7afd2214ca5b240d90a821fdc421f287
+SHA256: 078a6b17f2864aa744545a04b8577b8694bbfa990f760b9a7d33688b5021ebf1
+SHA512: cd423d6c8099b3f514f398cd0977d612c32c9a1cb567dfe406ab6d0a3da0d137b3f23691a504dcd663f740b1f23dc85ecdcf9ce8af739606efff9f3db53406cc
+Description: NVRTC cross-aarch64 dev links, headers
+ NVRTC cross-aarch64 dev links, headers
+Multi-Arch: foreign
+
+Package: cuda-samples-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 214190
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda-samples
+Version: 8.0.61-1
+Depends: g++, freeglut3-dev, build-essential, libx11-dev, libxmu-dev, libxi-dev, libglu1-mesa, libglu1-mesa-dev, cuda-nvrtc-dev-8-0, cuda-core-8-0, cuda-cusolver-dev-8-0, cuda-cublas-dev-8-0, cuda-cufft-dev-8-0, cuda-curand-dev-8-0, cuda-cusparse-dev-8-0, cuda-npp-dev-8-0, cuda-cudart-dev-8-0, cuda-driver-dev-8-0
+Filename: ./cuda-samples-8-0_8.0.61-1_amd64.deb
+Size: 101051122
+MD5sum: c5dc695acd7159eefed13d5ceb2c4127
+SHA1: 65aefb0c0b2e5fc9a7037bb6a6d0f499e43f6056
+SHA256: fded04002cf9b7dc4a07bf5e45e39892c16d68c9925323c905054bd79a4bf370
+SHA512: 995b61fb8f056d7e5dacf7902164dc7682cc842e2a75bf2f5480c46dc21bebaf244ff6345f230ba778424dc8f1d8672962edfaf60c14c5436894397304373031
+Description: CUDA example applications
+ Sample CUDA applications which show the core functionality of CUDA
+ as well as advanced features.
+
+Package: nvidia-opencl-icd-352-updates
+Priority: optional
+Section: restricted/misc
+Installed-Size: 17
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Depends: nvidia-opencl-icd-375
+Filename: ./nvidia-opencl-icd-352-updates_375.26-0ubuntu1_amd64.deb
+Size: 6422
+MD5sum: 145d3c5714394914225c96a1e4bf8fa5
+SHA1: f751a80a597a4a5d04a797a858ccb3c4a0290e4a
+SHA256: 87685a9c7fa883bce0d0cb46925bfc969ae0a9b11498be154aacb8dff5305cea
+SHA512: 512920b80d7a41844c8db62949eedfa2c9be60f7a81e422579851461b30f424f008bb87517a0dd5d5af8e1887b07dc2ce7146e82783148c5d2faf642170faa62
+Description: Transitional package for nvidia-opencl-icd-375
+ This is a transitional package for nvidia-opencl-icd-375, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-libopencl1-361-updates
+Priority: optional
+Section: restricted/misc
+Installed-Size: 17
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Depends: nvidia-libopencl1-375
+Filename: ./nvidia-libopencl1-361-updates_375.26-0ubuntu1_amd64.deb
+Size: 6426
+MD5sum: 3dcaaf2a667cd9ac9bd0e345decf4b0e
+SHA1: e8d12047187e0c68ceb98d58654e60fc9dd52698
+SHA256: df51e11fb3483c5d0609302dd873eb32c52688db1b3bd4b93cab04d9a3ff6afb
+SHA512: ab4478f0c7f367cbd4894f166d5b69d87a2567345fead9252556419273a044a3efd5f99b06cc7399c44ccd0ec46155ac0d20b7a087801d40e84fc3c39fadad0f
+Description: Transitional package for nvidia-libopencl1-375
+ This is a transitional package for nvidia-libopencl1-375, and can be
+ safely removed after the installation is complete.
+
+Package: cuda-runtime-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 25
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-nvrtc-8-0 (>= 8.0.61), cuda-nvgraph-8-0 (>= 8.0.61), cuda-cusolver-8-0 (>= 8.0.61), cuda-cublas-8-0 (>= 8.0.61), cuda-cufft-8-0 (>= 8.0.61), cuda-curand-8-0 (>= 8.0.61), cuda-cusparse-8-0 (>= 8.0.61), cuda-npp-8-0 (>= 8.0.61), cuda-cudart-8-0 (>= 8.0.61), cuda-drivers (>= 375.26), cuda-license-8-0 (>= 8.0.61)
+Filename: ./cuda-runtime-8-0_8.0.61-1_amd64.deb
+Size: 2574
+MD5sum: afde093dccd981553a87813332492690
+SHA1: 650a4137063f7d49f9b9a279ef64811a8f0a9bf9
+SHA256: 99d0d7ca78a9d7e143c40e81dfcacf0b9bbd2717834a00ba1ced96caa312b5a0
+SHA512: 197f9644bda5ff48b7a881bb8386baab8170a6dffd43be523331264a5b917c8c0439d6611d35059027b0402cf1b478c6c3f73bf17d70dff39fb362a162b5fe8f
+Description: CUDA Runtime 8.0 meta-package
+ Meta-package containing all runtime library packages and the CUDA driver.
+ Locked at CUDA Toolkit version 8.0.
+
+Package: cuda-cublas-cross-aarch64-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 104062
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: arm64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-aarch64-8-0
+Filename: ./cuda-cublas-cross-aarch64-8-0_8.0.61-1_arm64.deb
+Size: 56555464
+MD5sum: 2bb04b768c7ede7e30aad2b8fd2ce6f4
+SHA1: b008882fb6bbb442581ce9d052375132e963aff9
+SHA256: 6e943c3e506f5b2daaf5665542c5eafe9b9159cf9dfb60c6b6a50fe845ce078c
+SHA512: 2e90bddf37358c1952c428ea5648fb2bdab4c1906d39d83d9d9e86a0018fb9aad9e70c841fa697b207fb8786d0ad5688561bf15b5bb0c25c6a9de7467fec24b1
+Description: CUBLAS cross-aarch64 dev links, headers
+ CUBLAS cross-aarch64 dev links, headers
+Multi-Arch: foreign
+
+Package: cuda-minimal-build-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 25
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-core-8-0 (>= 8.0.61), cuda-cudart-dev-8-0 (>= 8.0.61), cuda-license-8-0 (>= 8.0.61)
+Filename: ./cuda-minimal-build-8-0_8.0.61-1_amd64.deb
+Size: 2542
+MD5sum: 03410f88e7167a4e9f4ad7dbaa150f40
+SHA1: a1c5e687452e6d701a2023d5fd9926dba6eff912
+SHA256: ef054919842d6d89814a770090daee555f7d3d0f285717de4399f2a25aae6235
+SHA512: abfcac589b118944447b9d7df6d990d7ef6f6778124bb3ec6bc1ea7ef61b7968513495ce4a3e368b630e5b49477c55dd89235b25f7b9e4c5b8327cabd17a6028
+Description: Minimal CUDA 8.0 toolkit build packages.
+ Meta-package containing the minimal necessary to build basic CUDA apps.
+ Locked at CUDA Toolkit version 8.0.
+
+Package: nvidia-libopencl1-352
+Priority: optional
+Section: restricted/misc
+Installed-Size: 17
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Depends: nvidia-libopencl1-375
+Filename: ./nvidia-libopencl1-352_375.26-0ubuntu1_amd64.deb
+Size: 6416
+MD5sum: 91aba3829c94b98f5e126202b5a34cc4
+SHA1: 1eb94fdfb02a8d45f12030f4a5d0204c52ca29ee
+SHA256: 725bda40b80ad7ae664bcaf0918d86eb98e5bc543d3831ad3561e4d2367fce7e
+SHA512: a28a4bd9121fc7f7af4328b22027a95f9450cd7247f182c48d9eeedefe54f5623127e882ad3e703c72bcdec6585a74f30b15cdc3cc166ba666d3123c47160e82
+Description: Transitional package for nvidia-libopencl1-375
+ This is a transitional package for nvidia-libopencl1-375, and can be
+ safely removed after the installation is complete.
+
+Package: cuda-cross-ppc64el-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 25
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-toolkit-8-0, cuda-cudart-cross-ppc64el-8-0, cuda-driver-cross-ppc64el-8-0, cuda-misc-headers-cross-ppc64el-8-0, cuda-nvrtc-cross-ppc64el-8-0, cuda-cusolver-cross-ppc64el-8-0, cuda-cublas-cross-ppc64el-8-0, cuda-cufft-cross-ppc64el-8-0, cuda-curand-cross-ppc64el-8-0, cuda-cusparse-cross-ppc64el-8-0, cuda-npp-cross-ppc64el-8-0, cuda-nvml-cross-ppc64el-8-0, cuda-nvgraph-cross-ppc64el-8-0, g++-powerpc64le-linux-gnu
+Filename: ./cuda-cross-ppc64el-8-0_8.0.61-1_amd64.deb
+Size: 2644
+MD5sum: c6dd4d61500a782bd8e7f00d965003cf
+SHA1: b55fc4048cf470ef822fe19f0f949a12915bb168
+SHA256: 55f68b2c51bffccb7950ddae9c80bc6d1951d7e60affef14f7434ba13f74a99f
+SHA512: 04f964628fa1f39c9b3d2f85d1369b8f11917059059593ed11433605153b40186cde7cc06569c4b6626daa12c7e46f4098183d902d7860edbb0b7f04eb7305e4
+Description: CUDA 8.0 cross-platform meta-package
+ Meta-package containing all the available packages required for cross-platform
+ CUDA development. Contains the toolkit, samples and documentation.
+ Locked at CUDA Toolkit version 8.0.
+
+Package: cuda-curand-dev-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 124837
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-curand-8-0 (>= 8.0.61)
+Filename: ./cuda-curand-dev-8-0_8.0.61-1_amd64.deb
+Size: 67727330
+MD5sum: e47ab942c5b5f6e3cdf3185e39dcf8be
+SHA1: 38f91368cf259b9725e1dff5564b1a8e261aec56
+SHA256: 39417f135600df418eb7e7ea14c82a69e21de20e9e5d6a4a84846e2c943a13ba
+SHA512: b44f253dd9cd340fa20f3012a7c2f944dd9637bf19264e86d025f8b8b79b78cc6d2c96e00ab1e2cffee14f4b81c7e58903b0057e96b5a8a9764c8fc1fda1ee87
+Description: CURAND native dev links, headers
+ CURAND native dev links, headers
+
+Package: cuda-cudart-cross-aarch64-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 2057
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: arm64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-aarch64-8-0, cuda-driver-cross-aarch64-8-0
+Filename: ./cuda-cudart-cross-aarch64-8-0_8.0.61-1_arm64.deb
+Size: 674086
+MD5sum: 710ee5be4aa66c3dff2a855c3f7f3b7f
+SHA1: d15d4d55c4113cf62adaa5c8b93e39fa1fb0f855
+SHA256: 836408fba8b5439cf54d5d2e4a979cb988c559661fd189126792eb6f0a720e22
+SHA512: 4e8809e82b81e305aff38fd60d608bf19dfe7b9958b380c8f54099af07f0c8d3cd80d7fbd57de40a6f25dacbdaf7f2cb85730dc8ef1412654ba308437733fa25
+Description: CUDA Runtime cross-aarch64 dev links, headers
+ CUDA Runtime cross-aarch64 dev links, headers
+Multi-Arch: foreign
+
+Package: cuda-curand-cross-armhf-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 115175
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: armhf
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-armhf-8-0
+Filename: ./cuda-curand-cross-armhf-8-0_8.0.61-1_armhf.deb
+Size: 64129008
+MD5sum: 62a4768fa8de4d0e3030193ca3540ef7
+SHA1: 8357065b931da533d9c268f8fb3f20f73b5df37f
+SHA256: b75ea11dc96401be071da9a97ba0f4e86f002b64ca6a58e8ad79e0ee1eb823d6
+SHA512: abe632383185f2803687f07befa366c83be02ccf3b2e8951d9818764dd443995b4c42d26f49fd7a4d32de974d9653a7abb321084d5106b07ed2c0cf26ddfb2d4
+Description: CURAND cross-armhf dev links, headers
+ CURAND cross-armhf dev links, headers
+Multi-Arch: foreign
+
+Package: nvidia-opencl-icd-361-updates
+Priority: optional
+Section: restricted/misc
+Installed-Size: 17
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Depends: nvidia-opencl-icd-375
+Filename: ./nvidia-opencl-icd-361-updates_375.26-0ubuntu1_amd64.deb
+Size: 6422
+MD5sum: 2a6e437ef4faedffa5ce08d958b44c72
+SHA1: 986edb8793a22d951f89b4fcbae487f9dfdbd827
+SHA256: 8c95730b96bf97dc7948c21541f367db547825bb8479e3c926cd8dae5ed9a5b3
+SHA512: 9bda91687fb91a698d75d928a8cd00791484dd347327268aaaae5c5607bfde47a04114bf3fddef94d6af270b05dc90211b2f38c71a0ce0d48cfd77d2d46d57f5
+Description: Transitional package for nvidia-opencl-icd-375
+ This is a transitional package for nvidia-opencl-icd-375, and can be
+ safely removed after the installation is complete.
+
+Package: cuda-toolkit-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 25
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-core-8-0 (>= 8.0.61), cuda-misc-headers-8-0 (>= 8.0.61), cuda-command-line-tools-8-0 (>= 8.0.61), cuda-samples-8-0 (>= 8.0.61), cuda-documentation-8-0 (>= 8.0.61), cuda-nvrtc-dev-8-0 (>= 8.0.61), cuda-nvml-dev-8-0 (>= 8.0.61), cuda-nvgraph-dev-8-0 (>= 8.0.61), cuda-cusolver-dev-8-0 (>= 8.0.61), cuda-cublas-dev-8-0 (>= 8.0.61), cuda-cufft-dev-8-0 (>= 8.0.61), cuda-curand-dev-8-0 (>= 8.0.61), cuda-cusparse-dev-8-0 (>= 8.0.61), cuda-npp-dev-8-0 (>= 8.0.61), cuda-cudart-dev-8-0 (>= 8.0.61), cuda-driver-dev-8-0 (>= 8.0.61), cuda-license-8-0 (>= 8.0.61), cuda-visual-tools-8-0 (>= 8.0.61)
+Filename: ./cuda-toolkit-8-0_8.0.61-1_amd64.deb
+Size: 2892
+MD5sum: d3f5b8fff98d4888a4fde6a77a3a4616
+SHA1: c7a9f4c19e4336106c3351d72e23fdb31ad3c4a0
+SHA256: b9e8b0fa7a2fba2a36a90d8ffcd46040e26f0448348c43b587593db249b2f277
+SHA512: c2d9899d26ffde95b11e6da4c1d9c5bd91394ac787a1a2ccfa5751d1fd0e1d358dc5b4f07ad4d8f26301f03b418850e4f81b0b18caf43381e7b9a24539f1c097
+Description: CUDA Toolkit 8.0 meta-package
+ Meta-package containing all the available toolkit packages related to native
+ CUDA development. Contains the toolkit, samples, and documentation.
+ Locked at CUDA Toolkit version 8.0.
+
+Package: cuda-cufft-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 143836
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0
+Filename: ./cuda-cufft-8-0_8.0.61-1_amd64.deb
+Size: 117475578
+MD5sum: 22bbe02c0e4d36329f7e22196cbf44d2
+SHA1: 9c910b2a36d8b5131389fc1f92a245354d0c7fd6
+SHA256: 3da2479175a49a8075ecec50aef7d7f4925dd92c059f3d80ddbe0d21740f6349
+SHA512: db4626c699094c4a071d721f48ab3d5b143cc81c16d3488f14e58609a54735ea57576778ec30053482f050f9620a65deab39f7888ef1e958ba63b39f92a96553
+Description: CUFFT native runtime libraries
+ CUFFT native runtime libraries
+
+Package: libcuda1-352
+Priority: optional
+Section: restricted/misc
+Installed-Size: 17
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Depends: libcuda1-375
+Filename: ./libcuda1-352_375.26-0ubuntu1_amd64.deb
+Size: 6412
+MD5sum: 8e2756dc7ffa8341ff11bcb9e5b3d130
+SHA1: 2d2ac76620ff4179d7e4f1af008457a51e450cdc
+SHA256: 38dceddd24ed9d2eecefcc9501e03ec430d196a777dbeca2d9792d4c724a9430
+SHA512: 998787040a9144cac8ff5debc7545eb4b8cc2d2d0783874b3dee968d3e767422f70dd2130b85cdd650f8ff00630e89ca5059cc5e272442bdf34d0d566440dd83
+Description: Transitional package for libcuda1-375
+ This is a transitional package for libcuda1-375, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-375
+Priority: optional
+Section: restricted/misc
+Installed-Size: 292689
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Replaces: nvidia-current, nvidia-persistenced, xorg-driver-binary
+Provides: nvidia-current, nvidia-driver-binary, nvidia-persistenced, xorg-driver-binary, xorg-driver-video
+Depends: x11-common (>= 1:7.0.0), make, sed (>> 3.0), dkms, linux-libc-dev, libc6-dev, patch, acpid, lib32gcc1, libc6-i386, passwd, adduser, libc6 (>= 2.2.5), libgl1, libwayland-client0 (>= 1.3.92), libwayland-server0 (>= 1.2.0), libx11-6, libxext6, xorg-video-abi-11 | xorg-video-abi-12 | xorg-video-abi-13 | xorg-video-abi-14 | xorg-video-abi-15 | xorg-video-abi-18 | xorg-video-abi-19 | xorg-video-abi-20, xserver-xorg-core
+Recommends: nvidia-settings (>= 331.20), nvidia-prime (>= 0.5) | bumblebee, libcuda1-375, nvidia-opencl-icd-375
+Conflicts: nvidia-current, nvidia-persistenced, xorg-driver-binary
+Filename: ./nvidia-375_375.26-0ubuntu1_amd64.deb
+Size: 69348420
+MD5sum: 316ee4703d29830a36aebde27bc9fa6d
+SHA1: 75d5a766da227e2ed1965fe715a891525f7f09bb
+SHA256: c505f2c17da4d5760e82af1d88120f1010b7f15c56795a3796e82c63a2eef90f
+SHA512: 1ec25091c2274a97fdd1c26fc2eb193ead5b9f768eadda16b37270d7739005fad2de5df06ed87c7b8d0f6bdb1c5abc712f78c7eb197d969ba7a8c502ef647a9e
+Description: NVIDIA binary driver - version 375.26
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-amd64-375.26-driver.html
+Modaliases: nvidia_375(pci:v000010DEd000006C0sv*sd*bc03sc*i*, pci:v000010DEd000006C4sv*sd*bc03sc*i*, pci:v000010DEd000006CAsv*sd*bc03sc*i*, pci:v000010DEd000006CDsv*sd*bc03sc*i*, pci:v000010DEd000006D1sv*sd*bc03sc*i*, pci:v000010DEd000006D2sv*sd*bc03sc*i*, pci:v000010DEd000006D8sv*sd*bc03sc*i*, pci:v000010DEd000006D9sv*sd*bc03sc*i*, pci:v000010DEd000006DAsv*sd*bc03sc*i*, pci:v000010DEd000006DCsv*sd*bc03sc*i*, pci:v000010DEd000006DDsv*sd*bc03sc*i*, pci:v000010DEd000006DEsv*sd*bc03sc*i*, pci:v000010DEd000006DFsv*sd*bc03sc*i*, pci:v000010DEd00000DC0sv*sd*bc03sc*i*, pci:v000010DEd00000DC4sv*sd*bc03sc*i*, pci:v000010DEd00000DC5sv*sd*bc03sc*i*, pci:v000010DEd00000DC6sv*sd*bc03sc*i*, pci:v000010DEd00000DCDsv*sd*bc03sc*i*, pci:v000010DEd00000DCEsv*sd*bc03sc*i*, pci:v000010DEd00000DD1sv*sd*bc03sc*i*, pci:v000010DEd00000DD2sv*sd*bc03sc*i*, pci:v000010DEd00000DD3sv*sd*bc03sc*i*, pci:v000010DEd00000DD6sv*sd*bc03sc*i*, pci:v000010DEd00000DD8sv*sd*bc03sc*i*, pci:v000010DEd00000DDAsv*sd*bc03sc*i*, pci:v000010DEd00000DE0sv*sd*bc03sc*i*, pci:v000010DEd00000DE1sv*sd*bc03sc*i*, pci:v000010DEd00000DE2sv*sd*bc03sc*i*, pci:v000010DEd00000DE3sv*sd*bc03sc*i*, pci:v000010DEd00000DE4sv*sd*bc03sc*i*, pci:v000010DEd00000DE5sv*sd*bc03sc*i*, pci:v000010DEd00000DE7sv*sd*bc03sc*i*, pci:v000010DEd00000DE8sv*sd*bc03sc*i*, pci:v000010DEd00000DE9sv*sd*bc03sc*i*, pci:v000010DEd00000DEAsv*sd*bc03sc*i*, pci:v000010DEd00000DEBsv*sd*bc03sc*i*, pci:v000010DEd00000DECsv*sd*bc03sc*i*, pci:v000010DEd00000DEDsv*sd*bc03sc*i*, pci:v000010DEd00000DEEsv*sd*bc03sc*i*, pci:v000010DEd00000DEFsv*sd*bc03sc*i*, pci:v000010DEd00000DF0sv*sd*bc03sc*i*, pci:v000010DEd00000DF1sv*sd*bc03sc*i*, pci:v000010DEd00000DF2sv*sd*bc03sc*i*, pci:v000010DEd00000DF3sv*sd*bc03sc*i*, pci:v000010DEd00000DF4sv*sd*bc03sc*i*, pci:v000010DEd00000DF5sv*sd*bc03sc*i*, pci:v000010DEd00000DF6sv*sd*bc03sc*i*, pci:v000010DEd00000DF7sv*sd*bc03sc*i*, pci:v000010DEd00000DF8sv*sd*bc03sc*i*, pci:v000010DEd00000DF9sv*sd*bc03sc*i*, pci:v000010DEd00000DFAsv*sd*bc03sc*i*, pci:v000010DEd00000DFCsv*sd*bc03sc*i*, pci:v000010DEd00000E22sv*sd*bc03sc*i*, pci:v000010DEd00000E23sv*sd*bc03sc*i*, pci:v000010DEd00000E24sv*sd*bc03sc*i*, pci:v000010DEd00000E30sv*sd*bc03sc*i*, pci:v000010DEd00000E31sv*sd*bc03sc*i*, pci:v000010DEd00000E3Asv*sd*bc03sc*i*, pci:v000010DEd00000E3Bsv*sd*bc03sc*i*, pci:v000010DEd00000F00sv*sd*bc03sc*i*, pci:v000010DEd00000F01sv*sd*bc03sc*i*, pci:v000010DEd00000F02sv*sd*bc03sc*i*, pci:v000010DEd00000F03sv*sd*bc03sc*i*, pci:v000010DEd00000FC0sv*sd*bc03sc*i*, pci:v000010DEd00000FC1sv*sd*bc03sc*i*, pci:v000010DEd00000FC2sv*sd*bc03sc*i*, pci:v000010DEd00000FC6sv*sd*bc03sc*i*, pci:v000010DEd00000FC8sv*sd*bc03sc*i*, pci:v000010DEd00000FC9sv*sd*bc03sc*i*, pci:v000010DEd00000FCDsv*sd*bc03sc*i*, pci:v000010DEd00000FCEsv*sd*bc03sc*i*, pci:v000010DEd00000FD1sv*sd*bc03sc*i*, pci:v000010DEd00000FD2sv*sd*bc03sc*i*, pci:v000010DEd00000FD3sv*sd*bc03sc*i*, pci:v000010DEd00000FD4sv*sd*bc03sc*i*, pci:v000010DEd00000FD5sv*sd*bc03sc*i*, pci:v000010DEd00000FD8sv*sd*bc03sc*i*, pci:v000010DEd00000FD9sv*sd*bc03sc*i*, pci:v000010DEd00000FDFsv*sd*bc03sc*i*, pci:v000010DEd00000FE0sv*sd*bc03sc*i*, pci:v000010DEd00000FE1sv*sd*bc03sc*i*, pci:v000010DEd00000FE2sv*sd*bc03sc*i*, pci:v000010DEd00000FE3sv*sd*bc03sc*i*, pci:v000010DEd00000FE4sv*sd*bc03sc*i*, pci:v000010DEd00000FE9sv*sd*bc03sc*i*, pci:v000010DEd00000FEAsv*sd*bc03sc*i*, pci:v000010DEd00000FECsv*sd*bc03sc*i*, pci:v000010DEd00000FEDsv*sd*bc03sc*i*, pci:v000010DEd00000FEEsv*sd*bc03sc*i*, pci:v000010DEd00000FF3sv*sd*bc03sc*i*, pci:v000010DEd00000FF6sv*sd*bc03sc*i*, pci:v000010DEd00000FF8sv*sd*bc03sc*i*, pci:v000010DEd00000FF9sv*sd*bc03sc*i*, pci:v000010DEd00000FFAsv*sd*bc03sc*i*, pci:v000010DEd00000FFBsv*sd*bc03sc*i*, pci:v000010DEd00000FFCsv*sd*bc03sc*i*, pci:v000010DEd00000FFDsv*sd*bc03sc*i*, pci:v000010DEd00000FFEsv*sd*bc03sc*i*, pci:v000010DEd00000FFFsv*sd*bc03sc*i*, pci:v000010DEd00001001sv*sd*bc03sc*i*, pci:v000010DEd00001004sv*sd*bc03sc*i*, pci:v000010DEd00001005sv*sd*bc03sc*i*, pci:v000010DEd00001007sv*sd*bc03sc*i*, pci:v000010DEd00001008sv*sd*bc03sc*i*, pci:v000010DEd0000100Asv*sd*bc03sc*i*, pci:v000010DEd0000100Csv*sd*bc03sc*i*, pci:v000010DEd00001021sv*sd*bc03sc*i*, pci:v000010DEd00001022sv*sd*bc03sc*i*, pci:v000010DEd00001023sv*sd*bc03sc*i*, pci:v000010DEd00001024sv*sd*bc03sc*i*, pci:v000010DEd00001026sv*sd*bc03sc*i*, pci:v000010DEd00001027sv*sd*bc03sc*i*, pci:v000010DEd00001028sv*sd*bc03sc*i*, pci:v000010DEd00001029sv*sd*bc03sc*i*, pci:v000010DEd0000102Asv*sd*bc03sc*i*, pci:v000010DEd0000102Dsv*sd*bc03sc*i*, pci:v000010DEd0000103Asv*sd*bc03sc*i*, pci:v000010DEd0000103Csv*sd*bc03sc*i*, pci:v000010DEd00001040sv*sd*bc03sc*i*, pci:v000010DEd00001042sv*sd*bc03sc*i*, pci:v000010DEd00001048sv*sd*bc03sc*i*, pci:v000010DEd00001049sv*sd*bc03sc*i*, pci:v000010DEd0000104Asv*sd*bc03sc*i*, pci:v000010DEd0000104Bsv*sd*bc03sc*i*, pci:v000010DEd0000104Csv*sd*bc03sc*i*, pci:v000010DEd00001050sv*sd*bc03sc*i*, pci:v000010DEd00001051sv*sd*bc03sc*i*, pci:v000010DEd00001052sv*sd*bc03sc*i*, pci:v000010DEd00001054sv*sd*bc03sc*i*, pci:v000010DEd00001055sv*sd*bc03sc*i*, pci:v000010DEd00001056sv*sd*bc03sc*i*, pci:v000010DEd00001057sv*sd*bc03sc*i*, pci:v000010DEd00001058sv*sd*bc03sc*i*, pci:v000010DEd00001059sv*sd*bc03sc*i*, pci:v000010DEd0000105Asv*sd*bc03sc*i*, pci:v000010DEd0000105Bsv*sd*bc03sc*i*, pci:v000010DEd0000107Csv*sd*bc03sc*i*, pci:v000010DEd0000107Dsv*sd*bc03sc*i*, pci:v000010DEd00001080sv*sd*bc03sc*i*, pci:v000010DEd00001081sv*sd*bc03sc*i*, pci:v000010DEd00001082sv*sd*bc03sc*i*, pci:v000010DEd00001084sv*sd*bc03sc*i*, pci:v000010DEd00001086sv*sd*bc03sc*i*, pci:v000010DEd00001087sv*sd*bc03sc*i*, pci:v000010DEd00001088sv*sd*bc03sc*i*, pci:v000010DEd00001089sv*sd*bc03sc*i*, pci:v000010DEd0000108Bsv*sd*bc03sc*i*, pci:v000010DEd00001091sv*sd*bc03sc*i*, pci:v000010DEd00001094sv*sd*bc03sc*i*, pci:v000010DEd00001096sv*sd*bc03sc*i*, pci:v000010DEd0000109Asv*sd*bc03sc*i*, pci:v000010DEd0000109Bsv*sd*bc03sc*i*, pci:v000010DEd00001180sv*sd*bc03sc*i*, pci:v000010DEd00001183sv*sd*bc03sc*i*, pci:v000010DEd00001184sv*sd*bc03sc*i*, pci:v000010DEd00001185sv*sd*bc03sc*i*, pci:v000010DEd00001187sv*sd*bc03sc*i*, pci:v000010DEd00001188sv*sd*bc03sc*i*, pci:v000010DEd00001189sv*sd*bc03sc*i*, pci:v000010DEd0000118Esv*sd*bc03sc*i*, pci:v000010DEd0000118Fsv*sd*bc03sc*i*, pci:v000010DEd00001193sv*sd*bc03sc*i*, pci:v000010DEd00001194sv*sd*bc03sc*i*, pci:v000010DEd00001195sv*sd*bc03sc*i*, pci:v000010DEd00001198sv*sd*bc03sc*i*, pci:v000010DEd00001199sv*sd*bc03sc*i*, pci:v000010DEd0000119Asv*sd*bc03sc*i*, pci:v000010DEd0000119Dsv*sd*bc03sc*i*, pci:v000010DEd0000119Esv*sd*bc03sc*i*, pci:v000010DEd0000119Fsv*sd*bc03sc*i*, pci:v000010DEd000011A0sv*sd*bc03sc*i*, pci:v000010DEd000011A1sv*sd*bc03sc*i*, pci:v000010DEd000011A2sv*sd*bc03sc*i*, pci:v000010DEd000011A3sv*sd*bc03sc*i*, pci:v000010DEd000011A7sv*sd*bc03sc*i*, pci:v000010DEd000011B4sv*sd*bc03sc*i*, pci:v000010DEd000011B6sv*sd*bc03sc*i*, pci:v000010DEd000011B7sv*sd*bc03sc*i*, pci:v000010DEd000011B8sv*sd*bc03sc*i*, pci:v000010DEd000011BAsv*sd*bc03sc*i*, pci:v000010DEd000011BCsv*sd*bc03sc*i*, pci:v000010DEd000011BDsv*sd*bc03sc*i*, pci:v000010DEd000011BEsv*sd*bc03sc*i*, pci:v000010DEd000011C0sv*sd*bc03sc*i*, pci:v000010DEd000011C2sv*sd*bc03sc*i*, pci:v000010DEd000011C3sv*sd*bc03sc*i*, pci:v000010DEd000011C4sv*sd*bc03sc*i*, pci:v000010DEd000011C5sv*sd*bc03sc*i*, pci:v000010DEd000011C6sv*sd*bc03sc*i*, pci:v000010DEd000011C8sv*sd*bc03sc*i*, pci:v000010DEd000011CBsv*sd*bc03sc*i*, pci:v000010DEd000011E0sv*sd*bc03sc*i*, pci:v000010DEd000011E1sv*sd*bc03sc*i*, pci:v000010DEd000011E2sv*sd*bc03sc*i*, pci:v000010DEd000011E3sv*sd*bc03sc*i*, pci:v000010DEd000011FAsv*sd*bc03sc*i*, pci:v000010DEd000011FCsv*sd*bc03sc*i*, pci:v000010DEd00001200sv*sd*bc03sc*i*, pci:v000010DEd00001201sv*sd*bc03sc*i*, pci:v000010DEd00001203sv*sd*bc03sc*i*, pci:v000010DEd00001205sv*sd*bc03sc*i*, pci:v000010DEd00001206sv*sd*bc03sc*i*, pci:v000010DEd00001207sv*sd*bc03sc*i*, pci:v000010DEd00001208sv*sd*bc03sc*i*, pci:v000010DEd00001210sv*sd*bc03sc*i*, pci:v000010DEd00001211sv*sd*bc03sc*i*, pci:v000010DEd00001212sv*sd*bc03sc*i*, pci:v000010DEd00001213sv*sd*bc03sc*i*, pci:v000010DEd00001241sv*sd*bc03sc*i*, pci:v000010DEd00001243sv*sd*bc03sc*i*, pci:v000010DEd00001244sv*sd*bc03sc*i*, pci:v000010DEd00001245sv*sd*bc03sc*i*, pci:v000010DEd00001246sv*sd*bc03sc*i*, pci:v000010DEd00001247sv*sd*bc03sc*i*, pci:v000010DEd00001248sv*sd*bc03sc*i*, pci:v000010DEd00001249sv*sd*bc03sc*i*, pci:v000010DEd0000124Bsv*sd*bc03sc*i*, pci:v000010DEd0000124Dsv*sd*bc03sc*i*, pci:v000010DEd00001251sv*sd*bc03sc*i*, pci:v000010DEd00001280sv*sd*bc03sc*i*, pci:v000010DEd00001281sv*sd*bc03sc*i*, pci:v000010DEd00001282sv*sd*bc03sc*i*, pci:v000010DEd00001284sv*sd*bc03sc*i*, pci:v000010DEd00001286sv*sd*bc03sc*i*, pci:v000010DEd00001287sv*sd*bc03sc*i*, pci:v000010DEd00001288sv*sd*bc03sc*i*, pci:v000010DEd00001289sv*sd*bc03sc*i*, pci:v000010DEd0000128Bsv*sd*bc03sc*i*, pci:v000010DEd00001290sv*sd*bc03sc*i*, pci:v000010DEd00001291sv*sd*bc03sc*i*, pci:v000010DEd00001292sv*sd*bc03sc*i*, pci:v000010DEd00001293sv*sd*bc03sc*i*, pci:v000010DEd00001295sv*sd*bc03sc*i*, pci:v000010DEd00001296sv*sd*bc03sc*i*, pci:v000010DEd00001298sv*sd*bc03sc*i*, pci:v000010DEd00001299sv*sd*bc03sc*i*, pci:v000010DEd0000129Asv*sd*bc03sc*i*, pci:v000010DEd000012B9sv*sd*bc03sc*i*, pci:v000010DEd000012BAsv*sd*bc03sc*i*, pci:v000010DEd00001340sv*sd*bc03sc*i*, pci:v000010DEd00001341sv*sd*bc03sc*i*, pci:v000010DEd00001344sv*sd*bc03sc*i*, pci:v000010DEd00001346sv*sd*bc03sc*i*, pci:v000010DEd00001347sv*sd*bc03sc*i*, pci:v000010DEd00001348sv*sd*bc03sc*i*, pci:v000010DEd00001349sv*sd*bc03sc*i*, pci:v000010DEd0000134Bsv*sd*bc03sc*i*, pci:v000010DEd0000134Dsv*sd*bc03sc*i*, pci:v000010DEd0000134Esv*sd*bc03sc*i*, pci:v000010DEd0000134Fsv*sd*bc03sc*i*, pci:v000010DEd00001380sv*sd*bc03sc*i*, pci:v000010DEd00001381sv*sd*bc03sc*i*, pci:v000010DEd00001382sv*sd*bc03sc*i*, pci:v000010DEd00001390sv*sd*bc03sc*i*, pci:v000010DEd00001391sv*sd*bc03sc*i*, pci:v000010DEd00001392sv*sd*bc03sc*i*, pci:v000010DEd00001393sv*sd*bc03sc*i*, pci:v000010DEd00001398sv*sd*bc03sc*i*, pci:v000010DEd00001399sv*sd*bc03sc*i*, pci:v000010DEd0000139Asv*sd*bc03sc*i*, pci:v000010DEd0000139Bsv*sd*bc03sc*i*, pci:v000010DEd0000139Csv*sd*bc03sc*i*, pci:v000010DEd0000139Dsv*sd*bc03sc*i*, pci:v000010DEd000013B0sv*sd*bc03sc*i*, pci:v000010DEd000013B1sv*sd*bc03sc*i*, pci:v000010DEd000013B2sv*sd*bc03sc*i*, pci:v000010DEd000013B3sv*sd*bc03sc*i*, pci:v000010DEd000013B4sv*sd*bc03sc*i*, pci:v000010DEd000013B9sv*sd*bc03sc*i*, pci:v000010DEd000013BAsv*sd*bc03sc*i*, pci:v000010DEd000013BBsv*sd*bc03sc*i*, pci:v000010DEd000013BCsv*sd*bc03sc*i*, pci:v000010DEd000013C0sv*sd*bc03sc*i*, pci:v000010DEd000013C2sv*sd*bc03sc*i*, pci:v000010DEd000013D7sv*sd*bc03sc*i*, pci:v000010DEd000013D8sv*sd*bc03sc*i*, pci:v000010DEd000013D9sv*sd*bc03sc*i*, pci:v000010DEd000013DAsv*sd*bc03sc*i*, pci:v000010DEd000013F0sv*sd*bc03sc*i*, pci:v000010DEd000013F1sv*sd*bc03sc*i*, pci:v000010DEd000013F2sv*sd*bc03sc*i*, pci:v000010DEd000013F3sv*sd*bc03sc*i*, pci:v000010DEd000013F8sv*sd*bc03sc*i*, pci:v000010DEd000013F9sv*sd*bc03sc*i*, pci:v000010DEd000013FAsv*sd*bc03sc*i*, pci:v000010DEd000013FBsv*sd*bc03sc*i*, pci:v000010DEd00001401sv*sd*bc03sc*i*, pci:v000010DEd00001402sv*sd*bc03sc*i*, pci:v000010DEd00001406sv*sd*bc03sc*i*, pci:v000010DEd00001407sv*sd*bc03sc*i*, pci:v000010DEd00001427sv*sd*bc03sc*i*, pci:v000010DEd00001430sv*sd*bc03sc*i*, pci:v000010DEd00001431sv*sd*bc03sc*i*, pci:v000010DEd000015F7sv*sd*bc03sc*i*, pci:v000010DEd000015F8sv*sd*bc03sc*i*, pci:v000010DEd000015F9sv*sd*bc03sc*i*, pci:v000010DEd00001617sv*sd*bc03sc*i*, pci:v000010DEd00001618sv*sd*bc03sc*i*, pci:v000010DEd00001619sv*sd*bc03sc*i*, pci:v000010DEd0000161Asv*sd*bc03sc*i*, pci:v000010DEd00001667sv*sd*bc03sc*i*, pci:v000010DEd0000179Csv*sd*bc03sc*i*, pci:v000010DEd000017C2sv*sd*bc03sc*i*, pci:v000010DEd000017C8sv*sd*bc03sc*i*, pci:v000010DEd000017F0sv*sd*bc03sc*i*, pci:v000010DEd000017F1sv*sd*bc03sc*i*, pci:v000010DEd000017FDsv*sd*bc03sc*i*, pci:v000010DEd00001B00sv*sd*bc03sc*i*, pci:v000010DEd00001B30sv*sd*bc03sc*i*, pci:v000010DEd00001B38sv*sd*bc03sc*i*, pci:v000010DEd00001B80sv*sd*bc03sc*i*, pci:v000010DEd00001B81sv*sd*bc03sc*i*, pci:v000010DEd00001B84sv*sd*bc03sc*i*, pci:v000010DEd00001BA0sv*sd*bc03sc*i*, pci:v000010DEd00001BA1sv*sd*bc03sc*i*, pci:v000010DEd00001BB0sv*sd*bc03sc*i*, pci:v000010DEd00001BB3sv*sd*bc03sc*i*, pci:v000010DEd00001BE0sv*sd*bc03sc*i*, pci:v000010DEd00001BE1sv*sd*bc03sc*i*, pci:v000010DEd00001C02sv*sd*bc03sc*i*, pci:v000010DEd00001C03sv*sd*bc03sc*i*, pci:v000010DEd00001C20sv*sd*bc03sc*i*, pci:v000010DEd00001C60sv*sd*bc03sc*i*, pci:v000010DEd00001C81sv*sd*bc03sc*i*, pci:v000010DEd00001C82sv*sd*bc03sc*i*, pci:v000010DEd00000DFCsv*sd*bc03sc*i*)
+
+Package: nvidia-modprobe
+Priority: extra
+Section: contrib/x11
+Installed-Size: 47
+Maintainer: Alberto Milone <alberto.milone@canonical.com>
+Architecture: amd64
+Version: 375.26-0ubuntu1
+Depends: libc6 (>= 2.14)
+Filename: ./nvidia-modprobe_375.26-0ubuntu1_amd64.deb
+Size: 17074
+MD5sum: a70ede65ad8a280b0812b81acf87be4b
+SHA1: cb9283f9007dc5688c450a45c5864f4d7006bba2
+SHA256: 075dd6136d4e5874bc4790000103c9d54a69fc463ad1b6c4f63da83db1483648
+SHA512: 6841013d6cbcb1ddd7efa720414bc9e2b6bdf91f6c2428959c9253ce64e285f2fb6b5de1083334dec91ac9402fbbb2baf5f2d4daffb8a4970382dc2fb5b486ea
+Description: Load the NVIDIA kernel driver and create device files
+ nvidia-modprobe is a simple setuid root utility which loads the NVIDIA kenel
+ module and creates the NVIDIA device files, to allow usage of the NVIDIA
+ driver by client applications that would otherwise not have sufficient
+ permission to load the module or create the device files on their own.
+Homepage: ftp://download.nvidia.com/XFree86/nvidia-modprobe
+
+Package: cuda-documentation-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 197407
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-samples-8-0
+Filename: ./cuda-documentation-8-0_8.0.61-1_amd64.deb
+Size: 113466410
+MD5sum: b1a6c249a6930f7a50bf3cee33f91db9
+SHA1: 07e6b1e8c9f0eae56cb4d2051ef1ed6a8980b773
+SHA256: b795c937a18faa9268fcca4cdacd1a69cfefbe28f24cd54c25c98f536aeb8e53
+SHA512: cc0208f22e2453dc14834ca7e4b9a46490a6ad816badebce53a22f1348418bc3df2a1f733e00ad1338a018df4370f6035105029b90dcef94b10fe52f5b4388dc
+Description: CUDA documentation
+ Contains all guides and library documentation for CUDA.
+
+Package: nvidia-libopencl1-352-updates
+Priority: optional
+Section: restricted/misc
+Installed-Size: 17
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Depends: nvidia-libopencl1-375
+Filename: ./nvidia-libopencl1-352-updates_375.26-0ubuntu1_amd64.deb
+Size: 6422
+MD5sum: 8a5ae6fb905e7c339f41a1001951748c
+SHA1: f99487d121c31fbcff4f62eb11717265f0ace993
+SHA256: 0a6db475595e40075c86fb9964be9f78f5c9ad81c7ee30a5a668d071905567b0
+SHA512: c0c40d71f0cae9dbcbbae5f6cf459e2be0f5df4bbfc4067d7fb6f92aa074283a286f330516b8267db6b6427e058cf8416ab4f8b600b5937b369e21b87ed812bd
+Description: Transitional package for nvidia-libopencl1-375
+ This is a transitional package for nvidia-libopencl1-375, and can be
+ safely removed after the installation is complete.
+
+Package: cuda-cusolver-cross-aarch64-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 19944
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: arm64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-aarch64-8-0
+Filename: ./cuda-cusolver-cross-aarch64-8-0_8.0.61-1_arm64.deb
+Size: 6478574
+MD5sum: 65951f603a394421e58747007eaffc18
+SHA1: f0a6e52a911459f7971c365a357bf8d61b25ab30
+SHA256: d762442b13f95963dd34b0cc7e5ef40c1b1673ddffb5f1692e9b691c51cdcf19
+SHA512: 3b4693de10de8f379f1ef6378bbcbd9d2943dcee57958ba238ce546ec99906f360adfb434d086903c4110d259bca1e5b7cc831448a190ef1b6f038569dbb19ab
+Description: CUSOLVER cross-aarch64 dev links, headers
+ CUSOLVER cross-aarch64 dev links, headers
+Multi-Arch: foreign
+
+Package: cuda-cublas-cross-armhf-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 48228
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: armhf
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-armhf-8-0
+Filename: ./cuda-cublas-cross-armhf-8-0_8.0.61-1_armhf.deb
+Size: 24153800
+MD5sum: 7b3a0d48c4060bd9af5c07238677e38d
+SHA1: 81ae318c193a174d4068392052ed4a67860259bb
+SHA256: e8e79913decb24449a862e9070e923fc6b05ab6c597b62e3ecb88eabe906821a
+SHA512: b85796a7791f603a3dd1040f20b29e5fad0d47be1b9220417328e33a880cb7c4d88fd710d2a2639ba403ffea4666b235e84f67a7082b1710658df038eaaa7f23
+Description: CUBLAS cross-armhf dev links, headers
+ CUBLAS cross-armhf dev links, headers
+Multi-Arch: foreign
+
+Package: cuda-cusolver-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 52649
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0
+Filename: ./cuda-cusolver-8-0_8.0.61-1_amd64.deb
+Size: 29309734
+MD5sum: 20f45f8d86e31982278b511faf176671
+SHA1: d8bf9952dcb840eca3f3102ba818625756262c91
+SHA256: bedfa7595f83f5fbf3dddcf3dffa0b6714a3a1a481f5d463883548e82162373f
+SHA512: 3f80f4ccca43b9f9020c4135880e88116ae6a42431333cc7a78c07314d4093a774ffaa1f99d5ae9427759e44492b0277385c298e008131b1e05a8da4d30ec9e9
+Description: CUDA solver native runtime libraries
+ CUDA solver native runtime libraries
+
+Package: cuda-cublas-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 42041
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0
+Filename: ./cuda-cublas-8-0_8.0.61-1_amd64.deb
+Size: 27183398
+MD5sum: 599e884f2da8018ba1dfe24f21348b3a
+SHA1: c74faeb4fa18310e7ddddd47bc74d6bdd32f86c6
+SHA256: 369c6d75003d135fffc83449db2a1e6349990ccf3084e5fb8e2c02e6dc558a33
+SHA512: 1d75c2b6d60ef14b759b97429f3e367c8889e450396f8f9eafd80a63cbd2e7411b5bcfa67c1d4b0b8e8dcb9a42d9b02cbabbc60fad6d555f6e6183a9f2c49917
+Description: CUBLAS native runtime libraries
+ CUBLAS native runtime libraries
+
+Package: cuda-curand-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 57822
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0
+Filename: ./cuda-curand-8-0_8.0.61-1_amd64.deb
+Size: 43690896
+MD5sum: 16ed04473ddf553d0c52ed056c77bd7f
+SHA1: 229de22b03458531af716c4cf4c2f6fdd7393189
+SHA256: 5581243dfb5e1747028ed83843d6f0e0123ce4c17b2fdb60a417c7cedecc327e
+SHA512: 4eea195b25a2017e4dbe0030fc4d31f25a74f9e2b4b02e7f0edc540a670bbbc7c2efe437856be4c079d324ae3b7f03d39ede243c6731f684e14b49ca262e408a
+Description: CURAND native runtime libraries
+ CURAND native runtime libraries
+
+Package: cuda-cusolver-dev-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 22080
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-cusolver-8-0 (>= 8.0.61)
+Filename: ./cuda-cusolver-dev-8-0_8.0.61-1_amd64.deb
+Size: 6815558
+MD5sum: 43ec4c8100854a665d70d4064a2bab3f
+SHA1: d61f7da133aa0998be405cc3f306c216bdcbff60
+SHA256: 26367c621138ecddf760e7662506691150a0beabf9fa621bdebe13ae74a3b653
+SHA512: 2a32a890ce003965a69cfd70787d68020878374b3151172464cce9fc8f2a2b0f05405b2377426001119a121392f9472a1829f3dbf8fe24ff2e92964f0b752ceb
+Description: CUDA solver native dev links, headers
+ CUDA solver native dev links, headers
+
+Package: libxnvctrl-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 477
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Source: nvidia-settings
+Version: 375.26-0ubuntu1
+Replaces: nvidia-settings (<< 346.35-0ubuntu2~)
+Depends: libxnvctrl0 (= 375.26-0ubuntu1)
+Breaks: nvidia-settings (<< 346.35-0ubuntu2~)
+Filename: ./libxnvctrl-dev_375.26-0ubuntu1_amd64.deb
+Size: 84582
+MD5sum: 16119b226c309d310214e294c41bcfcd
+SHA1: 37d768531d3f268263d66c637992d288c874e9bb
+SHA256: c06a58ca713478fbbc488563209c35d4589a178696a46967896ff16e60e21b49
+SHA512: c916f3269c8ad58bd1e073fd8bff263154e6889980b12dc96b92d86194e9e0c305c8726f2dbb741b4644461bd894e1712f8c0eac99f788c9b9ca4069eb3f9961
+Description: NV-CONTROL X extension (development files)
+ The NV-CONTROL X extension provides a mechanism for X clients to
+ query and set configuration parameters of the NVIDIA X driver.
+ State set by the NV-CONTROL X extension is assumed to be persistent
+ only for the current server generation.
+
+Package: cuda-cross-aarch64-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 25
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-toolkit-8-0, cuda-cudart-cross-aarch64-8-0, cuda-driver-cross-aarch64-8-0, cuda-misc-headers-cross-aarch64-8-0, cuda-nvrtc-cross-aarch64-8-0, cuda-cusolver-cross-aarch64-8-0, cuda-cublas-cross-aarch64-8-0, cuda-cufft-cross-aarch64-8-0, cuda-curand-cross-aarch64-8-0, cuda-cusparse-cross-aarch64-8-0, cuda-npp-cross-aarch64-8-0, cuda-nvml-cross-aarch64-8-0, cuda-nvgraph-cross-aarch64-8-0, g++-aarch64-linux-gnu
+Filename: ./cuda-cross-aarch64-8-0_8.0.61-1_amd64.deb
+Size: 2640
+MD5sum: 3ee436e946fccd3c49c9069e6f80b3af
+SHA1: 9a23b3b1aa7d2567ec43b5b1db5e2b5aa322e3fc
+SHA256: d381872845cb7d0b34640fc19ded1e221ffd5c4bbff9e79e3eaee827cfdbe529
+SHA512: 77cceb5ee631b2e5e41898ce315b2fe3c896993007b0bd9e49a2a66662d536d41e08e6ca93a207e9bfc7a2da173c00ba0c20100edf3b83da472402bd3e14f32d
+Description: CUDA 8.0 cross-platform meta-package
+ Meta-package containing all the available packages required for cross-platform
+ CUDA development. Contains the toolkit, samples and documentation.
+ Locked at CUDA Toolkit version 8.0.
+
+Package: cuda-cusparse-cross-armhf-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 23990
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: armhf
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-armhf-8-0
+Filename: ./cuda-cusparse-cross-armhf-8-0_8.0.61-1_armhf.deb
+Size: 10349460
+MD5sum: cd9e9b3518c5292ad9c9220fa8c7bb1e
+SHA1: fada8c10f8ccfd4f8f5dcde2baa5801f74d4e163
+SHA256: 07e6834909ade5de42b3304bc4c988b8bdc98b07fea053ff1ea5094e0059a869
+SHA512: 8ed24a98e1462cff1be959e6dd399009734ada017d1e9512d497830f23c3d9aef883e729a78346a72cdf76a95548114e781bd43bd40b9375186c1f2848ccb8e0
+Description: CUSPARSE cross-armhf dev links, headers
+ CUSPARSE cross-armhf dev links, headers
+Multi-Arch: foreign
+
+Package: cuda-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 25
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-toolkit-8-0 (>= 8.0.61), cuda-runtime-8-0 (>= 8.0.61), cuda-demo-suite-8-0 (>= 8.0.61)
+Filename: ./cuda-8-0_8.0.61-1_amd64.deb
+Size: 2556
+MD5sum: a7afdc4eb8bd1f205d6588585c03f320
+SHA1: 96ea140f16ff93edc122bfd4d2ebe067836baca0
+SHA256: 256c4ad590383ebe0e8a27307ac2a99f800a34e1a45c54da79477e921061f2d9
+SHA512: 1270d22de4797b8c7dfe3a4e3e817e8bd1ac4bd1e66371c52654c518e27015a89d373d99504f014c4defca3ae68f11eae8d9c993670c5346988e1097d7d3c0f5
+Description: CUDA 8.0 meta-package
+ Meta-package containing all the available packages required for native CUDA
+ development. Contains the toolkit, samples, driver and documentation. Locked
+ at CUDA Toolkit version 8.0.
+
+Package: cuda-cross-ppc64el
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 25
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-cross-ppc64el-8-0
+Filename: ./cuda-cross-ppc64el_8.0.61-1_amd64.deb
+Size: 2524
+MD5sum: d58f9e1a9915ce3c31ecde4384481919
+SHA1: 8c21211245e7354730c5c1bc7ce5e7116820723f
+SHA256: c1686e9eef05adda83f0625f7294a4b7ceed03726192f74f65774bce8e754218
+SHA512: 52448b24dbefd7385a67de2c99acc2ec0d5b224a7f5623e0308b766aeb4cede1e9646a54d63f3eee5e0a35aff178e5e5b4136ccdf5af88e7e4cb4757b05890b2
+Description: CUDA cross-platform meta-package
+ Meta-package containing all the available packages required for cross-platform
+ CUDA development. Contains the toolkit, samples and documentation.
+
+Package: cuda-nvml-dev-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 321
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0
+Filename: ./cuda-nvml-dev-8-0_8.0.61-1_amd64.deb
+Size: 48444
+MD5sum: 4770dc4d81b9128c23d3d7dccb672aa2
+SHA1: 5f5e4a8a6475738da4cdf28b64ec63b6ac5b496e
+SHA256: ccc670168af0d57133f61ba6f1f4d1c3cea4a8d502aacb8fbe92e743bdaf53c6
+SHA512: 22ec3fbb129da1db6d3b9611876584eecc4f7749e447c60d1081d0c00d1d4b62a97b7066cc2f2976e3f495514fe60168b5141ec4ca2fffc1bf216d16bdc75e8e
+Description: NVML native dev links, headers
+ NVML native dev links, headers
+
+Package: cuda-cross-armhf-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 25
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-toolkit-8-0, cuda-cudart-cross-armhf-8-0, cuda-driver-cross-armhf-8-0, cuda-misc-headers-cross-armhf-8-0, cuda-cusolver-cross-armhf-8-0, cuda-cublas-cross-armhf-8-0, cuda-cufft-cross-armhf-8-0, cuda-curand-cross-armhf-8-0, cuda-cusparse-cross-armhf-8-0, cuda-npp-cross-armhf-8-0, g++-arm-linux-gnueabihf
+Filename: ./cuda-cross-armhf-8-0_8.0.61-1_amd64.deb
+Size: 2624
+MD5sum: 9a604155162e825bcf74c63f04f2fd60
+SHA1: 824b021f98f779533179415ffc1dc6dfcaab30ba
+SHA256: b01e0752e97046c3d223d208a54622e8e260fd7282a9ef2cff3f4a8a0a8c3943
+SHA512: 5d73add834a9dda306390ae9f33ef9fe31cabc6e32ccdb139d3d65768f12e9c25e3d7bc7664de1450ed7da51cb0c7e6ce21a9b04f25212c41e1d09d33f22cf05
+Description: CUDA 8.0 cross-platform meta-package
+ Meta-package containing all the available packages required for cross-platform
+ CUDA development. Contains the toolkit, samples and documentation.
+ Locked at CUDA Toolkit version 8.0.
+
+Package: cuda-misc-headers-cross-armhf-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 9135
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: armhf
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0
+Filename: ./cuda-misc-headers-cross-armhf-8-0_8.0.61-1_armhf.deb
+Size: 1028946
+MD5sum: d0e06e1bcb35cfb5b962daa4d01024f4
+SHA1: 72a3dd652699f8da3416826d0cda668f4bbccf63
+SHA256: 9e620916f2399626f986f539393382e56588a35dc22df6c660e10ab123c6fffd
+SHA512: d0c94e37693432cc8e686c621bf80b70260b0c579741380b6940afaab25e432f21c3e5e13a5e224ed6a4d13a410b190435b3b46734f6a703794c29d65fedca32
+Description: CUDA headers for cross-armhf
+ Contains misc cross-armhf CUDA header files.
+Multi-Arch: foreign
+
+Package: cuda-nvrtc-dev-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 88
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-nvrtc-8-0 (>= 8.0.61)
+Filename: ./cuda-nvrtc-dev-8-0_8.0.61-1_amd64.deb
+Size: 10790
+MD5sum: 27cbbe46ae937d60baaea47dd202ad36
+SHA1: 16753e8b86242805e38e70799dddef260782521b
+SHA256: 94d2e88ffad4e97df6fd6e312dcc4dfd41029b0f0911c9ff0a382db3a75855bf
+SHA512: 262dd243afecacf7ac78d14fa47c26c8b9df3c23b6cfb719f48791e229514fc2f124cc2d2eef7ad0969dc47a1f30a1738e7b71347a2a6b47f6afa61511acec20
+Description: NVRTC native dev links, headers
+ NVRTC native dev links, headers
+
+Package: cuda-core-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 46809
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-8-0, build-essential
+Filename: ./cuda-core-8-0_8.0.61-1_amd64.deb
+Size: 19953798
+MD5sum: 5edf6939d06cfb3be70b72dbb63b624d
+SHA1: 993859cc864c59b3ca3b2211abfd7c96127b9624
+SHA256: b8431bce417be65d4b5cf0bda558eab12397544d384e15704140284f38fdcb4d
+SHA512: 5783fa3ebedd98cbb28b6532860fe8a5c0674bcae048a2bb5acb8187435e1a4649e2076cb7ed8997c1de8e4a7e364475ce0901b5a1a81f19dd0da2c7c37f2640
+Description: CUDA core tools
+ Contains the minimum tools to start developing and compiling a basic CUDA
+ application.
+
+Package: cuda-driver-cross-aarch64-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 75
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: arm64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-aarch64-8-0
+Filename: ./cuda-driver-cross-aarch64-8-0_8.0.61-1_arm64.deb
+Size: 9148
+MD5sum: 871ec429072b7424470b09266127cf40
+SHA1: e9b7cd7f5b67a8b6bb502b0e826ddaddbdd47e60
+SHA256: d50ea62552e273520c583832eebec6445d821740fbf74c77108c98670584559b
+SHA512: 48da2e9ed6261f029d6d7cd7ec0f0a2b93ed306f8dcda5d44e73ff0b0aca10183f36a00f4f681c5bc3a73ff3a5ab4f68652f0d3ce26b7dccf4558c1089e008d9
+Description: CUDA Driver cross-aarch64 dev links, headers
+ CUDA Driver cross-aarch64 dev links, headers
+Multi-Arch: foreign
+
+Package: nvidia-libopencl1-375
+Priority: optional
+Section: restricted/misc
+Installed-Size: 78
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Replaces: libopencl1
+Provides: libopencl1
+Depends: libc6 (>= 2.2.5)
+Suggests: nvidia-opencl-icd-375
+Conflicts: libopencl1
+Filename: ./nvidia-libopencl1-375_375.26-0ubuntu1_amd64.deb
+Size: 19662
+MD5sum: ca026702b7e103596e11fdf02df730c3
+SHA1: b9c66115e391c4fe260c1c6d8a641322015cfb7b
+SHA256: faaa0fd91d4e35d75b32c8f8dbf0e5ec311986c6fbd8985a05027470cfa7ca6a
+SHA512: 3e75873c795fcb0568ddd1289296e35670c0d818239bdd486dca517900f2d9d50f3b462fd98c87bfcbde33343d435d50a6bd70917265188b8c1205efb5e76a04
+Description: NVIDIA OpenCL Driver and ICD Loader library
+ OpenCL (Open Computing Language) is a multivendor open standard for
+ general-purpose parallel programming of heterogeneous systems that include
+ CPUs, GPUs and other processors.
+ .
+ This package contains NVIDIA's OpenCL implementation and the ICD Loader
+ library. This library supports only OpenCL 1.1.
+
+Package: cuda-cusparse-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 42071
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0
+Filename: ./cuda-cusparse-8-0_8.0.61-1_amd64.deb
+Size: 28823892
+MD5sum: 3d29186c5e37d7f8aa2bb3754a20309d
+SHA1: a3e0aa975f666afd2170b7357618a02b8ede2cba
+SHA256: 0c1c5888c8e198b00c16bee37bbecfade4e7ade558376202cc6923a11859cd37
+SHA512: 7034222204efa8e1f6ba63a24d7a0162fd1bf22e3bc2aa410d739c6f5951c16f477bd34094ebe0963a09ce566cc93aa0fed153be3062de7321df00d2a21d75a6
+Description: CUSPARSE native runtime libraries
+ CUSPARSE native runtime libraries
+
+Package: nvidia-opencl-icd-375
+Priority: optional
+Section: restricted/misc
+Installed-Size: 16491
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Replaces: nvidia-opencl-icd
+Provides: nvidia-opencl-icd, opencl-icd
+Depends: libc6 (>= 2.2.5), nvidia-375, ocl-icd-libopencl1 | nvidia-libopencl1-375
+Conflicts: nvidia-opencl-icd
+Filename: ./nvidia-opencl-icd-375_375.26-0ubuntu1_amd64.deb
+Size: 2874416
+MD5sum: d0474e9312b3afecea535acbb45a84be
+SHA1: d8c81fcf331068d1a3a15ade74ea2b2dcd3d5f25
+SHA256: 362a46219ac46c62de2ca746a852dbf162e47ea34f67821edfd23924c5786f0e
+SHA512: 958e2d9ecb2dd9a3c7d7e25897cd072ff778d67e6e010805af50d29584037d68484967bf7bd18be6c032b0a98ec36b92c7883a0edfed1b46e0d30e826023e86d
+Description: NVIDIA OpenCL ICD
+ OpenCL (Open Computing Language) is a multivendor open standard for
+ general-purpose parallel programming of heterogeneous systems that include
+ CPUs, GPUs and other processors.
+ .
+ This package provides the NVIDIA installable client driver (ICD) for OpenCL
+ which supports NVIDIA GPUs.
+Enhances: libopencl1
+
+Package: cuda-cross-aarch64
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 25
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-cross-aarch64-8-0
+Filename: ./cuda-cross-aarch64_8.0.61-1_amd64.deb
+Size: 2526
+MD5sum: 5dd5671713b18ce4da53ca82d3f81834
+SHA1: 4c982f507d0667034739e07bf05950f3c2e5b755
+SHA256: c60a382a007c9dee080cf1e4b8a65dd7f94c8b16bb746d0587bf877c0b926d35
+SHA512: 6451fd4050139e367c5f394f0dfe1ea4e65863406dd1ad58264c885b345c870a6b2499bc90ed2598e45778d714a770cdb02784cf4159a5b70edf7d324b04268f
+Description: CUDA cross-platform meta-package
+ Meta-package containing all the available packages required for cross-platform
+ CUDA development. Contains the toolkit, samples and documentation.
+
+Package: cuda-cusolver-cross-armhf-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 10650
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: armhf
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-armhf-8-0
+Filename: ./cuda-cusolver-cross-armhf-8-0_8.0.61-1_armhf.deb
+Size: 3096614
+MD5sum: da710ca439949b487d1096d272624447
+SHA1: b27cc4f7b5fa2ff9dc51245a0174bf591d9f979f
+SHA256: d64be0336d3f09306b1a4f376bcca452e322f21afbd1f23e0e0e849138cacda4
+SHA512: cc60cafc5765806786adf2cbdd46b32b399645139763a0190d1cbbdc2136ea154e550746c43c2d9d0e164098616cc1daa4189e6767e8e44b2f38d107fce90c17
+Description: CUSOLVER cross-armhf dev links, headers
+ CUSOLVER cross-armhf dev links, headers
+Multi-Arch: foreign
+
+Package: cuda-cufft-dev-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 126788
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-cufft-8-0 (>= 8.0.61)
+Filename: ./cuda-cufft-dev-8-0_8.0.61-1_amd64.deb
+Size: 94755418
+MD5sum: d643fea7153ada122df3cbc7625674a7
+SHA1: bef224879002318f5e453a87c59bd3104349f82e
+SHA256: 30b21b7a4ecf979bcc5320bc248046d84a1f423f67ca0d1b00785607cc04d6a7
+SHA512: 96373da340d1cd64d6108e63ee47ca968090bc7da4cd309dfd65543fe0fa3ab8fb8ce29e23684d42d0ffb5ad82f5d32a570b8674847202aa38a31fa1c1f2536c
+Description: CUFFT native dev links, headers
+ CUFFT native dev links, headers
+
+Package: cuda-npp-cross-armhf-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 71512
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: armhf
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-armhf-8-0
+Filename: ./cuda-npp-cross-armhf-8-0_8.0.61-1_armhf.deb
+Size: 24550926
+MD5sum: e818ebfa5b9d6c2b799f505e47014723
+SHA1: c77b90adeb2bbcad142da858beb9096f434e5c7f
+SHA256: 9d1a4e3503a769cf9d51b60b555366c47e9f7cfdf2487dbd9967c877f4467349
+SHA512: e725164c925803ebd893f5e25f2ecbaf96ff90a6e0a9a94c2ff56d9116556f630255ca1ad7703d7555a0b17d53b54497a2b56fd208d55c854a530caab9575693
+Description: NPP cross-armhf dev links, headers
+ NPP cross-armhf dev links, headers
+Multi-Arch: foreign
+
+Package: cuda-nvrtc-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 27554
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0
+Filename: ./cuda-nvrtc-8-0_8.0.61-1_amd64.deb
+Size: 9585018
+MD5sum: 5233b25520da41c3eec0bba1c19d0ba4
+SHA1: 1be622d0762e64ada4172e0a3df57f16bf9a4ad5
+SHA256: ef6cd06011e9ce349927460268da2f2c97559425af1eaaf511312d478fa89543
+SHA512: f9397217b8a5d7df775f75807d09c08f7efb80a34dc3225754aa1b1a9dc4f4475d4e3fb2ba05ff8e627271668308fe17fba78c28eec4c6e2bc5f42ce668a66b2
+Description: NVRTC native runtime libraries
+ NVRTC native runtime libraries
+
+Package: cuda-cusparse-cross-aarch64-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 47114
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: arm64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-aarch64-8-0
+Filename: ./cuda-cusparse-cross-aarch64-8-0_8.0.61-1_arm64.deb
+Size: 26527664
+MD5sum: ddedae2aaed8b3c30f570b56cb24c237
+SHA1: a4ce65319252b0ff2f7be95e9e75384ef816cda1
+SHA256: 6f90b1516dfa080b9c6790ffeee8fa739dbde3a0a4b3ddd0e6d0316c5a7c27fc
+SHA512: b7193c8e55fcf067ed469be338bb279648de517ae6acc1ee896a781d0d989f351306961d2b476c641db274c2f5944c54dc7c449c3ca8e81899ca3076253e31cf
+Description: CUSPARSE cross-aarch64 dev links, headers
+ CUSPARSE cross-aarch64 dev links, headers
+Multi-Arch: foreign
+
+Package: cuda-misc-headers-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 9544
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0
+Filename: ./cuda-misc-headers-8-0_8.0.61-1_amd64.deb
+Size: 1077490
+MD5sum: e922d6adf3fc79887719b1e28ef8ef12
+SHA1: 21f0fabfd002b91a8ea7eaeed13ee05b2d62b84a
+SHA256: 3d89039496a36e26b66bd3518cae9a817501ef8bf1079fe5adb66c4cbfb8a99a
+SHA512: a0b5fa5d1cd76218b797b9e24dfdaa40ba32e615dbbf68c4782054ab49008813ab3bcde1ea81ad769a531fa9be408da6a1e5eb739671086471a00dd78350646c
+Description: CUDA miscellaneous headers
+ Contains miscellaneous native CUDA header files.
+
+Package: nvidia-352-updates-dev
+Priority: optional
+Section: restricted/misc
+Installed-Size: 17
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Depends: nvidia-375-dev
+Filename: ./nvidia-352-updates-dev_375.26-0ubuntu1_amd64.deb
+Size: 6416
+MD5sum: 58f21bf4541387e7ecfcd75bfa5afa89
+SHA1: 9c51189e70032221d16b62747d6f611708699774
+SHA256: ca54e2dcb83b5a11b431a4e01c2306f63174beee400d2831b629d253803888c9
+SHA512: 96c33a7637c080b3f2809d4157ceceb3bf1c3ebb3c20e7a707e6f53223c0c617236da9906b362ee30dd66fc21ecb1592b31ff499c968907f87e6b61bc971be2c
+Description: Transitional package for nvidia-375-dev
+ This is a transitional package for nvidia-375-dev, and can be
+ safely removed after the installation is complete.
+
+Package: cuda-cudart-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 495
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0
+Filename: ./cuda-cudart-8-0_8.0.61-1_amd64.deb
+Size: 134712
+MD5sum: c2c84bba0a14b58364d427b232a98aed
+SHA1: 35a2fd643b4b1aba52fb9b15ead1902c31d25fe5
+SHA256: efee9c5ed27f2f7b4ff90b6513d14000fbff2bc4ffd574b2a6d0a18c0d86cf4d
+SHA512: 020461eaebcb1bec66df04211c6e4cf65e82abe15d727d6bd3c1a803d0b5f02ad195de646897dcc2493570dc246808291cee284ed6666063c24bebff4a2e6fa2
+Description: CUDA Runtime native Libraries
+ CUDA Runtime native Libraries
+
+Package: cuda-license-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 133
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Filename: ./cuda-license-8-0_8.0.61-1_amd64.deb
+Size: 27638
+MD5sum: fb14bef811c3086b5784380b22c43291
+SHA1: ca36e8f5b59bad5b6df755e96847f7e114ca9694
+SHA256: 233d684169ce4f99e1de943c6e6d6819d9a04f2d0c91d4a1a67eb3605ceba7d6
+SHA512: bf33e20ff8cf069f669181902c1fff79d92208771f24584569743b28e582a769a5d0045ee806e18112d86726a4cd3a762e3d705a9a81e9e1b9578103a9337942
+Description: CUDA licenses
+ Contains the license agreements (EULA) required for using the CUDA tools.
+Multi-Arch: foreign
+
+Package: nvidia-352-dev
+Priority: optional
+Section: restricted/misc
+Installed-Size: 17
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Depends: nvidia-375-dev
+Filename: ./nvidia-352-dev_375.26-0ubuntu1_amd64.deb
+Size: 6408
+MD5sum: 229d6e6fa6d9817cbc1f7b2f9db4b016
+SHA1: a95032954f152b2b98b089637e9ba0939d3676b8
+SHA256: 151072882f6c8f289377143d119a9bebbd2b452c563136b7ca292d7819bb2aef
+SHA512: 6c6ca7ed80b485afc940b799174bc86069c3543d9fe45f4494c8a37697586d629343e541f95d85ea857dc63c2bc726035c0bf725dae2595f068e17b5d481fc6f
+Description: Transitional package for nvidia-375-dev
+ This is a transitional package for nvidia-375-dev, and can be
+ safely removed after the installation is complete.
+
+Package: libcuda1-375
+Priority: optional
+Section: restricted/misc
+Installed-Size: 15779
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Replaces: libcuda-5.0-1, libcuda-5.5-1, libcuda-6.0-1, libcuda-6.5-1, libcuda-7.0-1, libcuda-7.5-1
+Provides: libcuda-5.0-1, libcuda-5.5-1, libcuda-6.0-1, libcuda-6.5-1, libcuda-7.0-1, libcuda-7.5-1
+Depends: libc6 (>= 2.2.5), nvidia-375
+Breaks: libcuda-5.0-1, libcuda-5.5-1, libcuda-6.0-1, libcuda-6.5-1, libcuda-7.0-1, libcuda-7.5-1
+Filename: ./libcuda1-375_375.26-0ubuntu1_amd64.deb
+Size: 2720714
+MD5sum: 794bb96149cfdcdf53aad7b7c5b7b002
+SHA1: 4f9ac5f256ca715538f3e4adb90ea46b22fd79b7
+SHA256: 9929ffe4fb1a56ed29a7a76e8572316a61ed42853d30af6bdd8c05030f69b7a5
+SHA512: 70f49e23314876bb9ffa02219d2407957a30fc8694f7626378102c53ca196154bdb02f7bc6c89436d95cf1c48592bb37b1d73efd6c460a713362746fdb020a92
+Description: NVIDIA CUDA runtime library
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the driver specific runtime library.
+ .
+ Supported NVIDIA devices include GPUs starting from GeForce 8 and Quadro FX
+ series, as well as the Tesla computing processors.
+
+Package: cuda-npp-cross-aarch64-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 112263
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: arm64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-aarch64-8-0
+Filename: ./cuda-npp-cross-aarch64-8-0_8.0.61-1_arm64.deb
+Size: 58140946
+MD5sum: b70751e9fa2bd0f8ac04528e53324f5d
+SHA1: 26287ad740a41dbdf8d39d3510a0d7c7630eb3ec
+SHA256: 4393811d9dba6b2a1ac11988b200ef96a7b9657da02d4e08e014dde7873b8234
+SHA512: 0c7cad3018dc9e73e8c00bb3270996ee6a73c5a1462d7650e965ab8533121008e13da1c3084fcbc61e996f6f0390437eb9bffc43c3ecb5bbab86a4712f5345ce
+Description: NPP cross-aarch64 dev links, headers
+ NPP cross-aarch64 dev links, headers
+Multi-Arch: foreign
+
+Package: cuda-nvgraph-cross-aarch64-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 7153
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: arm64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-aarch64-8-0
+Filename: ./cuda-nvgraph-cross-aarch64-8-0_8.0.61-1_arm64.deb
+Size: 3086696
+MD5sum: f52e98863c6e19d852da376e349da0c4
+SHA1: e8c54b9e11e36ddb8f219f61f1dfe5af9216b19d
+SHA256: 74a9862585be54ee7caeacc05223212c09cda3c136c6db1fd7df8bba914ab810
+SHA512: e3c48a1341de3bac46fee6596fcb501edfa2567d7a753e5c287c18f5f0692aeaaabd2c27716cd123382b1a73e6e1ba4bb8338567b20a81559f9f023bf9cbea1f
+Description: NVGRAPH cross-aarch64 dev links, headers
+ NVGRAPH cross-aarch64 dev links, headers
+Multi-Arch: foreign
+
+Package: cuda-curand-cross-aarch64-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 117348
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: arm64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-aarch64-8-0
+Filename: ./cuda-curand-cross-aarch64-8-0_8.0.61-1_arm64.deb
+Size: 65546244
+MD5sum: 9a8bbd375b75e0f90204ef048c6b4f68
+SHA1: 4f33048a9b83da10a12598a00ad259262e83d252
+SHA256: c396f819c61fd0e77206404d7f62f657c8876613e48403c05321bf9b5791c42a
+SHA512: 95dd00acac5bbd0050db86efba5852079fe4e38e8e36a67601c8a14982a095606305a22bd935f238bdfd88ff9c1aacd5e32b005aa393bf7543b493e660d95d08
+Description: CURAND cross-aarch64 dev links, headers
+ CURAND cross-aarch64 dev links, headers
+Multi-Arch: foreign
+
+Package: cuda-driver-dev-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 96
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0
+Filename: ./cuda-driver-dev-8-0_8.0.61-1_amd64.deb
+Size: 14088
+MD5sum: 102804d459bb15ef9de276f9623d1c05
+SHA1: f1d45f692a6f7c6a5f36d87f880ed00b493046ad
+SHA256: cea3106e3ea45b9997a90fe98fd21c7ca3f3f4f91b882f83a96edf6c15615c5d
+SHA512: 6f83a80efb2e11449b2299fa127acd969a8107714692c0156eadb65729e8ea97908db656a9e0957b6699f60f9b7cb30d9d6690afe5dba43084e71d9932e542d0
+Description: CUDA Driver native dev stub library
+ CUDA Driver native dev stub library
+
+Package: cuda-driver-cross-armhf-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 74
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: armhf
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-armhf-8-0
+Filename: ./cuda-driver-cross-armhf-8-0_8.0.61-1_armhf.deb
+Size: 9002
+MD5sum: c0a52e93ed047fbbf444d96cdc393d32
+SHA1: 7b0320068a94ecd6e3e23998d60977de02d444ca
+SHA256: 8fb55dd59bd67b6606b3d451111e7ab2c30eb170769f2ad4e5f6b6f883237f40
+SHA512: 5a2b85e5ab99fe86d1f0fb5e9c7b00c0d661aad7d208a2df56fa5158c16fed9025ba72f85747caa561974e40f5b6261b301db55ee97c012351cec7112cc102e3
+Description: CUDA Driver cross-armhf dev links, headers
+ CUDA Driver cross-armhf dev links, headers
+Multi-Arch: foreign
+
+Package: libcuda1-352-updates
+Priority: optional
+Section: restricted/misc
+Installed-Size: 17
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Depends: libcuda1-375
+Filename: ./libcuda1-352-updates_375.26-0ubuntu1_amd64.deb
+Size: 6420
+MD5sum: 1f2324cd86a221f008939d1314636933
+SHA1: 82a84797e9d8119b281e5e29dfe0c48a468da0aa
+SHA256: 93d7321a266ef152a21bbdbcc3b08af39241282df648ab69aa55b9057b39db69
+SHA512: 9b1bf02a407a034b2704ccc52933e4f9f114c522c402bc22e9f69d9b22e3f985d1bd6d381da3aee8bfa4a8bf930a35e2187fbdca623b71492eaf2b2237b73cc2
+Description: Transitional package for libcuda1-375
+ This is a transitional package for libcuda1-375, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-settings
+Priority: optional
+Section: contrib/x11
+Installed-Size: 3753
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Version: 375.26-0ubuntu1
+Replaces: nvidia-settings-binary
+Provides: nvidia-settings-binary
+Depends: pkg-config, screen-resolution-extra (>= 0.12), libvdpau1, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk-3-0 (>= 3.0.0), libgtk2.0-0 (>= 2.8.0), libjansson4 (>= 2.3), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libx11-6, libxnvctrl0, libxxf86vm1
+Conflicts: nvidia-settings-binary
+Filename: ./nvidia-settings_375.26-0ubuntu1_amd64.deb
+Size: 876344
+MD5sum: 750bfe94d5e2ebac5d8168fd2022d3d6
+SHA1: 5e64c944da1d3ea359a536add68d03c35b3cdacd
+SHA256: fa766370782adaffcec397453bd10ef8b4a109401e70f2a3886d9b09e874ef51
+SHA512: 475a1625e49c4c35b3c4bfcc39f6ed1075d9606ebc6fe5409ca6c5084c4f154709c208b27e7ece6723b09cdfb41e9bd98e54c985dd13938a7ad155dc896ca859
+Description: Tool for configuring the NVIDIA graphics driver
+ The nvidia-settings utility is a tool for configuring the NVIDIA
+ Linux graphics driver.  It operates by communicating with the NVIDIA
+ X driver, querying and updating state as appropriate.  This
+ communication is done with the NV-CONTROL X extension.
+ .
+ Values such as brightness and gamma, XVideo attributes, temperature,
+ and OpenGL settings can be queried and configured via nvidia-settings.
+
+Package: cuda-cusparse-dev-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 50927
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-cusparse-8-0 (>= 8.0.61)
+Filename: ./cuda-cusparse-dev-8-0_8.0.61-1_amd64.deb
+Size: 29624918
+MD5sum: 352ff1dd7e440bd39b6efd507cad1b78
+SHA1: ed52ba84ace25328f1747fde1a9c6af18acbfc7e
+SHA256: 0ed8ccf2090041d174880255b367d9c4d0fb94a877e8b2e109ec8895f6bb9825
+SHA512: 2d18547adbb1f1da6f65c422690fb2425856bf9f40efd9fc87989461ab88838595d186acdfa137f6138bbfa52a9b071583054cf406a801459b58e2cde1929aeb
+Description: CUSPARSE native dev links, headers
+ CUSPARSE native dev links, headers
+
+Package: nvidia-361-updates-dev
+Priority: optional
+Section: restricted/misc
+Installed-Size: 17
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Depends: nvidia-375-dev
+Filename: ./nvidia-361-updates-dev_375.26-0ubuntu1_amd64.deb
+Size: 6416
+MD5sum: b04232cc9cc69aedd80086d36b7641d0
+SHA1: b21228c54076a7c99ac465892d7812473621b8e5
+SHA256: a34f44d4f2177d90eb1f77c8920c9ab949aa1eaee936b2a691cb587dc61ff3fd
+SHA512: ca291d0c1a38017e4d3400260cc138cddc40a4b8a218b0f85978c742d9f9063352df3cda41e44686d62ab0122aa43bec8f25a3d9f1b5686c9659470a7cb13ef5
+Description: Transitional package for nvidia-375-dev
+ This is a transitional package for nvidia-375-dev, and can be
+ safely removed after the installation is complete.
+
+Package: cuda-npp-dev-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 149491
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-npp-8-0 (>= 8.0.61)
+Filename: ./cuda-npp-dev-8-0_8.0.61-1_amd64.deb
+Size: 82301692
+MD5sum: 2c8c6586be6193b4134a07cc957bcb10
+SHA1: 25ebe560c94ea938b147f8847bb75bc7f20c1c07
+SHA256: f00bd407c3d5cf1a0dbabdc0cae997d391799463bf3954ef230ade7c8b656492
+SHA512: fa405034ab1dca2edd3c9215f57421e34011401cb05a78734714ab1473bd67c990d6c2e700088e2ef19e8eff668a035b0bb58927317edfd835c1f033c3e375b6
+Description: NPP native dev links, headers
+ NPP native dev links, headers
+
+Package: libxnvctrl0
+Priority: optional
+Section: libs
+Installed-Size: 57
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Source: nvidia-settings
+Version: 375.26-0ubuntu1
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.4.99.1), libxext6
+Filename: ./libxnvctrl0_375.26-0ubuntu1_amd64.deb
+Size: 18832
+MD5sum: db374b81af9f073af7b6c0acac9d1930
+SHA1: 0f8a481b55662376d293c47a77132166c98d8e55
+SHA256: 7de8041a7e150777e07320855819729f1bfc25f45c6565731543e8ff850ca291
+SHA512: c5ac441a9c5ebb40d00c184ea36fe7b5aa1fe8fa57cc27f93cf85f1da3aeb76e1e6dd3f45bc785d21f928270b5dca93b8262e1e238d2112058ebb61df9074665
+Description: NV-CONTROL X extension (runtime library)
+ The NV-CONTROL X extension provides a mechanism for X clients to
+ query and set configuration parameters of the NVIDIA X driver.
+ State set by the NV-CONTROL X extension is assumed to be persistent
+ only for the current server generation.
+ .
+ This package contains the shared library.
+
+Package: cuda
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 25
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Version: 8.0.61-1
+Depends: cuda-8-0 (>= 8.0.61)
+Filename: ./cuda_8.0.61-1_amd64.deb
+Size: 2510
+MD5sum: cc440577dcbe530cb211cfed67e73734
+SHA1: 383eed23b1c7bbfba87523a8195f4f4f959ac1a3
+SHA256: bc0043e475cfe0b5ed1978d104ec634d0a39f88da80d3262979a5d7bb717e9c8
+SHA512: 6f3fa6f95ddfa21698bcdd865765beb8b7e86673de5f6e715e50a12eb4f4f0d66681d189c28f4a97e9cb67e510ecb8ec37df4eba54ffb131e99820df645ea7ef
+Description: CUDA meta-package
+ Meta-package containing all the available packages required for native CUDA
+ development. Contains the toolkit, samples, driver and documentation.
+
+Package: cuda-cufft-cross-aarch64-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 130678
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: arm64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-aarch64-8-0
+Filename: ./cuda-cufft-cross-aarch64-8-0_8.0.61-1_arm64.deb
+Size: 97588718
+MD5sum: a994998a308040a3663262b40a63df9c
+SHA1: 581691607a1a84c4f5c6ed52bf65b2bbe33da542
+SHA256: 3fea608e22bc504be628f5e40c805b2695dc79179155f27046f4d9d279202ae3
+SHA512: b0678f84254ccc8749673c61de75678a382eb4b7c209c0a6ccaa0c9568f187dc2290fc548bb37c83be73a1e10a9a084c39734503209b37c0e56c7f202041c006
+Description: CUFFT cross-aarch64 dev links, headers
+ CUFFT cross-aarch64 dev links, headers
+Multi-Arch: foreign
+
+Package: cuda-cross-armhf
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 25
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-cross-armhf-8-0
+Filename: ./cuda-cross-armhf_8.0.61-1_amd64.deb
+Size: 2524
+MD5sum: 2bbbb074fc46dbf4737e7d497d164928
+SHA1: 138b1dc1ebe8ba62e658289dee3c88d025a552d5
+SHA256: 422256bc54da3d6495f1bc86bea7446be6201b096cfa402ee453a049e820bfec
+SHA512: 1cc7924365e7d6695cd41da7cbed5c5743fc57b1693c68f539b3836b93560955363151e532536fe9a05e384da4508eb3cd364ea8206a4d377042182d36bfc9cf
+Description: CUDA cross-platform meta-package
+ Meta-package containing all the available packages required for cross-platform
+ CUDA development. Contains the toolkit, samples and documentation.
+
+Package: nvidia-352-updates
+Priority: optional
+Section: restricted/misc
+Installed-Size: 17
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Depends: nvidia-375
+Filename: ./nvidia-352-updates_375.26-0ubuntu1_amd64.deb
+Size: 6412
+MD5sum: d1df785706e0362e98965ae48d469c52
+SHA1: f2a5db34cac99ffefbac5fb30f70d1733e2c3a44
+SHA256: 040b5eeb197e6a3370b19412fe0d7577d9bc04e45223605604a7fb34f7cdfae2
+SHA512: c1d83012f101b0ea760a23f5a157ee417789211aee27f6e8ba7bbe5b7457ddec4207b70c22c7dd7fbd669ea085284509f4f6771304ea295039efabb1c2a674f8
+Description: Transitional package for nvidia-375
+ This is a transitional package for nvidia-375, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-opencl-icd-352
+Priority: optional
+Section: restricted/misc
+Installed-Size: 17
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: nvidia-graphics-drivers-375
+Version: 375.26-0ubuntu1
+Depends: nvidia-opencl-icd-375
+Filename: ./nvidia-opencl-icd-352_375.26-0ubuntu1_amd64.deb
+Size: 6416
+MD5sum: e819651ff97e1c281d778ff9fa38e202
+SHA1: 7a22f7938ef368050de008f50632492fac251d9a
+SHA256: 79dc3411929618b05ea07981f20718acd21c2e16dbd81e3be9378f76f60c6d71
+SHA512: 51a8773fd83c1c3fa994cae91511ec2683bfe50d1c6f240f65d773bf00f2345a8ae2a8593ead1dbe17fdf0ce915d46ba8a43e0413151140560e7eec925016ca7
+Description: Transitional package for nvidia-opencl-icd-375
+ This is a transitional package for nvidia-opencl-icd-375, and can be
+ safely removed after the installation is complete.
+
+Package: cuda-nvml-cross-aarch64-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 291
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: arm64
+Source: cuda
+Version: 8.0.61-1
+Depends: cuda-license-8-0, cuda-misc-headers-cross-aarch64-8-0
+Filename: ./cuda-nvml-cross-aarch64-8-0_8.0.61-1_arm64.deb
+Size: 43016
+MD5sum: cf3754212785b02c55e1ffc3f01e392d
+SHA1: 07cb18b5eeeba5de4c899b84225870a077b38ae3
+SHA256: 47b254c9061e0c47f20f6bef55be9fbcad31d1693638e1f44c710707ef2057b5
+SHA512: 3b9d68a6de13e5089107070258798b56a3509dce6c5eb255e6bed9f10f5fbf8626785215f28eae3856989c45cd3bc9658e017c3c1054e57e1bc5f30c2fac434f
+Description: NVML cross-aarch64 dev links, headers
+ NVML cross-aarch64 dev links, headers
+Multi-Arch: foreign
+
+Package: cuda-gdb-src-8-0
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 31334
+Maintainer: cudatools <cudatools@nvidia.com>
+Architecture: amd64
+Source: cuda
+Version: 8.0.61-1
+Filename: ./cuda-gdb-src-8-0_8.0.61-1_amd64.deb
+Size: 31585218
+MD5sum: b1407259af8f7c05141cfd1b9ddf4ba2
+SHA1: 32091d49d3c78b3f040b3ee78519256a7305456a
+SHA256: 740e055403c3edaf161684a73fef74a72a59474c6bd1c8b75fd4f0cf729e656b
+SHA512: c9c40dea4953326cda96b505d34069bef04d03c703396f770f88ccc5761de76186bada545d7efc6972bd484b2bfe0d60cab6eaf8ca7e50755fab5dfd80994c2d
+Description: Contains the source code for cuda-gdb
+ Contains the source code for cuda-gdb
+

@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libpwquality1
+/usr/share/doc/libpwquality1/copyright
+/usr/share/doc/libpwquality1/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libpwquality.so.1.0.2
+/usr/lib/x86_64-linux-gnu/libpwquality.so.1

@@ -1,0 +1,15 @@
+66fa7a3ccb4a20d8509cd72ac2d5c2cb  usr/local/cuda-9.0/extras/demo_suite/bandwidthTest
+c57a6c4fae4c3a85c5edac1ad99c9f85  usr/local/cuda-9.0/extras/demo_suite/busGrind
+25f2c8284d86daae2f027e27c88f0a0d  usr/local/cuda-9.0/extras/demo_suite/deviceQuery
+16e75380a0647af7fadc87d60da26c01  usr/local/cuda-9.0/extras/demo_suite/nbody
+1e10e7e64b6881d970b98eb2a54e015b  usr/local/cuda-9.0/extras/demo_suite/nbody_data_files/nbody_galaxy_20K.bin
+cee273efd7c7474cfc1c1156e3a92655  usr/local/cuda-9.0/extras/demo_suite/oceanFFT
+0de10b160a3b188a3ca073e1943e9af1  usr/local/cuda-9.0/extras/demo_suite/oceanFFT_data_files/ocean.frag
+9cc7f168eff4c1173238859657daa563  usr/local/cuda-9.0/extras/demo_suite/oceanFFT_data_files/ocean.vert
+907c11c2e2419851bb0c50aaea049435  usr/local/cuda-9.0/extras/demo_suite/oceanFFT_data_files/ref_slopeShading.bin
+fd80e36529db531f39de4565bc378a01  usr/local/cuda-9.0/extras/demo_suite/oceanFFT_data_files/ref_spatialDomain.bin
+8d1e3cc4dda5de9a0d81fe789bbf6e51  usr/local/cuda-9.0/extras/demo_suite/randomFog
+53c535c5c6fc49654be055c4058cdc07  usr/local/cuda-9.0/extras/demo_suite/randomFog_data_files/ref_randomFog.bin
+5dca3a582e78ebc73670c5711b549449  usr/local/cuda-9.0/extras/demo_suite/vectorAdd
+e877fee69e72e781cfbdc4d3bc24dd60  usr/share/doc/cuda-demo-suite-9-0/changelog.Debian.gz
+7147ff1117e157d582d28c655419f014  usr/share/doc/cuda-demo-suite-9-0/copyright

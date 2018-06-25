@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libfluidsynth1
+/usr/share/doc/libfluidsynth1/copyright
+/usr/share/doc/libfluidsynth1/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libfluidsynth.so.1.5.2
+/usr/lib/x86_64-linux-gnu/libfluidsynth.so.1

@@ -1,0 +1,9 @@
+Document: libfreetype6-dev
+Section: Programming/C
+Title: FreeType 2 Development Documentation
+Author: Various
+Abstract: Development documentation for FreeType 2.
+
+Format: HTML
+Index: /usr/share/doc/libfreetype6/reference/ft2-index.html
+Files: /usr/share/doc/libfreetype6/reference/*.html

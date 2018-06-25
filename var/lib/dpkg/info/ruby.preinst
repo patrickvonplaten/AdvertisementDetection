@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+update-alternatives --remove-all ruby 2>/dev/null || true
+update-alternatives --remove-all gem 2>/dev/null || true
+
+

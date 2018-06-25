@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/fonts-tlwg-kinnari
+/usr/share/doc/fonts-tlwg-kinnari/copyright
+/etc
+/etc/fonts
+/etc/fonts/conf.d
+/etc/fonts/conf.avail
+/etc/fonts/conf.avail/89-tlwg-kinnari-synthetic.conf
+/etc/fonts/conf.avail/64-01-tlwg-kinnari.conf
+/usr/share/doc/fonts-tlwg-kinnari/changelog.Debian.gz
+/etc/fonts/conf.d/89-tlwg-kinnari-synthetic.conf
+/etc/fonts/conf.d/64-01-tlwg-kinnari.conf

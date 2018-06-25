@@ -1,0 +1,5 @@
+libqca-cyrus sasl libqca2-plugins
+libqca gnupg libqca2-plugins
+libqca logger libqca2-plugins
+libqca ossl libqca2-plugins
+libqca softstore libqca2-plugins

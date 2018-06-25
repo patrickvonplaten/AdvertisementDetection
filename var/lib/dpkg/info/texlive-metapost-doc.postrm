@@ -1,0 +1,43 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installtex
+##
+## postrm-tex
+##
+## postrm snippets for unregistering maps, formats, hyphens
+## and removing format dumps
+##
+## Authors:
+##       Norbert Preining <preining@logic.at>
+##
+#
+
+dhit_call_update_texmf_config ()
+{
+    if which update-texmf-config >/dev/null; then
+        update-texmf-config $*
+    else
+        echo "update-texmf-config not present: is tex-common installed?" >&2
+    fi
+}
+
+case "$1" in
+    remove|disappear)
+        dhit_call_update_texmf_config 
+        for fmt in  ; do
+            rm -f /var/lib/texmf/web2c/$fmt.*
+            dn=`dirname $fmt`
+            if [ $dn != "." ] ; then
+                if [ -d /var/lib/texmf/web2c/$dn ] ; then
+                    rmdir --ignore-fail-on-non-empty /var/lib/texmf/web2c/$dn
+                fi
+            fi
+        done
+    ;;
+
+    purge|upgrade|failed-upgrade|abort-upgrade|abort-install)
+    ;;
+
+esac
+
+# End automatically added section

@@ -1,0 +1,14 @@
+b16d3bc701a3c98f23ffe957042cf7cc  usr/include/jerror.h
+045a967ae13f2ef1baf17dd14fdea8cd  usr/include/jmorecfg.h
+7e521da5df72c3b3ddeb0a10464f8d07  usr/include/jpegint.h
+dcd1f3c35a0b4b664c28a25c194223b6  usr/include/jpeglib.h
+eab34e7beabf2b3720be3ba69a2fcdf1  usr/include/turbojpeg.h
+9204bc276057c0ef82927f3d2e408c8f  usr/include/x86_64-linux-gnu/jconfig.h
+fbb74727e625ddb196414d62e16950f4  usr/lib/x86_64-linux-gnu/libjpeg.a
+491001335779cc593b98bf67f4707ebe  usr/lib/x86_64-linux-gnu/libturbojpeg.a
+2adf83ab7f4266a7955e9e46ada7ad69  usr/lib/x86_64-linux-gnu/pkgconfig/libjpeg.pc
+c8c5b434de0e1eb294b1569668baf34a  usr/share/doc/libjpeg-turbo8-dev/README-turbo.txt.gz
+b73e52d124f13c4cca7c6493845dbbd7  usr/share/doc/libjpeg-turbo8-dev/README.gz
+e39223df5fbe3c7cb10afbe26798022c  usr/share/doc/libjpeg-turbo8-dev/copyright
+a1af90f7429d603e5b56ece5484919d0  usr/share/doc/libjpeg-turbo8-dev/libjpeg.txt.gz
+d12e6440ba2f942b709fb8c91d45fd53  usr/share/doc/libjpeg-turbo8-dev/structure.txt.gz

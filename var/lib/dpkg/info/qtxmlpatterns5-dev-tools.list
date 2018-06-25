@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/bin
+/usr/lib/x86_64-linux-gnu/qt5/bin/xmlpatternsvalidator
+/usr/lib/x86_64-linux-gnu/qt5/bin/xmlpatterns
+/usr/share
+/usr/share/doc
+/usr/share/doc/qtxmlpatterns5-dev-tools
+/usr/share/doc/qtxmlpatterns5-dev-tools/copyright
+/usr/share/doc/qtxmlpatterns5-dev-tools/changelog.Debian.gz

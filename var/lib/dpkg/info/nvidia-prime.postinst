@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installinit
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ]; then
+	if [ -x "/etc/init.d/nvidia-prime" ]; then
+		update-rc.d nvidia-prime defaults >/dev/null
+	fi
+	if [ -x "/etc/init.d/nvidia-prime" ] || [ -e "/etc/init/nvidia-prime.conf" ]; then
+		invoke-rc.d nvidia-prime start || exit $?
+	fi
+fi
+# End automatically added section

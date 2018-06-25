@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+
+update-alternatives --remove \
+	libtxc-dxtn-x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libtxc_dxtn_s2tc.so.0
+
+
+

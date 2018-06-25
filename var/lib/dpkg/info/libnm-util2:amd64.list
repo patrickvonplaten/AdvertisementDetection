@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libnm-util.so.2.7.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libnm-util2
+/usr/share/doc/libnm-util2/copyright
+/usr/share/doc/libnm-util2/changelog.Debian.gz
+/usr/lib/x86_64-linux-gnu/libnm-util.so.2

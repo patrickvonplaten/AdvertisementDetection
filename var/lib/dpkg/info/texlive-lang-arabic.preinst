@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/texmf/hyphen.d/10texlive-lang-arabic.cnf 2015.20150524-1~ -- "$@"
+# End automatically added section

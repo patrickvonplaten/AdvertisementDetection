@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/librhythmbox-core.so.9.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/librhythmbox-core9
+/usr/share/doc/librhythmbox-core9/NEWS.gz
+/usr/share/doc/librhythmbox-core9/THANKS
+/usr/share/doc/librhythmbox-core9/AUTHORS
+/usr/share/doc/librhythmbox-core9/copyright
+/usr/share/doc/librhythmbox-core9/changelog.Debian.gz
+/usr/share/doc/librhythmbox-core9/README
+/usr/share/doc/librhythmbox-core9/NEWS.Debian.gz
+/usr/lib/x86_64-linux-gnu/librhythmbox-core.so.9

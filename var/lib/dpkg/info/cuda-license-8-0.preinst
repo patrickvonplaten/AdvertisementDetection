@@ -1,0 +1,21 @@
+#! /bin/sh
+
+set -e
+
+case "$1" in
+    install)
+        if [ -x /usr/local/cuda-8.0/bin/uninstall_cuda_$majorversion.pl ]; then
+            /usr/local/cuda-8.0/bin/uninstall_cuda_$majorversion.pl
+        fi
+        if [ -x /usr/local/cuda-8.0/bin/uninstall_cuda_toolkit_$majorversion.pl ]; then
+            /usr/local/cuda-8.0/bin/uninstall_cuda_toolkit_$majorversion.pl
+        fi
+        if [ -x /usr/local/cuda-8.0/bin/uninstall_cuda_samples_$majorversion.pl ]; then
+            /usr/local/cuda-8.0/bin/uninstall_cuda_samples_$majorversion.pl
+        fi
+        ;;
+esac
+
+
+
+exit 0

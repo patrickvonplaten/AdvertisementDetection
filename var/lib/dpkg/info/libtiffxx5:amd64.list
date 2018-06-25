@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libtiffxx.so.5.2.4
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libtiffxx5
+/usr/share/doc
+/usr/share/doc/libtiffxx5
+/usr/share/doc/libtiffxx5/copyright
+/usr/lib/x86_64-linux-gnu/libtiffxx.so.5
+/usr/share/doc/libtiffxx5/changelog.Debian.gz

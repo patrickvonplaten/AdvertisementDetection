@@ -1,0 +1,9 @@
+7705f8fb5ac3e1b098a5aa48af89686c  usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstamrnb.so
+3b7beca04e83716b9dbc0a02894abd09  usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstamrwbdec.so
+522445a5bc87310646c5e95de9a8ad45  usr/share/doc/gstreamer1.0-plugins-ugly-amr/AUTHORS
+7597f58b488500be6ea967605228b663  usr/share/doc/gstreamer1.0-plugins-ugly-amr/NEWS.gz
+5ddb8b76f75a05015f5e6d816500aba0  usr/share/doc/gstreamer1.0-plugins-ugly-amr/README.Debian
+a7a96a498dfb3f23e23a6e45bf7b48cd  usr/share/doc/gstreamer1.0-plugins-ugly-amr/README.gz
+d3aecea90c599b552fe1b5e5c6713737  usr/share/doc/gstreamer1.0-plugins-ugly-amr/changelog.Debian.gz
+7a0f06c93538700d292c5a02c1c7b0f6  usr/share/doc/gstreamer1.0-plugins-ugly-amr/copyright
+dfc4c511c8b1d90bce41e1b9595c429b  usr/share/gstreamer-1.0/presets/GstAmrnbEnc.prs

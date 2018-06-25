@@ -1,0 +1,13 @@
+469432a1f35abb6d1b2b355203af9a2a  usr/lib/x86_64-linux-gnu/enchant/libenchant_aspell.so
+b7bb31208ee5b300b0e12d78fb581d7b  usr/lib/x86_64-linux-gnu/enchant/libenchant_hspell.so
+c35584a0475c86aff839071765209884  usr/lib/x86_64-linux-gnu/enchant/libenchant_ispell.so
+99cc67d206c4a8a982242e7ca5231457  usr/lib/x86_64-linux-gnu/enchant/libenchant_myspell.so
+426e021655612fef1765b849ef0bbd83  usr/lib/x86_64-linux-gnu/libenchant.so.1.6.0
+3a65486de5f8ebc188801f19d2ad6bb7  usr/share/doc/libenchant1c2a/README
+d58712400991030bf343fc2d8df9840a  usr/share/doc/libenchant1c2a/aspell/README
+9ae64f344ddb5d1b013771b6d270a928  usr/share/doc/libenchant1c2a/changelog.Debian.gz
+6685e7a0d7c9afc7f6b5d7702c0883f5  usr/share/doc/libenchant1c2a/copyright
+a51bbb058672353e675774416942c4a8  usr/share/doc/libenchant1c2a/ispell/README
+b85a31d2746e0d5c8d67c8f997213e35  usr/share/doc/libenchant1c2a/uspell/README
+486150fb65cf1838e19e1414a1b52dbd  usr/share/enchant/enchant.ordering
+8e005546f180c9cab9eaf306cc72ebae  usr/share/lintian/overrides/libenchant1c2a

@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/texmf/dvipdfm/config/config 2013.20130904-1~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/texmf/xdvi/xdvi.cfg 2013.20131010-2~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/texmf/fmt.d/10texlive-base.cnf 2015.20150524-1~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/texmf/fmt.d/10texlive-base.cnf 2015.20150524-1~ -- "$@"
+# End automatically added section

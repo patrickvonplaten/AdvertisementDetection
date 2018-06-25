@@ -1,0 +1,112 @@
+#!/bin/sh
+#
+# see: dh_installdeb(1)
+
+set -e
+
+. /usr/share/debconf/confmodule
+
+# Folders
+CACHE_DIR=/var/cache/sublime-text
+INSTALL_DIR=/opt/sublime_text
+UNPACK_DIR=$CACHE_DIR/sublime_text_3
+
+
+SUBLIME_VERSION=3126 #to be changed on each release
+case $(uname -m) in
+'i686'|'i586'|'i386')
+	arch='x32'
+	SHA256SUM_TGZ="92ffefa470f0777897ed0dfb7c1635426105271da9b5affbe8c1e82039718e29" #to be changed on each release
+	;;
+'x86_64')
+	arch='x64'
+	SHA256SUM_TGZ="18db132e9a305fa3129014b608628e06f9442f48d09cfe933b3b1a84dd18727a" #to be changed on each release
+	;;
+*)
+	echo "Architecture '`uname -m`' not supported."
+	arch=''
+esac
+
+FILENAME="sublime_text_3_build_${SUBLIME_VERSION}_${arch}.tar.bz2"
+
+for SUBLIME_VERSION_OLD in `seq 3045 3125`; do #to be changed on each release
+	FILENAMES_OLD="sublime_text_3_build_${SUBLIME_VERSION_OLD}_${arch}.tar.bz2 $FILENAMES_OLD"
+done
+
+PARTNER_URL=https://download.sublimetext.com/$FILENAME
+
+### Functions
+fp_exit_with_error() {
+	echo $1
+	echo "Sublime Text is NOT installed."
+	db_fset sublime-text-installer/local seen false
+	exit 1
+}
+
+fp_download_and_unpack() {
+
+	cd $CACHE_DIR
+
+	db_get sublime-text-installer/local
+	if [ -d "$RET" -a -f "$RET"/$FILENAME ]; then
+		echo "Installing from local file $RET/$FILENAME"
+		cp -f -p "$RET"/$FILENAME ${FILENAME}_TEMP
+		mv -f ${FILENAME}_TEMP $FILENAME
+	else # no local file
+		# use apt proxy
+		APT_PROXIES=$(apt-config shell \
+		http_proxy Acquire::http::Proxy \
+		https_proxy Acquire::https::Proxy \
+		ftp_proxy Acquire::ftp::Proxy \
+		dl_direct Acquire::http::Proxy::download.sublimetext.com \
+		)
+
+		if [ -n "$APT_PROXIES" ]; then
+			eval export $APT_PROXIES
+		fi
+
+		if [ "$dl_direct" = "DIRECT" ]; then
+			unset http_proxy
+			unset https_proxy
+			unset ftp_proxy
+		fi
+
+		:> wgetrc
+		echo "noclobber = off" >> wgetrc
+		echo "dir_prefix = ." >> wgetrc
+		echo "dirstruct = off" >> wgetrc
+		echo "verbose = on" >> wgetrc
+		echo "progress = dot:mega" >> wgetrc
+		echo "tries = 3" >> wgetrc
+
+		# downloading 
+		echo "Downloading..."
+		WGETRC=wgetrc wget --continue --no-check-certificate -O "$FILENAME" "$PARTNER_URL" \
+			|| echo "download failed"
+		rm -f wgetrc
+		echo "Download done."
+	fi # end if local file
+
+		# Removing outdated cached downloads
+		echo "Removing outdated cached downloads..."
+		rm -vf $FILENAMES_OLD
+
+	# Verify SHA256 checksum of (copied or downloaded) tarball
+    echo "$SHA256SUM_TGZ  $FILENAME" | sha256sum -c > /dev/null 2>&1 || fp_exit_with_error "sha256sum mismatch $FILENAME"
+
+		tar xvf "$FILENAME" || echo "cannot unpack Sublime Text"
+}
+
+# Create cache dir
+mkdir -p $CACHE_DIR
+
+# Unpack Sublime Text 3
+fp_download_and_unpack
+
+db_fset sublime-text-installer/local seen false
+
+
+
+exit 0
+
+# vim: ts=2 sw=2

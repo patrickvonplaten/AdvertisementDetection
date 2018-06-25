@@ -1,0 +1,17 @@
+d1c0c1fd703a7afd07963d624a6079df  usr/lib/python2.7/dist-packages/pandas/_period.so
+7363519f7b4730d67101cef5bcd252b5  usr/lib/python2.7/dist-packages/pandas/_sparse.so
+46edf8db6efcd4e1f4ecaa6a4862f236  usr/lib/python2.7/dist-packages/pandas/_testing.so
+1c44167739a1473c92c332f8142eaefa  usr/lib/python2.7/dist-packages/pandas/algos.so
+84646fe29a145d2be5f6dd993650b0ec  usr/lib/python2.7/dist-packages/pandas/hashtable.so
+c440fe2cce82f52c5f366cc015822444  usr/lib/python2.7/dist-packages/pandas/index.so
+a6a25f05c2b93990da9c4b516a208c15  usr/lib/python2.7/dist-packages/pandas/json.so
+9e14c5ee53ac4c0155521c3933d16ed1  usr/lib/python2.7/dist-packages/pandas/lib.so
+2387a5193d032073f96999150fb491c5  usr/lib/python2.7/dist-packages/pandas/msgpack/_packer.so
+dc4868e32b691454d2dcf942599f59c5  usr/lib/python2.7/dist-packages/pandas/msgpack/_unpacker.so
+664f136f74555a1eea2787c22c9b77c7  usr/lib/python2.7/dist-packages/pandas/parser.so
+69a9072b320fdeef5025935b108df971  usr/lib/python2.7/dist-packages/pandas/tslib.so
+592447e8e8c61075de385eec1da373c0  usr/share/doc/python-pandas-lib/CONTRIBUTING.md.gz
+b663a1161954200e8e099f521ba79305  usr/share/doc/python-pandas-lib/README.md.gz
+4aadfbacf199835098f5ea7d8f0ec581  usr/share/doc/python-pandas-lib/RELEASE.md
+22fc8accdc84df0ceb4dd05aa7119ab3  usr/share/doc/python-pandas-lib/changelog.Debian.gz
+727dcd7ba4b87b33681d9b9a63507029  usr/share/doc/python-pandas-lib/copyright

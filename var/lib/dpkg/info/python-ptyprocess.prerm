@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+
+# Automatically added by dhpython:
+if which pyclean >/dev/null 2>&1; then
+	pyclean -p python-ptyprocess 
+else
+	dpkg -L python-ptyprocess | grep \.py$ | while read file
+	do
+		rm -f "${file}"[co] >/dev/null
+  	done
+fi
+
+# End automatically added section

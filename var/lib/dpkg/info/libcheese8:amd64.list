@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libcheese.so.8.0.3
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcheese8
+/usr/share/doc/libcheese8/NEWS.gz
+/usr/share/doc/libcheese8/AUTHORS
+/usr/share/doc/libcheese8/copyright
+/usr/share/doc/libcheese8/changelog.Debian.gz
+/usr/share/doc/libcheese8/README
+/usr/lib/x86_64-linux-gnu/libcheese.so.8

@@ -1,0 +1,13 @@
+c30131b5db3b5081f122893693b737b6  usr/share/doc/libwerken.xpath-java/LIMITATIONS
+025e5d05f2578397f17c4d8639e8df20  usr/share/doc/libwerken.xpath-java/README
+5474c5212c6f27aa34fadb3abb0b1081  usr/share/doc/libwerken.xpath-java/TODO
+b9d090becfa4389ed3f99affdd57f7aa  usr/share/doc/libwerken.xpath-java/changelog.Debian.gz
+db6e88650a185ab233efda2644c3eb91  usr/share/doc/libwerken.xpath-java/copyright
+fa7df3001dcc38b7228c56e661270c19  usr/share/doc/libwerken.xpath-java/test/data/abbr_doc.xml
+45d6cf224bc32ba89a94e9d425917e6b  usr/share/doc/libwerken.xpath-java/test/data/abbr_tests.xml.gz
+8bdbde6e7a3bc8b9cc78c4c21e05670b  usr/share/doc/libwerken.xpath-java/test/data/iso_latin_1_doc.xml
+c60f930729dc1850d1606ef4f01a9f01  usr/share/doc/libwerken.xpath-java/test/data/iso_latin_1_tests.xml.gz
+97701907db62ed3ab81249bab7eee64d  usr/share/doc/libwerken.xpath-java/test/src/com/werken/xpath/test/Driver.java.gz
+cdd1899cf159295c931f64e2579c0e28  usr/share/java/werken-xpath-0.9.4.jar
+b1ff9ddf04ee540b3b89a3ce0265d07b  usr/share/maven-repo/werken-xpath/werken-xpath/0.9.4/werken-xpath-0.9.4.pom
+505cd31db48abee6278a178e581e689f  usr/share/maven-repo/werken-xpath/werken-xpath/debian/werken-xpath-debian.pom

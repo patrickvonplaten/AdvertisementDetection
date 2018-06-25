@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgnome-desktop-3-12
+/usr/share/doc/libgnome-desktop-3-12/AUTHORS
+/usr/share/doc/libgnome-desktop-3-12/README
+/usr/share/doc/libgnome-desktop-3-12/copyright
+/usr/share/doc/libgnome-desktop-3-12/NEWS.gz
+/usr/share/doc/libgnome-desktop-3-12/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libgnome-desktop-3-12
+/usr/lib/x86_64-linux-gnu/libgnome-desktop-3-12/gnome-rr-debug
+/usr/lib/x86_64-linux-gnu/libgnome-desktop-3.so.12.0.0
+/usr/lib/x86_64-linux-gnu/libgnome-desktop-3.so.12

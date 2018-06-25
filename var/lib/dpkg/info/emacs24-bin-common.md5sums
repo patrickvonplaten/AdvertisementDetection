@@ -1,0 +1,13 @@
+bcd5d7ea0195bbf275533071ebcc7d75  usr/bin/ctags.emacs24
+4620c42839ab0f3b50969bbbe07496ee  usr/bin/ebrowse.emacs24
+12a9513590ed16927830e38757697cbc  usr/bin/emacsclient.emacs24
+a19bd43924c89a3f7ceb1d0da05dd9b7  usr/bin/etags.emacs24
+6a0c734aefe8f09ec1b136394fe09747  usr/bin/grep-changelog.emacs24
+953f3ca905dc495b7ea43865f69d7166  usr/lib/emacs/24.5/x86_64-linux-gnu/hexl
+2516263dcab5940599bc9a11d507aeaa  usr/lib/emacs/24.5/x86_64-linux-gnu/movemail
+68b65321b2f274d5082313748fc1ba20  usr/lib/emacs/24.5/x86_64-linux-gnu/profile
+ab653d57be74540fb1bb266748010f85  usr/lib/emacs/24.5/x86_64-linux-gnu/rcs2log
+154e5719c3dcfb27139c2065d2f75c98  usr/lib/emacs/24.5/x86_64-linux-gnu/update-game-score
+aa1b6b2ac0c3c80276174f59956470a0  usr/share/doc/emacs24-bin-common/changelog.Debian.gz
+423bb3f6d3c040b05f3040a008c46618  usr/share/doc/emacs24-bin-common/copyright
+de2d016f657e5f90278b2a21cb01817f  usr/share/lintian/overrides/emacs24-bin-common

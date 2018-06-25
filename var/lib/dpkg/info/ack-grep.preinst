@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+if dpkg-maintscript-helper supports rm_conffile; then
+	dpkg-maintscript-helper rm_conffile \
+		/etc/bash_completion.d/ack-grep 2.04-2~ ack-grep -- "$@"
+fi
+
+

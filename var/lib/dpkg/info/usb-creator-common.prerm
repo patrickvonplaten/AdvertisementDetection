@@ -1,0 +1,29 @@
+#!/bin/sh
+
+set -e
+
+get_pid() {
+    [ -n "$1" ] || return 0
+    [ -S /var/run/dbus/system_bus_socket ] || return 0
+
+    dbus-send --system --dest=org.freedesktop.DBus --print-reply \
+              /org/freedesktop/DBus org.freedesktop.DBus.GetConnectionUnixProcessID \
+              string:$1 2>/dev/null | awk '/uint32/ {print $2}'
+}
+
+if [ "$1" = "remove" ]; then
+    # stop usb-creator-helper
+    kill $(get_pid com.ubuntu.USBCreator) 2>/dev/null || true
+fi
+
+
+# Automatically added by dhpython:
+if which py3clean >/dev/null 2>&1; then
+	py3clean -p usb-creator-common 
+else
+	dpkg -L usb-creator-common | perl -ne 's,/([^/]*)\.py$,/__pycache__/\1.*, or next; unlink $_ or die $! foreach glob($_)'
+	find /usr/lib/python3/dist-packages/ -type d -name __pycache__ -empty -print0 | xargs --null --no-run-if-empty rmdir
+fi
+
+# End automatically added section
+

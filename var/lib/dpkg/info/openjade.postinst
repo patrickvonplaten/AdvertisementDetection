@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+    configure)
+	## alternatives
+	update-alternatives --quiet --install \
+	    /usr/bin/openjade openjade /usr/bin/openjade-1.4devel 20 \
+	    --slave /usr/share/man/man1/openjade.1.gz openjade.1.gz /usr/share/man/man1/openjade-1.4devel.1.gz
+	;;
+esac
+
+
+
+exit 0

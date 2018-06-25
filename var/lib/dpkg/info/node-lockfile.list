@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/nodejs
+/usr/lib/nodejs/lockfile.js
+/usr/share
+/usr/share/doc
+/usr/share/doc/node-lockfile
+/usr/share/doc/node-lockfile/README.md
+/usr/share/doc/node-lockfile/copyright
+/usr/share/doc/node-lockfile/changelog.Debian.gz

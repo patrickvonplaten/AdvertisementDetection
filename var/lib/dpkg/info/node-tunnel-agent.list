@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/node-tunnel-agent
+/usr/share/doc/node-tunnel-agent/copyright
+/usr/share/doc/node-tunnel-agent/changelog.Debian.gz
+/usr/share/doc/node-tunnel-agent/README.md
+/usr/lib
+/usr/lib/nodejs
+/usr/lib/nodejs/tunnel-agent
+/usr/lib/nodejs/tunnel-agent/index.js

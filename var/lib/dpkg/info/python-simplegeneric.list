@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/python-simplegeneric
+/usr/share/doc/python-simplegeneric/README.txt.gz
+/usr/share/doc/python-simplegeneric/copyright
+/usr/share/doc/python-simplegeneric/changelog.Debian.gz
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages/simplegeneric-0.8.1.egg-info
+/usr/lib/python2.7/dist-packages/simplegeneric-0.8.1.egg-info/dependency_links.txt
+/usr/lib/python2.7/dist-packages/simplegeneric-0.8.1.egg-info/PKG-INFO
+/usr/lib/python2.7/dist-packages/simplegeneric-0.8.1.egg-info/SOURCES.txt
+/usr/lib/python2.7/dist-packages/simplegeneric-0.8.1.egg-info/top_level.txt
+/usr/lib/python2.7/dist-packages/simplegeneric.py

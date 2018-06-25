@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/gstreamer-1.0
+/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstfaad.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/gstreamer1.0-plugins-bad-faad
+/usr/share/doc/gstreamer1.0-plugins-bad-faad/copyright
+/usr/share/doc/gstreamer1.0-plugins-bad-faad/README.Debian
+/usr/share/doc/gstreamer1.0-plugins-bad-faad/NEWS.gz
+/usr/share/doc/gstreamer1.0-plugins-bad-faad/README.gz
+/usr/share/doc/gstreamer1.0-plugins-bad-faad/changelog.Debian.gz
+/usr/share/doc/gstreamer1.0-plugins-bad-faad/AUTHORS

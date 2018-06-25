@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+if [ "$1" = configure ]; then
+    # ensure rfkill devices have ID_PATH (fixed in systemd 215-5ubuntu2)
+    udevadm trigger --subsystem-match=rfkill
+fi

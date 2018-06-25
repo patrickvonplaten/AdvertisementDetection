@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libQtScriptTools.so.4.8.7
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libqt4-scripttools
+/usr/share/doc
+/usr/share/doc/libqt4-scripttools
+/usr/share/doc/libqt4-scripttools/copyright
+/usr/lib/x86_64-linux-gnu/libQtScriptTools.so.4
+/usr/lib/x86_64-linux-gnu/libQtScriptTools.so.4.8
+/usr/share/doc/libqt4-scripttools/changelog.Debian.gz
+/usr/share/doc/libqt4-scripttools/LGPL_EXCEPTION.txt

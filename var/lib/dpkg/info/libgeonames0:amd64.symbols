@@ -1,0 +1,15 @@
+libgeonames.so.0 libgeonames0 #MINVER#
+ geonames_city_free@Base 0.1
+ geonames_city_get_country@Base 0.1
+ geonames_city_get_country_code@Base 0.2+16.04.20160321
+ geonames_city_get_latitude@Base 0.2+16.04.20160321
+ geonames_city_get_longitude@Base 0.2+16.04.20160321
+ geonames_city_get_name@Base 0.1
+ geonames_city_get_population@Base 0.2+16.04.20160321
+ geonames_city_get_state@Base 0.1
+ geonames_city_get_timezone@Base 0.1
+ geonames_get_city@Base 0.1
+ geonames_get_n_cities@Base 0.1
+ geonames_query_cities@Base 0.1
+ geonames_query_cities_finish@Base 0.1
+ geonames_query_cities_sync@Base 0.1

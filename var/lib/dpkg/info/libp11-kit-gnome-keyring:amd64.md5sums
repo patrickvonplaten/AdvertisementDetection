@@ -1,0 +1,7 @@
+d7f04604e27fc2015b303a43b18d7a41  usr/lib/x86_64-linux-gnu/pkcs11/gnome-keyring-pkcs11.so
+e166011281158eaa1c64baaa52efccc2  usr/share/doc/libp11-kit-gnome-keyring/AUTHORS
+4e49f60acaed6c6f482afaa7fa187e0f  usr/share/doc/libp11-kit-gnome-keyring/NEWS.gz
+31c2fedb6447aed52fce265accd90fd3  usr/share/doc/libp11-kit-gnome-keyring/README
+1375b7af14cb7aaa974c55ead4a0d6f9  usr/share/doc/libp11-kit-gnome-keyring/changelog.Debian.gz
+389b474fa85618e5b839ae06ddc08c49  usr/share/doc/libp11-kit-gnome-keyring/copyright
+18338a3e1e347ea0b25f3bc2182e95a6  usr/share/p11-kit/modules/gnome-keyring.module

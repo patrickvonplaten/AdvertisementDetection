@@ -1,0 +1,4 @@
+82564b0ef987a7674407b39da9ec2519  usr/lib/x86_64-linux-gnu/libQtOpenGL.so.4.8.7
+511330cbf67d16e48e17b12ac4b463c7  usr/lib/x86_64-linux-gnu/qt4/plugins/graphicssystems/libqglgraphicssystem.so
+d49cf542b1b3ba75bad90e9560c459d3  usr/share/doc/libqt4-opengl/copyright
+e1e7c56afd5432b5bc12633c1dc13622  usr/share/lintian/overrides/libqt4-opengl

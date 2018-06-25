@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" != "upgrade" ]
+then
+    update-alternatives --remove libblas.so.3 \
+    /usr/lib/openblas-base/libblas.so.3
+
+    update-alternatives --remove liblapack.so.3 \
+        /usr/lib/openblas-base/liblapack.so.3
+fi
+
+
+
+exit 0

@@ -1,0 +1,9 @@
+auto
+/usr/bin/openjade
+openjade.1.gz
+/usr/share/man/man1/openjade.1.gz
+
+/usr/bin/openjade-1.4devel
+20
+/usr/share/man/man1/openjade-1.4devel.1.gz
+

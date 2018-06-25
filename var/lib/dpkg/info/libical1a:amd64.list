@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libical.so.1.0.1
+/usr/lib/x86_64-linux-gnu/libicalvcal.so.1.0.1
+/usr/lib/x86_64-linux-gnu/libicalss.so.1.0.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/libical1a
+/usr/share/doc/libical1a/ReadMe.txt
+/usr/share/doc/libical1a/copyright
+/usr/share/doc/libical1a/changelog.Debian.gz
+/usr/share/doc/libical1a/TODO
+/usr/lib/x86_64-linux-gnu/libical.so.1
+/usr/lib/x86_64-linux-gnu/libicalss.so.1
+/usr/lib/x86_64-linux-gnu/libicalvcal.so.1

@@ -1,0 +1,19 @@
+#!/bin/sh
+#
+# Copyright (C) 2007 Mario Limonciello
+# Copyright (C) 2009-2011 Canonical Ltd.
+
+set -e
+
+PACKAGE_NAME=libhybris
+
+case "$1" in
+	remove)
+		update-alternatives --remove x86_64-linux-gnu_egl_conf /usr/lib/x86_64-linux-gnu/libhybris-egl/ld.so.conf
+
+		# explicit ldconfig due to alternatives
+		LDCONFIG_NOTRIGGER=y ldconfig
+	;;
+esac
+
+

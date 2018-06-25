@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libssh-gcrypt.so.4.4.1
+/usr/lib/x86_64-linux-gnu/libssh-gcrypt_threads.so.4.4.1
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libssh-gcrypt-4
+/usr/share/doc
+/usr/share/doc/libssh-gcrypt-4
+/usr/share/doc/libssh-gcrypt-4/copyright
+/usr/share/doc/libssh-gcrypt-4/changelog.Debian.gz
+/usr/lib/x86_64-linux-gnu/libssh-gcrypt.so.4
+/usr/lib/x86_64-linux-gnu/libssh-gcrypt_threads.so.4

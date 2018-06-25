@@ -1,0 +1,5 @@
+0da501546b790942e0888721edbd49e9  usr/lib/x86_64-linux-gnu/qt4/bin/lrelease
+6b6a6c6e397a33f8eb331e4e404e288c  usr/lib/x86_64-linux-gnu/qt4/bin/lupdate
+d49cf542b1b3ba75bad90e9560c459d3  usr/share/doc/qt4-linguist-tools/copyright
+b82f175afaabbb8573c99da98cf07f93  usr/share/man/man1/lrelease-qt4.1.gz
+93ce1cfc8d98279229d52718d479829d  usr/share/man/man1/lupdate-qt4.1.gz

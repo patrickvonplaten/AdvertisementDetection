@@ -1,0 +1,8 @@
+62a699869bbc32fbf3cb593cdb75f684  usr/share/bug/texlive/control
+4231fc3112bfdb7e0819e0096b0eea65  usr/share/bug/texlive/script
+fa4e46276e6e5f7875b42e8e99cb581b  usr/share/doc/texlive/NEWS.Debian.gz
+63ad8204672befe3b709fb0aa74e46ca  usr/share/doc/texlive/README.Debian
+0f9e22e2f162988158ce1b3196a10ac6  usr/share/doc/texlive/README.source
+20850c3329358fa8c3242d66d815a1cb  usr/share/doc/texlive/changelog.Debian.gz
+b1abb3e316ef0b5712681be7de634e7a  usr/share/doc/texlive/copyright
+65a5f88eb7b4b5d4148fa05c15ecb572  usr/share/lintian/overrides/texlive

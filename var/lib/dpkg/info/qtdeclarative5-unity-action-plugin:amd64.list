@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/qtdeclarative5-unity-action-plugin
+/usr/share/doc/qtdeclarative5-unity-action-plugin/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/qml
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Unity
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Unity/Action
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Unity/Action/libunity-action-qml.so
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Unity/Action/qmldir
+/usr/share/doc/qtdeclarative5-unity-action-plugin/changelog.Debian.gz

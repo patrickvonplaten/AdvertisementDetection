@@ -1,0 +1,5 @@
+libwinpr-handle.so.0.1 libwinpr-handle0.1 #MINVER#
+ CloseHandle@Base 1.1.0~beta1+git20130629
+ DuplicateHandle@Base 1.1.0~beta1+git20130629
+ GetHandleInformation@Base 1.1.0~beta1+git20130629
+ SetHandleInformation@Base 1.1.0~beta1+git20130629

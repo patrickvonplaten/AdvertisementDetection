@@ -1,0 +1,5 @@
+ca0d94aadc4cddd2a6ccc3c4adf5443f  usr/lib/x86_64-linux-gnu/libQt3Support.so.4.8.7
+181859b4da02b0a5e30ae1e6a39365d1  usr/lib/x86_64-linux-gnu/qt4/plugins/accessible/libqtaccessiblecompatwidgets.so
+e6f48e7ad7e0b02909969747bb5f2c3d  usr/lib/x86_64-linux-gnu/qt4/plugins/designer/libqt3supportwidgets.so
+d49cf542b1b3ba75bad90e9560c459d3  usr/share/doc/libqt4-qt3support/copyright
+7ee9ebbd8128049d303c115549452797  usr/share/lintian/overrides/libqt4-qt3support

@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libass5
+/usr/share/doc/libass5/copyright
+/usr/share/doc/libass5/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libass.so.5.2.1
+/usr/lib/x86_64-linux-gnu/libass.so.5

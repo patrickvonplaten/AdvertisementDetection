@@ -1,0 +1,7 @@
+Document: sane-backends
+Section: Graphics
+Title: sane-backends Documentation
+
+Format: html
+Index: /usr/share/doc/libsane/supported.html
+Files: /usr/share/doc/libsane/*.html

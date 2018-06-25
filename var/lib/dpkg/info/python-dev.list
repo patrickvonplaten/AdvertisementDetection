@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/man
+/usr/share/man/man1
+/usr/share/doc
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/pkgconfig
+/usr/bin
+/usr/share/man/man1/python-config.1.gz
+/usr/share/man/man1/python2-config.1.gz
+/usr/share/doc/python-dev
+/usr/lib/x86_64-linux-gnu/pkgconfig/python.pc
+/usr/lib/x86_64-linux-gnu/pkgconfig/python2.pc
+/usr/bin/python-config
+/usr/bin/python2-config

@@ -1,0 +1,82 @@
+libffms2.so.4 libffms2-4 #MINVER#
+| libffms2-4 (>= 2.22), libffms2-4 (<< 2.23)
+ FFMS_CancelIndexing@Base 2.19
+ FFMS_CreateAudioSource@Base 2.19
+ FFMS_CreateIndexer@Base 2.19
+ FFMS_CreateIndexerWithDemuxer@Base 2.19
+ FFMS_CreateResampleOptions@Base 2.19
+ FFMS_CreateVideoSource@Base 2.19
+ FFMS_DefaultAudioFilename@Base 2.19
+ FFMS_DestroyAudioSource@Base 2.19
+ FFMS_DestroyIndex@Base 2.19
+ FFMS_DestroyResampleOptions@Base 2.19
+ FFMS_DestroyVideoSource@Base 2.19
+ FFMS_DoIndexing2@Base 2.21
+ FFMS_DoIndexing@Base 2.19
+ FFMS_GetAudio@Base 2.19
+ FFMS_GetAudioProperties@Base 2.19
+ FFMS_GetCodecNameI@Base 2.19
+ FFMS_GetEnabledSources@Base 2.19
+ FFMS_GetErrorHandling@Base 2.19
+ FFMS_GetFirstIndexedTrackOfType@Base 2.19
+ FFMS_GetFirstTrackOfType@Base 2.19
+ FFMS_GetFormatNameI@Base 2.19
+ FFMS_GetFrame@Base 2.19
+ FFMS_GetFrameByTime@Base 2.19
+ FFMS_GetFrameInfo@Base 2.19
+ FFMS_GetLogLevel@Base 2.19
+ FFMS_GetNumFrames@Base 2.19
+ FFMS_GetNumTracks@Base 2.19
+ FFMS_GetNumTracksI@Base 2.19
+ FFMS_GetPixFmt@Base 2.19
+ FFMS_GetPresentSources@Base 2.19
+ FFMS_GetSourceType@Base 2.19
+ FFMS_GetSourceTypeI@Base 2.19
+ FFMS_GetTimeBase@Base 2.19
+ FFMS_GetTrackFromAudio@Base 2.19
+ FFMS_GetTrackFromIndex@Base 2.19
+ FFMS_GetTrackFromVideo@Base 2.19
+ FFMS_GetTrackType@Base 2.19
+ FFMS_GetTrackTypeI@Base 2.19
+ FFMS_GetVersion@Base 2.19
+ FFMS_GetVideoProperties@Base 2.19
+ FFMS_IndexBelongsToFile@Base 2.19
+ FFMS_Init@Base 2.19
+ FFMS_MakeIndex@Base 2.19
+ FFMS_ReadIndex@Base 2.19
+ FFMS_ResetInputFormatV@Base 2.19
+ FFMS_ResetOutputFormatV@Base 2.19
+ FFMS_SetAudioNameCallback@Base 2.21
+ FFMS_SetInputFormatV@Base 2.19
+ FFMS_SetLogLevel@Base 2.19
+ FFMS_SetOutputFormatA@Base 2.19
+ FFMS_SetOutputFormatV2@Base 2.19
+ FFMS_SetProgressCallback@Base 2.21
+ FFMS_TrackIndexSettings@Base 2.21
+ FFMS_TrackTypeIndexSettings@Base 2.21
+ FFMS_WriteIndex@Base 2.19
+ FFMS_WriteTimecodes@Base 2.19
+ VapourSynthPluginInit@Base 2.19
+ _ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_P13__va_list_tagEmSB_z@Base 0 1
+ _ZNKSt5ctypeIcE8do_widenEc@Base 0 1
+ _ZNSt6vectorI13AVPixelFormatSaIS0_EE19_M_emplace_back_auxIIRKS0_EEEvDpOT_@Base 0 1
+ _ZNSt6vectorI13AVPixelFormatSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_@Base 0 1
+ _ZNSt6vectorIiSaIiEE12emplace_backIIiEEEvDpOT_@Base 0 1
+ _ZNSt6vectorIiSaIiEE12emplace_backIJiEEEvDpOT_@Base 0 1
+ _ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIIiEEEvDpOT_@Base 0 1
+ _ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJiEEEvDpOT_@Base 0 1
+ _ZNSt6vectorIiSaIiEEaSERKS1_@Base 0 1
+ _ZNSt6vectorImSaImEE19_M_emplace_back_auxIIRKmEEEvDpOT_@Base 0 1
+ _ZNSt6vectorImSaImEE19_M_emplace_back_auxIJRKmEEEvDpOT_@Base 0 1
+ _ZNSt8_Rb_treeIiSt4pairIKibESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIIRKSt21piecewise_construct_tSt5tupleIIOiEESD_IIEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_@Base 0 1
+ _ZNSt8_Rb_treeIiSt4pairIKibESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIIRKSt21piecewise_construct_tSt5tupleIIRS1_EESD_IIEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_@Base 0 1
+ _ZNSt8_Rb_treeIiSt4pairIKibESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJOiEESD_IJEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_@Base 0 1
+ _ZNSt8_Rb_treeIiSt4pairIKibESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESD_IJEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_@Base 0 1
+ _ZNSt8_Rb_treeIiSt4pairIKibESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_@Base 0 1
+ _ZNSt8_Rb_treeIiSt4pairIKibESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Base 0 1
+ _ZNSt8_Rb_treeIiSt4pairIKibESt10_Select1stIS2_ESt4lessIiESaIS2_EE5eraseERS1_@Base 0 1
+ _ZNSt8_Rb_treeIiSt4pairIKibESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E@Base 0 1
+ _ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE16_M_insert_uniqueIRKiEESt4pairISt17_Rb_tree_iteratorIiEbEOT_@Base 0 1
+ _ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE8_M_eraseEPSt13_Rb_tree_nodeIiE@Base 0 1
+ _ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_PKS5_@Base 0 1
+ _ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_RKS8_@Base 0 1

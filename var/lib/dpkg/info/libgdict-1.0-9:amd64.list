@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgdict-1.0-9
+/usr/share/doc/libgdict-1.0-9/AUTHORS
+/usr/share/doc/libgdict-1.0-9/README
+/usr/share/doc/libgdict-1.0-9/TODO
+/usr/share/doc/libgdict-1.0-9/copyright
+/usr/share/doc/libgdict-1.0-9/NEWS.gz
+/usr/share/doc/libgdict-1.0-9/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libgdict-1.0.so.9.0.0
+/usr/lib/x86_64-linux-gnu/libgdict-1.0.so.9

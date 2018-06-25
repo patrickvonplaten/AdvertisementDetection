@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libsox-fmt-alsa
+/usr/share/doc/libsox-fmt-alsa/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/sox
+/usr/lib/x86_64-linux-gnu/sox/libsox_fmt_alsa.so
+/usr/share/doc/libsox-fmt-alsa/changelog.Debian.gz

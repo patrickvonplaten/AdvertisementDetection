@@ -1,0 +1,165 @@
+lease {
+  interface "enp3s0";
+  fixed-address 137.226.196.55;
+  option subnet-mask 255.255.255.0;
+  option routers 137.226.196.129;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 137.226.196.170,137.226.196.171;
+  option dhcp-server-identifier 137.226.196.170;
+  option host-name "im74";
+  option domain-name "ient.rwth-aachen.de";
+  renew 2 2016/08/23 04:28:41;
+  rebind 2 2016/08/23 04:57:57;
+  expire 2 2016/08/23 05:05:27;
+}
+lease {
+  interface "enp3s0";
+  fixed-address 137.226.196.55;
+  option subnet-mask 255.255.255.0;
+  option routers 137.226.196.129;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 137.226.196.170,137.226.196.171;
+  option dhcp-server-identifier 137.226.196.170;
+  option host-name "im74";
+  option domain-name "ient.rwth-aachen.de";
+  renew 2 2016/08/23 04:54:53;
+  rebind 2 2016/08/23 05:21:11;
+  expire 2 2016/08/23 05:28:41;
+}
+lease {
+  interface "enp3s0";
+  fixed-address 137.226.196.55;
+  option subnet-mask 255.255.255.0;
+  option routers 137.226.196.129;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 137.226.196.170,137.226.196.171;
+  option dhcp-server-identifier 137.226.196.170;
+  option host-name "im74";
+  option domain-name "ient.rwth-aachen.de";
+  renew 2 2016/08/23 05:18:42;
+  rebind 2 2016/08/23 05:47:23;
+  expire 2 2016/08/23 05:54:53;
+}
+lease {
+  interface "enp3s0";
+  fixed-address 137.226.196.55;
+  option subnet-mask 255.255.255.0;
+  option routers 137.226.196.129;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 137.226.196.170,137.226.196.171;
+  option dhcp-server-identifier 137.226.196.170;
+  option host-name "im74";
+  option domain-name "ient.rwth-aachen.de";
+  renew 2 2016/08/23 05:44:31;
+  rebind 2 2016/08/23 06:11:12;
+  expire 2 2016/08/23 06:18:42;
+}
+lease {
+  interface "enp3s0";
+  fixed-address 137.226.196.55;
+  option subnet-mask 255.255.255.0;
+  option routers 137.226.196.129;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 137.226.196.170,137.226.196.171;
+  option dhcp-server-identifier 137.226.196.170;
+  option host-name "im74";
+  option domain-name "ient.rwth-aachen.de";
+  renew 2 2016/08/23 06:12:54;
+  rebind 2 2016/08/23 06:37:02;
+  expire 2 2016/08/23 06:44:32;
+}
+lease {
+  interface "enp3s0";
+  fixed-address 137.226.196.55;
+  option subnet-mask 255.255.255.0;
+  option routers 137.226.196.129;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 137.226.196.170,137.226.196.171;
+  option dhcp-server-identifier 137.226.196.170;
+  option host-name "im74";
+  option domain-name "ient.rwth-aachen.de";
+  renew 2 2016/08/23 06:36:13;
+  rebind 2 2016/08/23 07:05:24;
+  expire 2 2016/08/23 07:12:54;
+}
+lease {
+  interface "enp3s0";
+  fixed-address 137.226.196.55;
+  option subnet-mask 255.255.255.0;
+  option routers 137.226.196.129;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 137.226.196.170,137.226.196.171;
+  option dhcp-server-identifier 137.226.196.170;
+  option host-name "im74";
+  option domain-name "ient.rwth-aachen.de";
+  renew 2 2016/08/23 06:59:39;
+  rebind 2 2016/08/23 07:28:44;
+  expire 2 2016/08/23 07:36:14;
+}
+lease {
+  interface "enp3s0";
+  fixed-address 137.226.196.55;
+  option subnet-mask 255.255.255.0;
+  option routers 137.226.196.129;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 137.226.196.170,137.226.196.171;
+  option dhcp-server-identifier 137.226.196.170;
+  option host-name "im74";
+  option domain-name "ient.rwth-aachen.de";
+  renew 2 2016/08/23 07:27:23;
+  rebind 2 2016/08/23 07:52:10;
+  expire 2 2016/08/23 07:59:40;
+}
+lease {
+  interface "enp3s0";
+  fixed-address 137.226.196.55;
+  option subnet-mask 255.255.255.0;
+  option routers 137.226.196.129;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 137.226.196.170,137.226.196.171;
+  option dhcp-server-identifier 137.226.196.170;
+  option host-name "im74";
+  option domain-name "ient.rwth-aachen.de";
+  renew 2 2016/08/23 07:52:13;
+  rebind 2 2016/08/23 08:19:53;
+  expire 2 2016/08/23 08:27:23;
+}
+lease {
+  interface "enp3s0";
+  fixed-address 137.226.196.55;
+  option subnet-mask 255.255.255.0;
+  option routers 137.226.196.129;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 137.226.196.170,137.226.196.171;
+  option dhcp-server-identifier 137.226.196.170;
+  option host-name "im74";
+  option domain-name "ient.rwth-aachen.de";
+  renew 2 2016/08/23 08:18:03;
+  rebind 2 2016/08/23 08:44:43;
+  expire 2 2016/08/23 08:52:13;
+}
+lease {
+  interface "enp3s0";
+  fixed-address 137.226.196.55;
+  option subnet-mask 255.255.255.0;
+  option routers 137.226.196.129;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 137.226.196.170,137.226.196.171;
+  option dhcp-server-identifier 137.226.196.170;
+  option host-name "im74";
+  option domain-name "ient.rwth-aachen.de";
+  renew 2 2016/08/23 08:42:18;
+  rebind 2 2016/08/23 09:10:33;
+  expire 2 2016/08/23 09:18:03;
+}

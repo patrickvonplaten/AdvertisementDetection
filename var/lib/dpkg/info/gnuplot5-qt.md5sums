@@ -1,0 +1,9 @@
+a8bc5ae7d4681268a5133830a1ba9a5e  usr/bin/gnuplot5-qt
+ed92f0f38c849b7108de6e08c07b4fdf  usr/lib/gnuplot5/gnuplot_qt
+25f00a9eaf5748332483d067581d2ec5  usr/lib/gnuplot5/gnuplot_x11
+b2a4f6614b7d9352fefe9ac41160ba5b  usr/share/doc/gnuplot5-qt/NEWS.Debian.gz
+a7ab9cae089d3c9a431ee3cea0447a9d  usr/share/doc/gnuplot5-qt/changelog.Debian.gz
+35b039494a9316caa2be0818fcb9674a  usr/share/doc/gnuplot5-qt/copyright
+26307e8037ea13891c4e337dd8a9a13c  usr/share/gnuplot5/gnuplot5-qt.gih
+2873bbb7038128950bbd54a5bc0bf9ea  usr/share/man/man1/gnuplot5-qt.1.gz
+18045acd7781600c0b5835c8c27a4997  usr/share/menu/gnuplot5-qt

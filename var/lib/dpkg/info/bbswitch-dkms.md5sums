@@ -1,0 +1,6 @@
+967f3ab7280390adc81215617e39e74e  usr/share/doc/bbswitch-dkms/README.md.gz
+2e1e0d6e04ae102bc3d7748d8d7822d7  usr/share/doc/bbswitch-dkms/changelog.Debian.gz
+712e2d23518065669c37b20500b52164  usr/share/doc/bbswitch-dkms/copyright
+fb02899f39cce9eedbdcabc90106fd80  usr/src/bbswitch-0.8/Makefile
+7ad22e0df2d9e00a1f4cfa52508c864b  usr/src/bbswitch-0.8/bbswitch.c
+7e32b37d44c4b2b6aff1528233a4f596  usr/src/bbswitch-0.8/dkms.conf

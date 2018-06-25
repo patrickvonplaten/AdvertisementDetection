@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libtwolame0
+/usr/share/doc/libtwolame0/copyright
+/usr/share/doc/libtwolame0/TODO
+/usr/share/doc/libtwolame0/changelog.Debian.gz
+/usr/share/doc/libtwolame0/README
+/usr/share/doc/libtwolame0/AUTHORS
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libtwolame.so.0.0.0
+/usr/lib/x86_64-linux-gnu/libtwolame.so.0

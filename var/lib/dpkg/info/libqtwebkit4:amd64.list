@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libqtwebkit4
+/usr/share/doc/libqtwebkit4/copyright
+/usr/share/doc/libqtwebkit4/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libQtWebKit.so.4.10.2
+/usr/lib/x86_64-linux-gnu/libQtWebKit.so.4.10
+/usr/lib/x86_64-linux-gnu/libQtWebKit.so.4

@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libkf5codecs5
+/usr/share/doc/libkf5codecs5/copyright
+/usr/share/doc/libkf5codecs5/changelog.Debian.gz
+/usr/share/doc/libkf5codecs5/README.md
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libKF5Codecs.so.5.18.0
+/usr/lib/x86_64-linux-gnu/libKF5Codecs.so.5

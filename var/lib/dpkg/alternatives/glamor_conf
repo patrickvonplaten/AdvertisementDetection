@@ -1,0 +1,6 @@
+auto
+/usr/share/X11/xorg.conf.d/glamoregl.conf
+
+/usr/share/nvidia-384/glamor.conf
+600
+

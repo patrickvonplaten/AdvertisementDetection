@@ -1,0 +1,5 @@
+eb5733f038e26d50acea1aa5c6a3dc22  usr/share/doc/libjempbox-java/changelog.Debian.gz
+6f31c485b691099c66eda1eae24126a5  usr/share/doc/libjempbox-java/copyright
+ee4aad83866cff7b83a764ab4021dca6  usr/share/java/jempbox-1.8.11.jar
+41492835ce1ad245d267858db039c14b  usr/share/maven-repo/org/apache/pdfbox/jempbox/1.8.11/jempbox-1.8.11.pom
+9e21422a4f53833f6d16c54f52ed5ff0  usr/share/maven-repo/org/apache/pdfbox/jempbox/debian/jempbox-debian.pom

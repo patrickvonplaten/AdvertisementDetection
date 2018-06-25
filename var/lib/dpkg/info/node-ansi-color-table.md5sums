@@ -1,0 +1,9 @@
+5114d45250c38f4c25f23268e976c2c5  usr/lib/nodejs/ansi-color-table/index.js
+c157a7c64a5077dd6dd98829062fa277  usr/lib/nodejs/ansi-color-table/lib/padsegments.js
+0402d34534d8c714aaa72d305fcd1ae9  usr/lib/nodejs/ansi-color-table/package.json
+6aa1e692c658962f841a07dbe1a5bd02  usr/share/doc/node-ansi-color-table/README.md
+986638a2e3a19a4a4ba13f5c8f81eccb  usr/share/doc/node-ansi-color-table/changelog.Debian.gz
+3e84484b8ed66b027404f804b26eee47  usr/share/doc/node-ansi-color-table/copyright
+687d5b3d361f553b375ae3c125072770  usr/share/doc/node-ansi-color-table/examples/custom-opts.js
+11afed13aa1c615f9208f44b8b75e51f  usr/share/doc/node-ansi-color-table/examples/redirect_stream.js
+774dad9166cc510faa03537a22eaf55d  usr/share/doc/node-ansi-color-table/examples/users.js

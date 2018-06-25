@@ -1,0 +1,5 @@
+a3abd9d15fbfc09aa7d85b80e492a8ad  usr/lib/x86_64-linux-gnu/libQtSvg.so.4.8.7
+eaca985f67f6381248321412f7831783  usr/lib/x86_64-linux-gnu/qt4/plugins/iconengines/libqsvgicon.so
+1535d0c2ce9813f6df45e2f4c720a0c4  usr/lib/x86_64-linux-gnu/qt4/plugins/imageformats/libqsvg.so
+d49cf542b1b3ba75bad90e9560c459d3  usr/share/doc/libqt4-svg/copyright
+754737721593bb14b976be608c52b5a6  usr/share/lintian/overrides/libqt4-svg

@@ -1,0 +1,11 @@
+8e7f3c1494ae8d08e1fb4e67c785ac48  usr/bin/x264
+c6bb816f0e8853ce1a2802cf233667c4  usr/bin/x264-10bit
+11c05f22d006b5f22a79fa3af87a13c8  usr/share/doc/x264/README.Debian
+36adb8488e9581890fa2401cfc676df2  usr/share/doc/x264/copyright
+332cd7ef6a36ab15201fe8af926fc90f  usr/share/doc/x264/ratecontrol.txt.gz
+21360742ba48ce19e7dd9e07a2e994a4  usr/share/doc/x264/regression_test.txt
+3f686875e9e5ce17948e08aa7cdd68ec  usr/share/doc/x264/standards.txt
+713650eadfb6de22afd44d63aa59a7f4  usr/share/doc/x264/threads.txt.gz
+4398987ff14324988e134b594930c562  usr/share/doc/x264/vui.txt.gz
+a6d22e14575f0d9cc6fb848fb036e40f  usr/share/man/man1/x264-10bit.1.gz
+a6ad9243a793eafdc97cda436dcc4095  usr/share/man/man1/x264.1.gz

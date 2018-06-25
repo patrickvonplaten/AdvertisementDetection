@@ -1,0 +1,528 @@
+[1126715.728] 
+X.Org X Server 1.18.4
+Release Date: 2016-07-19
+[1126715.728] X Protocol Version 11, Revision 0
+[1126715.728] Build Operating System: Linux 4.4.0-83-generic x86_64 Ubuntu
+[1126715.728] Current Operating System: Linux im74 4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017 x86_64
+[1126715.728] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-83-generic root=UUID=92aa18d8-7439-4ec4-a24b-2c3be731fb3c ro quiet splash vt.handoff=7
+[1126715.728] Build Date: 17 July 2017  05:05:12PM
+[1126715.728] xorg-server 2:1.18.4-0ubuntu0.3 (For technical support please see http://www.ubuntu.com/support) 
+[1126715.728] Current version of pixman: 0.33.6
+[1126715.728] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[1126715.728] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[1126715.728] (++) Log file: "/var/log/Xorg.failsafe.log", Time: Wed Aug  2 14:13:03 2017
+[1126715.729] (++) Using config file: "/etc/X11/xorg.conf.failsafe"
+[1126715.729] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[1126715.729] (==) No Layout section.  Using the first Screen section.
+[1126715.729] (**) |-->Screen "Default Screen" (0)
+[1126715.729] (**) |   |-->Monitor "Configured Monitor"
+[1126715.729] (**) |   |-->Device "Configured Video Device"
+[1126715.729] (==) Automatically adding devices
+[1126715.729] (==) Automatically enabling devices
+[1126715.729] (==) Automatically adding GPU devices
+[1126715.729] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[1126715.729] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[1126715.729] 	Entry deleted from font path.
+[1126715.729] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[1126715.729] 	Entry deleted from font path.
+[1126715.729] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[1126715.729] 	Entry deleted from font path.
+[1126715.729] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/100dpi/:unscaled,
+	/usr/share/fonts/X11/Type1,
+	/usr/share/fonts/X11/100dpi,
+	built-ins
+[1126715.729] (==) ModulePath set to "/usr/lib/x86_64-linux-gnu/xorg/extra-modules,/usr/lib/xorg/extra-modules,/usr/lib/xorg/modules"
+[1126715.729] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[1126715.729] (II) Loader magic: 0x563e8245edc0
+[1126715.729] (II) Module ABI versions:
+[1126715.729] 	X.Org ANSI C Emulation: 0.4
+[1126715.729] 	X.Org Video Driver: 20.0
+[1126715.729] 	X.Org XInput driver : 22.1
+[1126715.729] 	X.Org Server Extension : 9.0
+[1126715.730] (--) using VT number 3
+
+[1126715.730] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[1126715.730] (II) xfree86: Adding drm device (/dev/dri/card0)
+[1126715.730] (II) xfree86: Adding drm device (/dev/dri/card1)
+[1126715.731] (--) PCI:*(0:0:2:0) 8086:1912:1849:1912 rev 6, Mem @ 0xdd000000/16777216, 0xb0000000/268435456, I/O @ 0x0000f000/64
+[1126715.731] (--) PCI: (0:1:0:0) 10de:17c2:10de:1132 rev 161, Mem @ 0xde000000/16777216, 0xc0000000/268435456, 0xd0000000/33554432, I/O @ 0x0000e000/128, BIOS @ 0x????????/524288
+[1126715.731] (WW) "glamoregl" will not be loaded unless you've specified it to be loaded elsewhere.
+[1126715.731] (II) "glx" will be loaded by default.
+[1126715.731] (II) LoadModule: "glx"
+[1126715.731] (II) Loading /usr/lib/x86_64-linux-gnu/xorg/extra-modules/libglx.so
+[1126715.734] (II) Module glx: vendor="NVIDIA Corporation"
+[1126715.734] 	compiled for 4.0.2, module version = 1.0.0
+[1126715.734] 	Module class: X.Org Server Extension
+[1126715.734] (II) NVIDIA GLX Module  375.82  Wed Jul 19 20:30:13 PDT 2017
+[1126715.734] (II) LoadModule: "fbdev"
+[1126715.734] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[1126715.734] (II) Module fbdev: vendor="X.Org Foundation"
+[1126715.734] 	compiled for 1.18.1, module version = 0.4.4
+[1126715.734] 	Module class: X.Org Video Driver
+[1126715.734] 	ABI class: X.Org Video Driver, version 20.0
+[1126715.734] (II) FBDEV: driver for framebuffer: fbdev
+[1126715.735] (II) Loading sub module "fbdevhw"
+[1126715.735] (II) LoadModule: "fbdevhw"
+[1126715.736] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[1126715.736] (II) Module fbdevhw: vendor="X.Org Foundation"
+[1126715.736] 	compiled for 1.18.4, module version = 0.0.2
+[1126715.736] 	ABI class: X.Org Video Driver, version 20.0
+[1126715.736] (**) FBDEV(0): claimed PCI slot 0@0:2:0
+[1126715.736] (II) FBDEV(0): using default device
+[1126715.736] (II) FBDEV(0): Creating default Display subsection in Screen section
+	"Default Screen" for depth/fbbpp 24/32
+[1126715.736] (==) FBDEV(0): Depth 24, (==) framebuffer bpp 32
+[1126715.736] (==) FBDEV(0): RGB weight 888
+[1126715.736] (==) FBDEV(0): Default visual is TrueColor
+[1126715.736] (==) FBDEV(0): Using gamma correction (1.0, 1.0, 1.0)
+[1126715.736] (II) FBDEV(0): hardware: inteldrmfb (video memory: 5120kB)
+[1126715.736] (II) FBDEV(0): checking modes against framebuffer device...
+[1126715.736] (II) FBDEV(0): checking modes against monitor...
+[1126715.736] (--) FBDEV(0): Virtual size is 1280x1024 (pitch 1280)
+[1126715.736] (**) FBDEV(0):  Built-in mode "current"
+[1126715.736] (==) FBDEV(0): DPI set to (96, 96)
+[1126715.736] (II) Loading sub module "fb"
+[1126715.736] (II) LoadModule: "fb"
+[1126715.736] (II) Loading /usr/lib/xorg/modules/libfb.so
+[1126715.736] (II) Module fb: vendor="X.Org Foundation"
+[1126715.736] 	compiled for 1.18.4, module version = 1.0.0
+[1126715.736] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[1126715.736] (**) FBDEV(0): using shadow framebuffer
+[1126715.736] (II) Loading sub module "shadow"
+[1126715.736] (II) LoadModule: "shadow"
+[1126715.736] (II) Loading /usr/lib/xorg/modules/libshadow.so
+[1126715.736] (II) Module shadow: vendor="X.Org Foundation"
+[1126715.736] 	compiled for 1.18.4, module version = 1.1.0
+[1126715.736] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[1126715.736] (==) Depth 24 pixmap format is 32 bpp
+[1126715.781] (==) FBDEV(0): Backing store enabled
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.781] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (EE) FBDEV(0): FBIOPUTCMAP: Invalid argument
+[1126715.782] (==) FBDEV(0): DPMS enabled
+[1126715.782] (==) RandR enabled
+[1126715.786] (II) SELinux: Disabled on system
+[1126715.786] (EE) Failed to initialize GLX extension (Compatible NVIDIA X driver not found)
+[1126715.812] (II) config/udev: Adding input device Power Button (/dev/input/event2)
+[1126715.812] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[1126715.812] (II) LoadModule: "evdev"
+[1126715.812] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[1126715.812] (II) Module evdev: vendor="X.Org Foundation"
+[1126715.812] 	compiled for 1.18.1, module version = 2.10.1
+[1126715.812] 	Module class: X.Org XInput Driver
+[1126715.812] 	ABI class: X.Org XInput driver, version 22.1
+[1126715.812] (II) Using input driver 'evdev' for 'Power Button'
+[1126715.812] (**) Power Button: always reports core events
+[1126715.812] (**) evdev: Power Button: Device: "/dev/input/event2"
+[1126715.812] (--) evdev: Power Button: Vendor 0 Product 0x1
+[1126715.812] (--) evdev: Power Button: Found keys
+[1126715.812] (II) evdev: Power Button: Configuring as keyboard
+[1126715.812] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input2/event2"
+[1126715.812] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[1126715.812] (**) Option "xkb_rules" "evdev"
+[1126715.812] (**) Option "xkb_model" "pc105"
+[1126715.812] (**) Option "xkb_layout" "de"
+[1126715.823] (II) config/udev: Adding input device Video Bus (/dev/input/event3)
+[1126715.823] (**) Video Bus: Applying InputClass "evdev keyboard catchall"
+[1126715.823] (II) Using input driver 'evdev' for 'Video Bus'
+[1126715.823] (**) Video Bus: always reports core events
+[1126715.823] (**) evdev: Video Bus: Device: "/dev/input/event3"
+[1126715.823] (--) evdev: Video Bus: Vendor 0 Product 0x6
+[1126715.823] (--) evdev: Video Bus: Found keys
+[1126715.823] (II) evdev: Video Bus: Configuring as keyboard
+[1126715.823] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input6/event3"
+[1126715.823] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[1126715.823] (**) Option "xkb_rules" "evdev"
+[1126715.823] (**) Option "xkb_model" "pc105"
+[1126715.823] (**) Option "xkb_layout" "de"
+[1126715.823] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[1126715.823] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[1126715.823] (II) Using input driver 'evdev' for 'Power Button'
+[1126715.823] (**) Power Button: always reports core events
+[1126715.823] (**) evdev: Power Button: Device: "/dev/input/event1"
+[1126715.823] (--) evdev: Power Button: Vendor 0 Product 0x1
+[1126715.823] (--) evdev: Power Button: Found keys
+[1126715.823] (II) evdev: Power Button: Configuring as keyboard
+[1126715.823] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1/event1"
+[1126715.823] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[1126715.823] (**) Option "xkb_rules" "evdev"
+[1126715.823] (**) Option "xkb_model" "pc105"
+[1126715.823] (**) Option "xkb_layout" "de"
+[1126715.823] (II) config/udev: Adding input device Sleep Button (/dev/input/event0)
+[1126715.823] (**) Sleep Button: Applying InputClass "evdev keyboard catchall"
+[1126715.823] (II) Using input driver 'evdev' for 'Sleep Button'
+[1126715.823] (**) Sleep Button: always reports core events
+[1126715.823] (**) evdev: Sleep Button: Device: "/dev/input/event0"
+[1126715.823] (--) evdev: Sleep Button: Vendor 0 Product 0x3
+[1126715.823] (--) evdev: Sleep Button: Found keys
+[1126715.823] (II) evdev: Sleep Button: Configuring as keyboard
+[1126715.823] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input0/event0"
+[1126715.823] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 9)
+[1126715.823] (**) Option "xkb_rules" "evdev"
+[1126715.823] (**) Option "xkb_model" "pc105"
+[1126715.823] (**) Option "xkb_layout" "de"
+[1126715.824] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event9)
+[1126715.824] (II) No input driver specified, ignoring this device.
+[1126715.824] (II) This device may have been added with another device file.
+[1126715.824] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event10)
+[1126715.824] (II) No input driver specified, ignoring this device.
+[1126715.824] (II) This device may have been added with another device file.
+[1126715.824] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event12)
+[1126715.824] (II) No input driver specified, ignoring this device.
+[1126715.824] (II) This device may have been added with another device file.
+[1126715.824] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event13)
+[1126715.824] (II) No input driver specified, ignoring this device.
+[1126715.824] (II) This device may have been added with another device file.
+[1126715.825] (II) config/udev: Adding input device Dell Dell USB Keyboard (/dev/input/event5)
+[1126715.825] (**) Dell Dell USB Keyboard: Applying InputClass "evdev keyboard catchall"
+[1126715.825] (II) Using input driver 'evdev' for 'Dell Dell USB Keyboard'
+[1126715.825] (**) Dell Dell USB Keyboard: always reports core events
+[1126715.825] (**) evdev: Dell Dell USB Keyboard: Device: "/dev/input/event5"
+[1126715.825] (--) evdev: Dell Dell USB Keyboard: Vendor 0x413c Product 0x2010
+[1126715.825] (--) evdev: Dell Dell USB Keyboard: Found keys
+[1126715.825] (II) evdev: Dell Dell USB Keyboard: Configuring as keyboard
+[1126715.825] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6.1/1-6.1:1.0/0003:413C:2010.0002/input/input8/event5"
+[1126715.825] (II) XINPUT: Adding extended input device "Dell Dell USB Keyboard" (type: KEYBOARD, id 10)
+[1126715.825] (**) Option "xkb_rules" "evdev"
+[1126715.825] (**) Option "xkb_model" "pc105"
+[1126715.825] (**) Option "xkb_layout" "de"
+[1126715.825] (II) config/udev: Adding input device Dell Dell USB Keyboard (/dev/input/event6)
+[1126715.825] (**) Dell Dell USB Keyboard: Applying InputClass "evdev keyboard catchall"
+[1126715.825] (II) Using input driver 'evdev' for 'Dell Dell USB Keyboard'
+[1126715.825] (**) Dell Dell USB Keyboard: always reports core events
+[1126715.825] (**) evdev: Dell Dell USB Keyboard: Device: "/dev/input/event6"
+[1126715.825] (--) evdev: Dell Dell USB Keyboard: Vendor 0x413c Product 0x2010
+[1126715.825] (--) evdev: Dell Dell USB Keyboard: Found absolute axes
+[1126715.825] (II) evdev: Dell Dell USB Keyboard: Forcing absolute x/y axes to exist.
+[1126715.825] (--) evdev: Dell Dell USB Keyboard: Found keys
+[1126715.825] (II) evdev: Dell Dell USB Keyboard: Forcing relative x/y axes to exist.
+[1126715.825] (II) evdev: Dell Dell USB Keyboard: Configuring as mouse
+[1126715.825] (II) evdev: Dell Dell USB Keyboard: Configuring as keyboard
+[1126715.825] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6.1/1-6.1:1.1/0003:413C:2010.0003/input/input9/event6"
+[1126715.825] (II) XINPUT: Adding extended input device "Dell Dell USB Keyboard" (type: KEYBOARD, id 11)
+[1126715.825] (**) Option "xkb_rules" "evdev"
+[1126715.825] (**) Option "xkb_model" "pc105"
+[1126715.825] (**) Option "xkb_layout" "de"
+[1126715.825] (II) evdev: Dell Dell USB Keyboard: initialized for absolute axes.
+[1126715.825] (**) Dell Dell USB Keyboard: (accel) keeping acceleration scheme 1
+[1126715.825] (**) Dell Dell USB Keyboard: (accel) acceleration profile 0
+[1126715.825] (**) Dell Dell USB Keyboard: (accel) acceleration factor: 2.000
+[1126715.825] (**) Dell Dell USB Keyboard: (accel) acceleration threshold: 4
+[1126715.825] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/event4)
+[1126715.825] (**) PixArt USB Optical Mouse: Applying InputClass "evdev pointer catchall"
+[1126715.825] (II) Using input driver 'evdev' for 'PixArt USB Optical Mouse'
+[1126715.825] (**) PixArt USB Optical Mouse: always reports core events
+[1126715.825] (**) evdev: PixArt USB Optical Mouse: Device: "/dev/input/event4"
+[1126715.880] (--) evdev: PixArt USB Optical Mouse: Vendor 0x461 Product 0x4e22
+[1126715.880] (--) evdev: PixArt USB Optical Mouse: Found 12 mouse buttons
+[1126715.880] (--) evdev: PixArt USB Optical Mouse: Found scroll wheel(s)
+[1126715.880] (--) evdev: PixArt USB Optical Mouse: Found relative axes
+[1126715.880] (--) evdev: PixArt USB Optical Mouse: Found x and y relative axes
+[1126715.880] (II) evdev: PixArt USB Optical Mouse: Configuring as mouse
+[1126715.880] (II) evdev: PixArt USB Optical Mouse: Adding scrollwheel support
+[1126715.880] (**) evdev: PixArt USB Optical Mouse: YAxisMapping: buttons 4 and 5
+[1126715.880] (**) evdev: PixArt USB Optical Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[1126715.880] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/0003:0461:4E22.0001/input/input7/event4"
+[1126715.880] (II) XINPUT: Adding extended input device "PixArt USB Optical Mouse" (type: MOUSE, id 12)
+[1126715.880] (II) evdev: PixArt USB Optical Mouse: initialized for relative axes.
+[1126715.880] (**) PixArt USB Optical Mouse: (accel) keeping acceleration scheme 1
+[1126715.880] (**) PixArt USB Optical Mouse: (accel) acceleration profile 0
+[1126715.880] (**) PixArt USB Optical Mouse: (accel) acceleration factor: 2.000
+[1126715.880] (**) PixArt USB Optical Mouse: (accel) acceleration threshold: 4
+[1126715.881] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/mouse0)
+[1126715.881] (II) No input driver specified, ignoring this device.
+[1126715.881] (II) This device may have been added with another device file.
+[1126715.881] (II) config/udev: Adding input device HDA Intel PCH Front Mic (/dev/input/event7)
+[1126715.881] (II) No input driver specified, ignoring this device.
+[1126715.881] (II) This device may have been added with another device file.
+[1126715.881] (II) config/udev: Adding input device HDA Intel PCH Rear Mic (/dev/input/event8)
+[1126715.881] (II) No input driver specified, ignoring this device.
+[1126715.881] (II) This device may have been added with another device file.
+[1126715.882] (II) config/udev: Adding input device HDA Intel PCH Line (/dev/input/event11)
+[1126715.882] (II) No input driver specified, ignoring this device.
+[1126715.882] (II) This device may have been added with another device file.
+[1126715.882] (II) config/udev: Adding input device HDA Intel PCH Line Out (/dev/input/event14)
+[1126715.882] (II) No input driver specified, ignoring this device.
+[1126715.882] (II) This device may have been added with another device file.
+[1126715.882] (II) config/udev: Adding input device HDA Intel PCH Front Headphone (/dev/input/event15)
+[1126715.882] (II) No input driver specified, ignoring this device.
+[1126715.882] (II) This device may have been added with another device file.
+[1126715.882] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event16)
+[1126715.882] (II) No input driver specified, ignoring this device.
+[1126715.882] (II) This device may have been added with another device file.
+[1126715.883] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=7 (/dev/input/event17)
+[1126715.883] (II) No input driver specified, ignoring this device.
+[1126715.883] (II) This device may have been added with another device file.
+[1126715.883] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=8 (/dev/input/event18)
+[1126715.883] (II) No input driver specified, ignoring this device.
+[1126715.883] (II) This device may have been added with another device file.
+[1126776.068] (II) config/udev: removing device PixArt USB Optical Mouse
+[1126776.068] (II) evdev: PixArt USB Optical Mouse: Close
+[1126776.068] (II) UnloadModule: "evdev"
+[1126777.817] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/mouse0)
+[1126777.817] (II) No input driver specified, ignoring this device.
+[1126777.817] (II) This device may have been added with another device file.
+[1126777.918] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/event4)
+[1126777.918] (**) PixArt USB Optical Mouse: Applying InputClass "evdev pointer catchall"
+[1126777.918] (II) Using input driver 'evdev' for 'PixArt USB Optical Mouse'
+[1126777.918] (**) PixArt USB Optical Mouse: always reports core events
+[1126777.918] (**) evdev: PixArt USB Optical Mouse: Device: "/dev/input/event4"
+[1126777.972] (--) evdev: PixArt USB Optical Mouse: Vendor 0x461 Product 0x4e22
+[1126777.972] (--) evdev: PixArt USB Optical Mouse: Found 12 mouse buttons
+[1126777.972] (--) evdev: PixArt USB Optical Mouse: Found scroll wheel(s)
+[1126777.972] (--) evdev: PixArt USB Optical Mouse: Found relative axes
+[1126777.972] (--) evdev: PixArt USB Optical Mouse: Found x and y relative axes
+[1126777.972] (II) evdev: PixArt USB Optical Mouse: Configuring as mouse
+[1126777.972] (II) evdev: PixArt USB Optical Mouse: Adding scrollwheel support
+[1126777.972] (**) evdev: PixArt USB Optical Mouse: YAxisMapping: buttons 4 and 5
+[1126777.972] (**) evdev: PixArt USB Optical Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[1126777.972] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/0003:0461:4E22.0004/input/input22/event4"
+[1126777.972] (II) XINPUT: Adding extended input device "PixArt USB Optical Mouse" (type: MOUSE, id 12)
+[1126777.972] (II) evdev: PixArt USB Optical Mouse: initialized for relative axes.
+[1126777.972] (**) PixArt USB Optical Mouse: (accel) keeping acceleration scheme 1
+[1126777.972] (**) PixArt USB Optical Mouse: (accel) acceleration profile 0
+[1126777.972] (**) PixArt USB Optical Mouse: (accel) acceleration factor: 2.000
+[1126777.972] (**) PixArt USB Optical Mouse: (accel) acceleration threshold: 4
+1509697989 c11aa4d4d121107d737be8dc7e3426b4  /etc/X11/xorg.conf

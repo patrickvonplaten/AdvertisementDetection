@@ -1,0 +1,3 @@
+mex pdftex mexconf.tex -translate-file=cp227.tcx *mex.ini
+pdfmex pdftex mexconf.tex -translate-file=cp227.tcx *pdfmex.ini
+utf8mex pdftex mexconf.tex -enc *utf8mex.ini

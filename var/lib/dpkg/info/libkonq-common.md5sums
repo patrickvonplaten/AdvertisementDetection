@@ -1,0 +1,12 @@
+2220e319b16257d862e2552a276c1fa3  usr/lib/kde4/kded_favicons.so
+f34130cb28742179271c73f7b3f0859f  usr/lib/kde4/konq_sound.so
+a9535099b67cbad22b5beec19b3ee8a9  usr/share/doc/libkonq-common/changelog.Debian.gz
+ec8a75df6a825113c1dc6d91a8ff3c31  usr/share/doc/libkonq-common/copyright
+67ba77cf2d374c1da1b78414aa5f1ddf  usr/share/kde4/apps/kbookmark/directory_bookmarkbar.desktop
+5a4b0f84a4541127008312642f30b6d0  usr/share/kde4/apps/konqueror/pics/arrow_bottomleft.png
+3ded03a66b95b93eb2a4d41b149334a1  usr/share/kde4/apps/konqueror/pics/arrow_bottomright.png
+3dd641648d66dacdaf05842dc3226cb9  usr/share/kde4/apps/konqueror/pics/arrow_topleft.png
+064c896321a7e20176f2b22c5d54cf23  usr/share/kde4/apps/konqueror/pics/arrow_topright.png
+9fff7a8a93fc750f9e1bf25085fee6aa  usr/share/kde4/services/kded/favicons.desktop
+ec8e3a8d4904d98eaa2fcc97cafee95d  usr/share/kde4/servicetypes/konqdndpopupmenuplugin.desktop
+affec931f6c7a1e347921557763413e9  usr/share/kde4/servicetypes/konqpopupmenuplugin.desktop

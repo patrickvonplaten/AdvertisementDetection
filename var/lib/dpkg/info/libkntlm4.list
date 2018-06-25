@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libkntlm4
+/usr/share/doc/libkntlm4/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libkntlm4
+/usr/lib
+/usr/lib/libkntlm.so.4.14.16
+/usr/share/doc/libkntlm4/changelog.Debian.gz
+/usr/share/doc/libkntlm4/NEWS.Debian.gz
+/usr/lib/libkntlm.so.4

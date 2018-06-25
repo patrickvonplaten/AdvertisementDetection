@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+
+update-alternatives --install \
+	/usr/lib/x86_64-linux-gnu/libtxc_dxtn.so libtxc-dxtn-x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libtxc_dxtn_s2tc.so.0 10
+
+# Automatically added by dh_makeshlibs
+if [ "$1" = "configure" ]; then
+	ldconfig
+fi
+# End automatically added section
+
+

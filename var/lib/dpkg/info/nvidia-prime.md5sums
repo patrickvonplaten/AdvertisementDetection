@@ -1,0 +1,11 @@
+886b86bd228e2e01052b4da028b5b307  lib/systemd/system/nvidia-prime.service
+19c8c737761f541ab9faeeeb5f655295  sbin/get-quirk-options
+29fcdef6fed0fb8bf2c45c2ac5b76b68  sbin/prime-offload
+db83388d749cb2a6c9f8d2b92bfa1bb1  sbin/prime-switch
+59719ba7b8884f6da074f542647fe789  usr/bin/prime-select
+59c3f50249db1bf25494329b78884b03  usr/bin/prime-supported
+6fd34bf35fdea7997378d7a7e9a6eaaf  usr/lib/ubiquity/dm-scripts/oem/00-prime-offload
+de11cbbf9da1f73c976a2cececb7356b  usr/share/doc/nvidia-prime/changelog.gz
+685e07198c7964e6995ab63278c3774b  usr/share/doc/nvidia-prime/copyright
+f9164252aab4142c0592c4eb8686b349  usr/share/lightdm/lightdm.conf.d/90-nvidia.conf
+2c4f83303dd746f487a8d24dbb4a8d70  usr/share/nvidia-prime/prime-quirks

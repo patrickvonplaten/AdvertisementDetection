@@ -1,0 +1,10 @@
+libwinpr-library.so.0.1 libwinpr-library0.1 #MINVER#
+ AddDllDirectory@Base 1.1.0~beta1+git20130629
+ FreeLibrary@Base 1.1.0~beta1+git20130629
+ GetProcAddress@Base 1.1.0~beta1+git20130629
+ LoadLibraryA@Base 1.1.0~beta1+git20130629
+ LoadLibraryExA@Base 1.1.0~beta1+git20130629
+ LoadLibraryExW@Base 1.1.0~beta1+git20130629
+ LoadLibraryW@Base 1.1.0~beta1+git20130629
+ RemoveDllDirectory@Base 1.1.0~beta1+git20130629
+ SetDefaultDllDirectories@Base 1.1.0~beta1+git20130629

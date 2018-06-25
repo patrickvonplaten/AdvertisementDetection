@@ -1,0 +1,14 @@
+libgtkspell3-3.so.0 libgtkspell3-3-0 #MINVER#
+ gtk_spell_checker_attach@Base 0
+ gtk_spell_checker_decode_language_code@Base 3.0.3
+ gtk_spell_checker_detach@Base 0
+ gtk_spell_checker_get_from_text_view@Base 0
+ gtk_spell_checker_get_language@Base 0
+ gtk_spell_checker_get_language_list@Base 3.0.3
+ gtk_spell_checker_get_suggestions_menu@Base 0
+ gtk_spell_checker_get_type@Base 0
+ gtk_spell_checker_new@Base 0
+ gtk_spell_checker_recheck_all@Base 0
+ gtk_spell_checker_set_language@Base 0
+ gtk_spell_error_get_type@Base 0
+ gtk_spell_error_quark@Base 0

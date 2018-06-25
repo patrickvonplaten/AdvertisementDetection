@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages/gi
+/usr/lib/python2.7/dist-packages/gi/_gi_cairo.x86_64-linux-gnu.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/python-gi-cairo
+/usr/share/doc/python-gi-cairo/copyright
+/usr/share/doc/python-gi-cairo/changelog.Debian.gz

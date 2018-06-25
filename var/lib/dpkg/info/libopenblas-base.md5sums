@@ -1,0 +1,7 @@
+9bf8b50a5cd95179c3cdb7dc316ef05a  usr/lib/libopenblasp-r0.2.18.so
+f69054ea93a10ebceb30bdffd47954e1  usr/lib/openblas-base/libblas.so.3
+65966549559e2535319e28bdd479fb36  usr/lib/openblas-base/liblapack.so.3
+9d909c0f355a1c6976980ec9195cd628  usr/share/doc/libopenblas-base/README.Debian
+266af71c85a56e3f6bc81796029c6e56  usr/share/doc/libopenblas-base/TODO.Debian
+8047aee4c188777c5c9df825d6b0b87a  usr/share/doc/libopenblas-base/changelog.Debian.gz
+b3be675434f2b5551ec149f4d1d3103a  usr/share/doc/libopenblas-base/copyright

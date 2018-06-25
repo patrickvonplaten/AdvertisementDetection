@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libtbb2
+/usr/share/doc/libtbb2/copyright
+/usr/share/doc/libtbb2/changelog.Debian.gz
+/usr/share/doc/libtbb2/Release_Notes.txt.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libtbbmalloc.so.2
+/usr/lib/x86_64-linux-gnu/libtbbmalloc_proxy.so.2
+/usr/lib/x86_64-linux-gnu/libtbb.so.2

@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libsmokeqttest.so.3.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libsmokeqttest4-3
+/usr/share/doc/libsmokeqttest4-3/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libsmokeqttest4-3
+/usr/lib/libsmokeqttest.so.3
+/usr/share/doc/libsmokeqttest4-3/changelog.Debian.gz

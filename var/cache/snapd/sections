@@ -1,0 +1,11 @@
+developers
+featured
+finance
+games
+graphics
+music
+productivity
+server
+social-networking
+utilities
+video

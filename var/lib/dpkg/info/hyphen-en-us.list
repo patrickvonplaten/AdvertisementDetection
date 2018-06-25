@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/hyphen
+/usr/share/hyphen/hyph_en_US.dic
+/usr/share/doc
+/usr/share/doc/hyphen-en-us
+/usr/share/doc/hyphen-en-us/copyright
+/usr/share/doc/hyphen-en-us/changelog.Debian.gz
+/usr/share/myspell
+/usr/share/myspell/dicts
+/usr/share/myspell/dicts/hyph_en_US.dic

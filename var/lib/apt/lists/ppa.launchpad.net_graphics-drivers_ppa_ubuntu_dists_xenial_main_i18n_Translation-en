@@ -1,0 +1,810 @@
+Package: nvidia-settings
+Description-md5: 9bb7c34dc84550e6fff415c0eb0eda37
+Description-en: Tool for configuring the NVIDIA graphics driver
+ The nvidia-settings utility is a tool for configuring the NVIDIA
+ Linux graphics driver.  It operates by communicating with the NVIDIA
+ X driver, querying and updating state as appropriate.  This
+ communication is done with the NV-CONTROL X extension.
+ .
+ Values such as brightness and gamma, XVideo attributes, temperature,
+ and OpenGL settings can be queried and configured via nvidia-settings.
+
+Package: libxnvctrl-dev
+Description-md5: 71c9cd04112d6cef6a0d35dd8ec66dd8
+Description-en: NV-CONTROL X extension (development files)
+ The NV-CONTROL X extension provides a mechanism for X clients to
+ query and set configuration parameters of the NVIDIA X driver.
+ State set by the NV-CONTROL X extension is assumed to be persistent
+ only for the current server generation.
+
+Package: libvdpau1
+Description-md5: 4db054f80a1c742472d24fb11ef7f221
+Description-en: Video Decode and Presentation API for Unix (libraries)
+ VDPAU (Video Decode and Presentation API for Unix) is an open source
+ library (libvdpau) and API designed by NVIDIA originally for its GeForce
+ 8 series and later GPU hardware, targeted at the X Window System on Unix
+ operating-systems (including Linux, FreeBSD, and Solaris). This VDPAU API
+ allows video programs to offload portions of the video decoding process
+ and video post-processing to the GPU video-hardware.
+ .
+ This package contains the VDPAU wrapper and trace libraries.
+
+Package: libvdpau-dev
+Description-md5: f8e43b3dc3e8300c9319b4c1cbee57f6
+Description-en: Video Decode and Presentation API for Unix (development files)
+ VDPAU (Video Decode and Presentation API for Unix) is an open source
+ library (libvdpau) and API designed by NVIDIA originally for its GeForce
+ 8 series and later GPU hardware, targeted at the X Window System on Unix
+ operating-systems (including Linux, FreeBSD, and Solaris). This VDPAU API
+ allows video programs to offload portions of the video decoding process
+ and video post-processing to the GPU video-hardware.
+ .
+ This package contains the files necessary for development with VDPAU.
+
+Package: libvdpau-doc
+Description-md5: 34a9d3089124a5203de333d7a3f6aa9c
+Description-en: Video Decode and Presentation API for Unix (documentation)
+ VDPAU (Video Decode and Presentation API for Unix) is an open source
+ library (libvdpau) and API designed by NVIDIA originally for its GeForce
+ 8 series and later GPU hardware, targeted at the X Window System on Unix
+ operating-systems (including Linux, FreeBSD, and Solaris). This VDPAU API
+ allows video programs to offload portions of the video decoding process
+ and video post-processing to the GPU video-hardware.
+ .
+ This package contains the VDPAU documentation.
+
+Package: nvidia-current
+Description-md5: cfae43419e26e7ddd43b755f8d4bc71a
+Description-en: Transitional package for nvidia-current
+ This is a transitional package for nvidia-current, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-current-dev
+Description-md5: d7f80b7df0e8d90395b8393509321e23
+Description-en: Transitional package for nvidia-current-dev
+ This is a transitional package for nvidia-current-dev, and can be
+ safely removed after the installation is complete.
+
+Package: bumblebee
+Description-md5: 603c350e38f498eb44849c8eb81822e8
+Description-en: NVIDIA Optimus support for Linux
+ Bumblebee is an effort to make NVIDIA Optimus enabled laptops work in
+ GNU/Linux systems. These laptops are built in such a way that the NVIDIA
+ graphics card can be used on demand so that battery life is improved and
+ temperature is kept low.
+ .
+ It disables the discrete graphics card if no client is detected, and starts
+ an X server making use of NVIDIA card if requested then let software GL
+ implementations (such as VirtualGL) copy frames to the visible display that
+ runs on the integrated graphics. The ability to use discrete graphics
+ depends on the driver: open source nouveau and proprietary nvidia.
+
+Package: bumblebee-nvidia
+Description-md5: 1590560d4120c0dce5a765cdd8ec59b7
+Description-en: NVIDIA Optimus support using the proprietary NVIDIA driver
+ This metapackage ensures that the proprietary NVIDIA driver is installed in a
+ way such that 3D acceleration does not break. It does so by configuring the
+ OpenGL library path to use the Mesa graphics library.
+
+Package: nvidia-304
+Description-md5: 548ff4ad3a02b582c3321f5b646eea73
+Description-en: NVIDIA legacy binary driver - version 304.137
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ GPUs such as GeForce series 6 or newer are supported.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-amd64-304.137-driver.html
+
+Package: nvidia-304-dev
+Description-md5: ef3b76d980ecacaf3116114549ba70ca
+Description-en: NVIDIA binary Xorg driver development files
+ This package contains the NVIDIA binary Xorg driver
+ development files.
+ .
+ For more information on this source package visit NVIDIA's homepage
+ at http://www.nvidia.com/ .
+
+Package: nvidia-304-updates
+Description-md5: 80dff7be96e361eaaf789a119a8cf4df
+Description-en: Transitional package for nvidia-304
+ This is a transitional package for nvidia-304, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-304-updates-dev
+Description-md5: 8c25ece4f30408afdfd9848d8d5cba39
+Description-en: Transitional package for nvidia-304-dev
+ This is a transitional package for nvidia-304-dev, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-331
+Description-md5: 3612f7cb365b0b5804f0fb129ccb1c2c
+Description-en: Transitional package for nvidia-331
+ This is a transitional package for nvidia-331, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-331-dev
+Description-md5: 6c98e0772fd230780190db0e8cbb108c
+Description-en: Transitional package for nvidia-340-dev
+ This is a transitional package for nvidia-340-dev, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-331-updates
+Description-md5: 57112f542d553ab72039643ae9695ee9
+Description-en: Transitional package for nvidia-340
+ This is a transitional package for nvidia-340, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-331-updates-dev
+Description-md5: 6c98e0772fd230780190db0e8cbb108c
+Description-en: Transitional package for nvidia-340-dev
+ This is a transitional package for nvidia-340-dev, and can be
+ safely removed after the installation is complete.
+
+Package: libcuda1-331-updates
+Description-md5: a10363c018e08f69fb7494b3d411a6f6
+Description-en: Transitional package for libcuda1-340
+ This is a transitional package for libcuda1-340, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-libopencl1-331-updates
+Description-md5: c0bc1edc3452a373d95e34ed168d26d3
+Description-en: Transitional package for nvidia-libopencl1-340
+ This is a transitional package for nvidia-libopencl1-340, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-opencl-icd-331-updates
+Description-md5: 5698808952d1d1454e2b98d80ab83d79
+Description-en: Transitional package for nvidia-opencl-icd-340
+ This is a transitional package for nvidia-opencl-icd-340, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-331-updates-uvm
+Description-md5: 57112f542d553ab72039643ae9695ee9
+Description-en: Transitional package for nvidia-340
+ This is a transitional package for nvidia-340, and can be
+ safely removed after the installation is complete.
+
+Package: libcuda1-331
+Description-md5: a10363c018e08f69fb7494b3d411a6f6
+Description-en: Transitional package for libcuda1-340
+ This is a transitional package for libcuda1-340, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-libopencl1-331
+Description-md5: c0bc1edc3452a373d95e34ed168d26d3
+Description-en: Transitional package for nvidia-libopencl1-340
+ This is a transitional package for nvidia-libopencl1-340, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-opencl-icd-331
+Description-md5: 5698808952d1d1454e2b98d80ab83d79
+Description-en: Transitional package for nvidia-opencl-icd-340
+ This is a transitional package for nvidia-opencl-icd-340, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-331-uvm
+Description-md5: 57112f542d553ab72039643ae9695ee9
+Description-en: Transitional package for nvidia-340
+ This is a transitional package for nvidia-340, and can be
+ safely removed after the installation is complete.
+
+Package: libcuda1-304
+Description-md5: 6cd8a29ce828440044bf16ef76348773
+Description-en: NVIDIA CUDA runtime library
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the driver specific runtime library.
+ .
+ Supported NVIDIA devices include GPUs starting from GeForce 8 and Quadro FX
+ series, as well as the Tesla computing processors.
+
+Package: nvidia-libopencl1-304
+Description-md5: b847113bb2144ba87848ff3f7ae69ec2
+Description-en: NVIDIA OpenCL Driver and ICD Loader library
+ OpenCL (Open Computing Language) is a multivendor open standard for
+ general-purpose parallel programming of heterogeneous systems that include
+ CPUs, GPUs and other processors.
+ .
+ This package contains NVIDIA's OpenCL implementation and the ICD Loader
+ library. This library supports only OpenCL 1.1.
+
+Package: nvidia-opencl-icd-304
+Description-md5: a9c59351040d333e50f4a411fc913d8e
+Description-en: NVIDIA OpenCL ICD
+ OpenCL (Open Computing Language) is a multivendor open standard for
+ general-purpose parallel programming of heterogeneous systems that include
+ CPUs, GPUs and other processors.
+ .
+ This package provides the NVIDIA installable client driver (ICD) for OpenCL
+ which supports NVIDIA GPUs.
+
+Package: libcuda1-304-updates
+Description-md5: 24b6cbcfc890736fb75fc3f9bdab5784
+Description-en: Transitional package for libcuda1-304
+ This is a transitional package for libcuda1-304, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-libopencl1-304-updates
+Description-md5: b75658e0bed2f0080631d2168d802d7f
+Description-en: Transitional package for nvidia-libopencl1-304
+ This is a transitional package for nvidia-libopencl1-304, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-opencl-icd-304-updates
+Description-md5: 3fca2349eb59914f9dbc872768541d01
+Description-en: Transitional package for nvidia-opencl-icd-304
+ This is a transitional package for nvidia-opencl-icd-304, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-340
+Description-md5: 13c4c18c98fc7882b256b3eef46e18e4
+Description-en: NVIDIA binary driver - version 340.107
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-amd64-340.107-driver.html
+
+Package: nvidia-340-dev
+Description-md5: ef3b76d980ecacaf3116114549ba70ca
+Description-en: NVIDIA binary Xorg driver development files
+ This package contains the NVIDIA binary Xorg driver
+ development files.
+ .
+ For more information on this source package visit NVIDIA's homepage
+ at http://www.nvidia.com/ .
+
+Package: libcuda1-340
+Description-md5: 6cd8a29ce828440044bf16ef76348773
+Description-en: NVIDIA CUDA runtime library
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the driver specific runtime library.
+ .
+ Supported NVIDIA devices include GPUs starting from GeForce 8 and Quadro FX
+ series, as well as the Tesla computing processors.
+
+Package: nvidia-libopencl1-340
+Description-md5: b847113bb2144ba87848ff3f7ae69ec2
+Description-en: NVIDIA OpenCL Driver and ICD Loader library
+ OpenCL (Open Computing Language) is a multivendor open standard for
+ general-purpose parallel programming of heterogeneous systems that include
+ CPUs, GPUs and other processors.
+ .
+ This package contains NVIDIA's OpenCL implementation and the ICD Loader
+ library. This library supports only OpenCL 1.1.
+
+Package: nvidia-opencl-icd-340
+Description-md5: a9c59351040d333e50f4a411fc913d8e
+Description-en: NVIDIA OpenCL ICD
+ OpenCL (Open Computing Language) is a multivendor open standard for
+ general-purpose parallel programming of heterogeneous systems that include
+ CPUs, GPUs and other processors.
+ .
+ This package provides the NVIDIA installable client driver (ICD) for OpenCL
+ which supports NVIDIA GPUs.
+
+Package: nvidia-340-uvm
+Description-md5: 6150dcc587e7591e1163978c48a23ab4
+Description-en: Transitional package for nvidia-340
+ This is a transitional package for nvidia-340.
+
+Package: libxnvctrl0
+Description-md5: 6d4f8aebac836277193a58e922a49603
+Description-en: NV-CONTROL X extension (runtime library)
+ The NV-CONTROL X extension provides a mechanism for X clients to
+ query and set configuration parameters of the NVIDIA X driver.
+ State set by the NV-CONTROL X extension is assumed to be persistent
+ only for the current server generation.
+ .
+ This package contains the shared library.
+
+Package: libvdpau1-dbg
+Description-md5: 14e01db124903f57b3eb6b63500589cc
+Description-en: Video Decode and Presentation API for Unix (debug symbols)
+ VDPAU (Video Decode and Presentation API for Unix) is an open source
+ library (libvdpau) and API designed by NVIDIA originally for its GeForce
+ 8 series and later GPU hardware, targeted at the X Window System on Unix
+ operating-systems (including Linux, FreeBSD, and Solaris). This VDPAU API
+ allows video programs to offload portions of the video decoding process
+ and video post-processing to the GPU video-hardware.
+ .
+ This package provides the debug symbols of the shared library.
+
+Package: nvidia-340-updates
+Description-md5: 57112f542d553ab72039643ae9695ee9
+Description-en: Transitional package for nvidia-340
+ This is a transitional package for nvidia-340, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-340-updates-dev
+Description-md5: 6c98e0772fd230780190db0e8cbb108c
+Description-en: Transitional package for nvidia-340-dev
+ This is a transitional package for nvidia-340-dev, and can be
+ safely removed after the installation is complete.
+
+Package: libcuda1-340-updates
+Description-md5: a10363c018e08f69fb7494b3d411a6f6
+Description-en: Transitional package for libcuda1-340
+ This is a transitional package for libcuda1-340, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-libopencl1-340-updates
+Description-md5: c0bc1edc3452a373d95e34ed168d26d3
+Description-en: Transitional package for nvidia-libopencl1-340
+ This is a transitional package for nvidia-libopencl1-340, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-opencl-icd-340-updates
+Description-md5: 5698808952d1d1454e2b98d80ab83d79
+Description-en: Transitional package for nvidia-opencl-icd-340
+ This is a transitional package for nvidia-opencl-icd-340, and can be
+ safely removed after the installation is complete.
+
+Package: libvdpau-dev-dbgsym
+Description-md5: be1f0b030b0d5c37486914108e53ad9d
+Description-en: debug symbols for package libvdpau-dev
+ VDPAU (Video Decode and Presentation API for Unix) is an open source
+ library (libvdpau) and API designed by NVIDIA originally for its GeForce
+ 8 series and later GPU hardware, targeted at the X Window System on Unix
+ operating-systems (including Linux, FreeBSD, and Solaris). This VDPAU API
+ allows video programs to offload portions of the video decoding process
+ and video post-processing to the GPU video-hardware.
+ .
+ This package contains the files necessary for development with VDPAU.
+
+Package: libvdpau1-dbgsym
+Description-md5: bf66ab417c13e04903ebdbd709d53cc4
+Description-en: debug symbols for package libvdpau1
+ VDPAU (Video Decode and Presentation API for Unix) is an open source
+ library (libvdpau) and API designed by NVIDIA originally for its GeForce
+ 8 series and later GPU hardware, targeted at the X Window System on Unix
+ operating-systems (including Linux, FreeBSD, and Solaris). This VDPAU API
+ allows video programs to offload portions of the video decoding process
+ and video post-processing to the GPU video-hardware.
+ .
+ This package contains the VDPAU wrapper and trace libraries.
+
+Package: bumblebee-dbgsym
+Description-md5: a2041a81f14cb0792a0258a36cd1dc16
+Description-en: debug symbols for package bumblebee
+ Bumblebee is an effort to make NVIDIA Optimus enabled laptops work in
+ GNU/Linux systems. These laptops are built in such a way that the NVIDIA
+ graphics card can be used on demand so that battery life is improved and
+ temperature is kept low.
+ .
+ It disables the discrete graphics card if no client is detected, and starts
+ an X server making use of NVIDIA card if requested then let software GL
+ implementations (such as VirtualGL) copy frames to the visible display that
+ runs on the integrated graphics. The ability to use discrete graphics
+ depends on the driver: open source nouveau and proprietary nvidia.
+
+Package: vdpau-driver-all
+Description-md5: 848ae3d77f772ea9bc53a8608bcf347d
+Description-en: Video Decode and Presentation API for Unix (driver metapackage)
+ VDPAU (Video Decode and Presentation API for Unix) is an open source
+ library (libvdpau) and API designed by NVIDIA originally for its GeForce
+ 8 series and later GPU hardware, targeted at the X Window System on Unix
+ operating-systems (including Linux, FreeBSD, and Solaris). This VDPAU API
+ allows video programs to offload portions of the video decoding process
+ and video post-processing to the GPU video-hardware.
+ .
+ This package depends on the full suite of drivers for the VDPAU API.
+ It does not provide any drivers itself, and may be removed if you wish to
+ only have certain drivers installed.
+
+Package: vdpau-driver-all-dbgsym
+Description-md5: 01403fdbacb4682ebc241f531a533df1
+Description-en: debug symbols for package vdpau-driver-all
+ VDPAU (Video Decode and Presentation API for Unix) is an open source
+ library (libvdpau) and API designed by NVIDIA originally for its GeForce
+ 8 series and later GPU hardware, targeted at the X Window System on Unix
+ operating-systems (including Linux, FreeBSD, and Solaris). This VDPAU API
+ allows video programs to offload portions of the video decoding process
+ and video post-processing to the GPU video-hardware.
+ .
+ This package depends on the full suite of drivers for the VDPAU API.
+ It does not provide any drivers itself, and may be removed if you wish to
+ only have certain drivers installed.
+
+Package: libvulkan1
+Description-md5: f5e062d54743b536f33527b69a36753e
+Description-en: Vulkan loader library
+ The Loader implements the main VK library. It handles layer management and
+ driver management. The loader fully supports multi-gpu operation. As part of
+ this, it dispatches API calls to the correct driver, and to the correct
+ layers, based on the GPU object selected by the application.
+ .
+ This package includes the loader library.
+
+Package: vulkan-utils
+Description-md5: c14a2931eed9160e792718fedb00082a
+Description-en: Miscellaneous Vulkan utilities
+ This package provides utilities for Vulkan, including vulkaninfo.
+
+Package: libvulkan-dev
+Description-md5: 037cce5ca6a3bf8610b524ff26253723
+Description-en: Vulkan loader library -- development files
+ The Loader implements the main VK library. It handles layer management and
+ driver management. The loader fully supports multi-gpu operation. As part of
+ this, it dispatches API calls to the correct driver, and to the correct
+ layers, based on the GPU object selected by the application.
+ .
+ This package includes files needed for development.
+
+Package: libvulkan1-dbgsym
+Description-md5: d3c27d539096978caa372d6a241770e2
+Description-en: debug symbols for package libvulkan1
+ The Loader implements the main VK library. It handles layer management and
+ driver management. The loader fully supports multi-gpu operation. As part of
+ this, it dispatches API calls to the correct driver, and to the correct
+ layers, based on the GPU object selected by the application.
+ .
+ This package includes the loader library.
+
+Package: vulkan-utils-dbgsym
+Description-md5: befa51f42d0126c0b1905049a63bd3eb
+Description-en: debug symbols for package vulkan-utils
+ This package provides utilities for Vulkan, including vulkaninfo.
+
+Package: libcuda1-375
+Description-md5: 75f404c52df7fbe2fb5d9f76b20e3fa0
+Description-en: Transitional package for libcuda1-384
+ This is a transitional package for libcuda1-384, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-375-dev
+Description-md5: 5dd544e045bb465dfa9a21327385c98b
+Description-en: Transitional package for nvidia-384-dev
+ This is a transitional package for nvidia-384-dev, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-375
+Description-md5: 798775fb70a23246b40ee86e6e462742
+Description-en: Transitional package for nvidia-384
+ This is a transitional package for nvidia-384, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-libopencl1-375
+Description-md5: 02273268060be5f90f10375e3637837e
+Description-en: Transitional package for nvidia-libopencl1-384
+ This is a transitional package for nvidia-libopencl1-384, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-opencl-icd-375
+Description-md5: 81b7231b7aba328a877a327ca60dc0b8
+Description-en: Transitional package for nvidia-opencl-icd-384
+ This is a transitional package for nvidia-opencl-icd-384, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-settings-dbgsym
+Description-md5: 84916d3ac25edc132227ed3d0296b698
+Description-en: debug symbols for nvidia-settings
+
+Package: libxnvctrl0-dbgsym
+Description-md5: a1b3e998f6441396d243c97cf606fab0
+Description-en: debug symbols for libxnvctrl0
+
+Package: libcuda1-384
+Description-md5: 6cd8a29ce828440044bf16ef76348773
+Description-en: NVIDIA CUDA runtime library
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the driver specific runtime library.
+ .
+ Supported NVIDIA devices include GPUs starting from GeForce 8 and Quadro FX
+ series, as well as the Tesla computing processors.
+
+Package: nvidia-384-dev
+Description-md5: ef3b76d980ecacaf3116114549ba70ca
+Description-en: NVIDIA binary Xorg driver development files
+ This package contains the NVIDIA binary Xorg driver
+ development files.
+ .
+ For more information on this source package visit NVIDIA's homepage
+ at http://www.nvidia.com/ .
+
+Package: nvidia-384
+Description-md5: 394b0df42c03f22c7ecea0d7134bec61
+Description-en: NVIDIA binary driver - version 384.130
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-amd64-384.130-driver.html
+
+Package: nvidia-libopencl1-384
+Description-md5: b847113bb2144ba87848ff3f7ae69ec2
+Description-en: NVIDIA OpenCL Driver and ICD Loader library
+ OpenCL (Open Computing Language) is a multivendor open standard for
+ general-purpose parallel programming of heterogeneous systems that include
+ CPUs, GPUs and other processors.
+ .
+ This package contains NVIDIA's OpenCL implementation and the ICD Loader
+ library. This library supports only OpenCL 1.1.
+
+Package: nvidia-opencl-icd-384
+Description-md5: a9c59351040d333e50f4a411fc913d8e
+Description-en: NVIDIA OpenCL ICD
+ OpenCL (Open Computing Language) is a multivendor open standard for
+ general-purpose parallel programming of heterogeneous systems that include
+ CPUs, GPUs and other processors.
+ .
+ This package provides the NVIDIA installable client driver (ICD) for OpenCL
+ which supports NVIDIA GPUs.
+
+Package: libcuda1-387
+Description-md5: 8d1c7519eea7362050f28ea167e401d6
+Description-en: Transitional package for libcuda1-390
+ This is a transitional package for libcuda1-390, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-387-dev
+Description-md5: 796d9978b5b5d5e37126a3c892fcea34
+Description-en: Transitional package for nvidia-390-dev
+ This is a transitional package for nvidia-390-dev, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-387
+Description-md5: fffd07c83e640acc6c58deb05eb3ee28
+Description-en: Transitional package for nvidia-390
+ This is a transitional package for nvidia-390, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-libopencl1-387
+Description-md5: 5e3e931a11731b2db7bc15b5751c399f
+Description-en: Transitional package for nvidia-libopencl1-390
+ This is a transitional package for nvidia-libopencl1-390, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-opencl-icd-387
+Description-md5: 6a3862503862ec62573dd62e33454e44
+Description-en: Transitional package for nvidia-opencl-icd-390
+ This is a transitional package for nvidia-opencl-icd-390, and can be
+ safely removed after the installation is complete.
+
+Package: libcuda1-390
+Description-md5: 6cd8a29ce828440044bf16ef76348773
+Description-en: NVIDIA CUDA runtime library
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the driver specific runtime library.
+ .
+ Supported NVIDIA devices include GPUs starting from GeForce 8 and Quadro FX
+ series, as well as the Tesla computing processors.
+
+Package: nvidia-390-dev
+Description-md5: ef3b76d980ecacaf3116114549ba70ca
+Description-en: NVIDIA binary Xorg driver development files
+ This package contains the NVIDIA binary Xorg driver
+ development files.
+ .
+ For more information on this source package visit NVIDIA's homepage
+ at http://www.nvidia.com/ .
+
+Package: nvidia-390
+Description-md5: c15e987ad9691a42fb8ac3647594a3f7
+Description-en: NVIDIA binary driver - version 390.67
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-amd64-390.67-driver.html
+
+Package: nvidia-libopencl1-390
+Description-md5: b847113bb2144ba87848ff3f7ae69ec2
+Description-en: NVIDIA OpenCL Driver and ICD Loader library
+ OpenCL (Open Computing Language) is a multivendor open standard for
+ general-purpose parallel programming of heterogeneous systems that include
+ CPUs, GPUs and other processors.
+ .
+ This package contains NVIDIA's OpenCL implementation and the ICD Loader
+ library. This library supports only OpenCL 1.1.
+
+Package: nvidia-opencl-icd-390
+Description-md5: a9c59351040d333e50f4a411fc913d8e
+Description-en: NVIDIA OpenCL ICD
+ OpenCL (Open Computing Language) is a multivendor open standard for
+ general-purpose parallel programming of heterogeneous systems that include
+ CPUs, GPUs and other processors.
+ .
+ This package provides the NVIDIA installable client driver (ICD) for OpenCL
+ which supports NVIDIA GPUs.
+
+Package: libcuda1-396
+Description-md5: 6cd8a29ce828440044bf16ef76348773
+Description-en: NVIDIA CUDA runtime library
+ The Compute Unified Device Architecture (CUDA) enables NVIDIA
+ graphics processing units (GPUs) to be used for massively parallel
+ general purpose computation.
+ .
+ This package contains the driver specific runtime library.
+ .
+ Supported NVIDIA devices include GPUs starting from GeForce 8 and Quadro FX
+ series, as well as the Tesla computing processors.
+
+Package: nvidia-396-dev
+Description-md5: ef3b76d980ecacaf3116114549ba70ca
+Description-en: NVIDIA binary Xorg driver development files
+ This package contains the NVIDIA binary Xorg driver
+ development files.
+ .
+ For more information on this source package visit NVIDIA's homepage
+ at http://www.nvidia.com/ .
+
+Package: nvidia-396
+Description-md5: eac8c844b55a750e988baded495562ec
+Description-en: NVIDIA binary driver - version 396.24.02
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-amd64-396.24.02-driver.html
+
+Package: nvidia-libopencl1-396
+Description-md5: b847113bb2144ba87848ff3f7ae69ec2
+Description-en: NVIDIA OpenCL Driver and ICD Loader library
+ OpenCL (Open Computing Language) is a multivendor open standard for
+ general-purpose parallel programming of heterogeneous systems that include
+ CPUs, GPUs and other processors.
+ .
+ This package contains NVIDIA's OpenCL implementation and the ICD Loader
+ library. This library supports only OpenCL 1.1.
+
+Package: nvidia-opencl-icd-396
+Description-md5: a9c59351040d333e50f4a411fc913d8e
+Description-en: NVIDIA OpenCL ICD
+ OpenCL (Open Computing Language) is a multivendor open standard for
+ general-purpose parallel programming of heterogeneous systems that include
+ CPUs, GPUs and other processors.
+ .
+ This package provides the NVIDIA installable client driver (ICD) for OpenCL
+ which supports NVIDIA GPUs.
+
+Package: nvidia-340
+Description-md5: 8b95df1a2fe8bbf56b6a34a8909b09ca
+Description-en: NVIDIA binary driver - version 340.107
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-32bit-arm-340.107-driver.html
+
+Package: nvidia-384
+Description-md5: e45360b21384c78fb2cc20e9f41119c3
+Description-en: NVIDIA binary driver - version 384.130
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-32bit-arm-384.130-driver.html
+
+Package: nvidia-390
+Description-md5: 795591f83349ec28aa1ed9588fdea533
+Description-en: NVIDIA binary driver - version 390.67
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-32bit-arm-390.67-driver.html
+
+Package: nvidia-304
+Description-md5: b1b7810e94bd61ee243445d57f60979b
+Description-en: NVIDIA legacy binary driver - version 304.137
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ GPUs such as GeForce series 6 or newer are supported.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-ia32-304.137-driver.html
+
+Package: nvidia-340
+Description-md5: 7ca60e120a3473a41f5a094ebb9a9a64
+Description-en: NVIDIA binary driver - version 340.107
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-ia32-340.107-driver.html
+
+Package: nvidia-384
+Description-md5: 1a50a24145b3fe182b29e774bdbfd6e4
+Description-en: NVIDIA binary driver - version 384.130
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-ia32-384.130-driver.html
+
+Package: nvidia-390
+Description-md5: 6639db64320045d09b1042cc19ad9bf3
+Description-en: NVIDIA binary driver - version 390.67
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for GeForce 8 and later series cards for h264 video.
+ .
+ Release Notes and supported GPUs:
+ http://www.nvidia.com/object/linux-display-ia32-390.67-driver.html
+

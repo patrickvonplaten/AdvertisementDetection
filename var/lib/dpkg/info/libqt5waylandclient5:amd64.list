@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libqt5waylandclient5
+/usr/share/doc/libqt5waylandclient5/copyright
+/usr/share/doc/libqt5waylandclient5/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libQt5WaylandClient.so.5.5.1
+/usr/lib/x86_64-linux-gnu/libQt5WaylandClient.so.5
+/usr/lib/x86_64-linux-gnu/libQt5WaylandClient.so.5.5

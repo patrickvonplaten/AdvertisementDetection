@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libQtSql.so.4.8.7
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libqt4-sql
+/usr/share/doc
+/usr/share/doc/libqt4-sql
+/usr/share/doc/libqt4-sql/copyright
+/usr/lib/x86_64-linux-gnu/libQtSql.so.4.8
+/usr/lib/x86_64-linux-gnu/libQtSql.so.4
+/usr/share/doc/libqt4-sql/changelog.Debian.gz
+/usr/share/doc/libqt4-sql/LGPL_EXCEPTION.txt

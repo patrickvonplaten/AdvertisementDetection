@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/lapack
+/usr/lib/lapack/liblapack.a
+/usr/lib/pkgconfig
+/usr/lib/pkgconfig/lapack-netlib.pc
+/usr/share
+/usr/share/doc
+/usr/share/doc/liblapack-dev
+/usr/share/doc/liblapack-dev/copyright
+/usr/lib/lapack/liblapack.so
+/usr/share/doc/liblapack-dev/changelog.Debian.gz

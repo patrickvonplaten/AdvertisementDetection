@@ -1,0 +1,32 @@
+Package: yuview
+Priority: optional
+Section: misc
+Installed-Size: 1788
+Maintainer: Jens Schneider <schneider@ient.rwth-aachen.de>
+Architecture: amd64
+Version: 4.2.0-762-201707180817~ubuntu16.04.1
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: pool/main/y/yuview/yuview_4.2.0-762-201707180817~ubuntu16.04.1_amd64.deb
+Size: 726966
+MD5sum: 8a8c4e025b36bccc3c706af7c7fa6146
+SHA1: f75fcf3bdf1709ed0354135bb80aa12fb31af1a4
+SHA256: 2fcbce6464dd7d4e68c2365f27bf39ff8d334dde8de83e009298b04af7b45fb5
+Description: QT based YUV player with an advanced analytic toolset.
+Description-md5: 82937dc41ef7254de57a0473d73036f7
+
+Package: libde265-internals
+Priority: optional
+Section: libs
+Installed-Size: 923
+Maintainer: Jens Schneider <schneider@ient.rwth-aachen.de>
+Architecture: amd64
+Version: 1.4-1
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: pool/main/libd/libde265-internals/libde265-internals_1.4-1_amd64.deb
+Size: 309480
+MD5sum: 904a201f867fc936cede2c43d22e7378
+SHA1: 1ac563b097ee5a3c38f58125eb6f3c369c336f97
+SHA256: 97e2e8385fc9bdff32f62683f7540efe5c2b0661c769242824b4ae375f113fd9
+Description: HEVC lib with internals support
+Description-md5: 053a2445aae093c1a14d92eb7b398747
+

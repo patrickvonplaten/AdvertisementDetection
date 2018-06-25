@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/nodejs
+/usr/lib/nodejs/mkdirp
+/usr/lib/nodejs/mkdirp/package.json
+/usr/lib/nodejs/mkdirp/index.js
+/usr/share
+/usr/share/doc
+/usr/share/doc/node-mkdirp
+/usr/share/doc/node-mkdirp/changelog.Debian.gz
+/usr/share/doc/node-mkdirp/copyright
+/usr/share/doc/node-mkdirp/examples
+/usr/share/doc/node-mkdirp/examples/pow.js
+/usr/share/doc/node-mkdirp/readme.markdown

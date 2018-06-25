@@ -1,0 +1,10 @@
+Document: xboard-engine
+Section: Games/Board
+Title: Chess Engine Communication Protocol
+Author: Tim Mann & H.G.Muller
+Abstract: This document is a set of rough notes on the protocol that xboard and
+ WinBoard use to communicate with gnuchessx and other chess engines.
+
+Format: HTML
+Index: /usr/share/doc/xboard/engine-intf.html
+Files: /usr/share/doc/xboard/engine-intf.html

@@ -1,0 +1,43 @@
+#! /bin/sh
+
+set -e
+
+for conffile in ypbind.conf start-ypbind.conf ypserv.conf yppasswdd.conf \
+                ypxfrd.conf
+do
+	dpkg-maintscript-helper rm_conffile /etc/init/"${conffile}" 3.17-34ubuntu3~ \
+	                        nis -- "$@"
+done
+
+case "$1" in
+	remove|upgrade|remove-in-favour|deconfigure-in-favour)
+		#
+		#	Stop the daemons.
+		#
+		if [ -x /etc/init.d/nis ]; then
+			if [ -x "`which invoke-rc.d 2>/dev/null`" ]; then
+				invoke-rc.d nis stop
+			else
+				/etc/init.d/nis stop
+			fi
+		else
+			echo WARNING: init script for NIS has been removed - daemons may not be stopped.
+		fi
+
+		# /sbin/unix_chkpwd is installed setgid shadow by default; for
+		# NIS we need setuid root, so the postinst installed a
+		# statoverride.  Remove that override again here.
+                if OVR=$(dpkg-statoverride --list /sbin/unix_chkpwd) && \
+                   [ "$OVR" = "root root 4755 /sbin/unix_chkpwd" ]; then
+			dpkg-statoverride --remove /sbin/unix_chkpwd
+			chown root:shadow /sbin/unix_chkpwd
+			chmod 2755 /sbin/unix_chkpwd
+                fi
+		;;
+	failed-upgrade)
+		;;
+	*)
+		;;
+esac
+
+exit 0

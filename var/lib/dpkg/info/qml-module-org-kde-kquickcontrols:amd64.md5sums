@@ -1,0 +1,7 @@
+6aa5e002da03532498fb99f9839830b9  usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kquickcontrols/ColorButton.qml
+60f8306b554758b8994789eafda05c41  usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kquickcontrols/KeySequenceItem.qml
+78f8edd510b0effa71b507a0be84a8f6  usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kquickcontrols/qmldir
+fba8d00b19fcb27eddce08c2d2a9b902  usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/private/kquickcontrols/libkquickcontrolsprivateplugin.so
+bda6745dd18ea7185d38cbc5cabd8ff5  usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/private/kquickcontrols/qmldir
+d436042e35b196b024939def8586e820  usr/share/doc/qml-module-org-kde-kquickcontrols/copyright
+8027f8dd10c5d3c618ce77fb66341408  usr/share/lintian/overrides/qml-module-org-kde-kquickcontrols

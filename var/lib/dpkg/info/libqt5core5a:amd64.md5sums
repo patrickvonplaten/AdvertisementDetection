@@ -1,0 +1,6 @@
+6aebf4c468cbaa01f58f1216de8347de  usr/lib/x86_64-linux-gnu/libQt5Core.so.5.5.1
+9625233da42f9e0ce9d63651a9d97654  usr/share/doc/libqt5core5a/LGPL_EXCEPTION.txt
+0768d0e41bdcf0b3c6e92dd719c9f555  usr/share/doc/libqt5core5a/changelog.Debian.gz
+08cb83d2fb4d44c76d4f713c2b8a5e92  usr/share/doc/libqt5core5a/copyright
+d02b5931c85a7c6ad4360d61c0cafed5  usr/share/lintian/overrides/libqt5core5a
+afd9425fa2874255c76cf17feec977d0  usr/share/qtchooser/qt5-x86_64-linux-gnu.conf

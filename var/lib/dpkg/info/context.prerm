@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/texmf/fmt.d/20context.cnf 2015.05.18.20150601-1~ -- "$@"
+# End automatically added section

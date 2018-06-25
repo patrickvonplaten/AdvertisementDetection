@@ -1,0 +1,15 @@
+#!/bin/sh -e
+
+case "$1" in
+  configure)
+    update-alternatives --install /usr/bin/dia dia /usr/bin/dia-normal 40
+    update-alternatives --install /usr/bin/dia dia /usr/bin/dia-normal-integrated 45
+    ;;
+esac
+
+# Automatically added by dh_installmenu
+if [ "$1" = "configure" ] && [ -x "`which update-menus 2>/dev/null`" ]; then
+	update-menus
+fi
+# End automatically added section
+

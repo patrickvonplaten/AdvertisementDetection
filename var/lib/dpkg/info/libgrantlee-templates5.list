@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgrantlee-templates5
+/usr/share/doc/libgrantlee-templates5/copyright
+/usr/share/doc/libgrantlee-templates5/changelog.Debian.gz
+/usr/lib
+/usr/lib/grantlee
+/usr/lib/grantlee/5.0
+/usr/lib/grantlee/5.0/grantlee_i18ntags.so
+/usr/lib/grantlee/5.0/grantlee_loadertags.so
+/usr/lib/grantlee/5.0/grantlee_defaulttags.so
+/usr/lib/grantlee/5.0/grantlee_defaultfilters.so
+/usr/lib/libGrantlee_Templates.so.5.0.0
+/usr/lib/libGrantlee_Templates.so.5

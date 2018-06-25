@@ -1,0 +1,10 @@
+Document: libxml-parser-perl
+Section: Programming/Perl
+Title: XML::Parser
+Author: Nicholas Bamber
+Abstract: XML::Parser notes
+
+Format: Text
+Files: 
+ /usr/lib/x86_64-linux-gnu/perl5/5.22/XML/Parser/Encodings/README
+ /usr/lib/x86_64-linux-gnu/perl5/5.22/XML/Parser/Encodings/Japanese_Encodings.msg

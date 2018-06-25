@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/gstreamer-1.0
+/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstlibav.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/gstreamer1.0-libav
+/usr/share/doc/gstreamer1.0-libav/TODO
+/usr/share/doc/gstreamer1.0-libav/README.Debian
+/usr/share/doc/gstreamer1.0-libav/changelog.Debian.gz
+/usr/share/doc/gstreamer1.0-libav/README
+/usr/share/doc/gstreamer1.0-libav/copyright
+/usr/share/doc/gstreamer1.0-libav/NEWS.gz
+/usr/share/doc/gstreamer1.0-libav/AUTHORS

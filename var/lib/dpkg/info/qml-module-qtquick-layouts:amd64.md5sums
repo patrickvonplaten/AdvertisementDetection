@@ -1,0 +1,5 @@
+b486c478fe6d5758841bbb216628ca73  usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/libqquicklayoutsplugin.so
+5b5ac16817b6b2fc60a23f5be2f7cfc0  usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/plugins.qmltypes
+b95302e6fb7d93890f8cc17a92ae5e71  usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/qmldir
+23f8430e791dde97367f04e5be0ba218  usr/share/doc/qml-module-qtquick-layouts/changelog.Debian.gz
+5d5141c058535dcab7df6ffadbf7d341  usr/share/doc/qml-module-qtquick-layouts/copyright

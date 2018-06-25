@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libbz2.a
+/usr/include
+/usr/include/bzlib.h
+/usr/share/doc/libbz2-dev
+/usr/lib/x86_64-linux-gnu/libbz2.so

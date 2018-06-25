@@ -1,0 +1,8 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/nvidia-375
+/usr/share/doc/nvidia-375/changelog.Debian.gz
+/usr/share/doc/nvidia-375/copyright
+/etc/modprobe.d/nvidia-375_hybrid.conf

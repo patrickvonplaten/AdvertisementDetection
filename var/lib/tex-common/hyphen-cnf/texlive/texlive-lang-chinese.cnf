@@ -1,0 +1,1 @@
+name=pinyin lefthyphenmin=1 righthyphenmin=1 file=loadhyph-zh-latn-pinyin.tex file_patterns=hyph-zh-latn-pinyin.pat.txt file_exceptions=

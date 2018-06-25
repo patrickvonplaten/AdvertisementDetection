@@ -1,0 +1,13 @@
+c523a50c7870edcf98a3c7626e2d857a  usr/share/applications/ubuntu-amazon-default.desktop
+86f5c94c83623c594759648526cff6fe  usr/share/doc/unity-webapps-common/changelog.Debian.gz
+75ae3417414ee66fc1fa5018fe27c27f  usr/share/doc/unity-webapps-common/copyright
+a3ca83ca717d6086742dbdf1a4983b68  usr/share/icons/unity-webapps-applications/index.theme
+bc1daa5f8b30c5f0f9905b0a5c8adf29  usr/share/session-migration/scripts/cleanup-local-webapps-in-launcher.py
+dc70e4c71d7e44b35110942868783c42  usr/share/session-migration/scripts/install-default-webapps-in-launcher.py
+d37fa6e22615823aaa6467f48a3ab415  usr/share/unity-webapps/userscripts/common/google-common.js
+87d351c71312ef8d87429fc3f34969d4  usr/share/unity-webapps/userscripts/common/utils.js
+9cf3327eb5393daf0c8179e0d0712338  usr/share/unity-webapps/userscripts/common/validate.js
+2a7c892ceed2cc0b72b62c44b50edc93  usr/share/unity-webapps/userscripts/common/webapp.js
+8c53a9ca05c0effebc3500d67a8fe3ef  usr/share/unity-webapps/userscripts/unity-webapps-amazon/Amazon.user.js
+f2ef8c8dc1fa12fd48bade0ed35740d4  usr/share/unity-webapps/userscripts/unity-webapps-amazon/manifest.json
+89f3dd48a057b01e7c18bf40a3394e71  var/lib/polkit-1/localauthority/10-vendor.d/com.canonical.unity.webapps.pkla

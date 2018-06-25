@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages/jdcal.py
+/usr/lib/python2.7/dist-packages/jdcal-1.0.egg-info
+/usr/share
+/usr/share/doc
+/usr/share/doc/python-jdcal
+/usr/share/doc/python-jdcal/README.rst
+/usr/share/doc/python-jdcal/copyright
+/usr/share/doc/python-jdcal/changelog.Debian.gz

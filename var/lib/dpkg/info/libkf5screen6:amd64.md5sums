@@ -1,0 +1,8 @@
+927e10c028217a79f08eff84ec3e9de5  usr/lib/x86_64-linux-gnu/libKF5Screen.so.5.5.5
+a4b41f2b54be3362a5e82c9e99ddf1cc  usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kscreen/KSC_Fake.so
+5dd6760269cf62352452236f9aadb1ce  usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kscreen/KSC_QScreen.so
+80f0f319839fdc6a67465156d91409af  usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kscreen/KSC_XRandR.so
+b442453b492b19588f510c2429757f62  usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kscreen/KSC_XRandR11.so
+ab884704e57346f97a3b0b33bc510a7d  usr/share/doc/libkf5screen6/changelog.Debian.gz
+b388075930b2038f50d5a038e92640cb  usr/share/doc/libkf5screen6/copyright
+de5f649ee40234b898381fac061bbe8e  usr/share/lintian/overrides/libkf5screen6

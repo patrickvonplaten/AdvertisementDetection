@@ -1,0 +1,6 @@
+8d45a91321c460b9c8398eb81231a43b  usr/lib/ubuntu-release-upgrader/check-new-release-gtk
+b38c68d82f3fa513cdf9a1dfb9548ea1  usr/share/doc/ubuntu-release-upgrader-gtk/copyright
+3e294734eacd91967abd6e8dd08d6e63  usr/share/ubuntu-release-upgrader/gtkbuilder/AcquireProgress.ui
+79aa53a5d7dd2a23e40df0f16d565a80  usr/share/ubuntu-release-upgrader/gtkbuilder/DistUpgrade.ui
+62010d016b0adddcaacf8bc3f825708f  usr/share/ubuntu-release-upgrader/gtkbuilder/ReleaseNotes.ui
+3e2c259da6c3b48e7ccaf048a649b0d6  usr/share/ubuntu-release-upgrader/gtkbuilder/UpgradePromptDialog.ui

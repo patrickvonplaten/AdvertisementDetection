@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/openblas-base
+/usr/lib/openblas-base/libblas.so.3
+/usr/lib/openblas-base/liblapack.so.3
+/usr/lib/libopenblasp-r0.2.18.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/libopenblas-base
+/usr/share/doc/libopenblas-base/copyright
+/usr/share/doc/libopenblas-base/changelog.Debian.gz
+/usr/share/doc/libopenblas-base/README.Debian
+/usr/share/doc/libopenblas-base/TODO.Debian
+/usr/lib/libopenblas.so.0

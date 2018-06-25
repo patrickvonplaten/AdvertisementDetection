@@ -1,0 +1,43 @@
+#!/bin/sh
+
+set -e
+
+prepare_rm_conffile() {
+	local CONFFILE="$1"
+	local PACKAGE="$2"
+
+	[ -e "$CONFFILE" ] || return 0
+
+	local md5sum="$(md5sum $CONFFILE | sed -e 's/ .*//')"
+	local old_md5sum="$(dpkg-query -W -f='${Conffiles}' $PACKAGE | \
+		sed -n -e "\' $CONFFILE ' { s/ obsolete$//; s/.* //; p }")"
+	if [ "$md5sum" != "$old_md5sum" ]; then
+		echo "Obsolete conffile $CONFFILE has been modified by you."
+		echo "Saving as $CONFFILE.dpkg-bak ..."
+		mv -f "$CONFFILE" "$CONFFILE.dpkg-backup"
+	else
+		echo "Moving obsolete conffile $CONFFILE out of the way..."
+		mv -f "$CONFFILE" "$CONFFILE.dpkg-remove"
+	fi
+}
+
+# remove the obsolete init script (replaced by an upstart job)
+if [ "$1" = install ] || [ "$1" = upgrade ]; then
+	if [ -e "/etc/init.d/nfs-common" ] && [ ! -L "/etc/init.d/nfs-common" ]; then
+		prepare_rm_conffile /etc/init.d/nfs-common nfs-common
+	fi
+fi
+
+# Prepare removal of enablement flag in conffile.
+DEFAULT_CONFFILE=/etc/default/nfs-common
+if [ "$1" = upgrade ]; then
+	if dpkg --compare-versions "$2" lt-nl 1:1.2.8-9ubuntu7 && [ -f $DEFAULT_CONFFILE ]; then
+		if egrep -sqi 'NEED_STATD="?yes' $DEFAULT_CONFFILE; then
+			touch ${DEFAULT_CONFFILE}.statd.enable
+		fi
+		sed -i '/#.*statd daemon/d' /etc/default/nfs-common
+		sed -i '/NEED_STATD/d' /etc/default/nfs-common
+	fi
+fi
+
+

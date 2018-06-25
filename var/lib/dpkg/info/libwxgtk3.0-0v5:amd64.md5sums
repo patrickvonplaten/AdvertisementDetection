@@ -1,0 +1,13 @@
+a561a3f39786ffbc35f7f385d0e44b9f  usr/lib/x86_64-linux-gnu/libwx_gtk2u_adv-3.0.so.0.2.0
+7d24744fa5003bcf473edceeb89bcaf3  usr/lib/x86_64-linux-gnu/libwx_gtk2u_aui-3.0.so.0.2.0
+45a862b8ffa0c601a816d7a5ef75a5a7  usr/lib/x86_64-linux-gnu/libwx_gtk2u_core-3.0.so.0.2.0
+7c3ac2484ec8596ca5bedb1ccf80afa8  usr/lib/x86_64-linux-gnu/libwx_gtk2u_gl-3.0.so.0.2.0
+27f9bee0c73ed88e0d3d4c852d209f26  usr/lib/x86_64-linux-gnu/libwx_gtk2u_html-3.0.so.0.2.0
+b08cfaef858aec1eb0234d084f27e230  usr/lib/x86_64-linux-gnu/libwx_gtk2u_propgrid-3.0.so.0.2.0
+7be3813bc3d493673d1c7842684b0100  usr/lib/x86_64-linux-gnu/libwx_gtk2u_qa-3.0.so.0.2.0
+1c1553bbe4329712eabf08b956bcb7ed  usr/lib/x86_64-linux-gnu/libwx_gtk2u_ribbon-3.0.so.0.2.0
+b275273654b70a48a60074fbf238b216  usr/lib/x86_64-linux-gnu/libwx_gtk2u_richtext-3.0.so.0.2.0
+f52b0d8a57cf4b8e8ab8fb12f8e81d43  usr/lib/x86_64-linux-gnu/libwx_gtk2u_stc-3.0.so.0.2.0
+c8ab91f6790b6c201dfcd91ac07a60cb  usr/lib/x86_64-linux-gnu/libwx_gtk2u_xrc-3.0.so.0.2.0
+a8028be795e3273bfde0d2089e3aadfb  usr/share/doc/libwxgtk3.0-0v5/copyright
+fce04d418757b392ca71f8ac96c8e9de  usr/share/lintian/overrides/libwxgtk3.0-0v5

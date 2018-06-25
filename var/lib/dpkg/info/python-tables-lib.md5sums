@@ -1,0 +1,10 @@
+317e7c79538a918b653264260fdf5b21  usr/lib/python2.7/dist-packages/tables/_comp_bzip2.x86_64-linux-gnu.so
+07843bee0ce45fd92b12d724179b2022  usr/lib/python2.7/dist-packages/tables/_comp_lzo.x86_64-linux-gnu.so
+8deae5575189376a16da8a2364b617c1  usr/lib/python2.7/dist-packages/tables/hdf5extension.x86_64-linux-gnu.so
+73c8dfe605992482fa243ec0e9be80bb  usr/lib/python2.7/dist-packages/tables/indexesextension.x86_64-linux-gnu.so
+932f6eabf6835eb4dd3cfeb317572d08  usr/lib/python2.7/dist-packages/tables/linkextension.x86_64-linux-gnu.so
+aca09fac367af4e44ca2e0a1bb31ca0e  usr/lib/python2.7/dist-packages/tables/lrucacheextension.x86_64-linux-gnu.so
+771e448d4c0d3921823308e43bb53b80  usr/lib/python2.7/dist-packages/tables/tableextension.x86_64-linux-gnu.so
+29c876b9a87d37652311a5cc1762b693  usr/lib/python2.7/dist-packages/tables/utilsextension.x86_64-linux-gnu.so
+0056932f1c8abbcc218ca57e4c471220  usr/share/doc/python-tables-lib/changelog.Debian.gz
+afb3c05cca6fdc872786a49b8cb96de6  usr/share/doc/python-tables-lib/copyright

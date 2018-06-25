@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/bin
+/usr/bin/dvidvi
+/usr/bin/a5booklet
+/usr/share
+/usr/share/doc
+/usr/share/doc/dvidvi
+/usr/share/doc/dvidvi/copyright
+/usr/share/doc/dvidvi/examples
+/usr/share/doc/dvidvi/examples/a5test.tex
+/usr/share/doc/dvidvi/examples/a5bookle.hlp
+/usr/share/doc/dvidvi/changelog.Debian.gz
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/dvidvi.1.gz
+/usr/share/man/man1/a5booklet.1.gz

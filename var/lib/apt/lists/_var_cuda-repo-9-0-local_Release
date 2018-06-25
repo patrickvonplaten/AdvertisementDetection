@@ -1,0 +1,13 @@
+Origin: NVIDIA
+Label: NVIDIA CUDA
+Architecture: repogenstagetemp
+Date: Sat, 02 Sep 2017 11:32:49 +0000
+MD5Sum:
+ c71110c6ad2d0ea65d4c563e088b84a3            56906 Packages
+ 0dd1bc3bc701b8b922aabadcf345edf6            15387 Packages.gz
+SHA1:
+ d0f825c4c3b8a14a5fbac5075234c398a65c5f0d            56906 Packages
+ d23da9bf9fa6454ebc7bac0fa16fa8ca15a7fafc            15387 Packages.gz
+SHA256:
+ a03c458a8b2eaa319fa210b7c7a109c5d32dc91ec8d3befacfeec9fa08d0a2dd            56906 Packages
+ d85ed38e474c2f0b2a1c88780560f314e873a4ede6b562fc72c83d02bc8acc0d            15387 Packages.gz

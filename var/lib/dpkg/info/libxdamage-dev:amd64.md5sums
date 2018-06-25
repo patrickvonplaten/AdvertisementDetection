@@ -1,0 +1,4 @@
+59165148d5da85ff0f0cd057accc212a  usr/include/X11/extensions/Xdamage.h
+9c71b9654968ebddfee34b6f85af10fd  usr/lib/x86_64-linux-gnu/libXdamage.a
+24d13c33f56007f554374fc9f81c037e  usr/lib/x86_64-linux-gnu/pkgconfig/xdamage.pc
+480d64ae546e636068432c106438dcd9  usr/share/doc/libxdamage-dev/copyright

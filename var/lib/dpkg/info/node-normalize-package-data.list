@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/nodejs
+/usr/lib/nodejs/normalize-package-data
+/usr/lib/nodejs/normalize-package-data/lib
+/usr/lib/nodejs/normalize-package-data/lib/typos.json
+/usr/lib/nodejs/normalize-package-data/lib/normalize.js
+/usr/lib/nodejs/normalize-package-data/lib/fixer.js
+/usr/lib/nodejs/normalize-package-data/lib/extract_description.js
+/usr/lib/nodejs/normalize-package-data/package.json
+/usr/share
+/usr/share/doc
+/usr/share/doc/node-normalize-package-data
+/usr/share/doc/node-normalize-package-data/README.md.gz
+/usr/share/doc/node-normalize-package-data/copyright
+/usr/share/doc/node-normalize-package-data/changelog.Debian.gz

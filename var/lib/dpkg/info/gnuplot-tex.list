@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/texmf
+/usr/share/texmf/tex
+/usr/share/texmf/tex/latex
+/usr/share/texmf/tex/latex/gnuplot
+/usr/share/texmf/tex/latex/gnuplot/gnuplot.cfg
+/usr/share/texmf/tex/latex/gnuplot/gnuplot-lua-tikz.tex
+/usr/share/texmf/tex/latex/gnuplot/gnuplot-lua-tikz.sty
+/usr/share/texmf/tex/latex/gnuplot/gnuplot-lua-tikz-common.tex
+/usr/share/texmf/tex/latex/gnuplot/t-gnuplot-lua-tikz.tex
+/usr/share/doc
+/usr/share/doc/gnuplot-tex
+/usr/share/doc/gnuplot-tex/NEWS.Debian.gz
+/usr/share/doc/gnuplot-tex/copyright
+/usr/share/doc/gnuplot-tex/changelog.Debian.gz

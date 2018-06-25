@@ -1,0 +1,10 @@
+db98f56ed905bd4669b05f8079a5f39f  usr/lib/x86_64-linux-gnu/libQtCLucene.so.4.8.7
+fb04ffe2b4b192eb852a2101bb09566a  usr/lib/x86_64-linux-gnu/libQtCore.so.4.8.7
+107b4b0dacc1fe4099063447cf8dc9cb  usr/lib/x86_64-linux-gnu/qt4/plugins/codecs/libqcncodecs.so
+e9e02b2833e61da3cec897d0c6eeebb6  usr/lib/x86_64-linux-gnu/qt4/plugins/codecs/libqjpcodecs.so
+3d86949db5b6bd08cef4cf157f67ea68  usr/lib/x86_64-linux-gnu/qt4/plugins/codecs/libqkrcodecs.so
+d121b3dfbb033363cd7e53686bb18c2b  usr/lib/x86_64-linux-gnu/qt4/plugins/codecs/libqtwcodecs.so
+0145c4d1b6f96a661c2c139dfb268fb6  usr/share/doc/libqtcore4/LGPL_EXCEPTION.txt
+82a84be9e60d71c3130de53a33d41c94  usr/share/doc/libqtcore4/changelog.Debian.gz
+d49cf542b1b3ba75bad90e9560c459d3  usr/share/doc/libqtcore4/copyright
+47e35768dde757cd450471fe9d4b3921  usr/share/qtchooser/qt4-x86_64-linux-gnu.conf

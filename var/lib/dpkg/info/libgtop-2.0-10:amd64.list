@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgtop-2.0-10
+/usr/share/doc/libgtop-2.0-10/AUTHORS
+/usr/share/doc/libgtop-2.0-10/README
+/usr/share/doc/libgtop-2.0-10/copyright
+/usr/share/doc/libgtop-2.0-10/NEWS.gz
+/usr/share/doc/libgtop-2.0-10/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libgtop-2.0.so.10.0.0
+/usr/lib/x86_64-linux-gnu/libgtop-2.0.so.10

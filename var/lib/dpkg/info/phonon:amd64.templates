@@ -1,0 +1,106 @@
+Template: phonon-backend-null/isnt_functional_title
+Type: title
+Description: Warning: Phonon is not functional
+Description-cs.UTF-8: Upozornění: Phonon není funkční
+Description-da.UTF-8: Advarsel: Phonon er ikke operationsdygtig
+Description-de.UTF-8: Warnung: Phonon ist nicht funktionsfähig
+Description-es.UTF-8: Advertencia: Phonon no es funcional
+Description-fr.UTF-8: Phonon non fonctionnel
+Description-it.UTF-8: Attenzione: Phonon non è funzionante
+Description-ja.UTF-8: 警告: Phonon は動作しません
+Description-nl.UTF-8: Let op: Phonon werkt niet
+Description-pl.UTF-8: Ostrzeżenie: Phonon nie funkcjonuje poprawnie
+Description-pt.UTF-8: Aviso: O Phonon não está funcional
+Description-ru.UTF-8: Предупреждение: Phonon не работоспособнен
+Description-sk.UTF-8: Upozornenie: Phonon nie je funkčný
+Description-sv.UTF-8: Varning: Phonon fungerar ej
+
+Template: phonon-backend-null/isnt_functional
+Type: note
+Description: Missing back-end for Phonon
+ Applications using Phonon (the Qt 4 multimedia framework) will produce
+ no audio or video output, because only a dummy Phonon back-end is
+ installed on this system. This is typically an unintended configuration.
+ .
+ To restore full Phonon multimedia capabilities, install one of the real
+ Phonon back-end packages which are currently available for this system:
+ .
+ ${recommended_backend} (recommended)${other_backends}
+Description-cs.UTF-8: Chybí back-end pro Phonon
+ Aplikace využívající Phonon (Qt 4 multimediální framework) nebudou produkovat žádný audio či video výstup, protože na tomto systému je nainstalován fiktivní back-end pro Phonon. To je zpravidla nežádoucí nastavení.
+ .
+ Chcete-li obnovit úplné funkce Phonon, nainstalujte jeden ze skutečných balíčků s back-endem pro Phonon, které jsou v současné době pro tento systém dostupné.
+ .
+ ${recommended_backend} (doporučené)${other_backends}
+Description-da.UTF-8: Manglende motor for Phonon
+ Programmer der bruger Phonon (Qt 4-multimedierammen) vil ikke producere lyd- eller videooutput, da der kun er installeret en overgangsmotor på dette system. Dette skyldes typisk en fejlkonfiguration.
+ .
+ For at gendanne fuld multimedieunderstøttelse til Phonon skal du installere en af de korrekte pakker som Phononmotor, der aktuelt er tilgængelige for dette system:
+ .
+ ${recommended_backend} (anbefalet)${other_backends}
+Description-de.UTF-8: Fehlendes Backend für Phonon
+ Auf diesem System ist nur ein Pseudo-Phonon-Backend installiert. Anwendungen, die das Qt4-Multimedia-Rahmenwerk Phonon verwenden, werden keine Audio- oder Videoausgabe erzeugen. Typischerweise wird eine solche Konfiguration nicht mit Absicht herbeigeführt.
+ .
+ Um die gesamten Multimediafähigkeiten von Phonon erneut verfügbar zu machen, installieren Sie bitte eines der richtigen, für Ihr System verfügbaren Phonon-Backend-Pakete:
+ .
+ ${recommended_backend} (empfohlen)${other_backends}
+Description-es.UTF-8: No se ha detectado un sistema interno para Phonon
+ Las aplicaciones que utilizan Phonon (la plataforma multimedia de Qt 4) no generarán una salida de audio o vídeo ya que sólo está instalado el sistema interno ficticio («dummy») de Phonon. Esta configuración no suele ser la deseada.
+ .
+ Para restablecer todas las funciones multimedia de Phonon, instale uno de los paquetes con un sistema interno real de Phonon que están disponibles para este sistema:
+ .
+ ${recommended_backend} (recomendado)${other_backends}
+Description-fr.UTF-8: Module de sortie pour Phonon manquant
+ Les applications utilisant Phonon (le framework multimédia de QT 4) ne produiront ni son ni image tant que le module de sortie factice (« dummy backend ») sera le seul installé. Ce n'est généralement pas une configuration souhaitée.
+ .
+ Afin de profiter des possibilités multimédia complètes de Phonon, veuillez installer un module de sortie de Phonon parmi ceux disponibles pour ce système :
+ .
+ ${recommended_backend} (recommandé)${other_backends}
+Description-it.UTF-8: Back-end mancante per Phonon
+ Le applicazioni che usano Phonon (l'infrastruttura multimediale di Qt 4) non produrranno alcun output audio o video perché su questo sistema è installato solamente un back-end Phonon fittizio. In genere questa è una configurazione involontaria.
+ .
+ Per ripristinare una piena funzionalità multimediale di Phonon, basterà installare uno degli effettivi pacchetti di backend per Phonon attualmente disponibili per questo sistema:
+ .
+ ${recommended_backend} (raccomandato)${other_backends}
+Description-ja.UTF-8: Phonon のバックエンドが見つかりません
+ Phonon (Qt 4 マルチメディアフレームワーク) を使うアプリケーションは、システムにダミーの Phonon バックエンドがインストールされているだけなので音声あるいは映像が出力されません。一般的に、これは意図されない設定です。
+ .
+ Phonon のマルチメディア機能を完全に復旧するには、このシステムで現在入手可能な、実際の Phonon バックエンドパッケージの一つをインストールしてください。
+ .
+ ${recommended_backend} (recommended)${other_backends}
+Description-nl.UTF-8: Ontbrekend backend voor Phonon
+ Applicaties die gebruik maken van Phonon (het QT 4 multimedia-kader) zullen geen audio- of video-outvoer produceren omdat er alleen een dummy-backend van Phonon is geïnstalleerd op dit systeem. Dit is meestal een onbedoelde configuratie.
+ .
+ Om de volledige multimedia-capaciteiten van Phonon te herstellen dient u één van de echte Phonon backend-pakketten die voor dit systeem beschikbaar zijn te installeren:
+ .
+ ${recommended_backend} (aanbevolen)${other_backends}
+Description-pl.UTF-8: Brakujący backend do Phonona
+ Aplikacje używające Phonona (szkielet multimediów Qt 4) nie odtworzą strumieni wideo ani audio, z powodu zainstalowania atrapy backendu Phonon. Z reguły jest to niezamierzona konfiguracja.
+ .
+ Aby odzyskać pełne możliwości Phonona, należy zainstalować jeden z pakietów z prawdziwym backendem, spośród aktualnie dostępnych:
+ .
+ ${recommended_backend} (zalecany)${other_backends}
+Description-pt.UTF-8: Back-end em falta para o Phonon
+ As aplicações que usam o Phono (a estrutura multimédia do Qt 4) não irão produzir saída de áudio ou vídeo porque apenas está instalado um back-end fictício do phonon neste sistema. Esta é tipicamente uma configuração não desejada.As aplicações que usam o Phono (a estrutura multimédia do Qt 4) não irão produzir saída de áudio ou vídeo porque apenas está instalado um back-end fictício do phonon 
+ .
+ Para restaurar as capacidades multimédia totais do Phonon, instale um dos pacotes de back-end reais do Phonon que estão actualmente disponíveis para este sistema:
+ .
+ ${recommended_backend} (recomendado)${other_backends}
+Description-ru.UTF-8: Отсутствует исполнительная часть (back-end) Phonon
+ Приложения, использующие Phonon (инфраструктура для мультимедиа из Qt 4), не будут показывать видео и проигрывать звук, так как в системе установлена только заглушка для исполнительной части Phonon. Обычно, это непреднамеренная настройка.
+ .
+ Чтобы воспользоваться всеми возможностями Phonon, установите один из пакетов исполнительной части Phonon:
+ .
+ ${recommended_backend} (рекомендуется)${other_backends}
+Description-sk.UTF-8: Chýba pozadie (back-end) pre Phonon
+ Aplikácie, ktoré používajú Phonon (multimediálny framework Qt 4) nebudú produkovať žiadny audio alebo video výstup, pretože v systéme je nainštalované len fiktívne rozhranie (back-end) Phononu. Zvyčajne to nie je žiadané nastavenie.
+ .
+ Na obnovenie úplných multimediálnych schopností Phonon, nainštalujte niektorý z balíkov reálnych rozhraní (back-end) Phononu, ktoré sú momentálne v systéme k dispozícii:
+ .
+ ${recommended_backend} (odporúčané)${other_backends}
+Description-sv.UTF-8: Bakdel för Phonon saknas
+ Program som använder Phonon (multimedia-ramverket i QT4) kommer inte att kunna spela upp ljud eller visa video eftersom Phonon-bakdelen som är installerad på systemet inte tillhandahåller funktionen. Detta kan vanligen härledas till felaktiga inställningar.
+ .
+ För att återställa funktionerna i Phonon behöver ett av de tillgängliga paketen med Phonon-bakdelar installeras:
+ .
+ ${recommended_backend} (rekommenderad)${other_backends}

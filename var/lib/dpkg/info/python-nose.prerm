@@ -1,0 +1,33 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+	remove|deconfigure)
+		update-alternatives --remove nosetests /usr/bin/nosetests_py2
+	;;
+
+	upgrade|failed-upgrade)
+	;;
+
+	*)
+		echo "prerm called with unknown argument \`$1'" >&2
+		exit 1
+	;;
+esac
+
+
+# Automatically added by dhpython:
+if which pyclean >/dev/null 2>&1; then
+	pyclean -p python-nose 
+else
+	dpkg -L python-nose | grep \.py$ | while read file
+	do
+		rm -f "${file}"[co] >/dev/null
+  	done
+fi
+
+# End automatically added section
+
+
+exit 0

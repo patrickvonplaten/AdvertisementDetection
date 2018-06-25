@@ -1,0 +1,15 @@
+/.
+/etc
+/etc/X11
+/etc/X11/Xsession.d
+/etc/X11/Xsession.d/81overlay-scrollbar
+/usr
+/usr/share
+/usr/share/glib-2.0
+/usr/share/glib-2.0/schemas
+/usr/share/glib-2.0/schemas/com.canonical.desktop.interface.gschema.xml
+/usr/share/glib-2.0/schemas/com.canonical.desktop.interface.enums.xml
+/usr/share/doc
+/usr/share/doc/overlay-scrollbar
+/usr/share/doc/overlay-scrollbar/changelog.Debian.gz
+/usr/share/doc/overlay-scrollbar/copyright

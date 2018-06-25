@@ -1,0 +1,14 @@
+5d0db94e845eea5cdc59a1dcd7c75f4c  usr/lib/x86_64-linux-gnu/librevenge-0.0.so.0.0.4
+295976b51dee5827755fff0eedf44ef1  usr/lib/x86_64-linux-gnu/librevenge-generators-0.0.so.0.0.4
+aec21841f3c2f518030b64b387c2bd55  usr/lib/x86_64-linux-gnu/librevenge-stream-0.0.so.0.0.4
+d755208ee0568b080ebfbaa509aba025  usr/share/doc/librevenge-0.0-0/changelog.Debian.gz
+5106ce287c1d99e6ee5bea872cd046f5  usr/share/doc/librevenge-0.0-0/copyright
+451d665260406c7c1a1e6d616c48037a  usr/share/gdb/auto-load/usr/lib/librevenge-0.0.py
+fcfa3bb524e3cd23ff50857c5324396a  usr/share/gdb/auto-load/usr/lib/librevenge-stream-0.0.py
+d41d8cd98f00b204e9800998ecf8427e  usr/share/librevenge/python/__init__.py
+f528d8be46f9ad63c72b63f6a823c968  usr/share/librevenge/python/util/__init__.py
+0007095c401a08c0d65848a574c644a8  usr/share/librevenge/python/util/compatibility.py
+5f231d83e40afd4128a4bcbba7190dea  usr/share/librevenge/python/util/printing.py
+d41d8cd98f00b204e9800998ecf8427e  usr/share/librevenge/python/v0_0/__init__.py
+1ed2331ab005862d40f654847b4f2225  usr/share/librevenge/python/v0_0/streams.py
+09b39187c4070b277792f7366ef8276e  usr/share/librevenge/python/v0_0/types.py

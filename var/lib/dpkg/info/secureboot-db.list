@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/secureboot
+/usr/share/secureboot/updates
+/usr/share/secureboot/updates/dbx
+/usr/share/secureboot/updates/db
+/usr/share/doc
+/usr/share/doc/secureboot-db
+/usr/share/doc/secureboot-db/README.Debian
+/usr/share/doc/secureboot-db/copyright
+/usr/share/doc/secureboot-db/changelog.gz

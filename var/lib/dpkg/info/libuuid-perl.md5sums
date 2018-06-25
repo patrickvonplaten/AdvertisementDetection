@@ -1,0 +1,6 @@
+7c67152129509f6c90765ac1fdbdaecc  usr/lib/x86_64-linux-gnu/perl5/5.22/UUID.pm
+c4eda28d77909a7d695083db259bb0fb  usr/lib/x86_64-linux-gnu/perl5/5.22/auto/UUID/UUID.so
+8efe9993d15ac289dd2922ca1de5ae4b  usr/share/doc/libuuid-perl/changelog.Debian.gz
+19ac0efa6f8d85d96250e3f29ccb73f5  usr/share/doc/libuuid-perl/copyright
+324b9634b6d8580f32b58876111e40a4  usr/share/lintian/overrides/libuuid-perl
+030f420c550b0aee68ff1d352620ed3d  usr/share/man/man3/UUID.3pm.gz

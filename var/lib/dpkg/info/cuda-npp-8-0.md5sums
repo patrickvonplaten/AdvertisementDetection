@@ -1,0 +1,15 @@
+84f76ceb1cf0a9baf42ee9404abbb86b  usr/local/cuda-8.0/targets/x86_64-linux/lib/libnppc.so.8.0.61
+45dbaafff7ece328ab867ed84d120458  usr/local/cuda-8.0/targets/x86_64-linux/lib/libnppi.so.8.0.61
+fd51ed18e47bb165e7e46caea743490a  usr/local/cuda-8.0/targets/x86_64-linux/lib/libnppial.so.8.0.61
+685e4d2715f4b1c40ffbaea5247fef78  usr/local/cuda-8.0/targets/x86_64-linux/lib/libnppicc.so.8.0.61
+88ecaae7054fe96a34e4663a39d255a3  usr/local/cuda-8.0/targets/x86_64-linux/lib/libnppicom.so.8.0.61
+ec1a0f0f6a2596aaeb48032462a1ef6b  usr/local/cuda-8.0/targets/x86_64-linux/lib/libnppidei.so.8.0.61
+9fca2e8541ae0afedf54ebd181519ff5  usr/local/cuda-8.0/targets/x86_64-linux/lib/libnppif.so.8.0.61
+c5d135443f2c30f33cf2add9aaa202ff  usr/local/cuda-8.0/targets/x86_64-linux/lib/libnppig.so.8.0.61
+89fed6fe92973c46fda52c85a7bc4c9b  usr/local/cuda-8.0/targets/x86_64-linux/lib/libnppim.so.8.0.61
+ea3e2217dd03ecebf05711168747019a  usr/local/cuda-8.0/targets/x86_64-linux/lib/libnppist.so.8.0.61
+8040307257e7e8cae0e98100d596b9b2  usr/local/cuda-8.0/targets/x86_64-linux/lib/libnppisu.so.8.0.61
+c2f79b208db7aa6d998438dd9b94f230  usr/local/cuda-8.0/targets/x86_64-linux/lib/libnppitc.so.8.0.61
+abd3cc14f092442f53543632d19b36ff  usr/local/cuda-8.0/targets/x86_64-linux/lib/libnpps.so.8.0.61
+c673c52ccef88f0e9e4e0ef4e18ac511  usr/share/doc/cuda-npp-8-0/changelog.Debian.gz
+0eeae78db8d839562622336047a1c99d  usr/share/doc/cuda-npp-8-0/copyright

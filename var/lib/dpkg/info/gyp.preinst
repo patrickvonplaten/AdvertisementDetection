@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+EGG=/usr/lib/python2.7/dist-packages/gyp-0.1.egg-info
+
+if [ "$1" = upgrade ] && dpkg --compare-versions "$2" lt 0.1~svn1729-3ubuntu1; then
+   # remove symlink from the old package, it gets replaced with a directory
+   # in the new package but dpkg will not handle this automatically, it
+   # needs manual help, see https://wiki.debian.org/Teams/Dpkg/FAQ#Q:_Will_dpkg_replace_a_symlink_with_a_directory_or_vice_versa.3F
+   # bugreport against gyp: LP: #1246730
+   if [ -L $EGG ]; then
+       rm -f $EGG
+   fi
+fi
+

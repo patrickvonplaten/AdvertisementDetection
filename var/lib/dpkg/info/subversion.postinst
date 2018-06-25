@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+dpkg-maintscript-helper rm_conffile /etc/emacs/site-start.d/50psvn.el 1.7.13-1~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/subversion 1.9.0~rc1-2~ -- "$@"
+
+

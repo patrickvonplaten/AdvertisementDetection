@@ -1,0 +1,1375 @@
+Package: idle-python2.3
+Description-md5: c9f41951bcb18cbf22d30b08359d552e
+Description-en: IDE for Python (version 2.3) using Tkinter
+ IDLE is an Integrated Development Environment for Python (version 2.3).
+ IDLE is written using Tkinter and therefore quite platform-independent.
+
+Package: idle-python2.4
+Description-md5: e91d60dde77ce65f913db15478bd50af
+Description-en: IDE for Python (version 2.4) using Tkinter
+ IDLE is an Integrated Development Environment for Python (version 2.4).
+ IDLE is written using Tkinter and therefore quite platform-independent.
+
+Package: python2.3
+Description-md5: 8ccf14658d97acd095024712f2377202
+Description-en: Interactive high-level object-oriented language (version 2.3)
+ Version 2.3 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+
+Package: python2.3-dev
+Description-md5: 32305caa96b9f6723fc0565b9ecf5c17
+Description-en: Header files and a static library for Python (version 2.3)
+ Header files, a static library and development tools for building
+ Python (version 2.3) modules, extending the Python interpreter or embedding
+ Python (version 2.3) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+
+Package: python2.3-doc
+Description-md5: 19d4f67a385a8a6e48aa30b778d5d6bd
+Description-en: Documentation for the high-level object-oriented language Python (version 2.3)
+ This is the official set of documentation for the interactive high-level
+ object-oriented language Python (version 2.3). All documents are provided
+ in HTML format, some in info format. The package consists of ten documents:
+ .
+ * What's New in Python 2.3
+ * Tutorial
+ * Python Library Reference
+ * Macintosh Module Reference
+ * Python Language Reference
+ * Extending and Embedding Python
+ * Python/C API Reference
+ * Installing Python Modules
+ * Documenting Python
+ * Distributing Python Modules
+
+Package: python2.3-examples
+Description-md5: 09158bad50ca6ad254da7d11ac2383ea
+Description-en: Examples for the Python language (version 2.3)
+ Examples, Demos and Tools for Python (version 2.3). These are files included
+ in the upstream Python distribution (version 2.3).
+
+Package: python2.3-gdbm
+Description-md5: 882310b8675731bb375890b978185cb2
+Description-en: GNU dbm database support for Python (version 2.3)
+ GNU dbm database module for Python (version 2.3). Install this if you want to
+ create or read GNU dbm database files with Python.
+
+Package: python2.3-tk
+Description-md5: b5203d6b5b6b3cf7a594a54622890710
+Description-en: Tkinter - Writing Tk applications with Python (version 2.3)
+ A module for writing portable GUI applications with Python (version 2.3)
+ using Tk. Also known as Tkinter.
+
+Package: python2.4
+Description-md5: 6fd915f3f2125f8248504ff713402485
+Description-en: Interactive high-level object-oriented language (version 2.4)
+ Version 2.4 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+
+Package: python2.4-dbg
+Description-md5: 668483e79f124aff97bbb8429fb69b30
+Description-en: Debug Build of the Python Interpreter (version 2.4)
+ Python interpreter configured with --pydebug. Dynamically loaded modules are
+ searched in /usr/lib/python2.4/lib-dynload/debug first.
+
+Package: python2.4-dev
+Description-md5: b85392e7cf71ae8d09e81df2904554d4
+Description-en: Header files and a static library for Python (version 2.4)
+ Header files, a static library and development tools for building
+ Python (version 2.4) modules, extending the Python interpreter or embedding
+ Python (version 2.4) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+
+Package: python2.4-doc
+Description-md5: 7bdf8d88303d8c00a81c9d6ce7e9edad
+Description-en: Documentation for the high-level object-oriented language Python (version 2.4)
+ This is the official set of documentation for the interactive high-level
+ object-oriented language Python (version 2.4). All documents are provided
+ in HTML format, some in info format. The package consists of ten documents:
+ .
+ * What's New in Python 2.4
+ * Tutorial
+ * Python Library Reference
+ * Macintosh Module Reference
+ * Python Language Reference
+ * Extending and Embedding Python
+ * Python/C API Reference
+ * Installing Python Modules
+ * Documenting Python
+ * Distributing Python Modules
+
+Package: python2.4-examples
+Description-md5: c3ecfa572edf2f8fd0d8d1fe50ed26f3
+Description-en: Examples for the Python language (version 2.4)
+ Examples, Demos and Tools for Python (version 2.4). These are files included
+ in the upstream Python distribution (version 2.4).
+
+Package: python2.4-gdbm
+Description-md5: 1ba09a0d9108f84a16990e9f378b9084
+Description-en: GNU dbm database support for Python (version 2.4)
+ GNU dbm database module for Python (version 2.4). Install this if you want to
+ create or read GNU dbm database files with Python.
+
+Package: python2.4-minimal
+Description-md5: 32e5bece9d0687c8d1a6c8123613dfad
+Description-en: Minimal subset of the Python language (version 2.4)
+ This package contains the interpreter and some essential modules.  It can
+ be used in the boot process for some basic tasks.
+ See /usr/share/doc/python2.4-minimal/README.Debian for a list of the modules
+ contained in this package.
+
+Package: python2.4-tk
+Description-md5: adc8b8e8d485d64704a00806474f72f2
+Description-en: Tkinter - Writing Tk applications with Python (version 2.4)
+ A module for writing portable GUI applications with Python (version 2.4)
+ using Tk. Also known as Tkinter.
+
+Package: python2.3-dbg
+Description-md5: f20db542e1f358494567b1a5362a30e4
+Description-en: Debug Build of the Python Interpreter (version 2.3)
+ Python interpreter configured with --pydebug. Dynamically loaded modules are
+ searched in /usr/lib/python2.3/lib-dynload/debug first.
+
+Package: python2.5
+Description-md5: da4b4f151556b352e81c185667e45431
+Description-en: Interactive high-level object-oriented language (version 2.5)
+ Version 2.5 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+
+Package: python2.5-minimal
+Description-md5: 6e7767cc8d8382f399c8011084adda66
+Description-en: Minimal subset of the Python language (version 2.5)
+ This package contains the interpreter and some essential modules.  It can
+ be used in the boot process for some basic tasks.
+ See /usr/share/doc/python2.5-minimal/README.Debian for a list of the modules
+ contained in this package.
+
+Package: python2.5-dev
+Description-md5: 602eae619067f6f515b5747b8eef1212
+Description-en: Header files and a static library for Python (version 2.5)
+ Header files, a static library and development tools for building
+ Python (version 2.5) modules, extending the Python interpreter or embedding
+ Python (version 2.5) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+
+Package: python2.5-dbg
+Description-md5: dfec83bf2c3a6f13cf86f3926d2bb9ea
+Description-en: Debug Build of the Python Interpreter (version 2.5)
+ Python interpreter configured with --pydebug. Dynamically loaded modules are
+ searched in /usr/lib/python2.5/lib-dynload/debug first.
+
+Package: python2.5-examples
+Description-md5: 8e43cedb91cbdce8cad016b0b71c81d0
+Description-en: Examples for the Python language (version 2.5)
+ Examples, Demos and Tools for Python (version 2.5). These are files included
+ in the upstream Python distribution (version 2.5).
+
+Package: idle-python2.5
+Description-md5: 3c162898aa59c890e07cd85843ccbb6d
+Description-en: IDE for Python (version 2.5) using Tkinter
+ IDLE is an Integrated Development Environment for Python (version 2.5).
+ IDLE is written using Tkinter and therefore quite platform-independent.
+
+Package: python2.5-doc
+Description-md5: 3cc33f2d827294f8b53bd6d451100468
+Description-en: Documentation for the high-level object-oriented language Python (version 2.5)
+ This is the official set of documentation for the interactive high-level
+ object-oriented language Python (version 2.5). All documents are provided
+ in HTML format, some in info format. The package consists of ten documents:
+ .
+ * What's New in Python 2.5
+ * Tutorial
+ * Python Library Reference
+ * Macintosh Module Reference
+ * Python Language Reference
+ * Extending and Embedding Python
+ * Python/C API Reference
+ * Installing Python Modules
+ * Documenting Python
+ * Distributing Python Modules
+
+Package: python2.6-examples
+Description-md5: a7cfe60da2dbd4d4af91039056dc943e
+Description-en: Examples for the Python language (version 2.6)
+ Examples, Demos and Tools for Python (version 2.6). These are files included
+ in the upstream Python distribution (version 2.6).
+
+Package: idle-python2.6
+Description-md5: f2ddc7600a849773322f4e6a11e95ce3
+Description-en: IDE for Python (version 2.6) using Tkinter
+ IDLE is an Integrated Development Environment for Python (version 2.6).
+ IDLE is written using Tkinter and therefore quite platform-independent.
+
+Package: python2.6
+Description-md5: 299812eda096fd800d082991c3f46292
+Description-en: Interactive high-level object-oriented language (version 2.6)
+ Version 2.6 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+
+Package: python2.6-minimal
+Description-md5: 3fa4e325a504e99d803a980700d78fcc
+Description-en: Minimal subset of the Python language (version 2.6)
+ This package contains the interpreter and some essential modules.  It can
+ be used in the boot process for some basic tasks.
+ See /usr/share/doc/python2.6-minimal/README.Debian for a list of the modules
+ contained in this package.
+
+Package: python2.6-dev
+Description-md5: 461a93765abdd01a42fd0ef858259366
+Description-en: Header files and a static library for Python (version 2.6)
+ Header files, a static library and development tools for building
+ Python (version 2.6) modules, extending the Python interpreter or embedding
+ Python (version 2.6) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+
+Package: python2.6-dbg
+Description-md5: a486d12533b19b5ce264721dfb9ef6b6
+Description-en: Debug Build of the Python Interpreter (version 2.6)
+ Python interpreter configured with --pydebug. Dynamically loaded modules are
+ searched in /usr/lib/python2.6/lib-dynload/debug first.
+
+Package: libpython2.6
+Description-md5: a51e2dcc0894c25eb3570c0be641b637
+Description-en: Shared Python runtime library (version 2.6)
+ Version 2.6 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the shared runtime library, normally not needed
+ for programs using the statically linked interpreter.
+
+Package: python2.6-doc
+Description-md5: 6317a08a40ba810e1b73ecd562356b24
+Description-en: Documentation for the high-level object-oriented language Python (version 2.6)
+ This is the official set of documentation for the interactive high-level
+ object-oriented language Python (version 2.6). All documents are provided
+ in HTML format. The package consists of ten documents:
+ .
+ * What's New in Python 2.6
+ * Tutorial
+ * Python Library Reference
+ * Macintosh Module Reference
+ * Python Language Reference
+ * Extending and Embedding Python
+ * Python/C API Reference
+ * Installing Python Modules
+ * Documenting Python
+ * Distributing Python Modules
+
+Package: python3.1
+Description-md5: 8eaa3b95e0b1da9c1e09ff1bb324fb1c
+Description-en: Interactive high-level object-oriented language (version 3.1)
+ Version 3.1 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+
+Package: python3.1-minimal
+Description-md5: 9d853588d415b40bc7692ce2e4d53c4a
+Description-en: Minimal subset of the Python language (version 3.1)
+ This package contains the interpreter and some essential modules.  It can
+ be used in the boot process for some basic tasks.
+ See /usr/share/doc/python3.1-minimal/README.Debian for a list of the modules
+ contained in this package.
+
+Package: libpython3.1
+Description-md5: 35d6c00932e5e18592741368da4043de
+Description-en: Shared Python runtime library (version 3.1)
+ Version 3.1 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the shared runtime library, normally not needed
+ for programs using the statically linked interpreter.
+
+Package: python3.1-dev
+Description-md5: 160f7b995d8496d9c10e99104fc0bf6c
+Description-en: Header files and a static library for Python (version 3.1)
+ Header files, a static library and development tools for building
+ Python (version 3.1) modules, extending the Python interpreter or embedding
+ Python (version 3.1) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+
+Package: python3.1-dbg
+Description-md5: e09c2d30f190d1e4936b464ffd6874cb
+Description-en: Debug Build of the Python Interpreter (version 3.1)
+ Python interpreter configured with --pydebug. Dynamically loaded modules are
+ searched in /usr/lib/python3.1/lib-dynload/debug first.
+
+Package: python2.6-tk
+Description-md5: 865060e6a6e84f4536c81b0779ac04b5
+Description-en: Tkinter - Writing Tk applications with Python (version 2.6)
+ A module for writing portable GUI applications with Python (version 2.6)
+ using Tk. Also known as Tkinter.
+
+Package: python2.6-gdbm
+Description-md5: 770b3ad4efcb60c69d27107088a9cc37
+Description-en: GNU dbm database support for Python (version 2.6)
+ GNU dbm database module for Python (version 2.6). Install this if you want to
+ create or read GNU dbm database files with Python.
+
+Package: python2.6-tk-dbg
+Description-md5: b1c34c5c87f7abf5be587439c7ae612c
+Description-en: Tkinter - Writing Tk applications with Python (version 2.6 debug extension)
+ A module for writing portable GUI applications with Python (version 2.6)
+ using Tk. Also known as Tkinter.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: python2.6-gdbm-dbg
+Description-md5: a04154c911847a00686499a9bfe75f41
+Description-en: GNU dbm database support for Python (version 2.6 debug extension)
+ GNU dbm database module for Python (version 2.6). Install this if you want to
+ create or read GNU dbm database files with Python.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: python3.1-examples
+Description-md5: b1fcd389026613f47e2b43558f726c50
+Description-en: Examples for the Python language (version 3.1)
+ Examples, Demos and Tools for Python (version 3.1). These are files included
+ in the upstream Python distribution (version 3.1).
+
+Package: idle-python3.1
+Description-md5: e302f249cf0a2137c1ff51e98eeda69b
+Description-en: IDE for Python (version 3.1) using Tkinter
+ IDLE is an Integrated Development Environment for Python (version 3.1).
+ IDLE is written using Tkinter and therefore quite platform-independent.
+
+Package: python3.1-doc
+Description-md5: 064c4040026e1854df3cba842825c556
+Description-en: Documentation for the high-level object-oriented language Python (version 3.1)
+ This is the official set of documentation for the interactive high-level
+ object-oriented language Python (version 3.1). All documents are provided
+ in HTML format. The package consists of ten documents:
+ .
+ * What's New in Python 3.1
+ * Tutorial
+ * Python Library Reference
+ * Macintosh Module Reference
+ * Python Language Reference
+ * Extending and Embedding Python
+ * Python/C API Reference
+ * Installing Python Modules
+ * Documenting Python
+ * Distributing Python Modules
+
+Package: python3.2
+Description-md5: 22961d3731f772a0537be5fe908ed59f
+Description-en: Interactive high-level object-oriented language (version 3.2)
+ Version 3.2 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+
+Package: python3.2-minimal
+Description-md5: e649e5b1acc041f7c83b04a69830c1da
+Description-en: Minimal subset of the Python language (version 3.2)
+ This package contains the interpreter and some essential modules.  It can
+ be used in the boot process for some basic tasks.
+ See /usr/share/doc/python3.2-minimal/README.Debian for a list of the modules
+ contained in this package.
+
+Package: libpython3.2
+Description-md5: f700874645ddf215a34a25d021eb8f1f
+Description-en: Shared Python runtime library (version 3.2)
+ Version 3.2 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the shared runtime library, normally not needed
+ for programs using the statically linked interpreter.
+
+Package: python3.2-dev
+Description-md5: 5215affdff94e651210d565a528027af
+Description-en: Header files and a static library for Python (version 3.2)
+ Header files, a static library and development tools for building
+ Python (version 3.2) modules, extending the Python interpreter or embedding
+ Python (version 3.2) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+
+Package: python3.2-dbg
+Description-md5: e055ad84419ec4d7da9014f57cd79e4f
+Description-en: Debug Build of the Python Interpreter (version 3.2)
+ Python interpreter configured with --pydebug. Dynamically loaded modules are
+ searched in /usr/lib/python3.2/lib-dynload/debug first.
+
+Package: python3.2-examples
+Description-md5: 259f554a423d2314e64f02cf3c0be8a0
+Description-en: Examples for the Python language (version 3.2)
+ Examples, Demos and Tools for Python (version 3.2). These are files included
+ in the upstream Python distribution (version 3.2).
+
+Package: idle-python3.2
+Description-md5: a303f637e583fe53917ebc74d235c5a2
+Description-en: IDE for Python (version 3.2) using Tkinter
+ IDLE is an Integrated Development Environment for Python (version 3.2).
+ IDLE is written using Tkinter and therefore quite platform-independent.
+
+Package: python3.2-doc
+Description-md5: 38065ca7346f7817038a65655ffff584
+Description-en: Documentation for the high-level object-oriented language Python (version 3.2)
+ This is the official set of documentation for the interactive high-level
+ object-oriented language Python (version 3.2). All documents are provided
+ in HTML format. The package consists of ten documents:
+ .
+ * What's New in Python 3.2
+ * Tutorial
+ * Python Library Reference
+ * Macintosh Module Reference
+ * Python Language Reference
+ * Extending and Embedding Python
+ * Python/C API Reference
+ * Installing Python Modules
+ * Documenting Python
+ * Distributing Python Modules
+
+Package: python2.5-tk
+Description-md5: 0814244147fa5277a3d033a0d85a9d19
+Description-en: Tkinter - Writing Tk applications with Python (version 2.5)
+ A module for writing portable GUI applications with Python (version 2.5)
+ using Tk. Also known as Tkinter.
+
+Package: python2.5-gdbm
+Description-md5: f4a16d7336a1fc5106669443bcf9a409
+Description-en: GNU dbm database support for Python (version 2.5)
+ GNU dbm database module for Python (version 2.5). Install this if you want to
+ create or read GNU dbm database files with Python.
+
+Package: python2.5-tk-dbg
+Description-md5: 8c140b6359f6bc39be84aadb4a429496
+Description-en: Tkinter - Writing Tk applications with Python (version 2.5 debug extension)
+ A module for writing portable GUI applications with Python (version 2.5)
+ using Tk. Also known as Tkinter.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: python2.5-gdbm-dbg
+Description-md5: 5aa573b826b2fa48f07e3172b3e372dc
+Description-en: GNU dbm database support for Python (version 2.5 debug extension)
+ GNU dbm database module for Python (version 2.5). Install this if you want to
+ create or read GNU dbm database files with Python.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: python3.2-tk
+Description-md5: a752e9d0826e883f210423c911746085
+Description-en: Tkinter - Writing Tk applications with Python (version 3.2)
+ A module for writing portable GUI applications with Python (version 3.2)
+ using Tk. Also known as Tkinter.
+
+Package: python3.2-gdbm
+Description-md5: 704faa50a1cc8c206070c085b43af66c
+Description-en: GNU dbm database support for Python (version 3.2)
+ GNU dbm database module for Python (version 3.2). Install this if you want to
+ create or read GNU dbm database files with Python.
+
+Package: python3.2-tk-dbg
+Description-md5: 9f37d89e411d8d218c1d2f27ffbf6f5b
+Description-en: Tkinter - Writing Tk applications with Python (version 3.2 debug extension)
+ A module for writing portable GUI applications with Python (version 3.2)
+ using Tk. Also known as Tkinter.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: python3.2-gdbm-dbg
+Description-md5: 76830c91ccc841f8351cebca971dcf8f
+Description-en: GNU dbm database support for Python (version 3.2 debug extension)
+ GNU dbm database module for Python (version 3.2). Install this if you want to
+ create or read GNU dbm database files with Python.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: python3.3
+Description-md5: d77f2abf1b0095e2e7bf5e21022e3d54
+Description-en: Interactive high-level object-oriented language (version 3.3)
+ Python is a high-level, interactive, object-oriented language. Its 3.3 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+
+Package: python3.3-minimal
+Description-md5: 6233066c148b19f678deee22a6a2e61d
+Description-en: Minimal subset of the Python language (version 3.3)
+ This package contains the interpreter and some essential modules.  It can
+ be used in the boot process for some basic tasks.
+ See /usr/share/doc/python3.3-minimal/README.Debian for a list of the modules
+ contained in this package.
+
+Package: libpython3.3
+Description-md5: 337a95ddb67b8ca2cc90263c203ca117
+Description-en: Shared Python runtime library (version 3.3)
+ Python is a high-level, interactive, object-oriented language. Its 3.3 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the shared runtime library, normally not needed
+ for programs using the statically linked interpreter.
+
+Package: python3.3-dev
+Description-md5: c0ed12ef8aaf6bcb18ac2074f5487d17
+Description-en: Header files and a static library for Python (v3.3)
+ Header files, a static library and development tools for building
+ Python (v3.3) modules, extending the Python interpreter or embedding
+ Python (v3.3) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+
+Package: python3.3-dbg
+Description-md5: b3674e5098bd5e54e4446192696cbb2e
+Description-en: Debug Build of the Python Interpreter (version 3.3)
+ The package holds two things:
+ .
+ - A Python interpreter configured with --pydebug. Dynamically loaded modules
+ are searched as <foo>_d.so first. Third party extensions need a separate
+ build to be used by this interpreter.
+ - Debug information for standard python interpreter and extensions.
+ .
+ See the README.debug for more information.
+
+Package: python3.3-examples
+Description-md5: 47348d11732a1f26bdd561fc1c509b82
+Description-en: Examples for the Python language (v3.3)
+ Examples, Demos and Tools for Python (v3.3). These are files included in
+ the upstream Python distribution (v3.3).
+
+Package: idle-python3.3
+Description-md5: 2b9abddd01ad9591f2c4142fa7d37ddb
+Description-en: IDE for Python (v3.3) using Tkinter
+ IDLE is an Integrated Development Environment for Python (v3.3).
+ IDLE is written using Tkinter and therefore quite platform-independent.
+
+Package: python3.3-doc
+Description-md5: 422ae539c4a519ecc4be85dacf15b344
+Description-en: Documentation for the high-level object-oriented language Python (v3.3)
+ These is the official set of documentation for the interactive high-level
+ object-oriented language Python (v3.3). All documents are provided
+ in HTML format. The package consists of ten documents:
+ .
+ * What's New in Python3.3
+ * Tutorial
+ * Python Library Reference
+ * Macintosh Module Reference
+ * Python Language Reference
+ * Extending and Embedding Python
+ * Python/C API Reference
+ * Installing Python Modules
+ * Documenting Python
+ * Distributing Python Modules
+
+Package: python3.1-tk
+Description-md5: ff4a597a49bcb9a6578ff200b5ea7a09
+Description-en: Tkinter - Writing Tk applications with Python (version 3.1)
+ A module for writing portable GUI applications with Python (version 3.1)
+ using Tk. Also known as Tkinter.
+
+Package: python3.1-gdbm
+Description-md5: 6c5508017f9dc9b499d804409277757e
+Description-en: GNU dbm database support for Python (version 3.1)
+ GNU dbm database module for Python (version 3.1). Install this if you want to
+ create or read GNU dbm database files with Python.
+
+Package: python3.1-tk-dbg
+Description-md5: d4e96655406272ab81973fcfa7e193ad
+Description-en: Tkinter - Writing Tk applications with Python (version 3.1 debug extension)
+ A module for writing portable GUI applications with Python (version 3.1)
+ using Tk. Also known as Tkinter.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: python3.1-gdbm-dbg
+Description-md5: 189337807ba930d6dc924ef01b100897
+Description-en: GNU dbm database support for Python (version 3.1 debug extension)
+ GNU dbm database module for Python (version 3.1). Install this if you want to
+ create or read GNU dbm database files with Python.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: libpython2.5
+Description-md5: 5da5f8a2b423dd8714c9f05afecbfc2e
+Description-en: Shared Python runtime library (version 2.5)
+ Version 2.5 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the shared runtime library, normally not needed
+ for programs using the statically linked interpreter.
+
+Package: python2.5-complete
+Description-md5: 32a400a1ca81aa22dde638cceab6b854
+Description-en: Interactive high-level object-oriented language (version 2.5)
+ Version 2.5 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package depends on all individual packages that were generated from the
+ python2.5 source package.
+
+Package: python2.6-complete
+Description-md5: 316ae141ad10b91d454427241ff2b8b6
+Description-en: Interactive high-level object-oriented language (version 2.6)
+ Version 2.6 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package depends on all individual packages that were generated from the
+ python2.6 source package.
+
+Package: python3.1-complete
+Description-md5: b27535904a7c995b4813d2855ada9df2
+Description-en: Interactive high-level object-oriented language (version 3.1)
+ Version 3.1 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package depends on all individual packages that were generated from the
+ python3.1 source package.
+
+Package: python3.2-complete
+Description-md5: 79a457054b26c97710541843a3259cc9
+Description-en: Interactive high-level object-oriented language (version 3.2)
+ Version 3.2 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package depends on all individual packages that were generated from the
+ python3.2 source package.
+
+Package: libpython3.3-stdlib
+Description-md5: c9284437f7a741c2dd12f6e386b4a611
+Description-en: Interactive high-level object-oriented language (standard library, version 3.3)
+ Python is a high-level, interactive, object-oriented language. Its 3.3 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains Python 3.3's standard library. It is normally not
+ used on its own, but as a dependency of python3.3.
+
+Package: libpython3.3-minimal
+Description-md5: ff0c8edca7a14a0e873a7750cb94e48f
+Description-en: Minimal subset of the Python language (version 3.3)
+ This package contains some essential modules. It is normally not
+ used on its own, but as a dependency of python3.3-minimal.
+
+Package: libpython3.3-dev
+Description-md5: 7b432cb6f91ea62270751aad16aa5fe3
+Description-en: Header files and a static library for Python (v3.3)
+ Header files, a static library and development tools for building
+ Python (v3.3) modules, extending the Python interpreter or embedding
+ Python (v3.3) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+ .
+ This package contains development files. It is normally not
+ used on it's own, but as a dependency of python3.3-dev.
+
+Package: libpython3.3-dbg
+Description-md5: 5c9af14195b8ebe6b06100159e231054
+Description-en: Debug Build of the Python Interpreter (version 3.3)
+ The package holds two things:
+ .
+ - Extensions for a Python interpreter configured with --pydebug.
+ - Debug information for standard python extensions.
+ .
+ See the README.debug for more information.
+
+Package: python2.4-complete
+Description-md5: c39298fd77d1decc873b7cccd84229b4
+Description-en: Interactive high-level object-oriented language (version 2.4)
+ Version 2.4 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package depends on all individual packages that were generated from the
+ python2.4 source package.
+
+Package: libpython2.4
+Description-md5: 446850bf7601ea50a606cfb615681f6f
+Description-en: Shared Python runtime library (version 2.4)
+ Version 2.4 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the shared runtime library, normally not needed
+ for programs using the statically linked interpreter.
+
+Package: python2.4-tk-dbg
+Description-md5: 46cc8b40526b78caba1be22daa587b56
+Description-en: Tkinter - Writing Tk applications with Python (version 2.4 debug extension)
+ A module for writing portable GUI applications with Python (version 2.4)
+ using Tk. Also known as Tkinter.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: python2.4-gdbm-dbg
+Description-md5: a8772ac5310ca342a1138a7aa1826d84
+Description-en: GNU dbm database support for Python (version 2.4 debug extension)
+ GNU dbm database module for Python (version 2.4). Install this if you want to
+ create or read GNU dbm database files with Python.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: python3.3-complete
+Description-md5: bba8867f715920f83c7984c2e7e9eb60
+Description-en: Interactive high-level object-oriented language (version 3.3)
+ Version 3.3 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package depends on all individual packages that were generated from the
+ python3.3 source package.
+
+Package: python3.3-tk
+Description-md5: 0f7c014843e3f2a2e46b7c355b5440e7
+Description-en: Tkinter - Writing Tk applications with Python (transitional package)
+ A module for writing portable GUI applications with Python (version 3.3)
+ using Tk. Also known as Tkinter.
+ .
+ This package is a transitional package. It can safely be removed.
+
+Package: python3.3-gdbm
+Description-md5: 268d732e685b640f7b9b6c2eb4df2c61
+Description-en: GNU dbm database support for Python (transitional package)
+ GNU dbm database module for Python (version 3.3). Install this if you want to
+ create or read GNU dbm database files with Python.
+ .
+ This package is a transitional package. It can safely be removed.
+
+Package: python3.3-tk-dbg
+Description-md5: 0f7c014843e3f2a2e46b7c355b5440e7
+Description-en: Tkinter - Writing Tk applications with Python (transitional package)
+ A module for writing portable GUI applications with Python (version 3.3)
+ using Tk. Also known as Tkinter.
+ .
+ This package is a transitional package. It can safely be removed.
+
+Package: python3.3-gdbm-dbg
+Description-md5: 268d732e685b640f7b9b6c2eb4df2c61
+Description-en: GNU dbm database support for Python (transitional package)
+ GNU dbm database module for Python (version 3.3). Install this if you want to
+ create or read GNU dbm database files with Python.
+ .
+ This package is a transitional package. It can safely be removed.
+
+Package: libpython3.3-testsuite
+Description-md5: 1db9210c7a31dae14e26d3f378d2eb7b
+Description-en: Testsuite for the Python standard library (v3.3)
+ The complete testsuite for the Python standard library.  Note that
+ a subset is found in the libpython3.3-stdlib package, which should
+ be enough for other packages to use (please do not build-depend
+ on this package, but file a bug report to include additional
+ testsuite files in the libpython3.3-stdlib package).
+
+Package: python3.4
+Description-md5: 1ebe097d3a9a32726baaf299e5c158ab
+Description-en: Interactive high-level object-oriented language (version 3.4)
+ Python is a high-level, interactive, object-oriented language. Its 3.4 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+
+Package: libpython3.4-stdlib
+Description-md5: 5f5cf25e1bb759cba0ee83f7ab4b322f
+Description-en: Interactive high-level object-oriented language (standard library, version 3.4)
+ Python is a high-level, interactive, object-oriented language. Its 3.4 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains Python 3.4's standard library. It is normally not
+ used on its own, but as a dependency of python3.4.
+
+Package: python3.4-minimal
+Description-md5: 4e4ca87fe0b3264c74565112cce29495
+Description-en: Minimal subset of the Python language (version 3.4)
+ This package contains the interpreter and some essential modules.  It can
+ be used in the boot process for some basic tasks.
+ See /usr/share/doc/python3.4-minimal/README.Debian for a list of the modules
+ contained in this package.
+
+Package: libpython3.4-minimal
+Description-md5: b400cad5c9c2409868b0fdc4c70964b4
+Description-en: Minimal subset of the Python language (version 3.4)
+ This package contains some essential modules. It is normally not
+ used on its own, but as a dependency of python3.4-minimal.
+
+Package: libpython3.4
+Description-md5: faf28cda6555e796024ceccc49dad30d
+Description-en: Shared Python runtime library (version 3.4)
+ Python is a high-level, interactive, object-oriented language. Its 3.4 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the shared runtime library, normally not needed
+ for programs using the statically linked interpreter.
+
+Package: python3.4-dev
+Description-md5: ec6a2bf80bfa9d5cd417d85704c5e498
+Description-en: Header files and a static library for Python (v3.4)
+ Header files, a static library and development tools for building
+ Python (v3.4) modules, extending the Python interpreter or embedding
+ Python (v3.4) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+
+Package: libpython3.4-dev
+Description-md5: 50e4b1c03c506c8b35b04244f97e0857
+Description-en: Header files and a static library for Python (v3.4)
+ Header files, a static library and development tools for building
+ Python (v3.4) modules, extending the Python interpreter or embedding
+ Python (v3.4) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+ .
+ This package contains development files. It is normally not
+ used on its own, but as a dependency of python3.4-dev.
+
+Package: python3.4-dbg
+Description-md5: f73392d043e4bb9aeecb4c03505fbb8f
+Description-en: Debug Build of the Python Interpreter (version 3.4)
+ The package holds two things:
+ .
+ - A Python interpreter configured with --pydebug. Dynamically loaded modules
+ are searched as <foo>_d.so first. Third party extensions need a separate
+ build to be used by this interpreter.
+ - Debug information for standard python interpreter and extensions.
+ .
+ See the README.debug for more information.
+
+Package: libpython3.4-dbg
+Description-md5: c6fdd7d4eb18c794067e2deacbcc288f
+Description-en: Debug Build of the Python Interpreter (version 3.4)
+ The package holds two things:
+ .
+ - Extensions for a Python interpreter configured with --pydebug.
+ - Debug information for standard python extensions.
+ .
+ See the README.debug for more information.
+
+Package: python3.4-examples
+Description-md5: 21c19f2e05b41b0c19a74ed61f2cbc0d
+Description-en: Examples for the Python language (v3.4)
+ Examples, Demos and Tools for Python (v3.4). These are files included in
+ the upstream Python distribution (v3.4).
+
+Package: libpython3.4-testsuite
+Description-md5: 97b7ab7779be0cf84d6c1bfa36fdfc49
+Description-en: Testsuite for the Python standard library (v3.4)
+ The complete testsuite for the Python standard library.  Note that
+ a subset is found in the libpython3.4-stdlib package, which should
+ be enough for other packages to use (please do not build-depend
+ on this package, but file a bug report to include additional
+ testsuite files in the libpython3.4-stdlib package).
+
+Package: idle-python3.4
+Description-md5: e512a89469c399100e6c8d9b845e1aea
+Description-en: IDE for Python (v3.4) using Tkinter
+ IDLE is an Integrated Development Environment for Python (v3.4).
+ IDLE is written using Tkinter and therefore quite platform-independent.
+
+Package: python3.4-doc
+Description-md5: 4cc1b5362d921e58f89d10dabf159d43
+Description-en: Documentation for the high-level object-oriented language Python (v3.4)
+ These is the official set of documentation for the interactive high-level
+ object-oriented language Python (v3.4). All documents are provided
+ in HTML format. The package consists of ten documents:
+ .
+ * What's New in Python3.4
+ * Tutorial
+ * Python Library Reference
+ * Macintosh Module Reference
+ * Python Language Reference
+ * Extending and Embedding Python
+ * Python/C API Reference
+ * Installing Python Modules
+ * Documenting Python
+ * Distributing Python Modules
+
+Package: python2.3-minimal
+Description-md5: 9d209b039a719cae5c259bdd8e1ee517
+Description-en: Minimal subset of the Python language (version 2.3)
+ This package contains the interpreter and some essential modules.  It can
+ be used in the boot process for some basic tasks.
+ See /usr/share/doc/python2.3-minimal/README.Debian for a list of the modules
+ contained in this package.
+
+Package: libpython2.3
+Description-md5: ec3d66583e7b89cb7d93902bbd7e2889
+Description-en: Shared Python runtime library (version 2.3)
+ Version 2.3 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the shared runtime library, normally not needed
+ for programs using the statically linked interpreter.
+
+Package: python2.3-tk-dbg
+Description-md5: 959848baa47cdcd8c8f3480d76fc2d2e
+Description-en: Tkinter - Writing Tk applications with Python (version 2.3 debug extension)
+ A module for writing portable GUI applications with Python (version 2.3)
+ using Tk. Also known as Tkinter.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: python2.3-gdbm-dbg
+Description-md5: a040bf36a39348587bac08ebb481b13a
+Description-en: GNU dbm database support for Python (version 2.3 debug extension)
+ GNU dbm database module for Python (version 2.3). Install this if you want to
+ create or read GNU dbm database files with Python.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: python2.3-complete
+Description-md5: 0f5d46a475dd4812fb84873a1a6d06ff
+Description-en: Interactive high-level object-oriented language (version 2.3)
+ Version 2.3 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package depends on all individual packages that were generated from the
+ python2.3 source package.
+
+Package: python3.4-tk
+Description-md5: d0c4536ed3de7f5e2db010f4c673e0ea
+Description-en: Tkinter - Writing Tk applications with Python (transitional package)
+ A module for writing portable GUI applications with Python (version 3.4)
+ using Tk. Also known as Tkinter.
+ .
+ This package is a transitional package. It can safely be removed.
+
+Package: python3.4-gdbm
+Description-md5: 0536374c67bef5c4a4b37a0a5e82f333
+Description-en: GNU dbm database support for Python (transitional package)
+ GNU dbm database module for Python (version 3.4). Install this if you want to
+ create or read GNU dbm database files with Python.
+ .
+ This package is a transitional package. It can safely be removed.
+
+Package: python3.4-tk-dbg
+Description-md5: d0c4536ed3de7f5e2db010f4c673e0ea
+Description-en: Tkinter - Writing Tk applications with Python (transitional package)
+ A module for writing portable GUI applications with Python (version 3.4)
+ using Tk. Also known as Tkinter.
+ .
+ This package is a transitional package. It can safely be removed.
+
+Package: python3.4-gdbm-dbg
+Description-md5: 0536374c67bef5c4a4b37a0a5e82f333
+Description-en: GNU dbm database support for Python (transitional package)
+ GNU dbm database module for Python (version 3.4). Install this if you want to
+ create or read GNU dbm database files with Python.
+ .
+ This package is a transitional package. It can safely be removed.
+
+Package: python3.4-complete
+Description-md5: 8a9231feae2b9c547105ea7c0747c68b
+Description-en: Interactive high-level object-oriented language (version 3.4)
+ Version 3.4 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package depends on all individual packages that were generated from the
+ python3.4 source package.
+
+Package: libpython3.4-tk
+Description-md5: 9c6b9d43a6dea185bdb4012126f54d20
+Description-en: Tkinter - Writing Tk applications with Python (version 3.4)
+ A module for writing portable GUI applications with Python (version 3.4)
+ using Tk. Also known as Tkinter.
+
+Package: libpython3.4-gdbm
+Description-md5: 2ff6532419b1668caf1a790314a8af01
+Description-en: GNU dbm database support for Python (version 3.4)
+ GNU dbm database module for Python (version 3.4). Install this if you want to
+ create or read GNU dbm database files with Python.
+
+Package: libpython3.4-tk-dbg
+Description-md5: fe7b681f048a96985c0e23b7f6d66c3b
+Description-en: Tkinter - Writing Tk applications with Python (version 3.4 debug extension)
+ A module for writing portable GUI applications with Python (version 3.4)
+ using Tk. Also known as Tkinter.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: libpython3.4-gdbm-dbg
+Description-md5: aa2ef1ae87e8221b03bd26ee62d14501
+Description-en: GNU dbm database support for Python (version 3.4 debug extension)
+ GNU dbm database module for Python (version 3.4). Install this if you want to
+ create or read GNU dbm database files with Python.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: python3.4-venv
+Description-md5: 20fd7c4de82176fbc277b688f8b92851
+Description-en: Interactive high-level object-oriented language (pyvenv binary, version 3.4)
+ Python is a high-level, interactive, object-oriented language. Its 3.4 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the pyvenv-3.4 binary.
+
+Package: libpython3.3-tk
+Description-md5: 127467797cdba0661d87cac9bcbc5c1a
+Description-en: Tkinter - Writing Tk applications with Python (version 3.3)
+ A module for writing portable GUI applications with Python (version 3.3)
+ using Tk. Also known as Tkinter.
+
+Package: libpython3.3-gdbm
+Description-md5: feb64fbf19221d3e4418c891a302ea45
+Description-en: GNU dbm database support for Python (version 3.3)
+ GNU dbm database module for Python (version 3.3). Install this if you want to
+ create or read GNU dbm database files with Python.
+
+Package: libpython3.3-tk-dbg
+Description-md5: 59d824513655a35c12a3814399457430
+Description-en: Tkinter - Writing Tk applications with Python (version 3.3 debug extension)
+ A module for writing portable GUI applications with Python (version 3.3)
+ using Tk. Also known as Tkinter.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: libpython3.3-gdbm-dbg
+Description-md5: e818c7eb2ddee908b2fa740bc66bc994
+Description-en: GNU dbm database support for Python (version 3.3 debug extension)
+ GNU dbm database module for Python (version 3.3). Install this if you want to
+ create or read GNU dbm database files with Python.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: libpython3.6-dbg
+Description-md5: 5a076902ff2babe07b884c5c00dba6db
+Description-en: Debug Build of the Python Interpreter (version 3.6)
+ The package holds two things:
+ .
+ - Extensions for a Python interpreter configured with --pydebug.
+ - Debug information for standard python extensions.
+ .
+ See the README.debug for more information.
+
+Package: libpython3.6
+Description-md5: 856009def9edf1363ae6d0b9bc19e813
+Description-en: Shared Python runtime library (version 3.6)
+ Python is a high-level, interactive, object-oriented language. Its 3.6 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the shared runtime library, normally not needed
+ for programs using the statically linked interpreter.
+
+Package: libpython3.6-dev
+Description-md5: deaf9211abb74d4464ab0d2cbef5e8f1
+Description-en: Header files and a static library for Python (v3.6)
+ Header files, a static library and development tools for building
+ Python (v3.6) modules, extending the Python interpreter or embedding
+ Python (v3.6) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+ .
+ This package contains development files. It is normally not
+ used on it's own, but as a dependency of python3.6-dev.
+
+Package: libpython3.6-minimal
+Description-md5: c67234928517b18757bcb87c43d7bb2c
+Description-en: Minimal subset of the Python language (version 3.6)
+ This package contains some essential modules. It is normally not
+ used on it's own, but as a dependency of python3.6-minimal.
+
+Package: libpython3.6-stdlib
+Description-md5: 2937913cf41d1b295781053078fbb48c
+Description-en: Interactive high-level object-oriented language (standard library, version 3.6)
+ Python is a high-level, interactive, object-oriented language. Its 3.6 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains Python 3.6's standard library. It is normally not
+ used on its own, but as a dependency of python3.6.
+
+Package: python3.6-dbg
+Description-md5: cdc1a7cd86cf9cd4c1c51a8591c52faa
+Description-en: Debug Build of the Python Interpreter (version 3.6)
+ The package holds two things:
+ .
+ - A Python interpreter configured with --pydebug. Dynamically loaded modules
+ are searched as <foo>_d.so first. Third party extensions need a separate
+ build to be used by this interpreter.
+ - Debug information for standard python interpreter and extensions.
+ .
+ See the README.debug for more information.
+
+Package: python3.6-dev
+Description-md5: 3ebd6cbddc7842ffc01dc0208baddd1e
+Description-en: Header files and a static library for Python (v3.6)
+ Header files, a static library and development tools for building
+ Python (v3.6) modules, extending the Python interpreter or embedding
+ Python (v3.6) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+
+Package: python3.6-minimal
+Description-md5: c958c26a48065f1454d854eaa48465db
+Description-en: Minimal subset of the Python language (version 3.6)
+ This package contains the interpreter and some essential modules.  It can
+ be used in the boot process for some basic tasks.
+ See /usr/share/doc/python3.6-minimal/README.Debian for a list of the modules
+ contained in this package.
+
+Package: python3.6-venv
+Description-md5: 8446f3e98e0dccd84caf27c6a968a630
+Description-en: Interactive high-level object-oriented language (pyvenv binary, version 3.6)
+ Python is a high-level, interactive, object-oriented language. Its 3.6 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the pyvenv-3.6 binary.
+
+Package: python3.6
+Description-md5: 1cf2a02983e92d8a6a9dfba4c30460a0
+Description-en: Interactive high-level object-oriented language (version 3.6)
+ Python is a high-level, interactive, object-oriented language. Its 3.6 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+
+Package: idle-python3.6
+Description-md5: 7108c3959b5bccbfeb92bd5af604c9d3
+Description-en: IDE for Python (v3.6) using Tkinter
+ IDLE is an Integrated Development Environment for Python (v3.6).
+ IDLE is written using Tkinter and therefore quite platform-independent.
+
+Package: libpython3.6-testsuite
+Description-md5: 170663346e34ffdb39c2828c211cefeb
+Description-en: Testsuite for the Python standard library (v3.6)
+ The complete testsuite for the Python standard library.  Note that
+ a subset is found in the libpython3.6-stdlib package, which should
+ be enough for other packages to use (please do not build-depend
+ on this package, but file a bug report to include additional
+ testsuite files in the libpython3.6-stdlib package).
+
+Package: python3.6-doc
+Description-md5: 05c3641ac54c7f694902fa0914073dba
+Description-en: Documentation for the high-level object-oriented language Python (v3.6)
+ These is the official set of documentation for the interactive high-level
+ object-oriented language Python (v3.6). All documents are provided
+ in HTML format. The package consists of ten documents:
+ .
+ * What's New in Python3.6
+ * Tutorial
+ * Python Library Reference
+ * Macintosh Module Reference
+ * Python Language Reference
+ * Extending and Embedding Python
+ * Python/C API Reference
+ * Installing Python Modules
+ * Documenting Python
+ * Distributing Python Modules
+
+Package: python3.6-examples
+Description-md5: 4124056c28bc6b66629b7ef7667f8473
+Description-en: Examples for the Python language (v3.6)
+ Examples, Demos and Tools for Python (v3.6). These are files included in
+ the upstream Python distribution (v3.6).
+
+Package: python3.6-gdbm-dbg
+Description-md5: 462dd55812b78eed740444420b52180a
+Description-en: GNU dbm database support for Python (version 3.6 debug extension)
+ GNU dbm database module for Python (version 3.6). Install this if you want to
+ create or read GNU dbm database files with Python.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: python3.6-gdbm
+Description-md5: 8969ea1d32605b76d7bfe7e30aafddf1
+Description-en: GNU dbm database support for Python (version 3.6)
+ GNU dbm database module for Python (version 3.6). Install this if you want to
+ create or read GNU dbm database files with Python.
+
+Package: python3.6-tk-dbg
+Description-md5: 88745e404e0235b11cc01ebb88e241c5
+Description-en: Tkinter - Writing Tk applications with Python (version 3.6 debug extension)
+ A module for writing portable GUI applications with Python (version 3.6)
+ using Tk. Also known as Tkinter.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: python3.6-tk
+Description-md5: 675fda2f33aa69ac490d4349fdcdf06a
+Description-en: Tkinter - Writing Tk applications with Python (version 3.6)
+ A module for writing portable GUI applications with Python (version 3.6)
+ using Tk. Also known as Tkinter.
+
+Package: libpython3.7-dbg
+Description-md5: 1644b04b4add55ce72b9f767532db8a6
+Description-en: Debug Build of the Python Interpreter (version 3.7)
+ The package holds two things:
+ .
+ - Extensions for a Python interpreter configured with --pydebug.
+ - Debug information for standard python extensions.
+ .
+ See the README.debug for more information.
+
+Package: libpython3.7-dev
+Description-md5: f7023a6ff3c2a4cb7e6f2bae1f027f67
+Description-en: Header files and a static library for Python (v3.7)
+ Header files, a static library and development tools for building
+ Python (v3.7) modules, extending the Python interpreter or embedding
+ Python (v3.7) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+ .
+ This package contains development files. It is normally not
+ used on it's own, but as a dependency of python3.7-dev.
+
+Package: libpython3.7-minimal
+Description-md5: f7d9d1c6fd9b040e3699823d8469f35d
+Description-en: Minimal subset of the Python language (version 3.7)
+ This package contains some essential modules. It is normally not
+ used on it's own, but as a dependency of python3.7-minimal.
+
+Package: libpython3.7-stdlib
+Description-md5: ee87e9de9e1eb46f3352486b3a98e6ef
+Description-en: Interactive high-level object-oriented language (standard library, version 3.7)
+ Python is a high-level, interactive, object-oriented language. Its 3.7 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains Python 3.7's standard library. It is normally not
+ used on its own, but as a dependency of python3.7.
+
+Package: libpython3.7
+Description-md5: 41806af1f2efb47f53d9ace13353377c
+Description-en: Shared Python runtime library (version 3.7)
+ Python is a high-level, interactive, object-oriented language. Its 3.7 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the shared runtime library, normally not needed
+ for programs using the statically linked interpreter.
+
+Package: python3.7-dbg
+Description-md5: fd50879975c0d8c6d4cad2e806455206
+Description-en: Debug Build of the Python Interpreter (version 3.7)
+ The package holds two things:
+ .
+ - A Python interpreter configured with --pydebug. Dynamically loaded modules
+ are searched as <foo>_d.so first. Third party extensions need a separate
+ build to be used by this interpreter.
+ - Debug information for standard python interpreter and extensions.
+ .
+ See the README.debug for more information.
+
+Package: python3.7-dev
+Description-md5: 939837cea50d0b4d9e8851d69665485d
+Description-en: Header files and a static library for Python (v3.7)
+ Header files, a static library and development tools for building
+ Python (v3.7) modules, extending the Python interpreter or embedding
+ Python (v3.7) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+
+Package: python3.7-minimal
+Description-md5: 2ce3a4585490ce7ac2340e44421a26cf
+Description-en: Minimal subset of the Python language (version 3.7)
+ This package contains the interpreter and some essential modules.  It can
+ be used in the boot process for some basic tasks.
+ See /usr/share/doc/python3.7-minimal/README.Debian for a list of the modules
+ contained in this package.
+
+Package: python3.7-venv
+Description-md5: a9bfa9fd62afb7196c2eb2b8749b0a74
+Description-en: Interactive high-level object-oriented language (pyvenv binary, version 3.7)
+ Python is a high-level, interactive, object-oriented language. Its 3.7 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the pyvenv-3.7 binary.
+
+Package: python3.7
+Description-md5: f9b0089f09d7854b875ba02453cd5601
+Description-en: Interactive high-level object-oriented language (version 3.7)
+ Python is a high-level, interactive, object-oriented language. Its 3.7 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+
+Package: idle-python3.7
+Description-md5: d251ef701c022d4d3f4a8efc25c22cd5
+Description-en: IDE for Python (v3.7) using Tkinter
+ IDLE is an Integrated Development Environment for Python (v3.7).
+ IDLE is written using Tkinter and therefore quite platform-independent.
+
+Package: libpython3.7-testsuite
+Description-md5: bcd6932415321d1a391e21c6d7d2b220
+Description-en: Testsuite for the Python standard library (v3.7)
+ The complete testsuite for the Python standard library.  Note that
+ a subset is found in the libpython3.7-stdlib package, which should
+ be enough for other packages to use (please do not build-depend
+ on this package, but file a bug report to include additional
+ testsuite files in the libpython3.7-stdlib package).
+
+Package: python3.7-doc
+Description-md5: 81709a8a1d02ebce0ec0cddb73a13c4c
+Description-en: Documentation for the high-level object-oriented language Python (v3.7)
+ These is the official set of documentation for the interactive high-level
+ object-oriented language Python (v3.7). All documents are provided
+ in HTML format. The package consists of ten documents:
+ .
+ * What's New in Python3.7
+ * Tutorial
+ * Python Library Reference
+ * Macintosh Module Reference
+ * Python Language Reference
+ * Extending and Embedding Python
+ * Python/C API Reference
+ * Installing Python Modules
+ * Documenting Python
+ * Distributing Python Modules
+
+Package: python3.7-examples
+Description-md5: ee70d16550f5df584f16f54f728c2189
+Description-en: Examples for the Python language (v3.7)
+ Examples, Demos and Tools for Python (v3.7). These are files included in
+ the upstream Python distribution (v3.7).
+
+Package: python3.7-distutils
+Description-md5: c946fdee7a0c34b2ece38a9c185188c7
+Description-en: distutils package for Python (version 3.7)
+ Distutils package for Python (version 3.7).  This package contains the
+ distutils module from the Python standard library.
+
+Package: python3.7-lib2to3
+Description-md5: c421300a47992b7707fefb4ff92217a0
+Description-en: lib2to3 package for Python (version 3.7)
+ Lib2to3 package for Python (version 3.7).  This package contains the
+ lib2to3 module from the Python standard library.
+
+Package: python3.7-tk
+Description-md5: 75eba470cce6b49f45f6e42c6831efdf
+Description-en: Tkinter - Writing Tk applications with Python (version 3.7)
+ A module for writing portable GUI applications with Python (version 3.7)
+ using Tk. Also known as Tkinter.
+
+Package: python3.7-gdbm
+Description-md5: 0357f26e08b89203c9eda75c75d13aa4
+Description-en: GNU dbm database support for Python (version 3.7)
+ GNU dbm database module for Python (version 3.7). Install this if you want to
+ create or read GNU dbm database files with Python.
+
+Package: python3.7-tk-dbg
+Description-md5: 73c1ea62641bf1eb7ad3ad05a108975e
+Description-en: Tkinter - Writing Tk applications with Python (version 3.7 debug extension)
+ A module for writing portable GUI applications with Python (version 3.7)
+ using Tk. Also known as Tkinter.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+
+Package: python3.7-gdbm-dbg
+Description-md5: 19eca9d2dd0f14dbc8f098370b3d05ce
+Description-en: GNU dbm database support for Python (version 3.7 debug extension)
+ GNU dbm database module for Python (version 3.7). Install this if you want to
+ create or read GNU dbm database files with Python.
+ .
+ This package contains the extensions built for the Python debug interpreter.
+

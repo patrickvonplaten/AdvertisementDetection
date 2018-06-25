@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libsignon-plugins.so.1.0.0
+/usr/lib/x86_64-linux-gnu/libsignon-plugins-common.so.1.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libsignon-plugins-common1
+/usr/share/doc/libsignon-plugins-common1/changelog.Debian.gz
+/usr/share/doc/libsignon-plugins-common1/copyright
+/usr/lib/x86_64-linux-gnu/libsignon-plugins-common.so.1.0
+/usr/lib/x86_64-linux-gnu/libsignon-plugins.so.1
+/usr/lib/x86_64-linux-gnu/libsignon-plugins-common.so.1
+/usr/lib/x86_64-linux-gnu/libsignon-plugins.so.1.0

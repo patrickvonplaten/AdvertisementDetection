@@ -1,0 +1,15 @@
+lease {
+  interface "enp3s0";
+  fixed-address 137.226.196.55;
+  option subnet-mask 255.255.255.0;
+  option routers 137.226.196.129;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 137.226.196.170,137.226.196.171;
+  option dhcp-server-identifier 137.226.196.170;
+  option host-name "im74";
+  option domain-name "ient.rwth-aachen.de";
+  renew 2 2016/08/23 15:32:23;
+  rebind 2 2016/08/23 16:00:49;
+  expire 2 2016/08/23 16:08:19;
+}

@@ -1,0 +1,10 @@
+DKMS make.log for bbswitch-0.8 for kernel 4.4.0-112-generic (x86_64)
+Di 23. Jan 06:01:00 CET 2018
+make -C /lib/modules/4.4.0-112-generic/build M="$(pwd)" modules
+make[1]: Entering directory '/usr/src/linux-headers-4.4.0-112-generic'
+  CC [M]  /var/lib/dkms/bbswitch/0.8/build/bbswitch.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /var/lib/dkms/bbswitch/0.8/build/bbswitch.mod.o
+  LD [M]  /var/lib/dkms/bbswitch/0.8/build/bbswitch.ko
+make[1]: Leaving directory '/usr/src/linux-headers-4.4.0-112-generic'

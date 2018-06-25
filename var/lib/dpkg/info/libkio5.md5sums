@@ -1,0 +1,13 @@
+9ceaeab125d138a987db7b98ecf04059  usr/lib/libkio.so.5.14.16
+358aa40a9e67943022e72db2df518e51  usr/share/doc/libkio5/copyright
+77f18c9a9c0a14d0bae90bb9bea626b9  usr/share/kde4/servicetypes/application.desktop
+1a10578933c28fcc1e384a9507c6e04d  usr/share/kde4/servicetypes/kcmodule.desktop
+1204c87e2443bb332e5e2d01d042d980  usr/share/kde4/servicetypes/kcmoduleinit.desktop
+a29ed8e25a699cc45f93051c48fd2359  usr/share/kde4/servicetypes/kdatatool.desktop
+d829ef9c5f75a7ce7b9a95e8fbaa7c79  usr/share/kde4/servicetypes/kfileplugin.desktop
+0d1f06534da5caf4c5fb7f0b53614e00  usr/share/kde4/servicetypes/kfilewrite.desktop
+3a3027600aa0dce735a5b8fc94026c28  usr/share/kde4/servicetypes/kiofilemodule.desktop
+9f1f3413b6d8fe37089c489d5b9c2aea  usr/share/kde4/servicetypes/kpropertiesdialogplugin.desktop
+641a7cfbe6373337ae326e005e0b8529  usr/share/kde4/servicetypes/kscan.desktop
+7adc91edb7d6fdff452045b38a6e88ee  usr/share/kde4/servicetypes/kurifilterplugin.desktop
+c249214f31a1e139196a07627b098257  usr/share/kde4/servicetypes/renamedialogplugin.desktop

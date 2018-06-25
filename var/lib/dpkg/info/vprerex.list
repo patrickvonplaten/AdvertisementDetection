@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/bin
+/usr/bin/vprerex
+/usr/share
+/usr/share/applications
+/usr/share/applications/vprerex.desktop
+/usr/share/menu
+/usr/share/menu/vprerex
+/usr/share/doc
+/usr/share/doc/vprerex
+/usr/share/doc/vprerex/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/vprerex.1.gz
+/usr/share/doc/vprerex/changelog.Debian.gz

@@ -1,0 +1,7 @@
+bd82c32f8fe5b30ae031d985599636c0  usr/lib/pkgconfig/cusparse-8.0.pc
+508111668ce774e68c4b07b2eafb5498  usr/local/cuda-8.0/targets/x86_64-linux/include/cusparse.h
+ff7a6dde3c03fe7408e7dbf7bd0f475b  usr/local/cuda-8.0/targets/x86_64-linux/include/cusparse_v2.h
+e6db6a8cf5ad5e71b32a6091892ba894  usr/local/cuda-8.0/targets/x86_64-linux/lib/libcusparse_static.a
+bf5c726694f625563165c1e1a0c7afae  usr/local/cuda-8.0/targets/x86_64-linux/lib/stubs/libcusparse.so
+c673c52ccef88f0e9e4e0ef4e18ac511  usr/share/doc/cuda-cusparse-dev-8-0/changelog.Debian.gz
+0eeae78db8d839562622336047a1c99d  usr/share/doc/cuda-cusparse-dev-8-0/copyright

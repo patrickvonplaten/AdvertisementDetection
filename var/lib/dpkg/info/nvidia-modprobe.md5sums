@@ -1,0 +1,4 @@
+27a4fb6b053689cc6375dca88fe1c7d4  usr/bin/nvidia-modprobe
+12378b2b613a81927b724371b638e319  usr/share/doc/nvidia-modprobe/changelog.Debian.gz
+23cb75dfd0ad235193cb59592c61cf4a  usr/share/doc/nvidia-modprobe/copyright
+66b18378abd7eb1b9195d975747b6bff  usr/share/man/man1/nvidia-modprobe.1.gz

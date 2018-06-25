@@ -1,0 +1,172 @@
+
+Template: texlive-base/texconfig_ignorant
+Type: error
+Description: Unmanageable system paper size (${libpaperPaper})
+ The currently defined system-wide paper size is ${libpaperPaper}. However, the
+ TeX configuration system cannot handle this paper size for ${binary}.
+ .
+ The setting will remain unchanged.
+ .
+ The following command can show the list of known paper sizes for
+ ${binary}:
+ .
+ texconfig ${binary_commandline} paper
+Description-cs.UTF-8: Nezpracovatelná systémová velikost listu (${libpaperPaper})
+ Celosystémová velikost listu je nyní nadefinována na ${libpaperPaper}. Systém pro nastavení TeXu však nemůže pro ${binary} tuto velikost listu zpracovat.
+ .
+ Nastavení zůstane nezměněno.
+ .
+ Pomocí následujícího příkazu lze zobrazit známé velikosti listu pro ${binary}:
+ .
+ texconfig ${binary_commandline} paper
+Description-da.UTF-8: Uhåndterbar systempapirstørrelse (${libpaperPaper})
+ Den aktuelt definerede systempapirstørrelse er ${libpaperPaper}. TeX-konfigurationssystemet kan dog ikke håndtere denne papirstørrelse for ${binary}.
+ .
+ Denne indstilling vil forblive uændret.
+ .
+ Den følgende kommando kan vise listen over kendte papirstørrelser for ${binary}:
+ .
+ texconfig ${binary_commandline} paper
+Description-de.UTF-8: Nicht verwaltbare Systempapiergröße (${libpaperPaper})
+ Die derzeit definierte systemweite Papiergröße ist ${libpaperPaper}. Das TeX-Konfigurationssystem kann jedoch nicht mit dieser Papiergröße für ${binary} umgehen.
+ .
+ Die Einstellung wird unverändert bleiben.
+ .
+ Der folgende Befehl kann eine Liste der bekannten Papiergrößen für ${binary} anzeigen:
+ .
+ texconfig ${binary_commandline} paper
+Description-es.UTF-8: Tamaño de página del sistema inmanejable (${libpaperPaper})
+ El tamaño de página del sistema definido actualmente es ${libpaperPaper}. Sin embargo, el sistema de configuración de TeX no puede manejar este tamaño de página para ${binary}.
+ .
+ El ajuste se mantendrá sin cambios.
+ .
+ La siguiente orden puede mostrar la lista de tamaños de página conocidos para ${binary}:
+ .
+ texconfig ${binary_commandline} paper
+Description-fr.UTF-8: Format de papier du système non géré (${libpaperPaper})
+ Le format de papier actuel du système est ${libpaperPaper}. Cependant, la configuration TeX du système ne peut pas gérer ce format de papier pour ${binary}.
+ .
+ Le paramètre restera inchangé.
+ .
+ La commande suivante affiche la liste des formats de papier gérés par ${binary} :
+ .
+ texconfig ${binary_commandline} paper
+Description-it.UTF-8: Dimensione della carta di sistema non gestibile (${libpaperPaper})
+ La dimensione della carta di sistema attualmente definita è ${libpaperPaper}. Tuttavia il sistema di configurazione di TeX non permette di gestire la dimensione della carta per ${binary}.
+ .
+ L'impostazione rimarrà invariata.
+ .
+ Il seguente comando mostra la lista delle dimensioni della carta conosciute per ${binary}:
+ .
+ texconfig ${binary_commandline} paper
+Description-ja.UTF-8: 管理できないシステムの紙サイズです (${libpaperPaper})
+ 現在定義されているシステム全体の紙サイズは ${libpaperPaper} です。しかし、${binary} のための TeX の設定システムはこの紙サイズを扱えません。
+ .
+ 設定は変更されないままになります。
+ .
+ 次のコマンドで ${binary} の既知の紙サイズの一覧を表示できます:
+ .
+ texconfig ${binary_commandline} paper
+Description-nl.UTF-8: Onbruikbaar papierformaat van het systeem (${libpaperPaper})
+ Het huidige papierformaat op dit systeem is ${libpaperPaper}. Het configuratiesysteem van TeX kan niet overweg met dit papierformaat voor ${binary}.
+ .
+ De instelling zal niet worden gewijzigd.
+ .
+ Het volgende commando kan u een lijst van bekende papierformaten tonen voor ${binary}:
+ .
+ texconfig ${binary_commandline} paper
+Description-pl.UTF-8: Nieobsługiwany rozmiar papieru (${libpaperPaper})
+ Obecnie zdefiniowanym, systemowym rozmiarem papieru jest ${libpaperPaper}. Niestety, konfiguracja TeX-a nie może obsłużyć tego formatu papieru w przypadku ${binary}.
+ .
+ Ustawienie nie zostanie zmienione.
+ .
+ Poniższe polecenie może wypisać listę znanych przez ${binary} rozmiarów papieru:
+ .
+ texconfig ${binary_commandline} paper
+Description-pt.UTF-8: Dimensão da folha de papel (${libpaperPaper}) impossível de gerir pelo sistema 
+ A dimensão da folha de papel actual no sistema é de ${libpaperPaper}. No entanto, a configuração de sistema do TeX não consegue manusear esta dimensão do papel para ${binary}.
+ .
+ A configuração manter-se-á inalterada.
+ .
+ O seguinte comando pode mostrar uma lista de dimensões de folhas de papel para ${binary}:
+ .
+ texconfig ${binary_commandline} paper
+Description-pt_BR.UTF-8: Tamanho de papel do sistema não gerenciável (${libpaperPaper})
+ O tamanho de papel definido atualmente para todo o sistema é ${libpaperPaper}. No entanto, o sistema de configuração do TeX não consegue lidar com este tamanho de papel para ${binary}.
+ .
+ As configurações serão mantidas sem modificação.
+ .
+ O seguinte comando pode mostrar a lista de tamanhos de papel conhecidos por ${binary}:
+ .
+ texconfig ${binary_commandline} paper
+Description-ru.UTF-8: В системе используется неподдерживаемый размер бумажного листа (${libpaperPaper})
+ В настоящий момент, в системе указан размер бумажного листа ${libpaperPaper}. Однако система настройки TeX не способна обработать этот размер для ${binary}.
+ .
+ Этот параметр останется неизменённым.
+ .
+ Следующей командой можно посмотреть список допустимых для ${binary} размеров бумажного листа:
+ .
+ texconfig ${binary_commandline} paper
+Description-sk.UTF-8: Neznáma systémová veľkosť strany ${libpaperPaper}
+ Aktuálne definovaná systémová veľkosť strany je ${libpaperPaper}. Ale konfiguračný systém TeX nedokáže túto veľkosť strany spracovať pre ${binary}.
+ .
+ Nastavenie ostane nezmenené.
+ .
+ Nasledujúci príkaz zobrazí zoznam známych veľkostí strany pre ${binary}:
+ .
+ texconfig ${binary_commandline} paper
+Description-sv.UTF-8: Systemets pappersstorlek (${libpaperPaper}) hanteras inte
+ Nuvarande systeminställning för pappersstorlek är ${libpaperPaper}. Dock kan inte TeX inställningssystem hantera den här pappersstorleken för ${binary}.
+ .
+ Inställningen kommer inte att ändras.
+ .
+ Följande kommando kan visa en lista med hanterbara pappersstorlekar för ${binary}:
+ .
+ texconfig ${binary_commandline} paper
+Description-tr.UTF-8: Yönetilemez sistem kağıt boyutu (${libpaperPaper})
+ Şu an sistem genelinde tanımlı olan kağıt boyutu ${libpaperPaper}, fakat TeX yapılandırma sistemi ${binary} için bu boyuttaki bir kağıdı yönetemez.
+ .
+ Mevcut ayara dokunulmayacak.
+ .
+ Şu komut ${binary} için bilinen kağıt boyutlarını görüntüler:
+ .
+ texconfig ${binary_commandline} paper
+
+Template: texlive-base/binary_chooser
+Type: multiselect
+Description: TeX binaries that should use the system paper size:
+ This system's TeX binaries currently use different default paper
+ sizes. Please choose which of them should get the system paper size
+ (${libpaperPaper}) as their default.
+Description-cs.UTF-8: Binární soubory TeXu, které mají používat systémovou velikost listu:
+ Tyto systémové binární soubory TeXu nyní používají různé výchozí velikosti listu. Zvolte si prosím které z nich mají převzít systémovou velikost listu (${libpaperPaper}) jako svou výchozí velikost.
+Description-da.UTF-8: TeX-binære filer som bør bruge systempapirstørrelsen:
+ Dette systems TeX-binære filer bruger aktuelt forskellige papirstørrelser. Vælg venligst hvilken af dem der skal have systempapirstørrelsen (${libpaperPaper}) som deres standard.
+Description-de.UTF-8: TeX-Programme, die die Systempapiergröße nutzen sollen:
+ Die TeX-Programme dieses Systems benutzen derzeit unterschiedliche Standardpapiergrößen. Bitte wählen Sie, welche davon die Systempapiergröße (${libpaperPaper}) als Vorgabe annehmen soll.
+Description-es.UTF-8: Los binarios de TeX que deberían utilizar el tamaño de página del sistema:
+ Estos binarios de TeX del sistema actualmente utilizan tamaños de página predeterminados diferentes. Escoja cuáles de ellos deberían tener el tamaño de página del sistema (${libpaperPaper}) como predeterminado.
+Description-fr.UTF-8: Binaires Tex devant utiliser le format de papier du système :
+ Les binaires TeX de ce système utilisent actuellement différents formats de papier par défaut. Veuillez choisir ceux d'entre eux qui utiliseront par défaut le format de papier du système (${libpaperPaper}).
+Description-it.UTF-8: Binari di TeX che dovranno utilizzare la dimensione della carta di sistema:
+ I binari di TeX del sistema attualmente utilizzano differenti dimensioni predefinite della carta. Scegliere quali di questi dovranno avere le dimensioni della carta predefinite, ${libpaperPaper}.
+Description-ja.UTF-8: システムの紙サイズを使うべきTeX バイナリ:
+ このシステムの TeX バイナリは現在、異なるデフォルトの紙サイズを使用しています。デフォルトのシステムの紙サイズ (${libpaperPaper}) を取得するバイナリを選んでください。
+Description-nl.UTF-8: TeX-programma's die het papierformaat van het systeem moeten gebruiken:
+ De TeX-programma's op dit systeem gebruiken op dit moment verschillende standaard papierformaten. Geef aan welke van hen het papierformaat van dit systeem (${libpaperPaper}) als hun standaard moeten gebruiken.
+Description-pl.UTF-8: Pliki binarne TeX-a, które powinny używać systemowego rozmiaru papieru:
+ Pliki binarne TeX-a w tym systemie, używają aktualnie innych domyślnych rozmiarów papieru. Proszę wybrać, które z nich powinny otrzymać systemowy rozmiar papieru (${libpaperPaper}) jako swoje ustawienie domyślne.
+Description-pt.UTF-8: Os binários TeX que deverão ser utilizados para a dimensão de sistema da folha de papel:
+ Os binários de sistema TeX utilizam actualmente diferentes dimensões de folha de papel. Por favor escolha qual das dimensões (${libpaperPaper}) pretende como omissão de sistema para a folha de papel.
+Description-pt_BR.UTF-8: Os binários TeX que devem usar o tamanho de papel do sistema:
+ Os binários TeX deste sistema utilizam atualmente diferentes tamanhos de papel como padrão. Por favor, escolha quais devem usar o tamanho de papel do sistema (${libpaperPaper}) como padrão.
+Description-ru.UTF-8: Программы TeX, которые должны использовать размер бумаги, указанный в системе:
+ В этой системе программы TeX используют различные размеры бумажного листа по умолчанию. Выберите, какие из них должны использовать системный размер бумаги (${libpaperPaper}) как настройку по умолчанию.
+Description-sk.UTF-8: Binárne súbory TeX, ktoré by mali používať systémovú veľkosť strany:
+ Binárne súbory TeX v tomto systéme momentálne používajú rôzne predvolené veľkosti strany. Prosím vyberte, ktoré z nich majú použiť systémovú veľkosť strany, ${libpaperPaper}, ako svoju predvolenú.
+Description-sv.UTF-8: TeX-binärer som ska använda systemets pappersstorlek:
+ Systemets TeX-binärer använder för närvarande olika pappersstorlekar som standard. Ange vilka av dem som ska få systemets pappersstorlek (${libpaperPaper}) som deras standard.
+Description-tr.UTF-8: TeX programlarının kullanması gereken sistem kağıt boyutu:
+ Sistemdeki TeX programları farklı öntanımlı kağıt boyutu kullanıyorlar. Lütfen hangi programların sistemin kağıt boyutunu (${libpaperPaper}) öntanımlı olarak kullanacağını seçin.
+Choices: pdftex, dvips, dvipdfmx, xdvi
+Default: pdftex, dvips, dvipdfmx, xdvi

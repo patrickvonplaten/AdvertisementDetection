@@ -1,0 +1,14 @@
+libwebpdemux.so.1 libwebpdemux1 #MINVER#
+ WebPDemuxDelete@Base 0.4.3
+ WebPDemuxGetChunk@Base 0.4.3
+ WebPDemuxGetFrame@Base 0.4.3
+ WebPDemuxGetI@Base 0.4.3
+ WebPDemuxInternal@Base 0.4.3
+ WebPDemuxNextChunk@Base 0.4.3
+ WebPDemuxNextFrame@Base 0.4.3
+ WebPDemuxPrevChunk@Base 0.4.3
+ WebPDemuxPrevFrame@Base 0.4.3
+ WebPDemuxReleaseChunkIterator@Base 0.4.3
+ WebPDemuxReleaseIterator@Base 0.4.3
+ WebPDemuxSelectFragment@Base 0.4.3
+ WebPGetDemuxVersion@Base 0.4.3

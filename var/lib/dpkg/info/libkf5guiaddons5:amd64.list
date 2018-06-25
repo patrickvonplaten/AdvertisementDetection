@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libkf5guiaddons5
+/usr/share/doc/libkf5guiaddons5/copyright
+/usr/share/doc/libkf5guiaddons5/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libKF5GuiAddons.so.5.18.0
+/usr/lib/x86_64-linux-gnu/libKF5GuiAddons.so.5

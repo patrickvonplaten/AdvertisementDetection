@@ -1,0 +1,10 @@
+e147097d05f1b9bb5aac491c1ff0e8c9  usr/lib/pkgconfig/cusolver-8.0.pc
+c85de588ddfb7bc8389b6f9b69fd0133  usr/local/cuda-8.0/targets/x86_64-linux/include/cusolverDn.h
+7d8679d4c7ff7c210456ffb15eaf3d82  usr/local/cuda-8.0/targets/x86_64-linux/include/cusolverRf.h
+3107b5b90f9c6d206771bbee00d7b88e  usr/local/cuda-8.0/targets/x86_64-linux/include/cusolverSp.h
+10a2f6dd81f56c812adb324da34208aa  usr/local/cuda-8.0/targets/x86_64-linux/include/cusolverSp_LOWLEVEL_PREVIEW.h
+b78d5d0bd47fcf704e708fa9f69025c3  usr/local/cuda-8.0/targets/x86_64-linux/include/cusolver_common.h
+a8006b028e61a77a836b7f40ba6e8916  usr/local/cuda-8.0/targets/x86_64-linux/lib/libcusolver_static.a
+d904c2e94a6a30af5029eb47d5fb2564  usr/local/cuda-8.0/targets/x86_64-linux/lib/stubs/libcusolver.so
+c673c52ccef88f0e9e4e0ef4e18ac511  usr/share/doc/cuda-cusolver-dev-8-0/changelog.Debian.gz
+0eeae78db8d839562622336047a1c99d  usr/share/doc/cuda-cusolver-dev-8-0/copyright

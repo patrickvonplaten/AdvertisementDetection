@@ -1,0 +1,17 @@
+2ac1304bdebd45b101c2710533aecc29  usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Web/ItemSelector02.qml
+522a4edbb7f68de87c46cfd0d9e47cf7  usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Web/UbuntuSharedWebContext.qml
+8b8f68a0b1eb3df83a725b104326bc51  usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Web/UbuntuWebContext.qml
+a3cdea684957860169ab81a373298de6  usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Web/UbuntuWebView02.qml
+49704723812d4001c2715b514e19af33  usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Web/UserAgent02.qml
+b5dc3b8011fd792ae7a2ddc2ff691862  usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Web/fb-no-appbanner.js
+26da0526351921482b7ef7da7bc6059f  usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Web/handle@27.png
+3e1b89c78da1a1310b8c1fcbc794dd2a  usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Web/libubuntu-web-plugin.so
+9c5b6df7e5087bf22dbdeb2cf25bb013  usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Web/qmldir
+e5eb671d7d844a7cc30261a94e93e149  usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Web/selection02.js
+eaeda7549b9236df2328d0046452a6d6  usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Web/smartbanners.js
+188e1f89fb384aa5b7c6137f2c98272f  usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Web/twitter-no-omniprompt.js
+b820cede7e7d88a43ecf7ebae24403a5  usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Web/ua-overrides-desktop.js
+7f27b220f810bcecdbc2f89ad996e3e5  usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Web/ua-overrides-mobile.js
+b4ea7f7215da993d423ce5fb6c916b23  usr/share/doc/qml-module-ubuntu-web/changelog.Debian.gz
+b84ba0450568be2d9653a73ba2ebf5ee  usr/share/doc/qml-module-ubuntu-web/copyright
+2446112ad6f0f5d8948c6810f3095b36  usr/share/lintian/overrides/qml-module-ubuntu-web

@@ -16,7 +16,7 @@ export CPATH=/usr/local/include
 export CUDA_HOME=/usr/local/cuda-9.0
 nvidia-smi
 
-/scratch/meyer/TF_IO/Project1_ENV/GPU-Version/bin/python3 /scratch/projekt1/AdvertisementDetection/runAdvertisementDetection.py --learningRate $learningRate --logDir $TMP
+/scratch/meyer/TF_IO/Project1_ENV/GPU-Version/bin/python3 /scratch/projekt1/AdvertisementDetection/runAdvertisementDetection.py --logDir=$TMP --learningRate=$learningRate 
 cp -r $TMP/. $SCRATCHDIR
 
 

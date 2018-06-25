@@ -1,0 +1,5 @@
+38abf69aa2cb69c737611c8956461f49  usr/lib/x86_64-linux-gnu/libcurl.so.4.4.0
+5f67ab850d7e46a9e730e66884b300c7  usr/share/doc/libcurl3/NEWS.Debian.gz
+b7353cb87fad8819f377dcd0623fff1d  usr/share/doc/libcurl3/changelog.Debian.gz
+3f4cb3f3658c54248e1c991eef8bd23c  usr/share/doc/libcurl3/copyright
+3a20d059820eff05613a7fe30cbe6357  usr/share/lintian/overrides/libcurl3

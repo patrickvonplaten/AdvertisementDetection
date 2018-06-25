@@ -1,0 +1,14 @@
+bb3d7d2e51f42cfa7e39c34160fad3dc  usr/share/doc/libqalculate5-data/changelog.Debian.gz
+63ee4f764c98a62c352eeedf978749de  usr/share/doc/libqalculate5-data/copyright
+58502b963be6cbccce396479901508f4  usr/share/locale/fr/LC_MESSAGES/libqalculate.mo
+72c665531494ed2ad1ca9b7f4a9a679a  usr/share/locale/nl/LC_MESSAGES/libqalculate.mo
+931fd1b726ee309eb8e692ac0730abd2  usr/share/locale/sv/LC_MESSAGES/libqalculate.mo
+0b568d65dc2c7f0fc3d1aa9e101d05ee  usr/share/locale/zh_CN/LC_MESSAGES/libqalculate.mo
+8c9bf7c745536b3809a299139b5aa906  usr/share/qalculate/currencies.xml
+7e44fe00fec4f9c8aede21b506da63bd  usr/share/qalculate/datasets.xml
+eecdc811665b9d9063f30512c3101353  usr/share/qalculate/elements.xml
+5c1e8c66d9e09ccf9cc965d97e7c9760  usr/share/qalculate/functions.xml
+e83530a31413769d5a753ae9abb388df  usr/share/qalculate/planets.xml
+735594d4ba0cf0aba6d8bd091375baf3  usr/share/qalculate/prefixes.xml
+e6f7938ff7c753324163d76bfff556d2  usr/share/qalculate/units.xml
+5fbd6f7d03dcf3b54e1005d54eb70343  usr/share/qalculate/variables.xml

@@ -1,0 +1,22 @@
+#! /bin/sh -e
+
+case "$1" in
+    remove)
+        update-alternatives --remove kdesu /usr/lib/kde4/libexec/kdesu-distrib/kdesu
+    ;;
+
+    upgrade|deconfigure)
+    ;;
+
+    failed-upgrade)
+    ;;
+
+    *)
+        echo "prerm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+
+
+exit 0

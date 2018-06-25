@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libgettextpo.a
+/usr/include
+/usr/include/gettext-po.h
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgettextpo-dev
+/usr/share/doc/libgettextpo-dev/copyright
+/usr/lib/x86_64-linux-gnu/libgettextpo.so
+/usr/share/doc/libgettextpo-dev/changelog.Debian.gz

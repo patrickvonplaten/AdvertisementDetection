@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libabw-0.1.so.1.0.1
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libabw-0.1-1v5
+/usr/share/doc
+/usr/share/doc/libabw-0.1-1v5
+/usr/share/doc/libabw-0.1-1v5/copyright
+/usr/share/doc/libabw-0.1-1v5/changelog.Debian.gz
+/usr/lib/x86_64-linux-gnu/libabw-0.1.so.1

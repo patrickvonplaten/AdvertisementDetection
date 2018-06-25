@@ -1,0 +1,6 @@
+2ee0d0ae65c907c503416d924da6978c  usr/lib/libktexteditor.so.4.14.16
+358aa40a9e67943022e72db2df518e51  usr/share/doc/libktexteditor4/copyright
+215b6059eab2716011fd10b2fee3fd83  usr/share/kde4/servicetypes/ktexteditor.desktop
+085c8b0292126013d823b228f77df8ab  usr/share/kde4/servicetypes/ktexteditor_loadsavefiltercheckplugin.desktop
+f0fb3ff5e410f10fc08d2aedac5566ea  usr/share/kde4/servicetypes/ktexteditorplugin.desktop
+bb5a784f1b663b78ae6d6051bf9035a7  usr/share/lintian/overrides/libktexteditor4

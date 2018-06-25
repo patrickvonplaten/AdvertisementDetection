@@ -1,0 +1,17 @@
+e9a84aa3453ecaf91f1c99dcb2fd6a9f  usr/lib/x86_64-linux-gnu/freerdp/audin-client-alsa.so
+0b68756cd4516931ae265cedbf761312  usr/lib/x86_64-linux-gnu/freerdp/audin-client-pulse.so
+5a0c00f1f711531afb49a02d00e0efc5  usr/lib/x86_64-linux-gnu/freerdp/audin-client.so
+806f8140c4e06ed035481e5c89d62baf  usr/lib/x86_64-linux-gnu/freerdp/drive-client.so
+3347467b8ad4b8b9458ea5cd8fe92dba  usr/lib/x86_64-linux-gnu/freerdp/echo-client.so
+e213957d2987cfcf88d66e8b9cdca652  usr/lib/x86_64-linux-gnu/freerdp/parallel-client.so
+77ffb2d2edd8c0e27d7f71c3b8773387  usr/lib/x86_64-linux-gnu/freerdp/printer-client.so
+990364581a07a4e062fe818595dec420  usr/lib/x86_64-linux-gnu/freerdp/rdpei-client.so
+057f2e9943b1b3bc6c28017ce54f8d71  usr/lib/x86_64-linux-gnu/freerdp/rdpsnd-client-alsa.so
+fc3abda7d1c8724aaa35001cdb15cebd  usr/lib/x86_64-linux-gnu/freerdp/rdpsnd-client-pulse.so
+a34b40a5c7262eb9f0fe4ace8c09314e  usr/lib/x86_64-linux-gnu/freerdp/serial-client.so
+d1561e98581e15917b60d8ed814e111b  usr/lib/x86_64-linux-gnu/freerdp/smartcard-client.so
+5f349d088c3e119316f747e484105a85  usr/lib/x86_64-linux-gnu/freerdp/tsmf-client-alsa-audio.so
+3a5a60bb1e3dfbb1c9a0633cd5b24d98  usr/lib/x86_64-linux-gnu/freerdp/tsmf-client-pulse-audio.so
+efe7470d7480cf844f5697f7fef52b3e  usr/lib/x86_64-linux-gnu/freerdp/tsmf-client.so
+18bbbcfb52f89bb2e79e775c943711df  usr/share/doc/libfreerdp-plugins-standard/copyright
+21449d1ea2697d6f37373fb7b5b5c872  usr/share/lintian/overrides/libfreerdp-plugins-standard

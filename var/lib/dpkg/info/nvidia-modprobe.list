@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/bin
+/usr/bin/nvidia-modprobe
+/usr/share
+/usr/share/doc
+/usr/share/doc/nvidia-modprobe
+/usr/share/doc/nvidia-modprobe/copyright
+/usr/share/doc/nvidia-modprobe/changelog.Debian.gz
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/nvidia-modprobe.1.gz

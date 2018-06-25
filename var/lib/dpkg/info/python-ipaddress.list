@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/python-ipaddress
+/usr/share/doc/python-ipaddress/README.Debian
+/usr/share/doc/python-ipaddress/copyright
+/usr/share/doc/python-ipaddress/changelog.Debian.gz
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages/ipaddress.py
+/usr/lib/python2.7/dist-packages/ipaddress-1.0.16.egg-info
+/usr/lib/python2.7/dist-packages/ipaddress-1.0.16.egg-info/PKG-INFO
+/usr/lib/python2.7/dist-packages/ipaddress-1.0.16.egg-info/dependency_links.txt
+/usr/lib/python2.7/dist-packages/ipaddress-1.0.16.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+libcamera 1 libhybris
+libEGL 1 libhybris
+libGLESv2 2 libhybris
+libwayland-egl 1 libhybris
+libhybris-eglplatformcommon 1 libhybris
+libhybris-hwcomposerwindow 1 libhybris
+libis 1 libhybris
+libnfc_nxp 1 libhybris
+libsf 1 libhybris
+libsync 2 libhybris
+libui 1 libhybris
+libvibrator 1 libhybris
+libwifi 1 libhybris
