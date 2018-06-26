@@ -82,10 +82,10 @@ class RecognitionSystem(object):
         scores = self.model.evaluate(x, y, verbose=2)
 
         print("scalarLoss")
-        print("\n%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
+        print("\n%s: %.2f%%" % (self.model.metrics_names[1], scores[1]*100))
 
     def predictData(self, x, y):
-        predictions = model.predict(X)
+        predictions = self.model.predict(x)
         # round predictions
         pred = [x[0] for x in predictions]
         print("labels", y)
