@@ -25,6 +25,7 @@ class Runner(object):
 
         sys.path.insert(0, self.pathToAdvertismentDetectionSourceCode)
         self.data = self.readInData()
+        self.indices = self.data.indices
         self.model = self.getModel(input_shape = self.data.imageShape)
 
 

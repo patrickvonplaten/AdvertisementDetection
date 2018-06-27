@@ -3,11 +3,9 @@ import os
 import numpy as np
 import tensorflow as tf
 import pickle
-from preprocessor import Preprocessor
 from tensorflow.python.keras.optimizers import SGD
 from tensorflow.python.keras.callbacks import TensorBoard
 import pickle
-import matplotlib.pyplot as plt
 
 
 class RecognitionSystem(object):
@@ -16,7 +14,7 @@ class RecognitionSystem(object):
     This class should use the preproccessed data
     to train a system to recognise detection
     """
-    def __init__(self, data, pathToWeights, pathToSaveHistory, configs, model):
+    def __init__(self, data, pathToWeights, pathToSaveHistory, configs, model, indices):
         self.data = data
         self.testData = self.data.testData
         self.testLabels = self.data.testLabels
@@ -26,6 +24,8 @@ class RecognitionSystem(object):
         self.pathToWeights = pathToWeights
         self.pathToSaveHistory = pathToSaveHistory
         self.model = model
+        self.indices = indices
+        print(self.indices)
 
     def setConfigs(self, configs):
         defaultConfigs = {
@@ -69,19 +69,9 @@ class RecognitionSystem(object):
 
         # Get training and test loss histories
         training_loss = history.history['loss']
-        #test_loss = history.history['val_loss']
-        # Create count of the number of epochs
-        epoch_count = range(1, len(training_loss) + 1)
-        # Visualize loss history
-        plt.plot(epoch_count, training_loss, 'r--')
-        #plt.plot(epoch_count, test_loss, 'b-')
-        #plt.legend(['Training Loss', 'Test Loss'])
-        plt.xlabel('Epoch')
-        plt.ylabel('Loss')
-        plt.show();
+        self.training_loss = training_loss
+
         self.model.save_weights(self.pathToWeights)
-
-
 
         with open(self.pathToSaveHistory, 'wb') as pickleFile:
             pickle.dump(history.history, pickleFile)
@@ -104,5 +94,6 @@ class RecognitionSystem(object):
         predictions = self.model.predict(x)
         # round predictions
         pred = [x[0] for x in predictions]
+	
         print("labels", y)
         print("predictions", x)

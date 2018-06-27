@@ -30,6 +30,7 @@ class Preprocessor(object):
         self.trainLabels = np.asarray(self.shuffledLabels[:self.splitTrainingTestData])
         self.testData = self.reshapeListToArray(self.shuffledData[self.splitTrainingTestData:])
         self.testLabels = np.asarray(self.shuffledLabels[self.splitTrainingTestData:])
+	self.indices = None
 
         if(normalizeData):
             self.substractMeanFromImages()
@@ -39,7 +40,10 @@ class Preprocessor(object):
 
     def shuffleData(self, data, labels):
         zippedData = list(zip(data, labels))
-        shuffle(zippedData)
+	indicesList = list(enumerate(zippedData))
+        shuffle(indicesList)
+	indices, zippedData = zip(*indicesList)
+	self.indices = indices
         return zip(*zippedData)
 
     def substractMeanFromImages(self):
