@@ -24,13 +24,14 @@ class Preprocessor(object):
         self.imagesLen = len([name for name in os.listdir(imagesFolderName)]) # images start at idx = 1
         self.splitTrainingTestData = int(0.9 * self.imagesLen)
         self.data, self.labels  = self.convertJPEGImageToMatrix()
+        self.indices = None
         self.shuffledData, self.shuffledLabels = self.shuffleData(self.data, self.labels)
+        print("Indices ",self.indices)
         self.imageShape = self.data[0].shape
         self.trainData = self.reshapeListToArray(self.shuffledData[:self.splitTrainingTestData])
         self.trainLabels = np.asarray(self.shuffledLabels[:self.splitTrainingTestData])
         self.testData = self.reshapeListToArray(self.shuffledData[self.splitTrainingTestData:])
         self.testLabels = np.asarray(self.shuffledLabels[self.splitTrainingTestData:])
-	self.indices = None
 
         if(normalizeData):
             self.substractMeanFromImages()
@@ -40,10 +41,10 @@ class Preprocessor(object):
 
     def shuffleData(self, data, labels):
         zippedData = list(zip(data, labels))
-	indicesList = list(enumerate(zippedData))
+        indicesList = list(enumerate(zippedData))
         shuffle(indicesList)
-	indices, zippedData = zip(*indicesList)
-	self.indices = indices
+        indices, zippedData = zip(*indicesList)
+        self.indices = indices
         return zip(*zippedData)
 
     def substractMeanFromImages(self):

@@ -3,6 +3,7 @@ import os
 import numpy as np
 import tensorflow as tf
 import pickle
+from preprocessor import Preprocessor
 from tensorflow.python.keras.optimizers import SGD
 from tensorflow.python.keras.callbacks import TensorBoard
 import pickle
@@ -25,7 +26,6 @@ class RecognitionSystem(object):
         self.pathToSaveHistory = pathToSaveHistory
         self.model = model
         self.indices = indices
-        print(self.indices)
 
     def setConfigs(self, configs):
         defaultConfigs = {
@@ -92,8 +92,19 @@ class RecognitionSystem(object):
 
     def predictData(self, x, y):
         predictions = self.model.predict(x)
+	
         # round predictions
         pred = [x[0] for x in predictions]
 	
-        print("labels", y)
-        print("predictions", x)
+        print('All predictions:')
+        print('---------------------------')
+        for i in range(len(pred)):
+                print('Pred: ' + str(pred[i]) + ' Label: ' + str(y[i]) + ' Index: ' + str(self.indices[i]))
+
+        print('All false predictions:')
+        print('---------------------------')
+        for i in range(len(pred)):
+                if(round(pred[i]) != y[i]):
+                        print('Pred: ' + str(pred[i]) + ' Label: ' + str(y[i]) + ' Index: ' + str(self.indices[i]))
+			
+	

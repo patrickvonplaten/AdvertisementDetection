@@ -31,11 +31,11 @@ class Runner(object):
 
     def start(self):
         from advertisementDetection import RecognitionSystem
-        recogSystem = RecognitionSystem(data = self.data, pathToWeights = self.pathToWeights, pathToSaveHistory = self.pathToSaveHistory, configs = self.configs, model = self.model)
+        recogSystem = RecognitionSystem(data = self.data, pathToWeights = self.pathToWeights, pathToSaveHistory = self.pathToSaveHistory, configs = self.configs, model = self.model, indices=self.indices)
 #        recogSystem.data.printInformationAboutData()
 #        recogSystem.printModelSummary()
-        recogSystem.trainModel()
-        recogSystem.evaluateModel()
+#        recogSystem.trainModel()
+#       recogSystem.evaluateModel()
 
 
     def readInData(self):
