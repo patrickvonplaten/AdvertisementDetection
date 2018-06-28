@@ -26,7 +26,6 @@ class Preprocessor(object):
         self.data, self.labels  = self.convertJPEGImageToMatrix()
         self.indices = None
         self.shuffledData, self.shuffledLabels = self.shuffleData(self.data, self.labels)
-        print("Indices ",self.indices)
         self.imageShape = self.data[0].shape
         self.trainData = self.reshapeListToArray(self.shuffledData[:self.splitTrainingTestData])
         self.trainLabels = np.asarray(self.shuffledLabels[:self.splitTrainingTestData])

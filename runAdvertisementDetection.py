@@ -32,10 +32,10 @@ class Runner(object):
     def start(self):
         from advertisementDetection import RecognitionSystem
         recogSystem = RecognitionSystem(data = self.data, pathToWeights = self.pathToWeights, pathToSaveHistory = self.pathToSaveHistory, configs = self.configs, model = self.model, indices=self.indices)
-#        recogSystem.data.printInformationAboutData()
-#        recogSystem.printModelSummary()
-#        recogSystem.trainModel()
-#       recogSystem.evaluateModel()
+        recogSystem.data.printInformationAboutData()
+        recogSystem.printModelSummary()
+        recogSystem.trainModel()
+        recogSystem.evaluateModel()
 
 
     def readInData(self):
@@ -72,7 +72,7 @@ class Runner(object):
     #        'normalizeData':True,
             'nesterov':True,
             'batchSize':20,
-            'epochs':15,
+            'epochs':20,
             'loss':'binary_crossentropy',
             'metrics':['accuracy']
         }
