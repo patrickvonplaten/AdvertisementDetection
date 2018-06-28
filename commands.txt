@@ -1,3 +1,8 @@
 1) source /tools/tensorflow/ENV_TF_CPU/bin/activate
 2) go to experiment folder 
 3) start tensorboard on im37(!) tensorboard --logdir=graph
+
+
+To run tensorboard from home:
+1) git pull to have all updated files 
+2) tensorboard --logdir=graph --host localhost --port 8088
