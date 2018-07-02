@@ -66,13 +66,13 @@ class Runner(object):
 
     def parseArgs(self):
         configs = {
-            'learningRate':1e-3,
+            'learningRate':1e-4,
             'decay':1e-6,
             'momentum':0.9,
     #        'normalizeData':True,
             'nesterov':True,
             'batchSize':20,
-            'epochs':20,
+            'epochs':15,
             'loss':'binary_crossentropy',
             'metrics':['accuracy']
         }
@@ -91,8 +91,12 @@ class Runner(object):
 
         for arg in configs:
             if arg in args and args[arg] is not None:
-                configs[arg] = float(args[arg])
+                if(arg in ['learningRate','decay', 'momentum']):
+                        configs[arg] = float(args[arg])
+                else:
+                        configs[arg] = int(args[arg])
 
+        print(configs)
         return logDir, configs
 
 if __name__ == "__main__":

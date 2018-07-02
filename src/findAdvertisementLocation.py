@@ -98,6 +98,7 @@ class findAdvLocation(object):
             Mlist.append(M)
             return Mlist
 # run with
-obj_findAdvLocation = findAdvLocation(testData = _data.testData,model = model)
-_mask = obj_findAdvLocation.tracebackNetwork(_data.testData)
+_testData=_data.testData[1]
+obj_findAdvLocation = findAdvLocation(testData = _testData,model = model)
+_mask = obj_findAdvLocation.tracebackNetwork(_testData)
 obj_findAdvLocation.drawGridOnAdvRegion(mask = _mask, image = _data.testData)

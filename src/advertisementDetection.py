@@ -1,4 +1,5 @@
 import sys
+import shutil
 import os
 import numpy as np
 import tensorflow as tf
@@ -62,7 +63,10 @@ class RecognitionSystem(object):
         print("Train Data: " + str(x.shape))
         print("-----------------------------------------------------------------")
 
-        os.makedirs('graph')
+        if(os.path.exists('graph')):
+                shutil.rmtree('graph')
+                os.makedirs('graph')
+
         tbCallBack = TensorBoard(log_dir='./graph', histogram_freq=0, write_graph=True, write_images=True)
 
         history = self.model.fit(x, y, batch_size=self.configs['batchSize'], epochs=self.configs['epochs'], verbose='2', callbacks=[tbCallBack] )
