@@ -65,7 +65,7 @@ class RecognitionSystem(object):
         os.makedirs('graph')
         tbCallBack = TensorBoard(log_dir='./graph', histogram_freq=0, write_graph=True, write_images=True)
 
-        history = self.model.fit(x, y, batch_size=self.configs['batchSize'], epochs=self.configs['epochs'], verbose='2', callbacks=[tbCallBack] )
+        history = self.model.fit(x, y, batch_size=self.configs['batchSize'], epochs=self.configs['epochs'], verbose='2', callbacks=[tbCallBack], shuffle=False )
 
         # Get training and test loss histories
         training_loss = history.history['loss']
