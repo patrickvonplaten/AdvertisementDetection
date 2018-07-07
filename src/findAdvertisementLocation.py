@@ -11,23 +11,47 @@ from os.path import isfile, join
 
 
 
-class findAdvLocation(object):
+class AdvertisementLocator(object):
     """
     trace back the network and find where the advertisement is in frame
     """
 
-    def __init__ (self, model):
-        self.model = model
+    def __init__ (self, imagesDirPath, weightFilePath):
+        self.imagesDirPath = imagesDirPath
+        self.weightFilePath = weightFilePath
+        self.model = self.loadModel()
+        self.images = self.loadImages()
+
+    def loadModel(self):
+        vgg16Model = vgg16.VGG16(include_top = False, weights = 'imagenet', input_shape = imageDataList[0].shape)
+        model = Sequential()
+        
+        for layer in vgg16Model.layers:
+            model.add(layer)
+        model.add(Flatten(name='flatten'))
+        model.add(Dense(1000, activation='relu'))
+        model.add(Dense(1, activation = 'sigmoid'))
+        model.load_weights(self.weightFilePath)
+
+    def loadImages(self): 
+        imageFiles = [ imageFile for imageFile in listdir(self.imagesDirPath) if isfile(join(self.imagesDirPath,imageFile)) ]
+        images = []
+
+        for imageFile in imageFiles:
+            image = cv2.imread( join(imagesDirPath,imageFile) )
+            image = cv2.resize(image, None, fx = 0.5, fy = 0.5, interpolation = cv2.INTER_CUBIC)
+            images.append(image)
+
+        print('**********', len(images),'images loaded!')
 
 
     def drawGridOnAdvRegion(self, mask, image):
         img = image
-        M = mask
-        width, height = int(img.shape[0]/M.shape[0]),int(img.shape[1]/ M.shape[1])
+        width, height = int(img.shape[0]/mask.shape[0]),int(img.shape[1]/ mask.shape[1])
         R, G, B = (0,0,255), (0,255,0), (255,0,0)
-        for i in range(M.shape[0]):
-            for j in range( M.shape[1]):
-                if(M[i][j]):
+        for i in range(mask.shape[0]):
+            for j in range( mask.shape[1]):
+                if(mask.[i][j]):
                     cv2.rectangle(img, (j*width,i*height), ((j+1)*width,(i+1)*height), G)
         cv2.imshow('result', img)
         cv2.waitKey()
@@ -82,32 +106,12 @@ class findAdvLocation(object):
                 x,y,z = np.where(conv_outputs == max_real_val) # find the same node at conv filter
                 M[x[0],y[0]] = 1 # mark that coordinate
         return M
-#____________read images
-"place the images in images folder."
-mypath='images'
-onlyfiles = [ f for f in listdir(mypath) if isfile(join(mypath,f)) ]
-imageDataList = []
-for n in range(0, len(onlyfiles)):
-    image = cv2.imread( join(mypath,onlyfiles[n]) )
-    image = cv2.resize(image, None, fx = 0.5, fy = 0.5, interpolation = cv2.INTER_CUBIC)
-    imageDataList.append(image)
-print('**********', len(onlyfiles),'images loaded!')
 
-#_________________LOAD MODEL____________
-_model = vgg16.VGG16(include_top = False, weights = 'imagenet', input_shape = imageDataList[0].shape)
-model = Sequential()
-for layer in _model.layers:
-    model.add(layer)
-model.add(Flatten(name='flatten'))
-model.add(Dense(1000, activation='relu'))
-model.add(Dense(1, activation = 'sigmoid'))
-model.load_weights('model0001ep15.h5')
-#model.summary()
-# _____________________________
-#
-#run
-for ii in range(len(imageDataList)):
-    sample = np.concatenate(imageDataList[ii]).reshape((1,) + imageDataList[ii].shape)
-    obj_findAdvLocation = findAdvLocation(model = model)
-    _mask = obj_findAdvLocation.tracebackNetwork(sample)
-    obj_findAdvLocation.drawGridOnAdvRegion(mask = _mask, image = imageDataList[ii])
+if __name__ == "__main__":
+
+    advLocator = AdvertisementLocator('images','model.h5')
+    images = advLocator.images
+    for image in images):
+        sample = np.concatenate(image).reshape((1,) + image.shape)
+        mask = advLocator.tracebackNetwork(sample)
+        advLocator.drawGridOnAdvRegion(mask = mask, image = image)

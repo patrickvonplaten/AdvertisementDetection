@@ -8,6 +8,7 @@ from preprocessor import Preprocessor
 from tensorflow.python.keras.optimizers import SGD
 from tensorflow.python.keras.callbacks import TensorBoard
 import pickle
+import time
 
 
 class RecognitionSystem(object):
@@ -16,7 +17,7 @@ class RecognitionSystem(object):
     This class should use the preproccessed data
     to train a system to recognise detection
     """
-    def __init__(self, data, pathToWeights, pathToSaveHistory, configs, model, indices):
+    def __init__(self, data, pathToWeights, pathToSaveHistory, configs, model, testIndices):
         self.data = data
         self.testData = self.data.testData
         self.testLabels = self.data.testLabels
@@ -26,7 +27,7 @@ class RecognitionSystem(object):
         self.pathToWeights = pathToWeights
         self.pathToSaveHistory = pathToSaveHistory
         self.model = model
-        self.indices = indices
+        self.testIndices = testIndices
 
     def setConfigs(self, configs):
         defaultConfigs = {
@@ -88,11 +89,14 @@ class RecognitionSystem(object):
 
         print("Decode model")
         print("-----------------------------------------------------------------")
+        startTime = time.time()
         self.predictData(x,y)
-        scores = self.model.evaluate(x, y, verbose=2)
+        print(time.time() - startTime)
 
-        print("scalarLoss")
-        print("\n%s: %.2f%%" % (self.model.metrics_names[1], scores[1]*100))
+#        scores = self.model.evaluate(x, y, verbose=2)
+#
+#        print("scalarLoss")
+#        print("\n%s: %.2f%%" % (self.model.metrics_names[1], scores[1]*100))
 
     def predictData(self, x, y):
         predictions = self.model.predict(x)
@@ -103,12 +107,12 @@ class RecognitionSystem(object):
         print('All predictions:')
         print('---------------------------')
         for i in range(len(pred)):
-                print('Pred: ' + str(pred[i]) + ' Label: ' + str(y[i]) + ' Index: ' + str(self.indices[i]))
+                print('Pred: ' + str(pred[i]) + ' Label: ' + str(y[i]) + ' Index: ' + str(self.testIndices[i]))
 
         print('All false predictions:')
         print('---------------------------')
         for i in range(len(pred)):
                 if(round(pred[i]) != y[i]):
-                        print('Pred: ' + str(pred[i]) + ' Label: ' + str(y[i]) + ' Index: ' + str(self.indices[i]))
+                        print('Pred: ' + str(pred[i]) + ' Label: ' + str(y[i]) + ' Index: ' + str(self.testIndices[i]))
 			
 	

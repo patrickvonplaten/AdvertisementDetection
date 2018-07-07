@@ -25,16 +25,16 @@ class Runner(object):
 
         sys.path.insert(0, self.pathToAdvertismentDetectionSourceCode)
         self.data = self.readInData()
-        self.indices = self.data.indices
+        self.testIndices = self.data.testIndices
         self.model = self.getModel(input_shape = self.data.imageShape)
 
 
     def start(self):
         from advertisementDetection import RecognitionSystem
-        recogSystem = RecognitionSystem(data = self.data, pathToWeights = self.pathToWeights, pathToSaveHistory = self.pathToSaveHistory, configs = self.configs, model = self.model, indices=self.indices)
+        recogSystem = RecognitionSystem(data = self.data, pathToWeights = self.pathToWeights, pathToSaveHistory = self.pathToSaveHistory, configs = self.configs, model = self.model, testIndices=self.testIndices)
         recogSystem.data.printInformationAboutData()
         recogSystem.printModelSummary()
-        recogSystem.trainModel()
+#        recogSystem.trainModel()
         recogSystem.evaluateModel()
 
 

@@ -24,12 +24,12 @@ class Preprocessor(object):
         self.imagesLen = len([name for name in os.listdir(imagesFolderName)]) # images start at idx = 1
         self.splitTrainingTestData = int(0.9 * self.imagesLen)
         self.data, self.labels  = self.convertJPEGImageToMatrix()
-        self.indices = None
         self.shuffledData, self.shuffledLabels, self.indices = self.shuffleData(self.data, self.labels)
         self.imageShape = self.data[0].shape
         self.trainData = self.reshapeListToArray(self.shuffledData[:self.splitTrainingTestData])
         self.trainLabels = np.asarray(self.shuffledLabels[:self.splitTrainingTestData])
         self.testData = self.reshapeListToArray(self.shuffledData[self.splitTrainingTestData:])
+        self.testIndices = self.indices[self.splitTrainingTestData:]
         self.testLabels = np.asarray(self.shuffledLabels[self.splitTrainingTestData:])
 
         if(normalizeData):
