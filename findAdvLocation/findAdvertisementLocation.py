@@ -23,8 +23,10 @@ class AdvertisementLocator(object):
         self.imageShape = self.images[0].shape
         self.model = self.loadModel()
         self.threshold = 0.8
-        self.classWeights1 = self.model.layers[-1].get_weights()[0] #0:weight 1:bias
-        self.classWeights2 = self.model.layers[-2].get_weights()[0]
+        self.outputToDenseWeights = self.model.layers[-1].get_weights()[0] #0:weight 1:bias
+        print("Output to Dense",self.outputToDenseWeights.shape)
+        self.denseToFlattenWeights = self.model.layers[-2].get_weights()[0]
+        print("Dense to Flatten",self.denseToFlattenWeights.shape)
 
     def loadModel(self):
         vgg16Model = vgg16.VGG16(include_top = False, weights = 'imagenet', input_shape = self.imageShape)
@@ -85,19 +87,27 @@ class AdvertisementLocator(object):
         flattenOutputs = self.getFlattenOutputs(image)
         denseOutputs = self.getDenseOutputs(image)
         convOutputs = self.getConvOutputs(image)
+
+        print("Flatten",flattenOutputs.shape)
+        print("Dense",denseOutputs.shape)
+        print("conv",convOutputs.shape)
         
-        cam = np.multiply(denseOutputs,self.classWeights1[:,0])
-        maxContributionIndexesDense = np.where(cam > (self.threshold*np.max(cam)))[0]
+        classActivationMap = np.multiply(denseOutputs,self.outputToDenseWeights[:,0])
+        maxContributionIndexesDense = np.where(classActivationMap > - float('inf'))[0]
+#                (self.threshold*np.max(classActivationMap)))[0]
+
+        print("Indexes",maxContributionIndexesDense)
 
         mask = np.zeros_like(convOutputs[:,:,0]) 
 
         for maxIdx in maxContributionIndexesDense:
-            cam = np.multiply(flattenOutputs,self.classWeights2[:,maxIdx])
-            maxContributionIndexesDenseFlatten = np.where(cam > (self.threshold*np.max(cam)))[0]
+            classActivationMap = np.multiply(flattenOutputs,self.denseToFlattenWeights[:,maxIdx])
+            maxContributionIndexesDenseFlatten = np.where(classActivationMap > (0.95*np.max(classActivationMap)))[0]
 
             for maxIdxFlat in maxContributionIndexesDenseFlatten:
                 maxRealVal = flattenOutputs[maxIdxFlat]
                 x,y,z = np.where(convOutputs == maxRealVal) 
+                assert len(x) == len(y) == 1, "Array should only have one value"
                 mask[x[0],y[0]] = 1
         return mask 
 
