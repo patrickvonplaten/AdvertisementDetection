@@ -22,7 +22,7 @@ class AdvertisementLocator(object):
         self.images = self.loadImages()
         self.imageShape = self.images[0].shape
         self.model = self.loadModel()
-        self.threshold = 0.8
+        self.threshold = 0.6
         self.outputToDenseWeights = self.model.layers[-1].get_weights()[0] #0:weight 1:bias
         print("Output to Dense",self.outputToDenseWeights.shape)
         self.denseToFlattenWeights = self.model.layers[-2].get_weights()[0]
@@ -31,7 +31,7 @@ class AdvertisementLocator(object):
     def loadModel(self):
         vgg16Model = vgg16.VGG16(include_top = False, weights = 'imagenet', input_shape = self.imageShape)
         model = Sequential()
-        
+
         for layer in vgg16Model.layers:
             model.add(layer)
         model.add(Flatten(name='flatten'))
@@ -41,7 +41,7 @@ class AdvertisementLocator(object):
 
         return model
 
-    def loadImages(self): 
+    def loadImages(self):
         imageFiles = [ imageFile for imageFile in listdir(self.imagesDirPath) if isfile(join(self.imagesDirPath,imageFile)) ]
         images = []
 
@@ -55,7 +55,7 @@ class AdvertisementLocator(object):
 
 
     def drawGridOnAdvRegion(self, mask, image):
-         
+
 
         width, height = int(image.shape[0]/mask.shape[0]),int(image.shape[1]/ mask.shape[1])
         R, G, B = (0,0,255), (0,255,0), (255,0,0)
@@ -91,25 +91,36 @@ class AdvertisementLocator(object):
         print("Flatten",flattenOutputs.shape)
         print("Dense",denseOutputs.shape)
         print("conv",convOutputs.shape)
+
+        classActivationMapDensetoOutput = np.multiply(denseOutputs,self.outputToDenseWeights[:,0])
         
-        classActivationMap = np.multiply(denseOutputs,self.outputToDenseWeights[:,0])
-        maxContributionIndexesDense = np.where(classActivationMap > - float('inf'))[0]
 #                (self.threshold*np.max(classActivationMap)))[0]
 
-        print("Indexes",maxContributionIndexesDense)
+        #print("Indexes",maxContributionIndexesDense)
 
-        mask = np.zeros_like(convOutputs[:,:,0]) 
+        mask = np.zeros_like(convOutputs[:,:,0])
 
-        for maxIdx in maxContributionIndexesDense:
-            classActivationMap = np.multiply(flattenOutputs,self.denseToFlattenWeights[:,maxIdx])
-            maxContributionIndexesDenseFlatten = np.where(classActivationMap > (0.95*np.max(classActivationMap)))[0]
+        dummyIndexArrayFlatten = np.arange(len(flattenOutputs))
+        dummyIndexArrayConv = dummyIndexArrayFlatten.reshape(convOutputs.shape)
 
-            for maxIdxFlat in maxContributionIndexesDenseFlatten:
-                maxRealVal = flattenOutputs[maxIdxFlat]
-                x,y,z = np.where(convOutputs == maxRealVal) 
-                assert len(x) == len(y) == 1, "Array should only have one value"
-                mask[x[0],y[0]] = 1
-        return mask 
+        classActivationMapFlattenandDense = np.zeros_like(flattenOutputs)
+        for idx,weightedActivation in enumerate(classActivationMapDensetoOutput):
+
+            classActivationMapFlattenandDense += weightedActivation*np.multiply(flattenOutputs,self.denseToFlattenWeights[:,idx])
+            #sum of contribution of dense layer weighted with flatten layer
+        maxOfclassActivationMapFlattenandDense = np.max(classActivationMapFlattenandDense)
+        maxContributionIndexesDenseFlatten = np.where(classActivationMapFlattenandDense > (self.threshold*maxOfclassActivationMapFlattenandDense))[0]
+        for maxIdxFlat in maxContributionIndexesDenseFlatten:
+            print(flattenOutputs[maxIdxFlat])
+            x,y,z = np.where(dummyIndexArrayConv == maxIdxFlat)
+            #assert len(x) == len(y) == 1, "Array should only have one value"
+            mask[x[0],y[0]] = 1
+
+
+        # c = 0.6*np.max(mask)
+        # mask[mask<c] = 0
+        # mask[mask>=c] = 1
+        return mask
 
 if __name__ == "__main__":
 
