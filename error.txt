@@ -1,3 +1,0 @@
-Unable to read script file because of error: ERROR! invalid option argument "--logDir=$TMP"
-Child returned 2
-1 jobs submitted.
