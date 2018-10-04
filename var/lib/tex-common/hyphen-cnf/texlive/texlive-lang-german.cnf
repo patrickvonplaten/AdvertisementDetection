@@ -1,5 +1,0 @@
-name=german lefthyphenmin=2 righthyphenmin=2 file=loadhyph-de-1901.tex file_patterns=hyph-de-1901.pat.txt file_exceptions=
-name=german-x-2014-05-21 synonyms=german-x-latest lefthyphenmin=2 righthyphenmin=2 file=dehypht-x-2014-05-21.tex file_patterns=hyph-de-1901.pat.txt file_exceptions=hyph-de-1901.hyp.txt
-name=ngerman lefthyphenmin=2 righthyphenmin=2 file=loadhyph-de-1996.tex file_patterns=hyph-de-1996.pat.txt file_exceptions=
-name=ngerman-x-2014-05-21 synonyms=ngerman-x-latest lefthyphenmin=2 righthyphenmin=2 file=dehyphn-x-2014-05-21.tex file_patterns=hyph-de-1996.pat.txt file_exceptions=hyph-de-1996.hyp.txt
-name=swissgerman lefthyphenmin=2 righthyphenmin=2 file=loadhyph-de-ch-1901.tex file_patterns=hyph-de-ch-1901.pat.txt file_exceptions=

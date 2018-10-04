@@ -1,2 +1,0 @@
-xelatex xetex language.dat -etex xelatex.ini
-xetex xetex language.def -etex xetex.ini

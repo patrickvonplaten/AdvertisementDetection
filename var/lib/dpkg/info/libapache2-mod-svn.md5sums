@@ -1,9 +1,0 @@
-da8a0fdeba2d446a481f61ecd52d9580  usr/lib/apache2/modules/mod_authz_svn.so
-d74f5c74be182bb69863b7e5352a45f8  usr/lib/apache2/modules/mod_dav_svn.so
-7466250beddce8a23a3f0d83234f82f5  usr/share/doc/libapache2-mod-svn/INSTALL.authz.gz
-c545de0a1327a62cff0132db02f2a3dc  usr/share/doc/libapache2-mod-svn/NEWS.Debian.gz
-d16811ac92e33cbfbaf8d0a89fd42fdc  usr/share/doc/libapache2-mod-svn/README.Debian
-af4b8195a65105fad32c9cde3b0902a5  usr/share/doc/libapache2-mod-svn/copyright
-34b8501a80f3075505708067107482a0  usr/share/doc/libapache2-mod-svn/examples/svnindex.css
-4b106d531af1271ad62085026ba1002b  usr/share/doc/libapache2-mod-svn/examples/svnindex.xsl
-6f1a437522d78d3aae47ea3443237d43  usr/share/lintian/overrides/libapache2-mod-svn

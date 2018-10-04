@@ -1,9 +1,0 @@
-auto
-/usr/bin/etags
-etags.1.gz
-/usr/share/man/man1/etags.1.gz
-
-/usr/bin/etags.emacs24
-27
-/usr/share/man/man1/etags.emacs24.1.gz
-

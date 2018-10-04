@@ -1,2 +1,0 @@
-name=basque lefthyphenmin=2 righthyphenmin=2 file=loadhyph-eu.tex file_patterns=hyph-eu.pat.txt file_exceptions=
-name=french synonyms=patois,francais lefthyphenmin=2 righthyphenmin=2 file=loadhyph-fr.tex file_patterns=hyph-fr.pat.txt file_exceptions=

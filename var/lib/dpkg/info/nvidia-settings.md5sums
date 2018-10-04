@@ -1,8 +1,0 @@
-4bb3798cc368ade3759e026d3479d723  usr/bin/nvidia-settings
-41c95ba633d38a72b2e4476b211ddc20  usr/lib/libnvidia-gtk2.so.396.24
-3dc1935308af74fb6cceeb2b8d72a9c8  usr/lib/libnvidia-gtk3.so.396.24
-933953aa9247f4e2d0bc2b75194dc223  usr/share/applications/nvidia-settings.desktop
-e0df84ba444114eeb284426417747730  usr/share/doc/nvidia-settings/changelog.Debian.gz
-3d9f62596e41514984897813681efbc2  usr/share/doc/nvidia-settings/copyright
-1d49611d1b81a5f8b9caaabd5ebdc89a  usr/share/man/man1/nvidia-settings.1.gz
-405c25e272cfd43deef4f5e9af16bb08  usr/share/pixmaps/nvidia-settings.png

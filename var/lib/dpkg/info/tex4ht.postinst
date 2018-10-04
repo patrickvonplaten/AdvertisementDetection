@@ -1,8 +1,0 @@
-#!/bin/sh
-
-set -e
-
-# Update the kpathsea lists
-texhash /usr/share/texmf # since we only install files there
-
-

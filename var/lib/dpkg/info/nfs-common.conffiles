@@ -1,9 +1,0 @@
-/etc/init/gssd-mounting.conf
-/etc/init/gssd.conf
-/etc/init/idmapd-mounting.conf
-/etc/init/idmapd.conf
-/etc/init/statd-mounting.conf
-/etc/init/statd-mounting.override
-/etc/init/statd.conf
-/etc/init/statd.override
-/etc/request-key.d/id_resolver.conf

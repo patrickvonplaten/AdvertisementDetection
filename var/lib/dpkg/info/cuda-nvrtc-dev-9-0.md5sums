@@ -1,5 +1,0 @@
-db6c4fbb62cd361d8ca6ff152c224bcb  usr/lib/pkgconfig/nvrtc-9.0.pc
-ea59bf42db8782136a8152687032d754  usr/local/cuda-9.0/targets/x86_64-linux/include/nvrtc.h
-d3e9c67bdf53e907ed7f67419983dc1d  usr/local/cuda-9.0/targets/x86_64-linux/lib/stubs/libnvrtc.so
-e877fee69e72e781cfbdc4d3bc24dd60  usr/share/doc/cuda-nvrtc-dev-9-0/changelog.Debian.gz
-7147ff1117e157d582d28c655419f014  usr/share/doc/cuda-nvrtc-dev-9-0/copyright

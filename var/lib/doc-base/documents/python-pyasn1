@@ -1,9 +1,0 @@
-Document: python-pyasn1
-Section: Programming
-Title: PyASN1 programmer's manual
-Author: Ilya Etingof
-Abstract: This manual describes PyASN1 API and how to use it.
-
-Format: HTML
-Index: /usr/share/doc/python-pyasn1/pyasn1-tutorial.html
-Files: /usr/share/doc/python-pyasn1/*.html

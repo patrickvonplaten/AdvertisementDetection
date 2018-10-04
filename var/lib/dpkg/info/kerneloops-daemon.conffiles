@@ -1,4 +1,0 @@
-/etc/dbus-1/system.d/kerneloops.dbus
-/etc/default/kerneloops
-/etc/init.d/kerneloops
-/etc/kerneloops.conf

@@ -1,6 +1,0 @@
-libnetsnmp 30 libsnmp30 (>= 5.7.3+dfsg-1ubuntu4.1~dfsg)
-libnetsnmpagent 30 libsnmp30 (>= 5.7.3+dfsg-1ubuntu4.1~dfsg)
-libnetsnmphelpers 30 libsnmp30 (>= 5.7.3+dfsg-1ubuntu4.1~dfsg)
-libnetsnmpmibs 30 libsnmp30 (>= 5.7.3+dfsg-1ubuntu4.1~dfsg)
-libnetsnmptrapd 30 libsnmp30 (>= 5.7.3+dfsg-1ubuntu4.1~dfsg)
-libsnmp 30 libsnmp30 (>= 5.7.3+dfsg-1ubuntu4.1~dfsg)

@@ -1,7 +1,0 @@
-d63961ec3b1f10149b9079b9c4b0fd1f  usr/bin/emacs24-x
-3d443fd23a60da00b5b800979b15cf66  usr/share/applications/emacs24-term.desktop
-b8af223f2ee5e1200297ad8311655f30  usr/share/applications/emacs24.desktop
-593501773dfe68c26137b599f9426484  usr/share/doc/emacs24/README.Debian
-423bb3f6d3c040b05f3040a008c46618  usr/share/doc/emacs24/copyright
-6168136ead83eee7f5da576503d3b20a  usr/share/emacs/24.5/etc/DOC
-4ba1d4d2ebd545beae7aff0735ff0607  usr/share/lintian/overrides/emacs24

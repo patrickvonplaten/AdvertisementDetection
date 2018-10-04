@@ -1,9 +1,0 @@
-Document: valgrind
-Section: Programming
-Title: Valgrind User Manual
-Author: Valgrind Developers
-Abstract: Valgrind User Manual
-
-Format: HTML
-Index: /usr/share/doc/valgrind/html/manual.html
-Files: /usr/share/doc/valgrind/html/*.html

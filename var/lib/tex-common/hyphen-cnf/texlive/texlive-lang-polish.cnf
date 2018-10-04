@@ -1,1 +1,0 @@
-name=polish lefthyphenmin=2 righthyphenmin=2 file=loadhyph-pl.tex file_patterns=hyph-pl.pat.txt file_exceptions=hyph-pl.hyp.txt

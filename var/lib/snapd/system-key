@@ -1,1 +1,0 @@
-{"version":1,"build-id":"2ace10d884e1f1624647e80fba90036a6e28fbb2","apparmor-features":["caps","dbus","domain","file","mount","namespaces","network","policy","ptrace","rlimit","signal"],"nfs-home":true,"overlay-root":"","seccomp-features":["allow","errno","kill","log","trace","trap"]}

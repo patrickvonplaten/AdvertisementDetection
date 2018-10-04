@@ -1,4 +1,0 @@
-/etc/init.d/nullmailer
-/etc/logcheck/ignore.d.paranoid/nullmailer
-/etc/logcheck/ignore.d.server/nullmailer
-/etc/logcheck/ignore.d.workstation/nullmailer

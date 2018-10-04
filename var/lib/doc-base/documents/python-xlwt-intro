@@ -1,9 +1,0 @@
-Document: python-xlwt-intro
-Section: Programming/Python
-Title: xlwt Python module introduction
-Abstract: This is an introduction to the Python xlwt module for reading and
- writing Excel files.
-
-Format: HTML
-Index: /usr/share/doc/python-xlwt/README.html
-Files: /usr/share/doc/python-xlwt/README.html

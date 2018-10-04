@@ -1,9 +1,0 @@
-Document: chktex
-Section: Text
-Title: ChkTeX Manual
-Author: Jens Berger
-Abstract: How to use ChkTeX to check for typographic errors in LaTeX documents.
-
-Format: HTML
-Index: /usr/share/doc/chktex/html/ChkTeX.html
-Files: /usr/share/doc/chktex/html/*.html

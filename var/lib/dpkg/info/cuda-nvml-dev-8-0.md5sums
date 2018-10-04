@@ -1,8 +1,0 @@
-7deef1bd951b02de721ead203b2f7977  usr/lib/pkgconfig/nvml-8.0.pc
-9d56588326c450a67fb804d8d41bb3ef  usr/local/cuda-8.0/nvml/example/Makefile
-c1fad4a343e4c66ca013c3e0792e7ef2  usr/local/cuda-8.0/nvml/example/README.txt
-d064741cebd2ab8bd7f282aff39a0632  usr/local/cuda-8.0/nvml/example/example.c
-35efc41a4113e62426dd99f533d3d662  usr/local/cuda-8.0/targets/x86_64-linux/include/nvml.h
-9b436caefc8a3c61f8cc338031d674ee  usr/local/cuda-8.0/targets/x86_64-linux/lib/stubs/libnvidia-ml.so
-c673c52ccef88f0e9e4e0ef4e18ac511  usr/share/doc/cuda-nvml-dev-8-0/changelog.Debian.gz
-0eeae78db8d839562622336047a1c99d  usr/share/doc/cuda-nvml-dev-8-0/copyright

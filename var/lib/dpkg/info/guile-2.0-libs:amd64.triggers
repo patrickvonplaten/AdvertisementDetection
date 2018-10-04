@@ -1,3 +1,0 @@
-interest /usr/share/slib
-# Triggers added by dh_makeshlibs
-activate-noawait ldconfig

@@ -1,6 +1,0 @@
-6a6a4b5792e044c1e556c7072abf7665  usr/lib/pkgconfig/nvgraph-8.0.pc
-a1d39d1d94ce16ad7162c6d5bff9054b  usr/local/cuda-8.0/targets/x86_64-linux/include/nvgraph.h
-807e7461a6508682c1ad999ed390d203  usr/local/cuda-8.0/targets/x86_64-linux/lib/libnvgraph_static.a
-d214f5e0a82840678bd3fc9ae1b54d88  usr/local/cuda-8.0/targets/x86_64-linux/lib/stubs/libnvgraph.so
-c673c52ccef88f0e9e4e0ef4e18ac511  usr/share/doc/cuda-nvgraph-dev-8-0/changelog.Debian.gz
-0eeae78db8d839562622336047a1c99d  usr/share/doc/cuda-nvgraph-dev-8-0/copyright

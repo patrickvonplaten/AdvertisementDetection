@@ -1,7 +1,0 @@
-#!/bin/sh
-
-set -e
-
-update-inetd --pattern /usr/sbin/in\\.fingerd --disable finger
-
-

@@ -1,7 +1,0 @@
-98b1f9853073ff321b831cfa285aa9d3  usr/include/openblas/cblas.h
-1eeedf1f04dc9916cfd5b103c8423f9b  usr/include/openblas/f77blas.h
-877f79671a81c41675ca7335d71b900e  usr/include/openblas/openblas_config.h
-697f0634ef3957ae4050fe5e01525094  usr/lib/libopenblasp-r0.2.18.a
-1749611dad906bdb64a9e18749272af6  usr/lib/pkgconfig/blas-openblas.pc
-d818d3b043591fbc14ec1bdfdb3aedf2  usr/lib/pkgconfig/lapack-openblas.pc
-b3be675434f2b5551ec149f4d1d3103a  usr/share/doc/libopenblas-dev/copyright

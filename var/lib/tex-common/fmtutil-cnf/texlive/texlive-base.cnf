@@ -1,8 +1,0 @@
-dviluatex luatex language.def,language.dat.lua dviluatex.ini
-etex pdftex language.def -translate-file=cp227.tcx *etex.ini
-#! luajittex luajittex language.def,language.dat.lua luatex.ini
-luatex luatex language.def,language.dat.lua luatex.ini
-mf mf-nowin - -translate-file=cp227.tcx mf.ini
-pdfetex pdftex language.def -translate-file=cp227.tcx *pdfetex.ini
-pdftex pdftex language.def -translate-file=cp227.tcx *pdfetex.ini
-tex tex - tex.ini

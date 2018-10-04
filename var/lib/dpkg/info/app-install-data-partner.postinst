@@ -1,7 +1,0 @@
-#!/bin/sh
-
-if [ -x /usr/sbin/update-app-install ]; then
-	update-app-install || true
-fi
-
-

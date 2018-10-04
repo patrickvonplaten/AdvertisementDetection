@@ -1,6 +1,0 @@
-6193a077dfe59e197296e0f33b9b35e9  usr/lib/x86_64-linux-gnu/libpolkit-qt-agent-1.so.1.112.0
-77eb5f15462ddaf6bea196efd7016cbf  usr/lib/x86_64-linux-gnu/libpolkit-qt-core-1.so.1.112.0
-564543f3932f97e08da67237b74819a3  usr/lib/x86_64-linux-gnu/libpolkit-qt-gui-1.so.1.112.0
-832a6311eadac48c19c12a5615932b7f  usr/share/doc/libpolkit-qt-1-1/changelog.Debian.gz
-fcd79b046a1b3df960475a31ac58546b  usr/share/doc/libpolkit-qt-1-1/copyright
-09296bc22b2bbb5f1849ba86637f9b6e  usr/share/lintian/overrides/libpolkit-qt-1-1

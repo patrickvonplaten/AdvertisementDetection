@@ -1,9 +1,0 @@
-5f2da296c677645327a59c388f44ba9b  usr/include/uv-errno.h
-a9c63da0614d480dbf129bfaa5cb0ad4  usr/include/uv-linux.h
-5521f38c04d85805897d75103d60937a  usr/include/uv-threadpool.h
-fccfa5d0e3b6053aa40c62ef228f6d2f  usr/include/uv-unix.h
-43846c6ae9c607a4c4350ce7457eda65  usr/include/uv-version.h
-d980dde1e812d6bf1603ebb11220bad0  usr/include/uv.h
-6cdea4678d841feb514e1c4a4cf3188d  usr/lib/x86_64-linux-gnu/libuv.a
-cbf868fb0b389251d1f15c89b804bc76  usr/lib/x86_64-linux-gnu/pkgconfig/libuv.pc
-a0074ced370391762128c2cb73fe54cf  usr/share/doc/libuv1-dev/copyright

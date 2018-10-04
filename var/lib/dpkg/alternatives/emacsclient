@@ -1,9 +1,0 @@
-auto
-/usr/bin/emacsclient
-emacsclient.1.gz
-/usr/share/man/man1/emacsclient.1.gz
-
-/usr/bin/emacsclient.emacs24
-27
-/usr/share/man/man1/emacsclient.emacs24.1.gz
-

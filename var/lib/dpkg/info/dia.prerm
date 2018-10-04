@@ -1,9 +1,0 @@
-#!/bin/sh -e
-
-if [ "$1" != "upgrade" ]; then
-  update-alternatives --remove dia /usr/bin/dia-normal
-  update-alternatives --remove dia /usr/bin/dia-normal-integrated
-fi
-
-
-

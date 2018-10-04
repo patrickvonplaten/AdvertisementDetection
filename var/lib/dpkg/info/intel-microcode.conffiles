@@ -1,3 +1,0 @@
-/etc/default/intel-microcode
-/etc/kernel/preinst.d/intel-microcode
-/etc/modprobe.d/intel-microcode-blacklist.conf

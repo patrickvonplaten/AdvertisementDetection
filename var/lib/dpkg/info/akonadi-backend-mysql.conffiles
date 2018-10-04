@@ -1,3 +1,0 @@
-/etc/apparmor.d/usr.sbin.mysqld-akonadi
-/etc/xdg/akonadi/mysql-global-mobile.conf
-/etc/xdg/akonadi/mysql-global.conf

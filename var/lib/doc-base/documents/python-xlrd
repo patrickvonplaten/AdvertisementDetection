@@ -1,8 +1,0 @@
-Document: python-xlrd
-Section: Programming/Python
-Title: xlrd (python-xlrd) documentation
-Abstract: This manual contains information on how to use xlrd Python module.
-
-Format: HTML
-Index: /usr/share/doc/python-xlrd/xlrd.html
-Files: /usr/share/doc/python-xlrd/*.html

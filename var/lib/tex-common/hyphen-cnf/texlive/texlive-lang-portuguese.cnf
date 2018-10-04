@@ -1,1 +1,0 @@
-name=portuguese synonyms=portuges lefthyphenmin=2 righthyphenmin=3 file=loadhyph-pt.tex file_patterns=hyph-pt.pat.txt file_exceptions=hyph-pt.hyp.txt

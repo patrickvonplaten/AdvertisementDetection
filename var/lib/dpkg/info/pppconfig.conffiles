@@ -1,3 +1,0 @@
-/etc/init.d/dns-clean
-/etc/ppp/ip-down.d/0dns-down
-/etc/ppp/ip-up.d/0dns-up

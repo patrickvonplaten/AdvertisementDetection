@@ -1,7 +1,0 @@
-f863a5152c516a69cfcc114ca0d3913b  usr/share/doc/velocity/README.Debian
-3ccf1bf948961722000038db118727be  usr/share/doc/velocity/changelog.Debian.gz
-4c55c130c6d783cef11c28c89ac9861c  usr/share/doc/velocity/copyright
-1902a88de9c7b7f5e9bf6ead850e004d  usr/share/java/velocity.jar
-1902a88de9c7b7f5e9bf6ead850e004d  usr/share/maven-repo/org/apache/velocity/velocity/1.7/velocity-1.7.jar
-0abc3d2ff4ba9a60106097c1f722ff7f  usr/share/maven-repo/org/apache/velocity/velocity/1.7/velocity-1.7.pom
-2cbd994380f56e1b6e87fdcb74957eeb  usr/share/maven-repo/org/apache/velocity/velocity/debian/velocity-debian.pom

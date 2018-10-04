@@ -1,9 +1,0 @@
-Document: python-xlwt-api
-Section: Programming/Python
-Title: xlwt Python module API documentation
-Abstract: This is the API documentation for the Python xlwt module for reading
- and writing Excel files.
-
-Format: HTML
-Index: /usr/share/doc/python-xlwt/xlwt.html
-Files: /usr/share/doc/python-xlwt/xlwt.html

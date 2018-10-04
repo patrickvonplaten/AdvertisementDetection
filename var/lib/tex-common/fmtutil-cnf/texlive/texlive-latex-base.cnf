@@ -1,6 +1,0 @@
-dvilualatex luatex language.dat,language.dat.lua dvilualatex.ini
-latex pdftex language.dat -translate-file=cp227.tcx *latex.ini
-#! luajitlatex luajittex language.dat,language.dat.lua lualatex.ini
-lualatex luatex language.dat,language.dat.lua lualatex.ini
-mptopdf pdftex - -translate-file=cp227.tcx mptopdf.tex
-pdflatex pdftex language.dat -translate-file=cp227.tcx *pdflatex.ini

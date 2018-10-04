@@ -1,6 +1,0 @@
-cslatex pdftex - -etex cslatex.ini
-csplain pdftex - -etex -enc csplain-utf8.ini
-pdfcslatex pdftex - -etex cslatex.ini
-pdfcsplain luatex - -etex csplain.ini
-pdfcsplain pdftex - -etex -enc csplain-utf8.ini
-pdfcsplain xetex - -etex csplain.ini

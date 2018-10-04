@@ -1,5 +1,0 @@
-/etc/dbus-1/system.d/org.freedesktop.fwupd.conf
-/etc/fwupd.conf
-/etc/pki/fwupd-metadata/GPG-KEY-Linux-Vendor-Firmware-Service
-/etc/pki/fwupd/GPG-KEY-Hughski-Limited
-/etc/pki/fwupd/GPG-KEY-Linux-Vendor-Firmware-Service
