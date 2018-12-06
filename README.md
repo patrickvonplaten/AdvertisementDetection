@@ -1,7 +1,8 @@
 # AdvertisementDetection
 
-Building a tensorflow model to recognize whether a picture 
-contains advertisment or not.
+In this university project, we manually labeled 1000 pictures sampled from german 
+football videos und used the VGG-16 model architecture to classify the pictures to "showing advertisment panel" 
+or "not showing advertisment panel".
 
 # How to run code
 
@@ -17,14 +18,3 @@ contains advertisment or not.
 	- ./createFramesFromVideo.sh 0.005 -> 0.005 frames per second
 2. label frames
 3. run python advertisementDetection.py
-
-## TODO
-Here we should write down 
-the todo list
-
-- [x] add preprocessor to convert video to numpy matrix  
-- [x] find good tensorflow model similar to Inception-v3 -> vgg16
-- [x] build structure of model
-- [ ] try out different structures of model and run on cluster in vgg16.py
-- [ ] complete TODO's in advertisementDetection.py
-- [ ] add substract average function in preprocessing.py similar to the one in advertisementDetection3.py 
